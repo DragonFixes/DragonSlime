@@ -109,7 +109,6 @@ public class NetworkExport extends NetworkObject {
         }
 
         ItemStack clone = testItem.clone();
-        clone.setAmount(1);
 
         ItemRequest itemRequest = new ItemRequest(clone, clone.getMaxStackSize());
         ItemStack retrieved = definition.getNode().getRoot().getItemStack(itemRequest);
