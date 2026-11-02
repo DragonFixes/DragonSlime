@@ -1,7 +1,7 @@
 SMG_GENERATOR_COBBLESTONE:
   description:
   - '&7Tuottaa passiivisesti mukulakiveä.'
-  name: '&7Mukulakiven tuottaja'
+  name: 'Mukulakiven tuottaja'
   stats:
   - '&8⇨ &7Tuottaa &e4 tikin välein'
   type:
@@ -11,7 +11,7 @@ SMG_GENERATOR_COBBLESTONE:
 SMG_GENERATOR_GLASS:
   description:
   - '&7Tuottaa passiivisesti lasia.'
-  name: '&fLasin tuottaja'
+  name: 'Lasin tuottaja'
   stats:
   - '&8⇨ &7Tuottaa &e12 tikin välein'
   type:
@@ -21,7 +21,7 @@ SMG_GENERATOR_GLASS:
 SMG_GENERATOR_GRAVEL:
   description:
   - '&7Tuottaa passiivisesti soraa.'
-  name: '&7Soran tuottaja'
+  name: 'Soran tuottaja'
   stats:
   - '&8⇨ &7Tuottaa &e6 tikin välein'
   type:
@@ -31,7 +31,7 @@ SMG_GENERATOR_GRAVEL:
 SMG_GENERATOR_GRAVEL_BROKEN:
   description:
   - '&8Vaurioitunut tuottaja.'
-  name: '&7Soran tuottaja &8(Rikkinäinen)'
+  name: 'Soran tuottaja (Rikkinäinen)'
   type:
   - '&7&oGeneraattorin komponentti'
   usage:
@@ -40,7 +40,7 @@ SMG_GENERATOR_MULTIBLOCK:
   description:
   - '&7Rakenna mikä tahansa tämän lisäosan'
   - '&7tuottajista näin.'
-  name: '&9Tuottajan monipalikka'
+  name: 'Tuottajan monipalikka'
   type:
   - '&7&oMultiblokki'
   usage:
@@ -49,7 +49,7 @@ SMG_GENERATOR_MULTIBLOCK:
 SMG_GENERATOR_NETHERRACK:
   description:
   - '&7Tuottaa passiivisesti netherrackia.'
-  name: '&cNetherrackin tuottaja'
+  name: 'Netherrackin tuottaja'
   stats:
   - '&8⇨ &7Tuottaa &e6 tikin välein'
   type:
@@ -59,7 +59,7 @@ SMG_GENERATOR_NETHERRACK:
 SMG_GENERATOR_SAND:
   description:
   - '&7Tuottaa passiivisesti hiekkaa.'
-  name: '&eHiekan tuottaja'
+  name: 'Hiekan tuottaja'
   stats:
   - '&8⇨ &7Tuottaa &e8 tikin välein'
   type:
@@ -69,7 +69,7 @@ SMG_GENERATOR_SAND:
 SMG_GENERATOR_SAND_BROKEN:
   description:
   - '&8Vaurioitunut tuottaja.'
-  name: '&eHiekan tuottaja &8(Rikkinäinen)'
+  name: 'Hiekan tuottaja (Rikkinäinen)'
   type:
   - '&7&oGeneraattorin komponentti'
   usage:
@@ -77,7 +77,7 @@ SMG_GENERATOR_SAND_BROKEN:
 SMG_GENERATOR_SMOOTH_STONE:
   description:
   - '&7Tuottaa passiivisesti sileää kiveä.'
-  name: '&7Sileän kiven tuottaja'
+  name: 'Sileän kiven tuottaja'
   stats:
   - '&8⇨ &7Tuottaa &e12 tikin välein'
   type:
@@ -87,7 +87,7 @@ SMG_GENERATOR_SMOOTH_STONE:
 SMG_GENERATOR_SMOOTH_STONE_BROKEN:
   description:
   - '&8Vaurioitunut tuottaja.'
-  name: '&7Sileän kiven tuottaja &8(Rikkinäinen)'
+  name: 'Sileän kiven tuottaja (Rikkinäinen)'
   type:
   - '&7&oGeneraattorin komponentti'
   usage:
@@ -95,7 +95,7 @@ SMG_GENERATOR_SMOOTH_STONE_BROKEN:
 SMG_GENERATOR_SOUL_SAND:
   description:
   - '&7Tuottaa passiivisesti sielunhiekkaa.'
-  name: '&8Sielunhiekan tuottaja'
+  name: 'Sielunhiekan tuottaja'
   stats:
   - '&8⇨ &7Tuottaa &e8 tikin välein'
   type:
@@ -105,7 +105,7 @@ SMG_GENERATOR_SOUL_SAND:
 SMG_GENERATOR_STONE:
   description:
   - '&7Tuottaa passiivisesti kiveä.'
-  name: '&7Kiven tuottaja'
+  name: 'Kiven tuottaja'
   stats:
   - '&8⇨ &7Tuottaa &e8 tikin välein'
   type:
@@ -115,7 +115,7 @@ SMG_GENERATOR_STONE:
 SMG_GENERATOR_STONE_BROKEN:
   description:
   - '&8Vaurioitunut tuottaja.'
-  name: '&7Kiven tuottaja &8(Rikkinäinen)'
+  name: 'Kiven tuottaja (Rikkinäinen)'
   type:
   - '&7&oGeneraattorin komponentti'
   usage:

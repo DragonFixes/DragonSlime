@@ -1,7 +1,7 @@
 SMG_GENERATOR_COBBLESTONE:
   description:
   - '&7Pasibong nagbubuo ng batong-lansangan.'
-  name: '&7Tagagawa ng Batong-lansangan'
+  name: 'Tagagawa ng Batong-lansangan'
   stats:
   - '&8⇨ &7Gumagawa tuwing &e4 na tik'
   type:
@@ -11,7 +11,7 @@ SMG_GENERATOR_COBBLESTONE:
 SMG_GENERATOR_GLASS:
   description:
   - '&7Pasibong nagbubuo ng salamin.'
-  name: '&fTagagawa ng Salamin'
+  name: 'Tagagawa ng Salamin'
   stats:
   - '&8⇨ &7Gumagawa tuwing &e12 na tik'
   type:
@@ -21,7 +21,7 @@ SMG_GENERATOR_GLASS:
 SMG_GENERATOR_GRAVEL:
   description:
   - '&7Pasibong nagbubuo ng graba.'
-  name: '&7Tagagawa ng Graba'
+  name: 'Tagagawa ng Graba'
   stats:
   - '&8⇨ &7Gumagawa tuwing &e6 na tik'
   type:
@@ -31,7 +31,7 @@ SMG_GENERATOR_GRAVEL:
 SMG_GENERATOR_GRAVEL_BROKEN:
   description:
   - '&8Isang sirang tagagawa.'
-  name: '&7Tagagawa ng Graba &8(Sira)'
+  name: 'Tagagawa ng Graba (Sira)'
   type:
   - '&7&oBahagi ng Generator'
   usage:
@@ -40,7 +40,7 @@ SMG_GENERATOR_MULTIBLOCK:
   description:
   - '&7Itayo ang alinmang tagagawa ng'
   - '&7dagdag na ito sa ganitong paraan.'
-  name: '&9Multiblokeng Tagagawa'
+  name: 'Multiblokeng Tagagawa'
   type:
   - '&7&oMultiblock'
   usage:
@@ -49,7 +49,7 @@ SMG_GENERATOR_MULTIBLOCK:
 SMG_GENERATOR_NETHERRACK:
   description:
   - '&7Pasibong nagbubuo ng netherrack.'
-  name: '&cTagagawa ng Netherrack'
+  name: 'Tagagawa ng Netherrack'
   stats:
   - '&8⇨ &7Gumagawa tuwing &e6 na tik'
   type:
@@ -59,7 +59,7 @@ SMG_GENERATOR_NETHERRACK:
 SMG_GENERATOR_SAND:
   description:
   - '&7Pasibong nagbubuo ng buhangin.'
-  name: '&eTagagawa ng Buhangin'
+  name: 'Tagagawa ng Buhangin'
   stats:
   - '&8⇨ &7Gumagawa tuwing &e8 na tik'
   type:
@@ -69,7 +69,7 @@ SMG_GENERATOR_SAND:
 SMG_GENERATOR_SAND_BROKEN:
   description:
   - '&8Isang sirang tagagawa.'
-  name: '&eTagagawa ng Buhangin &8(Sira)'
+  name: 'Tagagawa ng Buhangin (Sira)'
   type:
   - '&7&oBahagi ng Generator'
   usage:
@@ -77,7 +77,7 @@ SMG_GENERATOR_SAND_BROKEN:
 SMG_GENERATOR_SMOOTH_STONE:
   description:
   - '&7Pasibong nagbubuo ng makinis na bato.'
-  name: '&7Tagagawa ng Makinis na Bato'
+  name: 'Tagagawa ng Makinis na Bato'
   stats:
   - '&8⇨ &7Gumagawa tuwing &e12 na tik'
   type:
@@ -87,7 +87,7 @@ SMG_GENERATOR_SMOOTH_STONE:
 SMG_GENERATOR_SMOOTH_STONE_BROKEN:
   description:
   - '&8Isang sirang tagagawa.'
-  name: '&7Tagagawa ng Makinis na Bato &8(Sira)'
+  name: 'Tagagawa ng Makinis na Bato (Sira)'
   type:
   - '&7&oBahagi ng Generator'
   usage:
@@ -95,7 +95,7 @@ SMG_GENERATOR_SMOOTH_STONE_BROKEN:
 SMG_GENERATOR_SOUL_SAND:
   description:
   - '&7Pasibong nagbubuo ng buhangin ng kaluluwa.'
-  name: '&8Tagagawa ng Buhangin ng Kaluluwa'
+  name: 'Tagagawa ng Buhangin ng Kaluluwa'
   stats:
   - '&8⇨ &7Gumagawa tuwing &e8 na tik'
   type:
@@ -105,7 +105,7 @@ SMG_GENERATOR_SOUL_SAND:
 SMG_GENERATOR_STONE:
   description:
   - '&7Pasibong nagbubuo ng bato.'
-  name: '&7Tagagawa ng Bato'
+  name: 'Tagagawa ng Bato'
   stats:
   - '&8⇨ &7Gumagawa tuwing &e8 na tik'
   type:
@@ -115,7 +115,7 @@ SMG_GENERATOR_STONE:
 SMG_GENERATOR_STONE_BROKEN:
   description:
   - '&8Isang sirang tagagawa.'
-  name: '&7Tagagawa ng Bato &8(Sira)'
+  name: 'Tagagawa ng Bato (Sira)'
   type:
   - '&7&oBahagi ng Generator'
   usage:

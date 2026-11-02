@@ -1,7 +1,7 @@
 SMG_GENERATOR_COBBLESTONE:
   description:
   - '&7Genererar passivt kullersten.'
-  name: '&7Kullerstensgenerator'
+  name: 'Kullerstensgenerator'
   stats:
   - '&8⇨ &7Producerar var &e4 tick'
   type:
@@ -11,7 +11,7 @@ SMG_GENERATOR_COBBLESTONE:
 SMG_GENERATOR_GLASS:
   description:
   - '&7Genererar passivt glas.'
-  name: '&fGlasgenerator'
+  name: 'Glasgenerator'
   stats:
   - '&8⇨ &7Producerar var &e12 tick'
   type:
@@ -21,7 +21,7 @@ SMG_GENERATOR_GLASS:
 SMG_GENERATOR_GRAVEL:
   description:
   - '&7Genererar passivt grus.'
-  name: '&7Grusgenerator'
+  name: 'Grusgenerator'
   stats:
   - '&8⇨ &7Producerar var &e6 tick'
   type:
@@ -31,7 +31,7 @@ SMG_GENERATOR_GRAVEL:
 SMG_GENERATOR_GRAVEL_BROKEN:
   description:
   - '&8En skadad generator.'
-  name: '&7Grusgenerator &8(Trasig)'
+  name: 'Grusgenerator (Trasig)'
   type:
   - '&7&oGeneratorkomponent'
   usage:
@@ -40,7 +40,7 @@ SMG_GENERATOR_MULTIBLOCK:
   description:
   - '&7Bygg vilken som helst av detta tilläggs'
   - '&7generatorer så här.'
-  name: '&9Generatormultiblock'
+  name: 'Generatormultiblock'
   type:
   - '&7&oMultiblock'
   usage:
@@ -49,7 +49,7 @@ SMG_GENERATOR_MULTIBLOCK:
 SMG_GENERATOR_NETHERRACK:
   description:
   - '&7Genererar passivt netherrack.'
-  name: '&cNetherrackgenerator'
+  name: 'Netherrackgenerator'
   stats:
   - '&8⇨ &7Producerar var &e6 tick'
   type:
@@ -59,7 +59,7 @@ SMG_GENERATOR_NETHERRACK:
 SMG_GENERATOR_SAND:
   description:
   - '&7Genererar passivt sand.'
-  name: '&eSandgenerator'
+  name: 'Sandgenerator'
   stats:
   - '&8⇨ &7Producerar var &e8 tick'
   type:
@@ -69,7 +69,7 @@ SMG_GENERATOR_SAND:
 SMG_GENERATOR_SAND_BROKEN:
   description:
   - '&8En skadad generator.'
-  name: '&eSandgenerator &8(Trasig)'
+  name: 'Sandgenerator (Trasig)'
   type:
   - '&7&oGeneratorkomponent'
   usage:
@@ -77,7 +77,7 @@ SMG_GENERATOR_SAND_BROKEN:
 SMG_GENERATOR_SMOOTH_STONE:
   description:
   - '&7Genererar passivt slät sten.'
-  name: '&7Slätstensgenerator'
+  name: 'Slätstensgenerator'
   stats:
   - '&8⇨ &7Producerar var &e12 tick'
   type:
@@ -87,7 +87,7 @@ SMG_GENERATOR_SMOOTH_STONE:
 SMG_GENERATOR_SMOOTH_STONE_BROKEN:
   description:
   - '&8En skadad generator.'
-  name: '&7Slätstensgenerator &8(Trasig)'
+  name: 'Slätstensgenerator (Trasig)'
   type:
   - '&7&oGeneratorkomponent'
   usage:
@@ -95,7 +95,7 @@ SMG_GENERATOR_SMOOTH_STONE_BROKEN:
 SMG_GENERATOR_SOUL_SAND:
   description:
   - '&7Genererar passivt själasand.'
-  name: '&8Själasandsgenerator'
+  name: 'Själasandsgenerator'
   stats:
   - '&8⇨ &7Producerar var &e8 tick'
   type:
@@ -105,7 +105,7 @@ SMG_GENERATOR_SOUL_SAND:
 SMG_GENERATOR_STONE:
   description:
   - '&7Genererar passivt sten.'
-  name: '&7Stengenerator'
+  name: 'Stengenerator'
   stats:
   - '&8⇨ &7Producerar var &e8 tick'
   type:
@@ -115,7 +115,7 @@ SMG_GENERATOR_STONE:
 SMG_GENERATOR_STONE_BROKEN:
   description:
   - '&8En skadad generator.'
-  name: '&7Stengenerator &8(Trasig)'
+  name: 'Stengenerator (Trasig)'
   type:
   - '&7&oGeneratorkomponent'
   usage:

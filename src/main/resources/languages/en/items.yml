@@ -2,7 +2,7 @@
 # Composed by LoreComposer in order: Type -> Description -> Stats -> Usage.
 
 SMG_GENERATOR_MULTIBLOCK:
-  name: "&9Generator Multiblock"
+  name: 'Generator Multiblock'
   type:
     - "&7&oMultiblock"
   description:
@@ -13,7 +13,7 @@ SMG_GENERATOR_MULTIBLOCK:
     - "&8⇨ &7placed directly above them."
 
 SMG_GENERATOR_COBBLESTONE:
-  name: "&7Cobblestone Generator"
+  name: 'Cobblestone Generator'
   type:
     - "&7&oGenerator"
   description:
@@ -24,7 +24,7 @@ SMG_GENERATOR_COBBLESTONE:
     - "&8⇨ &7Place a chest directly above it."
 
 SMG_GENERATOR_STONE_BROKEN:
-  name: "&7Stone Generator &8(Broken)"
+  name: 'Stone Generator (Broken)'
   type:
     - "&7&oGenerator Component"
   description:
@@ -33,7 +33,7 @@ SMG_GENERATOR_STONE_BROKEN:
     - "&8⇨ &7Needs to be repaired before use."
 
 SMG_GENERATOR_STONE:
-  name: "&7Stone Generator"
+  name: 'Stone Generator'
   type:
     - "&7&oGenerator"
   description:
@@ -44,7 +44,7 @@ SMG_GENERATOR_STONE:
     - "&8⇨ &7Place a chest directly above it."
 
 SMG_GENERATOR_SMOOTH_STONE_BROKEN:
-  name: "&7Smooth Stone Generator &8(Broken)"
+  name: 'Smooth Stone Generator (Broken)'
   type:
     - "&7&oGenerator Component"
   description:
@@ -53,7 +53,7 @@ SMG_GENERATOR_SMOOTH_STONE_BROKEN:
     - "&8⇨ &7Needs to be repaired before use."
 
 SMG_GENERATOR_SMOOTH_STONE:
-  name: "&7Smooth Stone Generator"
+  name: 'Smooth Stone Generator'
   type:
     - "&7&oGenerator"
   description:
@@ -64,7 +64,7 @@ SMG_GENERATOR_SMOOTH_STONE:
     - "&8⇨ &7Place a chest directly above it."
 
 SMG_GENERATOR_GRAVEL_BROKEN:
-  name: "&7Gravel Generator &8(Broken)"
+  name: 'Gravel Generator (Broken)'
   type:
     - "&7&oGenerator Component"
   description:
@@ -73,7 +73,7 @@ SMG_GENERATOR_GRAVEL_BROKEN:
     - "&8⇨ &7Needs to be repaired before use."
 
 SMG_GENERATOR_GRAVEL:
-  name: "&7Gravel Generator"
+  name: 'Gravel Generator'
   type:
     - "&7&oGenerator"
   description:
@@ -84,7 +84,7 @@ SMG_GENERATOR_GRAVEL:
     - "&8⇨ &7Place a chest directly above it."
 
 SMG_GENERATOR_SAND_BROKEN:
-  name: "&eSand Generator &8(Broken)"
+  name: 'Sand Generator (Broken)'
   type:
     - "&7&oGenerator Component"
   description:
@@ -93,7 +93,7 @@ SMG_GENERATOR_SAND_BROKEN:
     - "&8⇨ &7Needs to be repaired before use."
 
 SMG_GENERATOR_SAND:
-  name: "&eSand Generator"
+  name: 'Sand Generator'
   type:
     - "&7&oGenerator"
   description:
@@ -104,7 +104,7 @@ SMG_GENERATOR_SAND:
     - "&8⇨ &7Place a chest directly above it."
 
 SMG_GENERATOR_GLASS:
-  name: "&fGlass Generator"
+  name: 'Glass Generator'
   type:
     - "&7&oGenerator"
   description:
@@ -115,7 +115,7 @@ SMG_GENERATOR_GLASS:
     - "&8⇨ &7Place a chest directly above it."
 
 SMG_GENERATOR_NETHERRACK:
-  name: "&cNetherrack Generator"
+  name: 'Netherrack Generator'
   type:
     - "&7&oGenerator"
   description:
@@ -126,7 +126,7 @@ SMG_GENERATOR_NETHERRACK:
     - "&8⇨ &7Place a chest directly above it."
 
 SMG_GENERATOR_SOUL_SAND:
-  name: "&8Soul Sand Generator"
+  name: 'Soul Sand Generator'
   type:
     - "&7&oGenerator"
   description:

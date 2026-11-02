@@ -1,7 +1,7 @@
 SMG_GENERATOR_COBBLESTONE:
   description:
   - '&7Pasīvi ģenerē bruģakmeni.'
-  name: '&7Bruģakmens ģenerators'
+  name: 'Bruģakmens ģenerators'
   stats:
   - '&8⇨ &7Ražo ik pēc &e4 tikiem'
   type:
@@ -11,7 +11,7 @@ SMG_GENERATOR_COBBLESTONE:
 SMG_GENERATOR_GLASS:
   description:
   - '&7Pasīvi ģenerē stiklu.'
-  name: '&fStikla ģenerators'
+  name: 'Stikla ģenerators'
   stats:
   - '&8⇨ &7Ražo ik pēc &e12 tikiem'
   type:
@@ -21,7 +21,7 @@ SMG_GENERATOR_GLASS:
 SMG_GENERATOR_GRAVEL:
   description:
   - '&7Pasīvi ģenerē granti.'
-  name: '&7Grants ģenerators'
+  name: 'Grants ģenerators'
   stats:
   - '&8⇨ &7Ražo ik pēc &e6 tikiem'
   type:
@@ -31,7 +31,7 @@ SMG_GENERATOR_GRAVEL:
 SMG_GENERATOR_GRAVEL_BROKEN:
   description:
   - '&8Bojāts ģenerators.'
-  name: '&7Grants ģenerators &8(Salauzts)'
+  name: 'Grants ģenerators (Salauzts)'
   type:
   - '&7&oĢeneratora sastāvdaļa'
   usage:
@@ -40,7 +40,7 @@ SMG_GENERATOR_MULTIBLOCK:
   description:
   - '&7Uzbūvē jebkuru šī papildinājuma'
   - '&7ģeneratoru šādā veidā.'
-  name: '&9Ģeneratora multibloks'
+  name: 'Ģeneratora multibloks'
   type:
   - '&7&oDaudzbloks'
   usage:
@@ -49,7 +49,7 @@ SMG_GENERATOR_MULTIBLOCK:
 SMG_GENERATOR_NETHERRACK:
   description:
   - '&7Pasīvi ģenerē netherakmeni.'
-  name: '&cNetherakmens ģenerators'
+  name: 'Netherakmens ģenerators'
   stats:
   - '&8⇨ &7Ražo ik pēc &e6 tikiem'
   type:
@@ -59,7 +59,7 @@ SMG_GENERATOR_NETHERRACK:
 SMG_GENERATOR_SAND:
   description:
   - '&7Pasīvi ģenerē smiltis.'
-  name: '&eSmilšu ģenerators'
+  name: 'Smilšu ģenerators'
   stats:
   - '&8⇨ &7Ražo ik pēc &e8 tikiem'
   type:
@@ -69,7 +69,7 @@ SMG_GENERATOR_SAND:
 SMG_GENERATOR_SAND_BROKEN:
   description:
   - '&8Bojāts ģenerators.'
-  name: '&eSmilšu ģenerators &8(Salauzts)'
+  name: 'Smilšu ģenerators (Salauzts)'
   type:
   - '&7&oĢeneratora sastāvdaļa'
   usage:
@@ -77,7 +77,7 @@ SMG_GENERATOR_SAND_BROKEN:
 SMG_GENERATOR_SMOOTH_STONE:
   description:
   - '&7Pasīvi ģenerē gludo akmeni.'
-  name: '&7Gludā akmens ģenerators'
+  name: 'Gludā akmens ģenerators'
   stats:
   - '&8⇨ &7Ražo ik pēc &e12 tikiem'
   type:
@@ -87,7 +87,7 @@ SMG_GENERATOR_SMOOTH_STONE:
 SMG_GENERATOR_SMOOTH_STONE_BROKEN:
   description:
   - '&8Bojāts ģenerators.'
-  name: '&7Gludā akmens ģenerators &8(Salauzts)'
+  name: 'Gludā akmens ģenerators (Salauzts)'
   type:
   - '&7&oĢeneratora sastāvdaļa'
   usage:
@@ -95,7 +95,7 @@ SMG_GENERATOR_SMOOTH_STONE_BROKEN:
 SMG_GENERATOR_SOUL_SAND:
   description:
   - '&7Pasīvi ģenerē dvēseļu smiltis.'
-  name: '&8Dvēseļu smilšu ģenerators'
+  name: 'Dvēseļu smilšu ģenerators'
   stats:
   - '&8⇨ &7Ražo ik pēc &e8 tikiem'
   type:
@@ -105,7 +105,7 @@ SMG_GENERATOR_SOUL_SAND:
 SMG_GENERATOR_STONE:
   description:
   - '&7Pasīvi ģenerē akmeni.'
-  name: '&7Akmens ģenerators'
+  name: 'Akmens ģenerators'
   stats:
   - '&8⇨ &7Ražo ik pēc &e8 tikiem'
   type:
@@ -115,7 +115,7 @@ SMG_GENERATOR_STONE:
 SMG_GENERATOR_STONE_BROKEN:
   description:
   - '&8Bojāts ģenerators.'
-  name: '&7Akmens ģenerators &8(Salauzts)'
+  name: 'Akmens ģenerators (Salauzts)'
   type:
   - '&7&oĢeneratora sastāvdaļa'
   usage:

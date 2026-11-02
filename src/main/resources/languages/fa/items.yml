@@ -1,7 +1,7 @@
 SMG_GENERATOR_COBBLESTONE:
   description:
   - '&7به‌طور غیرفعال سنگ‌فرش تولید می‌کند.'
-  name: '&7تولیدکنندهٔ سنگ‌فرش'
+  name: 'تولیدکنندهٔ سنگ‌فرش'
   stats:
   - '&8⇨ &7تولید می‌کند هر &e4 تیک'
   type:
@@ -11,7 +11,7 @@ SMG_GENERATOR_COBBLESTONE:
 SMG_GENERATOR_GLASS:
   description:
   - '&7به‌طور غیرفعال شیشه تولید می‌کند.'
-  name: '&fتولیدکنندهٔ شیشه'
+  name: 'تولیدکنندهٔ شیشه'
   stats:
   - '&8⇨ &7تولید می‌کند هر &e12 تیک'
   type:
@@ -21,7 +21,7 @@ SMG_GENERATOR_GLASS:
 SMG_GENERATOR_GRAVEL:
   description:
   - '&7به‌طور غیرفعال سنگ‌ریزه تولید می‌کند.'
-  name: '&7تولیدکنندهٔ سنگ‌ریزه'
+  name: 'تولیدکنندهٔ سنگ‌ریزه'
   stats:
   - '&8⇨ &7تولید می‌کند هر &e6 تیک'
   type:
@@ -31,7 +31,7 @@ SMG_GENERATOR_GRAVEL:
 SMG_GENERATOR_GRAVEL_BROKEN:
   description:
   - '&8یک تولیدکنندهٔ آسیب‌دیده.'
-  name: '&7تولیدکنندهٔ سنگ‌ریزه &8(شکسته)'
+  name: 'تولیدکنندهٔ سنگ‌ریزه (شکسته)'
   type:
   - '&7&oقطعه ژنراتور'
   usage:
@@ -40,7 +40,7 @@ SMG_GENERATOR_MULTIBLOCK:
   description:
   - '&7هر کدام از تولیدکننده‌های این افزونه را'
   - '&7این‌گونه بسازید.'
-  name: '&9تولیدکنندهٔ چندبلوکی'
+  name: 'تولیدکنندهٔ چندبلوکی'
   type:
   - '&7&oچندبلوکی'
   usage:
@@ -49,7 +49,7 @@ SMG_GENERATOR_MULTIBLOCK:
 SMG_GENERATOR_NETHERRACK:
   description:
   - '&7به‌طور غیرفعال نترک تولید می‌کند.'
-  name: '&cتولیدکنندهٔ نترک'
+  name: 'تولیدکنندهٔ نترک'
   stats:
   - '&8⇨ &7تولید می‌کند هر &e6 تیک'
   type:
@@ -59,7 +59,7 @@ SMG_GENERATOR_NETHERRACK:
 SMG_GENERATOR_SAND:
   description:
   - '&7به‌طور غیرفعال ماسه تولید می‌کند.'
-  name: '&eتولیدکنندهٔ ماسه'
+  name: 'تولیدکنندهٔ ماسه'
   stats:
   - '&8⇨ &7تولید می‌کند هر &e8 تیک'
   type:
@@ -69,7 +69,7 @@ SMG_GENERATOR_SAND:
 SMG_GENERATOR_SAND_BROKEN:
   description:
   - '&8یک تولیدکنندهٔ آسیب‌دیده.'
-  name: '&eتولیدکنندهٔ ماسه &8(شکسته)'
+  name: 'تولیدکنندهٔ ماسه (شکسته)'
   type:
   - '&7&oقطعه ژنراتور'
   usage:
@@ -77,7 +77,7 @@ SMG_GENERATOR_SAND_BROKEN:
 SMG_GENERATOR_SMOOTH_STONE:
   description:
   - '&7به‌طور غیرفعال سنگ صاف تولید می‌کند.'
-  name: '&7تولیدکنندهٔ سنگ صاف'
+  name: 'تولیدکنندهٔ سنگ صاف'
   stats:
   - '&8⇨ &7تولید می‌کند هر &e12 تیک'
   type:
@@ -87,7 +87,7 @@ SMG_GENERATOR_SMOOTH_STONE:
 SMG_GENERATOR_SMOOTH_STONE_BROKEN:
   description:
   - '&8یک تولیدکنندهٔ آسیب‌دیده.'
-  name: '&7تولیدکنندهٔ سنگ صاف &8(شکسته)'
+  name: 'تولیدکنندهٔ سنگ صاف (شکسته)'
   type:
   - '&7&oقطعه ژنراتور'
   usage:
@@ -95,7 +95,7 @@ SMG_GENERATOR_SMOOTH_STONE_BROKEN:
 SMG_GENERATOR_SOUL_SAND:
   description:
   - '&7به‌طور غیرفعال ماسهٔ روح تولید می‌کند.'
-  name: '&8تولیدکنندهٔ ماسهٔ روح'
+  name: 'تولیدکنندهٔ ماسهٔ روح'
   stats:
   - '&8⇨ &7تولید می‌کند هر &e8 تیک'
   type:
@@ -105,7 +105,7 @@ SMG_GENERATOR_SOUL_SAND:
 SMG_GENERATOR_STONE:
   description:
   - '&7به‌طور غیرفعال سنگ تولید می‌کند.'
-  name: '&7تولیدکنندهٔ سنگ'
+  name: 'تولیدکنندهٔ سنگ'
   stats:
   - '&8⇨ &7تولید می‌کند هر &e8 تیک'
   type:
@@ -115,7 +115,7 @@ SMG_GENERATOR_STONE:
 SMG_GENERATOR_STONE_BROKEN:
   description:
   - '&8یک تولیدکنندهٔ آسیب‌دیده.'
-  name: '&7تولیدکنندهٔ سنگ &8(شکسته)'
+  name: 'تولیدکنندهٔ سنگ (شکسته)'
   type:
   - '&7&oقطعه ژنراتور'
   usage:

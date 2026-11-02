@@ -1,7 +1,7 @@
 SMG_GENERATOR_COBBLESTONE:
   description:
   - '&7Genereer passief rolklip.'
-  name: '&7Rolklipgenerator'
+  name: 'Rolklipgenerator'
   stats:
   - '&8⇨ &7Produseer elke &e4 tikke'
   type:
@@ -11,7 +11,7 @@ SMG_GENERATOR_COBBLESTONE:
 SMG_GENERATOR_GLASS:
   description:
   - '&7Genereer passief glas.'
-  name: '&fGlasgenerator'
+  name: 'Glasgenerator'
   stats:
   - '&8⇨ &7Produseer elke &e12 tikke'
   type:
@@ -21,7 +21,7 @@ SMG_GENERATOR_GLASS:
 SMG_GENERATOR_GRAVEL:
   description:
   - '&7Genereer passief gruis.'
-  name: '&7Gruisgenerator'
+  name: 'Gruisgenerator'
   stats:
   - '&8⇨ &7Produseer elke &e6 tikke'
   type:
@@ -31,7 +31,7 @@ SMG_GENERATOR_GRAVEL:
 SMG_GENERATOR_GRAVEL_BROKEN:
   description:
   - '&8''n Beskadigde generator.'
-  name: '&7Gruisgenerator &8(Gebreek)'
+  name: 'Gruisgenerator (Gebreek)'
   type:
   - '&7&oKragopwekker-Komponent'
   usage:
@@ -40,7 +40,7 @@ SMG_GENERATOR_MULTIBLOCK:
   description:
   - '&7Bou enige van hierdie byvoeging se'
   - '&7generators soos hierdie.'
-  name: '&9Generatormultiblok'
+  name: 'Generatormultiblok'
   type:
   - '&7&oMultiblok'
   usage:
@@ -49,7 +49,7 @@ SMG_GENERATOR_MULTIBLOCK:
 SMG_GENERATOR_NETHERRACK:
   description:
   - '&7Genereer passief netherrack.'
-  name: '&cNetherrack-generator'
+  name: 'Netherrack-generator'
   stats:
   - '&8⇨ &7Produseer elke &e6 tikke'
   type:
@@ -59,7 +59,7 @@ SMG_GENERATOR_NETHERRACK:
 SMG_GENERATOR_SAND:
   description:
   - '&7Genereer passief sand.'
-  name: '&eSandgenerator'
+  name: 'Sandgenerator'
   stats:
   - '&8⇨ &7Produseer elke &e8 tikke'
   type:
@@ -69,7 +69,7 @@ SMG_GENERATOR_SAND:
 SMG_GENERATOR_SAND_BROKEN:
   description:
   - '&8''n Beskadigde generator.'
-  name: '&eSandgenerator &8(Gebreek)'
+  name: 'Sandgenerator (Gebreek)'
   type:
   - '&7&oKragopwekker-Komponent'
   usage:
@@ -77,7 +77,7 @@ SMG_GENERATOR_SAND_BROKEN:
 SMG_GENERATOR_SMOOTH_STONE:
   description:
   - '&7Genereer passief gladde klip.'
-  name: '&7Gladdeklipgenerator'
+  name: 'Gladdeklipgenerator'
   stats:
   - '&8⇨ &7Produseer elke &e12 tikke'
   type:
@@ -87,7 +87,7 @@ SMG_GENERATOR_SMOOTH_STONE:
 SMG_GENERATOR_SMOOTH_STONE_BROKEN:
   description:
   - '&8''n Beskadigde generator.'
-  name: '&7Gladdeklipgenerator &8(Gebreek)'
+  name: 'Gladdeklipgenerator (Gebreek)'
   type:
   - '&7&oKragopwekker-Komponent'
   usage:
@@ -95,7 +95,7 @@ SMG_GENERATOR_SMOOTH_STONE_BROKEN:
 SMG_GENERATOR_SOUL_SAND:
   description:
   - '&7Genereer passief sielsand.'
-  name: '&8Sielsandgenerator'
+  name: 'Sielsandgenerator'
   stats:
   - '&8⇨ &7Produseer elke &e8 tikke'
   type:
@@ -105,7 +105,7 @@ SMG_GENERATOR_SOUL_SAND:
 SMG_GENERATOR_STONE:
   description:
   - '&7Genereer passief klip.'
-  name: '&7Klipgenerator'
+  name: 'Klipgenerator'
   stats:
   - '&8⇨ &7Produseer elke &e8 tikke'
   type:
@@ -115,7 +115,7 @@ SMG_GENERATOR_STONE:
 SMG_GENERATOR_STONE_BROKEN:
   description:
   - '&8''n Beskadigde generator.'
-  name: '&7Klipgenerator &8(Gebreek)'
+  name: 'Klipgenerator (Gebreek)'
   type:
   - '&7&oKragopwekker-Komponent'
   usage:

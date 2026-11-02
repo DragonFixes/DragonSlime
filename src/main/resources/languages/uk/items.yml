@@ -1,7 +1,7 @@
 SMG_GENERATOR_COBBLESTONE:
   description:
   - '&7Пасивно генерує бруківку.'
-  name: '&7Генератор бруківки'
+  name: 'Генератор бруківки'
   stats:
   - '&8⇨ &7Виробляє кожні &e4 тіки'
   type:
@@ -11,7 +11,7 @@ SMG_GENERATOR_COBBLESTONE:
 SMG_GENERATOR_GLASS:
   description:
   - '&7Пасивно генерує скло.'
-  name: '&fГенератор скла'
+  name: 'Генератор скла'
   stats:
   - '&8⇨ &7Виробляє кожні &e12 тіків'
   type:
@@ -21,7 +21,7 @@ SMG_GENERATOR_GLASS:
 SMG_GENERATOR_GRAVEL:
   description:
   - '&7Пасивно генерує гравій.'
-  name: '&7Генератор гравію'
+  name: 'Генератор гравію'
   stats:
   - '&8⇨ &7Виробляє кожні &e6 тіків'
   type:
@@ -31,7 +31,7 @@ SMG_GENERATOR_GRAVEL:
 SMG_GENERATOR_GRAVEL_BROKEN:
   description:
   - '&8Пошкоджений генератор.'
-  name: '&7Генератор гравію &8(Зламаний)'
+  name: 'Генератор гравію (Зламаний)'
   type:
   - '&7&oКомпонент генератора'
   usage:
@@ -40,7 +40,7 @@ SMG_GENERATOR_MULTIBLOCK:
   description:
   - '&7Збудуйте будь-який генератор'
   - '&7цього доповнення, як цей.'
-  name: '&9Мультиблок генератора'
+  name: 'Мультиблок генератора'
   type:
   - '&7&oСпоруда'
   usage:
@@ -49,7 +49,7 @@ SMG_GENERATOR_MULTIBLOCK:
 SMG_GENERATOR_NETHERRACK:
   description:
   - '&7Пасивно генерує незеракт.'
-  name: '&cГенератор незеракту'
+  name: 'Генератор незеракту'
   stats:
   - '&8⇨ &7Виробляє кожні &e6 тіків'
   type:
@@ -59,7 +59,7 @@ SMG_GENERATOR_NETHERRACK:
 SMG_GENERATOR_SAND:
   description:
   - '&7Пасивно генерує пісок.'
-  name: '&eГенератор піску'
+  name: 'Генератор піску'
   stats:
   - '&8⇨ &7Виробляє кожні &e8 тіків'
   type:
@@ -69,7 +69,7 @@ SMG_GENERATOR_SAND:
 SMG_GENERATOR_SAND_BROKEN:
   description:
   - '&8Пошкоджений генератор.'
-  name: '&eГенератор піску &8(Зламаний)'
+  name: 'Генератор піску (Зламаний)'
   type:
   - '&7&oКомпонент генератора'
   usage:
@@ -77,7 +77,7 @@ SMG_GENERATOR_SAND_BROKEN:
 SMG_GENERATOR_SMOOTH_STONE:
   description:
   - '&7Пасивно генерує гладкий камінь.'
-  name: '&7Генератор гладкого каменю'
+  name: 'Генератор гладкого каменю'
   stats:
   - '&8⇨ &7Виробляє кожні &e12 тіків'
   type:
@@ -87,7 +87,7 @@ SMG_GENERATOR_SMOOTH_STONE:
 SMG_GENERATOR_SMOOTH_STONE_BROKEN:
   description:
   - '&8Пошкоджений генератор.'
-  name: '&7Генератор гладкого каменю &8(Зламаний)'
+  name: 'Генератор гладкого каменю (Зламаний)'
   type:
   - '&7&oКомпонент генератора'
   usage:
@@ -95,7 +95,7 @@ SMG_GENERATOR_SMOOTH_STONE_BROKEN:
 SMG_GENERATOR_SOUL_SAND:
   description:
   - '&7Пасивно генерує пісок душ.'
-  name: '&8Генератор піску душ'
+  name: 'Генератор піску душ'
   stats:
   - '&8⇨ &7Виробляє кожні &e8 тіків'
   type:
@@ -105,7 +105,7 @@ SMG_GENERATOR_SOUL_SAND:
 SMG_GENERATOR_STONE:
   description:
   - '&7Пасивно генерує камінь.'
-  name: '&7Генератор каменю'
+  name: 'Генератор каменю'
   stats:
   - '&8⇨ &7Виробляє кожні &e8 тіків'
   type:
@@ -115,7 +115,7 @@ SMG_GENERATOR_STONE:
 SMG_GENERATOR_STONE_BROKEN:
   description:
   - '&8Пошкоджений генератор.'
-  name: '&7Генератор каменю &8(Зламаний)'
+  name: 'Генератор каменю (Зламаний)'
   type:
   - '&7&oКомпонент генератора'
   usage:

@@ -1,7 +1,7 @@
 SMG_GENERATOR_COBBLESTONE:
   description:
   - '&7수동적으로 조약돌을 생성합니다.'
-  name: '&7조약돌 생성기'
+  name: '조약돌 생성기'
   stats:
   - '&8⇨ &7생산 주기: &e4틱'
   type:
@@ -11,7 +11,7 @@ SMG_GENERATOR_COBBLESTONE:
 SMG_GENERATOR_GLASS:
   description:
   - '&7수동적으로 유리를 생성합니다.'
-  name: '&f유리 생성기'
+  name: '유리 생성기'
   stats:
   - '&8⇨ &7생산 주기: &e12틱'
   type:
@@ -21,7 +21,7 @@ SMG_GENERATOR_GLASS:
 SMG_GENERATOR_GRAVEL:
   description:
   - '&7수동적으로 자갈을 생성합니다.'
-  name: '&7자갈 생성기'
+  name: '자갈 생성기'
   stats:
   - '&8⇨ &7생산 주기: &e6틱'
   type:
@@ -31,7 +31,7 @@ SMG_GENERATOR_GRAVEL:
 SMG_GENERATOR_GRAVEL_BROKEN:
   description:
   - '&8손상된 생성기입니다.'
-  name: '&7자갈 생성기 &8(고장)'
+  name: '자갈 생성기 (고장)'
   type:
   - '&7&o발전기 부품'
   usage:
@@ -40,7 +40,7 @@ SMG_GENERATOR_MULTIBLOCK:
   description:
   - '&7이 애드온의 생성기는 모두'
   - '&7이렇게 건설합니다.'
-  name: '&9생성기 멀티블록'
+  name: '생성기 멀티블록'
   type:
   - '&7&o멀티블록'
   usage:
@@ -49,7 +49,7 @@ SMG_GENERATOR_MULTIBLOCK:
 SMG_GENERATOR_NETHERRACK:
   description:
   - '&7수동적으로 네더랙을 생성합니다.'
-  name: '&c네더랙 생성기'
+  name: '네더랙 생성기'
   stats:
   - '&8⇨ &7생산 주기: &e6틱'
   type:
@@ -59,7 +59,7 @@ SMG_GENERATOR_NETHERRACK:
 SMG_GENERATOR_SAND:
   description:
   - '&7수동적으로 모래를 생성합니다.'
-  name: '&e모래 생성기'
+  name: '모래 생성기'
   stats:
   - '&8⇨ &7생산 주기: &e8틱'
   type:
@@ -69,7 +69,7 @@ SMG_GENERATOR_SAND:
 SMG_GENERATOR_SAND_BROKEN:
   description:
   - '&8손상된 생성기입니다.'
-  name: '&e모래 생성기 &8(고장)'
+  name: '모래 생성기 (고장)'
   type:
   - '&7&o발전기 부품'
   usage:
@@ -77,7 +77,7 @@ SMG_GENERATOR_SAND_BROKEN:
 SMG_GENERATOR_SMOOTH_STONE:
   description:
   - '&7수동적으로 매끄러운 돌을 생성합니다.'
-  name: '&7매끄러운 돌 생성기'
+  name: '매끄러운 돌 생성기'
   stats:
   - '&8⇨ &7생산 주기: &e12틱'
   type:
@@ -87,7 +87,7 @@ SMG_GENERATOR_SMOOTH_STONE:
 SMG_GENERATOR_SMOOTH_STONE_BROKEN:
   description:
   - '&8손상된 생성기입니다.'
-  name: '&7매끄러운 돌 생성기 &8(고장)'
+  name: '매끄러운 돌 생성기 (고장)'
   type:
   - '&7&o발전기 부품'
   usage:
@@ -95,7 +95,7 @@ SMG_GENERATOR_SMOOTH_STONE_BROKEN:
 SMG_GENERATOR_SOUL_SAND:
   description:
   - '&7수동적으로 영혼 모래를 생성합니다.'
-  name: '&8영혼 모래 생성기'
+  name: '영혼 모래 생성기'
   stats:
   - '&8⇨ &7생산 주기: &e8틱'
   type:
@@ -105,7 +105,7 @@ SMG_GENERATOR_SOUL_SAND:
 SMG_GENERATOR_STONE:
   description:
   - '&7수동적으로 돌을 생성합니다.'
-  name: '&7돌 생성기'
+  name: '돌 생성기'
   stats:
   - '&8⇨ &7생산 주기: &e8틱'
   type:
@@ -115,7 +115,7 @@ SMG_GENERATOR_STONE:
 SMG_GENERATOR_STONE_BROKEN:
   description:
   - '&8손상된 생성기입니다.'
-  name: '&7돌 생성기 &8(고장)'
+  name: '돌 생성기 (고장)'
   type:
   - '&7&o발전기 부품'
   usage:

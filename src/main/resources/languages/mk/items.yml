@@ -1,7 +1,7 @@
 SMG_GENERATOR_COBBLESTONE:
   description:
   - '&7Пасивно генерира калдрма.'
-  name: '&7Генератор за калдрма'
+  name: 'Генератор за калдрма'
   stats:
   - '&8⇨ &7Произведува на секои &e4 тикови'
   type:
@@ -11,7 +11,7 @@ SMG_GENERATOR_COBBLESTONE:
 SMG_GENERATOR_GLASS:
   description:
   - '&7Пасивно генерира стакло.'
-  name: '&fГенератор за стакло'
+  name: 'Генератор за стакло'
   stats:
   - '&8⇨ &7Произведува на секои &e12 тикови'
   type:
@@ -21,7 +21,7 @@ SMG_GENERATOR_GLASS:
 SMG_GENERATOR_GRAVEL:
   description:
   - '&7Пасивно генерира чакал.'
-  name: '&7Генератор за чакал'
+  name: 'Генератор за чакал'
   stats:
   - '&8⇨ &7Произведува на секои &e6 тикови'
   type:
@@ -31,7 +31,7 @@ SMG_GENERATOR_GRAVEL:
 SMG_GENERATOR_GRAVEL_BROKEN:
   description:
   - '&8Оштетен генератор.'
-  name: '&7Генератор за чакал &8(Расипан)'
+  name: 'Генератор за чакал (Расипан)'
   type:
   - '&7&oКомпонента на генератор'
   usage:
@@ -40,7 +40,7 @@ SMG_GENERATOR_MULTIBLOCK:
   description:
   - '&7Изгради кој било од генераторите'
   - '&7на овој додаток вака.'
-  name: '&9Мултиблок генератор'
+  name: 'Мултиблок генератор'
   type:
   - '&7&oМултиблок'
   usage:
@@ -49,7 +49,7 @@ SMG_GENERATOR_MULTIBLOCK:
 SMG_GENERATOR_NETHERRACK:
   description:
   - '&7Пасивно генерира недерак.'
-  name: '&cГенератор за недерак'
+  name: 'Генератор за недерак'
   stats:
   - '&8⇨ &7Произведува на секои &e6 тикови'
   type:
@@ -59,7 +59,7 @@ SMG_GENERATOR_NETHERRACK:
 SMG_GENERATOR_SAND:
   description:
   - '&7Пасивно генерира песок.'
-  name: '&eГенератор за песок'
+  name: 'Генератор за песок'
   stats:
   - '&8⇨ &7Произведува на секои &e8 тикови'
   type:
@@ -69,7 +69,7 @@ SMG_GENERATOR_SAND:
 SMG_GENERATOR_SAND_BROKEN:
   description:
   - '&8Оштетен генератор.'
-  name: '&eГенератор за песок &8(Расипан)'
+  name: 'Генератор за песок (Расипан)'
   type:
   - '&7&oКомпонента на генератор'
   usage:
@@ -77,7 +77,7 @@ SMG_GENERATOR_SAND_BROKEN:
 SMG_GENERATOR_SMOOTH_STONE:
   description:
   - '&7Пасивно генерира мазен камен.'
-  name: '&7Генератор за мазен камен'
+  name: 'Генератор за мазен камен'
   stats:
   - '&8⇨ &7Произведува на секои &e12 тикови'
   type:
@@ -87,7 +87,7 @@ SMG_GENERATOR_SMOOTH_STONE:
 SMG_GENERATOR_SMOOTH_STONE_BROKEN:
   description:
   - '&8Оштетен генератор.'
-  name: '&7Генератор за мазен камен &8(Расипан)'
+  name: 'Генератор за мазен камен (Расипан)'
   type:
   - '&7&oКомпонента на генератор'
   usage:
@@ -95,7 +95,7 @@ SMG_GENERATOR_SMOOTH_STONE_BROKEN:
 SMG_GENERATOR_SOUL_SAND:
   description:
   - '&7Пасивно генерира душевен песок.'
-  name: '&8Генератор за душевен песок'
+  name: 'Генератор за душевен песок'
   stats:
   - '&8⇨ &7Произведува на секои &e8 тикови'
   type:
@@ -105,7 +105,7 @@ SMG_GENERATOR_SOUL_SAND:
 SMG_GENERATOR_STONE:
   description:
   - '&7Пасивно генерира камен.'
-  name: '&7Генератор за камен'
+  name: 'Генератор за камен'
   stats:
   - '&8⇨ &7Произведува на секои &e8 тикови'
   type:
@@ -115,7 +115,7 @@ SMG_GENERATOR_STONE:
 SMG_GENERATOR_STONE_BROKEN:
   description:
   - '&8Оштетен генератор.'
-  name: '&7Генератор за камен &8(Расипан)'
+  name: 'Генератор за камен (Расипан)'
   type:
   - '&7&oКомпонента на генератор'
   usage:

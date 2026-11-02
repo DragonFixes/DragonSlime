@@ -1,7 +1,7 @@
 SMG_GENERATOR_COBBLESTONE:
   description:
   - '&7Thụ động tạo ra đá cuội.'
-  name: '&7Máy tạo Đá cuội'
+  name: 'Máy tạo Đá cuội'
   stats:
   - '&8⇨ &7Sản xuất mỗi &e4 tick'
   type:
@@ -11,7 +11,7 @@ SMG_GENERATOR_COBBLESTONE:
 SMG_GENERATOR_GLASS:
   description:
   - '&7Thụ động tạo ra kính.'
-  name: '&fMáy tạo Kính'
+  name: 'Máy tạo Kính'
   stats:
   - '&8⇨ &7Sản xuất mỗi &e12 tick'
   type:
@@ -21,7 +21,7 @@ SMG_GENERATOR_GLASS:
 SMG_GENERATOR_GRAVEL:
   description:
   - '&7Thụ động tạo ra sỏi.'
-  name: '&7Máy tạo Sỏi'
+  name: 'Máy tạo Sỏi'
   stats:
   - '&8⇨ &7Sản xuất mỗi &e6 tick'
   type:
@@ -31,7 +31,7 @@ SMG_GENERATOR_GRAVEL:
 SMG_GENERATOR_GRAVEL_BROKEN:
   description:
   - '&8Một máy tạo bị hư hỏng.'
-  name: '&7Máy tạo Sỏi &8(Hỏng)'
+  name: 'Máy tạo Sỏi (Hỏng)'
   type:
   - '&7&oThành Phần Máy Phát Điện'
   usage:
@@ -40,7 +40,7 @@ SMG_GENERATOR_MULTIBLOCK:
   description:
   - '&7Xây bất kỳ máy tạo nào của'
   - '&7bản mở rộng này như thế này.'
-  name: '&9Máy tạo Đa khối'
+  name: 'Máy tạo Đa khối'
   type:
   - '&7&oĐa khối'
   usage:
@@ -49,7 +49,7 @@ SMG_GENERATOR_MULTIBLOCK:
 SMG_GENERATOR_NETHERRACK:
   description:
   - '&7Thụ động tạo ra đá Nether.'
-  name: '&cMáy tạo Đá Nether'
+  name: 'Máy tạo Đá Nether'
   stats:
   - '&8⇨ &7Sản xuất mỗi &e6 tick'
   type:
@@ -59,7 +59,7 @@ SMG_GENERATOR_NETHERRACK:
 SMG_GENERATOR_SAND:
   description:
   - '&7Thụ động tạo ra cát.'
-  name: '&eMáy tạo Cát'
+  name: 'Máy tạo Cát'
   stats:
   - '&8⇨ &7Sản xuất mỗi &e8 tick'
   type:
@@ -69,7 +69,7 @@ SMG_GENERATOR_SAND:
 SMG_GENERATOR_SAND_BROKEN:
   description:
   - '&8Một máy tạo bị hư hỏng.'
-  name: '&eMáy tạo Cát &8(Hỏng)'
+  name: 'Máy tạo Cát (Hỏng)'
   type:
   - '&7&oThành Phần Máy Phát Điện'
   usage:
@@ -77,7 +77,7 @@ SMG_GENERATOR_SAND_BROKEN:
 SMG_GENERATOR_SMOOTH_STONE:
   description:
   - '&7Thụ động tạo ra đá nhẵn.'
-  name: '&7Máy tạo Đá nhẵn'
+  name: 'Máy tạo Đá nhẵn'
   stats:
   - '&8⇨ &7Sản xuất mỗi &e12 tick'
   type:
@@ -87,7 +87,7 @@ SMG_GENERATOR_SMOOTH_STONE:
 SMG_GENERATOR_SMOOTH_STONE_BROKEN:
   description:
   - '&8Một máy tạo bị hư hỏng.'
-  name: '&7Máy tạo Đá nhẵn &8(Hỏng)'
+  name: 'Máy tạo Đá nhẵn (Hỏng)'
   type:
   - '&7&oThành Phần Máy Phát Điện'
   usage:
@@ -95,7 +95,7 @@ SMG_GENERATOR_SMOOTH_STONE_BROKEN:
 SMG_GENERATOR_SOUL_SAND:
   description:
   - '&7Thụ động tạo ra cát linh hồn.'
-  name: '&8Máy tạo Cát Linh hồn'
+  name: 'Máy tạo Cát Linh hồn'
   stats:
   - '&8⇨ &7Sản xuất mỗi &e8 tick'
   type:
@@ -105,7 +105,7 @@ SMG_GENERATOR_SOUL_SAND:
 SMG_GENERATOR_STONE:
   description:
   - '&7Thụ động tạo ra đá.'
-  name: '&7Máy tạo Đá'
+  name: 'Máy tạo Đá'
   stats:
   - '&8⇨ &7Sản xuất mỗi &e8 tick'
   type:
@@ -115,7 +115,7 @@ SMG_GENERATOR_STONE:
 SMG_GENERATOR_STONE_BROKEN:
   description:
   - '&8Một máy tạo bị hư hỏng.'
-  name: '&7Máy tạo Đá &8(Hỏng)'
+  name: 'Máy tạo Đá (Hỏng)'
   type:
   - '&7&oThành Phần Máy Phát Điện'
   usage:

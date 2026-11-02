@@ -1,7 +1,7 @@
 SMG_GENERATOR_COBBLESTONE:
   description:
   - '&7Pasivno stvara kaldrmu.'
-  name: '&7Generator kaldrme'
+  name: 'Generator kaldrme'
   stats:
   - '&8⇨ &7Proizvodi svakih &e4 tika'
   type:
@@ -11,7 +11,7 @@ SMG_GENERATOR_COBBLESTONE:
 SMG_GENERATOR_GLASS:
   description:
   - '&7Pasivno stvara staklo.'
-  name: '&fGenerator stakla'
+  name: 'Generator stakla'
   stats:
   - '&8⇨ &7Proizvodi svakih &e12 tikova'
   type:
@@ -21,7 +21,7 @@ SMG_GENERATOR_GLASS:
 SMG_GENERATOR_GRAVEL:
   description:
   - '&7Pasivno stvara šljunak.'
-  name: '&7Generator šljunka'
+  name: 'Generator šljunka'
   stats:
   - '&8⇨ &7Proizvodi svakih &e6 tikova'
   type:
@@ -31,7 +31,7 @@ SMG_GENERATOR_GRAVEL:
 SMG_GENERATOR_GRAVEL_BROKEN:
   description:
   - '&8Oštećeni generator.'
-  name: '&7Generator šljunka &8(Pokvaren)'
+  name: 'Generator šljunka (Pokvaren)'
   type:
   - '&7&oKomponenta generatora'
   usage:
@@ -40,7 +40,7 @@ SMG_GENERATOR_MULTIBLOCK:
   description:
   - '&7Izgradi bilo koji generator ovog'
   - '&7dodatka na ovaj način.'
-  name: '&9Multiblok generator'
+  name: 'Multiblok generator'
   type:
   - '&7&oVišeblok'
   usage:
@@ -49,7 +49,7 @@ SMG_GENERATOR_MULTIBLOCK:
 SMG_GENERATOR_NETHERRACK:
   description:
   - '&7Pasivno stvara netherrack.'
-  name: '&cGenerator netherraka'
+  name: 'Generator netherraka'
   stats:
   - '&8⇨ &7Proizvodi svakih &e6 tikova'
   type:
@@ -59,7 +59,7 @@ SMG_GENERATOR_NETHERRACK:
 SMG_GENERATOR_SAND:
   description:
   - '&7Pasivno stvara pijesak.'
-  name: '&eGenerator pijeska'
+  name: 'Generator pijeska'
   stats:
   - '&8⇨ &7Proizvodi svakih &e8 tikova'
   type:
@@ -69,7 +69,7 @@ SMG_GENERATOR_SAND:
 SMG_GENERATOR_SAND_BROKEN:
   description:
   - '&8Oštećeni generator.'
-  name: '&eGenerator pijeska &8(Pokvaren)'
+  name: 'Generator pijeska (Pokvaren)'
   type:
   - '&7&oKomponenta generatora'
   usage:
@@ -77,7 +77,7 @@ SMG_GENERATOR_SAND_BROKEN:
 SMG_GENERATOR_SMOOTH_STONE:
   description:
   - '&7Pasivno stvara glatki kamen.'
-  name: '&7Generator glatkog kamena'
+  name: 'Generator glatkog kamena'
   stats:
   - '&8⇨ &7Proizvodi svakih &e12 tikova'
   type:
@@ -87,7 +87,7 @@ SMG_GENERATOR_SMOOTH_STONE:
 SMG_GENERATOR_SMOOTH_STONE_BROKEN:
   description:
   - '&8Oštećeni generator.'
-  name: '&7Generator glatkog kamena &8(Pokvaren)'
+  name: 'Generator glatkog kamena (Pokvaren)'
   type:
   - '&7&oKomponenta generatora'
   usage:
@@ -95,7 +95,7 @@ SMG_GENERATOR_SMOOTH_STONE_BROKEN:
 SMG_GENERATOR_SOUL_SAND:
   description:
   - '&7Pasivno stvara pijesak duša.'
-  name: '&8Generator pijeska duša'
+  name: 'Generator pijeska duša'
   stats:
   - '&8⇨ &7Proizvodi svakih &e8 tikova'
   type:
@@ -105,7 +105,7 @@ SMG_GENERATOR_SOUL_SAND:
 SMG_GENERATOR_STONE:
   description:
   - '&7Pasivno stvara kamen.'
-  name: '&7Generator kamena'
+  name: 'Generator kamena'
   stats:
   - '&8⇨ &7Proizvodi svakih &e8 tikova'
   type:
@@ -115,7 +115,7 @@ SMG_GENERATOR_STONE:
 SMG_GENERATOR_STONE_BROKEN:
   description:
   - '&8Oštećeni generator.'
-  name: '&7Generator kamena &8(Pokvaren)'
+  name: 'Generator kamena (Pokvaren)'
   type:
   - '&7&oKomponenta generatora'
   usage:

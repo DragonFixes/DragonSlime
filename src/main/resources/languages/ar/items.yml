@@ -1,7 +1,7 @@
 SMG_GENERATOR_COBBLESTONE:
   description:
   - '&7يُنتِج الحجر المرصوف سلبيًا.'
-  name: '&7مُنتِج الحجر المرصوف'
+  name: 'مُنتِج الحجر المرصوف'
   stats:
   - '&8⇨ &7يُنتج كل &e4 تكّات'
   type:
@@ -11,7 +11,7 @@ SMG_GENERATOR_COBBLESTONE:
 SMG_GENERATOR_GLASS:
   description:
   - '&7يُنتِج الزجاج سلبيًا.'
-  name: '&fمُنتِج الزجاج'
+  name: 'مُنتِج الزجاج'
   stats:
   - '&8⇨ &7يُنتج كل &e12 تكّة'
   type:
@@ -21,7 +21,7 @@ SMG_GENERATOR_GLASS:
 SMG_GENERATOR_GRAVEL:
   description:
   - '&7يُنتِج الحصى سلبيًا.'
-  name: '&7مُنتِج الحصى'
+  name: 'مُنتِج الحصى'
   stats:
   - '&8⇨ &7يُنتج كل &e6 تكّات'
   type:
@@ -31,7 +31,7 @@ SMG_GENERATOR_GRAVEL:
 SMG_GENERATOR_GRAVEL_BROKEN:
   description:
   - '&8مُنتِج متضرّر.'
-  name: '&7مُنتِج الحصى &8(معطّل)'
+  name: 'مُنتِج الحصى (معطّل)'
   type:
   - '&7&oمكون مولد'
   usage:
@@ -40,7 +40,7 @@ SMG_GENERATOR_MULTIBLOCK:
   description:
   - '&7ابنِ أيًّا من مُنتِجات هذه'
   - '&7الإضافة بهذا الشكل.'
-  name: '&9مُنتِج متعدد الكتل'
+  name: 'مُنتِج متعدد الكتل'
   type:
   - '&7&oبنية مركبة'
   usage:
@@ -49,7 +49,7 @@ SMG_GENERATOR_MULTIBLOCK:
 SMG_GENERATOR_NETHERRACK:
   description:
   - '&7يُنتِج صخر النيثر سلبيًا.'
-  name: '&cمُنتِج صخر النيثر'
+  name: 'مُنتِج صخر النيثر'
   stats:
   - '&8⇨ &7يُنتج كل &e6 تكّات'
   type:
@@ -59,7 +59,7 @@ SMG_GENERATOR_NETHERRACK:
 SMG_GENERATOR_SAND:
   description:
   - '&7يُنتِج الرمل سلبيًا.'
-  name: '&eمُنتِج الرمل'
+  name: 'مُنتِج الرمل'
   stats:
   - '&8⇨ &7يُنتج كل &e8 تكّات'
   type:
@@ -69,7 +69,7 @@ SMG_GENERATOR_SAND:
 SMG_GENERATOR_SAND_BROKEN:
   description:
   - '&8مُنتِج متضرّر.'
-  name: '&eمُنتِج الرمل &8(معطّل)'
+  name: 'مُنتِج الرمل (معطّل)'
   type:
   - '&7&oمكون مولد'
   usage:
@@ -77,7 +77,7 @@ SMG_GENERATOR_SAND_BROKEN:
 SMG_GENERATOR_SMOOTH_STONE:
   description:
   - '&7يُنتِج الحجر الأملس سلبيًا.'
-  name: '&7مُنتِج الحجر الأملس'
+  name: 'مُنتِج الحجر الأملس'
   stats:
   - '&8⇨ &7يُنتج كل &e12 تكّة'
   type:
@@ -87,7 +87,7 @@ SMG_GENERATOR_SMOOTH_STONE:
 SMG_GENERATOR_SMOOTH_STONE_BROKEN:
   description:
   - '&8مُنتِج متضرّر.'
-  name: '&7مُنتِج الحجر الأملس &8(معطّل)'
+  name: 'مُنتِج الحجر الأملس (معطّل)'
   type:
   - '&7&oمكون مولد'
   usage:
@@ -95,7 +95,7 @@ SMG_GENERATOR_SMOOTH_STONE_BROKEN:
 SMG_GENERATOR_SOUL_SAND:
   description:
   - '&7يُنتِج رمل الأرواح سلبيًا.'
-  name: '&8مُنتِج رمل الأرواح'
+  name: 'مُنتِج رمل الأرواح'
   stats:
   - '&8⇨ &7يُنتج كل &e8 تكّات'
   type:
@@ -105,7 +105,7 @@ SMG_GENERATOR_SOUL_SAND:
 SMG_GENERATOR_STONE:
   description:
   - '&7يُنتِج الحجر سلبيًا.'
-  name: '&7مُنتِج الحجر'
+  name: 'مُنتِج الحجر'
   stats:
   - '&8⇨ &7يُنتج كل &e8 تكّات'
   type:
@@ -115,7 +115,7 @@ SMG_GENERATOR_STONE:
 SMG_GENERATOR_STONE_BROKEN:
   description:
   - '&8مُنتِج متضرّر.'
-  name: '&7مُنتِج الحجر &8(معطّل)'
+  name: 'مُنتِج الحجر (معطّل)'
   type:
   - '&7&oمكون مولد'
   usage:

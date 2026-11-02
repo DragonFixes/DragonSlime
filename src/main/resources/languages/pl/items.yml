@@ -1,7 +1,7 @@
 SMG_GENERATOR_COBBLESTONE:
   description:
   - '&7Pasywnie generuje bruk.'
-  name: '&7Generator bruku'
+  name: 'Generator bruku'
   stats:
   - '&8⇨ &7Produkuje co &e4 ticki'
   type:
@@ -11,7 +11,7 @@ SMG_GENERATOR_COBBLESTONE:
 SMG_GENERATOR_GLASS:
   description:
   - '&7Pasywnie generuje szkło.'
-  name: '&fGenerator szkła'
+  name: 'Generator szkła'
   stats:
   - '&8⇨ &7Produkuje co &e12 ticków'
   type:
@@ -21,7 +21,7 @@ SMG_GENERATOR_GLASS:
 SMG_GENERATOR_GRAVEL:
   description:
   - '&7Pasywnie generuje żwir.'
-  name: '&7Generator żwiru'
+  name: 'Generator żwiru'
   stats:
   - '&8⇨ &7Produkuje co &e6 ticków'
   type:
@@ -31,7 +31,7 @@ SMG_GENERATOR_GRAVEL:
 SMG_GENERATOR_GRAVEL_BROKEN:
   description:
   - '&8Uszkodzony generator.'
-  name: '&7Generator żwiru &8(Zepsuty)'
+  name: 'Generator żwiru (Zepsuty)'
   type:
   - '&7&oKomponent generatora'
   usage:
@@ -40,7 +40,7 @@ SMG_GENERATOR_MULTIBLOCK:
   description:
   - '&7Zbuduj w ten sposób dowolny'
   - '&7z generatorów tego dodatku.'
-  name: '&9Generator Multiblok'
+  name: 'Generator Multiblok'
   type:
   - '&7&oMultiblok'
   usage:
@@ -49,7 +49,7 @@ SMG_GENERATOR_MULTIBLOCK:
 SMG_GENERATOR_NETHERRACK:
   description:
   - '&7Pasywnie generuje netherrack.'
-  name: '&cGenerator netherraku'
+  name: 'Generator netherraku'
   stats:
   - '&8⇨ &7Produkuje co &e6 ticków'
   type:
@@ -59,7 +59,7 @@ SMG_GENERATOR_NETHERRACK:
 SMG_GENERATOR_SAND:
   description:
   - '&7Pasywnie generuje piasek.'
-  name: '&eGenerator piasku'
+  name: 'Generator piasku'
   stats:
   - '&8⇨ &7Produkuje co &e8 ticków'
   type:
@@ -69,7 +69,7 @@ SMG_GENERATOR_SAND:
 SMG_GENERATOR_SAND_BROKEN:
   description:
   - '&8Uszkodzony generator.'
-  name: '&eGenerator piasku &8(Zepsuty)'
+  name: 'Generator piasku (Zepsuty)'
   type:
   - '&7&oKomponent generatora'
   usage:
@@ -77,7 +77,7 @@ SMG_GENERATOR_SAND_BROKEN:
 SMG_GENERATOR_SMOOTH_STONE:
   description:
   - '&7Pasywnie generuje gładki kamień.'
-  name: '&7Generator gładkiego kamienia'
+  name: 'Generator gładkiego kamienia'
   stats:
   - '&8⇨ &7Produkuje co &e12 ticków'
   type:
@@ -87,7 +87,7 @@ SMG_GENERATOR_SMOOTH_STONE:
 SMG_GENERATOR_SMOOTH_STONE_BROKEN:
   description:
   - '&8Uszkodzony generator.'
-  name: '&7Generator gładkiego kamienia &8(Zepsuty)'
+  name: 'Generator gładkiego kamienia (Zepsuty)'
   type:
   - '&7&oKomponent generatora'
   usage:
@@ -95,7 +95,7 @@ SMG_GENERATOR_SMOOTH_STONE_BROKEN:
 SMG_GENERATOR_SOUL_SAND:
   description:
   - '&7Pasywnie generuje piasek dusz.'
-  name: '&8Generator piasku dusz'
+  name: 'Generator piasku dusz'
   stats:
   - '&8⇨ &7Produkuje co &e8 ticków'
   type:
@@ -105,7 +105,7 @@ SMG_GENERATOR_SOUL_SAND:
 SMG_GENERATOR_STONE:
   description:
   - '&7Pasywnie generuje kamień.'
-  name: '&7Generator kamienia'
+  name: 'Generator kamienia'
   stats:
   - '&8⇨ &7Produkuje co &e8 ticków'
   type:
@@ -115,7 +115,7 @@ SMG_GENERATOR_STONE:
 SMG_GENERATOR_STONE_BROKEN:
   description:
   - '&8Uszkodzony generator.'
-  name: '&7Generator kamienia &8(Zepsuty)'
+  name: 'Generator kamienia (Zepsuty)'
   type:
   - '&7&oKomponent generatora'
   usage:

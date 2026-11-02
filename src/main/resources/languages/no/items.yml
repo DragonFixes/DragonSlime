@@ -1,7 +1,7 @@
 SMG_GENERATOR_COBBLESTONE:
   description:
   - '&7Genererer passivt brostein.'
-  name: '&7Brosteinsgenerator'
+  name: 'Brosteinsgenerator'
   stats:
   - '&8⇨ &7Produserer hvert &e4 tikk'
   type:
@@ -11,7 +11,7 @@ SMG_GENERATOR_COBBLESTONE:
 SMG_GENERATOR_GLASS:
   description:
   - '&7Genererer passivt glass.'
-  name: '&fGlassgenerator'
+  name: 'Glassgenerator'
   stats:
   - '&8⇨ &7Produserer hvert &e12 tikk'
   type:
@@ -21,7 +21,7 @@ SMG_GENERATOR_GLASS:
 SMG_GENERATOR_GRAVEL:
   description:
   - '&7Genererer passivt grus.'
-  name: '&7Grusgenerator'
+  name: 'Grusgenerator'
   stats:
   - '&8⇨ &7Produserer hvert &e6 tikk'
   type:
@@ -31,7 +31,7 @@ SMG_GENERATOR_GRAVEL:
 SMG_GENERATOR_GRAVEL_BROKEN:
   description:
   - '&8En skadet generator.'
-  name: '&7Grusgenerator &8(Ødelagt)'
+  name: 'Grusgenerator (Ødelagt)'
   type:
   - '&7&oGeneratorkomponent'
   usage:
@@ -40,7 +40,7 @@ SMG_GENERATOR_MULTIBLOCK:
   description:
   - '&7Bygg alle generatorene til denne'
   - '&7utvidelsen på denne måten.'
-  name: '&9Generatormultiblokk'
+  name: 'Generatormultiblokk'
   type:
   - '&7&oMultiblokk'
   usage:
@@ -49,7 +49,7 @@ SMG_GENERATOR_MULTIBLOCK:
 SMG_GENERATOR_NETHERRACK:
   description:
   - '&7Genererer passivt netherrack.'
-  name: '&cNetherrackgenerator'
+  name: 'Netherrackgenerator'
   stats:
   - '&8⇨ &7Produserer hvert &e6 tikk'
   type:
@@ -59,7 +59,7 @@ SMG_GENERATOR_NETHERRACK:
 SMG_GENERATOR_SAND:
   description:
   - '&7Genererer passivt sand.'
-  name: '&eSandgenerator'
+  name: 'Sandgenerator'
   stats:
   - '&8⇨ &7Produserer hvert &e8 tikk'
   type:
@@ -69,7 +69,7 @@ SMG_GENERATOR_SAND:
 SMG_GENERATOR_SAND_BROKEN:
   description:
   - '&8En skadet generator.'
-  name: '&eSandgenerator &8(Ødelagt)'
+  name: 'Sandgenerator (Ødelagt)'
   type:
   - '&7&oGeneratorkomponent'
   usage:
@@ -77,7 +77,7 @@ SMG_GENERATOR_SAND_BROKEN:
 SMG_GENERATOR_SMOOTH_STONE:
   description:
   - '&7Genererer passivt glatt stein.'
-  name: '&7Glatt steingenerator'
+  name: 'Glatt steingenerator'
   stats:
   - '&8⇨ &7Produserer hvert &e12 tikk'
   type:
@@ -87,7 +87,7 @@ SMG_GENERATOR_SMOOTH_STONE:
 SMG_GENERATOR_SMOOTH_STONE_BROKEN:
   description:
   - '&8En skadet generator.'
-  name: '&7Glatt steingenerator &8(Ødelagt)'
+  name: 'Glatt steingenerator (Ødelagt)'
   type:
   - '&7&oGeneratorkomponent'
   usage:
@@ -95,7 +95,7 @@ SMG_GENERATOR_SMOOTH_STONE_BROKEN:
 SMG_GENERATOR_SOUL_SAND:
   description:
   - '&7Genererer passivt sjelesand.'
-  name: '&8Sjelesandgenerator'
+  name: 'Sjelesandgenerator'
   stats:
   - '&8⇨ &7Produserer hvert &e8 tikk'
   type:
@@ -105,7 +105,7 @@ SMG_GENERATOR_SOUL_SAND:
 SMG_GENERATOR_STONE:
   description:
   - '&7Genererer passivt stein.'
-  name: '&7Steingenerator'
+  name: 'Steingenerator'
   stats:
   - '&8⇨ &7Produserer hvert &e8 tikk'
   type:
@@ -115,7 +115,7 @@ SMG_GENERATOR_STONE:
 SMG_GENERATOR_STONE_BROKEN:
   description:
   - '&8En skadet generator.'
-  name: '&7Steingenerator &8(Ødelagt)'
+  name: 'Steingenerator (Ødelagt)'
   type:
   - '&7&oGeneratorkomponent'
   usage:

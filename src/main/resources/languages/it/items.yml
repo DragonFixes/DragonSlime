@@ -1,7 +1,7 @@
 SMG_GENERATOR_COBBLESTONE:
   description:
   - '&7Genera passivamente pietrisco.'
-  name: '&7Generatore di Pietrisco'
+  name: 'Generatore di Pietrisco'
   stats:
   - '&8⇨ &7Produce ogni &e4 tick'
   type:
@@ -11,7 +11,7 @@ SMG_GENERATOR_COBBLESTONE:
 SMG_GENERATOR_GLASS:
   description:
   - '&7Genera passivamente vetro.'
-  name: '&fGeneratore di Vetro'
+  name: 'Generatore di Vetro'
   stats:
   - '&8⇨ &7Produce ogni &e12 tick'
   type:
@@ -21,7 +21,7 @@ SMG_GENERATOR_GLASS:
 SMG_GENERATOR_GRAVEL:
   description:
   - '&7Genera passivamente ghiaia.'
-  name: '&7Generatore di Ghiaia'
+  name: 'Generatore di Ghiaia'
   stats:
   - '&8⇨ &7Produce ogni &e6 tick'
   type:
@@ -31,7 +31,7 @@ SMG_GENERATOR_GRAVEL:
 SMG_GENERATOR_GRAVEL_BROKEN:
   description:
   - '&8Un generatore danneggiato.'
-  name: '&7Generatore di Ghiaia &8(Rotto)'
+  name: 'Generatore di Ghiaia (Rotto)'
   type:
   - '&7&oComponente del generatore'
   usage:
@@ -40,7 +40,7 @@ SMG_GENERATOR_MULTIBLOCK:
   description:
   - '&7Costruisci così uno qualsiasi dei'
   - '&7generatori di questo addon.'
-  name: '&9Generatore Multiblocco'
+  name: 'Generatore Multiblocco'
   type:
   - '&7&oMultiblocco'
   usage:
@@ -49,7 +49,7 @@ SMG_GENERATOR_MULTIBLOCK:
 SMG_GENERATOR_NETHERRACK:
   description:
   - '&7Genera passivamente netherrack.'
-  name: '&cGeneratore di Netherrack'
+  name: 'Generatore di Netherrack'
   stats:
   - '&8⇨ &7Produce ogni &e6 tick'
   type:
@@ -59,7 +59,7 @@ SMG_GENERATOR_NETHERRACK:
 SMG_GENERATOR_SAND:
   description:
   - '&7Genera passivamente sabbia.'
-  name: '&eGeneratore di Sabbia'
+  name: 'Generatore di Sabbia'
   stats:
   - '&8⇨ &7Produce ogni &e8 tick'
   type:
@@ -69,7 +69,7 @@ SMG_GENERATOR_SAND:
 SMG_GENERATOR_SAND_BROKEN:
   description:
   - '&8Un generatore danneggiato.'
-  name: '&eGeneratore di Sabbia &8(Rotto)'
+  name: 'Generatore di Sabbia (Rotto)'
   type:
   - '&7&oComponente del generatore'
   usage:
@@ -77,7 +77,7 @@ SMG_GENERATOR_SAND_BROKEN:
 SMG_GENERATOR_SMOOTH_STONE:
   description:
   - '&7Genera passivamente pietra liscia.'
-  name: '&7Generatore di Pietra Liscia'
+  name: 'Generatore di Pietra Liscia'
   stats:
   - '&8⇨ &7Produce ogni &e12 tick'
   type:
@@ -87,7 +87,7 @@ SMG_GENERATOR_SMOOTH_STONE:
 SMG_GENERATOR_SMOOTH_STONE_BROKEN:
   description:
   - '&8Un generatore danneggiato.'
-  name: '&7Generatore di Pietra Liscia &8(Rotto)'
+  name: 'Generatore di Pietra Liscia (Rotto)'
   type:
   - '&7&oComponente del generatore'
   usage:
@@ -95,7 +95,7 @@ SMG_GENERATOR_SMOOTH_STONE_BROKEN:
 SMG_GENERATOR_SOUL_SAND:
   description:
   - '&7Genera passivamente sabbia delle anime.'
-  name: '&8Generatore di Sabbia delle Anime'
+  name: 'Generatore di Sabbia delle Anime'
   stats:
   - '&8⇨ &7Produce ogni &e8 tick'
   type:
@@ -105,7 +105,7 @@ SMG_GENERATOR_SOUL_SAND:
 SMG_GENERATOR_STONE:
   description:
   - '&7Genera passivamente pietra.'
-  name: '&7Generatore di Pietra'
+  name: 'Generatore di Pietra'
   stats:
   - '&8⇨ &7Produce ogni &e8 tick'
   type:
@@ -115,7 +115,7 @@ SMG_GENERATOR_STONE:
 SMG_GENERATOR_STONE_BROKEN:
   description:
   - '&8Un generatore danneggiato.'
-  name: '&7Generatore di Pietra &8(Rotto)'
+  name: 'Generatore di Pietra (Rotto)'
   type:
   - '&7&oComponente del generatore'
   usage:
