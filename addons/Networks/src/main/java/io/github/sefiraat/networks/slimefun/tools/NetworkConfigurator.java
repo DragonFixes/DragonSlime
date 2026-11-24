@@ -1,0 +1,99 @@
+package io.github.sefiraat.networks.slimefun.tools;
+
+import io.github.sefiraat.networks.utils.Messages;
+import io.github.sefiraat.networks.slimefun.network.NetworkDirectional;
+import io.github.sefiraat.networks.slimefun.network.NetworkPusher;
+import io.github.sefiraat.networks.utils.Keys;
+import io.github.sefiraat.networks.utils.NetworkUtils;
+import io.github.sefiraat.networks.utils.StackUtils;
+import io.github.sefiraat.networks.utils.Theme;
+import io.github.sefiraat.networks.utils.datatypes.DataTypeMethods;
+import io.github.thebusybiscuit.slimefun5.api.events.PlayerRightClickEvent;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
+import io.github.sefiraat.networks.compat.Pdc;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
+import me.mrCookieSlime.Slimefun.api.BlockStorage;
+import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
+import org.bukkit.Material;
+import org.bukkit.block.Block;
+import org.bukkit.block.BlockFace;
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
+
+import javax.annotation.Nonnull;
+import java.util.Optional;
+
+public class NetworkConfigurator extends SlimefunItem {
+
+    public NetworkConfigurator(ItemGroup itemGroup, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
+        super(itemGroup, item, recipeType, recipe);
+        addItemHandler(
+            new ItemUseHandler() {
+                @Override
+                public void onRightClick(PlayerRightClickEvent e) {
+                    final Player player = e.getPlayer();
+                    final Optional<Block> optional = e.getClickedBlock();
+                    if (optional.isPresent()) {
+                        final Block block = optional.get();
+                        final SlimefunItem slimefunItem = BlockStorage.check(block);
+                        if (Slimefun.getProtectionManager().hasPermission(player, block, Interaction.INTERACT_BLOCK)
+                            && slimefunItem instanceof NetworkDirectional
+                        ) {
+                            NetworkDirectional directional = (NetworkDirectional) slimefunItem;
+                            final BlockMenu blockMenu = BlockStorage.getInventory(block);
+                            if (player.isSneaking()) {
+                                setConfigurator(directional, e.getItem(), blockMenu, player);
+                            } else {
+                                NetworkUtils.applyConfig(directional, e.getItem(), blockMenu, player);
+                            }
+                        } else {
+                            Messages.send(player, Theme.ERROR, "configurator.needs-directional", "Must target a directional Networks interface.");
+                        }
+                    }
+                    e.cancel();
+                }
+            }
+        );
+    }
+
+    private void setConfigurator(@Nonnull NetworkDirectional directional, @Nonnull ItemStack itemStack, @Nonnull BlockMenu blockMenu, @Nonnull Player player) {
+        final BlockFace blockFace = NetworkDirectional.getSelectedFace(blockMenu.getLocation());
+
+        if (blockFace == null) {
+            Messages.send(player, Theme.ERROR, "configurator.no-direction-set", "This directional does not yet have a direction set");
+            return;
+        }
+
+        final ItemMeta itemMeta = itemStack.getItemMeta();
+
+        if (directional.getItemSlots().length > 0) {
+            final ItemStack[] itemStacks = new ItemStack[directional.getItemSlots().length];
+
+            int i = 0;
+            for (int slot : directional.getItemSlots()) {
+                final ItemStack possibleStack = blockMenu.getItemInSlot(slot);
+                if (possibleStack != null) {
+                    itemStacks[i] = StackUtils.getAsQuantity(blockMenu.getItemInSlot(slot), 1);
+                }
+                i++;
+            }
+            DataTypeMethods.setItemStackArray(itemMeta, Keys.ITEM.toString(), itemStacks);
+        } else {
+            Pdc.remove(itemMeta, Keys.ITEM.toString());
+        }
+
+        DataTypeMethods.setString(itemMeta, Keys.FACE.toString(), blockFace.name());
+        itemStack.setItemMeta(itemMeta);
+        Messages.send(player, Theme.SUCCESS, "configurator.copied", "Configuration copied.");
+    }
+}
+
+
+
+
