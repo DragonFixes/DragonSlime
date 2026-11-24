@@ -18,7 +18,6 @@ import javax.annotation.Nullable;
 import io.github.thebusybiscuit.slimefun5.storage.data.PlayerData;
 import org.apache.commons.lang.Validate;
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.command.CommandSender;
@@ -28,7 +27,6 @@ import org.bukkit.inventory.ItemStack;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableSet;
 
-import io.github.bakedlibs.dough.common.ChatColors;
 import io.github.bakedlibs.dough.common.CommonPatterns;
 import io.github.bakedlibs.dough.config.Config;
 import io.github.thebusybiscuit.slimefun5.api.events.AsyncProfileLoadEvent;
@@ -37,6 +35,7 @@ import io.github.thebusybiscuit.slimefun5.api.items.HashedArmorpiece;
 import io.github.thebusybiscuit.slimefun5.api.researches.Research;
 import io.github.thebusybiscuit.slimefun5.core.attributes.ProtectionType;
 import io.github.thebusybiscuit.slimefun5.core.attributes.ProtectiveArmor;
+import io.github.thebusybiscuit.slimefun5.core.checks.sandbox.Sandbox;
 import io.github.thebusybiscuit.slimefun5.core.debug.Debug;
 import io.github.thebusybiscuit.slimefun5.core.debug.TestCase;
 import io.github.thebusybiscuit.slimefun5.core.guide.GuideHistory;
@@ -135,8 +134,15 @@ public class PlayerProfile {
 
     /**
      * This method will save the Player's Researches and Backpacks to the hard drive
+     *
+     * @implNote A sandbox player's profile lives only in memory, see {@link Sandbox}.
      */
     public void save() {
+        if (Sandbox.isSandboxPlayer(this.ownerId)) {
+            dirty = false;
+            return;
+        }
+
         Slimefun.getPlayerStorage().savePlayerData(this.ownerId, this.data);
         dirty = false;
     }
@@ -341,11 +347,15 @@ public class PlayerProfile {
         float progress = Math.round(((unlockedResearches * 100.0F) / allResearches) * 100.0F) / 100.0F;
 
         sender.sendMessage("");
-        sender.sendMessage(ChatColors.color("&7Statistics for Player: &b" + name));
+        Slimefun.getLocalization().sendMessage(sender, "commands.stats.header", false, msg -> msg.replace("%player%", name));
         sender.sendMessage("");
-        sender.sendMessage(ChatColors.color("&7Title: " + ChatColor.AQUA + getTitle()));
-        sender.sendMessage(ChatColors.color("&7Research Progress: " + NumberUtils.getColorFromPercentage(progress) + progress + " &r% " + ChatColor.YELLOW + '(' + unlockedResearches + " / " + allResearches + ')'));
-        sender.sendMessage(ChatColors.color("&7Total XP Levels spent: " + ChatColor.AQUA + levels));
+        Slimefun.getLocalization().sendMessage(sender, "commands.stats.title", false, msg -> msg.replace("%title%", getTitle()));
+        Slimefun.getLocalization().sendMessage(sender, "commands.stats.progress", false, msg -> msg
+            .replace("%color%", NumberUtils.getColorFromPercentage(progress).toString())
+            .replace("%percent%", String.valueOf(progress))
+            .replace("%unlocked%", String.valueOf(unlockedResearches))
+            .replace("%total%", String.valueOf(allResearches)));
+        Slimefun.getLocalization().sendMessage(sender, "commands.stats.xp-spent", false, msg -> msg.replace("%levels%", String.valueOf(levels)));
     }
 
     /**

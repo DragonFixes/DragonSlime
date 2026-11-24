@@ -18,6 +18,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.Chunk;
 import org.bukkit.Location;
 import org.bukkit.Material;
+import org.bukkit.World;
 import org.bukkit.block.Block;
 import org.bukkit.scheduler.BukkitScheduler;
 
@@ -25,6 +26,7 @@ import io.github.bakedlibs.dough.blocks.BlockPosition;
 import io.github.bakedlibs.dough.blocks.ChunkPosition;
 import io.github.thebusybiscuit.slimefun5.api.ErrorReport;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.core.checks.sandbox.Sandbox;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
@@ -352,11 +354,18 @@ public class TickerTask implements Runnable {
     /**
      * This enables the ticker at the given {@link Location} and adds it to our "queue".
      * 
+     * @implNote A block the checks placed is never ticked: its machine logic would race the checks, and its
+     *           failures would write error reports to disk.
+     *
      * @param l
      *            The {@link Location} to activate
      */
     public void enableTicker(@Nonnull Location l) {
         Validate.notNull(l, "Location cannot be null!");
+
+        if (Sandbox.covers(null, l.getWorld())) {
+            return;
+        }
 
         ChunkPosition chunk = new ChunkPosition(l.getWorld(), l.getBlockX() >> 4, l.getBlockZ() >> 4);
 
@@ -377,6 +386,40 @@ public class TickerTask implements Runnable {
             oldValue.add(l);
         } else {
             newValue.add(l);
+        }
+    }
+
+    /**
+     * Drops every ticking, moving and queued-for-deletion {@link Location} of a {@link World} whose block data
+     * is about to go away, since a queued deletion in a world without block data throws on every tick.
+     *
+     * @param world
+     *            The {@link World} to forget
+     */
+    public void forgetWorld(@Nonnull World world) {
+        Validate.notNull(world, "World cannot be null!");
+
+        deletionQueue.keySet().removeIf(l -> isIn(l, world));
+        movingQueue.entrySet().removeIf(move -> isIn(move.getKey(), world) || isIn(move.getValue(), world));
+
+        for (Map.Entry<ChunkPosition, Set<Location>> entry : tickingLocations.entrySet()) {
+            Set<Location> locations = entry.getValue();
+            if (locations.removeIf(l -> isIn(l, world)) && locations.isEmpty()) {
+                tickingLocations.remove(entry.getKey(), locations);
+            }
+        }
+    }
+
+    /**
+     * @implNote From 1.14 a {@link Location} whose world was unloaded and collected throws on
+     *           {@link Location#getWorld()}. The ticker keeps such locations, so they must count as being in no
+     *           world rather than break the caller.
+     */
+    private static boolean isIn(@Nonnull Location l, @Nonnull World world) {
+        try {
+            return l.getWorld() == world;
+        } catch (IllegalArgumentException unloaded) {
+            return false;
         }
     }
 

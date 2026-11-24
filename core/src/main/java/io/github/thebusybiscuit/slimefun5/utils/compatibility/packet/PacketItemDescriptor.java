@@ -1,26 +1,69 @@
 package io.github.thebusybiscuit.slimefun5.utils.compatibility.packet;
 
 import java.lang.reflect.Array;
+import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.function.Function;
 import java.util.function.UnaryOperator;
 
+import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
 /**
- * Describes an item-bearing clientbound packet and knows how to rewrite the item(s) it carries. Resolved
- * reflectively per server version; families whose class does not resolve are simply not produced.
+ * Describes an item-bearing packet and knows how to rewrite the item(s) it carries. Resolved reflectively
+ * per server version; families whose class does not resolve are simply not produced.
  */
 public final class PacketItemDescriptor {
 
-    /** Candidate simple/class names across the version range (Spigot obf + Mojang-mapped Paper). */
-    private static final String[][] FAMILIES = {
-        { "net.minecraft.network.protocol.game.ClientboundContainerSetSlotPacket" },
-        { "net.minecraft.network.protocol.game.ClientboundContainerSetContentPacket" },
-        // Legacy Spigot NMS lived in net.minecraft.server.<ver>; resolved via the server package below.
-        { "PacketPlayOutSetSlot" },
-        { "PacketPlayOutWindowItems" },
+    /**
+     * One row per packet, holding that packet's name under each mapping; the first that resolves wins.
+     *
+     * @implNote Three spellings: Mojang names (Paper 1.20.5+), Spigot names in the 1.17+ Mojang
+     *           package (Paper 1.17 to 1.20.4 and plain Spigot at any later version), and bare Spigot
+     *           names, retried under the pre-1.17 {@code net.minecraft.server.<ver>} package. The cursor and
+     *           player-inventory packets only exist from 1.21.2, where only the Mojang name is known.
+     */
+    private static final String[][] OUTBOUND_FAMILIES = {
+        {
+            "net.minecraft.network.protocol.game.ClientboundContainerSetSlotPacket",
+            "net.minecraft.network.protocol.game.PacketPlayOutSetSlot",
+            "PacketPlayOutSetSlot",
+        },
+        {
+            "net.minecraft.network.protocol.game.ClientboundContainerSetContentPacket",
+            "net.minecraft.network.protocol.game.PacketPlayOutWindowItems",
+            "PacketPlayOutWindowItems",
+        },
+        {
+            "net.minecraft.network.protocol.game.ClientboundSetCursorItemPacket",
+        },
+        {
+            "net.minecraft.network.protocol.game.ClientboundSetPlayerInventoryPacket",
+        },
+    };
+
+    /**
+     * Packets in which a client sends back stacks it was shown.
+     *
+     * @implNote From 1.21.5 the click packet carries {@code HashedStack}s instead of stacks, so it still
+     *           resolves there but has nothing to rewrite.
+     */
+    private static final String[][] INBOUND_FAMILIES = {
+        {
+            "net.minecraft.network.protocol.game.ServerboundSetCreativeModeSlotPacket",
+            "net.minecraft.network.protocol.game.PacketPlayInSetCreativeSlot",
+            "PacketPlayInSetCreativeSlot",
+        },
+        {
+            "net.minecraft.network.protocol.game.ServerboundContainerClickPacket",
+            "net.minecraft.network.protocol.game.PacketPlayInWindowClick",
+            "PacketPlayInWindowClick",
+        },
     };
 
     private final Class<?> packetClass;
@@ -31,14 +74,58 @@ public final class PacketItemDescriptor {
         this.nmsItemClass = nmsItemClass;
     }
 
+    /** This descriptor for a packet class located some other way, such as a test's stand-in. */
+    @Nonnull
+    public static PacketItemDescriptor of(@Nonnull Class<?> packetClass, @Nonnull Class<?> nmsItemClass) {
+        return new PacketItemDescriptor(packetClass, nmsItemClass);
+    }
+
+    /** The set-slot packet, or {@code null} when it does not resolve. */
+    @Nullable
+    public static PacketItemDescriptor resolveSetSlot() {
+        return resolveOutbound(0);
+    }
+
+    /** The packet holding a whole window's contents, or {@code null} when it does not resolve. */
+    @Nullable
+    public static PacketItemDescriptor resolveWindowItems() {
+        return resolveOutbound(1);
+    }
+
+    /** The cursor-item packet, or {@code null} below 1.21.2, where it does not exist. */
+    @Nullable
+    public static PacketItemDescriptor resolveCursorItem() {
+        return resolveOutbound(2);
+    }
+
+    /** The player-inventory slot packet, or {@code null} below 1.21.2, where it does not exist. */
+    @Nullable
+    public static PacketItemDescriptor resolvePlayerInventory() {
+        return resolveOutbound(3);
+    }
+
+    @Nullable
+    private static PacketItemDescriptor resolveOutbound(int family) {
+        List<PacketItemDescriptor> resolved = resolve(new String[][] { OUTBOUND_FAMILIES[family] });
+        return resolved.isEmpty() ? null : resolved.get(0);
+    }
+
     public static List<PacketItemDescriptor> resolveAll() {
+        return resolve(OUTBOUND_FAMILIES);
+    }
+
+    public static List<PacketItemDescriptor> resolveInbound() {
+        return resolve(INBOUND_FAMILIES);
+    }
+
+    private static List<PacketItemDescriptor> resolve(String[][] families) {
         Class<?> nmsItem = resolveNmsItemClass();
         List<PacketItemDescriptor> out = new ArrayList<>();
         if (nmsItem == null) {
             return out;
         }
         String legacyPkg = legacyNmsPackage();
-        for (String[] family : FAMILIES) {
+        for (String[] family : families) {
             for (String name : family) {
                 Class<?> c = tryClass(name);
                 if (c == null && legacyPkg != null && name.indexOf('.') < 0) {
@@ -57,8 +144,236 @@ public final class PacketItemDescriptor {
         return packet != null && packetClass.isInstance(packet);
     }
 
-    /** Rewrites every NMS item the packet carries via {@code itemRewriter}. Never throws. */
+    /**
+     * A new set-slot packet putting {@code nmsItem} into {@code slot} of window {@code windowId}, built with this
+     * server's own constructor and never sent anywhere, or {@code null} when no constructor takes ints and one item.
+     *
+     * @implNote From 1.17 the packet also carries a state id between the window id and the slot, which is 0 here.
+     */
+    @Nullable
+    public Object newSlotPacket(int windowId, int slot, @Nonnull Object nmsItem) {
+        return construct(parameterTypes -> slotArgumentsFor(parameterTypes, windowId, slot, nmsItem, 2));
+    }
+
+    /**
+     * A new packet carrying nothing but {@code nmsItem} and at most one int, which is 0, as the cursor-item and
+     * player-inventory packets do, or {@code null} when no constructor has that shape.
+     */
+    @Nullable
+    public Object newSingleItemPacket(@Nonnull Object nmsItem) {
+        return construct(parameterTypes -> slotArgumentsFor(parameterTypes, 0, 0, nmsItem, 0));
+    }
+
+    /**
+     * A new window-contents packet for window {@code windowId} holding {@code nmsItems} in order, built with this
+     * server's own constructor, or {@code null} when none takes ints, a list and at most one item.
+     *
+     * @param carried the stack the packet reports on the cursor, where its constructor takes one
+     * @implNote From 1.11 the list parameter is Mojang's own fixed-size list type, which has no public constructor,
+     *           so it is made through that type's static factory taking a size and a default element.
+     */
+    @Nullable
+    public Object newListPacket(int windowId, @Nonnull List<Object> nmsItems, @Nullable Object carried) {
+        return construct(parameterTypes -> listArgumentsFor(parameterTypes, windowId, nmsItems, carried));
+    }
+
+    /**
+     * Every item a window-contents packet carries, in slot order, or {@code null} when it carries no list or
+     * array of items; an empty slot may be {@code null} (1.8).
+     */
+    @Nullable
+    public List<Object> itemsOf(@Nonnull Object packet) {
+        Object list = PacketReflect.fieldValueOfType(packet, List.class);
+        if (list instanceof List) {
+            return new ArrayList<>((List<?>) list);
+        }
+        try {
+            Field arrayField = PacketReflect.firstFieldOfArrayType(packet, nmsItemClass);
+            Object array = arrayField == null ? null : arrayField.get(packet);
+            if (array == null) {
+                return null;
+            }
+            List<Object> items = new ArrayList<>();
+            for (int i = 0; i < Array.getLength(array); i++) {
+                items.add(Array.get(array, i));
+            }
+            return items;
+        } catch (Throwable unreadable) {
+            return null;
+        }
+    }
+
+    @Nullable
+    private Object construct(Function<Class<?>[], Object[]> argumentsFor) {
+        for (Constructor<?> constructor : packetClass.getDeclaredConstructors()) {
+            Object[] arguments = argumentsFor.apply(constructor.getParameterTypes());
+            if (arguments != null) {
+                try {
+                    constructor.setAccessible(true);
+                    return constructor.newInstance(arguments);
+                } catch (Throwable refused) {
+                    // try the next constructor
+                }
+            }
+        }
+        return null;
+    }
+
+    @Nullable
+    private Object[] listArgumentsFor(Class<?>[] parameterTypes, int windowId, List<Object> nmsItems, @Nullable Object carried) {
+        Object[] arguments = new Object[parameterTypes.length];
+        int intsUsed = 0;
+        boolean hasList = false;
+        boolean hasCarried = false;
+        for (int i = 0; i < parameterTypes.length; i++) {
+            Class<?> type = parameterTypes[i];
+            if (type == int.class && intsUsed < 2) {
+                arguments[i] = intsUsed == 0 ? windowId : 0;
+                intsUsed++;
+            } else if (!hasList && List.class.isAssignableFrom(type)) {
+                arguments[i] = listOfType(type, nmsItems);
+                if (arguments[i] == null) {
+                    return null;
+                }
+                hasList = true;
+            } else if (!hasCarried && type.isAssignableFrom(nmsItemClass)) {
+                arguments[i] = carried;
+                hasCarried = true;
+            } else {
+                return null;
+            }
+        }
+        return hasList && intsUsed > 0 ? arguments : null;
+    }
+
+    @Nullable
+    @SuppressWarnings("unchecked")
+    private static Object listOfType(Class<?> listType, List<Object> elements) {
+        if (listType.isAssignableFrom(ArrayList.class)) {
+            return new ArrayList<>(elements);
+        }
+        if (elements.isEmpty()) {
+            return null;
+        }
+        for (Method factory : listType.getDeclaredMethods()) {
+            Class<?>[] parameters = factory.getParameterTypes();
+            boolean sizedWithDefault = parameters.length == 2 && parameters[0] == int.class && parameters[1] == Object.class;
+            if (Modifier.isStatic(factory.getModifiers()) && sizedWithDefault && listType.isAssignableFrom(factory.getReturnType())) {
+                try {
+                    factory.setAccessible(true);
+                    List<Object> list = (List<Object>) factory.invoke(null, elements.size(), elements.get(0));
+                    for (int i = 0; i < elements.size(); i++) {
+                        list.set(i, elements.get(i));
+                    }
+                    return list;
+                } catch (Throwable refused) {
+                    // try the next factory
+                }
+            }
+        }
+        return null;
+    }
+
+    /** The single item a packet carries, or {@code null} when it carries none. */
+    @Nullable
+    public Object itemOf(@Nonnull Object packet) {
+        Object item = PacketReflect.fieldValueOfType(packet, nmsItemClass);
+        return nmsItemClass.isInstance(item) ? item : null;
+    }
+
+    /**
+     * @param minimumInts 2 for set-slot (window id, from 1.17 a state id, then the slot), 0 for a packet whose one
+     *                    int, if it has one, is the slot
+     */
+    @Nullable
+    private Object[] slotArgumentsFor(Class<?>[] parameterTypes, int windowId, int slot, Object nmsItem, int minimumInts) {
+        int ints = parameterTypes.length - 1;
+        int maximumInts = minimumInts == 0 ? 1 : 3;
+        if (ints < minimumInts || ints > maximumInts) {
+            return null;
+        }
+        Object[] arguments = new Object[parameterTypes.length];
+        int intsUsed = 0;
+        boolean hasItem = false;
+        for (int i = 0; i < parameterTypes.length; i++) {
+            if (parameterTypes[i] == int.class && intsUsed < ints) {
+                arguments[i] = ints == 1 ? slot : intsUsed == 0 ? windowId : intsUsed == ints - 1 ? slot : 0;
+                intsUsed++;
+            } else if (!hasItem && parameterTypes[i].isAssignableFrom(nmsItemClass)) {
+                arguments[i] = nmsItem;
+                hasItem = true;
+            } else {
+                return null;
+            }
+        }
+        return hasItem ? arguments : null;
+    }
+
+    /**
+     * Rewrites every NMS item the packet carries via {@code itemRewriter}, returning either the same packet
+     * changed in place or, for a record, a rebuilt copy. Never throws; on any failure the original packet is
+     * returned.
+     */
     public Object rewrite(Object packet, UnaryOperator<Object> itemRewriter) {
+        RecordShape shape = RecordShape.of(packetClass);
+        if (shape != null) {
+            return rebuildRecord(shape, packet, itemRewriter);
+        }
+        rewriteFields(packet, itemRewriter);
+        return packet;
+    }
+
+    /**
+     * @implNote A record's fields cannot be set by reflection even after {@code setAccessible}, so the
+     *           components are read through their accessors and passed to the canonical constructor. Lists
+     *           are copied rather than changed in place, so a list the server still holds never receives a
+     *           viewer's translation.
+     */
+    private Object rebuildRecord(RecordShape shape, Object packet, UnaryOperator<Object> itemRewriter) {
+        try {
+            Object[] components = shape.components(packet);
+            boolean changed = false;
+            for (int i = 0; i < components.length; i++) {
+                Object rewritten = rewriteComponent(components[i], itemRewriter);
+                if (rewritten != components[i]) {
+                    components[i] = rewritten;
+                    changed = true;
+                }
+            }
+            return changed ? shape.construct(components) : packet;
+        } catch (Throwable failure) {
+            return packet;
+        }
+    }
+
+    private Object rewriteComponent(Object value, UnaryOperator<Object> itemRewriter) {
+        if (nmsItemClass.isInstance(value)) {
+            return rewriteItem(value, itemRewriter);
+        }
+        if (value instanceof List) {
+            List<?> list = (List<?>) value;
+            List<Object> copy = null;
+            for (int i = 0; i < list.size(); i++) {
+                Object element = list.get(i);
+                Object rewritten = nmsItemClass.isInstance(element) ? rewriteItem(element, itemRewriter) : element;
+                if (rewritten != element && copy == null) {
+                    copy = new ArrayList<>(list);
+                }
+                if (copy != null) {
+                    copy.set(i, rewritten);
+                }
+            }
+            return copy != null ? copy : value;
+        }
+        return value;
+    }
+
+    private static Object rewriteItem(Object item, UnaryOperator<Object> itemRewriter) {
+        Object rewritten = itemRewriter.apply(item);
+        return rewritten != null ? rewritten : item;
+    }
+
+    private void rewriteFields(Object packet, UnaryOperator<Object> itemRewriter) {
         try {
             // List payload (WindowItems / SetContent): mutate elements in place.
             Field listField = PacketReflect.firstFieldOfType(packet, List.class);
@@ -97,6 +412,24 @@ public final class PacketItemDescriptor {
                     }
                 }
             }
+            // Map payload (the 1.17 to 1.21.4 click packet's changed slots, freshly decoded per packet).
+            Field mapField = PacketReflect.firstFieldOfType(packet, Map.class);
+            if (mapField != null) {
+                Object mapObj = mapField.get(packet);
+                if (mapObj instanceof Map) {
+                    @SuppressWarnings("unchecked")
+                    Map<Object, Object> map = (Map<Object, Object>) mapObj;
+                    for (Object slot : new ArrayList<>(map.keySet())) {
+                        Object el = map.get(slot);
+                        if (nmsItemClass.isInstance(el)) {
+                            Object rewritten = itemRewriter.apply(el);
+                            if (rewritten != null && rewritten != el) {
+                                map.put(slot, rewritten);
+                            }
+                        }
+                    }
+                }
+            }
             // Single-item payload (SetSlot / ContainerSetSlot, or the carried/cursor item
             // alongside the list on ClientboundContainerSetContentPacket): set the field if writable.
             Field itemField = PacketReflect.firstFieldOfType(packet, nmsItemClass);
@@ -112,7 +445,6 @@ public final class PacketItemDescriptor {
         } catch (Throwable ignored) {
             // fall through to returning the original packet (fallback)
         }
-        return packet;
     }
 
     private static boolean trySet(Field f, Object owner, Object value) {

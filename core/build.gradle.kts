@@ -101,6 +101,8 @@ dependencies {
     // runtime, so nothing is bundled - no new runtime dependency). Pinned to 4.0.23 (the version MC 1.8
     // ships) so the compiler rejects any 4.1-only API and the bytecode resolves on every 1.8→26.x server.
     compileOnly("io.netty:netty-all:4.0.23.Final")
+    // The packet-translation service cannot even be loaded without Netty, and the checks' tests build one.
+    testRuntimeOnly("io.netty:netty-all:4.0.23.Final")
 
     testImplementation(platform("org.junit:junit-bom:5.11.4"))
     testImplementation("org.junit.jupiter:junit-jupiter")
@@ -119,6 +121,29 @@ dependencies {
     }
     testImplementation("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
     testCompileOnly("com.google.code.findbugs:jsr305:3.0.2")
+    // The ASM 3 that 1.8.x servers bundle (as Ebean's com.avaje.ebean.enhance.asm), for the sandbox facade tests.
+    testImplementation("org.avaje:ebean:2.8.1") {
+        isTransitive = false
+    }
+}
+
+// 1.8.8 declares InventoryView.getTitle final, so the 1.14-1.20.6 subclass compiles against a never-shipped 1.14 stub.
+val inventoryViewStub: SourceSet = sourceSets.create("inventoryViewStub")
+val titledInventoryView: SourceSet = sourceSets.create("titledInventoryView")
+
+dependencies {
+    "inventoryViewStubCompileOnly"("org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT") {
+        isTransitive = false
+    }
+}
+
+tasks.named<JavaCompile>(inventoryViewStub.compileJavaTaskName) {
+    options.encoding = "UTF-8"
+}
+
+tasks.named<JavaCompile>(titledInventoryView.compileJavaTaskName) {
+    options.encoding = "UTF-8"
+    classpath = inventoryViewStub.output + sourceSets.main.get().output + configurations.compileClasspath.get()
 }
 
 // Tests deliberately do NOT extend compileOnly: main compiles against spigot-api 1.8.8 + the stubs, but
@@ -163,12 +188,18 @@ tasks {
         include("**/GuideBookDisplayTest*")
         include("**/EnchantTranslationTest.java")
         include("**/EnchantTranslationTest*")
+        include("**/VanillaTranslationTest.java")
+        include("**/VanillaTranslationTest*")
         include("**/WikiTextLanguageTest.java")
         include("**/WikiTextLanguageTest*")
+        include("**/WikiTopicOwnerTest*")
         include("**/CoverageTest.java")
         include("**/CoverageTest*")
         include("**/PacketReflectTest.java")
         include("**/PacketReflectTest*")
+        include("**/PacketRecordRebuildTest*")
+        include("**/ShownOriginalTest*")
+        include("**/PendingWindowTitlesTest*")
         include("**/AddonVersionFormatTest.java")
         include("**/AddonVersionFormatTest*")
         include("**/ThreadSafeStorageMapsTest.java")
@@ -179,6 +210,39 @@ tasks {
         include("**/MySqlDialectTest*")
         include("**/MigrationServiceTest*")
         include("**/GuideCategoryTest*")
+        include("**/MenuSlotKeyTest*")
+        include("**/RuntimeLoreTest*")
+        include("**/MenuVariantResolutionTest*")
+        include("**/CheckRunnerTest*")
+        include("**/FacadeTest*")
+        include("**/SandboxIsolationTest*")
+        include("**/MultiBlockAssemblyWorldTest*")
+        include("**/MenuChecksTest*")
+        include("**/VanillaContainerCheckTest*")
+        include("**/FedPacketsTest*")
+        include("**/ItemPacketShapesTest*")
+        include("**/StyledTextTest*")
+        include("**/ItemPacketCheckTest*")
+        include("**/StageTest*")
+        include("**/CheckReportTest*")
+        include("**/CrashesTest*")
+        include("**/SlimefunItemStackQuantityTest*")
+        include("**/LiveChecksTest*")
+        include("**/CheckCommandTest*")
+        include("**/RegistryChecksTest*")
+        include("**/AddonStalenessCheckTest*")
+        include("**/EnglishNameLintTest*")
+        include("**/ItemTranslationTestAccess*")
+        include("**/PacketWatchTest*")
+        include("**/TextProblemsTest*")
+        include("**/MenuStackWatchTest*")
+        include("**/MenuAuthoringGateTest*")
+        include("**/MenuVariantCaptureTest*")
+        include("**/PerViewerMenuMessagesTest*")
+        include("**/MenuSlotStampingTest*")
+        include("**/MenuSlotNoPdcTest*")
+        include("**/NbtItemCompatSharedTagsTest*")
+        include("**/GuideWidgetNameTest*")
         include("**/AddonMenuTest*")
         include("**/CategoryMenuDiagnosticTest*")
         include("**/AddonManifestTest.java")
@@ -200,6 +264,8 @@ tasks {
         include("**/VanillaContainerTitleListenerTest*")
         include("**/MenuTranslationServiceHeaderColorTest.java")
         include("**/MenuTranslationServiceHeaderColorTest*")
+        include("**/ItemNameStyleTest*")
+        include("**/ItemTierRenderTest*")
         include("**/PacketWindowTitleDescriptorTest.java")
         include("**/PacketWindowTitleDescriptorTest*")
         include("**/TestMultiBlockAssembler.java")
@@ -216,6 +282,11 @@ tasks {
         include("**/MachineAuditTest*")
         include("**/VariantGroupTest*")
         include("**/GuideVariantCollapseTest*")
+        include("**/AddonMessageServiceTest*")
+        include("**/LiveLoreTest*")
+        include("**/AddonNameContributionTest*")
+        include("**/TestFireworkUtils*")
+        include("**/TestChatUtils*")
     }
     test {
         enabled = true
@@ -236,9 +307,14 @@ tasks {
         include("**/PacketRenderTest*")
         include("**/GuideBookDisplayTest*")
         include("**/EnchantTranslationTest*")
+        include("**/VanillaTranslationTest*")
         include("**/WikiTextLanguageTest*")
+        include("**/WikiTopicOwnerTest*")
         include("**/CoverageTest*")
         include("**/PacketReflectTest*")
+        include("**/PacketRecordRebuildTest*")
+        include("**/ShownOriginalTest*")
+        include("**/PendingWindowTitlesTest*")
         include("**/AddonVersionFormatTest*")
         include("**/ThreadSafeStorageMapsTest*")
         include("**/LegacyFileBackendTest*")
@@ -248,6 +324,39 @@ tasks {
         include("**/MySqlDialectTest*")
         include("**/MigrationServiceTest*")
         include("**/GuideCategoryTest*")
+        include("**/MenuSlotKeyTest*")
+        include("**/RuntimeLoreTest*")
+        include("**/MenuVariantResolutionTest*")
+        include("**/CheckRunnerTest*")
+        include("**/FacadeTest*")
+        include("**/SandboxIsolationTest*")
+        include("**/MultiBlockAssemblyWorldTest*")
+        include("**/MenuChecksTest*")
+        include("**/VanillaContainerCheckTest*")
+        include("**/FedPacketsTest*")
+        include("**/ItemPacketShapesTest*")
+        include("**/StyledTextTest*")
+        include("**/ItemPacketCheckTest*")
+        include("**/StageTest*")
+        include("**/CheckReportTest*")
+        include("**/CrashesTest*")
+        include("**/SlimefunItemStackQuantityTest*")
+        include("**/LiveChecksTest*")
+        include("**/CheckCommandTest*")
+        include("**/RegistryChecksTest*")
+        include("**/AddonStalenessCheckTest*")
+        include("**/EnglishNameLintTest*")
+        include("**/ItemTranslationTestAccess*")
+        include("**/PacketWatchTest*")
+        include("**/TextProblemsTest*")
+        include("**/MenuStackWatchTest*")
+        include("**/MenuAuthoringGateTest*")
+        include("**/MenuVariantCaptureTest*")
+        include("**/PerViewerMenuMessagesTest*")
+        include("**/MenuSlotStampingTest*")
+        include("**/MenuSlotNoPdcTest*")
+        include("**/NbtItemCompatSharedTagsTest*")
+        include("**/GuideWidgetNameTest*")
         include("**/AddonMenuTest*")
         include("**/CategoryMenuDiagnosticTest*")
         include("**/AddonManifestTest*")
@@ -260,6 +369,8 @@ tasks {
         include("**/BlockListenerCustomNameTest*")
         include("**/VanillaContainerTitleListenerTest*")
         include("**/MenuTranslationServiceHeaderColorTest*")
+        include("**/ItemNameStyleTest*")
+        include("**/ItemTierRenderTest*")
         include("**/PacketWindowTitleDescriptorTest*")
         include("**/TestMultiBlockAssembler*")
         include("**/UntranslatedNameRootCauseTest*")
@@ -269,6 +380,11 @@ tasks {
         include("**/MachineAuditTest*")
         include("**/VariantGroupTest*")
         include("**/GuideVariantCollapseTest*")
+        include("**/AddonMessageServiceTest*")
+        include("**/LiveLoreTest*")
+        include("**/AddonNameContributionTest*")
+        include("**/TestFireworkUtils*")
+        include("**/TestChatUtils*")
     }
 
     processResources {
@@ -301,6 +417,7 @@ tasks {
         from(rootProject.projectDir) {
             include("LICENSE")
         }
+        from(titledInventoryView.output)
 
         // XSeries 9.10.0's regex "MC: \d\.(\d+)" can't parse a 26.x major; binary-patch the relocated
         // XMaterial$Data constant to "MC: (?:1\.)?(\d+)" (a newer XSeries would need Java 11+).
@@ -924,6 +1041,8 @@ val cloneAndBuildAddons by tasks.registering {
         // runtime error), so every failure - build or missing-jar - is collected here and surfaced in one
         // unmissable summary after the loop, instead of scrolling off with the per-addon build log.
         val failedAddons = mutableListOf<String>()
+        // A fetch that fails leaves the old commit in place, which the hash check would otherwise report as "no updates".
+        val unfetchedAddons = mutableListOf<String>()
 
         for (addon in addons) {
             // Each entry is Owner/Repo or Owner/Repo@branch (run.ps1 appends the chosen branch).
@@ -947,15 +1066,19 @@ val cloneAndBuildAddons by tasks.registering {
                 println("[localAddons] using working copy of $label as-is")
             } else if (repoDir.exists() && isGitRepoRoot(repoDir)) {
                 println("Pulling latest for $label...")
-                runProcess(gitCeiling(ProcessBuilder("git", "-c", "safe.directory=*", "fetch", "--all").directory(repoDir)), 2)
+                val fetched = (1..3).any {
+                    runProcess(gitCeiling(ProcessBuilder("git", "-c", "safe.directory=*", "fetch", "--all").directory(repoDir)), 2) == 0
+                }
+                if (!fetched) {
+                    println("WARNING: could not fetch $label; building its last fetched commit, which may be stale")
+                    unfetchedAddons.add(label)
+                }
                 runProcess(gitCeiling(ProcessBuilder("git", "-c", "safe.directory=*", "remote", "set-head", "origin", "-a").directory(repoDir)), 1)
-                // Fork policy: all addon work (balance.yml, en/items.yml, ports) lives on `experimental`.
-                // When run.ps1 doesn't pin a branch, default to experimental - NOT origin/HEAD, which is
-                // `stable` and predates our commits (a stale clone stuck on stable is why pushed balance/lore
-                // never reached the built jars). Fall back to origin/HEAD only for repos with no experimental.
+                // Addon work lands on `development` before `main`, so an unpinned run builds development:
+                // origin/HEAD is `main` and lags it. Fall back to origin/HEAD only for repos without one.
                 val effectiveBranch = when {
                     branch.isNotBlank() -> branch
-                    runProcess(gitCeiling(ProcessBuilder("git", "-c", "safe.directory=*", "rev-parse", "--verify", "--quiet", "origin/experimental").directory(repoDir)), 1) == 0 -> "experimental"
+                    runProcess(gitCeiling(ProcessBuilder("git", "-c", "safe.directory=*", "rev-parse", "--verify", "--quiet", "origin/development").directory(repoDir)), 1) == 0 -> "development"
                     else -> ""
                 }
                 val ref = if (effectiveBranch.isNotBlank()) "origin/$effectiveBranch" else "origin/HEAD"
@@ -974,8 +1097,7 @@ val cloneAndBuildAddons by tasks.registering {
                     repoDir.deleteRecursively()
                 }
                 println("Cloning $label...")
-                val cloneBranch = if (branch.isNotBlank()) branch else "experimental"
-                // Prefer the experimental branch; fall back to the repo default if it has no such branch.
+                val cloneBranch = if (branch.isNotBlank()) branch else "development"
                 val cloned = runProcess(ProcessBuilder("git", "-c", "safe.directory=*", "clone", "-b", cloneBranch, "https://github.com/$ownerRepo.git").directory(addonsSrcDir), 5)
                 if (cloned != 0) {
                     runProcess(ProcessBuilder("git", "-c", "safe.directory=*", "clone", "https://github.com/$ownerRepo.git").directory(addonsSrcDir), 5)
@@ -1048,6 +1170,18 @@ val cloneAndBuildAddons by tasks.registering {
                 println("WARNING: No compiled jar found for $addon")
                 failedAddons.add(label)
             }
+        }
+
+        if (unfetchedAddons.isNotEmpty()) {
+            val warning = buildString {
+                appendLine()
+                appendLine("=".repeat(70))
+                appendLine("ADDON SOURCE WARNING: ${unfetchedAddons.size} addon(s) could not be fetched and may be stale:")
+                unfetchedAddons.forEach { appendLine("  - $it") }
+                appendLine("=".repeat(70))
+            }
+            println(warning)
+            project.gradle.buildFinished { println(warning) }
         }
 
         if (failedAddons.isNotEmpty()) {

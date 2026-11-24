@@ -23,6 +23,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.inventory.ItemStack;
 
 import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.core.checks.LiveChecks;
 import io.github.thebusybiscuit.slimefun5.core.guide.categories.ItemTypeClassifier;
 
 import com.google.gson.JsonElement;
@@ -145,6 +146,17 @@ public final class PostSetup {
                 }
             }
         }
+
+        Slimefun.getWikiText().attributeLegacyTopics();
+    }
+
+    /** The checks are a diagnostic, so nothing they do may stop the rest of start-up. */
+    private static void startChecks() {
+        try {
+            LiveChecks.onStartup();
+        } catch (Throwable failure) {
+            Slimefun.logger().log(Level.SEVERE, "The checks could not start; Slimefun starts without them", failure);
+        }
     }
 
     public static void loadItems() {
@@ -166,6 +178,7 @@ public final class PostSetup {
         }
 
         Bukkit.getPluginManager().callEvent(new SlimefunItemRegistryFinalizedEvent());
+        startChecks();
 
         loadAddonWikis();
         lintItemGroupLabels();

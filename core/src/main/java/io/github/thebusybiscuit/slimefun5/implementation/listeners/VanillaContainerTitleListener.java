@@ -4,7 +4,6 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import javax.annotation.ParametersAreNonnullByDefault;
 
-import org.bukkit.Nameable;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockState;
 import org.bukkit.entity.HumanEntity;
@@ -60,7 +59,7 @@ public class VanillaContainerTitleListener implements Listener {
 
         InventoryHolder holder = e.getInventory().getHolder();
 
-        if (!(holder instanceof Nameable) || !(holder instanceof BlockState)) {
+        if (!(holder instanceof BlockState)) {
             return;
         }
 
@@ -102,7 +101,7 @@ public class VanillaContainerTitleListener implements Listener {
     }
 
     @Nonnull
-    static String resolveTitle(@Nonnull String itemId, @Nullable String languageId) {
+    public static String resolveTitle(@Nonnull String itemId, @Nullable String languageId) {
         ItemTranslationService.RenderedDisplay display = Slimefun.getItemTranslationService()
             .renderForPacket(itemId, languageId, TranslationConfig.fallback(), false);
         return display != null ? display.name : itemId;

@@ -1,13 +1,16 @@
 package io.github.thebusybiscuit.slimefun5.core.services.localization;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
+import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -17,7 +20,11 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import io.github.thebusybiscuit.slimefun5.api.events.PlayerLanguageChangeEvent;
+import io.github.thebusybiscuit.slimefun5.api.items.LiveLore;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.core.checks.LiveChecks;
+import io.github.thebusybiscuit.slimefun5.core.checks.packets.PacketWatch;
+import io.github.thebusybiscuit.slimefun5.core.checks.sandbox.Sandbox;
 import io.github.thebusybiscuit.slimefun5.core.guide.options.ItemDescriptionsOption;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.utils.compatibility.PdcCompat;
@@ -42,6 +49,9 @@ public class PacketTranslationService implements Listener {
     private static final String NO_LANGUAGE = "";
 
     private final List<PacketItemDescriptor> descriptors;
+
+    /** Packets carrying stacks a client sends back, whose translation must be undone before the server reads them. */
+    private final List<PacketItemDescriptor> inboundDescriptors;
 
     /**
      * @implNote Snapshotted once at construction (like descriptors above) rather than re-read per packet:
@@ -83,42 +93,27 @@ public class PacketTranslationService implements Listener {
     private final PacketWindowTitleDescriptor windowTitleDescriptor;
 
     /**
-     * The vanilla-container {@link SlimefunItem} id each player is expected to see the very next
-     * open-window packet for, set by {@link #notifyVanillaContainerOpen} (main thread, during
-     * {@code InventoryOpenEvent}) and consumed - removed - by the Netty write handler that intercepts
-     * that packet. Never read/written directly from anywhere else.
+     * The title each player's very next open-window packet is to carry, set on the main thread by
+     * {@link #notifyVanillaContainerOpen} or {@link #notifyWindowTitle} and taken by the Netty write handler
+     * that intercepts that packet. Never read/written directly from anywhere else.
      */
-    private final Map<UUID, PendingWindowTitle> pendingWindowTitle = new ConcurrentHashMap<>();
+    private final PendingWindowTitles pendingWindowTitles = new PendingWindowTitles(System::nanoTime);
 
-    /** See {@link #pendingWindowTitle}. */
-    private static final class PendingWindowTitle {
+    /** Players whose channel carries the translation handler; apart from sandbox players, only their windows can be retitled by packet. */
+    private final Set<UUID> injectedPlayers = ConcurrentHashMap.newKeySet();
 
-        /**
-         * @implNote Bukkit sends the open-window packet synchronously, in the same main-thread call as
-         *           the {@code InventoryOpenEvent} that sets this entry, so it is normally consumed within
-         *           microseconds. This bound only guards the pathological case where that packet is never
-         *           sent at all (e.g. a later exception aborts the open) - without it, a stale entry could
-         *           get applied to a later, unrelated container the same player opens.
-         */
-        private static final long MAX_AGE_NANOS = 2_000_000_000L;
-
-        private final String itemId;
-        private final long setAtNanos = System.nanoTime();
-
-        PendingWindowTitle(String itemId) {
-            this.itemId = itemId;
-        }
-
-        boolean isStale() {
-            return System.nanoTime() - setAtNanos > MAX_AGE_NANOS;
-        }
+    private PacketTranslationService(@Nonnull List<PacketItemDescriptor> descriptors, @Nonnull List<PacketItemDescriptor> inboundDescriptors,
+            @Nullable PacketWindowTitleDescriptor windowTitleDescriptor) {
+        this.descriptors = descriptors;
+        this.inboundDescriptors = inboundDescriptors;
+        this.fallback = TranslationConfig.fallback();
+        this.languageSource = TranslationConfig.languageSource();
+        this.windowTitleDescriptor = windowTitleDescriptor;
     }
 
     public PacketTranslationService(@Nonnull Slimefun plugin) {
-        this.descriptors = PacketItemDescriptor.resolveAll();
-        this.fallback = TranslationConfig.fallback();
-        this.languageSource = TranslationConfig.languageSource();
-        this.windowTitleDescriptor = TranslationConfig.packetsEnabled() ? PacketWindowTitleDescriptor.resolve() : null;
+        this(PacketItemDescriptor.resolveAll(), PacketItemDescriptor.resolveInbound(),
+            TranslationConfig.packetsEnabled() ? PacketWindowTitleDescriptor.resolve() : null);
 
         if (!TranslationConfig.packetsEnabled() || (descriptors.isEmpty() && windowTitleDescriptor == null)) {
             Slimefun.logger().info("Packet item translation disabled or unsupported on this version; "
@@ -126,8 +121,19 @@ public class PacketTranslationService implements Listener {
             return;
         }
 
+        Slimefun.logger().info("Packet item translation active (" + descriptors.size() + " item packets, "
+            + inboundDescriptors.size() + " inbound, window titles " + (windowTitleDescriptor != null ? "on" : "off") + ").");
         plugin.getServer().getPluginManager().registerEvents(this, plugin);
         injectAll();
+    }
+
+    /**
+     * A service that translates only the packets handed to {@link #translateOutbound}: it listens to no event and
+     * injects no channel.
+     */
+    @Nonnull
+    public static PacketTranslationService withoutChannels(@Nonnull PacketWindowTitleDescriptor windowTitleDescriptor) {
+        return new PacketTranslationService(Collections.emptyList(), Collections.emptyList(), windowTitleDescriptor);
     }
 
     /**
@@ -140,6 +146,79 @@ public class PacketTranslationService implements Listener {
     }
 
     /**
+     * Whether this player's next open-window packet can be retitled: the server supports it and this
+     * player's channel carries the handler. When {@code false}, a caller falls back to {@code setTitle}.
+     *
+     * @implNote A sandbox player has no channel; the checks feed its packets through {@link #translateOutbound}
+     *           instead, so it takes the packet path exactly as a real player with the handler does.
+     */
+    public boolean canRetitleWindowFor(@Nonnull Player player) {
+        UUID playerId = player.getUniqueId();
+        return windowTitleDescriptor != null && (injectedPlayers.contains(playerId) || Sandbox.isSandboxPlayer(playerId));
+    }
+
+    /** Whether a title is recorded for the open-window packet this player receives next. */
+    public boolean hasPendingWindowTitle(@Nonnull Player player) {
+        return pendingWindowTitles.isPending(player.getUniqueId());
+    }
+
+    /**
+     * Translates an outbound packet for this player exactly as the handler on their channel would, and returns
+     * the packet to send in its place. The translation never throws; for a sandbox player the refresh before it
+     * may, so the check feeding the packet reports it instead of reading a stale language.
+     *
+     * @implNote A sandbox player never joins through an event and is given its language after it is online, so
+     *           its cached language and description preference are refreshed here; for a sandbox player this must
+     *           run on the main thread.
+     */
+    @Nonnull
+    public Object translateOutbound(@Nonnull Player player, @Nonnull Object packet) {
+        if (Sandbox.isSandboxPlayer(player.getUniqueId())) {
+            refreshLanguage(player);
+            refreshDescriptions(player);
+        }
+        return translate(player, packet);
+    }
+
+    /**
+     * The stack as this player should be shown it, computed by the same rewrite an outbound packet gets but on a
+     * copy and without any packet, so a check can tell what the packet layer itself changes.
+     *
+     * @implNote Same main-thread rule for a sandbox player as {@link #translateOutbound}.
+     */
+    @Nonnull
+    public ItemStack shownWithoutPacket(@Nonnull Player player, @Nonnull ItemStack stack) {
+        if (Sandbox.isSandboxPlayer(player.getUniqueId())) {
+            refreshLanguage(player);
+            refreshDescriptions(player);
+        }
+        ItemStack copy = stack.clone();
+        if (!copy.hasItemMeta()) {
+            return copy;
+        }
+        String cached = languageCache.get(player.getUniqueId());
+        String language = NO_LANGUAGE.equals(cached) ? null : cached;
+        TranslatedStack translated = translatedCopy(copy, player.getUniqueId(), language, fallback);
+        return translated == null ? copy : translated.stack;
+    }
+
+    /**
+     * Records an already resolved title for the open-window packet {@code player} is about to receive. Must
+     * be called on the main thread, before the window is opened. A no-op when {@link #canRetitleWindowFor}
+     * is {@code false}.
+     */
+    public void notifyWindowTitle(@Nonnull Player player, @Nonnull String title) {
+        if (canRetitleWindowFor(player)) {
+            pendingWindowTitles.expectTitle(player.getUniqueId(), title);
+        }
+    }
+
+    /** Drops a title recorded for a window that, in the end, did not open. */
+    public void cancelWindowTitle(@Nonnull Player player) {
+        pendingWindowTitles.cancel(player.getUniqueId());
+    }
+
+    /**
      * Records that {@code player} is about to receive the open-window packet for a vanilla-container
      * {@link SlimefunItem} block with the given id, so the Netty write handler can retitle that exact
      * packet before it reaches the client. Must be called from {@code InventoryOpenEvent} (main thread),
@@ -148,7 +227,7 @@ public class PacketTranslationService implements Listener {
      */
     public void notifyVanillaContainerOpen(@Nonnull Player player, @Nonnull String itemId) {
         if (windowTitleDescriptor != null) {
-            pendingWindowTitle.put(player.getUniqueId(), new PendingWindowTitle(itemId));
+            pendingWindowTitles.expectItem(player.getUniqueId(), itemId);
         }
     }
 
@@ -172,7 +251,8 @@ public class PacketTranslationService implements Listener {
         // Channel is torn down by the server; nothing to clean up explicitly.
         languageCache.remove(e.getPlayer().getUniqueId());
         descriptionsCache.remove(e.getPlayer().getUniqueId());
-        pendingWindowTitle.remove(e.getPlayer().getUniqueId());
+        pendingWindowTitles.cancel(e.getPlayer().getUniqueId());
+        injectedPlayers.remove(e.getPlayer().getUniqueId());
     }
 
     /**
@@ -229,7 +309,8 @@ public class PacketTranslationService implements Listener {
 
         try {
             if (channel.pipeline().get(HANDLER_NAME) != null) {
-                return; // already injected
+                injectedPlayers.add(player.getUniqueId());
+                return;
             }
             channel.pipeline().addBefore("packet_handler", HANDLER_NAME, new ChannelDuplexHandler() {
                 @Override
@@ -237,7 +318,13 @@ public class PacketTranslationService implements Listener {
                     Object out = translate(player, msg);
                     super.write(ctx, out, promise);
                 }
+
+                @Override
+                public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
+                    super.channelRead(ctx, restoreShownOriginals(msg));
+                }
             });
+            injectedPlayers.add(player.getUniqueId());
         } catch (Throwable t) {
             // "packet_handler" absent or pipeline locked → skip; player sees canonical id (fallback).
             // Logged (once per join, not spammy) so an operator on a fork with a differently-named
@@ -251,7 +338,10 @@ public class PacketTranslationService implements Listener {
     private Object translate(Player player, Object msg) {
         try {
             if (windowTitleDescriptor != null && windowTitleDescriptor.matches(msg)) {
-                applyPendingWindowTitle(player, msg);
+                String applied = applyPendingWindowTitle(player, msg);
+                if (applied != null) {
+                    watchTitle(player.getUniqueId(), applied);
+                }
                 return msg;
             }
 
@@ -271,22 +361,59 @@ public class PacketTranslationService implements Listener {
         return msg;
     }
 
-    /**
-     * Retitles an outbound open-window packet to the pending vanilla-container item's own (per-viewer
-     * translated) name, if {@link #notifyVanillaContainerOpen} recorded one recently enough for this
-     * player. One-shot: the pending entry is removed regardless of whether it was still fresh, so a
-     * later, unrelated open-window packet for the same player never reuses it.
-     */
-    private void applyPendingWindowTitle(@Nonnull Player player, @Nonnull Object packet) {
-        PendingWindowTitle pending = pendingWindowTitle.remove(player.getUniqueId());
-
-        if (pending == null || pending.isStale()) {
-            return;
+    private void watchTitle(UUID playerId, String appliedTitle) {
+        try {
+            PacketWatch watch = LiveChecks.activeWatch();
+            if (watch != null && !Sandbox.isSandboxPlayer(playerId)) {
+                watch.observe("title", ChatColor.stripColor(appliedTitle), appliedTitle);
+            }
+        } catch (Throwable ignored) {
+            // the watch must never affect the packet
         }
+    }
 
+    /**
+     * Must run before the rewrite, which replaces the very lore it reads.
+     */
+    private void watchHiddenLore(ItemStack bukkit, String id) {
+        try {
+            PacketWatch watch = LiveChecks.activeWatch();
+            if (watch != null) {
+                List<String> hidden = HiddenLore.of(bukkit, id);
+                if (!hidden.isEmpty()) {
+                    watch.reportHiddenLore(id, hidden.get(0));
+                }
+            }
+        } catch (Throwable ignored) {
+            // the watch must never affect the packet
+        }
+    }
+
+    private void watchItem(UUID playerId, TranslatedStack translated) {
+        try {
+            PacketWatch watch = LiveChecks.activeWatch();
+            if (watch != null && translated.shownName != null && !Sandbox.isSandboxPlayer(playerId)) {
+                watch.observe("item", translated.subject, translated.shownName);
+            }
+        } catch (Throwable ignored) {
+            // the watch must never affect the packet
+        }
+    }
+
+    /**
+     * Retitles an outbound open-window packet to the title recorded for this player, if one was recorded
+     * recently enough: a resolved title as it is, a vanilla-container item by its per-viewer name. One-shot,
+     * so a later, unrelated open-window packet for the same player never reuses it.
+     *
+     * @return the title the packet now carries, or {@code null} when it was left as it was
+     */
+    @Nullable
+    private String applyPendingWindowTitle(@Nonnull Player player, @Nonnull Object packet) {
         String cached = languageCache.get(player.getUniqueId());
         String language = NO_LANGUAGE.equals(cached) ? null : cached;
-        windowTitleDescriptor.retitle(packet, resolveWindowTitle(pending.itemId, language));
+        String title = pendingWindowTitles.take(player.getUniqueId(), itemId -> resolveWindowTitle(itemId, language));
+
+        return title != null && windowTitleDescriptor.retitle(packet, title) ? title : null;
     }
 
     /**
@@ -301,40 +428,145 @@ public class PacketTranslationService implements Listener {
         return display != null ? display.name : itemId;
     }
 
+    /** Returns msg, or a rebuilt copy whose shown stacks carry the server's own name and lore again. Never throws. */
+    private Object restoreShownOriginals(Object msg) {
+        try {
+            for (PacketItemDescriptor descriptor : inboundDescriptors) {
+                if (descriptor.matches(msg)) {
+                    return descriptor.rewrite(msg, PacketTranslationService::restoreItem);
+                }
+            }
+        } catch (Throwable ignored) {
+            // fall through
+        }
+        return msg;
+    }
+
+    private static Object restoreItem(Object nmsItem) {
+        ItemStack bukkit = PacketReflect.asBukkit(nmsItem);
+        if (bukkit == null || !bukkit.hasItemMeta() || !ShownOriginal.restore(bukkit)) {
+            return nmsItem;
+        }
+        Object restored = PacketReflect.asNms(bukkit);
+        return restored != null ? restored : nmsItem;
+    }
+
     private Object rewriteItem(Object nmsItem, UUID playerId, String language, TranslationConfig.FallbackMode fallback) {
         ItemStack bukkit = PacketReflect.asBukkit(nmsItem);
         if (bukkit == null || !bukkit.hasItemMeta()) {
             return nmsItem;
         }
-        String id = Slimefun.getItemDataService().getItemData(bukkit).orElse(null);
-        if (id == null) {
-            return rewriteGuideBook(nmsItem, bukkit, language); // null id → maybe the guide book
+        ShownOriginal original = ShownOriginal.of(bukkit);
+        TranslatedStack translated = translatedCopy(bukkit, playerId, language, fallback);
+        if (translated == null) {
+            return nmsItem;
         }
-        boolean includeDescription = !Boolean.FALSE.equals(descriptionsCache.get(playerId)); // default true
-        PacketItemRewriter.applyPacketTranslation(bukkit, id, language, fallback, includeDescription);
-        Object rewritten = PacketReflect.asNms(bukkit);
+        watchItem(playerId, translated);
+        ItemStack shown = translated.stack;
+        original.stashOnto(shown);
+        Object rewritten = PacketReflect.asNms(shown);
         return rewritten != null ? rewritten : nmsItem;
     }
 
-    private Object rewriteGuideBook(Object nmsItem, ItemStack bukkit, String language) {
+    /**
+     * The stack as this viewer should see it, or {@code null} when nothing about it is translated.
+     *
+     * @implNote The id and the applied name come from the rewrite itself, so the watch reads nothing again.
+     */
+    @Nullable
+    private TranslatedStack translatedCopy(ItemStack bukkit, UUID playerId, String language, TranslationConfig.FallbackMode fallback) {
+        String id = Slimefun.getItemDataService().getItemData(bukkit).orElse(null);
+        if (id == null) {
+            ItemStack menuItem = Slimefun.getMenuTranslationService().rewriteStampedItem(bukkit, language);
+            if (menuItem != null) {
+                return menuStack(menuItem);
+            }
+            ItemStack guideBook = rewriteGuideBook(bukkit, language);
+            if (guideBook != null) {
+                return new TranslatedStack(guideBook, null, null);
+            }
+            ItemStack liveOnly = withLiveLore(bukkit, language);
+            return liveOnly != null ? new TranslatedStack(liveOnly, null, null) : null;
+        }
+        watchHiddenLore(bukkit, id);
+        boolean includeDescription = !Boolean.FALSE.equals(descriptionsCache.get(playerId)); // default true
+        String shownName = PacketItemRewriter.applyPacketTranslation(bukkit, id, language, fallback, includeDescription);
+        return new TranslatedStack(bukkit, id, shownName);
+    }
+
+    /**
+     * Reads the stamp and name back only while the watch is on, since a menu rewrite does not hand them out.
+     *
+     * @implNote A read that throws costs the watch this stack, never the packet its translation.
+     */
+    static TranslatedStack menuStack(ItemStack menuItem) {
+        if (LiveChecks.activeWatch() == null) {
+            return new TranslatedStack(menuItem, null, null);
+        }
+        try {
+            return watchedMenuStack(menuItem);
+        } catch (Throwable ignored) {
+            return new TranslatedStack(menuItem, null, null);
+        }
+    }
+
+    private static TranslatedStack watchedMenuStack(ItemStack menuItem) {
+        ItemMeta meta = menuItem.getItemMeta();
+        MenuSlotKey key = meta == null ? null : MenuSlotKey.parse(PdcCompat.getString(meta, Slimefun.getRegistry().getMenuSlotKey()));
+        boolean nameable = meta != null && key != null && meta.hasDisplayName();
+        String subject = key == null ? menuItem.getType().name() : MenuSlotKey.format(key.getPresetId(), key.getSlot());
+        return new TranslatedStack(menuItem, subject, nameable ? meta.getDisplayName() : null);
+    }
+
+    /** A stack core rewrote, with what the watch needs: who it is and the name it now shows ({@code null} when core set none). */
+    static final class TranslatedStack {
+
+        final ItemStack stack;
+        final String subject;
+        final String shownName;
+
+        private TranslatedStack(ItemStack stack, String subject, String shownName) {
+            this.stack = stack;
+            this.subject = subject;
+            this.shownName = shownName;
+        }
+    }
+
+    /**
+     * A stack without a Slimefun id, such as a vanilla item a storage displays, keeps its own lore and gains its
+     * live lines; {@code null} when it has none.
+     */
+    @Nullable
+    private ItemStack withLiveLore(ItemStack bukkit, String language) {
+        ItemMeta meta = bukkit.getItemMeta();
+        if (meta == null || LiveLore.get(meta).isEmpty()) {
+            return null;
+        }
+        List<String> own = meta.hasLore() ? meta.getLore() : Collections.<String>emptyList();
+        meta.setLore(LiveLoreRenderer.forPackets(fallback).appendTo(own, meta, language));
+        bukkit.setItemMeta(meta);
+        return bukkit;
+    }
+
+    @Nullable
+    private ItemStack rewriteGuideBook(ItemStack bukkit, String language) {
         ItemMeta meta = bukkit.getItemMeta();
         if (meta == null) {
-            return nmsItem;
+            return null;
         }
         String mode = PdcCompat.getString(meta, Slimefun.getRegistry().getGuideDataKey());
         if (mode == null) {
-            return nmsItem; // not the guide book
+            return null; // not the guide book
         }
         ItemTranslationService.RenderedDisplay d =
             Slimefun.getGuideBookDisplay().rendered(language, "CHEAT_MODE".equals(mode));
         if (d == null) {
-            return nmsItem;
+            return null;
         }
         meta.setDisplayName(d.name);
         meta.setLore(d.lore.isEmpty() ? null : d.lore);
         bukkit.setItemMeta(meta);
-        Object rewritten = PacketReflect.asNms(bukkit);
-        return rewritten != null ? rewritten : nmsItem;
+        return bukkit;
     }
 
 }

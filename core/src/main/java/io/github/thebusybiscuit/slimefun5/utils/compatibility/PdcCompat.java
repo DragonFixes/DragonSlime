@@ -2,7 +2,9 @@ package io.github.thebusybiscuit.slimefun5.utils.compatibility;
 
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.function.Predicate;
 
+import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
 import org.bukkit.inventory.meta.ItemMeta;
@@ -63,6 +65,8 @@ public final class PdcCompat {
      * charge, soulbound, limited uses).
      */
     private static org.bukkit.configuration.file.YamlConfiguration legacyStore;
+    private static final org.bukkit.configuration.file.YamlConfiguration MEMORY_STORE = new org.bukkit.configuration.file.YamlConfiguration();
+    private static volatile Predicate<Object> keptInMemory = holder -> false;
     private static java.io.File legacyFile;
 
     private static synchronized org.bukkit.configuration.file.YamlConfiguration legacy() {
@@ -71,6 +75,30 @@ public final class PdcCompat {
             legacyStore = org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(legacyFile);
         }
         return legacyStore;
+    }
+
+    /** Holders whose legacy data never reaches {@code legacy-pdc.yml}, such as everything the checks create. */
+    public static void keepInMemory(@Nonnull Predicate<Object> holders) {
+        keptInMemory = holders;
+    }
+
+    /** Drops what {@link #keepInMemory} held, once the holders it was for are gone. */
+    public static synchronized void forgetMemory() {
+        for (String key : MEMORY_STORE.getKeys(false)) {
+            MEMORY_STORE.set(key, null);
+        }
+    }
+
+    private static org.bukkit.configuration.file.YamlConfiguration storeFor(Object holder) {
+        return keptInMemory.test(holder) ? MEMORY_STORE : legacy();
+    }
+
+    private static void write(Object holder, String path, @Nullable Object value) {
+        org.bukkit.configuration.file.YamlConfiguration store = storeFor(holder);
+        store.set(path, value);
+        if (store != MEMORY_STORE) {
+            legacySave();
+        }
     }
 
     @Nullable
@@ -156,8 +184,7 @@ public final class PdcCompat {
 
         String path = legacyPath(holder, key);
         if (path != null) {
-            legacy().set(path, value);
-            legacySave();
+            write(holder, path, value);
         }
     }
 
@@ -176,7 +203,7 @@ public final class PdcCompat {
         }
 
         String path = legacyPath(holder, key);
-        return path != null ? legacy().get(path) : null;
+        return path != null ? storeFor(holder).get(path) : null;
     }
 
     public static Object getOrDefault(Object holder, NamespacedKey key, String typeName, Object defaultValue) {
@@ -198,7 +225,7 @@ public final class PdcCompat {
         }
 
         String path = legacyPath(holder, key);
-        return path != null && legacy().contains(path);
+        return path != null && storeFor(holder).contains(path);
     }
 
     /**
@@ -232,8 +259,7 @@ public final class PdcCompat {
 
         String path = legacyPath(holder, key);
         if (path != null) {
-            legacy().set(path, null);
-            legacySave();
+            write(holder, path, null);
         }
     }
 

@@ -16,6 +16,7 @@ import javax.annotation.Nullable;
 
 import io.github.thebusybiscuit.slimefun5.storage.Storage;
 import io.github.thebusybiscuit.slimefun5.storage.backend.BlockStorageBackend;
+import io.github.thebusybiscuit.slimefun5.core.checks.sandbox.RoutingBlockStorageBackend;
 import io.github.thebusybiscuit.slimefun5.storage.backend.jdbc.JdbcBackend;
 import io.github.thebusybiscuit.slimefun5.storage.backend.jdbc.MySqlDialect;
 import io.github.thebusybiscuit.slimefun5.storage.backend.jdbc.MySqlProvider;
@@ -60,9 +61,11 @@ import io.github.thebusybiscuit.slimefun5.core.services.CustomTextureService;
 import io.github.thebusybiscuit.slimefun5.core.services.LocalizationService;
 import io.github.thebusybiscuit.slimefun5.core.services.localization.GuideBookDisplay;
 import io.github.thebusybiscuit.slimefun5.core.services.localization.EnchantTranslationService;
+import io.github.thebusybiscuit.slimefun5.core.services.localization.VanillaTranslationService;
 import io.github.thebusybiscuit.slimefun5.core.guide.categories.DefaultGuideCategories;
 import io.github.thebusybiscuit.slimefun5.core.guide.categories.GuideCategoryRegistry;
 import io.github.thebusybiscuit.slimefun5.core.services.localization.ItemTranslationService;
+import io.github.thebusybiscuit.slimefun5.core.services.localization.AddonMessageService;
 import io.github.thebusybiscuit.slimefun5.core.services.localization.MenuTranslationService;
 import io.github.thebusybiscuit.slimefun5.core.services.localization.PacketTranslationService;
 import io.github.thebusybiscuit.slimefun5.core.services.localization.TranslationCoverageService;
@@ -217,10 +220,13 @@ public class Slimefun extends JavaPlugin implements SlimefunAddon {
     private final io.github.thebusybiscuit.slimefun5.core.services.MachineAuditService machineAuditService = new io.github.thebusybiscuit.slimefun5.core.services.MachineAuditService();
     private final io.github.thebusybiscuit.slimefun5.core.guide.variants.VariantGroupRegistry variantGroups = new io.github.thebusybiscuit.slimefun5.core.guide.variants.VariantGroupRegistry();
     private final GuideCategoryRegistry guideCategoryRegistry = new GuideCategoryRegistry();
+    private final io.github.thebusybiscuit.slimefun5.core.checks.CheckRegistry checkRegistry = new io.github.thebusybiscuit.slimefun5.core.checks.CheckRegistry();
     private final io.github.thebusybiscuit.slimefun5.core.guide.widgets.GuideWidgetRegistry guideWidgetRegistry = new io.github.thebusybiscuit.slimefun5.core.guide.widgets.GuideWidgetRegistry();
     private final io.github.thebusybiscuit.slimefun5.core.guide.menus.AddonMenuRegistry addonMenuRegistry = new io.github.thebusybiscuit.slimefun5.core.guide.menus.AddonMenuRegistry();
     private final EnchantTranslationService enchantTranslationService = new EnchantTranslationService();
+    private final VanillaTranslationService vanillaTranslationService = new VanillaTranslationService();
     private final MenuTranslationService menuTranslationService = new MenuTranslationService();
+    private final AddonMessageService addonMessageService = new AddonMessageService();
     private final TranslationCoverageService translationCoverageService = new TranslationCoverageService();
     private final GuideBookDisplay guideBookDisplay = new GuideBookDisplay();
     private PacketTranslationService packetTranslationService;
@@ -272,6 +278,12 @@ public class Slimefun extends JavaPlugin implements SlimefunAddon {
     @Override
     public void onEnable() {
         setInstance(this);
+        io.github.thebusybiscuit.slimefun5.core.checks.registry.RegistryChecks.registerInto(checkRegistry);
+        checkRegistry.register(new io.github.thebusybiscuit.slimefun5.core.checks.scenarios.MenuTitleCheck());
+        checkRegistry.register(new io.github.thebusybiscuit.slimefun5.core.checks.scenarios.MenuClickCheck());
+        checkRegistry.register(new io.github.thebusybiscuit.slimefun5.core.checks.scenarios.HiddenLoreCheck());
+        checkRegistry.register(new io.github.thebusybiscuit.slimefun5.core.checks.scenarios.VanillaContainerCheck());
+        checkRegistry.register(new io.github.thebusybiscuit.slimefun5.core.checks.scenarios.ItemPacketCheck());
 
         if (isUnitTest()) {
             // We handle Unit Tests seperately.
@@ -302,7 +314,7 @@ public class Slimefun extends JavaPlugin implements SlimefunAddon {
 
         // Unit tests always use flat-file storage regardless of config (the H2-default inversion
         // must not create a DB during tests).
-        blockStorageBackend = new LegacyFileBackend();
+        blockStorageBackend = new RoutingBlockStorageBackend(new LegacyFileBackend());
     }
 
     /**
@@ -448,6 +460,8 @@ public class Slimefun extends JavaPlugin implements SlimefunAddon {
             storageMigration = new MigrationService((JdbcBackend) blockStorageBackend, bootTimestamp);
         }
 
+        blockStorageBackend = new RoutingBlockStorageBackend(blockStorageBackend);
+
         // Setting up bStats and analytics. The bundled metrics module is compiled against this fork and
         // reports to the fork's own bStats project (id 31272); on by default (options.metrics-service).
         if (config.getBoolean("options.metrics-service")) {
@@ -489,6 +503,8 @@ public class Slimefun extends JavaPlugin implements SlimefunAddon {
         itemTranslationService.loadBundled();
         itemTranslationService.canonicalizeToId();
         enchantTranslationService.loadBundled();
+        vanillaTranslationService.loadBundledEnglish();
+        vanillaTranslationService.listen(this);
         menuTranslationService.loadBundled();
 
         // Pre-warm the balance caches (heavy per-item recipe-tree effort walks) once, after all addons have
@@ -545,6 +561,11 @@ public class Slimefun extends JavaPlugin implements SlimefunAddon {
             if (config.getBoolean("guide.dump-menu-baseline") || Boolean.getBoolean("slimefun.dumpMenuBaseline")) {
                 menuTranslationService.dumpBaseline(new File(getDataFolder(), "menus-baseline.yml"));
                 itemTranslationService.dumpUntranslated(new File(getDataFolder(), "untranslated-items.yml"), java.util.Arrays.asList("de"));
+                getLocalization().dumpAddonNames(new File(getDataFolder(), "addon-names-baseline.yml"));
+            }
+
+            if (Boolean.getBoolean("slimefun.dumpTierSeed")) {
+                io.github.thebusybiscuit.slimefun5.core.services.localization.ItemTierSeed.write(new File(getDataFolder(), "item-tier-seed.tsv"));
             }
 
         }), 0);
@@ -600,6 +621,12 @@ public class Slimefun extends JavaPlugin implements SlimefunAddon {
      */
     @Override
     public void onDisable() {
+        try {
+            io.github.thebusybiscuit.slimefun5.core.checks.LiveChecks.stop();
+        } catch (Throwable x) {
+            getLogger().log(Level.SEVERE, x, () -> "Could not stop the in-server checks, saving anyway");
+        }
+
         // Slimefun never loaded successfully, so we don't even bother doing stuff here
         if (instance() == null || minecraftVersion == MinecraftVersion.UNIT_TEST) {
             return;
@@ -843,6 +870,7 @@ public class Slimefun extends JavaPlugin implements SlimefunAddon {
         register(() -> new MultiBlockListener(this));
         register(() -> new MultiBlockRedstoneListener(this));
         register(() -> new io.github.thebusybiscuit.slimefun5.core.guide.installer.AddonUpdateJoinListener(this));
+        register(() -> new io.github.thebusybiscuit.slimefun5.core.checks.CheckJoinListener(this));
         register(() -> new GadgetsListener(this));
         register(() -> new DispenserListener(this));
         register(() -> new BlockListener(this));
@@ -1218,6 +1246,17 @@ public class Slimefun extends JavaPlugin implements SlimefunAddon {
     }
 
     /**
+     * This returns the {@link io.github.thebusybiscuit.slimefun5.core.checks.CheckRegistry} of Slimefun.
+     * Addons register their own bug checks here.
+     *
+     * @return The check registry for Slimefun
+     */
+    public static @Nonnull io.github.thebusybiscuit.slimefun5.core.checks.CheckRegistry getChecks() {
+        validateInstance();
+        return instance.checkRegistry;
+    }
+
+    /**
      * This returns the {@link GuideWidgetRegistry} of Slimefun.
      * Addons register functional guide screens (e.g. an advancement tree) here.
      *
@@ -1251,6 +1290,16 @@ public class Slimefun extends JavaPlugin implements SlimefunAddon {
     }
 
     /**
+     * This method returns the {@link VanillaTranslationService} of Slimefun.
+     *
+     * @return The {@link VanillaTranslationService} for Slimefun
+     */
+    public static @Nonnull VanillaTranslationService getVanillaTranslationService() {
+        validateInstance();
+        return instance.vanillaTranslationService;
+    }
+
+    /**
      * This method returns the {@link MenuTranslationService} of Slimefun.
      * It translates the decorative info items of block menus per language.
      *
@@ -1259,6 +1308,17 @@ public class Slimefun extends JavaPlugin implements SlimefunAddon {
     public static @Nonnull MenuTranslationService getMenuTranslationService() {
         validateInstance();
         return instance.menuTranslationService;
+    }
+
+    /**
+     * This method returns the {@link AddonMessageService} of Slimefun.
+     * It translates an addon's own chat and GUI text per viewer.
+     *
+     * @return The {@link AddonMessageService} for Slimefun
+     */
+    public static @Nonnull AddonMessageService getAddonMessageService() {
+        validateInstance();
+        return instance.addonMessageService;
     }
 
     /**

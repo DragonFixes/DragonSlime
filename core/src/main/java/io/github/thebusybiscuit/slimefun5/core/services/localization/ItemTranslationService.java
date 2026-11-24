@@ -24,7 +24,10 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import com.cryptomorin.xseries.XMaterial;
+
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.player.PlayerBackpack;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.implementation.items.VanillaItem;
 
@@ -71,8 +74,10 @@ public class ItemTranslationService {
 
     /**
      * A dynamic item family: an item id that matches {@link #pattern} (compiled from a key that used the
-     * capture token {@code %MOB%}, e.g. {@code "%MOB%_SOUL_JAR"}) resolves to {@link #template} with the
-     * {@code %mob%} placeholder replaced by the humanized captured segment. This lets an addon localize a
+     * capture token {@code %ENTITY%} (or its alias {@code %MOB%}) or {@code %MATERIAL%}, e.g. {@code "%MOB%_SOUL_JAR"}) resolves to
+     * {@link #template} with the matching value placeholder ({@code %entity%}, {@code %mob%} or {@code %material%}) replaced
+     * by the captured segment's name from {@link VanillaTranslationService} for the family's {@link #kind}
+     * (a viewer-language name, humanized only when no table knows it). This lets an addon localize a
      * whole family of runtime-generated items (per entity type, etc.) from a single template entry.
      */
     private static final class Family {
@@ -84,17 +89,32 @@ public class ItemTranslationService {
          * FILLED_%MOB%_SOUL_JAR wins over %MOB%_SOUL_JAR for "FILLED_ZOMBIE_SOUL_JAR".
          */
         private final int specificity;
+        private final VanillaTranslationService.Kind kind;
+        private final String valuePlaceholder;
 
-        Family(java.util.regex.Pattern pattern, ItemTranslation template, int specificity) {
+        Family(java.util.regex.Pattern pattern, ItemTranslation template, int specificity,
+               VanillaTranslationService.Kind kind, String valuePlaceholder) {
             this.pattern = pattern;
             this.template = template;
             this.specificity = specificity;
+            this.kind = kind;
+            this.valuePlaceholder = valuePlaceholder;
         }
     }
 
-    /** The id-capture token used in a family key ("%MOB%_SOUL_JAR") and the value placeholder ("%mob%"). */
-    private static final String FAMILY_ID_TOKEN = "%MOB%";
-    private static final String FAMILY_VALUE_PLACEHOLDER = "%mob%";
+    /**
+     * The id-capture tokens a family key may use, and the value placeholders they substitute.
+     *
+     * @implNote The kind is declared rather than guessed because 49 names are BOTH a {@link org.bukkit.Material}
+     *           and an {@link org.bukkit.entity.EntityType} - CHICKEN and RABBIT among them, and both are in SoulJars'
+     *           configured mob list - so resolving by trial order would render "Soul Jar (Raw Chicken)".
+     *           {@code %MOB%} is kept as an alias for {@code %ENTITY%} so existing families keep working.
+     */
+    private static final String[][] FAMILY_TOKENS = {
+        { "%ENTITY%", "%entity%" },
+        { "%MATERIAL%", "%material%" },
+        { "%MOB%", "%mob%" },
+    };
 
     /**
      * @implNote renderForPacket() reads this on the Netty thread (via resolveFamily) concurrently with load()
@@ -132,6 +152,8 @@ public class ItemTranslationService {
      */
     private final Set<String> explicitNameIds = java.util.concurrent.ConcurrentHashMap.newKeySet();
 
+    private final ItemTiers tiers = new ItemTiers();
+
     /** Loads the bundled core translations for every supported language. */
     public void loadBundled() {
         for (Language language : Slimefun.getLocalization().getLanguages()) {
@@ -141,6 +163,30 @@ public class ItemTranslationService {
                 load(language.getId(), stream);
             }
         }
+
+        Slimefun plugin = Slimefun.instance();
+
+        if (plugin != null) {
+            tiers.loadDeclared(plugin.getName(), Slimefun.class.getResourceAsStream("/" + ItemTiers.FILE_NAME));
+            tiers.loadOverrides(new java.io.File(plugin.getDataFolder(), ItemTiers.FILE_NAME));
+        }
+    }
+
+    /** The name exactly as the language file writes it, codes included, or {@code null} if it has none. */
+    @Nullable
+    public String getAuthoredName(@Nonnull String language, @Nonnull String itemId) {
+        ItemTranslation translation = lookup(language, itemId);
+        return translation == null ? null : translation.name;
+    }
+
+    @Nonnull
+    public ItemTiers getTiers() {
+        return tiers;
+    }
+
+    @Nonnull
+    private String styledName(@Nullable SlimefunItem item, @Nonnull String name) {
+        return tiers.isStyled(item) ? ItemNameStyle.render(tiers.tierOf(item.getId()), name) : name;
     }
 
     /**
@@ -157,6 +203,7 @@ public class ItemTranslationService {
             }
         }
 
+        tiers.loadDeclared(addon.getName(), addon.getResource(ItemTiers.FILE_NAME));
         canonicalizeToId();
 
         // New translations just became available; drop any renders cached before this addon loaded (an
@@ -194,17 +241,26 @@ public class ItemTranslationService {
                 if (name != null || !lore.isEmpty() || !description.isEmpty() || !type.isEmpty() || !stats.isEmpty() || !usage.isEmpty()) {
                     ItemTranslation translation = new ItemTranslation(name, lore, description, type, stats, usage);
 
-                    if (id.contains(FAMILY_ID_TOKEN)) {
+                    String[] token = familyTokenIn(id);
+
+                    if (token != null) {
+                        String idToken = token[0];
+                        String valuePlaceholder = token[1];
+                        VanillaTranslationService.Kind kind = "%MATERIAL%".equals(idToken)
+                            ? VanillaTranslationService.Kind.MATERIAL
+                            : VanillaTranslationService.Kind.ENTITY;
+
                         // A family template: turn "%MOB%_SOUL_JAR" into a regex "(.+)_SOUL_JAR" and store it
                         // so any concrete id (ZOMBIE_SOUL_JAR) resolves through it (see resolveFamily).
                         // Copy-on-write: build a new list (old contents + the new Family), sort it, then
                         // publish it as a single immutable replacement - the Netty thread (resolveFamily)
                         // only ever sees a fully-built, stable list, never one being mutated in place.
-                        String regex = java.util.regex.Pattern.quote(id).replace(FAMILY_ID_TOKEN, "\\E(.+)\\Q");
-                        int specificity = id.replace(FAMILY_ID_TOKEN, "").length();
+                        String regex = java.util.regex.Pattern.quote(id).replace(idToken, "\\E(.+)\\Q");
+                        int specificity = id.replace(idToken, "").length();
                         List<Family> existing = familiesByLanguage.get(language);
                         List<Family> updated = new ArrayList<>(existing != null ? existing : Collections.<Family>emptyList());
-                        updated.add(new Family(java.util.regex.Pattern.compile("^" + regex + "$"), translation, specificity));
+                        updated.add(new Family(java.util.regex.Pattern.compile("^" + regex + "$"),
+                            translation, specificity, kind, valuePlaceholder));
                         updated.sort((a, b) -> Integer.compare(b.specificity, a.specificity));
                         familiesByLanguage.put(language, Collections.unmodifiableList(updated));
                         familyResolveCache.clear();
@@ -285,8 +341,9 @@ public class ItemTranslationService {
 
     /**
      * Resolves an id against the language's item families (see {@link Family}). On a match, the captured
-     * segment is humanized ({@code ZOMBIE_PIGMAN -> "Zombie Pigman"}) and substituted for every
-     * {@code %mob%} placeholder in the template. Memoized per (language, id), including negative results.
+     * segment is resolved through {@link VanillaTranslationService} for the family's declared kind and the
+     * viewer's language ({@code ZOMBIE_PIGMAN -> "Zombie Pigman"} in English) and substituted for every
+     * placeholder of that kind in the template. Memoized per (language, id), including negative results.
      */
     @Nullable
     private ItemTranslation resolveFamily(@Nonnull String language, @Nonnull String itemId) {
@@ -308,21 +365,49 @@ public class ItemTranslationService {
             java.util.regex.Matcher matcher = family.pattern.matcher(itemId);
 
             if (matcher.matches()) {
-                String mob = humanize(matcher.group(1));
+                String captured = vanillaName(language, family.kind, matcher.group(1));
                 ItemTranslation t = family.template;
                 resolved = new ItemTranslation(
-                    substitute(t.name, mob),
-                    substitute(t.lore, mob),
-                    substitute(t.description, mob),
-                    substitute(t.type, mob),
-                    substitute(t.stats, mob),
-                    substitute(t.usage, mob));
+                    substitute(t.name, family.valuePlaceholder, captured),
+                    substitute(t.lore, family.valuePlaceholder, captured),
+                    substitute(t.description, family.valuePlaceholder, captured),
+                    substitute(t.type, family.valuePlaceholder, captured),
+                    substitute(t.stats, family.valuePlaceholder, captured),
+                    substitute(t.usage, family.valuePlaceholder, captured));
                 break;
             }
         }
 
         familyResolveCache.put(cacheKey, resolved);
         return resolved;
+    }
+
+    /**
+     * The family template one language names an id through, or {@code null} when that language names the id
+     * itself or no family covers it. Two ids of one family share a name only where the vanilla names they
+     * insert are identical.
+     */
+    @Nullable
+    public String familyOf(@Nonnull String language, @Nonnull String itemId) {
+        Map<String, ItemTranslation> exact = byLanguage.get(language);
+
+        if (exact != null && exact.containsKey(itemId)) {
+            return null;
+        }
+
+        List<Family> families = familiesByLanguage.get(language);
+
+        if (families == null) {
+            return null;
+        }
+
+        for (Family family : families) {
+            if (family.pattern.matcher(itemId).matches()) {
+                return family.pattern.pattern();
+            }
+        }
+
+        return null;
     }
 
     /** Title-cases an enum-style name: {@code ZOMBIE_PIGMAN -> "Zombie Pigman"}. */
@@ -346,17 +431,49 @@ public class ItemTranslationService {
         return sb.toString();
     }
 
+    /**
+     * @implNote {@link Slimefun#getVanillaTranslationService()} throws once the plugin instance is gone
+     *           (before onEnable, after onDisable, under a unit test). The humanize fallback is the same text
+     *           that service itself ends at, so a family still renders correctly without it.
+     */
+    @Nonnull
+    private static String vanillaName(@Nullable String language, @Nonnull VanillaTranslationService.Kind kind, @Nonnull String raw) {
+        return Slimefun.instance() == null
+            ? humanize(raw)
+            : Slimefun.getVanillaTranslationService().name(language, kind, raw);
+    }
+
+    /**
+     * @implNote Keyed by the stack's {@link XMaterial}, not the item id: the ids are Slimefun's own
+     *           ({@code CHAIN_HELMET}), and on 1.8 the enchanted golden apple is {@code GOLDEN_APPLE} with data 1.
+     */
+    @Nonnull
+    private static String vanillaItemName(@Nullable String language, @Nonnull SlimefunItem item) {
+        return vanillaName(language, VanillaTranslationService.Kind.MATERIAL, XMaterial.matchXMaterial(item.getItem()).name());
+    }
+
     @Nullable
-    private static String substitute(@Nullable String value, @Nonnull String mob) {
-        return value == null ? null : value.replace(FAMILY_VALUE_PLACEHOLDER, mob);
+    private static String[] familyTokenIn(@Nonnull String id) {
+        for (String[] token : FAMILY_TOKENS) {
+            if (id.contains(token[0])) {
+                return token;
+            }
+        }
+
+        return null;
+    }
+
+    @Nullable
+    private static String substitute(@Nullable String value, @Nonnull String placeholder, @Nonnull String captured) {
+        return value == null ? null : value.replace(placeholder, captured);
     }
 
     @Nonnull
-    private static List<String> substitute(@Nonnull List<String> lines, @Nonnull String mob) {
+    private static List<String> substitute(@Nonnull List<String> lines, @Nonnull String placeholder, @Nonnull String captured) {
         List<String> out = new ArrayList<>(lines.size());
 
         for (String line : lines) {
-            out.add(line.replace(FAMILY_VALUE_PLACEHOLDER, mob));
+            out.add(line.replace(placeholder, captured));
         }
 
         return out;
@@ -426,7 +543,7 @@ public class ItemTranslationService {
     @Nonnull
     public String getName(@Nonnull Player p, @Nonnull SlimefunItem item) {
         String name = getNameForLanguage(languageOf(p), item.getId());
-        return name != null ? name : item.getItemName();
+        return name != null ? name : styledName(item, item.getItemName());
     }
 
     /**
@@ -438,6 +555,12 @@ public class ItemTranslationService {
      */
     @Nullable
     public String getNameForLanguage(@Nullable String language, @Nonnull String itemId) {
+        String name = unstyledNameForLanguage(language, itemId);
+        return name != null ? styledName(SlimefunItem.getById(itemId), name) : null;
+    }
+
+    @Nullable
+    private String unstyledNameForLanguage(@Nullable String language, @Nonnull String itemId) {
         ItemTranslation translation = lookup(language, itemId);
 
         if (translation != null && translation.name != null) {
@@ -497,10 +620,17 @@ public class ItemTranslationService {
     }
 
     private final Map<String, RenderedDisplay> renderCache = new java.util.concurrent.ConcurrentHashMap<>();
+    private final Map<String, Set<String>> templateLineCache = new java.util.concurrent.ConcurrentHashMap<>();
+
+    /** Empties the memoized family resolutions (call when a vanilla name table loads). */
+    public void clearFamilyCache() {
+        familyResolveCache.clear();
+    }
 
     /** Empties the per-(id,language,fallback) render cache (call on reload). */
     public void clearRenderCache() {
         renderCache.clear();
+        templateLineCache.clear();
     }
 
     /**
@@ -566,6 +696,8 @@ public class ItemTranslationService {
         String name;
         if (translation != null && translation.name != null) {
             name = ChatColor.translateAlternateColorCodes('&', translation.name);
+        } else if (item instanceof VanillaItem) {
+            name = vanillaItemName(effectiveLanguage, item);
         } else if (fallback == TranslationConfig.FallbackMode.ID) {
             name = id;
         } else {
@@ -593,7 +725,7 @@ public class ItemTranslationService {
             : englishLore;
         List<String> lore = LoreComposer.compose(item, blocks.get(0), blocks.get(1), blocks.get(2), blocks.get(3), fallbackBase, includeDescription, effectiveLanguage);
 
-        RenderedDisplay result = new RenderedDisplay(name, lore);
+        RenderedDisplay result = new RenderedDisplay(name.equals(id) ? name : styledName(item, name), lore);
 
         // The raw id is only ever a fallback signal: no real translation (or English baseline name) was
         // resolvable yet - e.g. a packet rendered the item during boot, before an addon's translations
@@ -653,6 +785,7 @@ public class ItemTranslationService {
     public RenderedDisplay renderForPacketWithItem(@Nonnull ItemStack item, @Nonnull String id, @Nullable String languageId, @Nonnull TranslationConfig.FallbackMode fallback, boolean includeDescription) {
         SlimefunItem slimefunItem = SlimefunItem.getById(id);
         RenderedDisplay display = null;
+        ItemTextBlocks contributed = null;
 
         // Item-aware resolvers get first crack: they inspect the actual stack and MAY override even a
         // static items.yml entry for the specific instances they claim - e.g. an assembled SlimeTinker
@@ -661,7 +794,7 @@ public class ItemTranslationService {
         // Every item is translatable through this one path; no addon re-skins outside it.
         if (!resolvers.isEmpty() && slimefunItem != null) {
             String effectiveLanguage = resolveEffectiveLanguage(languageId);
-            ItemTextBlocks contributed = tryResolvers(item, id, effectiveLanguage);
+            contributed = tryResolvers(item, id, effectiveLanguage);
 
             if (contributed != null) {
                 display = composeResolved(slimefunItem, id, contributed, effectiveLanguage, includeDescription);
@@ -683,7 +816,82 @@ public class ItemTranslationService {
 
         // A guide slot cycling a VariantGroup marks its display copies with "n/total"; append that after the
         // name resolves so the counter follows the translation instead of being baked into it.
-        return appendVariantCounter(item, display);
+        display = appendVariantCounter(item, display);
+
+        // A resolver describes the stack itself, so whatever lore the stack carries is what it replaced.
+        return contributed != null ? display : appendRuntimeLore(item, id, display);
+    }
+
+    /**
+     * Shows the lore the server wrote onto this one stack at runtime beneath the composed lore, which
+     * would otherwise replace it. See {@link RuntimeLore} for which lines count as runtime.
+     */
+    @Nonnull
+    private RenderedDisplay appendRuntimeLore(@Nonnull ItemStack item, @Nonnull String id, @Nonnull RenderedDisplay display) {
+        ItemMeta meta = item.getItemMeta();
+
+        if (meta == null || !meta.hasLore()) {
+            return display;
+        }
+
+        Set<String> known = new HashSet<>(templateLines(id));
+        known.addAll(RuntimeLore.normalizeAll(display.lore));
+        List<String> extra = RuntimeLore.extraLines(meta.getLore(), known, PlayerBackpack::isLegacyIdentityLine);
+
+        if (extra.isEmpty()) {
+            return display;
+        }
+
+        List<String> lore = new ArrayList<>(display.lore);
+        if (!lore.isEmpty()) {
+            lore.add("");
+        }
+        lore.addAll(extra);
+        return new RenderedDisplay(display.name, lore);
+    }
+
+    /**
+     * Every line any rendering of {@code id}'s template can produce, normalized: the captured English
+     * baseline, the English {@code items.yml} entry and the composed English display.
+     *
+     * @implNote Not cached while the English render is still missing (an addon whose translations have not
+     *           loaded yet), for the same reason {@link #renderForPacket} never caches a raw id.
+     */
+    @Nonnull
+    private Set<String> templateLines(@Nonnull String id) {
+        Set<String> cached = templateLineCache.get(id);
+
+        if (cached != null) {
+            return cached;
+        }
+
+        List<String> lines = new ArrayList<>();
+        ItemStack baseline = englishBaseline.get(id);
+        ItemMeta baselineMeta = baseline != null ? baseline.getItemMeta() : null;
+
+        if (baselineMeta != null && baselineMeta.getLore() != null) {
+            lines.addAll(baselineMeta.getLore());
+        }
+
+        ItemTranslation english = lookup("en", id);
+
+        if (english != null) {
+            lines.addAll(english.lore);
+        }
+
+        RenderedDisplay englishDisplay = renderForPacket(id, "en", TranslationConfig.fallback(), true);
+
+        if (englishDisplay != null) {
+            lines.addAll(englishDisplay.lore);
+        }
+
+        Set<String> normalized = Collections.unmodifiableSet(RuntimeLore.normalizeAll(lines));
+
+        if (englishDisplay != null) {
+            templateLineCache.put(id, normalized);
+        }
+
+        return normalized;
     }
 
     /**
@@ -747,11 +955,23 @@ public class ItemTranslationService {
         String contributedName = contributed.getName();
 
         if (contributedName != null) {
-            return new RenderedDisplay(ChatColor.translateAlternateColorCodes('&', contributedName), lore);
+            return new RenderedDisplay(styledName(item, ChatColor.translateAlternateColorCodes('&', contributedName)), lore);
         }
 
         String authoredName = getNameForLanguage(effectiveLanguage, id);
-        return new RenderedDisplay(authoredName != null ? authoredName : item.getItemName(), lore);
+        return new RenderedDisplay(authoredName != null ? authoredName : styledName(item, item.getItemName()), lore);
+    }
+
+    /**
+     * Whether an id-keyed resolver names this item differently in {@code language} than in English, which
+     * is the audit's only evidence that a runtime-generated item is translated at all.
+     */
+    private boolean isResolverTranslated(@Nonnull String id, @Nonnull String language) {
+        ItemTextBlocks translated = tryResolvers(null, id, language);
+        ItemTextBlocks english = tryResolvers(null, id, "en");
+
+        return translated != null && english != null && translated.getName() != null
+            && !translated.getName().equals(english.getName());
     }
 
     /** First non-null resolver contribution for {@code (item, id, language)}, or null if none handles it. */
@@ -988,7 +1208,8 @@ public class ItemTranslationService {
                     // GHOST_BLOCK_<MATERIAL>) has no entry of its own and would otherwise fill the audit
                     // with hundreds of false gaps.
                     // Skip items deliberately tagged English-everywhere - the dump lists only real gaps.
-                    if (lookup(language, item.getId()) == null && !FallbackSafe.itemIds().contains(item.getId())) {
+                    if (lookup(language, item.getId()) == null && !FallbackSafe.itemIds().contains(item.getId())
+                            && !isResolverTranslated(item.getId(), language)) {
                         byAddon.computeIfAbsent(item.getAddon().getName(), k -> new ArrayList<>())
                             .add(item.getId() + "\t" + englishName(item).replace('§', '&'));
                         total++;

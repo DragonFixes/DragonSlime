@@ -373,4 +373,54 @@ class PacketRenderTest {
         Assertions.assertSame(viaId, viaItem,
             "an item with no %charge%/%uses% tokens must be entirely unaffected: same cached instance, no extra copy");
     }
+
+    @Test
+    @DisplayName("lore an addon wrote onto one stack survives the render, and baked template lore is not shown twice")
+    void runtimeLoreIsAppendedAndBakedLoreIsNot() {
+        ItemTranslationService svc = Slimefun.getItemTranslationService();
+        svc.loadTranslationsForTest("en", new java.io.ByteArrayInputStream(
+            "HEATING_COIL:\n  name: '&aTest Coil'\n  lore:\n  - '&7Gets very hot'\n".getBytes(java.nio.charset.StandardCharsets.UTF_8)));
+        svc.clearRenderCache();
+        SlimefunItem probe = SlimefunItem.getById("HEATING_COIL");
+        Assertions.assertNotNull(probe);
+
+        ItemStack stack = probe.getItem().clone();
+        org.bukkit.inventory.meta.ItemMeta meta = stack.getItemMeta();
+        meta.setLore(java.util.Arrays.asList(ChatColor.GRAY + "Gets very hot", ChatColor.GRAY + "Amount: " + ChatColor.YELLOW + "1016768"));
+        stack.setItemMeta(meta);
+
+        ItemTranslationService.RenderedDisplay display = svc.renderForPacketWithItem(
+            stack, "HEATING_COIL", "en", TranslationConfig.FallbackMode.ENGLISH, true);
+
+        Assertions.assertNotNull(display);
+        Assertions.assertEquals(ChatColor.GRAY + "Amount: " + ChatColor.YELLOW + "1016768", display.lore.get(display.lore.size() - 1));
+        long hotLines = display.lore.stream().filter(line -> ChatColor.stripColor(line).equals("Gets very hot")).count();
+        Assertions.assertEquals(1, hotLines, "the baked template line must appear once: " + display.lore);
+    }
+
+    @Test
+    @DisplayName("A vanilla item with no items.yml name renders vanilla's own name in the viewer's language")
+    void vanillaItemWithoutEntryUsesVanillaName() {
+        Assertions.assertTrue(SlimefunItem.getById("CHAIN_HELMET") instanceof io.github.thebusybiscuit.slimefun5.implementation.items.VanillaItem);
+        Slimefun.getVanillaTranslationService().loadForTest("fr",
+            new ByteArrayInputStream("material:\n  chainmail_helmet: 'Casque de mailles'\n".getBytes(StandardCharsets.UTF_8)));
+
+        ItemTranslationService.RenderedDisplay display = Slimefun.getItemTranslationService()
+            .renderForPacket("CHAIN_HELMET", "fr", TranslationConfig.FallbackMode.ID, true);
+
+        Assertions.assertEquals("Casque de mailles", display.name);
+    }
+
+    @Test
+    @DisplayName("A vanilla item's explicit items.yml name wins over vanilla's own name")
+    void vanillaItemExplicitEntryWins() {
+        ItemTranslationTestAccess.load("de", "CHAIN_LEGGINGS:\n  name: Kettenhose\n");
+        Slimefun.getVanillaTranslationService().loadForTest("de",
+            new ByteArrayInputStream("material:\n  chainmail_leggings: 'Kettenhose (vanilla)'\n".getBytes(StandardCharsets.UTF_8)));
+
+        ItemTranslationService.RenderedDisplay display = Slimefun.getItemTranslationService()
+            .renderForPacket("CHAIN_LEGGINGS", "de", TranslationConfig.FallbackMode.ID, true);
+
+        Assertions.assertEquals("Kettenhose", display.name);
+    }
 }

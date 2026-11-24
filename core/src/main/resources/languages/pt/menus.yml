@@ -1,0 +1,5737 @@
+ADVANCED_ANVIL:
+  '0':
+    name: '&9Entrada'
+  '1':
+    name: '&9Entrada'
+  '11':
+    name: '&9Entrada'
+  '12':
+    name: '&9Entrada'
+  '14':
+    name: '&9Entrada'
+  '15':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '19':
+    name: '&9Entrada'
+  '2':
+    name: '&9Entrada'
+  '20':
+    name: '&9Entrada'
+  '21':
+    name: '&9Entrada'
+  '22':
+    name: '&9Entrada'
+  '23':
+    name: '&9Entrada'
+  '24':
+    name: '&6Saída'
+  '25':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '3':
+    name: '&9Entrada'
+  '4':
+    name: '&9Entrada'
+  '5':
+    name: '&9Entrada'
+  '6':
+    name: '&6Saída'
+  '7':
+    name: '&6Saída'
+  '8':
+    name: '&6Saída'
+  '9':
+    name: '&9Entrada'
+  '40':
+    variants:
+    - match: '&cInvalid items!'
+      name: '&cItens inválidos!'
+    - match: '&cNo upgrades!'
+      name: '&cSem melhorias!'
+    - match: '&cNot enough energy!'
+      match-lore:
+      - '&aCharge: {0}/{1} J'
+      name: '&cEnergia insuficiente!'
+      lore:
+      - ''
+      - '&aCarga: {0}/{1} J'
+      - ''
+ADVANCED_AUTO_DISENCHANTER:
+  '13':
+    name: '&aProgresso'
+ADVANCED_NETHER_STAR_REACTOR:
+  '1':
+    lore:
+    - ''
+    - '&fEste slot aceita combustível radioativo como:'
+    - '&2Urânio &fou &aNeptúnio'
+    name: '&7Slot de Combustível'
+  '7':
+    lore:
+    - ''
+    - '&fEste slot aceita Células de Refrigerante'
+    - '&4Sem quaisquer Células de Refrigerante, o teu Reator'
+    - '&4vai explodir'
+    name: '&bSlot de Refrigerante'
+ADVANCED_QUARRY:
+  '48':
+    lore:
+    - '&7Coloca um oscilador de pedreira para'
+    - '&7aumentar as taxas de certos materiais!'
+    name: '&bSlot do Oscilador'
+  '50':
+    lore:
+    - '&7Coloca um oscilador de pedreira para'
+    - '&7aumentar as taxas de certos materiais!'
+    name: '&bSlot do Oscilador'
+ADVANCED_SOLAR_PANEL:
+  '4':
+    name: '&cSem Geração...'
+    variants:
+    - match: '&aGenerating'
+      match-lore:
+      - '&bRate: &4Unknown'
+      - '&7Generating at &6{0} J/s &8({1} J/t)'
+      - '&7Stored: &6{2} J'
+      name: '&aA gerar'
+      lore:
+      - ''
+      - '&bTaxa: &4Desconhecida'
+      - '&7A gerar &6{0} J/s &8({1} J/t)'
+      - ''
+      - '&7Armazenado: &6{2} J'
+    - match: '&aGenerating'
+      match-lore:
+      - '&bRate: &cNether &e(Day)'
+      - '&7Generating at &6{0} J/s &8({1} J/t)'
+      - '&7Stored: &6{2} J'
+      name: '&aA gerar'
+      lore:
+      - ''
+      - '&bTaxa: &cNether &e(Dia)'
+      - '&7A gerar &6{0} J/s &8({1} J/t)'
+      - ''
+      - '&7Armazenado: &6{2} J'
+    - match: '&aGenerating'
+      match-lore:
+      - '&bRate: &5End &8(Night)'
+      - '&7Generating at &6{0} J/s &8({1} J/t)'
+      - '&7Stored: &6{2} J'
+      name: '&aA gerar'
+      lore:
+      - ''
+      - '&bTaxa: &5End &8(Noite)'
+      - '&7A gerar &6{0} J/s &8({1} J/t)'
+      - ''
+      - '&7Armazenado: &6{2} J'
+    - match: '&aGenerating'
+      match-lore:
+      - '&bRate: &aOverworld &e(Day)'
+      - '&7Generating at &6{0} J/s &8({1} J/t)'
+      - '&7Stored: &6{2} J'
+      name: '&aA gerar'
+      lore:
+      - ''
+      - '&bTaxa: &aSuperfície &e(Dia)'
+      - '&7A gerar &6{0} J/s &8({1} J/t)'
+      - ''
+      - '&7Armazenado: &6{2} J'
+    - match: '&aGenerating'
+      match-lore:
+      - '&bRate: &aOverworld &8(Night)'
+      - '&7Generating at &6{0} J/s &8({1} J/t)'
+      - '&7Stored: &6{2} J'
+      name: '&aA gerar'
+      lore:
+      - ''
+      - '&bTaxa: &aSuperfície &8(Noite)'
+      - '&7A gerar &6{0} J/s &8({1} J/t)'
+      - ''
+      - '&7Armazenado: &6{2} J'
+    - match: '&cNot Generating'
+      match-lore:
+      - '&7Stored: &6{0} J'
+      name: '&cSem gerar'
+      lore:
+      - ''
+      - '&7O gerador atingiu a capacidade máxima.'
+      - ''
+      - '&7Armazenado: &6{0} J'
+ADVANCED_STORAGE:
+  '0':
+    name: '&9Entrada'
+  '1':
+    name: '&9Entrada'
+  '11':
+    name: '&9Entrada'
+  '15':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '19':
+    name: '&9Entrada'
+  '2':
+    name: '&9Entrada'
+  '20':
+    name: '&9Entrada'
+  '22':
+    lore:
+    - '&bClique Esquerdo: &7Retirar 1 item'
+    - '&bClique Direito: &7Retirar 1 pilha'
+    - '&bShift + Clique Esquerdo: &7Depositar inventário'
+    - '&bShift + Clique Direito: &7Retirar inventário'
+    name: '&aAções Rápidas'
+  '24':
+    name: '&6Saída'
+  '25':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '4':
+    lore:
+    - '&7A carregar...'
+    name: '&bEstado'
+  '6':
+    name: '&6Saída'
+  '7':
+    name: '&6Saída'
+  '8':
+    name: '&6Saída'
+  '9':
+    name: '&9Entrada'
+ADVANCED_TREE_GROWER:
+  '12':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '21':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '28':
+    name: '&9Entrada'
+  '29':
+    name: '&9Entrada'
+  '3':
+    name: '&6Saída'
+  '30':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '36':
+    name: '&9Entrada'
+  '38':
+    name: '&9Entrada'
+  '39':
+    name: '&6Saída'
+  '4':
+    name: '&6Saída'
+  '44':
+    name: '&6Saída'
+  '45':
+    name: '&9Entrada'
+  '46':
+    name: '&9Entrada'
+  '47':
+    name: '&9Entrada'
+  '48':
+    name: '&6Saída'
+  '49':
+    name: '&6Saída'
+  '5':
+    name: '&6Saída'
+  '50':
+    name: '&6Saída'
+  '51':
+    name: '&6Saída'
+  '52':
+    name: '&6Saída'
+  '53':
+    name: '&6Saída'
+  '6':
+    name: '&6Saída'
+  '7':
+    name: '&6Saída'
+  '8':
+    name: '&6Saída'
+ADVANCED_VIRTUAL_FARM:
+  '12':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '21':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '28':
+    name: '&9Entrada'
+  '29':
+    name: '&9Entrada'
+  '3':
+    name: '&6Saída'
+  '30':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '36':
+    name: '&9Entrada'
+  '38':
+    name: '&9Entrada'
+  '39':
+    name: '&6Saída'
+  '4':
+    name: '&6Saída'
+  '44':
+    name: '&6Saída'
+  '45':
+    name: '&9Entrada'
+  '46':
+    name: '&9Entrada'
+  '47':
+    name: '&9Entrada'
+  '48':
+    name: '&6Saída'
+  '49':
+    name: '&6Saída'
+  '5':
+    name: '&6Saída'
+  '50':
+    name: '&6Saída'
+  '51':
+    name: '&6Saída'
+  '52':
+    name: '&6Saída'
+  '53':
+    name: '&6Saída'
+  '6':
+    name: '&6Saída'
+  '7':
+    name: '&6Saída'
+  '8':
+    name: '&6Saída'
+ASSEMBLY_TABLE:
+  '16':
+    name: '&aClica para Fabricar!'
+  '33':
+    name: '&6Saída'
+  '34':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '42':
+    name: '&6Saída'
+  '44':
+    name: '&6Saída'
+  '51':
+    name: '&6Saída'
+  '52':
+    name: '&6Saída'
+  '53':
+    name: '&6Saída'
+  '7':
+    name: '&6Receitas'
+AUTO_ANCIENT_ALTAR:
+  '2':
+    lore:
+    - ''
+    - '&bColoca a receita que queres fabricar'
+    - '&4APENAS Receitas de Altar Ancestral'
+    name: '&eReceita'
+  '6':
+    variants:
+    - match: '&7Enabled: &4✘'
+      name: '&7Ativado: &4✘'
+      lore:
+      - ''
+      - '&e> Clique para ativar esta máquina'
+    - match: '&7Enabled: &2✔'
+      name: '&7Ativado: &2✔'
+      lore:
+      - ''
+      - '&e> Clique para desativar esta máquina'
+  '7':
+    variants:
+    - match: '&cCraft Once'
+      name: '&cFabricar uma vez'
+      lore:
+      - ''
+      - '&e> Clique para fabricar a receita uma vez'
+AUTO_ARMOR_FORGE:
+  '2':
+    lore:
+    - ''
+    - '&bColoca a receita que queres fabricar'
+    - '&7APENAS Receitas de Forja de Armaduras'
+    name: '&eReceita'
+  '6':
+    variants:
+    - match: '&7Enabled: &4✘'
+      name: '&7Ativado: &4✘'
+      lore:
+      - ''
+      - '&e> Clique para ativar esta máquina'
+    - match: '&7Enabled: &2✔'
+      name: '&7Ativado: &2✔'
+      lore:
+      - ''
+      - '&e> Clique para desativar esta máquina'
+AUTO_CRAFTING_TABLE:
+  '2':
+    lore:
+    - ''
+    - '&bColoca a receita que queres fabricar'
+    - '&4APENAS Receitas de Mesa de Trabalho Normal'
+    name: '&eReceita'
+  '23':
+    name: '&e&lInativo'
+    variants:
+    - match: '&7&lDisabled'
+      name: '&7&lDesativado'
+    - match: '&c&lNo Power'
+      name: '&c&lSem energia'
+    - match: '&c&lKey Item Missing'
+      name: '&c&lFalta o item alvo'
+    - match: '&c&lOutput Full'
+      name: '&c&lSaída cheia'
+    - match: '&c&lInput Missing'
+      name: '&c&lFalta a entrada'
+    - match: '&c&lIncorrect Recipe'
+      name: '&c&lReceita incorreta'
+    - match: '&a&lCrafting'
+      name: '&a&lA fabricar'
+    - match: '&c&lInvalid Key!'
+      name: '&c&lItem alvo inválido!'
+    - match: '&c&lOutput slots full'
+      name: '&c&lEspaços de saída cheios'
+    - match: '&c&lYou need to have enough supplies'
+      name: '&c&lPrecisas de materiais suficientes'
+      lore:
+      - '&c&lpara fabricar mais de um item'
+  '4':
+    variants:
+    - match: '&7Enabled: &4✘'
+      name: '&7Ativado: &4✘'
+      lore:
+      - ''
+      - '&e> Clique para ativar esta máquina'
+    - match: '&7Enabled: &2✔'
+      name: '&7Ativado: &2✔'
+      lore:
+      - ''
+      - '&e> Clique para desativar esta máquina'
+  '16':
+    variants:
+    - match: '&cNo Recipe'
+      name: '&cSem receita'
+      lore:
+      - '&cAgacha-te e clica com o botão direito'
+      - '&cna bancada automática com um item'
+      - '&cpara mudar a receita pretendida'
+    - match: ''
+      match-lore:
+      - '&eSneak and Right Click the'
+      lore:
+      - '&eAgacha-te e clica com o botão direito'
+      - '&ena bancada automática com um item'
+      - '&epara mudar a receita pretendida'
+AUTO_ENHANCED_CRAFTING_TABLE:
+  '2':
+    lore:
+    - ''
+    - '&bColoca a receita que queres fabricar'
+    - '&6APENAS Receitas de Mesa de Fabrico Melhorada'
+    name: '&eReceita'
+  '6':
+    variants:
+    - match: '&7Enabled: &4✘'
+      name: '&7Ativado: &4✘'
+      lore:
+      - ''
+      - '&e> Clique para ativar esta máquina'
+    - match: '&7Enabled: &2✔'
+      name: '&7Ativado: &2✔'
+      lore:
+      - ''
+      - '&e> Clique para desativar esta máquina'
+AUTO_MAGIC_WORKBENCH:
+  '2':
+    lore:
+    - ''
+    - '&bColoca a receita que queres fabricar'
+    - '&6APENAS Receitas de Bancada Mágica'
+    name: '&eReceita'
+  '6':
+    variants:
+    - match: '&7Enabled: &4✘'
+      name: '&7Ativado: &4✘'
+      lore:
+      - ''
+      - '&e> Clique para ativar esta máquina'
+    - match: '&7Enabled: &2✔'
+      name: '&7Ativado: &2✔'
+      lore:
+      - ''
+      - '&e> Clique para desativar esta máquina'
+AUTO_TABLE_SAW:
+  '2':
+    lore:
+    - ''
+    - '&bColoca a receita que queres fabricar'
+    - '&4APENAS Receitas de Serra de Mesa'
+    name: '&eReceita'
+  '6':
+    variants:
+    - match: '&7Enabled: &4✘'
+      name: '&7Ativado: &4✘'
+      lore:
+      - ''
+      - '&e> Clique para ativar esta máquina'
+    - match: '&7Enabled: &2✔'
+      name: '&7Ativado: &2✔'
+      lore:
+      - ''
+      - '&e> Clique para desativar esta máquina'
+BASIC_QUARRY:
+  '48':
+    lore:
+    - '&7Coloca um oscilador de pedreira para'
+    - '&7aumentar as taxas de certos materiais!'
+    name: '&bSlot do Oscilador'
+  '50':
+    lore:
+    - '&7Coloca um oscilador de pedreira para'
+    - '&7aumentar as taxas de certos materiais!'
+    name: '&bSlot do Oscilador'
+BASIC_STORAGE:
+  '0':
+    name: '&9Entrada'
+  '1':
+    name: '&9Entrada'
+  '11':
+    name: '&9Entrada'
+  '15':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '19':
+    name: '&9Entrada'
+  '2':
+    name: '&9Entrada'
+  '20':
+    name: '&9Entrada'
+  '22':
+    lore:
+    - '&bClique Esquerdo: &7Retirar 1 item'
+    - '&bClique Direito: &7Retirar 1 pilha'
+    - '&bShift + Clique Esquerdo: &7Depositar inventário'
+    - '&bShift + Clique Direito: &7Retirar inventário'
+    name: '&aAções Rápidas'
+  '24':
+    name: '&6Saída'
+  '25':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '4':
+    lore:
+    - '&7A carregar...'
+    name: '&bEstado'
+  '6':
+    name: '&6Saída'
+  '7':
+    name: '&6Saída'
+  '8':
+    name: '&6Saída'
+  '9':
+    name: '&9Entrada'
+BASIC_TREE_GROWER:
+  '12':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '21':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '28':
+    name: '&9Entrada'
+  '29':
+    name: '&9Entrada'
+  '3':
+    name: '&6Saída'
+  '30':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '36':
+    name: '&9Entrada'
+  '38':
+    name: '&9Entrada'
+  '39':
+    name: '&6Saída'
+  '4':
+    name: '&6Saída'
+  '44':
+    name: '&6Saída'
+  '45':
+    name: '&9Entrada'
+  '46':
+    name: '&9Entrada'
+  '47':
+    name: '&9Entrada'
+  '48':
+    name: '&6Saída'
+  '49':
+    name: '&6Saída'
+  '5':
+    name: '&6Saída'
+  '50':
+    name: '&6Saída'
+  '51':
+    name: '&6Saída'
+  '52':
+    name: '&6Saída'
+  '53':
+    name: '&6Saída'
+  '6':
+    name: '&6Saída'
+  '7':
+    name: '&6Saída'
+  '8':
+    name: '&6Saída'
+BASIC_VIRTUAL_FARM:
+  '12':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '21':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '28':
+    name: '&9Entrada'
+  '29':
+    name: '&9Entrada'
+  '3':
+    name: '&6Saída'
+  '30':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '36':
+    name: '&9Entrada'
+  '38':
+    name: '&9Entrada'
+  '39':
+    name: '&6Saída'
+  '4':
+    name: '&6Saída'
+  '44':
+    name: '&6Saída'
+  '45':
+    name: '&9Entrada'
+  '46':
+    name: '&9Entrada'
+  '47':
+    name: '&9Entrada'
+  '48':
+    name: '&6Saída'
+  '49':
+    name: '&6Saída'
+  '5':
+    name: '&6Saída'
+  '50':
+    name: '&6Saída'
+  '51':
+    name: '&6Saída'
+  '52':
+    name: '&6Saída'
+  '53':
+    name: '&6Saída'
+  '6':
+    name: '&6Saída'
+  '7':
+    name: '&6Saída'
+  '8':
+    name: '&6Saída'
+CARGO_NODE_INPUT:
+  '2':
+    lore:
+    - ''
+    - '&bColoca todos os Itens que queres'
+    - '&blista negra/lista branca'
+    name: '&3Itens'
+  '15':
+    variants:
+    - match: '&7Type: &rWhitelist'
+      name: '&7Tipo: &rLista branca'
+      lore:
+      - ''
+      - '&e> Clique para mudar para lista negra'
+    - match: '&7Type: &8Blacklist'
+      name: '&7Tipo: &8Lista negra'
+      lore:
+      - ''
+      - '&e> Clique para mudar para lista branca'
+  '16':
+    variants:
+    - match: '&7"Smart-Filling" Mode: &4✘'
+      name: '&7Modo "Preenchimento inteligente": &4✘'
+      lore:
+      - ''
+      - '&e> Clique para ativar o modo "Preenchimento inteligente"'
+      - ''
+      - '&fNeste modo, o nó de carga tentará'
+      - '&fmanter uma quantidade constante de itens'
+      - '&fno inventário. Isto não é perfeito'
+      - '&fe continuará a preencher espaços vazios'
+      - '&fque estejam antes de uma pilha de um item configurado.'
+    - match: '&7"Smart-Filling" Mode: &2✔'
+      name: '&7Modo "Preenchimento inteligente": &2✔'
+      lore:
+      - ''
+      - '&e> Clique para desativar o modo "Preenchimento inteligente"'
+      - ''
+      - '&fNeste modo, o nó de carga tentará'
+      - '&fmanter uma quantidade constante de itens'
+      - '&fno inventário. Isto não é perfeito'
+      - '&fe continuará a preencher espaços vazios'
+      - '&fque estejam antes de uma pilha de um item configurado.'
+  '24':
+    variants:
+    - match: '&7Round-Robin Mode: &4✘'
+      name: '&7Modo rotativo: &4✘'
+      lore:
+      - ''
+      - '&e> Clique para ativar o modo rotativo'
+      - '&e(Os itens serão distribuídos igualmente pelo canal)'
+    - match: '&7Round-Robin Mode: &2✔'
+      name: '&7Modo rotativo: &2✔'
+      lore:
+      - ''
+      - '&e> Clique para desativar o modo rotativo'
+      - '&e(Os itens serão distribuídos igualmente pelo canal)'
+  '25':
+    variants:
+    - match: '&7Include Lore: &2✔'
+      name: '&7Incluir descrição: &2✔'
+      lore:
+      - ''
+      - '&e> Clique para escolher se a descrição tem de corresponder'
+    - match: '&7Include Lore: &4✘'
+      name: '&7Incluir descrição: &4✘'
+      lore:
+      - ''
+      - '&e> Clique para escolher se a descrição tem de corresponder'
+  '41':
+    variants:
+    - match: '&bPrevious Channel'
+      name: '&bCanal anterior'
+      lore:
+      - ''
+      - '&e> Clique para diminuir o ID do canal em 1'
+  '42':
+    variants:
+    - match: '&bChannel ID: &3{0}'
+      name: '&bID do canal: &3{0}'
+  '43':
+    variants:
+    - match: '&bNext Channel'
+      name: '&bCanal seguinte'
+      lore:
+      - ''
+      - '&e> Clique para aumentar o ID do canal em 1'
+CARGO_NODE_OUTPUT_ADVANCED:
+  '2':
+    lore:
+    - ''
+    - '&bColoca todos os Itens que queres'
+    - '&blista negra/lista branca'
+    name: '&3Itens'
+  '15':
+    variants:
+    - match: '&7Type: &rWhitelist'
+      name: '&7Tipo: &rLista branca'
+      lore:
+      - ''
+      - '&e> Clique para mudar para lista negra'
+    - match: '&7Type: &8Blacklist'
+      name: '&7Tipo: &8Lista negra'
+      lore:
+      - ''
+      - '&e> Clique para mudar para lista branca'
+  '25':
+    variants:
+    - match: '&7Include Lore: &2✔'
+      name: '&7Incluir descrição: &2✔'
+      lore:
+      - ''
+      - '&e> Clique para escolher se a descrição tem de corresponder'
+    - match: '&7Include Lore: &4✘'
+      name: '&7Incluir descrição: &4✘'
+      lore:
+      - ''
+      - '&e> Clique para escolher se a descrição tem de corresponder'
+  '41':
+    variants:
+    - match: '&bPrevious Channel'
+      name: '&bCanal anterior'
+      lore:
+      - ''
+      - '&e> Clique para diminuir o ID do canal em 1'
+  '42':
+    variants:
+    - match: '&bChannel ID: &3{0}'
+      name: '&bID do canal: &3{0}'
+  '43':
+    variants:
+    - match: '&bNext Channel'
+      name: '&bCanal seguinte'
+      lore:
+      - ''
+      - '&e> Clique para aumentar o ID do canal em 1'
+CHEMICAL_REACTOR:
+  '10':
+    name: '&9Entrada'
+  '11':
+    name: '&9Entrada'
+  '12':
+    name: '&9Entrada'
+  '14':
+    name: '&6Saída'
+  '15':
+    name: '&6Saída'
+  '16':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '21':
+    name: '&9Entrada'
+  '22':
+    name: '&8Inativo'
+    variants:
+    - match: '&aProcessing...'
+      name: '&aA processar...'
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+  '23':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '28':
+    name: '&9Entrada'
+  '29':
+    name: '&9Entrada'
+  '30':
+    name: '&9Entrada'
+  '32':
+    name: '&6Saída'
+  '33':
+    name: '&6Saída'
+  '34':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '9':
+    name: '&9Entrada'
+CHEST_TERMINAL:
+  '46':
+    name: Isto vai atualizar em breve
+    variants:
+    - match: '&7⇦ Previous Page'
+      name: '&7⇦ Página anterior'
+      lore:
+      - ''
+      - '&c(Pode demorar até um segundo a atualizar)'
+  '50':
+    name: Isto vai atualizar em breve
+    variants:
+    - match: '&7Next Page ⇨'
+      name: '&7Página seguinte ⇨'
+      lore:
+      - ''
+      - '&c(Pode demorar até um segundo a atualizar)'
+COBBLE_PRESS:
+  '10':
+    name: '&9Entrada'
+  '11':
+    name: '&9Entrada'
+  '12':
+    name: '&9Entrada'
+  '14':
+    name: '&6Saída'
+  '15':
+    name: '&6Saída'
+  '16':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '21':
+    name: '&9Entrada'
+  '22':
+    name: '&8Inativo'
+    variants:
+    - match: '&aProcessing...'
+      name: '&aA processar...'
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+  '23':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '28':
+    name: '&9Entrada'
+  '29':
+    name: '&9Entrada'
+  '30':
+    name: '&9Entrada'
+  '32':
+    name: '&6Saída'
+  '33':
+    name: '&6Saída'
+  '34':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '9':
+    name: '&9Entrada'
+CT_EXPORT_BUS:
+  '2':
+    lore:
+    - ''
+    - '&bColoca todos os Itens que queres'
+    - '&blista branca'
+    name: '&3Itens'
+CT_IMPORT_BUS:
+  '2':
+    lore:
+    - ''
+    - '&bColoca todos os Itens que queres'
+    - '&blista negra/lista branca'
+    name: '&3Itens'
+  '23':
+    variants:
+    - match: '&7Type: &fWhitelist'
+      name: '&7Tipo: &fLista branca'
+      lore:
+      - ''
+      - '&e> Clique para mudar para lista negra'
+    - match: '&7Type: &8Blacklist'
+      name: '&7Tipo: &8Lista negra'
+      lore:
+      - ''
+      - '&e> Clique para mudar para lista branca'
+  '32':
+    variants:
+    - match: '&7Include Lore: &2✔'
+      name: '&7Incluir descrição: &2✔'
+      lore:
+      - ''
+      - '&e> Clique para escolher se a descrição tem de corresponder'
+    - match: '&7Include Lore: &4✘'
+      name: '&7Incluir descrição: &4✘'
+      lore:
+      - ''
+      - '&e> Clique para escolher se a descrição tem de corresponder'
+  '41':
+    variants:
+    - match: '&7Include Sub-IDs/Durability: &4✘'
+      name: '&7Incluir sub-IDs/durabilidade: &4✘'
+      lore:
+      - ''
+      - '&e> Clique para escolher se a durabilidade tem de corresponder'
+    - match: '&7Include Sub-IDs/Durability: &2✔'
+      name: '&7Incluir sub-IDs/durabilidade: &2✔'
+      lore:
+      - ''
+      - '&e> Clique para escolher se a durabilidade tem de corresponder'
+DATA_INFUSER:
+  '0':
+    name: '&9Entrada'
+  '1':
+    name: '&9Entrada'
+  '13':
+    name: '&9Entrada'
+  '15':
+    name: '&6Saída'
+  '16':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '2':
+    name: '&9Entrada'
+  '22':
+    name: '&9Entrada'
+  '23':
+    name: '&aClica para Fabricar!'
+  '24':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '3':
+    name: '&9Entrada'
+  '31':
+    name: '&9Entrada'
+  '33':
+    name: '&6Saída'
+  '34':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '36':
+    name: '&9Entrada'
+  '37':
+    name: '&9Entrada'
+  '38':
+    name: '&9Entrada'
+  '39':
+    name: '&9Entrada'
+  '4':
+    name: '&9Entrada'
+  '40':
+    name: '&9Entrada'
+  '9':
+    name: '&9Entrada'
+DECOMPRESSOR:
+  '10':
+    name: '&9Entrada'
+  '11':
+    name: '&9Entrada'
+  '12':
+    name: '&9Entrada'
+  '14':
+    name: '&6Saída'
+  '15':
+    name: '&6Saída'
+  '16':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '21':
+    name: '&9Entrada'
+  '22':
+    name: '&8Inativo'
+    variants:
+    - match: '&aProcessing...'
+      name: '&aA processar...'
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+  '23':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '28':
+    name: '&9Entrada'
+  '29':
+    name: '&9Entrada'
+  '30':
+    name: '&9Entrada'
+  '32':
+    name: '&6Saída'
+  '33':
+    name: '&6Saída'
+  '34':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '9':
+    name: '&9Entrada'
+DUST_EXTRACTOR:
+  '10':
+    name: '&9Entrada'
+  '11':
+    name: '&9Entrada'
+  '12':
+    name: '&9Entrada'
+  '14':
+    name: '&6Saída'
+  '15':
+    name: '&6Saída'
+  '16':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '21':
+    name: '&9Entrada'
+  '22':
+    name: '&8Inativo'
+    variants:
+    - match: '&aProcessing...'
+      name: '&aA processar...'
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+  '23':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '28':
+    name: '&9Entrada'
+  '29':
+    name: '&9Entrada'
+  '30':
+    name: '&9Entrada'
+  '32':
+    name: '&6Saída'
+  '33':
+    name: '&6Saída'
+  '34':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '9':
+    name: '&9Entrada'
+DYNATECH_ALUMINUMMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_ALUMINUM_BRASSMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_ALUMINUM_BRONZEMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_BILLONMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_BRASSMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_CARBONADOMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_COALMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_COBALTMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_COPPERMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_CORINTHIAN_BRONZEMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_DAMASCUS_STEELMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_DIAMONDMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_DURALUMINMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_EMERALDMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_FERROSILICONMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_GILDED_IRONMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_GOLDMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_HARDENED_METALMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_IRONMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_LAPIS_LAZULIMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_LEADMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_MAGNESIUMMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_NETHERITEMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_NICKELMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_QUARTZMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_REDSTONEMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_REDSTONE_ALLOYMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_REINFORCED_ALLOYMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_SILVERMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_SOLDERMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_STEELMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_SYNTHETIC_DIAMONDMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_SYNTHETIC_EMERALDMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_SYNTHETIC_SAPPHIREMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_TESSERACT:
+  '4':
+    lore:
+    - '&fEnergia Atual: Desconhecida'
+    - '&fEstado Atual: NÃO LIGADO'
+    name: '&fPainel de Conhecimento'
+DYNATECH_TINMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+DYNATECH_WIRELESS_ITEM_INPUT:
+  '4':
+    name: '&fPainel de Conhecimento'
+DYNATECH_WIRELESS_ITEM_OUTPUT:
+  '4':
+    lore:
+    - '&fEnergia Atual: Desconhecida'
+    - '&fEstado Atual: NÃO LIGADO'
+    name: '&fPainel de Conhecimento'
+DYNATECH_ZINCMINERALIZED_APIARY:
+  '20':
+    lore:
+    - '&fNº de Abelhas: {}'
+    - '&fVelocidade Atual: {}'
+    name: '&fInformação'
+EXTREME_FREEZER:
+  '10':
+    name: '&9Entrada'
+  '11':
+    name: '&9Entrada'
+  '12':
+    name: '&9Entrada'
+  '14':
+    name: '&6Saída'
+  '15':
+    name: '&6Saída'
+  '16':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '21':
+    name: '&9Entrada'
+  '22':
+    name: '&8Inativo'
+    variants:
+    - match: '&aProcessing...'
+      name: '&aA processar...'
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+  '23':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '28':
+    name: '&9Entrada'
+  '29':
+    name: '&9Entrada'
+  '30':
+    name: '&9Entrada'
+  '32':
+    name: '&6Saída'
+  '33':
+    name: '&6Saída'
+  '34':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '9':
+    name: '&9Entrada'
+FUSION_REACTOR:
+  '1':
+    lore:
+    - ''
+    - '&fEste slot aceita combustível radioativo como:'
+    - '&2Urânio &fou &aNeptúnio'
+    name: '&7Slot de Combustível'
+  '25':
+    name: '&cNão é Necessário Refrigerante'
+  '34':
+    name: '&cNão é Necessário Refrigerante'
+  '43':
+    name: '&cNão é Necessário Refrigerante'
+  '7':
+    lore:
+    - ''
+    - '&fEste slot aceita Células de Refrigerante'
+    name: '&bSlot de Refrigerante'
+GEAR_TRANSFORMER:
+  '0':
+    name: '&9Entrada de Ferramenta'
+  '1':
+    name: '&9Entrada de Ferramenta'
+  '11':
+    name: '&9Entrada de Ferramenta'
+  '15':
+    name: '&9Entrada de Material'
+  '17':
+    name: '&9Entrada de Material'
+  '18':
+    name: '&9Entrada de Ferramenta'
+  '19':
+    name: '&9Entrada de Ferramenta'
+  '2':
+    name: '&9Entrada de Ferramenta'
+  '20':
+    name: '&9Entrada de Ferramenta'
+  '24':
+    name: '&9Entrada de Material'
+  '25':
+    name: '&9Entrada de Material'
+  '26':
+    name: '&9Entrada de Material'
+  '28':
+    name: '&6Saída'
+  '30':
+    name: '&6Saída'
+  '31':
+    name: '&6Saída'
+  '32':
+    name: '&6Saída'
+  '34':
+    name: '&6Saída'
+  '37':
+    name: '&6Saída'
+  '38':
+    name: '&6Saída'
+  '39':
+    name: '&6Saída'
+  '41':
+    name: '&6Saída'
+  '42':
+    name: '&6Saída'
+  '43':
+    name: '&6Saída'
+  '48':
+    name: '&6Saída'
+  '49':
+    name: '&6Saída'
+  '50':
+    name: '&6Saída'
+  '6':
+    name: '&9Entrada de Material'
+  '7':
+    name: '&9Entrada de Material'
+  '8':
+    name: '&9Entrada de Material'
+  '9':
+    name: '&9Entrada de Ferramenta'
+  '13':
+    variants:
+    - match: '&9Input a tool or piece of gear'
+      name: '&9Insere uma ferramenta ou peça de equipamento'
+    - match: '&cSlimefun items may not have their material changed!'
+      name: '&cO material dos itens do Slimefun não pode ser alterado!'
+    - match: '&cNot a tool or piece of gear!'
+      name: '&cNão é uma ferramenta nem peça de equipamento!'
+    - match: '&9Input materials'
+      name: '&9Insere materiais'
+    - match: '&cInvalid Materials!'
+      name: '&cMateriais inválidos!'
+    - match: '&aTool Transformed!'
+      name: '&aFerramenta transformada!'
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+    - match: '&cNot enough energy!'
+      match-lore:
+      - '&aCharge: {0}/{1} J'
+      name: '&cEnergia insuficiente!'
+      lore:
+      - ''
+      - '&aCarga: {0}/{1} J'
+      - ''
+GEO_QUARRY:
+  '19':
+    name: '&6Saída'
+  '20':
+    name: '&6Saída'
+  '21':
+    name: '&6Saída'
+  '22':
+    name: '&6Saída'
+  '23':
+    name: '&6Saída'
+  '24':
+    name: '&6Saída'
+  '25':
+    name: '&6Saída'
+  '28':
+    name: '&6Saída'
+  '34':
+    name: '&6Saída'
+  '37':
+    name: '&6Saída'
+  '43':
+    name: '&6Saída'
+  '46':
+    name: '&6Saída'
+  '47':
+    name: '&6Saída'
+  '48':
+    name: '&6Saída'
+  '49':
+    name: '&6Saída'
+  '50':
+    name: '&6Saída'
+  '51':
+    name: '&6Saída'
+  '52':
+    name: '&6Saída'
+  '4':
+    variants:
+    - match: '&aDrilling...'
+      name: '&aA perfurar...'
+    - match: '&aFound!'
+      name: '&aEncontrado!'
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+HYBRID_SOLAR_PANEL:
+  '4':
+    name: '&cSem Geração...'
+    variants:
+    - match: '&aGenerating'
+      match-lore:
+      - '&bRate: &4Unknown'
+      - '&7Generating at &6{0} J/s &8({1} J/t)'
+      - '&7Stored: &6{2} J'
+      name: '&aA gerar'
+      lore:
+      - ''
+      - '&bTaxa: &4Desconhecida'
+      - '&7A gerar &6{0} J/s &8({1} J/t)'
+      - ''
+      - '&7Armazenado: &6{2} J'
+    - match: '&aGenerating'
+      match-lore:
+      - '&bRate: &cNether &e(Day)'
+      - '&7Generating at &6{0} J/s &8({1} J/t)'
+      - '&7Stored: &6{2} J'
+      name: '&aA gerar'
+      lore:
+      - ''
+      - '&bTaxa: &cNether &e(Dia)'
+      - '&7A gerar &6{0} J/s &8({1} J/t)'
+      - ''
+      - '&7Armazenado: &6{2} J'
+    - match: '&aGenerating'
+      match-lore:
+      - '&bRate: &5End &8(Night)'
+      - '&7Generating at &6{0} J/s &8({1} J/t)'
+      - '&7Stored: &6{2} J'
+      name: '&aA gerar'
+      lore:
+      - ''
+      - '&bTaxa: &5End &8(Noite)'
+      - '&7A gerar &6{0} J/s &8({1} J/t)'
+      - ''
+      - '&7Armazenado: &6{2} J'
+    - match: '&aGenerating'
+      match-lore:
+      - '&bRate: &aOverworld &e(Day)'
+      - '&7Generating at &6{0} J/s &8({1} J/t)'
+      - '&7Stored: &6{2} J'
+      name: '&aA gerar'
+      lore:
+      - ''
+      - '&bTaxa: &aSuperfície &e(Dia)'
+      - '&7A gerar &6{0} J/s &8({1} J/t)'
+      - ''
+      - '&7Armazenado: &6{2} J'
+    - match: '&aGenerating'
+      match-lore:
+      - '&bRate: &aOverworld &8(Night)'
+      - '&7Generating at &6{0} J/s &8({1} J/t)'
+      - '&7Stored: &6{2} J'
+      name: '&aA gerar'
+      lore:
+      - ''
+      - '&bTaxa: &aSuperfície &8(Noite)'
+      - '&7A gerar &6{0} J/s &8({1} J/t)'
+      - ''
+      - '&7Armazenado: &6{2} J'
+    - match: '&cNot Generating'
+      match-lore:
+      - '&7Stored: &6{0} J'
+      name: '&cSem gerar'
+      lore:
+      - ''
+      - '&7O gerador atingiu a capacidade máxima.'
+      - ''
+      - '&7Armazenado: &6{0} J'
+INFINITY_CONSTRUCTOR:
+  '0':
+    name: '&9Entrada'
+  '1':
+    name: '&9Entrada'
+  '11':
+    name: '&9Entrada'
+  '15':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '19':
+    name: '&9Entrada'
+  '2':
+    name: '&9Entrada'
+  '20':
+    name: '&9Entrada'
+  '24':
+    name: '&6Saída'
+  '25':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '6':
+    name: '&6Saída'
+  '7':
+    name: '&6Saída'
+  '8':
+    name: '&6Saída'
+  '9':
+    name: '&9Entrada'
+  '13':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+    - match: '&aConstructing {0}...'
+      match-lore:
+      - '&7Complete'
+      name: '&aA construir {0}...'
+      lore:
+      - '&7Concluído'
+    - match: '&aConstructing {0}...'
+      match-lore:
+      - '&7{1} / {2}'
+      name: '&aA construir {0}...'
+      lore:
+      - '&7{1} / {2}'
+INFINITY_DUST_EXTRACTOR:
+  '10':
+    name: '&9Entrada'
+  '11':
+    name: '&9Entrada'
+  '12':
+    name: '&9Entrada'
+  '14':
+    name: '&6Saída'
+  '15':
+    name: '&6Saída'
+  '16':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '21':
+    name: '&9Entrada'
+  '22':
+    name: '&8Inativo'
+    variants:
+    - match: '&aProcessing...'
+      name: '&aA processar...'
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+  '23':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '28':
+    name: '&9Entrada'
+  '29':
+    name: '&9Entrada'
+  '30':
+    name: '&9Entrada'
+  '32':
+    name: '&6Saída'
+  '33':
+    name: '&6Saída'
+  '34':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '9':
+    name: '&9Entrada'
+INFINITY_FORGE:
+  '16':
+    name: '&aClica para Fabricar!'
+  '33':
+    name: '&6Saída'
+  '34':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '42':
+    name: '&6Saída'
+  '44':
+    name: '&6Saída'
+  '51':
+    name: '&6Saída'
+  '52':
+    name: '&6Saída'
+  '53':
+    name: '&6Saída'
+  '7':
+    name: '&6Receitas'
+INFINITY_INGOT_FORMER:
+  '10':
+    name: '&9Entrada'
+  '11':
+    name: '&9Entrada'
+  '12':
+    name: '&9Entrada'
+  '14':
+    name: '&6Saída'
+  '15':
+    name: '&6Saída'
+  '16':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '21':
+    name: '&9Entrada'
+  '22':
+    name: '&8Inativo'
+    variants:
+    - match: '&aProcessing...'
+      name: '&aA processar...'
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+  '23':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '28':
+    name: '&9Entrada'
+  '29':
+    name: '&9Entrada'
+  '30':
+    name: '&9Entrada'
+  '32':
+    name: '&6Saída'
+  '33':
+    name: '&6Saída'
+  '34':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '9':
+    name: '&9Entrada'
+INFINITY_QUARRY:
+  '48':
+    lore:
+    - '&7Coloca um oscilador de pedreira para'
+    - '&7aumentar as taxas de certos materiais!'
+    name: '&bSlot do Oscilador'
+  '50':
+    lore:
+    - '&7Coloca um oscilador de pedreira para'
+    - '&7aumentar as taxas de certos materiais!'
+    name: '&bSlot do Oscilador'
+INFINITY_REACTOR:
+  '0':
+    name: '&fEntrada de Lingote Infinito'
+  '1':
+    name: '&fEntrada de Lingote Infinito'
+  '11':
+    name: '&fEntrada de Lingote Infinito'
+  '15':
+    name: '&8Entrada de Lingote a Descartar'
+  '17':
+    name: '&8Entrada de Lingote a Descartar'
+  '18':
+    name: '&fEntrada de Lingote Infinito'
+  '19':
+    name: '&fEntrada de Lingote Infinito'
+  '2':
+    name: '&fEntrada de Lingote Infinito'
+  '20':
+    name: '&fEntrada de Lingote Infinito'
+  '24':
+    name: '&8Entrada de Lingote a Descartar'
+  '25':
+    name: '&8Entrada de Lingote a Descartar'
+  '26':
+    name: '&8Entrada de Lingote a Descartar'
+  '6':
+    name: '&8Entrada de Lingote a Descartar'
+  '7':
+    name: '&8Entrada de Lingote a Descartar'
+  '8':
+    name: '&8Entrada de Lingote a Descartar'
+  '9':
+    name: '&fEntrada de Lingote Infinito'
+  '13':
+    variants:
+    - match: '&cInput more &fInfinity Ingots'
+      name: '&cInsere mais &fLingotes Infinitos'
+    - match: '&cInput more &8Void Ingots'
+      name: '&cInsere mais &8Lingotes do Vazio'
+    - match: '&aFinished Generation'
+      name: '&aGeração concluída'
+    - match: '&aStarting Generation'
+      match-lore:
+      - '&aTime until infinity ingot needed: {0}'
+      - '&aTime until void ingot needed: {1}'
+      name: '&aA iniciar a geração'
+      lore:
+      - '&aTempo até precisar de Lingote Infinito: {0}'
+      - '&aTempo até precisar de Lingote do Vazio: {1}'
+    - match: '&aGenerating...'
+      match-lore:
+      - '&aTime until infinity ingot needed: {0}'
+      - '&aTime until void ingot needed: {1}'
+      name: '&aA gerar...'
+      lore:
+      - '&aTempo até precisar de Lingote Infinito: {0}'
+      - '&aTempo até precisar de Lingote do Vazio: {1}'
+INFINITY_STORAGE:
+  '0':
+    name: '&9Entrada'
+  '1':
+    name: '&9Entrada'
+  '11':
+    name: '&9Entrada'
+  '15':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '19':
+    name: '&9Entrada'
+  '2':
+    name: '&9Entrada'
+  '20':
+    name: '&9Entrada'
+  '22':
+    lore:
+    - '&bClique Esquerdo: &7Retirar 1 item'
+    - '&bClique Direito: &7Retirar 1 pilha'
+    - '&bShift + Clique Esquerdo: &7Depositar inventário'
+    - '&bShift + Clique Direito: &7Retirar inventário'
+    name: '&aAções Rápidas'
+  '24':
+    name: '&6Saída'
+  '25':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '4':
+    lore:
+    - '&7A carregar...'
+    name: '&bEstado'
+  '6':
+    name: '&6Saída'
+  '7':
+    name: '&6Saída'
+  '8':
+    name: '&6Saída'
+  '9':
+    name: '&9Entrada'
+INFINITY_TREE_GROWER:
+  '12':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '21':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '28':
+    name: '&9Entrada'
+  '29':
+    name: '&9Entrada'
+  '3':
+    name: '&6Saída'
+  '30':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '36':
+    name: '&9Entrada'
+  '38':
+    name: '&9Entrada'
+  '39':
+    name: '&6Saída'
+  '4':
+    name: '&6Saída'
+  '44':
+    name: '&6Saída'
+  '45':
+    name: '&9Entrada'
+  '46':
+    name: '&9Entrada'
+  '47':
+    name: '&9Entrada'
+  '48':
+    name: '&6Saída'
+  '49':
+    name: '&6Saída'
+  '5':
+    name: '&6Saída'
+  '50':
+    name: '&6Saída'
+  '51':
+    name: '&6Saída'
+  '52':
+    name: '&6Saída'
+  '53':
+    name: '&6Saída'
+  '6':
+    name: '&6Saída'
+  '7':
+    name: '&6Saída'
+  '8':
+    name: '&6Saída'
+INFINITY_VIRTUAL_FARM:
+  '12':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '21':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '28':
+    name: '&9Entrada'
+  '29':
+    name: '&9Entrada'
+  '3':
+    name: '&6Saída'
+  '30':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '36':
+    name: '&9Entrada'
+  '38':
+    name: '&9Entrada'
+  '39':
+    name: '&6Saída'
+  '4':
+    name: '&6Saída'
+  '44':
+    name: '&6Saída'
+  '45':
+    name: '&9Entrada'
+  '46':
+    name: '&9Entrada'
+  '47':
+    name: '&9Entrada'
+  '48':
+    name: '&6Saída'
+  '49':
+    name: '&6Saída'
+  '5':
+    name: '&6Saída'
+  '50':
+    name: '&6Saída'
+  '51':
+    name: '&6Saída'
+  '52':
+    name: '&6Saída'
+  '53':
+    name: '&6Saída'
+  '6':
+    name: '&6Saída'
+  '7':
+    name: '&6Saída'
+  '8':
+    name: '&6Saída'
+INGOT_FORMER:
+  '10':
+    name: '&9Entrada'
+  '11':
+    name: '&9Entrada'
+  '12':
+    name: '&9Entrada'
+  '14':
+    name: '&6Saída'
+  '15':
+    name: '&6Saída'
+  '16':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '21':
+    name: '&9Entrada'
+  '22':
+    name: '&8Inativo'
+    variants:
+    - match: '&aProcessing...'
+      name: '&aA processar...'
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+  '23':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '28':
+    name: '&9Entrada'
+  '29':
+    name: '&9Entrada'
+  '30':
+    name: '&9Entrada'
+  '32':
+    name: '&6Saída'
+  '33':
+    name: '&6Saída'
+  '34':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '9':
+    name: '&9Entrada'
+IRON_GOLEM_ASSEMBLER:
+  '1':
+    lore:
+    - ''
+    - '&fEste slot aceita Abóboras'
+    name: '&7Slot de Abóbora'
+  '13':
+    lore:
+    - ''
+    - '&fEsta Máquina demora até meio Minuto a operar'
+    - '&fentão dá-lhe algum Tempo!'
+    name: '&7Tempo de espera: &b30 Segundos'
+  '7':
+    lore:
+    - ''
+    - '&fEste slot aceita Blocos de Ferro'
+    name: '&7Slot de Bloco de Ferro'
+  '22':
+    variants:
+    - match: '&7Enabled: &4✘'
+      name: '&7Ativado: &4✘'
+      lore:
+      - ''
+      - '&e> Clique para ativar esta máquina'
+    - match: '&7Enabled: &2✔'
+      name: '&7Ativado: &2✔'
+      lore:
+      - ''
+      - '&e> Clique para desativar esta máquina'
+  '31':
+    variants:
+    - match: '&7Offset: &3{0} Block(s)'
+      name: '&7Deslocamento: &3{0} bloco(s)'
+      lore:
+      - ''
+      - '&fClique esquerdo: &7+0.1'
+      - '&fClique direito: &7-0.1'
+LAUNCH_PAD_CORE:
+  '24':
+    name: '&6Insere o Combustível Aqui'
+MASS_FABRICATOR_MACHINE:
+  '13':
+    name: '&7Progresso'
+MOB_SIMULATION_CHAMBER:
+  '12':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '21':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '28':
+    name: '&9Entrada'
+  '29':
+    name: '&9Entrada'
+  '3':
+    name: '&6Saída'
+  '30':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '36':
+    name: '&9Entrada'
+  '38':
+    name: '&9Entrada'
+  '39':
+    name: '&6Saída'
+  '4':
+    name: '&6Saída'
+  '44':
+    name: '&6Saída'
+  '45':
+    name: '&9Entrada'
+  '46':
+    name: '&9Entrada'
+    variants:
+    - match: '&aStored xp: {0}'
+      name: '&aExperiência armazenada: {0}'
+      lore:
+      - ''
+      - '&a> Clique para recolher'
+  '47':
+    name: '&9Entrada'
+  '48':
+    name: '&6Saída'
+  '49':
+    name: '&6Saída'
+  '5':
+    name: '&6Saída'
+  '50':
+    name: '&6Saída'
+  '51':
+    name: '&6Saída'
+  '52':
+    name: '&6Saída'
+  '53':
+    name: '&6Saída'
+  '6':
+    name: '&6Saída'
+  '7':
+    name: '&6Saída'
+  '8':
+    name: '&6Saída'
+  '10':
+    variants:
+    - match: '&cInput a Mob Data Card!'
+      name: '&cInsere um cartão de dados de criatura!'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+    - match: '&aSimulating... ({0} J/s)'
+      name: '&aA simular... ({0} J/s)'
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+NETHERSTAR_REACTOR:
+  '1':
+    lore:
+    - ''
+    - '&fEste slot aceita combustível radioativo como:'
+    - '&2Urânio &fou &aNeptúnio'
+    name: '&7Slot de Combustível'
+  '7':
+    lore:
+    - ''
+    - '&fEste slot aceita Células de Refrigerante'
+    - '&4Sem quaisquer Células de Refrigerante, o teu Reator'
+    - '&4vai explodir'
+    name: '&bSlot de Refrigerante'
+  '4':
+    variants:
+    - match: '&7Focus: &eElectricity'
+      name: '&7Prioridade: &eEletricidade'
+      lore:
+      - ''
+      - '&6O teu reator vai dar prioridade à geração de energia'
+      - '&6Se a tua rede de energia não precisar de energia,'
+      - '&6também não produzirá nenhuma'
+      - ''
+      - '&7⇨ Clique para mudar a prioridade para &eProdução'
+    - match: '&7Focus: &eProduction'
+      name: '&7Prioridade: &eProdução'
+      lore:
+      - ''
+      - '&6O teu reator vai dar prioridade ao fabrico de bens'
+      - '&6Se a tua rede de energia não precisar de energia,'
+      - '&6continuará a funcionar e simplesmente'
+      - '&6não gerará energia entretanto'
+      - ''
+      - '&7⇨ Clique para mudar a prioridade para &eGeração de energia'
+  '49':
+    variants:
+    - match: '&7Access Port'
+      match-lore:
+      - '&6Detected'
+      name: '&7Porta de acesso'
+      lore:
+      - ''
+      - '&6Detetada'
+      - ''
+      - '&7> Clique para ver a porta de acesso'
+    - match: '&7Access Port'
+      match-lore:
+      - '&cNot detected'
+      name: '&7Porta de acesso'
+      lore:
+      - ''
+      - '&cNão detetada'
+      - ''
+      - '&7A porta de acesso tem de ser'
+      - '&7colocada 3 blocos acima'
+      - '&7de um reator!'
+NTW_AUTO_CRAFTER:
+  '0':
+    name: '&7Planta de Fabrico'
+  '1':
+    name: '&7Planta de Fabrico'
+  '11':
+    name: '&7Planta de Fabrico'
+  '15':
+    name: '&7Saída'
+  '17':
+    name: '&7Saída'
+  '18':
+    name: '&7Planta de Fabrico'
+  '19':
+    name: '&7Planta de Fabrico'
+  '2':
+    name: '&7Planta de Fabrico'
+  '20':
+    name: '&7Planta de Fabrico'
+  '24':
+    name: '&7Saída'
+  '25':
+    name: '&7Saída'
+  '26':
+    name: '&7Saída'
+  '6':
+    name: '&7Saída'
+  '7':
+    name: '&7Saída'
+  '8':
+    name: '&7Saída'
+  '9':
+    name: '&7Planta de Fabrico'
+NTW_AUTO_CRAFTER_WITHHOLDING:
+  '0':
+    name: '&7Planta de Fabrico'
+  '1':
+    name: '&7Planta de Fabrico'
+  '11':
+    name: '&7Planta de Fabrico'
+  '15':
+    name: '&7Saída'
+  '17':
+    name: '&7Saída'
+  '18':
+    name: '&7Planta de Fabrico'
+  '19':
+    name: '&7Planta de Fabrico'
+  '2':
+    name: '&7Planta de Fabrico'
+  '20':
+    name: '&7Planta de Fabrico'
+  '24':
+    name: '&7Saída'
+  '25':
+    name: '&7Saída'
+  '26':
+    name: '&7Saída'
+  '6':
+    name: '&7Saída'
+  '7':
+    name: '&7Saída'
+  '8':
+    name: '&7Saída'
+  '9':
+    name: '&7Planta de Fabrico'
+NTW_CONTROL_V:
+  '11':
+    name: '&7Definir direção: NORTE'
+  '14':
+    name: '&7Definir direção: CIMA'
+  '16':
+    name: '&7Colar itens correspondentes ao modelo'
+  '19':
+    name: '&7Definir direção: OESTE'
+  '21':
+    name: '&7Definir direção: ESTE'
+  '29':
+    name: '&7Definir direção: SUL'
+  '32':
+    name: '&7Definir direção: BAIXO'
+NTW_CONTROL_X:
+  '11':
+    name: '&7Definir direção: NORTE'
+  '14':
+    name: '&7Definir direção: CIMA'
+  '16':
+    lore:
+    - '&7Deixar em branco corta tudo'
+    name: '&7Cortar itens correspondentes ao modelo.'
+  '19':
+    name: '&7Definir direção: OESTE'
+  '21':
+    name: '&7Definir direção: ESTE'
+  '29':
+    name: '&7Definir direção: SUL'
+  '32':
+    name: '&7Definir direção: BAIXO'
+NTW_EXPORT:
+  '10':
+    name: '&aExportar Item Correspondente a'
+  '11':
+    name: '&aExportar Item Correspondente a'
+  '12':
+    name: '&aExportar Item Correspondente a'
+  '14':
+    name: '&aSlot de Saída'
+  '15':
+    name: '&aSlot de Saída'
+  '16':
+    name: '&aSlot de Saída'
+  '19':
+    name: '&aExportar Item Correspondente a'
+  '21':
+    name: '&aExportar Item Correspondente a'
+  '23':
+    name: '&aSlot de Saída'
+  '25':
+    name: '&aSlot de Saída'
+  '28':
+    name: '&aExportar Item Correspondente a'
+  '29':
+    name: '&aExportar Item Correspondente a'
+  '30':
+    name: '&aExportar Item Correspondente a'
+  '32':
+    name: '&aSlot de Saída'
+  '33':
+    name: '&aSlot de Saída'
+  '34':
+    name: '&aSlot de Saída'
+NTW_GRABBER:
+  '12':
+    name: '&7Definir direção: NORTE'
+  '15':
+    name: '&7Definir direção: CIMA'
+  '20':
+    name: '&7Definir direção: OESTE'
+  '22':
+    name: '&7Definir direção: ESTE'
+  '30':
+    name: '&7Definir direção: SUL'
+  '33':
+    name: '&7Definir direção: BAIXO'
+NTW_GREEDY_BLOCK:
+  '0':
+    name: '&aArmazenar itens correspondentes a'
+  '1':
+    name: '&aArmazenar itens correspondentes a'
+  '11':
+    name: '&aArmazenar itens correspondentes a'
+  '15':
+    name: '&aArmazenamento'
+  '17':
+    name: '&aArmazenamento'
+  '18':
+    name: '&aArmazenar itens correspondentes a'
+  '19':
+    name: '&aArmazenar itens correspondentes a'
+  '2':
+    name: '&aArmazenar itens correspondentes a'
+  '20':
+    name: '&aArmazenar itens correspondentes a'
+  '24':
+    name: '&aArmazenamento'
+  '25':
+    name: '&aArmazenamento'
+  '26':
+    name: '&aArmazenamento'
+  '6':
+    name: '&aArmazenamento'
+  '7':
+    name: '&aArmazenamento'
+  '8':
+    name: '&aArmazenamento'
+  '9':
+    name: '&aArmazenar itens correspondentes a'
+NTW_MONITOR:
+  '12':
+    name: '&7Definir direção: NORTE'
+  '15':
+    name: '&7Definir direção: CIMA'
+  '20':
+    name: '&7Definir direção: OESTE'
+  '22':
+    name: '&7Definir direção: ESTE'
+  '30':
+    name: '&7Definir direção: SUL'
+  '33':
+    name: '&7Definir direção: BAIXO'
+NTW_NETWORK_WIRELESS_RECEIVER:
+  '12':
+    name: '&aItens recebidos'
+  '14':
+    name: '&aItens recebidos'
+  '21':
+    name: '&aItens recebidos'
+  '22':
+    name: '&aItens recebidos'
+  '23':
+    name: '&aItens recebidos'
+  '3':
+    name: '&aItens recebidos'
+  '4':
+    name: '&aItens recebidos'
+  '5':
+    name: '&aItens recebidos'
+NTW_NETWORK_WIRELESS_TRANSMITTER:
+  '12':
+    name: '&aTransmitir itens correspondentes a'
+  '14':
+    name: '&aTransmitir itens correspondentes a'
+  '21':
+    name: '&aTransmitir itens correspondentes a'
+  '22':
+    name: '&aTransmitir itens correspondentes a'
+  '23':
+    name: '&aTransmitir itens correspondentes a'
+  '3':
+    name: '&aTransmitir itens correspondentes a'
+  '4':
+    name: '&aTransmitir itens correspondentes a'
+  '5':
+    name: '&aTransmitir itens correspondentes a'
+NTW_POWER_DISPLAY:
+  '4':
+    lore:
+    - '&7Carga Atual da Rede: 0j'
+    name: '&x&E&4&E&D&3&2Estado'
+NTW_POWER_OUTLET_1:
+  '12':
+    name: '&7Definir direção: NORTE'
+  '15':
+    name: '&7Definir direção: CIMA'
+  '20':
+    name: '&7Definir direção: OESTE'
+  '22':
+    name: '&7Definir direção: ESTE'
+  '30':
+    name: '&7Definir direção: SUL'
+  '33':
+    name: '&7Definir direção: BAIXO'
+NTW_POWER_OUTLET_2:
+  '12':
+    name: '&7Definir direção: NORTE'
+  '15':
+    name: '&7Definir direção: CIMA'
+  '20':
+    name: '&7Definir direção: OESTE'
+  '22':
+    name: '&7Definir direção: ESTE'
+  '30':
+    name: '&7Definir direção: SUL'
+  '33':
+    name: '&7Definir direção: BAIXO'
+NTW_PUSHER:
+  '11':
+    name: '&7Definir direção: NORTE'
+  '14':
+    name: '&7Definir direção: CIMA'
+  '16':
+    name: '&7Enviar itens correspondentes ao modelo'
+  '19':
+    name: '&7Definir direção: OESTE'
+  '21':
+    name: '&7Definir direção: ESTE'
+  '29':
+    name: '&7Definir direção: SUL'
+  '32':
+    name: '&7Definir direção: BAIXO'
+NTW_QUANTUM_STORAGE_1:
+  '0':
+    name: '&7Entrada'
+  '13':
+    lore:
+    - '&7Arrasta um item para cima deste painel para o registares.'
+    - '&7Shift + Clique para mudar o descarte'
+    name: '&aDefinir Item'
+  '2':
+    name: '&7Entrada'
+  '3':
+    name: '&7Item Armazenado'
+  '5':
+    name: '&7Item Armazenado'
+  '6':
+    name: '&7Saída'
+  '8':
+    name: '&7Saída'
+NTW_QUANTUM_STORAGE_2:
+  '0':
+    name: '&7Entrada'
+  '13':
+    lore:
+    - '&7Arrasta um item para cima deste painel para o registares.'
+    - '&7Shift + Clique para mudar o descarte'
+    name: '&aDefinir Item'
+  '2':
+    name: '&7Entrada'
+  '3':
+    name: '&7Item Armazenado'
+  '5':
+    name: '&7Item Armazenado'
+  '6':
+    name: '&7Saída'
+  '8':
+    name: '&7Saída'
+NTW_QUANTUM_STORAGE_3:
+  '0':
+    name: '&7Entrada'
+  '13':
+    lore:
+    - '&7Arrasta um item para cima deste painel para o registares.'
+    - '&7Shift + Clique para mudar o descarte'
+    name: '&aDefinir Item'
+  '2':
+    name: '&7Entrada'
+  '3':
+    name: '&7Item Armazenado'
+  '5':
+    name: '&7Item Armazenado'
+  '6':
+    name: '&7Saída'
+  '8':
+    name: '&7Saída'
+NTW_QUANTUM_STORAGE_4:
+  '0':
+    name: '&7Entrada'
+  '13':
+    lore:
+    - '&7Arrasta um item para cima deste painel para o registares.'
+    - '&7Shift + Clique para mudar o descarte'
+    name: '&aDefinir Item'
+  '2':
+    name: '&7Entrada'
+  '3':
+    name: '&7Item Armazenado'
+  '5':
+    name: '&7Item Armazenado'
+  '6':
+    name: '&7Saída'
+  '8':
+    name: '&7Saída'
+NTW_QUANTUM_STORAGE_5:
+  '0':
+    name: '&7Entrada'
+  '13':
+    lore:
+    - '&7Arrasta um item para cima deste painel para o registares.'
+    - '&7Shift + Clique para mudar o descarte'
+    name: '&aDefinir Item'
+  '2':
+    name: '&7Entrada'
+  '3':
+    name: '&7Item Armazenado'
+  '5':
+    name: '&7Item Armazenado'
+  '6':
+    name: '&7Saída'
+  '8':
+    name: '&7Saída'
+NTW_QUANTUM_STORAGE_6:
+  '0':
+    name: '&7Entrada'
+  '13':
+    lore:
+    - '&7Arrasta um item para cima deste painel para o registares.'
+    - '&7Shift + Clique para mudar o descarte'
+    name: '&aDefinir Item'
+  '2':
+    name: '&7Entrada'
+  '3':
+    name: '&7Item Armazenado'
+  '5':
+    name: '&7Item Armazenado'
+  '6':
+    name: '&7Saída'
+  '8':
+    name: '&7Saída'
+NTW_QUANTUM_STORAGE_7:
+  '0':
+    name: '&7Entrada'
+  '13':
+    lore:
+    - '&7Arrasta um item para cima deste painel para o registares.'
+    - '&7Shift + Clique para mudar o descarte'
+    name: '&aDefinir Item'
+  '2':
+    name: '&7Entrada'
+  '3':
+    name: '&7Item Armazenado'
+  '5':
+    name: '&7Item Armazenado'
+  '6':
+    name: '&7Saída'
+  '8':
+    name: '&7Saída'
+NTW_QUANTUM_STORAGE_8:
+  '0':
+    name: '&7Entrada'
+  '13':
+    lore:
+    - '&7Arrasta um item para cima deste painel para o registares.'
+    - '&7Shift + Clique para mudar o descarte'
+    name: '&aDefinir Item'
+  '2':
+    name: '&7Entrada'
+  '3':
+    name: '&7Item Armazenado'
+  '5':
+    name: '&7Item Armazenado'
+  '6':
+    name: '&7Saída'
+  '8':
+    name: '&7Saída'
+NTW_QUANTUM_WORKBENCH:
+  '23':
+    name: '&x&E&4&E&D&3&2Clica para entrelaçar'
+NTW_RECIPE_ENCODER:
+  '10':
+    name: '&7Planta em Branco'
+  '16':
+    name: '&7Clica para codificar quando válido'
+  '28':
+    name: '&7Planta em Branco'
+NTW_TRASH:
+  '12':
+    name: '&aPurgar Item Correspondente a'
+  '14':
+    name: '&aPurgar Item Correspondente a'
+  '21':
+    name: '&aPurgar Item Correspondente a'
+  '22':
+    name: '&aPurgar Item Correspondente a'
+  '23':
+    name: '&aPurgar Item Correspondente a'
+  '3':
+    name: '&aPurgar Item Correspondente a'
+  '4':
+    name: '&aPurgar Item Correspondente a'
+  '5':
+    name: '&aPurgar Item Correspondente a'
+NTW_VANILLA_GRABBER:
+  '11':
+    name: '&7Definir direção: NORTE'
+  '14':
+    name: '&7Definir direção: CIMA'
+  '19':
+    name: '&7Definir direção: OESTE'
+  '21':
+    name: '&7Definir direção: ESTE'
+  '29':
+    name: '&7Definir direção: SUL'
+  '32':
+    name: '&7Definir direção: BAIXO'
+NTW_VANILLA_PUSHER:
+  '11':
+    name: '&7Definir direção: NORTE'
+  '14':
+    name: '&7Definir direção: CIMA'
+  '19':
+    name: '&7Definir direção: OESTE'
+  '21':
+    name: '&7Definir direção: ESTE'
+  '29':
+    name: '&7Definir direção: SUL'
+  '32':
+    name: '&7Definir direção: BAIXO'
+NUCLEAR_REACTOR:
+  '1':
+    lore:
+    - ''
+    - '&fEste slot aceita combustível radioativo como:'
+    - '&2Urânio &fou &aNeptúnio'
+    name: '&7Slot de Combustível'
+  '7':
+    lore:
+    - ''
+    - '&fEste slot aceita Células de Refrigerante'
+    - '&4Sem quaisquer Células de Refrigerante, o teu Reator'
+    - '&4vai explodir'
+    name: '&bSlot de Refrigerante'
+  '4':
+    variants:
+    - match: '&7Focus: &eElectricity'
+      name: '&7Prioridade: &eEletricidade'
+      lore:
+      - ''
+      - '&6O teu reator vai dar prioridade à geração de energia'
+      - '&6Se a tua rede de energia não precisar de energia,'
+      - '&6também não produzirá nenhuma'
+      - ''
+      - '&7⇨ Clique para mudar a prioridade para &eProdução'
+    - match: '&7Focus: &eProduction'
+      name: '&7Prioridade: &eProdução'
+      lore:
+      - ''
+      - '&6O teu reator vai dar prioridade ao fabrico de bens'
+      - '&6Se a tua rede de energia não precisar de energia,'
+      - '&6continuará a funcionar e simplesmente'
+      - '&6não gerará energia entretanto'
+      - ''
+      - '&7⇨ Clique para mudar a prioridade para &eGeração de energia'
+  '49':
+    variants:
+    - match: '&7Access Port'
+      match-lore:
+      - '&6Detected'
+      name: '&7Porta de acesso'
+      lore:
+      - ''
+      - '&6Detetada'
+      - ''
+      - '&7> Clique para ver a porta de acesso'
+    - match: '&7Access Port'
+      match-lore:
+      - '&cNot detected'
+      name: '&7Porta de acesso'
+      lore:
+      - ''
+      - '&cNão detetada'
+      - ''
+      - '&7A porta de acesso tem de ser'
+      - '&7colocada 3 blocos acima'
+      - '&7de um reator!'
+PROGRAMMABLE_ANDROID:
+  '34':
+    lore:
+    - ''
+    - '&fEste Android funciona com combustível sólido'
+    - '&fex.: Carvão, Madeira, etc...'
+    name: '&8⇩ &cEntrada de Combustível &8⇩'
+  title: Android Programável
+  '15':
+    variants:
+    - match: '&aStart/Continue'
+      name: '&aIniciar/Continuar'
+  '16':
+    variants:
+    - match: '&bMemory Core'
+      name: '&bNúcleo de memória'
+      lore:
+      - ''
+      - '&8⇨ &7Clique para abrir o editor de scripts'
+  '17':
+    variants:
+    - match: '&4Pause'
+      name: '&4Pausar'
+PROGRAMMABLE_ANDROID_2:
+  '34':
+    lore:
+    - ''
+    - '&fEste Android funciona com combustível líquido'
+    - '&fex.: Lava, Petróleo, Combustível, etc...'
+    name: '&8⇩ &cEntrada de Combustível &8⇩'
+  title: Android Programável
+  '15':
+    variants:
+    - match: '&aStart/Continue'
+      name: '&aIniciar/Continuar'
+  '16':
+    variants:
+    - match: '&bMemory Core'
+      name: '&bNúcleo de memória'
+      lore:
+      - ''
+      - '&8⇨ &7Clique para abrir o editor de scripts'
+  '17':
+    variants:
+    - match: '&4Pause'
+      name: '&4Pausar'
+PROGRAMMABLE_ANDROID_2_BUTCHER:
+  '34':
+    lore:
+    - ''
+    - '&fEste Android funciona com combustível líquido'
+    - '&fex.: Lava, Petróleo, Combustível, etc...'
+    name: '&8⇩ &cEntrada de Combustível &8⇩'
+  title: Android Programável
+  '15':
+    variants:
+    - match: '&aStart/Continue'
+      name: '&aIniciar/Continuar'
+  '16':
+    variants:
+    - match: '&bMemory Core'
+      name: '&bNúcleo de memória'
+      lore:
+      - ''
+      - '&8⇨ &7Clique para abrir o editor de scripts'
+  '17':
+    variants:
+    - match: '&4Pause'
+      name: '&4Pausar'
+PROGRAMMABLE_ANDROID_2_FARMER:
+  '34':
+    lore:
+    - ''
+    - '&fEste Android funciona com combustível líquido'
+    - '&fex.: Lava, Petróleo, Combustível, etc...'
+    name: '&8⇩ &cEntrada de Combustível &8⇩'
+  title: Android Programável
+  '15':
+    variants:
+    - match: '&aStart/Continue'
+      name: '&aIniciar/Continuar'
+  '16':
+    variants:
+    - match: '&bMemory Core'
+      name: '&bNúcleo de memória'
+      lore:
+      - ''
+      - '&8⇨ &7Clique para abrir o editor de scripts'
+  '17':
+    variants:
+    - match: '&4Pause'
+      name: '&4Pausar'
+PROGRAMMABLE_ANDROID_2_FISHERMAN:
+  '34':
+    lore:
+    - ''
+    - '&fEste Android funciona com combustível líquido'
+    - '&fex.: Lava, Petróleo, Combustível, etc...'
+    name: '&8⇩ &cEntrada de Combustível &8⇩'
+  title: Android Programável
+  '15':
+    variants:
+    - match: '&aStart/Continue'
+      name: '&aIniciar/Continuar'
+  '16':
+    variants:
+    - match: '&bMemory Core'
+      name: '&bNúcleo de memória'
+      lore:
+      - ''
+      - '&8⇨ &7Clique para abrir o editor de scripts'
+  '17':
+    variants:
+    - match: '&4Pause'
+      name: '&4Pausar'
+PROGRAMMABLE_ANDROID_3:
+  '34':
+    lore:
+    - ''
+    - '&fEste Android funciona com combustível radioativo'
+    - '&fex.: Urânio, Neptúnio ou Urânio Reforçado'
+    name: '&8⇩ &cEntrada de Combustível &8⇩'
+  title: Android Programável
+  '15':
+    variants:
+    - match: '&aStart/Continue'
+      name: '&aIniciar/Continuar'
+  '16':
+    variants:
+    - match: '&bMemory Core'
+      name: '&bNúcleo de memória'
+      lore:
+      - ''
+      - '&8⇨ &7Clique para abrir o editor de scripts'
+  '17':
+    variants:
+    - match: '&4Pause'
+      name: '&4Pausar'
+PROGRAMMABLE_ANDROID_3_BUTCHER:
+  '34':
+    lore:
+    - ''
+    - '&fEste Android funciona com combustível radioativo'
+    - '&fex.: Urânio, Neptúnio ou Urânio Reforçado'
+    name: '&8⇩ &cEntrada de Combustível &8⇩'
+  title: Android Programável
+  '15':
+    variants:
+    - match: '&aStart/Continue'
+      name: '&aIniciar/Continuar'
+  '16':
+    variants:
+    - match: '&bMemory Core'
+      name: '&bNúcleo de memória'
+      lore:
+      - ''
+      - '&8⇨ &7Clique para abrir o editor de scripts'
+  '17':
+    variants:
+    - match: '&4Pause'
+      name: '&4Pausar'
+PROGRAMMABLE_ANDROID_3_FISHERMAN:
+  '34':
+    lore:
+    - ''
+    - '&fEste Android funciona com combustível radioativo'
+    - '&fex.: Urânio, Neptúnio ou Urânio Reforçado'
+    name: '&8⇩ &cEntrada de Combustível &8⇩'
+  title: Android Programável
+  '15':
+    variants:
+    - match: '&aStart/Continue'
+      name: '&aIniciar/Continuar'
+  '16':
+    variants:
+    - match: '&bMemory Core'
+      name: '&bNúcleo de memória'
+      lore:
+      - ''
+      - '&8⇨ &7Clique para abrir o editor de scripts'
+  '17':
+    variants:
+    - match: '&4Pause'
+      name: '&4Pausar'
+PROGRAMMABLE_ANDROID_BUTCHER:
+  '34':
+    lore:
+    - ''
+    - '&fEste Android funciona com combustível sólido'
+    - '&fex.: Carvão, Madeira, etc...'
+    name: '&8⇩ &cEntrada de Combustível &8⇩'
+  title: Android Programável
+  '15':
+    variants:
+    - match: '&aStart/Continue'
+      name: '&aIniciar/Continuar'
+  '16':
+    variants:
+    - match: '&bMemory Core'
+      name: '&bNúcleo de memória'
+      lore:
+      - ''
+      - '&8⇨ &7Clique para abrir o editor de scripts'
+  '17':
+    variants:
+    - match: '&4Pause'
+      name: '&4Pausar'
+PROGRAMMABLE_ANDROID_FARMER:
+  '34':
+    lore:
+    - ''
+    - '&fEste Android funciona com combustível sólido'
+    - '&fex.: Carvão, Madeira, etc...'
+    name: '&8⇩ &cEntrada de Combustível &8⇩'
+  title: Android Programável
+  '15':
+    variants:
+    - match: '&aStart/Continue'
+      name: '&aIniciar/Continuar'
+  '16':
+    variants:
+    - match: '&bMemory Core'
+      name: '&bNúcleo de memória'
+      lore:
+      - ''
+      - '&8⇨ &7Clique para abrir o editor de scripts'
+  '17':
+    variants:
+    - match: '&4Pause'
+      name: '&4Pausar'
+PROGRAMMABLE_ANDROID_FISHERMAN:
+  '34':
+    lore:
+    - ''
+    - '&fEste Android funciona com combustível sólido'
+    - '&fex.: Carvão, Madeira, etc...'
+    name: '&8⇩ &cEntrada de Combustível &8⇩'
+  title: Android Programável
+  '15':
+    variants:
+    - match: '&aStart/Continue'
+      name: '&aIniciar/Continuar'
+  '16':
+    variants:
+    - match: '&bMemory Core'
+      name: '&bNúcleo de memória'
+      lore:
+      - ''
+      - '&8⇨ &7Clique para abrir o editor de scripts'
+  '17':
+    variants:
+    - match: '&4Pause'
+      name: '&4Pausar'
+PROGRAMMABLE_ANDROID_MINER:
+  '34':
+    lore:
+    - ''
+    - '&fEste Android funciona com combustível sólido'
+    - '&fex.: Carvão, Madeira, etc...'
+    name: '&8⇩ &cEntrada de Combustível &8⇩'
+  title: Android Programável
+  '15':
+    variants:
+    - match: '&aStart/Continue'
+      name: '&aIniciar/Continuar'
+  '16':
+    variants:
+    - match: '&bMemory Core'
+      name: '&bNúcleo de memória'
+      lore:
+      - ''
+      - '&8⇨ &7Clique para abrir o editor de scripts'
+  '17':
+    variants:
+    - match: '&4Pause'
+      name: '&4Pausar'
+PROGRAMMABLE_ANDROID_WOODCUTTER:
+  '34':
+    lore:
+    - ''
+    - '&fEste Android funciona com combustível sólido'
+    - '&fex.: Carvão, Madeira, etc...'
+    name: '&8⇩ &cEntrada de Combustível &8⇩'
+  title: Android Programável
+  '15':
+    variants:
+    - match: '&aStart/Continue'
+      name: '&aIniciar/Continuar'
+  '16':
+    variants:
+    - match: '&bMemory Core'
+      name: '&bNúcleo de memória'
+      lore:
+      - ''
+      - '&8⇨ &7Clique para abrir o editor de scripts'
+  '17':
+    variants:
+    - match: '&4Pause'
+      name: '&4Pausar'
+REACTOR_ACCESS_PORT:
+  '1':
+    lore:
+    - ''
+    - 'Este slot aceita combustível radioativo como:'
+    - '&2Urânio &rou &aNeptúnio'
+    name: '&7Slot de Combustível'
+  '22':
+    lore:
+    - ''
+    - Este Slot contém o Subproduto do Reator
+    - como &aNeptúnio &rou &7Plutónio
+    name: '&7Slot de Subproduto'
+  '7':
+    lore:
+    - ''
+    - Este Slot aceita Células de Refrigerante
+    - '&4Sem quaisquer Células de Refrigerante, o teu Reator'
+    - '&4vai explodir'
+    name: '&bSlot de Refrigerante'
+  title: '&2Porta de Acesso ao Reator'
+  '49':
+    variants:
+    - match: '&7Reactor'
+      match-lore:
+      - '&6Detected'
+      name: '&7Reator'
+      lore:
+      - ''
+      - '&6Detetada'
+      - ''
+      - '&7> Clique para ver o reator'
+    - match: '&7Reactor'
+      match-lore:
+      - '&cNot detected'
+      name: '&7Reator'
+      lore:
+      - ''
+      - '&cNão detetada'
+      - ''
+      - '&7O reator tem de ser'
+      - '&7colocado 3 blocos abaixo'
+      - '&7da porta de acesso!'
+REINFORCED_STORAGE:
+  '0':
+    name: '&9Entrada'
+  '1':
+    name: '&9Entrada'
+  '11':
+    name: '&9Entrada'
+  '15':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '19':
+    name: '&9Entrada'
+  '2':
+    name: '&9Entrada'
+  '20':
+    name: '&9Entrada'
+  '22':
+    lore:
+    - '&bClique Esquerdo: &7Retirar 1 item'
+    - '&bClique Direito: &7Retirar 1 pilha'
+    - '&bShift + Clique Esquerdo: &7Depositar inventário'
+    - '&bShift + Clique Direito: &7Retirar inventário'
+    name: '&aAções Rápidas'
+  '24':
+    name: '&6Saída'
+  '25':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '4':
+    lore:
+    - '&7A carregar...'
+    name: '&bEstado'
+  '6':
+    name: '&6Saída'
+  '7':
+    name: '&6Saída'
+  '8':
+    name: '&6Saída'
+  '9':
+    name: '&9Entrada'
+RESOURCE_SYNTHESIZER:
+  '0':
+    name: '&9Entrada'
+  '1':
+    name: '&9Entrada'
+  '11':
+    name: '&9Entrada'
+  '15':
+    name: '&9Entrada'
+  '17':
+    name: '&9Entrada'
+  '18':
+    name: '&9Entrada'
+  '19':
+    name: '&9Entrada'
+  '2':
+    name: '&9Entrada'
+  '20':
+    name: '&9Entrada'
+  '24':
+    name: '&9Entrada'
+  '25':
+    name: '&9Entrada'
+  '26':
+    name: '&9Entrada'
+  '28':
+    name: '&6Saída'
+  '30':
+    name: '&6Saída'
+  '31':
+    name: '&6Saída'
+  '32':
+    name: '&6Saída'
+  '34':
+    name: '&6Saída'
+  '37':
+    name: '&6Saída'
+  '38':
+    name: '&6Saída'
+  '39':
+    name: '&6Saída'
+  '41':
+    name: '&6Saída'
+  '42':
+    name: '&6Saída'
+  '43':
+    name: '&6Saída'
+  '48':
+    name: '&6Saída'
+  '49':
+    name: '&6Saída'
+  '50':
+    name: '&6Saída'
+  '6':
+    name: '&9Entrada'
+  '7':
+    name: '&9Entrada'
+  '8':
+    name: '&9Entrada'
+  '9':
+    name: '&9Entrada'
+  '13':
+    variants:
+    - match: '&8Idle'
+      name: '&8Inativo'
+    - match: '&aResource Synthesized!'
+      name: '&aRecurso sintetizado!'
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+RUNE_ANVIL:
+  '14':
+    name: '&a➜'
+  '4':
+    lore:
+    - ''
+    - '&7Coloca um &fitem &7e uma Runa &5de Ligação da Alma &7ou'
+    - '&5Runa de Encantamento &7nas entradas,'
+    - '&7depois retira o resultado da saída.'
+    - ''
+    - '&7A runa é consumida quando recolhes.'
+    name: '&5Bigorna de Runas'
+  title: Bigorna de Runas
+SCRAP_MACHINE:
+  '13':
+    name: '&7Progresso'
+SINGULARITY_CONSTRUCTOR:
+  '0':
+    name: '&9Entrada'
+  '1':
+    name: '&9Entrada'
+  '11':
+    name: '&9Entrada'
+  '15':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '19':
+    name: '&9Entrada'
+  '2':
+    name: '&9Entrada'
+  '20':
+    name: '&9Entrada'
+  '24':
+    name: '&6Saída'
+  '25':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '6':
+    name: '&6Saída'
+  '7':
+    name: '&6Saída'
+  '8':
+    name: '&6Saída'
+  '9':
+    name: '&9Entrada'
+  '13':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+    - match: '&aConstructing {0}...'
+      match-lore:
+      - '&7Complete'
+      name: '&aA construir {0}...'
+      lore:
+      - '&7Concluído'
+    - match: '&aConstructing {0}...'
+      match-lore:
+      - '&7{1} / {2}'
+      name: '&aA construir {0}...'
+      lore:
+      - '&7{1} / {2}'
+SMART_FACTORY:
+  '18':
+    lore:
+    - '&eAs restantes filas aceitam qualquer item.'
+    - '&eA Carga vai encher pilhas depois'
+    - '&epelo menos um de cada receita'
+    - '&erequisito foi inserido.'
+    - '&ePrecisa de manter mais um item em'
+    - '&ecada pilha como modelo.'
+    name: '&bSlots Diversos'
+  '42':
+    name: '&aProgresso'
+  '9':
+    lore:
+    - '&eEsta fila está reservada para carvão para a carga.'
+    name: '&7Slots de Carvão'
+  '43':
+    variants:
+    - match: '&bRecipe'
+      name: '&bReceita'
+      lore:
+      - '&cAgacha-te e clica com o botão direito'
+      - '&cna fábrica com um recurso compatível'
+      - '&cpara definir a receita'
+SMELTERY_CONTROLLER:
+  '0':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '1':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '11':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '12':
+    lore:
+    - ' '
+    name: '&aMolde'
+  '14':
+    lore:
+    - ' '
+    name: '&aMolde'
+  '15':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '17':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '18':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '19':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '2':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '20':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '21':
+    lore:
+    - ' '
+    name: '&aMolde'
+  '22':
+    lore:
+    - ' '
+    name: '&aMolde'
+  '23':
+    lore:
+    - ' '
+    name: '&aMolde'
+  '24':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '25':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '26':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '28':
+    lore:
+    - ''
+    - '&x&E&4&E&D&3&2Lava: &f0 / 1000'
+    name: '&x&0&3&F&C&D&FTanque de Lava'
+  '3':
+    lore:
+    - ' '
+    name: '&aMolde'
+  '30':
+    lore:
+    - ''
+    - '&x&E&4&E&D&3&2Metal Total: &f0 / 1000'
+    - ''
+    - ''
+    - '&7Os metais saem primeiro pelo &7&ltopo&7.'
+    - ''
+    - '&x&E&4&E&D&3&2Clica para alternar a ordem dos metais.'
+    name: '&x&0&3&F&C&D&FTanque de Metais'
+  '32':
+    lore:
+    - ''
+    - '&7Purga metais indesejados do tanque.'
+    - ''
+    - '&x&E&4&E&D&3&2Clique Esquerdo: &fRemove o metal do TOPO'
+    - '&x&E&4&E&D&3&2Clique Direito: &fRemove TODOS os metais'
+    name: '&x&0&3&F&C&D&FPurgar Metais'
+  '33':
+    lore:
+    - ''
+    - '&7Mistura os metais no tanque para'
+    - '&7tenta criar uma liga.'
+    name: '&x&0&3&F&C&D&FLigar Metais'
+  '34':
+    lore:
+    - ''
+    - '&7Verte o primeiro metal para o'
+    - '&7molde. Após arrefecer, gera o'
+    - '&7produto final.'
+    name: '&x&0&3&F&C&D&FVerter conteúdo'
+  '4':
+    lore:
+    - ' '
+    name: '&aMolde'
+  '5':
+    lore:
+    - ' '
+    name: '&aMolde'
+  '6':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '7':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '8':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '9':
+    lore:
+    - ' '
+    name: '&9Entrada'
+STONEWORKS_FACTORY:
+  '11':
+    lore:
+    - ''
+    - '&7 > Clica para alternar'
+    name: '&cNenhum'
+  '13':
+    lore:
+    - ''
+    - '&7 > Clica para alternar'
+    name: '&cNenhum'
+  '15':
+    lore:
+    - ''
+    - '&7 > Clica para alternar'
+    name: '&cNenhum'
+  '17':
+    name: '&6Saída'
+  '24':
+    name: '&6Saída'
+  '25':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '6':
+    name: '&6Saída'
+  '7':
+    name: '&6Saída'
+  '8':
+    name: '&6Saída'
+  '9':
+    name: '&8Gerador de Pedregulho'
+STORAGE_FORGE:
+  '0':
+    name: '&9Entrada'
+  '1':
+    name: '&9Entrada'
+  '13':
+    name: '&9Entrada'
+  '15':
+    name: '&6Saída'
+  '16':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '2':
+    name: '&9Entrada'
+  '22':
+    name: '&9Entrada'
+  '23':
+    name: '&aClica para Fabricar!'
+  '24':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '3':
+    name: '&9Entrada'
+  '31':
+    name: '&9Entrada'
+  '33':
+    name: '&6Saída'
+  '34':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '36':
+    name: '&9Entrada'
+  '37':
+    name: '&9Entrada'
+  '38':
+    name: '&9Entrada'
+  '39':
+    name: '&9Entrada'
+  '4':
+    name: '&9Entrada'
+  '40':
+    name: '&9Entrada'
+  '9':
+    name: '&9Entrada'
+STRAINER_BASE:
+  '12':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '21':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '28':
+    name: '&9Entrada'
+  '29':
+    name: '&9Entrada'
+  '3':
+    name: '&6Saída'
+  '30':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '36':
+    name: '&9Entrada'
+  '38':
+    name: '&9Entrada'
+  '39':
+    name: '&6Saída'
+  '4':
+    name: '&6Saída'
+  '44':
+    name: '&6Saída'
+  '45':
+    name: '&9Entrada'
+  '46':
+    name: '&9Entrada'
+  '47':
+    name: '&9Entrada'
+  '48':
+    name: '&6Saída'
+  '49':
+    name: '&6Saída'
+  '5':
+    name: '&6Saída'
+  '50':
+    name: '&6Saída'
+  '51':
+    name: '&6Saída'
+  '52':
+    name: '&6Saída'
+  '53':
+    name: '&6Saída'
+  '6':
+    name: '&6Saída'
+  '7':
+    name: '&6Saída'
+  '8':
+    name: '&6Saída'
+  '10':
+    variants:
+    - match: '&cInput a Strainer!'
+      name: '&cInsere uma peneira!'
+    - match: '&aCollecting...'
+      name: '&aA recolher...'
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+    - match: '&aMaterial Collected!'
+      name: '&aMaterial recolhido!'
+TECHNOLOGICAL_SALVAGER:
+  '10':
+    name: '&9Entrada'
+  '11':
+    name: '&9Entrada'
+  '12':
+    name: '&9Entrada'
+  '14':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '21':
+    name: '&9Entrada'
+  '23':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '28':
+    name: '&9Entrada'
+  '29':
+    name: '&9Entrada'
+  '30':
+    name: '&9Entrada'
+  '32':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '41':
+    name: '&6Saída'
+  '42':
+    name: '&6Saída'
+  '43':
+    name: '&6Saída'
+  '44':
+    name: '&6Saída'
+  '5':
+    name: '&6Saída'
+  '6':
+    name: '&6Saída'
+  '7':
+    name: '&6Saída'
+  '8':
+    name: '&6Saída'
+  '9':
+    name: '&9Entrada'
+TINKERS_ARMOUR_TABLE:
+  '1':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '10':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '12':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '14':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '16':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '19':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '2':
+    lore:
+    - ' '
+    name: '&cEntrada de Placas'
+  '20':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '21':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '22':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '23':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '24':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '25':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '28':
+    lore:
+    - ' '
+    name: '&aPré-visualização'
+  '29':
+    lore:
+    - ' '
+    name: '&aPré-visualização'
+  '3':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '30':
+    lore:
+    - ' '
+    name: '&aPré-visualização'
+  '32':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '33':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '34':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '37':
+    lore:
+    - ' '
+    name: '&aPré-visualização'
+  '38':
+    lore:
+    - ' '
+    name: '&aPré-visualização'
+  '39':
+    lore:
+    - ' '
+    name: '&aPré-visualização'
+  '4':
+    lore:
+    - ' '
+    name: '&cEntrada de Gibão'
+  '40':
+    lore:
+    - ''
+    - '&7Forma uma peça de armadura a partir das três'
+    - '&7peças dadas (Placa, Gibão e Elos)'
+    name: '&x&0&3&F&C&D&FFormar Armadura'
+  '41':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '43':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '46':
+    lore:
+    - ' '
+    name: '&aPré-visualização'
+  '47':
+    lore:
+    - ' '
+    name: '&aPré-visualização'
+  '48':
+    lore:
+    - ' '
+    name: '&aPré-visualização'
+  '5':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '50':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '51':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '52':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '6':
+    lore:
+    - ' '
+    name: '&cEntrada de Elos'
+  '7':
+    lore:
+    - ' '
+    name: '&9Entrada'
+TINKERS_MOD_STATION:
+  '14':
+    lore:
+    - ''
+    - '&7Aplica a modificação à ferramenta.'
+    name: '&x&0&3&F&C&D&FAplicar Modificação'
+TINKERS_REPAIR_BENCH:
+  '14':
+    lore:
+    - ''
+    - '&7Repara a ferramenta no primeiro slot'
+    - '&7usando o kit de reparação no segundo.'
+    name: '&x&0&3&F&C&D&FReparar'
+TINKERS_SWAPPING_STATION:
+  '14':
+    lore:
+    - ''
+    - '&7Troca peças da ferramenta.'
+    name: '&x&0&3&F&C&D&FTrocar peça'
+TINKERS_TABLE:
+  '1':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '10':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '12':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '14':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '16':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '19':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '2':
+    lore:
+    - ' '
+    name: '&cEntrada de Haste'
+  '20':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '21':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '22':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '23':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '24':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '25':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '28':
+    lore:
+    - ' '
+    name: '&aPré-visualização'
+  '29':
+    lore:
+    - ' '
+    name: '&aPré-visualização'
+  '3':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '30':
+    lore:
+    - ' '
+    name: '&aPré-visualização'
+  '32':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '33':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '34':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '37':
+    lore:
+    - ' '
+    name: '&aPré-visualização'
+  '38':
+    lore:
+    - ' '
+    name: '&aPré-visualização'
+  '39':
+    lore:
+    - ' '
+    name: '&aPré-visualização'
+  '4':
+    lore:
+    - ' '
+    name: '&cEntrada de Ligadura'
+  '40':
+    lore:
+    - ''
+    - '&7Forma uma ferramenta a partir das três'
+    - '&7peças dadas (Haste, Ligadura e Cabeça/Lâmina)'
+    name: '&x&0&3&F&C&D&FFormar Ferramenta'
+  '41':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '43':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '46':
+    lore:
+    - ' '
+    name: '&aPré-visualização'
+  '47':
+    lore:
+    - ' '
+    name: '&aPré-visualização'
+  '48':
+    lore:
+    - ' '
+    name: '&aPré-visualização'
+  '5':
+    lore:
+    - ' '
+    name: '&9Entrada'
+  '50':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '51':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '52':
+    lore:
+    - ' '
+    name: '&cSaída'
+  '6':
+    lore:
+    - ' '
+    name: '&cEntrada de Cabeça/Lâmina'
+  '7':
+    lore:
+    - ' '
+    name: '&9Entrada'
+TINKERS_WORKBENCH:
+  '23':
+    lore:
+    - ''
+    - '&7Vamos fabricar!'
+    name: '&x&0&3&F&C&D&FFabricar'
+TRASH_CAN_BLOCK:
+  '4':
+    lore:
+    - ''
+    - '&7Qualquer item colocado nos slots abaixo'
+    - '&7é destruído permanentemente.'
+    - ''
+    - '&c&oNão há forma de recuperar os itens!'
+    name: '&cCaixote do Lixo'
+  title: Caixote do Lixo
+ULTIMATE_SOLAR_PANEL:
+  '4':
+    name: '&cSem Geração...'
+    variants:
+    - match: '&aGenerating'
+      match-lore:
+      - '&bRate: &4Unknown'
+      - '&7Generating at &6{0} J/s &8({1} J/t)'
+      - '&7Stored: &6{2} J'
+      name: '&aA gerar'
+      lore:
+      - ''
+      - '&bTaxa: &4Desconhecida'
+      - '&7A gerar &6{0} J/s &8({1} J/t)'
+      - ''
+      - '&7Armazenado: &6{2} J'
+    - match: '&aGenerating'
+      match-lore:
+      - '&bRate: &cNether &e(Day)'
+      - '&7Generating at &6{0} J/s &8({1} J/t)'
+      - '&7Stored: &6{2} J'
+      name: '&aA gerar'
+      lore:
+      - ''
+      - '&bTaxa: &cNether &e(Dia)'
+      - '&7A gerar &6{0} J/s &8({1} J/t)'
+      - ''
+      - '&7Armazenado: &6{2} J'
+    - match: '&aGenerating'
+      match-lore:
+      - '&bRate: &5End &8(Night)'
+      - '&7Generating at &6{0} J/s &8({1} J/t)'
+      - '&7Stored: &6{2} J'
+      name: '&aA gerar'
+      lore:
+      - ''
+      - '&bTaxa: &5End &8(Noite)'
+      - '&7A gerar &6{0} J/s &8({1} J/t)'
+      - ''
+      - '&7Armazenado: &6{2} J'
+    - match: '&aGenerating'
+      match-lore:
+      - '&bRate: &aOverworld &e(Day)'
+      - '&7Generating at &6{0} J/s &8({1} J/t)'
+      - '&7Stored: &6{2} J'
+      name: '&aA gerar'
+      lore:
+      - ''
+      - '&bTaxa: &aSuperfície &e(Dia)'
+      - '&7A gerar &6{0} J/s &8({1} J/t)'
+      - ''
+      - '&7Armazenado: &6{2} J'
+    - match: '&aGenerating'
+      match-lore:
+      - '&bRate: &aOverworld &8(Night)'
+      - '&7Generating at &6{0} J/s &8({1} J/t)'
+      - '&7Stored: &6{2} J'
+      name: '&aA gerar'
+      lore:
+      - ''
+      - '&bTaxa: &aSuperfície &8(Noite)'
+      - '&7A gerar &6{0} J/s &8({1} J/t)'
+      - ''
+      - '&7Armazenado: &6{2} J'
+    - match: '&cNot Generating'
+      match-lore:
+      - '&7Stored: &6{0} J'
+      name: '&cSem gerar'
+      lore:
+      - ''
+      - '&7O gerador atingiu a capacidade máxima.'
+      - ''
+      - '&7Armazenado: &6{0} J'
+URANIUM_EXTRACTOR:
+  '10':
+    name: '&9Entrada'
+  '11':
+    name: '&9Entrada'
+  '12':
+    name: '&9Entrada'
+  '14':
+    name: '&6Saída'
+  '15':
+    name: '&6Saída'
+  '16':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '21':
+    name: '&9Entrada'
+  '22':
+    name: '&8Inativo'
+    variants:
+    - match: '&aProcessing...'
+      name: '&aA processar...'
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+  '23':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '28':
+    name: '&9Entrada'
+  '29':
+    name: '&9Entrada'
+  '30':
+    name: '&9Entrada'
+  '32':
+    name: '&6Saída'
+  '33':
+    name: '&6Saída'
+  '34':
+    name: '&6Saída'
+  '35':
+    name: '&6Saída'
+  '9':
+    name: '&9Entrada'
+UU_CRAFTER:
+  '40':
+    name: '&7Clica para iniciar'
+VOID_QUARRY:
+  '48':
+    lore:
+    - '&7Coloca um oscilador de pedreira para'
+    - '&7aumentar as taxas de certos materiais!'
+    name: '&bSlot do Oscilador'
+  '50':
+    lore:
+    - '&7Coloca um oscilador de pedreira para'
+    - '&7aumentar as taxas de certos materiais!'
+    name: '&bSlot do Oscilador'
+VOID_STORAGE:
+  '0':
+    name: '&9Entrada'
+  '1':
+    name: '&9Entrada'
+  '11':
+    name: '&9Entrada'
+  '15':
+    name: '&6Saída'
+  '17':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '19':
+    name: '&9Entrada'
+  '2':
+    name: '&9Entrada'
+  '20':
+    name: '&9Entrada'
+  '22':
+    lore:
+    - '&bClique Esquerdo: &7Retirar 1 item'
+    - '&bClique Direito: &7Retirar 1 pilha'
+    - '&bShift + Clique Esquerdo: &7Depositar inventário'
+    - '&bShift + Clique Direito: &7Retirar inventário'
+    name: '&aAções Rápidas'
+  '24':
+    name: '&6Saída'
+  '25':
+    name: '&6Saída'
+  '26':
+    name: '&6Saída'
+  '4':
+    lore:
+    - '&7A carregar...'
+    name: '&bEstado'
+  '6':
+    name: '&6Saída'
+  '7':
+    name: '&6Saída'
+  '8':
+    name: '&6Saída'
+  '9':
+    name: '&9Entrada'
+WATER_SPRINKLER:
+  '4':
+    lore:
+    - ''
+    - '&cPor favor coloca água debaixo do aspersor!'
+    name: '&cÁgua não encontrada'
+WITHER_ASSEMBLER:
+  '1':
+    lore:
+    - ''
+    - '&fEste slot aceita Crânios de Esqueleto Wither'
+    name: '&7Slot de Crânio de Esqueleto Wither'
+  '13':
+    lore:
+    - ''
+    - '&fEsta Máquina demora até meio Minuto a operar'
+    - '&fentão dá-lhe algum Tempo!'
+    name: '&7Tempo de espera: &b30 Segundos'
+  '7':
+    lore:
+    - ''
+    - '&fEste slot aceita Areia da Alma'
+    name: '&7Slot de Areia da Alma'
+  '22':
+    variants:
+    - match: '&7Enabled: &4✘'
+      name: '&7Ativado: &4✘'
+      lore:
+      - ''
+      - '&e> Clique para ativar esta máquina'
+    - match: '&7Enabled: &2✔'
+      name: '&7Ativado: &2✔'
+      lore:
+      - ''
+      - '&e> Clique para desativar esta máquina'
+  '31':
+    variants:
+    - match: '&7Offset: &3{0} Block(s)'
+      name: '&7Deslocamento: &3{0} bloco(s)'
+      lore:
+      - ''
+      - '&fClique esquerdo: &7+0.1'
+      - '&fClique direito: &7-0.1'
+SIMPLE_WORKBENCH:
+  '0':
+    name: '&9Entrada'
+  '1':
+    name: '&9Entrada'
+  '2':
+    name: '&9Entrada'
+  '3':
+    name: '&9Entrada'
+  '4':
+    name: '&9Entrada'
+  '9':
+    name: '&9Entrada'
+  '13':
+    name: '&9Entrada'
+  '14':
+    name: '&6Saída'
+  '15':
+    name: '&6Saída'
+  '16':
+    name: '&6Saída'
+  '18':
+    name: '&9Entrada'
+  '22':
+    name: '&9Entrada'
+  '23':
+    name: '&6Saída'
+  '25':
+    name: '&6Saída'
+  '27':
+    name: '&9Entrada'
+  '31':
+    name: '&9Entrada'
+  '32':
+    name: '&6Saída'
+  '33':
+    name: '&6Saída'
+  '34':
+    name: '&6Saída'
+  '36':
+    name: '&9Entrada'
+  '37':
+    name: '&9Entrada'
+  '38':
+    name: '&9Entrada'
+  '39':
+    name: '&9Entrada'
+  '40':
+    name: '&9Entrada'
+NTW_BEST_PUSHER:
+  '7':
+    name: '&7Enviar itens correspondentes ao modelo'
+  '11':
+    name: '&7Definir direção: NORTE'
+  '14':
+    name: '&7Definir direção: CIMA'
+  '19':
+    name: '&7Definir direção: OESTE'
+  '21':
+    name: '&7Definir direção: ESTE'
+  '29':
+    name: '&7Definir direção: SUL'
+  '32':
+    name: '&7Definir direção: BAIXO'
+ELECTRIC_GOLD_REFINERY:
+  '46':
+    name: '&cNENHUMA'
+  '32':
+    variants:
+    - match: '&6Current Recipe: &cNONE'
+      name: '&6Receita atual: &cNENHUMA'
+      lore:
+      - ''
+      - '&e> Escolha à esquerda para a mudar'
+    - match: '&6Current Recipe: &fGold Ingot &7({0} Carat)'
+      name: '&6Receita atual: &fLingote de Ouro &7({0} quilates)'
+      lore:
+      - ''
+      - '&e> Escolha à esquerda para a mudar'
+CARGO_NODE_OUTPUT:
+  '12':
+    variants:
+    - match: '&bPrevious Channel'
+      name: '&bCanal anterior'
+      lore:
+      - ''
+      - '&e> Clique para diminuir o ID do canal em 1'
+  '13':
+    variants:
+    - match: '&bChannel ID: &3{0}'
+      name: '&bID do canal: &3{0}'
+  '14':
+    variants:
+    - match: '&bNext Channel'
+      name: '&bCanal seguinte'
+      lore:
+      - ''
+      - '&e> Clique para aumentar o ID do canal em 1'
+SUPERHEATED_FURNACE:
+  '1':
+    variants:
+    - match: '&6Melted Dust: &e{0} &7({1}%)'
+      match-lore:
+      - '&bType: None'
+      - '&7Stacks: {2}'
+      name: '&6Pó fundido: &e{0} &7({1}%)'
+      lore:
+      - '&bTipo: Nenhum'
+      - '&7Pilhas: {2}'
+    - match: '&6Melted Dust: &e{0} &7({1}%)'
+      match-lore:
+      - '&bType: {3}'
+      - '&7Stacks: {2}'
+      name: '&6Pó fundido: &e{0} &7({1}%)'
+      lore:
+      - '&bTipo: {3}'
+      - '&7Pilhas: {2}'
+  '4':
+    variants:
+    - match: '&6Dust Available: &e{0}'
+      match-lore:
+      - '&a> &eLeft Click &ahere to retrieve 1'
+      - '&a> &eRight Click &ahere to retrieve 64'
+      name: '&6Pó disponível: &e{0}'
+      lore:
+      - '&a> &eClique esquerdo &aaqui para retirar 1'
+      - '&a> &eClique direito &aaqui para retirar 64'
+    - match: '&6Dust Available: &e{0}'
+      match-lore:
+      - '&a> &eLeft Click &ahere to retrieve 1'
+      - '&a> &eLeft Click &ahere to retrieve 64'
+      name: '&6Pó disponível: &e{0}'
+      lore:
+      - '&a> &eClique esquerdo &aaqui para retirar 1'
+      - '&a> &eClique esquerdo &aaqui para retirar 64'
+  '7':
+    variants:
+    - match: '&6Ingots Available: &e{0}'
+      match-lore:
+      - '&a> &eLeft Click &ahere to retrieve 1'
+      - '&a> &eRight Click &ahere to retrieve 64'
+      name: '&6Lingotes disponíveis: &e{0}'
+      lore:
+      - '&a> &eClique esquerdo &aaqui para retirar 1'
+      - '&a> &eClique direito &aaqui para retirar 64'
+    - match: '&6Ingots Available: &e{0}'
+      match-lore:
+      - '&a> &eRight Click &ahere to retrieve 1'
+      - '&a> &eLeft Click &ahere to retrieve 64'
+      name: '&6Lingotes disponíveis: &e{0}'
+      lore:
+      - '&a> &eClique direito &aaqui para retirar 1'
+      - '&a> &eClique esquerdo &aaqui para retirar 64'
+SMALL_FLUFFY_BARREL:
+  '22':
+    variants:
+    - match: '&6Items Stored: &e{0} / {1}'
+      match-lore:
+      - '&70%'
+      name: '&6Itens armazenados: &e{0} / {1}'
+      lore:
+      - '&70%'
+    - match: '&6Items Stored: &e{0} / {1}'
+      match-lore:
+      - '&b{2} Stacks &8| &7{3}&7%'
+      name: '&6Itens armazenados: &e{0} / {1}'
+      lore:
+      - '&b{2} pilhas &8| &7{3}&7%'
+  '36':
+    variants:
+    - match: '&3Toggle Hologram &c(Off)'
+      name: '&3Alternar holograma &c(Desligado)'
+    - match: '&3Toggle Hologram &a(On)'
+      name: '&3Alternar holograma &a(Ligado)'
+  '37':
+    variants:
+    - match: '&3Toggle Overfill Trash &c(Off)'
+      name: '&3Alternar caixote do lixo do excedente &c(Desligado)'
+      lore:
+      - '&7Ative para eliminar os itens que não podem ser armazenados'
+    - match: '&3Toggle Overfill Trash &a(On)'
+      name: '&3Alternar caixote do lixo do excedente &a(Ligado)'
+      lore:
+      - '&7Ative para eliminar os itens que não podem ser armazenados'
+  '43':
+    variants:
+    - match: '&bInsert All'
+      name: '&bInserir tudo'
+      lore:
+      - '&7> Clique aqui para inserir todos'
+      - '&7os itens compatíveis no barril'
+  '44':
+    variants:
+    - match: '&6Extract All'
+      name: '&6Retirar tudo'
+      lore:
+      - '&7> Clique esquerdo para retirar'
+      - '&7todos os itens para o inventário'
+      - '&7> Clique direito para retirar 1 item'
+MEDIUM_FLUFFY_BARREL:
+  '22':
+    variants:
+    - match: '&6Items Stored: &e{0} / {1}'
+      match-lore:
+      - '&70%'
+      name: '&6Itens armazenados: &e{0} / {1}'
+      lore:
+      - '&70%'
+    - match: '&6Items Stored: &e{0} / {1}'
+      match-lore:
+      - '&b{2} Stacks &8| &7{3}&7%'
+      name: '&6Itens armazenados: &e{0} / {1}'
+      lore:
+      - '&b{2} pilhas &8| &7{3}&7%'
+  '36':
+    variants:
+    - match: '&3Toggle Hologram &c(Off)'
+      name: '&3Alternar holograma &c(Desligado)'
+    - match: '&3Toggle Hologram &a(On)'
+      name: '&3Alternar holograma &a(Ligado)'
+  '37':
+    variants:
+    - match: '&3Toggle Overfill Trash &c(Off)'
+      name: '&3Alternar caixote do lixo do excedente &c(Desligado)'
+      lore:
+      - '&7Ative para eliminar os itens que não podem ser armazenados'
+    - match: '&3Toggle Overfill Trash &a(On)'
+      name: '&3Alternar caixote do lixo do excedente &a(Ligado)'
+      lore:
+      - '&7Ative para eliminar os itens que não podem ser armazenados'
+  '43':
+    variants:
+    - match: '&bInsert All'
+      name: '&bInserir tudo'
+      lore:
+      - '&7> Clique aqui para inserir todos'
+      - '&7os itens compatíveis no barril'
+  '44':
+    variants:
+    - match: '&6Extract All'
+      name: '&6Retirar tudo'
+      lore:
+      - '&7> Clique esquerdo para retirar'
+      - '&7todos os itens para o inventário'
+      - '&7> Clique direito para retirar 1 item'
+BIG_FLUFFY_BARREL:
+  '22':
+    variants:
+    - match: '&6Items Stored: &e{0} / {1}'
+      match-lore:
+      - '&70%'
+      name: '&6Itens armazenados: &e{0} / {1}'
+      lore:
+      - '&70%'
+    - match: '&6Items Stored: &e{0} / {1}'
+      match-lore:
+      - '&b{2} Stacks &8| &7{3}&7%'
+      name: '&6Itens armazenados: &e{0} / {1}'
+      lore:
+      - '&b{2} pilhas &8| &7{3}&7%'
+  '36':
+    variants:
+    - match: '&3Toggle Hologram &c(Off)'
+      name: '&3Alternar holograma &c(Desligado)'
+    - match: '&3Toggle Hologram &a(On)'
+      name: '&3Alternar holograma &a(Ligado)'
+  '37':
+    variants:
+    - match: '&3Toggle Overfill Trash &c(Off)'
+      name: '&3Alternar caixote do lixo do excedente &c(Desligado)'
+      lore:
+      - '&7Ative para eliminar os itens que não podem ser armazenados'
+    - match: '&3Toggle Overfill Trash &a(On)'
+      name: '&3Alternar caixote do lixo do excedente &a(Ligado)'
+      lore:
+      - '&7Ative para eliminar os itens que não podem ser armazenados'
+  '43':
+    variants:
+    - match: '&bInsert All'
+      name: '&bInserir tudo'
+      lore:
+      - '&7> Clique aqui para inserir todos'
+      - '&7os itens compatíveis no barril'
+  '44':
+    variants:
+    - match: '&6Extract All'
+      name: '&6Retirar tudo'
+      lore:
+      - '&7> Clique esquerdo para retirar'
+      - '&7todos os itens para o inventário'
+      - '&7> Clique direito para retirar 1 item'
+LARGE_FLUFFY_BARREL:
+  '22':
+    variants:
+    - match: '&6Items Stored: &e{0} / {1}'
+      match-lore:
+      - '&70%'
+      name: '&6Itens armazenados: &e{0} / {1}'
+      lore:
+      - '&70%'
+    - match: '&6Items Stored: &e{0} / {1}'
+      match-lore:
+      - '&b{2} Stacks &8| &7{3}&7%'
+      name: '&6Itens armazenados: &e{0} / {1}'
+      lore:
+      - '&b{2} pilhas &8| &7{3}&7%'
+  '36':
+    variants:
+    - match: '&3Toggle Hologram &c(Off)'
+      name: '&3Alternar holograma &c(Desligado)'
+    - match: '&3Toggle Hologram &a(On)'
+      name: '&3Alternar holograma &a(Ligado)'
+  '37':
+    variants:
+    - match: '&3Toggle Overfill Trash &c(Off)'
+      name: '&3Alternar caixote do lixo do excedente &c(Desligado)'
+      lore:
+      - '&7Ative para eliminar os itens que não podem ser armazenados'
+    - match: '&3Toggle Overfill Trash &a(On)'
+      name: '&3Alternar caixote do lixo do excedente &a(Ligado)'
+      lore:
+      - '&7Ative para eliminar os itens que não podem ser armazenados'
+  '43':
+    variants:
+    - match: '&bInsert All'
+      name: '&bInserir tudo'
+      lore:
+      - '&7> Clique aqui para inserir todos'
+      - '&7os itens compatíveis no barril'
+  '44':
+    variants:
+    - match: '&6Extract All'
+      name: '&6Retirar tudo'
+      lore:
+      - '&7> Clique esquerdo para retirar'
+      - '&7todos os itens para o inventário'
+      - '&7> Clique direito para retirar 1 item'
+MASSIVE_FLUFFY_BARREL:
+  '22':
+    variants:
+    - match: '&6Items Stored: &e{0} / {1}'
+      match-lore:
+      - '&70%'
+      name: '&6Itens armazenados: &e{0} / {1}'
+      lore:
+      - '&70%'
+    - match: '&6Items Stored: &e{0} / {1}'
+      match-lore:
+      - '&b{2} Stacks &8| &7{3}&7%'
+      name: '&6Itens armazenados: &e{0} / {1}'
+      lore:
+      - '&b{2} pilhas &8| &7{3}&7%'
+  '36':
+    variants:
+    - match: '&3Toggle Hologram &c(Off)'
+      name: '&3Alternar holograma &c(Desligado)'
+    - match: '&3Toggle Hologram &a(On)'
+      name: '&3Alternar holograma &a(Ligado)'
+  '37':
+    variants:
+    - match: '&3Toggle Overfill Trash &c(Off)'
+      name: '&3Alternar caixote do lixo do excedente &c(Desligado)'
+      lore:
+      - '&7Ative para eliminar os itens que não podem ser armazenados'
+    - match: '&3Toggle Overfill Trash &a(On)'
+      name: '&3Alternar caixote do lixo do excedente &a(Ligado)'
+      lore:
+      - '&7Ative para eliminar os itens que não podem ser armazenados'
+  '43':
+    variants:
+    - match: '&bInsert All'
+      name: '&bInserir tudo'
+      lore:
+      - '&7> Clique aqui para inserir todos'
+      - '&7os itens compatíveis no barril'
+  '44':
+    variants:
+    - match: '&6Extract All'
+      name: '&6Retirar tudo'
+      lore:
+      - '&7> Clique esquerdo para retirar'
+      - '&7todos os itens para o inventário'
+      - '&7> Clique direito para retirar 1 item'
+BOTTOMLESS_FLUFFY_BARREL:
+  '22':
+    variants:
+    - match: '&6Items Stored: &e{0} / {1}'
+      match-lore:
+      - '&70%'
+      name: '&6Itens armazenados: &e{0} / {1}'
+      lore:
+      - '&70%'
+    - match: '&6Items Stored: &e{0} / {1}'
+      match-lore:
+      - '&b{2} Stacks &8| &7{3}&7%'
+      name: '&6Itens armazenados: &e{0} / {1}'
+      lore:
+      - '&b{2} pilhas &8| &7{3}&7%'
+  '36':
+    variants:
+    - match: '&3Toggle Hologram &c(Off)'
+      name: '&3Alternar holograma &c(Desligado)'
+    - match: '&3Toggle Hologram &a(On)'
+      name: '&3Alternar holograma &a(Ligado)'
+  '37':
+    variants:
+    - match: '&3Toggle Overfill Trash &c(Off)'
+      name: '&3Alternar caixote do lixo do excedente &c(Desligado)'
+      lore:
+      - '&7Ative para eliminar os itens que não podem ser armazenados'
+    - match: '&3Toggle Overfill Trash &a(On)'
+      name: '&3Alternar caixote do lixo do excedente &a(Ligado)'
+      lore:
+      - '&7Ative para eliminar os itens que não podem ser armazenados'
+  '43':
+    variants:
+    - match: '&bInsert All'
+      name: '&bInserir tudo'
+      lore:
+      - '&7> Clique aqui para inserir todos'
+      - '&7os itens compatíveis no barril'
+  '44':
+    variants:
+    - match: '&6Extract All'
+      name: '&6Retirar tudo'
+      lore:
+      - '&7> Clique esquerdo para retirar'
+      - '&7todos os itens para o inventário'
+      - '&7> Clique direito para retirar 1 item'
+MINI_FLUFFY_BARREL:
+  '13':
+    variants:
+    - match: '&eChange barrel size'
+      match-lore:
+      - '&eCurrent size: {0}'
+      - '&eSize limit: {1}'
+      name: '&eMudar tamanho do barril'
+      lore:
+      - '&7> Clique para mudar o tamanho máximo'
+      - '&eTamanho atual: {0}'
+      - '&eLimite de tamanho: {1}'
+  '22':
+    variants:
+    - match: '&6Items Stored: &e{0} / {1}'
+      match-lore:
+      - '&70%'
+      name: '&6Itens armazenados: &e{0} / {1}'
+      lore:
+      - '&70%'
+    - match: '&6Items Stored: &e{0} / {1}'
+      match-lore:
+      - '&b{2} Stacks &8| &7{3}&7%'
+      name: '&6Itens armazenados: &e{0} / {1}'
+      lore:
+      - '&b{2} pilhas &8| &7{3}&7%'
+  '36':
+    variants:
+    - match: '&3Toggle Hologram &c(Off)'
+      name: '&3Alternar holograma &c(Desligado)'
+    - match: '&3Toggle Hologram &a(On)'
+      name: '&3Alternar holograma &a(Ligado)'
+  '37':
+    variants:
+    - match: '&3Toggle Overfill Trash &c(Off)'
+      name: '&3Alternar caixote do lixo do excedente &c(Desligado)'
+      lore:
+      - '&7Ative para eliminar os itens que não podem ser armazenados'
+    - match: '&3Toggle Overfill Trash &a(On)'
+      name: '&3Alternar caixote do lixo do excedente &a(Ligado)'
+      lore:
+      - '&7Ative para eliminar os itens que não podem ser armazenados'
+  '43':
+    variants:
+    - match: '&bInsert All'
+      name: '&bInserir tudo'
+      lore:
+      - '&7> Clique aqui para inserir todos'
+      - '&7os itens compatíveis no barril'
+  '44':
+    variants:
+    - match: '&6Extract All'
+      name: '&6Retirar tudo'
+      lore:
+      - '&7> Clique esquerdo para retirar'
+      - '&7todos os itens para o inventário'
+      - '&7> Clique direito para retirar 1 item'
+BASIC_COBBLE_GEN:
+  '4':
+    variants:
+    - match: '&aGenerating...'
+      name: '&aA gerar...'
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+ADVANCED_COBBLE_GEN:
+  '4':
+    variants:
+    - match: '&aGenerating...'
+      name: '&aA gerar...'
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+INFINITY_COBBLE_GEN:
+  '4':
+    variants:
+    - match: '&aGenerating...'
+      name: '&aA gerar...'
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+BASIC_OBSIDIAN_GEN:
+  '4':
+    variants:
+    - match: '&aGenerating...'
+      name: '&aA gerar...'
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+VOID_HARVESTER:
+  '4':
+    variants:
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+    - match: '&aHarvesting - {0}%'
+      match-lore:
+      - '&7({1}/{2})'
+      name: '&aA colher - {0}%'
+      lore:
+      - '&7({1}/{2})'
+INFINITE_VOID_HARVESTER:
+  '4':
+    variants:
+    - match: '&6Not enough room!'
+      name: '&6Espaço insuficiente!'
+    - match: '&cNot enough energy!'
+      name: '&cEnergia insuficiente!'
+    - match: '&aHarvesting - {0}%'
+      match-lore:
+      - '&7({1}/{2})'
+      name: '&aA colher - {0}%'
+      lore:
+      - '&7({1}/{2})'
+HYDRO_GENERATOR:
+  '4':
+    variants:
+    - match: '&cNot generating'
+      match-lore:
+      - '&7Stored: &6{0} J'
+      name: '&cSem gerar'
+      lore:
+      - '&7Armazenado: &6{0} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Hydroelectric'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Hidroelétrico'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Geothermal'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Geotérmico'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Day'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Dia'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Night'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Noite'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Infinity'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Infinito'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+REINFORCED_HYDRO_GENERATOR:
+  '4':
+    variants:
+    - match: '&cNot generating'
+      match-lore:
+      - '&7Stored: &6{0} J'
+      name: '&cSem gerar'
+      lore:
+      - '&7Armazenado: &6{0} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Hydroelectric'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Hidroelétrico'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Geothermal'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Geotérmico'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Day'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Dia'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Night'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Noite'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Infinity'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Infinito'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+GEOTHERMAL_GENERATOR:
+  '4':
+    variants:
+    - match: '&cNot generating'
+      match-lore:
+      - '&7Stored: &6{0} J'
+      name: '&cSem gerar'
+      lore:
+      - '&7Armazenado: &6{0} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Hydroelectric'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Hidroelétrico'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Geothermal'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Geotérmico'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Day'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Dia'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Night'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Noite'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Infinity'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Infinito'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+REINFORCED_GEOTHERMAL_GENERATOR:
+  '4':
+    variants:
+    - match: '&cNot generating'
+      match-lore:
+      - '&7Stored: &6{0} J'
+      name: '&cSem gerar'
+      lore:
+      - '&7Armazenado: &6{0} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Hydroelectric'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Hidroelétrico'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Geothermal'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Geotérmico'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Day'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Dia'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Night'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Noite'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Infinity'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Infinito'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+BASIC_PANEL:
+  '4':
+    variants:
+    - match: '&cNot generating'
+      match-lore:
+      - '&7Stored: &6{0} J'
+      name: '&cSem gerar'
+      lore:
+      - '&7Armazenado: &6{0} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Hydroelectric'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Hidroelétrico'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Geothermal'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Geotérmico'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Day'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Dia'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Night'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Noite'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Infinity'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Infinito'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+ADVANCED_PANEL:
+  '4':
+    variants:
+    - match: '&cNot generating'
+      match-lore:
+      - '&7Stored: &6{0} J'
+      name: '&cSem gerar'
+      lore:
+      - '&7Armazenado: &6{0} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Hydroelectric'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Hidroelétrico'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Geothermal'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Geotérmico'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Day'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Dia'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Night'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Noite'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Infinity'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Infinito'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+CELESTIAL_PANEL:
+  '4':
+    variants:
+    - match: '&cNot generating'
+      match-lore:
+      - '&7Stored: &6{0} J'
+      name: '&cSem gerar'
+      lore:
+      - '&7Armazenado: &6{0} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Hydroelectric'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Hidroelétrico'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Geothermal'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Geotérmico'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Day'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Dia'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Night'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Noite'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Infinity'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Infinito'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+VOID_PANEL:
+  '4':
+    variants:
+    - match: '&cNot generating'
+      match-lore:
+      - '&7Stored: &6{0} J'
+      name: '&cSem gerar'
+      lore:
+      - '&7Armazenado: &6{0} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Hydroelectric'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Hidroelétrico'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Geothermal'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Geotérmico'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Day'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Dia'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Night'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Noite'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Infinity'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Infinito'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+INFINITE_PANEL:
+  '4':
+    variants:
+    - match: '&cNot generating'
+      match-lore:
+      - '&7Stored: &6{0} J'
+      name: '&cSem gerar'
+      lore:
+      - '&7Armazenado: &6{0} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Hydroelectric'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Hidroelétrico'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Geothermal'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Geotérmico'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Day'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Dia'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Night'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Noite'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+    - match: '&aGeneration'
+      match-lore:
+      - '&7Type: &6Infinity'
+      - '&7Generating: &6{0} J/s '
+      - '&7Stored: &6{1} J'
+      name: '&aGeração'
+      lore:
+      - '&7Tipo: &6Infinito'
+      - '&7A gerar: &6{0} J/s '
+      - '&7Armazenado: &6{1} J'
+SUPREME_ELECTRIC_CRAFTER_I:
+  '23':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cOutput is full'
+      name: '&cA saída está cheia'
+    - match: '&cConnect energy to continue'
+      name: '&cLiga energia para continuar'
+    - match: '&cLoad more material to start'
+      match-lore:
+      - '&7Attempts: &e{0} &7/ &e{1}'
+      - '&7Progress: &e{2} &7/ &e{3}'
+      name: '&cCarrega mais material para começar'
+      lore:
+      - ''
+      - '&7Tentativas: &e{0} &7/ &e{1}'
+      - '&7Progresso: &e{2} &7/ &e{3}'
+      - ''
+SUPREME_ELECTRIC_CRAFTER_II:
+  '23':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cOutput is full'
+      name: '&cA saída está cheia'
+    - match: '&cConnect energy to continue'
+      name: '&cLiga energia para continuar'
+    - match: '&cLoad more material to start'
+      match-lore:
+      - '&7Attempts: &e{0} &7/ &e{1}'
+      - '&7Progress: &e{2} &7/ &e{3}'
+      name: '&cCarrega mais material para começar'
+      lore:
+      - ''
+      - '&7Tentativas: &e{0} &7/ &e{1}'
+      - '&7Progresso: &e{2} &7/ &e{3}'
+      - ''
+SUPREME_ELECTRIC_CRAFTER_III:
+  '23':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cOutput is full'
+      name: '&cA saída está cheia'
+    - match: '&cConnect energy to continue'
+      name: '&cLiga energia para continuar'
+    - match: '&cLoad more material to start'
+      match-lore:
+      - '&7Attempts: &e{0} &7/ &e{1}'
+      - '&7Progress: &e{2} &7/ &e{3}'
+      name: '&cCarrega mais material para começar'
+      lore:
+      - ''
+      - '&7Tentativas: &e{0} &7/ &e{1}'
+      - '&7Progresso: &e{2} &7/ &e{3}'
+      - ''
+SUPREME_FOUNDRY_I:
+  '23':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cOutput is full'
+      name: '&cA saída está cheia'
+    - match: '&cConnect energy to continue'
+      name: '&cLiga energia para continuar'
+    - match: '&cLoad more material to start'
+      match-lore:
+      - '&7Attempts: &e{0} &7/ &e{1}'
+      - '&7Progress: &e{2} &7/ &e{3}'
+      name: '&cCarrega mais material para começar'
+      lore:
+      - ''
+      - '&7Tentativas: &e{0} &7/ &e{1}'
+      - '&7Progresso: &e{2} &7/ &e{3}'
+      - ''
+SUPREME_FOUNDRY_II:
+  '23':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cOutput is full'
+      name: '&cA saída está cheia'
+    - match: '&cConnect energy to continue'
+      name: '&cLiga energia para continuar'
+    - match: '&cLoad more material to start'
+      match-lore:
+      - '&7Attempts: &e{0} &7/ &e{1}'
+      - '&7Progress: &e{2} &7/ &e{3}'
+      name: '&cCarrega mais material para começar'
+      lore:
+      - ''
+      - '&7Tentativas: &e{0} &7/ &e{1}'
+      - '&7Progresso: &e{2} &7/ &e{3}'
+      - ''
+SUPREME_FOUNDRY_III:
+  '23':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cOutput is full'
+      name: '&cA saída está cheia'
+    - match: '&cConnect energy to continue'
+      name: '&cLiga energia para continuar'
+    - match: '&cLoad more material to start'
+      match-lore:
+      - '&7Attempts: &e{0} &7/ &e{1}'
+      - '&7Progress: &e{2} &7/ &e{3}'
+      name: '&cCarrega mais material para começar'
+      lore:
+      - ''
+      - '&7Tentativas: &e{0} &7/ &e{1}'
+      - '&7Progresso: &e{2} &7/ &e{3}'
+      - ''
+SUPREME_MAGIC_ALTAR_I:
+  '23':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cOutput is full'
+      name: '&cA saída está cheia'
+    - match: '&cConnect energy to continue'
+      name: '&cLiga energia para continuar'
+    - match: '&cLoad more material to start'
+      match-lore:
+      - '&7Attempts: &e{0} &7/ &e{1}'
+      - '&7Progress: &e{2} &7/ &e{3}'
+      name: '&cCarrega mais material para começar'
+      lore:
+      - ''
+      - '&7Tentativas: &e{0} &7/ &e{1}'
+      - '&7Progresso: &e{2} &7/ &e{3}'
+      - ''
+SUPREME_MAGIC_ALTAR_II:
+  '23':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cOutput is full'
+      name: '&cA saída está cheia'
+    - match: '&cConnect energy to continue'
+      name: '&cLiga energia para continuar'
+    - match: '&cLoad more material to start'
+      match-lore:
+      - '&7Attempts: &e{0} &7/ &e{1}'
+      - '&7Progress: &e{2} &7/ &e{3}'
+      name: '&cCarrega mais material para começar'
+      lore:
+      - ''
+      - '&7Tentativas: &e{0} &7/ &e{1}'
+      - '&7Progresso: &e{2} &7/ &e{3}'
+      - ''
+SUPREME_MAGIC_ALTAR_III:
+  '23':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cOutput is full'
+      name: '&cA saída está cheia'
+    - match: '&cConnect energy to continue'
+      name: '&cLiga energia para continuar'
+    - match: '&cLoad more material to start'
+      match-lore:
+      - '&7Attempts: &e{0} &7/ &e{1}'
+      - '&7Progress: &e{2} &7/ &e{3}'
+      name: '&cCarrega mais material para começar'
+      lore:
+      - ''
+      - '&7Tentativas: &e{0} &7/ &e{1}'
+      - '&7Progresso: &e{2} &7/ &e{3}'
+      - ''
+SUPREME_ELECTRIC_CORE_I:
+  '23':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cOutput is full'
+      name: '&cA saída está cheia'
+    - match: '&cConnect energy to continue'
+      name: '&cLiga energia para continuar'
+    - match: '&cLoad more material to start'
+      match-lore:
+      - '&7Attempts: &e{0} &7/ &e{1}'
+      - '&7Progress: &e{2} &7/ &e{3}'
+      name: '&cCarrega mais material para começar'
+      lore:
+      - ''
+      - '&7Tentativas: &e{0} &7/ &e{1}'
+      - '&7Progresso: &e{2} &7/ &e{3}'
+      - ''
+SUPREME_ELECTRIC_CORE_II:
+  '23':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cOutput is full'
+      name: '&cA saída está cheia'
+    - match: '&cConnect energy to continue'
+      name: '&cLiga energia para continuar'
+    - match: '&cLoad more material to start'
+      match-lore:
+      - '&7Attempts: &e{0} &7/ &e{1}'
+      - '&7Progress: &e{2} &7/ &e{3}'
+      name: '&cCarrega mais material para começar'
+      lore:
+      - ''
+      - '&7Tentativas: &e{0} &7/ &e{1}'
+      - '&7Progresso: &e{2} &7/ &e{3}'
+      - ''
+SUPREME_ELECTRIC_CORE_III:
+  '23':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cOutput is full'
+      name: '&cA saída está cheia'
+    - match: '&cConnect energy to continue'
+      name: '&cLiga energia para continuar'
+    - match: '&cLoad more material to start'
+      match-lore:
+      - '&7Attempts: &e{0} &7/ &e{1}'
+      - '&7Progress: &e{2} &7/ &e{3}'
+      name: '&cCarrega mais material para começar'
+      lore:
+      - ''
+      - '&7Tentativas: &e{0} &7/ &e{1}'
+      - '&7Progresso: &e{2} &7/ &e{3}'
+      - ''
+SUPREME_ELECTRIC_GEAR_I:
+  '23':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cOutput is full'
+      name: '&cA saída está cheia'
+    - match: '&cConnect energy to continue'
+      name: '&cLiga energia para continuar'
+    - match: '&cLoad more material to start'
+      match-lore:
+      - '&7Attempts: &e{0} &7/ &e{1}'
+      - '&7Progress: &e{2} &7/ &e{3}'
+      name: '&cCarrega mais material para começar'
+      lore:
+      - ''
+      - '&7Tentativas: &e{0} &7/ &e{1}'
+      - '&7Progresso: &e{2} &7/ &e{3}'
+      - ''
+SUPREME_ELECTRIC_GEAR_II:
+  '23':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cOutput is full'
+      name: '&cA saída está cheia'
+    - match: '&cConnect energy to continue'
+      name: '&cLiga energia para continuar'
+    - match: '&cLoad more material to start'
+      match-lore:
+      - '&7Attempts: &e{0} &7/ &e{1}'
+      - '&7Progress: &e{2} &7/ &e{3}'
+      name: '&cCarrega mais material para começar'
+      lore:
+      - ''
+      - '&7Tentativas: &e{0} &7/ &e{1}'
+      - '&7Progresso: &e{2} &7/ &e{3}'
+      - ''
+SUPREME_ELECTRIC_GEAR_III:
+  '23':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cOutput is full'
+      name: '&cA saída está cheia'
+    - match: '&cConnect energy to continue'
+      name: '&cLiga energia para continuar'
+    - match: '&cLoad more material to start'
+      match-lore:
+      - '&7Attempts: &e{0} &7/ &e{1}'
+      - '&7Progress: &e{2} &7/ &e{3}'
+      name: '&cCarrega mais material para começar'
+      lore:
+      - ''
+      - '&7Tentativas: &e{0} &7/ &e{1}'
+      - '&7Progresso: &e{2} &7/ &e{3}'
+      - ''
+SUPREME_ELECTRIC_MAGICAL_I:
+  '23':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cOutput is full'
+      name: '&cA saída está cheia'
+    - match: '&cConnect energy to continue'
+      name: '&cLiga energia para continuar'
+    - match: '&cLoad more material to start'
+      match-lore:
+      - '&7Attempts: &e{0} &7/ &e{1}'
+      - '&7Progress: &e{2} &7/ &e{3}'
+      name: '&cCarrega mais material para começar'
+      lore:
+      - ''
+      - '&7Tentativas: &e{0} &7/ &e{1}'
+      - '&7Progresso: &e{2} &7/ &e{3}'
+      - ''
+SUPREME_ELECTRIC_MAGICAL_II:
+  '23':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cOutput is full'
+      name: '&cA saída está cheia'
+    - match: '&cConnect energy to continue'
+      name: '&cLiga energia para continuar'
+    - match: '&cLoad more material to start'
+      match-lore:
+      - '&7Attempts: &e{0} &7/ &e{1}'
+      - '&7Progress: &e{2} &7/ &e{3}'
+      name: '&cCarrega mais material para começar'
+      lore:
+      - ''
+      - '&7Tentativas: &e{0} &7/ &e{1}'
+      - '&7Progresso: &e{2} &7/ &e{3}'
+      - ''
+SUPREME_ELECTRIC_MAGICAL_III:
+  '23':
+    variants:
+    - match: '&cInput a valid material to start'
+      name: '&cInsere um material válido para começar'
+    - match: '&cOutput is full'
+      name: '&cA saída está cheia'
+    - match: '&cConnect energy to continue'
+      name: '&cLiga energia para continuar'
+    - match: '&cLoad more material to start'
+      match-lore:
+      - '&7Attempts: &e{0} &7/ &e{1}'
+      - '&7Progress: &e{2} &7/ &e{3}'
+      name: '&cCarrega mais material para começar'
+      lore:
+      - ''
+      - '&7Tentativas: &e{0} &7/ &e{1}'
+      - '&7Progresso: &e{2} &7/ &e{3}'
+      - ''
+CLT_COUNTER_FINISHING:
+  '16':
+    name: '&7Prato Final'
+  '23':
+    name: '&x&E&4&E&D&3&2Preparar Comida'
+  '34':
+    name: '&7Prato Final'
+CLT_COUNTER_OVEN:
+  '16':
+    name: '&7Resultado Cozinhado'
+  '23':
+    name: '&x&E&4&E&D&3&2Cozinhar Produtos'
+    lore:
+    - '&x&E&4&E&D&3&2Energia Necessária: &7200'
+  '34':
+    name: '&7Resultado Cozinhado'
+CLT_COUNTER_FRYING:
+  '10':
+    name: '&7Inserir Produtos'
+  '11':
+    name: '&7Inserir Produtos'
+  '12':
+    name: '&7Inserir Produtos'
+  '14':
+    name: '&7Resultado Cozinhado'
+  '15':
+    name: '&7Resultado Cozinhado'
+  '16':
+    name: '&7Resultado Cozinhado'
+  '19':
+    name: '&7Inserir Produtos'
+  '21':
+    name: '&7Inserir Produtos'
+  '22':
+    name: '&x&E&4&E&D&3&2Cozinhar Produtos'
+    lore:
+    - '&x&E&4&E&D&3&2Energia Necessária: &7100'
+  '23':
+    name: '&7Resultado Cozinhado'
+  '25':
+    name: '&7Resultado Cozinhado'
+  '28':
+    name: '&7Inserir Produtos'
+  '29':
+    name: '&7Inserir Produtos'
+  '30':
+    name: '&7Inserir Produtos'
+  '32':
+    name: '&7Resultado Cozinhado'
+  '33':
+    name: '&7Resultado Cozinhado'
+  '34':
+    name: '&7Resultado Cozinhado'
+CLT_GARDEN_CLOCHE:
+  '10':
+    name: '&7Inserir Planta'
+  '11':
+    name: '&7Inserir Planta'
+  '12':
+    name: '&7Inserir Planta'
+  '19':
+    name: '&7Inserir Planta'
+  '21':
+    name: '&7Inserir Planta'
+  '28':
+    name: '&7Inserir Planta'
+  '29':
+    name: '&7Inserir Planta'
+  '30':
+    name: '&7Inserir Planta'
+CLT_COUNTER_GRILL:
+  '10':
+    name: '&7Inserir Produtos'
+  '11':
+    name: '&7Inserir Produtos'
+  '12':
+    name: '&7Inserir Produtos'
+  '14':
+    name: '&7Resultado Cozinhado'
+  '15':
+    name: '&7Resultado Cozinhado'
+  '16':
+    name: '&7Resultado Cozinhado'
+  '19':
+    name: '&7Inserir Produtos'
+  '21':
+    name: '&7Inserir Produtos'
+  '22':
+    name: '&x&E&4&E&D&3&2Cozinhar Produtos'
+    lore:
+    - '&x&E&4&E&D&3&2Energia Necessária: &7150'
+  '23':
+    name: '&7Resultado Cozinhado'
+  '25':
+    name: '&7Resultado Cozinhado'
+  '28':
+    name: '&7Inserir Produtos'
+  '29':
+    name: '&7Inserir Produtos'
+  '30':
+    name: '&7Inserir Produtos'
+  '32':
+    name: '&7Resultado Cozinhado'
+  '33':
+    name: '&7Resultado Cozinhado'
+  '34':
+    name: '&7Resultado Cozinhado'
