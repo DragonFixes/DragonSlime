@@ -452,7 +452,7 @@ val cloneAndBuildAddons by tasks.registering {
         val addonsSrcDir = project.layout.buildDirectory.dir("addons-src").get().asFile
         addonsSrcDir.mkdirs()
 
-        val mcVer = (project.findProperty("mcVersion") as String?)?.takeIf { it.isNotBlank() } ?: "26.1.2"
+        val mcVer = (project.findProperty("mcVersion") as String?)?.takeIf { it.isNotBlank() } ?: "26.3"
         val pluginsDir = project.layout.projectDirectory.dir("run/$mcVer/plugins").asFile
         pluginsDir.mkdirs()
 
@@ -1069,7 +1069,7 @@ val cloneAndBuildAddons by tasks.registering {
 }
 
 // runServer reads -PmcVersion / -Paddons; the interactive picker is run.ps1 (the daemon has no console).
-val runServerMcVer = (project.findProperty("mcVersion") as String?)?.takeIf { it.isNotBlank() } ?: "26.1.2"
+val runServerMcVer = (project.findProperty("mcVersion") as String?)?.takeIf { it.isNotBlank() } ?: "26.3"
 
 // Addons to build for runServer: -Paddons (comma-separated Owner/Repo) selects them; otherwise none
 // (core only). -PskipAddons is still accepted as an explicit "no addons".

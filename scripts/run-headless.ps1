@@ -13,11 +13,11 @@
 
     Usage:
       ./run-headless.ps1 -McVersion 1.8.8 -AllAddons
-      ./run-headless.ps1 -McVersion 26.1.2 -Addons "Slimefun5/InfinityExpansion@experimental"
+      ./run-headless.ps1 -McVersion 26.3 -Addons "Slimefun5/InfinityExpansion@experimental"
       ./run-headless.ps1 -McVersion 1.20.6            # core only
 #>
 param(
-    [string]$McVersion = "26.1.2",
+    [string]$McVersion = "26.3",
     [string]$Addons = "",                 # "Owner/Repo@branch,..." (empty = core only, unless -AllAddons)
     [switch]$AllAddons,                   # build all known addons @ experimental
     [switch]$LocalAddons,                 # build the addons-src working copies as-is (skip git reset)

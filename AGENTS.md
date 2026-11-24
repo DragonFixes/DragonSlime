@@ -30,9 +30,9 @@ Dev server (`run-paper`, server dir `core\run\<mcVersion>\`, git-ignored):
 
 ```powershell
 .\scripts\run.ps1                       # interactive menu: MC version + addons + branches; remembers last choice in build\.last-run.json
-.\scripts\run-headless.ps1 -McVersion 26.1.2                     # boot core only, log to build\headless-<ver>.log, then stop
+.\scripts\run-headless.ps1 -McVersion 26.3                     # boot core only, log to build\headless-<ver>.log, then stop
 .\scripts\run-headless.ps1 -McVersion 1.8.8 -AllAddons           # boot with every known addon @ experimental
-.\scripts\run-headless.ps1 -McVersion 26.1.2 -Addons "Slimefun5/InfinityExpansion@experimental"
+.\scripts\run-headless.ps1 -McVersion 26.3 -Addons "Slimefun5/InfinityExpansion@experimental"
 .\gradlew.bat :core:runServer -PmcVersion=1.20.6 -Paddons=networks,infinityexpansion
 ```
 
@@ -45,7 +45,7 @@ in-build menu cannot read input.
 
 | Property | Effect |
 |---|---|
-| `-PmcVersion=<ver>` | Server version (default `26.1.2`); the server JVM is picked to match (8/16/17/21/25). |
+| `-PmcVersion=<ver>` | Server version (default `26.3`); the server JVM is picked to match (8/16/17/21/25). |
 | `-Paddons=<list>` | Comma list of `Owner/Repo[@branch]`, bare manifest ids (`networks`), or `all`. Ids are topo-sorted by manifest dependencies. |
 | `-PskipAddons` | Core only. |
 | `-PlocalAddons` | Build `core\build\addons-src\<Repo>` working copies as-is (no fetch/reset), to iterate on addon source. |
