@@ -1,0 +1,2352 @@
+MOB_TECH_COLLECTOR_MACHINE:
+  description:
+  - '&fTento stroj umožňuje sbírat '
+  - '&fHlavy MobTech z mobů poblíž. (3 bloky)'
+  name: 'Sběrač MobTech I'
+  type:
+  - '&7&oStroj'
+SUPREME_ADAMANTIUM_AXE:
+  description:
+  - '&f&lSekera vyrobená z Adamantia'
+  name: 'Adamantiová sekera'
+  type:
+  - '&7&oNástroje'
+SUPREME_ADAMANTIUM_BOOTS:
+  description:
+  - '&f&lBoty vyrobené z Adamantia'
+  name: 'Adamantiové boty'
+  type:
+  - '&7&oBrnění'
+SUPREME_ADAMANTIUM_CAPACITOR:
+  name: 'Adamantiový kondenzátor'
+  stats:
+  - '&6Pokročilý kondenzátor'
+  - '&8⇨ &e⚡ &7Kapacita 16,000,000.00 J'
+  type:
+  - '&7&oStroj'
+SUPREME_ADAMANTIUM_CHESTPLATE:
+  description:
+  - '&f&lKyrys vyrobený z Adamantia'
+  name: 'Adamantiový kyrys'
+  type:
+  - '&7&oBrnění'
+SUPREME_ADAMANTIUM_HELMET:
+  description:
+  - '&f&lHelma vyrobená z Adamantia'
+  name: 'Adamantiová helma'
+  type:
+  - '&7&oBrnění'
+SUPREME_ADAMANTIUM_LEGGINGS:
+  description:
+  - '&f&lNohavice vyrobené z Adamantia'
+  name: 'Adamantiové nohavice'
+  type:
+  - '&7&oBrnění'
+SUPREME_ADAMANTIUM_PICKAXE:
+  description:
+  - '&f&lKrumpáč vyrobený z Adamantia'
+  name: 'Adamantiový krumpáč'
+  type:
+  - '&7&oNástroje'
+SUPREME_ADAMANTIUM_PLATE:
+  name: 'Adamantiová deska'
+  type:
+  - '&7&oKomponenty'
+SUPREME_ADAMANTIUM_SHOVEL:
+  description:
+  - '&f&lLopata vyrobená z Adamantia'
+  name: 'Adamantiová lopata'
+  type:
+  - '&7&oNástroje'
+SUPREME_ADAMANTIUM_SWORD:
+  description:
+  - '&f&lMeč vyrobený z Adamantia'
+  name: 'Adamantiový meč'
+  type:
+  - '&7&oZbraně'
+SUPREME_ALLOY_ADAMANTIUM:
+  name: 'Slitina Adamantium'
+  type:
+  - '&7&oKomponenty'
+SUPREME_ALLOY_AURUM:
+  name: 'Slitina Aurum'
+  type:
+  - '&7&oKomponenty'
+SUPREME_ALLOY_IRIDIUM:
+  name: 'Slitina Iridium'
+  type:
+  - '&7&oKomponenty'
+SUPREME_ALLOY_MANGANESE:
+  name: 'Slitina Mangan'
+  type:
+  - '&7&oKomponenty'
+SUPREME_ALLOY_PLATINUM:
+  name: 'Slitina Platina'
+  type:
+  - '&7&oKomponenty'
+SUPREME_ALLOY_TITANIUM:
+  name: 'Slitina Titan'
+  type:
+  - '&7&oKomponenty'
+SUPREME_ALLOY_ZIRCONIUM:
+  name: 'Slitina Zirkonium'
+  type:
+  - '&7&oKomponenty'
+SUPREME_AQUA_GENERATOR:
+  name: 'Generátor Aqua'
+  stats:
+  - '&6Pokročilý generátor'
+  type:
+  - '&7&oStroj'
+SUPREME_ATTRIBUTE_BOMB:
+  description:
+  - '&7Super atribut bomby se speciálními efekty'
+  name: 'Atribut bomby'
+  type:
+  - '&7&oMagické komponenty'
+SUPREME_ATTRIBUTE_FORTUNE:
+  description:
+  - '&7Super atribut štěstí se speciálními efekty'
+  name: 'Atribut štěstí'
+  type:
+  - '&7&oMagické komponenty'
+SUPREME_ATTRIBUTE_IMPETUS:
+  description:
+  - '&7Super atribut náporu se speciálními efekty'
+  name: 'Atribut náporu'
+  type:
+  - '&7&oMagické komponenty'
+SUPREME_ATTRIBUTE_MAGIC:
+  description:
+  - '&7Super atribut magie se speciálními efekty'
+  name: 'Atribut magie'
+  type:
+  - '&7&oMagické komponenty'
+SUPREME_AURUM_AXE:
+  description:
+  - '&f&lSekera vyrobená z Aurumu'
+  name: 'Aurumová sekera'
+  type:
+  - '&7&oNástroje'
+SUPREME_AURUM_BOOTS:
+  description:
+  - '&f&lBoty vyrobené z Aurumu'
+  name: 'Aurumové boty'
+  type:
+  - '&7&oBrnění'
+SUPREME_AURUM_CAPACITOR:
+  name: 'Aurumový kondenzátor'
+  stats:
+  - '&6Pokročilý kondenzátor'
+  - '&8⇨ &e⚡ &7Kapacita 1,000,000.00 J'
+  type:
+  - '&7&oStroj'
+SUPREME_AURUM_CHESTPLATE:
+  description:
+  - '&f&lKyrys vyrobený z Aurumu'
+  name: 'Aurumový kyrys'
+  type:
+  - '&7&oBrnění'
+SUPREME_AURUM_HELMET:
+  description:
+  - '&f&lHelma vyrobená z Aurumu'
+  name: 'Aurumová helma'
+  type:
+  - '&7&oBrnění'
+SUPREME_AURUM_LEGGINGS:
+  description:
+  - '&f&lNohavice vyrobené z Aurumu'
+  name: 'Aurumové nohavice'
+  type:
+  - '&7&oBrnění'
+SUPREME_AURUM_PICKAXE:
+  description:
+  - '&f&lKrumpáč vyrobený z Aurumu'
+  name: 'Aurumový krumpáč'
+  type:
+  - '&7&oNástroje'
+SUPREME_AURUM_PLATE:
+  name: 'Aurumová deska'
+  type:
+  - '&7&oKomponenty'
+SUPREME_AURUM_SHOVEL:
+  description:
+  - '&f&lLopata vyrobená z Aurumu'
+  name: 'Aurumová lopata'
+  type:
+  - '&7&oNástroje'
+SUPREME_AURUM_SWORD:
+  description:
+  - '&f&lMeč vyrobený z Aurumu'
+  name: 'Aurumový meč'
+  type:
+  - '&7&oZbraně'
+SUPREME_AXE_EPIC:
+  description:
+  - '&f&lEpická sekera z Thornia'
+  name: 'Epická sekera'
+  type:
+  - '&7&oNástroje'
+SUPREME_AXE_LEGENDARY:
+  description:
+  - '&f&lLegendární sekera z Thornia'
+  name: 'Legendární sekera'
+  type:
+  - '&7&oNástroje'
+SUPREME_AXE_MAGIC:
+  description:
+  - '&f&lMagická sekera z Thornia'
+  name: 'Magická sekera'
+  type:
+  - '&7&oNástroje'
+SUPREME_AXE_RARE:
+  description:
+  - '&f&lVzácná sekera z Thornia'
+  name: 'Vzácná sekera'
+  type:
+  - '&7&oNástroje'
+SUPREME_AXE_SUPREME:
+  description:
+  - '&f&lNejvyšší sekera z Thornia'
+  name: 'Nejvyšší sekera'
+  type:
+  - '&7&oNástroje'
+SUPREME_AXE_THORNIUM:
+  description:
+  - '&f&lSekera vyrobená z Thornia'
+  name: 'Thorniová sekera'
+  type:
+  - '&7&oNástroje'
+SUPREME_BASIC_AQUA_GENERATOR:
+  name: 'Základní generátor Aqua'
+  stats:
+  - '&eZákladní generátor'
+  type:
+  - '&7&oStroj'
+SUPREME_BASIC_IGNIS_GENERATOR:
+  name: 'Základní generátor Ignis'
+  stats:
+  - '&eZákladní generátor'
+  type:
+  - '&7&oStroj'
+SUPREME_BASIC_LUMIUM_GENERATOR:
+  name: 'Základní generátor Lumium'
+  stats:
+  - '&6Pokročilý generátor'
+  type:
+  - '&7&oStroj'
+SUPREME_BASIC_LUX_GENERATOR:
+  name: 'Základní generátor Lux'
+  stats:
+  - '&eZákladní generátor'
+  type:
+  - '&7&oStroj'
+SUPREME_BASIC_VENTUS_GENERATOR:
+  name: 'Základní generátor Ventus'
+  stats:
+  - '&eZákladní generátor'
+  type:
+  - '&7&oStroj'
+SUPREME_BLEND_MACHINE:
+  name: 'Mísicí stroj'
+  type:
+  - '&7&oPokročilé komponenty'
+SUPREME_BOOTS_EPIC:
+  description:
+  - '&f&lEpické boty z Thornia'
+  name: 'Epické boty'
+  type:
+  - '&7&oBrnění'
+SUPREME_BOOTS_LEGENDARY:
+  description:
+  - '&f&lLegendární boty z Thornia'
+  name: 'Legendární boty'
+  type:
+  - '&7&oBrnění'
+SUPREME_BOOTS_MAGIC:
+  description:
+  - '&f&lMagické boty z Thornia'
+  name: 'Magické boty'
+  type:
+  - '&7&oBrnění'
+SUPREME_BOOTS_RARE:
+  description:
+  - '&f&lVzácné boty z Thornia'
+  name: 'Vzácné boty'
+  type:
+  - '&7&oBrnění'
+SUPREME_BOOTS_SUPREME:
+  description:
+  - '&f&lNejvyšší boty z Thornia'
+  name: 'Nejvyšší boty'
+  type:
+  - '&7&oBrnění'
+SUPREME_BOOTS_THORNIUM:
+  description:
+  - '&f&lBoty vyrobené z Thornia'
+  name: 'Thorniové boty'
+  type:
+  - '&7&oBrnění'
+SUPREME_BOW_EPIC:
+  description:
+  - '&f&lEpický luk z Thornia'
+  name: 'Epický luk'
+  type:
+  - '&7&oZbraně'
+SUPREME_BOW_LEGENDARY:
+  description:
+  - '&f&lLegendární luk z Thornia'
+  name: 'Legendární luk'
+  type:
+  - '&7&oZbraně'
+SUPREME_BOW_MAGIC:
+  description:
+  - '&f&lMagický luk z Thornia'
+  name: 'Magický luk'
+  type:
+  - '&7&oZbraně'
+SUPREME_BOW_RARE:
+  description:
+  - '&f&lVzácný luk z Thornia'
+  name: 'Vzácný luk'
+  type:
+  - '&7&oZbraně'
+SUPREME_BOW_SUPREME:
+  description:
+  - '&f&lNejvyšší luk z Thornia'
+  name: 'Nejvyšší luk'
+  type:
+  - '&7&oZbraně'
+SUPREME_BOW_THORNIUM:
+  description:
+  - '&f&lLuk vyrobený z Thornia'
+  name: 'Thorniový luk'
+  type:
+  - '&7&oZbraně'
+SUPREME_CARD_ALUMINUM_BRASS:
+  description:
+  - '&fZměnit výrobu na ingot z hliníkové mosazi'
+  name: "Karta pro stroj (ingot z hliníkové mosazi)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_ALUMINUM_BRONZE:
+  description:
+  - '&fZměnit výrobu na ingot z hliníkového bronzu'
+  name: "Karta pro stroj (ingot z hliníkového bronzu)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_ALUMINUM_DUST:
+  description:
+  - '&fZměnit výrobu na hliníkový prach'
+  name: "Karta pro stroj (hliníkový prach)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_AMETHYST:
+  description:
+  - '&fZměnit výrobu na ametyst'
+  name: "Karta pro stroj (ametyst)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_ANDESITE:
+  description:
+  - '&fZměnit výrobu na andezit'
+  name: "Karta pro stroj (andezit)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_APPLE:
+  description:
+  - '&fZměnit výrobu na jablko'
+  name: "Karta pro stroj (jablko)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_BATTERY:
+  description:
+  - '&fZměnit výrobu na baterii'
+  name: "Karta pro stroj (baterii)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_BILLON:
+  description:
+  - '&fZměnit výrobu na billonový ingot'
+  name: "Karta pro stroj (billonový ingot)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_BLAZE_ROD:
+  description:
+  - '&fZměnit výrobu na ohnivou tyč'
+  name: "Karta pro stroj (ohnivou tyč)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_BRASS:
+  description:
+  - '&fZměnit výrobu na mosazný ingot'
+  name: "Karta pro stroj (mosazný ingot)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_BRONZE:
+  description:
+  - '&fZměnit výrobu na bronzový ingot'
+  name: "Karta pro stroj (bronzový ingot)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_CARBON:
+  description:
+  - '&fZměnit výrobu na uhlík'
+  name: "Karta pro stroj (uhlík)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_CARBONADO:
+  description:
+  - '&fZměnit výrobu na karbonádo'
+  name: "Karta pro stroj (karbonádo)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_CARBON_PRESS:
+  description:
+  - '&fZměnit výrobu na stlačený uhlík'
+  name: "Karta pro stroj (stlačený uhlík)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_CLAY:
+  description:
+  - '&fZměnit výrobu na jíl'
+  name: "Karta pro stroj (jíl)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_COAL:
+  description:
+  - '&fZměnit výrobu na uhlí'
+  name: "Karta pro stroj (uhlí)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_COBALT:
+  description:
+  - '&fZměnit výrobu na kobalt'
+  name: "Karta pro stroj (kobalt)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_COPPER:
+  description:
+  - '&fZměnit výrobu na měď'
+  name: "Karta pro stroj (měď)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_COPPER_DUST:
+  description:
+  - '&fZměnit výrobu na měděný prach'
+  name: "Karta pro stroj (měděný prach)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_CORINTHIAN_BRONZE:
+  description:
+  - '&fZměnit výrobu na ingot z korintského bronzu'
+  name: "Karta pro stroj (ingot z korintského bronzu)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_DAMASCUS:
+  description:
+  - '&fZměnit výrobu na damascénskou ocel'
+  name: "Karta pro stroj (damascénskou ocel)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_DIAMOND:
+  description:
+  - '&fZměnit výrobu na diamant'
+  name: "Karta pro stroj (diamant)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_DIORITE:
+  description:
+  - '&fZměnit výrobu na diorit'
+  name: "Karta pro stroj (diorit)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_DURALUMIN:
+  description:
+  - '&fZměnit výrobu na duralový ingot'
+  name: "Karta pro stroj (duralový ingot)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_ELECTRIC_MOTOR:
+  description:
+  - '&fZměnit výrobu na elektromotor'
+  name: "Karta pro stroj (elektromotor)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_ELECTRO_MAGNET:
+  description:
+  - '&fZměnit výrobu na elektromagnet'
+  name: "Karta pro stroj (elektromagnet)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_EMERALD:
+  description:
+  - '&fZměnit výrobu na smaragd'
+  name: "Karta pro stroj (smaragd)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_ENDSTONE:
+  description:
+  - '&fZměnit výrobu na endový kámen'
+  name: "Karta pro stroj (endový kámen)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_FERROSILICON:
+  description:
+  - '&fZměnit výrobu na ferosilicium'
+  name: "Karta pro stroj (ferosilicium)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_GLOW_INK_SAC:
+  description:
+  - '&fZměnit výrobu na svítící inkoustový váček'
+  name: "Karta pro stroj (svítící inkoustový váček)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_GOLD:
+  description:
+  - '&fZměnit výrobu na zlato'
+  name: "Karta pro stroj (zlato)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_GOLD24K:
+  description:
+  - '&fZměnit výrobu na zlato 24k'
+  name: "Karta pro stroj (zlato 24k)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_GOLD_DUST:
+  description:
+  - '&fZměnit výrobu na zlatý prach'
+  name: "Karta pro stroj (zlatý prach)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_GRANITE:
+  description:
+  - '&fZměnit výrobu na žulu'
+  name: "Karta pro stroj (žulu)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_GRAVEL:
+  description:
+  - '&fZměnit výrobu na štěrk'
+  name: "Karta pro stroj (štěrk)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_HARDENED_METAL:
+  description:
+  - '&fZměnit výrobu na ingot z tvrzeného kovu'
+  name: "Karta pro stroj (ingot z tvrzeného kovu)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_HEATING_COIL:
+  description:
+  - '&fZměnit výrobu na topnou spirálu'
+  name: "Karta pro stroj (topnou spirálu)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_HONEY_BOTTLE:
+  description:
+  - '&fZměnit výrobu na lahvičku medu'
+  name: "Karta pro stroj (lahvičku medu)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_INK_SAC:
+  description:
+  - '&fZměnit výrobu na inkoustový váček'
+  name: "Karta pro stroj (inkoustový váček)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_IRON:
+  description:
+  - '&fZměnit výrobu na železo'
+  name: "Karta pro stroj (železo)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_IRON_DUST:
+  description:
+  - '&fZměnit výrobu na železný prach'
+  name: "Karta pro stroj (železný prach)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_LAPIS:
+  description:
+  - '&fZměnit výrobu na lazurit'
+  name: "Karta pro stroj (lazurit)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_LEAD_DUST:
+  description:
+  - '&fZměnit výrobu na olověný prach'
+  name: "Karta pro stroj (olověný prach)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_MAGNESIUM_DUST:
+  description:
+  - '&fZměnit výrobu na hořčíkový prach'
+  name: "Karta pro stroj (hořčíkový prach)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_MAGNET:
+  description:
+  - '&fZměnit výrobu na magnet'
+  name: "Karta pro stroj (magnet)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_NETHERITE:
+  description:
+  - '&fZměnit výrobu na netherit'
+  name: "Karta pro stroj (netherit)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_NETHER_STAR:
+  description:
+  - '&fZměnit výrobu na netherskou hvězdu'
+  name: "Karta pro stroj (netherskou hvězdu)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_NICKEL:
+  description:
+  - '&fZměnit výrobu na nikl'
+  name: "Karta pro stroj (nikl)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_PLASTIC_SHEET:
+  description:
+  - '&fZměnit výrobu na plastovou desku'
+  name: "Karta pro stroj (plastovou desku)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_QUARTZ:
+  description:
+  - '&fZměnit výrobu na křemen'
+  name: "Karta pro stroj (křemen)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_QUARTZ_BLOCK:
+  description:
+  - '&fZměnit výrobu na křemenný blok'
+  name: "Karta pro stroj (křemenný blok)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_REDSTONE:
+  description:
+  - '&fZměnit výrobu na redstone'
+  name: "Karta pro stroj (redstone)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_REDSTONE_ALLOY:
+  description:
+  - '&fZměnit výrobu na redstonovou slitinu'
+  name: "Karta pro stroj (redstonovou slitinu)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_REINFORCED_ALLOY:
+  description:
+  - '&fZměnit výrobu na ingot ze zesílené slitiny'
+  name: "Karta pro stroj (ingot ze zesílené slitiny)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_SAND:
+  description:
+  - '&fZměnit výrobu na písek'
+  name: "Karta pro stroj (písek)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_SILICON:
+  description:
+  - '&fZměnit výrobu na křemík'
+  name: "Karta pro stroj (křemík)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_SILVER_DUST:
+  description:
+  - '&fZměnit výrobu na stříbrný prach'
+  name: "Karta pro stroj (stříbrný prach)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_SLIME_BALL:
+  description:
+  - '&fZměnit výrobu na slizovou kouli'
+  name: "Karta pro stroj (slizovou kouli)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_SNOW:
+  description:
+  - '&fZměnit výrobu na sníh'
+  name: "Karta pro stroj (sníh)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_SOLDER:
+  description:
+  - '&fZměnit výrobu na ingot z pájky'
+  name: "Karta pro stroj (ingot z pájky)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_STEEL:
+  description:
+  - '&fZměnit výrobu na ocel'
+  name: "Karta pro stroj (ocel)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_STONE:
+  description:
+  - '&fZměnit výrobu na kámen'
+  name: "Karta pro stroj (kámen)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_SULFATE:
+  description:
+  - '&fZměnit výrobu na síran'
+  name: "Karta pro stroj (síran)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_SYNTHETIC_DIAMOND:
+  description:
+  - '&fZměnit výrobu na syntetický diamant'
+  name: "Karta pro stroj (syntetický diamant)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_SYNTHETIC_EMERALD:
+  description:
+  - '&fZměnit výrobu na syntetický smaragd'
+  name: "Karta pro stroj (syntetický smaragd)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_SYNTHETIC_SAPPHIRE:
+  description:
+  - '&fZměnit výrobu na syntetický safír'
+  name: "Karta pro stroj (syntetický safír)"
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_TIN_DUST:
+  description:
+  - '&fZměnit výrobu na cínový prach'
+  name: "Karta pro stroj (cínový prach)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_WITHER_ROSE:
+  description:
+  - '&fZměnit výrobu na witherovou růži'
+  name: "Karta pro stroj (witherovou růži)"
+  stats:
+  - '&eZákladní stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARD_ZINC_DUST:
+  description:
+  - '&fZměnit výrobu na zinkový prach'
+  name: "Karta pro stroj (zinkový prach)"
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CARRIAGE_MACHINE:
+  name: 'Přepravní stroj'
+  type:
+  - '&7&oPokročilé komponenty'
+SUPREME_CENTER_CARD_ADVANCED:
+  description:
+  - '&fKomponenta pro stroj k výrobě předmětů'
+  name: 'Pokročilá komponenta pro kartu'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CENTER_CARD_SIMPLE:
+  description:
+  - '&fKomponenta pro stroj k výrobě předmětů'
+  name: 'Základní komponenta pro kartu'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CENTER_CARD_ULTIMATE:
+  description:
+  - '&fKomponenta pro stroj k výrobě předmětů'
+  name: 'Ultimátní komponenta pro kartu'
+  type:
+  - '&7&oKomponenta'
+SUPREME_CETRUS_AQUA:
+  description:
+  - '&7Super žezlo Aqua'
+  name: 'Cetrus Aqua'
+  type:
+  - '&7&oMagické komponenty'
+SUPREME_CETRUS_IGNIS:
+  description:
+  - '&7Super žezlo Ignis'
+  name: 'Cetrus Ignis'
+  type:
+  - '&7&oMagické komponenty'
+SUPREME_CETRUS_LUMIUM:
+  description:
+  - '&7Super žezlo Lumium'
+  name: 'Cetrus Lumium'
+  type:
+  - '&7&oMagické komponenty'
+SUPREME_CETRUS_LUX:
+  description:
+  - '&7Super žezlo Lux'
+  name: 'Cetrus Lux'
+  type:
+  - '&7&oMagické komponenty'
+SUPREME_CETRUS_VENTUS:
+  description:
+  - '&7Super žezlo Ventus'
+  name: 'Cetrus Ventus'
+  type:
+  - '&7&oMagické komponenty'
+SUPREME_CHECK_INVENTORY:
+  description:
+  - '&fKontroluje, zda truhla poblíž obsahuje filtrovaný předmět'
+  - '&fberou se v úvahu všechny strany (najde první)'
+  - '&fpokud jej najde, tento blok se rozsvítí'
+  name: "Kontrolor inventáře"
+  stats:
+  - '&6Pokročilý stroj'
+  - '&8⇨ &b⚡ &7Rychlost: &b1.0x'
+  type:
+  - '&7&oStroj'
+SUPREME_CHESTPLATE_EPIC:
+  description:
+  - '&f&lEpický kyrys z Thornia'
+  name: 'Epický kyrys'
+  type:
+  - '&7&oBrnění'
+SUPREME_CHESTPLATE_LEGENDARY:
+  description:
+  - '&f&lLegendární kyrys z Thornia'
+  name: 'Legendární kyrys'
+  type:
+  - '&7&oBrnění'
+SUPREME_CHESTPLATE_MAGIC:
+  description:
+  - '&f&lMagický kyrys z Thornia'
+  name: 'Magický kyrys'
+  type:
+  - '&7&oBrnění'
+SUPREME_CHESTPLATE_RARE:
+  description:
+  - '&f&lVzácný kyrys z Thornia'
+  name: 'Vzácný kyrys'
+  type:
+  - '&7&oBrnění'
+SUPREME_CHESTPLATE_SUPREME:
+  description:
+  - '&f&lNejvyšší kyrys z Thornia'
+  name: 'Nejvyšší kyrys'
+  type:
+  - '&7&oBrnění'
+SUPREME_CHESTPLATE_THORNIUM:
+  description:
+  - '&f&lKyrys vyrobený z Thornia'
+  name: 'Thorniový kyrys'
+  type:
+  - '&7&oBrnění'
+SUPREME_COAL_QUARRY:
+  name: 'Uhelný lom'
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oStroj'
+SUPREME_CONVEYANCE_MACHINE:
+  name: 'Dopravní stroj'
+  type:
+  - '&7&oPokročilé komponenty'
+SUPREME_CORE_ACACIA_LOG:
+  description:
+  - '&7Super akát'
+  name: 'Nejvyšší akátová kláda'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_ANDESITE:
+  description:
+  - '&7Super andezit'
+  name: 'Nejvyšší andezit'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_APPLE:
+  description:
+  - '&7Super jablko'
+  name: 'Nejvyšší jablko'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_BEEF:
+  description:
+  - '&7Super hovězí'
+  name: 'Nejvyšší hovězí'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_BEETROOT:
+  description:
+  - '&7Super řepa'
+  name: 'Nejvyšší řepa'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_BIRCH_LOG:
+  description:
+  - '&7Super bříza'
+  name: 'Nejvyšší březová kláda'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_BLACK:
+  description:
+  - '&7Super černá'
+  name: 'Nejvyšší černá'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_BLUE:
+  description:
+  - '&7Super modrá'
+  name: 'Nejvyšší modrá'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_CARROT:
+  description:
+  - '&7Nejvyšší mrkev'
+  name: 'Nejvyšší mrkev'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_CHICKEN:
+  description:
+  - '&7Super kuře'
+  name: 'Nejvyšší kuře'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_CLAY:
+  description:
+  - '&7Super jíl'
+  name: 'Nejvyšší jíl'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_COAL:
+  description:
+  - '&7Super uhlí'
+  name: 'Nejvyšší uhlí'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_COD:
+  description:
+  - '&7Super treska'
+  name: 'Nejvyšší treska'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_CRIMSON_STEM:
+  description:
+  - '&7Super brunátné dřevo'
+  name: 'Nejvyšší brunátný kmen'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_CYAN:
+  description:
+  - '&7Super azurová'
+  name: 'Nejvyšší azurová'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_DARK_OAK_LOG:
+  description:
+  - '&7Super tmavý dub'
+  name: 'Nejvyšší kláda tmavého dubu'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_DIAMOND:
+  description:
+  - '&7Super diamant'
+  name: 'Nejvyšší diamant'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_DIORITE:
+  description:
+  - '&7Super diorit'
+  name: 'Nejvyšší diorit'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_EMERALD:
+  description:
+  - '&7Super smaragd'
+  name: 'Nejvyšší smaragd'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_ENDSTONE:
+  description:
+  - '&7Super endový kámen'
+  name: 'Nejvyšší endový kámen'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_GOLD:
+  description:
+  - '&7Super zlato'
+  name: 'Nejvyšší zlato'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_GRANITE:
+  description:
+  - '&7Super žula'
+  name: 'Nejvyšší žula'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_GRAVEL:
+  description:
+  - '&7Super štěrk'
+  name: 'Nejvyšší štěrk'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_GRAY:
+  description:
+  - '&7Super šedá'
+  name: 'Nejvyšší šedá'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_GREEN:
+  description:
+  - '&7Super zelená'
+  name: 'Nejvyšší zelená'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_IRON:
+  description:
+  - '&7Super železo'
+  name: 'Nejvyšší železo'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_JUNGLE_LOG:
+  description:
+  - '&7Super džungle'
+  name: 'Nejvyšší kláda z džungle'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_LAPIS:
+  description:
+  - '&7Super lazurit'
+  name: 'Nejvyšší lazurit'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_MELON:
+  description:
+  - '&7Super meloun'
+  name: 'Nejvyšší meloun'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_MUTTON:
+  description:
+  - '&7Super skopové'
+  name: 'Nejvyšší skopové'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_NETHERITE:
+  description:
+  - '&7Super netherit'
+  name: 'Nejvyšší netherit'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_OAK_LOG:
+  description:
+  - '&7Super dub'
+  name: 'Nejvyšší dubová kláda'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_OF_ALLOY:
+  description:
+  - '&7Toto jádro obsahuje několik rud'
+  - '&7nasbíraných po celém světě.'
+  name: 'Jádro slitin'
+  type:
+  - '&7&oMagické komponenty'
+SUPREME_CORE_OF_BLOCK:
+  description:
+  - '&7Toto jádro obsahuje několik bloků'
+  - '&7nasbíraných po celém světě.'
+  name: 'Jádro bloků'
+  type:
+  - '&7&oMagické komponenty'
+SUPREME_CORE_OF_COLOR:
+  description:
+  - '&7Toto jádro obsahuje několik barev'
+  - '&7nasbíraných po celém světě.'
+  name: 'Jádro barev'
+  type:
+  - '&7&oMagické komponenty'
+SUPREME_CORE_OF_DEATH:
+  description:
+  - '&7Toto jádro obsahuje duše '
+  - '&7různých bytostí, které odešly na onen svět.'
+  name: 'Jádro smrti'
+  type:
+  - '&7&oMagické komponenty'
+SUPREME_CORE_OF_LIFE:
+  description:
+  - '&7Toto jádro obsahuje úlomky života'
+  - '&7nasbírané světem.'
+  name: 'Jádro života'
+  type:
+  - '&7&oMagické komponenty'
+SUPREME_CORE_OF_NATURE:
+  description:
+  - '&7Toto jádro obsahuje několik přírodních'
+  - '&7nasbíraných po celém světě.'
+  name: 'Jádro přírody'
+  type:
+  - '&7&oMagické komponenty'
+SUPREME_CORE_PINK:
+  description:
+  - '&7Super růžová'
+  name: 'Nejvyšší růžová'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_PORKCHOP:
+  description:
+  - '&7Super slanina'
+  name: "Nejvyšší vepřová kotleta"
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_POTATO:
+  description:
+  - '&7Super brambora'
+  name: 'Nejvyšší brambora'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_PUMPKIN:
+  description:
+  - '&7Super dýně'
+  name: 'Nejvyšší dýně'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_PURPLE:
+  description:
+  - '&7Super fialová'
+  name: 'Nejvyšší fialová'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_QUARTZ:
+  description:
+  - '&7Super křemen'
+  name: 'Nejvyšší křemen'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_RED:
+  description:
+  - '&7Super červená'
+  name: 'Nejvyšší červená'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_REDSTONE:
+  description:
+  - '&7Super redstone'
+  name: 'Nejvyšší redstone'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_SALMON:
+  description:
+  - '&7Super losos'
+  name: 'Nejvyšší losos'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_SAND:
+  description:
+  - '&7Super písek'
+  name: 'Nejvyšší písek'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_SNOW:
+  description:
+  - '&7Super sníh'
+  name: 'Nejvyšší sníh'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_SPIDER_EYE:
+  description:
+  - '&7Super oko'
+  name: "Nejvyšší pavoučí oko"
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_SPRUCE_LOG:
+  description:
+  - '&7Super smrk'
+  name: 'Nejvyšší smrková kláda'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_STONE:
+  description:
+  - '&7Super dlažební kostky'
+  name: 'Nejvyšší dlažební kostky'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_STRING:
+  description:
+  - '&7Super vodítko'
+  name: "Nejvyšší provázek"
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_SUGAR_CANE:
+  description:
+  - '&7Super cukrová třtina'
+  name: 'Nejvyšší cukrová třtina'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_SWEET_BERRIES:
+  description:
+  - '&7Super bobule'
+  name: 'Nejvyšší sladké bobule'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_TEAR:
+  description:
+  - '&7Super slza'
+  name: "Nejvyšší slza ghasta"
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_WARPED_STEM:
+  description:
+  - '&7Super zprohýbané dřevo'
+  name: 'Nejvyšší zprohýbaný kmen'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_WHEAT:
+  description:
+  - '&7Super pšenice'
+  name: 'Nejvyšší pšenice'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_WITHER_ROSE:
+  description:
+  - '&7Super růže'
+  name: 'Nejvyšší witherová růže'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CORE_YELLOW:
+  description:
+  - '&7Super žlutá'
+  name: 'Nejvyšší žlutá'
+  type:
+  - '&7&oZákladní komponenty'
+SUPREME_CRYSTALLIZER_MACHINE:
+  name: 'Krystalizační stroj'
+  type:
+  - '&7&oPokročilé komponenty'
+SUPREME_DIAMOND_QUARRY:
+  name: 'Diamantový lom'
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oStroj'
+SUPREME_DUST_AMETHYST:
+  name: 'Ametystový prach'
+  type:
+  - '&7&oKomponenta'
+SUPREME_DUST_GLOW_INK:
+  name: 'Svítící inkoustový prach'
+  type:
+  - '&7&oKomponenta'
+SUPREME_DUST_NETHERITE:
+  name: 'Netheritový prach'
+  type:
+  - '&7&oKomponenta'
+SUPREME_ELECTRIC_CORE_I:
+  description:
+  - '&fVyrobit surovinu pro jádro'
+  name: 'Elektrický stroj na jádra'
+  stats:
+  - '&6Pokročilý stroj'
+  - '&8⇨ &b⚡ &7Rychlost: &b1.0x'
+  type:
+  - '&7&oStroj'
+SUPREME_ELECTRIC_CORE_II:
+  description:
+  - '&fPokročilá výroba suroviny pro jádro'
+  name: 'Elektrický stroj na jádra II'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b5.0x'
+  type:
+  - '&7&oStroj'
+SUPREME_ELECTRIC_CORE_III:
+  description:
+  - '&fPokročilá výroba suroviny pro jádro'
+  name: 'Elektrický stroj na jádra III'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b15.0x'
+  type:
+  - '&7&oStroj'
+SUPREME_ELECTRIC_CRAFTER_I:
+  description:
+  - '&fVyrobit předměty'
+  name: 'Elektrický výrobník'
+  stats:
+  - '&6Pokročilý stroj'
+  - '&8⇨ &b⚡ &7Rychlost: &b1.0x'
+  type:
+  - '&7&oStroj'
+SUPREME_ELECTRIC_CRAFTER_II:
+  description:
+  - '&fPokročilá výroba předmětů'
+  name: 'Elektrický výrobník II'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b5.0x'
+  type:
+  - '&7&oStroj'
+SUPREME_ELECTRIC_CRAFTER_III:
+  description:
+  - '&fPokročilá výroba předmětů'
+  name: 'Elektrický výrobník III'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b15.0x'
+  type:
+  - '&7&oStroj'
+SUPREME_ELECTRIC_GEAR_I:
+  description:
+  - '&fVyrobit úroveň vybavení'
+  name: 'Elektrický stroj na vybavení'
+  stats:
+  - '&6Pokročilý stroj'
+  - '&8⇨ &b⚡ &7Rychlost: &b1.0x'
+  type:
+  - '&7&oStroj'
+SUPREME_ELECTRIC_GEAR_II:
+  description:
+  - '&fPokročilá výroba úrovně vybavení'
+  name: 'Elektrický stroj na vybavení II'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b5.0x'
+  type:
+  - '&7&oStroj'
+SUPREME_ELECTRIC_GEAR_III:
+  description:
+  - '&fPokročilá výroba úrovně vybavení'
+  name: 'Elektrický stroj na vybavení III'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b15.0x'
+  type:
+  - '&7&oStroj'
+SUPREME_ELECTRIC_ITEM:
+  name: "Elektřina"
+  type:
+  - '&7&oRůzné'
+SUPREME_ELECTRIC_MAGICAL_I:
+  description:
+  - '&fVyrobit magickou surovinu'
+  name: 'Elektrický magický stroj'
+  stats:
+  - '&6Pokročilý stroj'
+  - '&8⇨ &b⚡ &7Rychlost: &b1.0x'
+  type:
+  - '&7&oStroj'
+SUPREME_ELECTRIC_MAGICAL_II:
+  description:
+  - '&fPokročilá výroba magické suroviny'
+  name: 'Elektrický magický stroj II'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b5.0x'
+  type:
+  - '&7&oStroj'
+SUPREME_ELECTRIC_MAGICAL_III:
+  description:
+  - '&fPokročilá výroba magické suroviny'
+  name: 'Elektrický magický stroj III'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b15.0x'
+  type:
+  - '&7&oStroj'
+SUPREME_EMPTY_MOBTECH:
+  name: 'Prázdný MobTech'
+  type:
+  - '&7&oKomponenta'
+SUPREME_FORGE_INGOT_I:
+  description:
+  - '&fTento stroj umožňuje'
+  - '&fkovat ingoty ze surovin.'
+  name: 'Kovárna na ingoty'
+  stats:
+  - '&6Pokročilý stroj'
+  - '&8⇨ &b⚡ &7Rychlost: &b1.0x'
+  - '&8⇨ &e⚡ &7Zásobník 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oStroj'
+SUPREME_FORGE_INGOT_II:
+  description:
+  - '&fTento stroj umožňuje'
+  - '&fkovat ingoty ze surovin.'
+  name: 'Kovárna na ingoty II'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b5.0x'
+  - '&8⇨ &e⚡ &7Zásobník 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oStroj'
+SUPREME_FORGE_INGOT_III:
+  description:
+  - '&fTento stroj umožňuje'
+  - '&fkovat ingoty ze surovin.'
+  name: 'Kovárna na ingoty III'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b15.0x'
+  - '&8⇨ &e⚡ &7Zásobník 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oStroj'
+SUPREME_FORGE_MAGICAL_I:
+  description:
+  - '&fTento stroj umožňuje'
+  - '&fkovat magické suroviny.'
+  name: 'Magická kovárna'
+  stats:
+  - '&6Pokročilý stroj'
+  - '&8⇨ &b⚡ &7Rychlost: &b1.0x'
+  - '&8⇨ &e⚡ &7Zásobník 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oStroj'
+SUPREME_FORGE_MAGICAL_II:
+  description:
+  - '&fTento stroj umožňuje'
+  - '&fkovat magické suroviny.'
+  name: 'Magická kovárna II'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b5.0x'
+  - '&8⇨ &e⚡ &7Zásobník 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oStroj'
+SUPREME_FORGE_MAGICAL_III:
+  description:
+  - '&fTento stroj umožňuje'
+  - '&fkovat magické suroviny.'
+  name: 'Magická kovárna III'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b15.0x'
+  - '&8⇨ &e⚡ &7Zásobník 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oStroj'
+SUPREME_FOUNDRY_I:
+  description:
+  - '&fSlévárna a syntetizér předmětů'
+  name: 'Slévárna'
+  stats:
+  - '&6Pokročilý stroj'
+  - '&8⇨ &b⚡ &7Rychlost: &b1.0x'
+  type:
+  - '&7&oStroj'
+SUPREME_FOUNDRY_II:
+  description:
+  - '&fPokročilá slévárna a syntetizér předmětů'
+  name: 'Slévárna II'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b5.0x'
+  type:
+  - '&7&oStroj'
+SUPREME_FOUNDRY_III:
+  description:
+  - '&fPokročilá slévárna a syntetizér předmětů'
+  name: 'Slévárna III'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b15.0x'
+  type:
+  - '&7&oStroj'
+SUPREME_GENERATOR_MOB_ADVANCED:
+  name: 'Pokročilý generátor mobů'
+  stats:
+  - '&eZákladní generátor'
+  type:
+  - '&7&oStroj'
+SUPREME_GENERATOR_MOB_BASIC:
+  name: 'Základní generátor mobů'
+  stats:
+  - '&eZákladní generátor'
+  type:
+  - '&7&oStroj'
+SUPREME_GENERATOR_MOB_MEDIUM:
+  name: 'Střední generátor mobů'
+  stats:
+  - '&eZákladní generátor'
+  type:
+  - '&7&oStroj'
+SUPREME_GENE_BERSERK:
+  name: 'Gen zuřivosti'
+  type:
+  - '&7&oKomponenta'
+SUPREME_GENE_INTELLIGENCE:
+  name: 'Gen inteligence'
+  type:
+  - '&7&oKomponenta'
+SUPREME_GENE_LUCK:
+  name: 'Gen štěstí'
+  type:
+  - '&7&oKomponenta'
+SUPREME_GOLD_QUARRY:
+  name: 'Zlatý lom'
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oStroj'
+SUPREME_HELMET_EPIC:
+  description:
+  - '&f&lEpická helma z Thornia'
+  name: 'Epická helma'
+  type:
+  - '&7&oBrnění'
+SUPREME_HELMET_LEGENDARY:
+  description:
+  - '&f&lLegendární helma z Thornia'
+  name: 'Legendární helma'
+  type:
+  - '&7&oBrnění'
+SUPREME_HELMET_MAGIC:
+  description:
+  - '&f&lMagická helma z Thornia'
+  name: 'Magická helma'
+  type:
+  - '&7&oBrnění'
+SUPREME_HELMET_RARE:
+  description:
+  - '&f&lVzácná helma z Thornia'
+  name: 'Vzácná helma'
+  type:
+  - '&7&oBrnění'
+SUPREME_HELMET_SUPREME:
+  description:
+  - '&f&lNejvyšší helma z Thornia'
+  name: 'Nejvyšší helma'
+  type:
+  - '&7&oBrnění'
+SUPREME_HELMET_THORNIUM:
+  description:
+  - '&f&lHelma vyrobená z Thornia'
+  name: 'Thorniová helma'
+  type:
+  - '&7&oBrnění'
+SUPREME_IGNIS_GENERATOR:
+  name: 'Generátor Ignis'
+  stats:
+  - '&6Pokročilý generátor'
+  type:
+  - '&7&oStroj'
+SUPREME_INDUCTIVE_MACHINE:
+  name: 'Indukční stroj'
+  type:
+  - '&7&oPokročilé komponenty'
+SUPREME_INDUCTOR_MACHINE:
+  name: 'Induktorový stroj'
+  type:
+  - '&7&oPokročilé komponenty'
+SUPREME_IRIDIUM_PLATE:
+  name: 'Iridiová deska'
+  type:
+  - '&7&oKomponenty'
+SUPREME_IRON_QUARRY:
+  name: 'Železný lom'
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oStroj'
+SUPREME_LEGGINGS_EPIC:
+  description:
+  - '&f&lEpické nohavice z Thornia'
+  name: 'Epické nohavice'
+  type:
+  - '&7&oBrnění'
+SUPREME_LEGGINGS_LEGENDARY:
+  description:
+  - '&f&lLegendární nohavice z Thornia'
+  name: 'Legendární nohavice'
+  type:
+  - '&7&oBrnění'
+SUPREME_LEGGINGS_MAGIC:
+  description:
+  - '&f&lMagické nohavice z Thornia'
+  name: 'Magické nohavice'
+  type:
+  - '&7&oBrnění'
+SUPREME_LEGGINGS_RARE:
+  description:
+  - '&f&lVzácné nohavice z Thornia'
+  name: 'Vzácné nohavice'
+  type:
+  - '&7&oBrnění'
+SUPREME_LEGGINGS_SUPREME:
+  description:
+  - '&f&lNejvyšší nohavice z Thornia'
+  name: 'Nejvyšší nohavice'
+  type:
+  - '&7&oBrnění'
+SUPREME_LEGGINGS_THORNIUM:
+  description:
+  - '&f&lNohavice vyrobené z Thornia'
+  name: 'Thorniové nohavice'
+  type:
+  - '&7&oBrnění'
+SUPREME_LUMIUM_GENERATOR:
+  name: 'Generátor Lumium'
+  stats:
+  - '&6Pokročilý generátor'
+  type:
+  - '&7&oStroj'
+SUPREME_LUX_GENERATOR:
+  name: 'Generátor Lux'
+  stats:
+  - '&6Pokročilý generátor'
+  type:
+  - '&7&oStroj'
+SUPREME_MAGIC_ALTAR_I:
+  description:
+  - '&fVyrobit runy a magické předměty'
+  name: 'Magický oltář'
+  stats:
+  - '&6Pokročilý stroj'
+  - '&8⇨ &b⚡ &7Rychlost: &b1.0x'
+  type:
+  - '&7&oStroj'
+SUPREME_MAGIC_ALTAR_II:
+  description:
+  - '&fPokročilá výroba run a magických předmětů'
+  name: 'Magický oltář II'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b5.0x'
+  type:
+  - '&7&oStroj'
+SUPREME_MAGIC_ALTAR_III:
+  description:
+  - '&fPokročilá výroba run a magických předmětů'
+  name: 'Magický oltář III'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b15.0x'
+  type:
+  - '&7&oStroj'
+SUPREME_MAIN_ITEM:
+  name: "Supreme"
+  type:
+  - '&7&oRůzné'
+SUPREME_MANGANESE_PLATE:
+  name: 'Manganová deska'
+  type:
+  - '&7&oKomponenty'
+SUPREME_MOB_COLLECTOR_MACHINE_I:
+  description:
+  - '&fTento stroj umožňuje sbírat '
+  - '&fpředměty z mobů poblíž. (4 bloky)'
+  name: 'Sběrač mobů'
+  stats:
+  - '&6Pokročilý stroj'
+  - '&8⇨ &b⚡ &7Rychlost: &b1.0x'
+  - '&8⇨ &e⚡ &7Zásobník 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oStroj'
+SUPREME_MOB_COLLECTOR_MACHINE_II:
+  description:
+  - '&fTento stroj umožňuje sbírat'
+  - '&f předměty z mobů poblíž. (8 bloků)'
+  name: 'Sběrač mobů II'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b5.0x'
+  - '&8⇨ &e⚡ &7Zásobník 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oStroj'
+SUPREME_MOB_COLLECTOR_MACHINE_III:
+  description:
+  - '&fTento stroj umožňuje sbírat'
+  - '&f předměty z mobů poblíž. (16 bloků)'
+  name: 'Sběrač mobů III'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b15.0x'
+  - '&8⇨ &e⚡ &7Zásobník 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oStroj'
+SUPREME_MOB_COLLECTOR_TOOL_I:
+  name: "Sběrač MobTech I (Nástroj)"
+  stats:
+  - '&8⇨ &e⚡ &750 J za použití'
+  type:
+  - '&7&oNástroje'
+SUPREME_MOB_COLLECTOR_TOOL_II:
+  name: "Sběrač MobTech II (Nástroj)"
+  stats:
+  - '&8⇨ &e⚡ &750 J za použití'
+  type:
+  - '&7&oNástroje'
+SUPREME_MOB_COLLECTOR_TOOL_III:
+  name: "Sběrač MobTech III (Nástroj)"
+  stats:
+  - '&8⇨ &e⚡ &750 J za použití'
+  type:
+  - '&7&oNástroje'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_II:
+  description:
+  - '&fTento stroj umožňuje sbírat '
+  - '&fHlavy MobTech z mobů poblíž. (6 bloků)'
+  name: 'Sběrač MobTech II'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b1.0x'
+  - '&8⇨ &e⚡ &7Zásobník 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oStroj'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_III:
+  description:
+  - '&fTento stroj umožňuje sbírat '
+  - '&fHlavy MobTech z mobů poblíž. (9 bloků)'
+  name: 'Sběrač MobTech III'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b1.0x'
+  - '&8⇨ &e⚡ &7Zásobník 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oStroj'
+SUPREME_MULTIBLOCK_CORE:
+  description:
+  - '&7&oZde můžeš vyrábět jádra!'
+  - '&aMultiblokový stroj'
+  name: 'Výrobník jader'
+  type:
+  - '&7&oStroj'
+SUPREME_MULTIBLOCK_GEAR:
+  description:
+  - '&7&oZde můžeš vyrábět zbraně, brnění a nástroje!'
+  - '&aMultiblokový stroj'
+  name: 'Výrobník vybavení'
+  type:
+  - '&7&oStroj'
+SUPREME_MULTIBLOCK_MAGICAL:
+  description:
+  - '&7&oZde můžeš vyrábět magii!'
+  - '&aMultiblokový stroj'
+  name: 'Magický výrobník'
+  type:
+  - '&7&oStroj'
+SUPREME_PETRIFIER_MACHINE:
+  name: 'Zkameňovací stroj'
+  type:
+  - '&7&oPokročilé komponenty'
+SUPREME_PICKAXE_EPIC:
+  description:
+  - '&f&lEpický krumpáč z Thornia'
+  name: 'Epický krumpáč'
+  type:
+  - '&7&oNástroje'
+SUPREME_PICKAXE_LEGENDARY:
+  description:
+  - '&f&lLegendární krumpáč z Thornia'
+  name: 'Legendární krumpáč'
+  type:
+  - '&7&oNástroje'
+SUPREME_PICKAXE_MAGIC:
+  description:
+  - '&f&lMagický krumpáč z Thornia'
+  name: 'Magický krumpáč'
+  type:
+  - '&7&oNástroje'
+SUPREME_PICKAXE_RARE:
+  description:
+  - '&f&lVzácný krumpáč z Thornia'
+  name: 'Vzácný krumpáč'
+  type:
+  - '&7&oNástroje'
+SUPREME_PICKAXE_SUPREME:
+  description:
+  - '&f&lNejvyšší krumpáč z Thornia'
+  name: 'Nejvyšší krumpáč'
+  type:
+  - '&7&oNástroje'
+SUPREME_PICKAXE_THORNIUM:
+  description:
+  - '&f&lKrumpáč vyrobený z Thornia'
+  name: 'Thorniový krumpáč'
+  type:
+  - '&7&oNástroje'
+SUPREME_PLATINUM_PLATE:
+  name: 'Platinová deska'
+  type:
+  - '&7&oKomponenty'
+SUPREME_RUSTLESS_MACHINE:
+  name: 'Nekorodující stroj'
+  type:
+  - '&7&oPokročilé komponenty'
+SUPREME_SHIELD_EPIC:
+  description:
+  - '&f&lEpický štít z Thornia'
+  name: 'Epický štít'
+  type:
+  - '&7&oZbraně'
+SUPREME_SHIELD_LEGENDARY:
+  description:
+  - '&f&lLegendární štít z Thornia'
+  name: 'Legendární štít'
+  type:
+  - '&7&oZbraně'
+SUPREME_SHIELD_MAGIC:
+  description:
+  - '&f&lMagický štít z Thornia'
+  name: 'Magický štít'
+  type:
+  - '&7&oZbraně'
+SUPREME_SHIELD_RARE:
+  description:
+  - '&f&lVzácný štít z Thornia'
+  name: 'Vzácný štít'
+  type:
+  - '&7&oZbraně'
+SUPREME_SHIELD_SUPREME:
+  description:
+  - '&f&lNejvyšší štít z Thornia'
+  name: 'Nejvyšší štít'
+  type:
+  - '&7&oZbraně'
+SUPREME_SHIELD_THORNIUM:
+  description:
+  - '&f&lŠtít vyrobený z Thornia'
+  name: 'Thorniový štít'
+  type:
+  - '&7&oZbraně'
+SUPREME_SHOVEL_EPIC:
+  description:
+  - '&f&lEpická lopata z Thornia'
+  name: 'Epická lopata'
+  type:
+  - '&7&oNástroje'
+SUPREME_SHOVEL_LEGENDARY:
+  description:
+  - '&f&lLegendární lopata z Thornia'
+  name: 'Legendární lopata'
+  type:
+  - '&7&oNástroje'
+SUPREME_SHOVEL_MAGIC:
+  description:
+  - '&f&lMagická lopata z Thornia'
+  name: 'Magická lopata'
+  type:
+  - '&7&oNástroje'
+SUPREME_SHOVEL_RARE:
+  description:
+  - '&f&lVzácná lopata z Thornia'
+  name: 'Vzácná lopata'
+  type:
+  - '&7&oNástroje'
+SUPREME_SHOVEL_SUPREME:
+  description:
+  - '&f&lNejvyšší lopata z Thornia'
+  name: 'Nejvyšší lopata'
+  type:
+  - '&7&oNástroje'
+SUPREME_SHOVEL_THORNIUM:
+  description:
+  - '&f&lLopata vyrobená z Thornia'
+  name: 'Thorniová lopata'
+  type:
+  - '&7&oNástroje'
+SUPREME_STAINLESS_MACHINE:
+  name: 'Nerezový stroj'
+  type:
+  - '&7&oPokročilé komponenty'
+SUPREME_STONE_QUARRY:
+  name: 'Kamenný lom'
+  stats:
+  - '&aStřední stroj'
+  type:
+  - '&7&oStroj'
+SUPREME_SUPREME:
+  description:
+  - '&7Ten nejvyšší'
+  name: 'Nejvyšší'
+  type:
+  - '&7&oKomponenty konce hry'
+SUPREME_SUPREME_CAPACITOR:
+  name: 'Nejvyšší kondenzátor'
+  stats:
+  - '&4Kondenzátor koncové fáze'
+  - '&8⇨ &e⚡ &7Nekonečná kapacita J'
+  type:
+  - '&7&oStroj'
+SUPREME_SUPREME_GENERATOR:
+  name: 'Nejvyšší generátor'
+  stats:
+  - '&4Generátor koncové fáze'
+  type:
+  - '&7&oStroj'
+SUPREME_SUPREME_NUGGET:
+  description:
+  - '&7Z lomu na nejvyšší nugety'
+  name: 'Nejvyšší nuget'
+  type:
+  - '&7&oKomponenty konce hry'
+SUPREME_SUPREME_NUGGETS_QUARRY:
+  name: 'Lom na nejvyšší nugety'
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oStroj'
+SUPREME_SWORD_EPIC:
+  description:
+  - '&f&lEpický meč z Thornia'
+  name: 'Epický meč'
+  type:
+  - '&7&oZbraně'
+SUPREME_SWORD_LEGENDARY:
+  description:
+  - '&f&lLegendární meč z Thornia'
+  name: 'Legendární meč'
+  type:
+  - '&7&oZbraně'
+SUPREME_SWORD_MAGIC:
+  description:
+  - '&f&lMagický meč z Thornia'
+  name: 'Magický meč'
+  type:
+  - '&7&oZbraně'
+SUPREME_SWORD_RARE:
+  description:
+  - '&f&lVzácný meč z Thornia'
+  name: 'Vzácný meč'
+  type:
+  - '&7&oZbraně'
+SUPREME_SWORD_SUPREME:
+  description:
+  - '&f&lNejvyšší meč z Thornia'
+  name: 'Nejvyšší meč'
+  type:
+  - '&7&oZbraně'
+SUPREME_SWORD_THORNIUM:
+  description:
+  - '&f&lMeč vyrobený z Thornia'
+  name: 'Thorniový meč'
+  type:
+  - '&7&oZbraně'
+SUPREME_SYNTHETIC_AMETHYST:
+  name: 'Syntetický ametyst'
+  type:
+  - '&7&oKomponenty'
+SUPREME_SYNTHETIC_RUBY:
+  name: 'Syntetický rubín'
+  type:
+  - '&7&oKomponenty'
+SUPREME_TECH_GENERATOR:
+  description:
+  - '&fPomocí energie a včel/golemů/zombie '
+  - '&fpomalu vytváří materiály.'
+  name: 'Technický generátor'
+  stats:
+  - '&4Stroj koncové fáze'
+  type:
+  - '&7&oStroj'
+SUPREME_TECH_MUTATION_I:
+  description:
+  - '&fPoužij mutaci generátoru '
+  - '&fk postupu na vyšší úrovně'
+  name: 'Technická mutace'
+  stats:
+  - '&4Stroj koncové fáze'
+  type:
+  - '&7&oStroj'
+SUPREME_TECH_MUTATION_II:
+  description:
+  - '&fPoužij mutaci generátoru '
+  - '&fk postupu na vyšší úrovně'
+  - '&fFaktor šance násoben 2x'
+  name: 'Technická mutace II'
+  stats:
+  - '&4Stroj koncové fáze'
+  type:
+  - '&7&oStroj'
+SUPREME_TECH_MUTATION_III:
+  description:
+  - '&fPoužij mutaci generátoru '
+  - '&fk postupu na vyšší úrovně'
+  - '&fFaktor šance násoben 4x'
+  name: 'Technická mutace III'
+  stats:
+  - '&4Stroj koncové fáze'
+  type:
+  - '&7&oStroj'
+SUPREME_TECH_ROBOTIC:
+  description:
+  - '&fPoužij roboty začátečnické úrovně '
+  - '&fk postupu na vyšší úrovně'
+  - '&fk vylepšení je potřeba 64x'
+  name: 'Technická robotika'
+  stats:
+  - '&4Stroj koncové fáze'
+  type:
+  - '&7&oStroj'
+SUPREME_TECH_ROBOTIC_II:
+  description:
+  - '&fPoužij roboty začátečnické úrovně '
+  - '&fk postupu na vyšší úrovně'
+  - '&fk vylepšení je potřeba 32x'
+  name: 'Technická robotika II'
+  stats:
+  - '&4Stroj koncové fáze'
+  type:
+  - '&7&oStroj'
+SUPREME_TECH_ROBOTIC_III:
+  description:
+  - '&fPoužij roboty začátečnické úrovně '
+  - '&fk postupu na vyšší úrovně'
+  - '&fk vylepšení je potřeba 16x'
+  name: 'Technická robotika III'
+  stats:
+  - '&4Stroj koncové fáze'
+  type:
+  - '&7&oStroj'
+SUPREME_THORNERITE:
+  name: 'Thornerit'
+  type:
+  - '&7&oKomponenty konce hry'
+SUPREME_THORNIUM_BIT:
+  description:
+  - '&7Z lomu na Thornium'
+  name: 'Thorniový úlomek'
+  type:
+  - '&7&oKomponenty konce hry'
+SUPREME_THORNIUM_BIT_SYNTHETIC:
+  description:
+  - '&7Z thorniového úlomku'
+  name: 'Syntetický thorniový úlomek'
+  type:
+  - '&7&oKomponenty konce hry'
+SUPREME_THORNIUM_CAPACITOR:
+  name: 'Thorniový kondenzátor'
+  stats:
+  - '&4Kondenzátor koncové fáze'
+  - '&8⇨ &e⚡ &7Kapacita 100,000,000.00 J'
+  type:
+  - '&7&oStroj'
+SUPREME_THORNIUM_CARBONADO:
+  description:
+  - '&7Z thorniového ingotu'
+  name: 'Thorniové karbonádo'
+  type:
+  - '&7&oKomponenty konce hry'
+SUPREME_THORNIUM_DUST:
+  description:
+  - '&7Z thorniového úlomku'
+  name: 'Thorniový prach'
+  type:
+  - '&7&oKomponenty konce hry'
+SUPREME_THORNIUM_DUST_SYNTHETIC:
+  description:
+  - '&7Z thorniového prachu'
+  name: 'Syntetický thorniový prach'
+  type:
+  - '&7&oKomponenty konce hry'
+SUPREME_THORNIUM_ENERGIZED:
+  description:
+  - '&7Z thorniového ingotu'
+  name: 'Energizované Thornium'
+  type:
+  - '&7&oKomponenty konce hry'
+SUPREME_THORNIUM_GENERATOR:
+  name: 'Thorniový generátor'
+  stats:
+  - '&4Generátor koncové fáze'
+  type:
+  - '&7&oStroj'
+SUPREME_THORNIUM_INGOT:
+  description:
+  - '&7Z thorniového prachu'
+  name: 'Thorniový ingot'
+  type:
+  - '&7&oKomponenty konce hry'
+SUPREME_THORNIUM_INGOT_SYNTHETIC:
+  description:
+  - '&7Z thorniového ingotu'
+  name: 'Syntetický thorniový ingot'
+  type:
+  - '&7&oKomponenty konce hry'
+SUPREME_THORNIUM_QUARRY:
+  name: 'Thorniový lom'
+  stats:
+  - '&6Pokročilý stroj'
+  type:
+  - '&7&oStroj'
+SUPREME_TITANIUM_AXE:
+  description:
+  - '&f&lSekera vyrobená z titanu'
+  name: 'Titanová sekera'
+  type:
+  - '&7&oNástroje'
+SUPREME_TITANIUM_BOOTS:
+  description:
+  - '&f&lBoty vyrobené z titanu'
+  name: 'Titanové boty'
+  type:
+  - '&7&oBrnění'
+SUPREME_TITANIUM_CAPACITOR:
+  name: 'Titanový kondenzátor'
+  stats:
+  - '&6Pokročilý kondenzátor'
+  - '&8⇨ &e⚡ &7Kapacita 4,000,000.00 J'
+  type:
+  - '&7&oStroj'
+SUPREME_TITANIUM_CHESTPLATE:
+  description:
+  - '&f&lKyrys vyrobený z titanu'
+  name: 'Titanový kyrys'
+  type:
+  - '&7&oBrnění'
+SUPREME_TITANIUM_HELMET:
+  description:
+  - '&f&lHelma vyrobená z titanu'
+  name: 'Titanová helma'
+  type:
+  - '&7&oBrnění'
+SUPREME_TITANIUM_LEGGINGS:
+  description:
+  - '&f&lNohavice vyrobené z titanu'
+  name: 'Titanové nohavice'
+  type:
+  - '&7&oBrnění'
+SUPREME_TITANIUM_PICKAXE:
+  description:
+  - '&f&lKrumpáč vyrobený z titanu'
+  name: 'Titanový krumpáč'
+  type:
+  - '&7&oNástroje'
+SUPREME_TITANIUM_PLATE:
+  name: 'Titanová deska'
+  type:
+  - '&7&oKomponenty'
+SUPREME_TITANIUM_SHOVEL:
+  description:
+  - '&f&lLopata vyrobená z titanu'
+  name: 'Titanová lopata'
+  type:
+  - '&7&oNástroje'
+SUPREME_TITANIUM_SWORD:
+  description:
+  - '&f&lMeč vyrobený z titanu'
+  name: 'Titanový meč'
+  type:
+  - '&7&oZbraně'
+SUPREME_VENTUS_GENERATOR:
+  name: 'Generátor Ventus'
+  stats:
+  - '&eZákladní generátor'
+  type:
+  - '&7&oStroj'
+SUPREME_VIRTUAL_AQUARIUM_I:
+  description:
+  - '&fTento stroj umožňuje sbírat '
+  - '&f předměty nasbírané v moři.'
+  name: 'Virtuální akvárium'
+  stats:
+  - '&6Pokročilý stroj'
+  - '&8⇨ &b⚡ &7Rychlost: &b1.0x'
+  - '&8⇨ &e⚡ &7Zásobník 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oStroj'
+SUPREME_VIRTUAL_AQUARIUM_II:
+  description:
+  - '&fTento stroj umožňuje sbírat'
+  - '&f předměty nasbírané v moři.'
+  name: 'Virtuální akvárium II'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b5.0x'
+  - '&8⇨ &e⚡ &7Zásobník 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oStroj'
+SUPREME_VIRTUAL_AQUARIUM_III:
+  description:
+  - '&fTento stroj umožňuje sbírat'
+  - '&f předměty nasbírané v moři.'
+  name: 'Virtuální akvárium III'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b15.0x'
+  - '&8⇨ &e⚡ &7Zásobník 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oStroj'
+SUPREME_VIRTUAL_GARDEN_I:
+  description:
+  - '&fTento stroj umožňuje'
+  - '&fpěstovat suroviny.'
+  name: 'Virtuální zahrada'
+  stats:
+  - '&6Pokročilý stroj'
+  - '&8⇨ &b⚡ &7Rychlost: &b1.0x'
+  - '&8⇨ &e⚡ &7Zásobník 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oStroj'
+SUPREME_VIRTUAL_GARDEN_II:
+  description:
+  - '&fTento stroj umožňuje'
+  - '&fpěstovat suroviny.'
+  name: 'Virtuální zahrada II'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b5.0x'
+  - '&8⇨ &e⚡ &7Zásobník 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oStroj'
+SUPREME_VIRTUAL_GARDEN_III:
+  description:
+  - '&fTento stroj umožňuje'
+  - '&fpěstovat suroviny.'
+  name: 'Virtuální zahrada III'
+  stats:
+  - '&4Stroj koncové fáze'
+  - '&8⇨ &b⚡ &7Rychlost: &b15.0x'
+  - '&8⇨ &e⚡ &7Zásobník 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oStroj'
+SUPREME_ZIRCONIUM_PLATE:
+  name: 'Zirkoniová deska'
+  type:
+  - '&7&oKomponenty'

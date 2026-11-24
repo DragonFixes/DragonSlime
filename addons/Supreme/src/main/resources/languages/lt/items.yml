@@ -1,0 +1,2352 @@
+MOB_TECH_COLLECTOR_MACHINE:
+  description:
+  - '&fŠi mašina leidžia jums rinkti '
+  - '&fMobTech galvas iš netoliese esančių mobų. (3 blokai)'
+  name: 'MobTech rinktuvas I'
+  type:
+  - '&7&oMašina'
+SUPREME_ADAMANTIUM_AXE:
+  description:
+  - '&f&lKirvis iš Adamantium'
+  name: 'Adamantium kirvis'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_ADAMANTIUM_BOOTS:
+  description:
+  - '&f&lBatai iš Adamantium'
+  name: 'Adamantium batai'
+  type:
+  - '&7&oŠarvai'
+SUPREME_ADAMANTIUM_CAPACITOR:
+  name: 'Adamantium kondensatorius'
+  stats:
+  - '&6Pažangus kondensatorius'
+  - '&8⇨ &e⚡ &716,000,000.00 J talpa'
+  type:
+  - '&7&oMašina'
+SUPREME_ADAMANTIUM_CHESTPLATE:
+  description:
+  - '&f&lKrūtinės šarvai iš Adamantium'
+  name: 'Adamantium krūtinės šarvai'
+  type:
+  - '&7&oŠarvai'
+SUPREME_ADAMANTIUM_HELMET:
+  description:
+  - '&f&lŠalmas iš Adamantium'
+  name: 'Adamantium šalmas'
+  type:
+  - '&7&oŠarvai'
+SUPREME_ADAMANTIUM_LEGGINGS:
+  description:
+  - '&f&lKelnės iš Adamantium'
+  name: 'Adamantium kelnės'
+  type:
+  - '&7&oŠarvai'
+SUPREME_ADAMANTIUM_PICKAXE:
+  description:
+  - '&f&lKirtiklis iš Adamantium'
+  name: 'Adamantium kirtiklis'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_ADAMANTIUM_PLATE:
+  name: 'Adamantium plokštė'
+  type:
+  - '&7&oKomponentai'
+SUPREME_ADAMANTIUM_SHOVEL:
+  description:
+  - '&f&lKastuvas iš Adamantium'
+  name: 'Adamantium kastuvas'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_ADAMANTIUM_SWORD:
+  description:
+  - '&f&lKardas iš Adamantium'
+  name: 'Adamantium kardas'
+  type:
+  - '&7&oGinklai'
+SUPREME_ALLOY_ADAMANTIUM:
+  name: 'Adamantium lydinys'
+  type:
+  - '&7&oKomponentai'
+SUPREME_ALLOY_AURUM:
+  name: 'Aurum lydinys'
+  type:
+  - '&7&oKomponentai'
+SUPREME_ALLOY_IRIDIUM:
+  name: 'Iridžio lydinys'
+  type:
+  - '&7&oKomponentai'
+SUPREME_ALLOY_MANGANESE:
+  name: 'Mangano lydinys'
+  type:
+  - '&7&oKomponentai'
+SUPREME_ALLOY_PLATINUM:
+  name: 'Platinos lydinys'
+  type:
+  - '&7&oKomponentai'
+SUPREME_ALLOY_TITANIUM:
+  name: 'Titano lydinys'
+  type:
+  - '&7&oKomponentai'
+SUPREME_ALLOY_ZIRCONIUM:
+  name: 'Cirkonio lydinys'
+  type:
+  - '&7&oKomponentai'
+SUPREME_AQUA_GENERATOR:
+  name: 'Aqua generatorius'
+  stats:
+  - '&6Pažangus generatorius'
+  type:
+  - '&7&oMašina'
+SUPREME_ATTRIBUTE_BOMB:
+  description:
+  - '&7Super bombos atributas su ypatingais efektais'
+  name: 'Bombos atributas'
+  type:
+  - '&7&oMagiški komponentai'
+SUPREME_ATTRIBUTE_FORTUNE:
+  description:
+  - '&7Super sėkmės atributas su ypatingais efektais'
+  name: 'Sėkmės atributas'
+  type:
+  - '&7&oMagiški komponentai'
+SUPREME_ATTRIBUTE_IMPETUS:
+  description:
+  - '&7Super impulso atributas su ypatingais efektais'
+  name: 'Impulso atributas'
+  type:
+  - '&7&oMagiški komponentai'
+SUPREME_ATTRIBUTE_MAGIC:
+  description:
+  - '&7Super magijos atributas su ypatingais efektais'
+  name: 'Magijos atributas'
+  type:
+  - '&7&oMagiški komponentai'
+SUPREME_AURUM_AXE:
+  description:
+  - '&f&lKirvis iš Aurum'
+  name: 'Aurum kirvis'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_AURUM_BOOTS:
+  description:
+  - '&f&lBatai iš Aurum'
+  name: 'Aurum batai'
+  type:
+  - '&7&oŠarvai'
+SUPREME_AURUM_CAPACITOR:
+  name: 'Aurum kondensatorius'
+  stats:
+  - '&6Pažangus kondensatorius'
+  - '&8⇨ &e⚡ &71,000,000.00 J talpa'
+  type:
+  - '&7&oMašina'
+SUPREME_AURUM_CHESTPLATE:
+  description:
+  - '&f&lKrūtinės šarvai iš Aurum'
+  name: 'Aurum krūtinės šarvai'
+  type:
+  - '&7&oŠarvai'
+SUPREME_AURUM_HELMET:
+  description:
+  - '&f&lŠalmas iš Aurum'
+  name: 'Aurum šalmas'
+  type:
+  - '&7&oŠarvai'
+SUPREME_AURUM_LEGGINGS:
+  description:
+  - '&f&lKelnės iš Aurum'
+  name: 'Aurum kelnės'
+  type:
+  - '&7&oŠarvai'
+SUPREME_AURUM_PICKAXE:
+  description:
+  - '&f&lKirtiklis iš Aurum'
+  name: 'Aurum kirtiklis'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_AURUM_PLATE:
+  name: 'Aurum plokštė'
+  type:
+  - '&7&oKomponentai'
+SUPREME_AURUM_SHOVEL:
+  description:
+  - '&f&lKastuvas iš Aurum'
+  name: 'Aurum kastuvas'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_AURUM_SWORD:
+  description:
+  - '&f&lKardas iš Aurum'
+  name: 'Aurum kardas'
+  type:
+  - '&7&oGinklai'
+SUPREME_AXE_EPIC:
+  description:
+  - '&f&lEpinis kirvis iš Thornium'
+  name: 'Epinis kirvis'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_AXE_LEGENDARY:
+  description:
+  - '&f&lLegendinis kirvis iš Thornium'
+  name: 'Legendinis kirvis'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_AXE_MAGIC:
+  description:
+  - '&f&lMagiškas kirvis iš Thornium'
+  name: 'Magiškas kirvis'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_AXE_RARE:
+  description:
+  - '&f&lRetas kirvis iš Thornium'
+  name: 'Retas kirvis'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_AXE_SUPREME:
+  description:
+  - '&f&lAukščiausiasis kirvis iš Thornium'
+  name: 'Aukščiausiasis kirvis'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_AXE_THORNIUM:
+  description:
+  - '&f&lKirvis iš Thornium'
+  name: 'Thornium kirvis'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_BASIC_AQUA_GENERATOR:
+  name: 'Bazinis Aqua generatorius'
+  stats:
+  - '&eBazinis generatorius'
+  type:
+  - '&7&oMašina'
+SUPREME_BASIC_IGNIS_GENERATOR:
+  name: 'Bazinis Ignis generatorius'
+  stats:
+  - '&eBazinis generatorius'
+  type:
+  - '&7&oMašina'
+SUPREME_BASIC_LUMIUM_GENERATOR:
+  name: 'Bazinis Lumium generatorius'
+  stats:
+  - '&6Pažangus generatorius'
+  type:
+  - '&7&oMašina'
+SUPREME_BASIC_LUX_GENERATOR:
+  name: 'Bazinis Lux generatorius'
+  stats:
+  - '&eBazinis generatorius'
+  type:
+  - '&7&oMašina'
+SUPREME_BASIC_VENTUS_GENERATOR:
+  name: 'Bazinis Ventus generatorius'
+  stats:
+  - '&eBazinis generatorius'
+  type:
+  - '&7&oMašina'
+SUPREME_BLEND_MACHINE:
+  name: 'Maišymo mašina'
+  type:
+  - '&7&oPažangūs komponentai'
+SUPREME_BOOTS_EPIC:
+  description:
+  - '&f&lEpiniai batai iš Thornium'
+  name: 'Epiniai batai'
+  type:
+  - '&7&oŠarvai'
+SUPREME_BOOTS_LEGENDARY:
+  description:
+  - '&f&lLegendiniai batai iš Thornium'
+  name: 'Legendiniai batai'
+  type:
+  - '&7&oŠarvai'
+SUPREME_BOOTS_MAGIC:
+  description:
+  - '&f&lMagiški batai iš Thornium'
+  name: 'Magiški batai'
+  type:
+  - '&7&oŠarvai'
+SUPREME_BOOTS_RARE:
+  description:
+  - '&f&lReti batai iš Thornium'
+  name: 'Reti batai'
+  type:
+  - '&7&oŠarvai'
+SUPREME_BOOTS_SUPREME:
+  description:
+  - '&f&lAukščiausieji batai iš Thornium'
+  name: 'Aukščiausieji batai'
+  type:
+  - '&7&oŠarvai'
+SUPREME_BOOTS_THORNIUM:
+  description:
+  - '&f&lBatai iš Thornium'
+  name: 'Thornium batai'
+  type:
+  - '&7&oŠarvai'
+SUPREME_BOW_EPIC:
+  description:
+  - '&f&lEpinis lankas iš Thornium'
+  name: 'Epinis lankas'
+  type:
+  - '&7&oGinklai'
+SUPREME_BOW_LEGENDARY:
+  description:
+  - '&f&lLegendinis lankas iš Thornium'
+  name: 'Legendinis lankas'
+  type:
+  - '&7&oGinklai'
+SUPREME_BOW_MAGIC:
+  description:
+  - '&f&lMagiškas lankas iš Thornium'
+  name: 'Magiškas lankas'
+  type:
+  - '&7&oGinklai'
+SUPREME_BOW_RARE:
+  description:
+  - '&f&lRetas lankas iš Thornium'
+  name: 'Retas lankas'
+  type:
+  - '&7&oGinklai'
+SUPREME_BOW_SUPREME:
+  description:
+  - '&f&lAukščiausiasis lankas iš Thornium'
+  name: 'Aukščiausiasis lankas'
+  type:
+  - '&7&oGinklai'
+SUPREME_BOW_THORNIUM:
+  description:
+  - '&f&lLankas iš Thornium'
+  name: 'Thornium lankas'
+  type:
+  - '&7&oGinklai'
+SUPREME_CARD_ALUMINUM_BRASS:
+  description:
+  - '&fKeisti gamybą į aliuminio žalvario luitą'
+  name: "Mašinos kortelė (aliuminio žalvario luitas)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_ALUMINUM_BRONZE:
+  description:
+  - '&fKeisti gamybą į aliuminio bronzos luitą'
+  name: "Mašinos kortelė (aliuminio bronzos luitas)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_ALUMINUM_DUST:
+  description:
+  - '&fKeisti gamybą į aliuminio dulkes'
+  name: "Mašinos kortelė (aliuminio dulkės)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_AMETHYST:
+  description:
+  - '&fKeisti gamybą į ametistą'
+  name: "Mašinos kortelė (ametistas)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_ANDESITE:
+  description:
+  - '&fKeisti gamybą į andezitą'
+  name: "Mašinos kortelė (andezitas)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_APPLE:
+  description:
+  - '&fKeisti gamybą į obuolį'
+  name: "Mašinos kortelė (obuolys)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_BATTERY:
+  description:
+  - '&fKeisti gamybą į bateriją'
+  name: "Mašinos kortelė (baterija)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_BILLON:
+  description:
+  - '&fKeisti gamybą į bilono luitą'
+  name: "Mašinos kortelė (bilono luitas)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_BLAZE_ROD:
+  description:
+  - '&fKeisti gamybą į Blaze lazdelę'
+  name: "Mašinos kortelė (Blaze lazdelė)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_BRASS:
+  description:
+  - '&fKeisti gamybą į žalvario luitą'
+  name: "Mašinos kortelė (žalvario luitas)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_BRONZE:
+  description:
+  - '&fKeisti gamybą į bronzos luitą'
+  name: "Mašinos kortelė (bronzos luitas)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_CARBON:
+  description:
+  - '&fKeisti gamybą į anglį'
+  name: "Mašinos kortelė (anglis)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_CARBONADO:
+  description:
+  - '&fKeisti gamybą į karbonadą'
+  name: "Mašinos kortelė (karbonadas)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_CARBON_PRESS:
+  description:
+  - '&fKeisti gamybą į suspaustą anglį'
+  name: "Mašinos kortelė (suspausta anglis)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_CLAY:
+  description:
+  - '&fKeisti gamybą į molį'
+  name: "Mašinos kortelė (molis)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_COAL:
+  description:
+  - '&fKeisti gamybą į akmens anglį'
+  name: "Mašinos kortelė (akmens anglis)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_COBALT:
+  description:
+  - '&fKeisti gamybą į kobaltą'
+  name: "Mašinos kortelė (kobaltas)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_COPPER:
+  description:
+  - '&fKeisti gamybą į varį'
+  name: "Mašinos kortelė (varis)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_COPPER_DUST:
+  description:
+  - '&fKeisti gamybą į vario dulkes'
+  name: "Mašinos kortelė (vario dulkės)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_CORINTHIAN_BRONZE:
+  description:
+  - '&fKeisti gamybą į korintietiškos bronzos luitą'
+  name: "Mašinos kortelė (korintietiškos bronzos luitas)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_DAMASCUS:
+  description:
+  - '&fKeisti gamybą į damaską'
+  name: "Mašinos kortelė (damaskas)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_DIAMOND:
+  description:
+  - '&fKeisti gamybą į deimantą'
+  name: "Mašinos kortelė (deimantas)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_DIORITE:
+  description:
+  - '&fKeisti gamybą į dioritą'
+  name: "Mašinos kortelė (dioritas)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_DURALUMIN:
+  description:
+  - '&fKeisti gamybą į duraliuminio luitą'
+  name: "Mašinos kortelė (duraliuminio luitas)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_ELECTRIC_MOTOR:
+  description:
+  - '&fKeisti gamybą į elektros variklį'
+  name: "Mašinos kortelė (elektros variklis)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_ELECTRO_MAGNET:
+  description:
+  - '&fKeisti gamybą į elektromagnetą'
+  name: "Mašinos kortelė (elektromagnetas)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_EMERALD:
+  description:
+  - '&fKeisti gamybą į smaragdą'
+  name: "Mašinos kortelė (smaragdas)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_ENDSTONE:
+  description:
+  - '&fKeisti gamybą į End akmenį'
+  name: "Mašinos kortelė (End akmuo)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_FERROSILICON:
+  description:
+  - '&fKeisti gamybą į ferosilicį'
+  name: "Mašinos kortelė (ferosilicis)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_GLOW_INK_SAC:
+  description:
+  - '&fKeisti gamybą į šviečiantį rašalo maišelį'
+  name: "Mašinos kortelė (šviečiantis rašalo maišelis)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_GOLD:
+  description:
+  - '&fKeisti gamybą į auksą'
+  name: "Mašinos kortelė (auksas)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_GOLD24K:
+  description:
+  - '&fKeisti gamybą į auksą 24k'
+  name: "Mašinos kortelė (auksas 24k)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_GOLD_DUST:
+  description:
+  - '&fKeisti gamybą į aukso dulkes'
+  name: "Mašinos kortelė (aukso dulkės)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_GRANITE:
+  description:
+  - '&fKeisti gamybą į granitą'
+  name: "Mašinos kortelė (granitas)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_GRAVEL:
+  description:
+  - '&fKeisti gamybą į žvyrą'
+  name: "Mašinos kortelė (žvyras)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_HARDENED_METAL:
+  description:
+  - '&fKeisti gamybą į grūdinto metalo luitą'
+  name: "Mašinos kortelė (grūdinto metalo luitas)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_HEATING_COIL:
+  description:
+  - '&fKeisti gamybą į kaitinimo ritę'
+  name: "Mašinos kortelė (kaitinimo ritė)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_HONEY_BOTTLE:
+  description:
+  - '&fKeisti gamybą į medaus buteliuką'
+  name: "Mašinos kortelė (medaus buteliukas)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_INK_SAC:
+  description:
+  - '&fKeisti gamybą į rašalo maišelį'
+  name: "Mašinos kortelė (rašalo maišelis)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_IRON:
+  description:
+  - '&fKeisti gamybą į geležį'
+  name: "Mašinos kortelė (geležis)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_IRON_DUST:
+  description:
+  - '&fKeisti gamybą į geležies dulkes'
+  name: "Mašinos kortelė (geležies dulkės)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_LAPIS:
+  description:
+  - '&fKeisti gamybą į lazuritą'
+  name: "Mašinos kortelė (lazuritas)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_LEAD_DUST:
+  description:
+  - '&fKeisti gamybą į švino dulkes'
+  name: "Mašinos kortelė (švino dulkės)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_MAGNESIUM_DUST:
+  description:
+  - '&fKeisti gamybą į magnio dulkes'
+  name: "Mašinos kortelė (magnio dulkės)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_MAGNET:
+  description:
+  - '&fKeisti gamybą į magnetą'
+  name: "Mašinos kortelė (magnetas)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_NETHERITE:
+  description:
+  - '&fKeisti gamybą į netheritą'
+  name: "Mašinos kortelė (netheritas)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_NETHER_STAR:
+  description:
+  - '&fKeisti gamybą į Nether žvaigždę'
+  name: "Mašinos kortelė (Nether žvaigždė)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_NICKEL:
+  description:
+  - '&fKeisti gamybą į nikelį'
+  name: "Mašinos kortelė (nikelis)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_PLASTIC_SHEET:
+  description:
+  - '&fKeisti gamybą į plastiko lakštą'
+  name: "Mašinos kortelė (plastiko lakštas)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_QUARTZ:
+  description:
+  - '&fKeisti gamybą į kvarcą'
+  name: "Mašinos kortelė (kvarcas)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_QUARTZ_BLOCK:
+  description:
+  - '&fKeisti gamybą į kvarco bloką'
+  name: "Mašinos kortelė (kvarco blokas)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_REDSTONE:
+  description:
+  - '&fKeisti gamybą į raudonakmenį'
+  name: "Mašinos kortelė (raudonakmenis)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_REDSTONE_ALLOY:
+  description:
+  - '&fKeisti gamybą į raudonakmenio lydinį'
+  name: "Mašinos kortelė (raudonakmenio lydinys)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_REINFORCED_ALLOY:
+  description:
+  - '&fKeisti gamybą į sustiprinto lydinio luitą'
+  name: "Mašinos kortelė (sustiprinto lydinio luitas)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_SAND:
+  description:
+  - '&fKeisti gamybą į smėlį'
+  name: "Mašinos kortelė (smėlis)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_SILICON:
+  description:
+  - '&fKeisti gamybą į silicį'
+  name: "Mašinos kortelė (silicis)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_SILVER_DUST:
+  description:
+  - '&fKeisti gamybą į sidabro dulkes'
+  name: "Mašinos kortelė (sidabro dulkės)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_SLIME_BALL:
+  description:
+  - '&fKeisti gamybą į gleivių kamuoliuką'
+  name: "Mašinos kortelė (gleivių kamuoliukas)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_SNOW:
+  description:
+  - '&fKeisti gamybą į sniegą'
+  name: "Mašinos kortelė (sniegas)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_SOLDER:
+  description:
+  - '&fKeisti gamybą į lydmetalio luitą'
+  name: "Mašinos kortelė (lydmetalio luitas)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_STEEL:
+  description:
+  - '&fKeisti gamybą į plieną'
+  name: "Mašinos kortelė (plienas)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_STONE:
+  description:
+  - '&fKeisti gamybą į akmenį'
+  name: "Mašinos kortelė (akmuo)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_SULFATE:
+  description:
+  - '&fKeisti gamybą į sulfatą'
+  name: "Mašinos kortelė (sulfatas)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_SYNTHETIC_DIAMOND:
+  description:
+  - '&fKeisti gamybą į sintetinį deimantą'
+  name: "Mašinos kortelė (sintetinis deimantas)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_SYNTHETIC_EMERALD:
+  description:
+  - '&fKeisti gamybą į sintetinį smaragdą'
+  name: "Mašinos kortelė (sintetinis smaragdas)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_SYNTHETIC_SAPPHIRE:
+  description:
+  - '&fKeisti gamybą į sintetinį safyrą'
+  name: "Mašinos kortelė (sintetinis safyras)"
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_TIN_DUST:
+  description:
+  - '&fKeisti gamybą į alavo dulkes'
+  name: "Mašinos kortelė (alavo dulkės)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_WITHER_ROSE:
+  description:
+  - '&fKeisti gamybą į Wither rožę'
+  name: "Mašinos kortelė (Wither rožė)"
+  stats:
+  - '&eBazinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARD_ZINC_DUST:
+  description:
+  - '&fKeisti gamybą į cinko dulkes'
+  name: "Mašinos kortelė (cinko dulkės)"
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CARRIAGE_MACHINE:
+  name: 'Vežimo mašina'
+  type:
+  - '&7&oPažangūs komponentai'
+SUPREME_CENTER_CARD_ADVANCED:
+  description:
+  - '&fKomponentas mašinai daiktams gaminti'
+  name: 'Pažangus kortelės komponentas'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CENTER_CARD_SIMPLE:
+  description:
+  - '&fKomponentas mašinai daiktams gaminti'
+  name: 'Bazinis kortelės komponentas'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CENTER_CARD_ULTIMATE:
+  description:
+  - '&fKomponentas mašinai daiktams gaminti'
+  name: 'Galutinis kortelės komponentas'
+  type:
+  - '&7&oKomponentas'
+SUPREME_CETRUS_AQUA:
+  description:
+  - '&7Super Aqua skeptras'
+  name: 'Cetrus Aqua'
+  type:
+  - '&7&oMagiški komponentai'
+SUPREME_CETRUS_IGNIS:
+  description:
+  - '&7Super Ignis skeptras'
+  name: 'Cetrus Ignis'
+  type:
+  - '&7&oMagiški komponentai'
+SUPREME_CETRUS_LUMIUM:
+  description:
+  - '&7Super Lumium skeptras'
+  name: 'Cetrus Lumium'
+  type:
+  - '&7&oMagiški komponentai'
+SUPREME_CETRUS_LUX:
+  description:
+  - '&7Super Lux skeptras'
+  name: 'Cetrus Lux'
+  type:
+  - '&7&oMagiški komponentai'
+SUPREME_CETRUS_VENTUS:
+  description:
+  - '&7Super Ventus skeptras'
+  name: 'Cetrus Ventus'
+  type:
+  - '&7&oMagiški komponentai'
+SUPREME_CHECK_INVENTORY:
+  description:
+  - '&fPatikrina, ar netoliese esančioje skrynioje yra filtro daiktas'
+  - '&fvertinamos visos pusės (randama pirmoji)'
+  - '&fjei rasta, šis blokas užsidegs'
+  name: 'Inventoriaus tikrintuvas'
+  stats:
+  - '&6Pažangi mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b1.0x'
+  type:
+  - '&7&oMašina'
+SUPREME_CHESTPLATE_EPIC:
+  description:
+  - '&f&lEpiniai krūtinės šarvai iš Thornium'
+  name: 'Epiniai krūtinės šarvai'
+  type:
+  - '&7&oŠarvai'
+SUPREME_CHESTPLATE_LEGENDARY:
+  description:
+  - '&f&lLegendiniai krūtinės šarvai iš Thornium'
+  name: 'Legendiniai krūtinės šarvai'
+  type:
+  - '&7&oŠarvai'
+SUPREME_CHESTPLATE_MAGIC:
+  description:
+  - '&f&lMagiški krūtinės šarvai iš Thornium'
+  name: 'Magiški krūtinės šarvai'
+  type:
+  - '&7&oŠarvai'
+SUPREME_CHESTPLATE_RARE:
+  description:
+  - '&f&lReti krūtinės šarvai iš Thornium'
+  name: 'Reti krūtinės šarvai'
+  type:
+  - '&7&oŠarvai'
+SUPREME_CHESTPLATE_SUPREME:
+  description:
+  - '&f&lAukščiausieji krūtinės šarvai iš Thornium'
+  name: 'Aukščiausieji krūtinės šarvai'
+  type:
+  - '&7&oŠarvai'
+SUPREME_CHESTPLATE_THORNIUM:
+  description:
+  - '&f&lKrūtinės šarvai iš Thornium'
+  name: 'Thornium krūtinės šarvai'
+  type:
+  - '&7&oŠarvai'
+SUPREME_COAL_QUARRY:
+  name: 'Akmens anglies karjeras'
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oMašina'
+SUPREME_CONVEYANCE_MACHINE:
+  name: 'Transportavimo mašina'
+  type:
+  - '&7&oPažangūs komponentai'
+SUPREME_CORE_ACACIA_LOG:
+  description:
+  - '&7Super akacija'
+  name: 'Aukščiausiasis akacijos rąstas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_ANDESITE:
+  description:
+  - '&7Super andezitas'
+  name: 'Aukščiausiasis andezitas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_APPLE:
+  description:
+  - '&7Super obuolys'
+  name: 'Aukščiausiasis obuolys'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_BEEF:
+  description:
+  - '&7Super jautiena'
+  name: 'Aukščiausioji jautiena'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_BEETROOT:
+  description:
+  - '&7Super burokėlis'
+  name: 'Aukščiausiasis burokėlis'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_BIRCH_LOG:
+  description:
+  - '&7Super beržas'
+  name: 'Aukščiausiasis beržo rąstas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_BLACK:
+  description:
+  - '&7Super juoda'
+  name: 'Aukščiausioji juoda'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_BLUE:
+  description:
+  - '&7Super mėlyna'
+  name: 'Aukščiausioji mėlyna'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_CARROT:
+  description:
+  - '&7Aukščiausioji morka'
+  name: 'Aukščiausioji morka'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_CHICKEN:
+  description:
+  - '&7Super vištiena'
+  name: 'Aukščiausioji vištiena'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_CLAY:
+  description:
+  - '&7Super molis'
+  name: 'Aukščiausiasis molis'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_COAL:
+  description:
+  - '&7Super akmens anglis'
+  name: 'Aukščiausioji akmens anglis'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_COD:
+  description:
+  - '&7Super menkė'
+  name: 'Aukščiausioji menkė'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_CRIMSON_STEM:
+  description:
+  - '&7Super raudonasis'
+  name: 'Aukščiausiasis raudonasis kamienas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_CYAN:
+  description:
+  - '&7Super žydra'
+  name: 'Aukščiausioji žydra'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_DARK_OAK_LOG:
+  description:
+  - '&7Super tamsusis'
+  name: 'Aukščiausiasis tamsaus ąžuolo rąstas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_DIAMOND:
+  description:
+  - '&7Super deimantas'
+  name: 'Aukščiausiasis deimantas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_DIORITE:
+  description:
+  - '&7Super dioritas'
+  name: 'Aukščiausiasis dioritas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_EMERALD:
+  description:
+  - '&7Super smaragdas'
+  name: 'Aukščiausiasis smaragdas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_ENDSTONE:
+  description:
+  - '&7Super End akmuo'
+  name: 'Aukščiausiasis End akmuo'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_GOLD:
+  description:
+  - '&7Super auksas'
+  name: 'Aukščiausiasis auksas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_GRANITE:
+  description:
+  - '&7Super granitas'
+  name: 'Aukščiausiasis granitas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_GRAVEL:
+  description:
+  - '&7Super žvyras'
+  name: 'Aukščiausiasis žvyras'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_GRAY:
+  description:
+  - '&7Super pilka'
+  name: 'Aukščiausioji pilka'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_GREEN:
+  description:
+  - '&7Super žalia'
+  name: 'Aukščiausioji žalia'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_IRON:
+  description:
+  - '&7Super geležis'
+  name: 'Aukščiausioji geležis'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_JUNGLE_LOG:
+  description:
+  - '&7Super džiunglės'
+  name: 'Aukščiausiasis džiunglių rąstas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_LAPIS:
+  description:
+  - '&7Super lazuritas'
+  name: 'Aukščiausiasis lazuritas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_MELON:
+  description:
+  - '&7Super arbūzas'
+  name: 'Aukščiausiasis arbūzas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_MUTTON:
+  description:
+  - '&7Super aviena'
+  name: 'Aukščiausioji aviena'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_NETHERITE:
+  description:
+  - '&7Super netheritas'
+  name: 'Aukščiausiasis netheritas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_OAK_LOG:
+  description:
+  - '&7Super ąžuolas'
+  name: 'Aukščiausiasis ąžuolo rąstas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_OF_ALLOY:
+  description:
+  - '&7Šioje šerdyje yra kelios rūdos'
+  - '&7iš viso pasaulio.'
+  name: 'Lydinio šerdis'
+  type:
+  - '&7&oMagiški komponentai'
+SUPREME_CORE_OF_BLOCK:
+  description:
+  - '&7Šioje šerdyje yra keli blokai'
+  - '&7iš viso pasaulio.'
+  name: 'Bloko šerdis'
+  type:
+  - '&7&oMagiški komponentai'
+SUPREME_CORE_OF_COLOR:
+  description:
+  - '&7Šioje šerdyje yra kelios spalvos'
+  - '&7iš viso pasaulio.'
+  name: 'Spalvos šerdis'
+  type:
+  - '&7&oMagiški komponentai'
+SUPREME_CORE_OF_DEATH:
+  description:
+  - '&7Šioje šerdyje yra sielos '
+  - '&7įvairių būtybių, kurios iškeliavo anapus.'
+  name: 'Mirties šerdis'
+  type:
+  - '&7&oMagiški komponentai'
+SUPREME_CORE_OF_LIFE:
+  description:
+  - '&7Šioje šerdyje yra gyvybės nuotrupos,'
+  - '&7kurias surinko pasaulis.'
+  name: 'Gyvybės šerdis'
+  type:
+  - '&7&oMagiški komponentai'
+SUPREME_CORE_OF_NATURE:
+  description:
+  - '&7Šioje šerdyje yra keli gamtos turtai'
+  - '&7iš viso pasaulio.'
+  name: 'Gamtos šerdis'
+  type:
+  - '&7&oMagiški komponentai'
+SUPREME_CORE_PINK:
+  description:
+  - '&7Super rožinė'
+  name: 'Aukščiausioji rožinė'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_PORKCHOP:
+  description:
+  - '&7Super šoninė'
+  name: "Aukščiausiasis kiaulienos kotletas"
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_POTATO:
+  description:
+  - '&7Super bulvė'
+  name: 'Aukščiausioji bulvė'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_PUMPKIN:
+  description:
+  - '&7Super moliūgas'
+  name: 'Aukščiausiasis moliūgas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_PURPLE:
+  description:
+  - '&7Super violetinė'
+  name: 'Aukščiausioji violetinė'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_QUARTZ:
+  description:
+  - '&7Super kvarcas'
+  name: 'Aukščiausiasis kvarcas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_RED:
+  description:
+  - '&7Super raudona'
+  name: 'Aukščiausioji raudona'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_REDSTONE:
+  description:
+  - '&7Super raudonakmenis'
+  name: 'Aukščiausiasis raudonakmenis'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_SALMON:
+  description:
+  - '&7Super lašiša'
+  name: 'Aukščiausioji lašiša'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_SAND:
+  description:
+  - '&7Super smėlis'
+  name: 'Aukščiausiasis smėlis'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_SNOW:
+  description:
+  - '&7Super sniegas'
+  name: 'Aukščiausiasis sniegas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_SPIDER_EYE:
+  description:
+  - '&7Super akis'
+  name: "Aukščiausioji voro akis"
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_SPRUCE_LOG:
+  description:
+  - '&7Super eglė'
+  name: 'Aukščiausiasis eglės rąstas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_STONE:
+  description:
+  - '&7Super grindinio akmuo'
+  name: 'Aukščiausiasis grindinio akmuo'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_STRING:
+  description:
+  - '&7Super pavadėlis'
+  name: "Aukščiausiasis siūlas"
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_SUGAR_CANE:
+  description:
+  - '&7Super cukranendrė'
+  name: 'Aukščiausioji cukranendrė'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_SWEET_BERRIES:
+  description:
+  - '&7Super uogos'
+  name: 'Aukščiausiosios saldžiosios uogos'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_TEAR:
+  description:
+  - '&7Super ašara'
+  name: "Aukščiausioji ghasto ašara"
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_WARPED_STEM:
+  description:
+  - '&7Super iškreiptas'
+  name: 'Aukščiausiasis iškreiptas kamienas'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_WHEAT:
+  description:
+  - '&7Super kviečiai'
+  name: 'Aukščiausieji kviečiai'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_WITHER_ROSE:
+  description:
+  - '&7Super rožė'
+  name: 'Aukščiausioji Wither rožė'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CORE_YELLOW:
+  description:
+  - '&7Super geltona'
+  name: 'Aukščiausioji geltona'
+  type:
+  - '&7&oPagrindiniai komponentai'
+SUPREME_CRYSTALLIZER_MACHINE:
+  name: 'Kristalizavimo mašina'
+  type:
+  - '&7&oPažangūs komponentai'
+SUPREME_DIAMOND_QUARRY:
+  name: 'Deimantų karjeras'
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oMašina'
+SUPREME_DUST_AMETHYST:
+  name: 'Ametisto dulkės'
+  type:
+  - '&7&oKomponentas'
+SUPREME_DUST_GLOW_INK:
+  name: 'Šviečiančio rašalo dulkės'
+  type:
+  - '&7&oKomponentas'
+SUPREME_DUST_NETHERITE:
+  name: 'Netherito dulkės'
+  type:
+  - '&7&oKomponentas'
+SUPREME_ELECTRIC_CORE_I:
+  description:
+  - '&fGaminti šerdies išteklius'
+  name: 'Elektrinė šerdžių mašina'
+  stats:
+  - '&6Pažangi mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b1.0x'
+  type:
+  - '&7&oMašina'
+SUPREME_ELECTRIC_CORE_II:
+  description:
+  - '&fPažangi šerdies išteklių gamyba'
+  name: 'Elektrinė šerdžių mašina II'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b5.0x'
+  type:
+  - '&7&oMašina'
+SUPREME_ELECTRIC_CORE_III:
+  description:
+  - '&fPažangi šerdies išteklių gamyba'
+  name: 'Elektrinė šerdžių mašina III'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b15.0x'
+  type:
+  - '&7&oMašina'
+SUPREME_ELECTRIC_CRAFTER_I:
+  description:
+  - '&fGaminti daiktus'
+  name: 'Elektrinis gamintojas'
+  stats:
+  - '&6Pažangi mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b1.0x'
+  type:
+  - '&7&oMašina'
+SUPREME_ELECTRIC_CRAFTER_II:
+  description:
+  - '&fPažangi daiktų gamyba'
+  name: 'Elektrinis gamintojas II'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b5.0x'
+  type:
+  - '&7&oMašina'
+SUPREME_ELECTRIC_CRAFTER_III:
+  description:
+  - '&fPažangi daiktų gamyba'
+  name: 'Elektrinis gamintojas III'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b15.0x'
+  type:
+  - '&7&oMašina'
+SUPREME_ELECTRIC_GEAR_I:
+  description:
+  - '&fGaminti įrangos pakopą'
+  name: 'Elektrinė įrangos mašina'
+  stats:
+  - '&6Pažangi mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b1.0x'
+  type:
+  - '&7&oMašina'
+SUPREME_ELECTRIC_GEAR_II:
+  description:
+  - '&fPažangi įrangos pakopos gamyba'
+  name: 'Elektrinė įrangos mašina II'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b5.0x'
+  type:
+  - '&7&oMašina'
+SUPREME_ELECTRIC_GEAR_III:
+  description:
+  - '&fPažangi įrangos pakopos gamyba'
+  name: 'Elektrinė įrangos mašina III'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b15.0x'
+  type:
+  - '&7&oMašina'
+SUPREME_ELECTRIC_ITEM:
+  name: "Elektra"
+  type:
+  - '&7&oĮvairūs'
+SUPREME_ELECTRIC_MAGICAL_I:
+  description:
+  - '&fGaminti magiškus išteklius'
+  name: 'Elektrinė magijos mašina'
+  stats:
+  - '&6Pažangi mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b1.0x'
+  type:
+  - '&7&oMašina'
+SUPREME_ELECTRIC_MAGICAL_II:
+  description:
+  - '&fPažangi magiškų išteklių gamyba'
+  name: 'Elektrinė magijos mašina II'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b5.0x'
+  type:
+  - '&7&oMašina'
+SUPREME_ELECTRIC_MAGICAL_III:
+  description:
+  - '&fPažangi magiškų išteklių gamyba'
+  name: 'Elektrinė magijos mašina III'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b15.0x'
+  type:
+  - '&7&oMašina'
+SUPREME_EMPTY_MOBTECH:
+  name: 'Tuščias MobTech'
+  type:
+  - '&7&oKomponentas'
+SUPREME_FORGE_INGOT_I:
+  description:
+  - '&fŠi mašina leidžia jums'
+  - '&fkalti luitų išteklius.'
+  name: 'Luitų kalvė'
+  stats:
+  - '&6Pažangi mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J buferis'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMašina'
+SUPREME_FORGE_INGOT_II:
+  description:
+  - '&fŠi mašina leidžia jums'
+  - '&fkalti luitų išteklius.'
+  name: 'Luitų kalvė II'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J buferis'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMašina'
+SUPREME_FORGE_INGOT_III:
+  description:
+  - '&fŠi mašina leidžia jums'
+  - '&fkalti luitų išteklius.'
+  name: 'Luitų kalvė III'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J buferis'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMašina'
+SUPREME_FORGE_MAGICAL_I:
+  description:
+  - '&fŠi mašina leidžia jums'
+  - '&fkalti magiškus išteklius.'
+  name: 'Magiška kalvė'
+  stats:
+  - '&6Pažangi mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J buferis'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMašina'
+SUPREME_FORGE_MAGICAL_II:
+  description:
+  - '&fŠi mašina leidžia jums'
+  - '&fkalti magiškus išteklius.'
+  name: 'Magiška kalvė II'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J buferis'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMašina'
+SUPREME_FORGE_MAGICAL_III:
+  description:
+  - '&fŠi mašina leidžia jums'
+  - '&fkalti magiškus išteklius.'
+  name: 'Magiška kalvė III'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J buferis'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMašina'
+SUPREME_FOUNDRY_I:
+  description:
+  - '&fLieti ir sintetinti daiktus'
+  name: 'Liejykla'
+  stats:
+  - '&6Pažangi mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b1.0x'
+  type:
+  - '&7&oMašina'
+SUPREME_FOUNDRY_II:
+  description:
+  - '&fPažangus daiktų liejimas ir sintezė'
+  name: 'Liejykla II'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b5.0x'
+  type:
+  - '&7&oMašina'
+SUPREME_FOUNDRY_III:
+  description:
+  - '&fPažangus daiktų liejimas ir sintezė'
+  name: 'Liejykla III'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b15.0x'
+  type:
+  - '&7&oMašina'
+SUPREME_GENERATOR_MOB_ADVANCED:
+  name: 'Pažangus mobų generatorius'
+  stats:
+  - '&eBazinis generatorius'
+  type:
+  - '&7&oMašina'
+SUPREME_GENERATOR_MOB_BASIC:
+  name: 'Bazinis mobų generatorius'
+  stats:
+  - '&eBazinis generatorius'
+  type:
+  - '&7&oMašina'
+SUPREME_GENERATOR_MOB_MEDIUM:
+  name: 'Vidutinis mobų generatorius'
+  stats:
+  - '&eBazinis generatorius'
+  type:
+  - '&7&oMašina'
+SUPREME_GENE_BERSERK:
+  name: 'Įniršio genas'
+  type:
+  - '&7&oKomponentas'
+SUPREME_GENE_INTELLIGENCE:
+  name: 'Intelekto genas'
+  type:
+  - '&7&oKomponentas'
+SUPREME_GENE_LUCK:
+  name: 'Laimės genas'
+  type:
+  - '&7&oKomponentas'
+SUPREME_GOLD_QUARRY:
+  name: 'Aukso karjeras'
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oMašina'
+SUPREME_HELMET_EPIC:
+  description:
+  - '&f&lEpinis šalmas iš Thornium'
+  name: 'Epinis šalmas'
+  type:
+  - '&7&oŠarvai'
+SUPREME_HELMET_LEGENDARY:
+  description:
+  - '&f&lLegendinis šalmas iš Thornium'
+  name: 'Legendinis šalmas'
+  type:
+  - '&7&oŠarvai'
+SUPREME_HELMET_MAGIC:
+  description:
+  - '&f&lMagiškas šalmas iš Thornium'
+  name: 'Magiškas šalmas'
+  type:
+  - '&7&oŠarvai'
+SUPREME_HELMET_RARE:
+  description:
+  - '&f&lRetas šalmas iš Thornium'
+  name: 'Retas šalmas'
+  type:
+  - '&7&oŠarvai'
+SUPREME_HELMET_SUPREME:
+  description:
+  - '&f&lAukščiausiasis šalmas iš Thornium'
+  name: 'Aukščiausiasis šalmas'
+  type:
+  - '&7&oŠarvai'
+SUPREME_HELMET_THORNIUM:
+  description:
+  - '&f&lŠalmas iš Thornium'
+  name: 'Thornium šalmas'
+  type:
+  - '&7&oŠarvai'
+SUPREME_IGNIS_GENERATOR:
+  name: 'Ignis generatorius'
+  stats:
+  - '&6Pažangus generatorius'
+  type:
+  - '&7&oMašina'
+SUPREME_INDUCTIVE_MACHINE:
+  name: 'Indukcinė mašina'
+  type:
+  - '&7&oPažangūs komponentai'
+SUPREME_INDUCTOR_MACHINE:
+  name: 'Induktoriaus mašina'
+  type:
+  - '&7&oPažangūs komponentai'
+SUPREME_IRIDIUM_PLATE:
+  name: 'Iridžio plokštė'
+  type:
+  - '&7&oKomponentai'
+SUPREME_IRON_QUARRY:
+  name: 'Geležies karjeras'
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oMašina'
+SUPREME_LEGGINGS_EPIC:
+  description:
+  - '&f&lEpinės kelnės iš Thornium'
+  name: 'Epinės kelnės'
+  type:
+  - '&7&oŠarvai'
+SUPREME_LEGGINGS_LEGENDARY:
+  description:
+  - '&f&lLegendinės kelnės iš Thornium'
+  name: 'Legendinės kelnės'
+  type:
+  - '&7&oŠarvai'
+SUPREME_LEGGINGS_MAGIC:
+  description:
+  - '&f&lMagiškos kelnės iš Thornium'
+  name: 'Magiškos kelnės'
+  type:
+  - '&7&oŠarvai'
+SUPREME_LEGGINGS_RARE:
+  description:
+  - '&f&lRetos kelnės iš Thornium'
+  name: 'Retos kelnės'
+  type:
+  - '&7&oŠarvai'
+SUPREME_LEGGINGS_SUPREME:
+  description:
+  - '&f&lAukščiausiosios kelnės iš Thornium'
+  name: 'Aukščiausiosios kelnės'
+  type:
+  - '&7&oŠarvai'
+SUPREME_LEGGINGS_THORNIUM:
+  description:
+  - '&f&lKelnės iš Thornium'
+  name: 'Thornium kelnės'
+  type:
+  - '&7&oŠarvai'
+SUPREME_LUMIUM_GENERATOR:
+  name: 'Lumium generatorius'
+  stats:
+  - '&6Pažangus generatorius'
+  type:
+  - '&7&oMašina'
+SUPREME_LUX_GENERATOR:
+  name: 'Lux generatorius'
+  stats:
+  - '&6Pažangus generatorius'
+  type:
+  - '&7&oMašina'
+SUPREME_MAGIC_ALTAR_I:
+  description:
+  - '&fGaminti runas ir magiškus daiktus'
+  name: 'Magijos altorius'
+  stats:
+  - '&6Pažangi mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b1.0x'
+  type:
+  - '&7&oMašina'
+SUPREME_MAGIC_ALTAR_II:
+  description:
+  - '&fPažangi runų ir magiškų daiktų gamyba'
+  name: 'Magijos altorius II'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b5.0x'
+  type:
+  - '&7&oMašina'
+SUPREME_MAGIC_ALTAR_III:
+  description:
+  - '&fPažangi runų ir magiškų daiktų gamyba'
+  name: 'Magijos altorius III'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b15.0x'
+  type:
+  - '&7&oMašina'
+SUPREME_MAIN_ITEM:
+  name: "Supreme"
+  type:
+  - '&7&oĮvairūs'
+SUPREME_MANGANESE_PLATE:
+  name: 'Mangano plokštė'
+  type:
+  - '&7&oKomponentai'
+SUPREME_MOB_COLLECTOR_MACHINE_I:
+  description:
+  - '&fŠi mašina leidžia jums rinkti '
+  - '&fdaiktus iš netoliese esančių mobų. (4 blokai)'
+  name: 'Mobų rinktuvas'
+  stats:
+  - '&6Pažangi mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J buferis'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMašina'
+SUPREME_MOB_COLLECTOR_MACHINE_II:
+  description:
+  - '&fŠi mašina leidžia jums rinkti'
+  - '&f daiktus iš netoliese esančių mobų. (8 blokai)'
+  name: 'Mobų rinktuvas II'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J buferis'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMašina'
+SUPREME_MOB_COLLECTOR_MACHINE_III:
+  description:
+  - '&fŠi mašina leidžia jums rinkti'
+  - '&f daiktus iš netoliese esančių mobų. (16 blokų)'
+  name: 'Mobų rinktuvas III'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J buferis'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMašina'
+SUPREME_MOB_COLLECTOR_TOOL_I:
+  name: "MobTech rinktuvas I (Įrankis)"
+  stats:
+  - '&8⇨ &e⚡ &750 J už panaudojimą'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_MOB_COLLECTOR_TOOL_II:
+  name: "MobTech rinktuvas II (Įrankis)"
+  stats:
+  - '&8⇨ &e⚡ &750 J už panaudojimą'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_MOB_COLLECTOR_TOOL_III:
+  name: "MobTech rinktuvas III (Įrankis)"
+  stats:
+  - '&8⇨ &e⚡ &750 J už panaudojimą'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_II:
+  description:
+  - '&fŠi mašina leidžia jums rinkti '
+  - '&fMobTech galvas iš netoliese esančių mobų. (6 blokai)'
+  name: 'MobTech rinktuvas II'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J buferis'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMašina'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_III:
+  description:
+  - '&fŠi mašina leidžia jums rinkti '
+  - '&fMobTech galvas iš netoliese esančių mobų. (9 blokai)'
+  name: 'MobTech rinktuvas III'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J buferis'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMašina'
+SUPREME_MULTIBLOCK_CORE:
+  description:
+  - '&7&oČia galite gaminti šerdis!'
+  - '&aDaugiablokė mašina'
+  name: 'Šerdžių gamykla'
+  type:
+  - '&7&oMašina'
+SUPREME_MULTIBLOCK_GEAR:
+  description:
+  - '&7&oČia galite gaminti ginklus, šarvus ir įrankius!'
+  - '&aDaugiablokė mašina'
+  name: 'Įrangos gamykla'
+  type:
+  - '&7&oMašina'
+SUPREME_MULTIBLOCK_MAGICAL:
+  description:
+  - '&7&oČia galite gaminti magiškus daiktus!'
+  - '&aDaugiablokė mašina'
+  name: 'Magijos gamykla'
+  type:
+  - '&7&oMašina'
+SUPREME_PETRIFIER_MACHINE:
+  name: 'Suakmeninimo mašina'
+  type:
+  - '&7&oPažangūs komponentai'
+SUPREME_PICKAXE_EPIC:
+  description:
+  - '&f&lEpinis kirtiklis iš Thornium'
+  name: 'Epinis kirtiklis'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_PICKAXE_LEGENDARY:
+  description:
+  - '&f&lLegendinis kirtiklis iš Thornium'
+  name: 'Legendinis kirtiklis'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_PICKAXE_MAGIC:
+  description:
+  - '&f&lMagiškas kirtiklis iš Thornium'
+  name: 'Magiškas kirtiklis'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_PICKAXE_RARE:
+  description:
+  - '&f&lRetas kirtiklis iš Thornium'
+  name: 'Retas kirtiklis'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_PICKAXE_SUPREME:
+  description:
+  - '&f&lAukščiausiasis kirtiklis iš Thornium'
+  name: 'Aukščiausiasis kirtiklis'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_PICKAXE_THORNIUM:
+  description:
+  - '&f&lKirtiklis iš Thornium'
+  name: 'Thornium kirtiklis'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_PLATINUM_PLATE:
+  name: 'Platinos plokštė'
+  type:
+  - '&7&oKomponentai'
+SUPREME_RUSTLESS_MACHINE:
+  name: 'Berūdė mašina'
+  type:
+  - '&7&oPažangūs komponentai'
+SUPREME_SHIELD_EPIC:
+  description:
+  - '&f&lEpinis skydas iš Thornium'
+  name: 'Epinis skydas'
+  type:
+  - '&7&oGinklai'
+SUPREME_SHIELD_LEGENDARY:
+  description:
+  - '&f&lLegendinis skydas iš Thornium'
+  name: 'Legendinis skydas'
+  type:
+  - '&7&oGinklai'
+SUPREME_SHIELD_MAGIC:
+  description:
+  - '&f&lMagiškas skydas iš Thornium'
+  name: 'Magiškas skydas'
+  type:
+  - '&7&oGinklai'
+SUPREME_SHIELD_RARE:
+  description:
+  - '&f&lRetas skydas iš Thornium'
+  name: 'Retas skydas'
+  type:
+  - '&7&oGinklai'
+SUPREME_SHIELD_SUPREME:
+  description:
+  - '&f&lAukščiausiasis skydas iš Thornium'
+  name: 'Aukščiausiasis skydas'
+  type:
+  - '&7&oGinklai'
+SUPREME_SHIELD_THORNIUM:
+  description:
+  - '&f&lSkydas iš Thornium'
+  name: 'Thornium skydas'
+  type:
+  - '&7&oGinklai'
+SUPREME_SHOVEL_EPIC:
+  description:
+  - '&f&lEpinis kastuvas iš Thornium'
+  name: 'Epinis kastuvas'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_SHOVEL_LEGENDARY:
+  description:
+  - '&f&lLegendinis kastuvas iš Thornium'
+  name: 'Legendinis kastuvas'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_SHOVEL_MAGIC:
+  description:
+  - '&f&lMagiškas kastuvas iš Thornium'
+  name: 'Magiškas kastuvas'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_SHOVEL_RARE:
+  description:
+  - '&f&lRetas kastuvas iš Thornium'
+  name: 'Retas kastuvas'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_SHOVEL_SUPREME:
+  description:
+  - '&f&lAukščiausiasis kastuvas iš Thornium'
+  name: 'Aukščiausiasis kastuvas'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_SHOVEL_THORNIUM:
+  description:
+  - '&f&lKastuvas iš Thornium'
+  name: 'Thornium kastuvas'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_STAINLESS_MACHINE:
+  name: 'Nerūdijanti mašina'
+  type:
+  - '&7&oPažangūs komponentai'
+SUPREME_STONE_QUARRY:
+  name: 'Akmens karjeras'
+  stats:
+  - '&aVidutinė mašina'
+  type:
+  - '&7&oMašina'
+SUPREME_SUPREME:
+  description:
+  - '&7Aukščiausiasis'
+  name: 'Aukščiausiasis'
+  type:
+  - '&7&oŽaidimo pabaigos komponentai'
+SUPREME_SUPREME_CAPACITOR:
+  name: 'Aukščiausiasis kondensatorius'
+  stats:
+  - '&4Vėlyvojo žaidimo kondensatorius'
+  - '&8⇨ &e⚡ &7Begalinė J talpa'
+  type:
+  - '&7&oMašina'
+SUPREME_SUPREME_GENERATOR:
+  name: 'Aukščiausiasis generatorius'
+  stats:
+  - '&4Vėlyvojo žaidimo generatorius'
+  type:
+  - '&7&oMašina'
+SUPREME_SUPREME_NUGGET:
+  description:
+  - '&7Iš aukščiausiųjų grynuolių karjero'
+  name: 'Aukščiausiasis grynuolis'
+  type:
+  - '&7&oŽaidimo pabaigos komponentai'
+SUPREME_SUPREME_NUGGETS_QUARRY:
+  name: 'Aukščiausiųjų grynuolių karjeras'
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oMašina'
+SUPREME_SWORD_EPIC:
+  description:
+  - '&f&lEpinis kardas iš Thornium'
+  name: 'Epinis kardas'
+  type:
+  - '&7&oGinklai'
+SUPREME_SWORD_LEGENDARY:
+  description:
+  - '&f&lLegendinis kardas iš Thornium'
+  name: 'Legendinis kardas'
+  type:
+  - '&7&oGinklai'
+SUPREME_SWORD_MAGIC:
+  description:
+  - '&f&lMagiškas kardas iš Thornium'
+  name: 'Magiškas kardas'
+  type:
+  - '&7&oGinklai'
+SUPREME_SWORD_RARE:
+  description:
+  - '&f&lRetas kardas iš Thornium'
+  name: 'Retas kardas'
+  type:
+  - '&7&oGinklai'
+SUPREME_SWORD_SUPREME:
+  description:
+  - '&f&lAukščiausiasis kardas iš Thornium'
+  name: 'Aukščiausiasis kardas'
+  type:
+  - '&7&oGinklai'
+SUPREME_SWORD_THORNIUM:
+  description:
+  - '&f&lKardas iš Thornium'
+  name: 'Thornium kardas'
+  type:
+  - '&7&oGinklai'
+SUPREME_SYNTHETIC_AMETHYST:
+  name: 'Sintetinis ametistas'
+  type:
+  - '&7&oKomponentai'
+SUPREME_SYNTHETIC_RUBY:
+  name: 'Sintetinis rubinas'
+  type:
+  - '&7&oKomponentai'
+SUPREME_TECH_GENERATOR:
+  description:
+  - '&fNaudodama galią ir bites/golemus/zombius, '
+  - '&flėtai gamina medžiagas.'
+  name: 'Technologinis generatorius'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  type:
+  - '&7&oMašina'
+SUPREME_TECH_MUTATION_I:
+  description:
+  - '&fNaudokite generatoriaus mutaciją, '
+  - '&fkad pasiektumėte aukštesnius lygius'
+  name: 'Technologinė mutacija'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  type:
+  - '&7&oMašina'
+SUPREME_TECH_MUTATION_II:
+  description:
+  - '&fNaudokite generatoriaus mutaciją, '
+  - '&fkad pasiektumėte aukštesnius lygius'
+  - '&fTikimybės koeficientas padaugintas 2x'
+  name: 'Technologinė mutacija II'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  type:
+  - '&7&oMašina'
+SUPREME_TECH_MUTATION_III:
+  description:
+  - '&fNaudokite generatoriaus mutaciją, '
+  - '&fkad pasiektumėte aukštesnius lygius'
+  - '&fTikimybės koeficientas padaugintas 4x'
+  name: 'Technologinė mutacija III'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  type:
+  - '&7&oMašina'
+SUPREME_TECH_ROBOTIC:
+  description:
+  - '&fNaudokite pradinio lygio robotus, '
+  - '&fkad pasiektumėte aukštesnius lygius'
+  - '&fpatobulinimui reikia 64x'
+  name: 'Technologinė robotika'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  type:
+  - '&7&oMašina'
+SUPREME_TECH_ROBOTIC_II:
+  description:
+  - '&fNaudokite pradinio lygio robotus, '
+  - '&fkad pasiektumėte aukštesnius lygius'
+  - '&fpatobulinimui reikia 32x'
+  name: 'Technologinė robotika II'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  type:
+  - '&7&oMašina'
+SUPREME_TECH_ROBOTIC_III:
+  description:
+  - '&fNaudokite pradinio lygio robotus, '
+  - '&fkad pasiektumėte aukštesnius lygius'
+  - '&fpatobulinimui reikia 16x'
+  name: 'Technologinė robotika III'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  type:
+  - '&7&oMašina'
+SUPREME_THORNERITE:
+  name: 'Thornerite'
+  type:
+  - '&7&oŽaidimo pabaigos komponentai'
+SUPREME_THORNIUM_BIT:
+  description:
+  - '&7Iš Thornium karjero'
+  name: 'Thornium gabalėlis'
+  type:
+  - '&7&oŽaidimo pabaigos komponentai'
+SUPREME_THORNIUM_BIT_SYNTHETIC:
+  description:
+  - '&7Iš Thornium gabalėlio'
+  name: 'Sintetinis Thornium gabalėlis'
+  type:
+  - '&7&oŽaidimo pabaigos komponentai'
+SUPREME_THORNIUM_CAPACITOR:
+  name: 'Thornium kondensatorius'
+  stats:
+  - '&4Vėlyvojo žaidimo kondensatorius'
+  - '&8⇨ &e⚡ &7100,000,000.00 J talpa'
+  type:
+  - '&7&oMašina'
+SUPREME_THORNIUM_CARBONADO:
+  description:
+  - '&7Iš Thornium luito'
+  name: 'Thornium karbonadas'
+  type:
+  - '&7&oŽaidimo pabaigos komponentai'
+SUPREME_THORNIUM_DUST:
+  description:
+  - '&7Iš Thornium gabalėlio'
+  name: 'Thornium dulkės'
+  type:
+  - '&7&oŽaidimo pabaigos komponentai'
+SUPREME_THORNIUM_DUST_SYNTHETIC:
+  description:
+  - '&7Iš Thornium dulkių'
+  name: 'Sintetinės Thornium dulkės'
+  type:
+  - '&7&oŽaidimo pabaigos komponentai'
+SUPREME_THORNIUM_ENERGIZED:
+  description:
+  - '&7Iš Thornium luito'
+  name: 'Energizuotas Thornium'
+  type:
+  - '&7&oŽaidimo pabaigos komponentai'
+SUPREME_THORNIUM_GENERATOR:
+  name: 'Thornium generatorius'
+  stats:
+  - '&4Vėlyvojo žaidimo generatorius'
+  type:
+  - '&7&oMašina'
+SUPREME_THORNIUM_INGOT:
+  description:
+  - '&7Iš Thornium dulkių'
+  name: 'Thornium luitas'
+  type:
+  - '&7&oŽaidimo pabaigos komponentai'
+SUPREME_THORNIUM_INGOT_SYNTHETIC:
+  description:
+  - '&7Iš Thornium luito'
+  name: 'Sintetinis Thornium luitas'
+  type:
+  - '&7&oŽaidimo pabaigos komponentai'
+SUPREME_THORNIUM_QUARRY:
+  name: 'Thornium karjeras'
+  stats:
+  - '&6Pažangi mašina'
+  type:
+  - '&7&oMašina'
+SUPREME_TITANIUM_AXE:
+  description:
+  - '&f&lKirvis iš titano'
+  name: 'Titano kirvis'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_TITANIUM_BOOTS:
+  description:
+  - '&f&lBatai iš titano'
+  name: 'Titano batai'
+  type:
+  - '&7&oŠarvai'
+SUPREME_TITANIUM_CAPACITOR:
+  name: 'Titano kondensatorius'
+  stats:
+  - '&6Pažangus kondensatorius'
+  - '&8⇨ &e⚡ &74,000,000.00 J talpa'
+  type:
+  - '&7&oMašina'
+SUPREME_TITANIUM_CHESTPLATE:
+  description:
+  - '&f&lKrūtinės šarvai iš titano'
+  name: 'Titano krūtinės šarvai'
+  type:
+  - '&7&oŠarvai'
+SUPREME_TITANIUM_HELMET:
+  description:
+  - '&f&lŠalmas iš titano'
+  name: 'Titano šalmas'
+  type:
+  - '&7&oŠarvai'
+SUPREME_TITANIUM_LEGGINGS:
+  description:
+  - '&f&lKelnės iš titano'
+  name: 'Titano kelnės'
+  type:
+  - '&7&oŠarvai'
+SUPREME_TITANIUM_PICKAXE:
+  description:
+  - '&f&lKirtiklis iš titano'
+  name: 'Titano kirtiklis'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_TITANIUM_PLATE:
+  name: 'Titano plokštė'
+  type:
+  - '&7&oKomponentai'
+SUPREME_TITANIUM_SHOVEL:
+  description:
+  - '&f&lKastuvas iš titano'
+  name: 'Titano kastuvas'
+  type:
+  - '&7&oĮrankiai'
+SUPREME_TITANIUM_SWORD:
+  description:
+  - '&f&lKardas iš titano'
+  name: 'Titano kardas'
+  type:
+  - '&7&oGinklai'
+SUPREME_VENTUS_GENERATOR:
+  name: 'Ventus generatorius'
+  stats:
+  - '&eBazinis generatorius'
+  type:
+  - '&7&oMašina'
+SUPREME_VIRTUAL_AQUARIUM_I:
+  description:
+  - '&fŠi mašina leidžia jums rinkti '
+  - '&f daiktus, kurie surenkami jūroje.'
+  name: 'Virtualus akvariumas'
+  stats:
+  - '&6Pažangi mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J buferis'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMašina'
+SUPREME_VIRTUAL_AQUARIUM_II:
+  description:
+  - '&fŠi mašina leidžia jums rinkti'
+  - '&f daiktus, kurie surenkami jūroje.'
+  name: 'Virtualus akvariumas II'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J buferis'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMašina'
+SUPREME_VIRTUAL_AQUARIUM_III:
+  description:
+  - '&fŠi mašina leidžia jums rinkti'
+  - '&f daiktus, kurie surenkami jūroje.'
+  name: 'Virtualus akvariumas III'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J buferis'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMašina'
+SUPREME_VIRTUAL_GARDEN_I:
+  description:
+  - '&fŠi mašina leidžia jums'
+  - '&fauginti kai kuriuos išteklius.'
+  name: 'Virtualus sodas'
+  stats:
+  - '&6Pažangi mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J buferis'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMašina'
+SUPREME_VIRTUAL_GARDEN_II:
+  description:
+  - '&fŠi mašina leidžia jums'
+  - '&fauginti kai kuriuos išteklius.'
+  name: 'Virtualus sodas II'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J buferis'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMašina'
+SUPREME_VIRTUAL_GARDEN_III:
+  description:
+  - '&fŠi mašina leidžia jums'
+  - '&fauginti kai kuriuos išteklius.'
+  name: 'Virtualus sodas III'
+  stats:
+  - '&4Vėlyvojo žaidimo mašina'
+  - '&8⇨ &b⚡ &7Greitis: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J buferis'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMašina'
+SUPREME_ZIRCONIUM_PLATE:
+  name: 'Cirkonio plokštė'
+  type:
+  - '&7&oKomponentai'

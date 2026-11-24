@@ -1,0 +1,2352 @@
+MOB_TECH_COLLECTOR_MACHINE:
+  description:
+  - '&fDenna maskin låter dig samla '
+  - '&fMobTech-huvud från närliggande mobs. (3 block)'
+  name: 'MobTech-samlare I'
+  type:
+  - '&7&oMaskin'
+SUPREME_ADAMANTIUM_AXE:
+  description:
+  - '&f&lEn yxa av Adamantium'
+  name: 'Adamantium-yxa'
+  type:
+  - '&7&oVerktyg'
+SUPREME_ADAMANTIUM_BOOTS:
+  description:
+  - '&f&lStövlar av Adamantium'
+  name: 'Adamantium-stövlar'
+  type:
+  - '&7&oRustning'
+SUPREME_ADAMANTIUM_CAPACITOR:
+  name: 'Adamantium-kondensator'
+  stats:
+  - '&6Avancerad kondensator'
+  - '&8⇨ &e⚡ &716,000,000.00 J kapacitet'
+  type:
+  - '&7&oMaskin'
+SUPREME_ADAMANTIUM_CHESTPLATE:
+  description:
+  - '&f&lEn bröstplåt av Adamantium'
+  name: 'Adamantium-bröstplåt'
+  type:
+  - '&7&oRustning'
+SUPREME_ADAMANTIUM_HELMET:
+  description:
+  - '&f&lEn hjälm av Adamantium'
+  name: 'Adamantium-hjälm'
+  type:
+  - '&7&oRustning'
+SUPREME_ADAMANTIUM_LEGGINGS:
+  description:
+  - '&f&lEtt benskydd av Adamantium'
+  name: 'Adamantium-benskydd'
+  type:
+  - '&7&oRustning'
+SUPREME_ADAMANTIUM_PICKAXE:
+  description:
+  - '&f&lEn hacka av Adamantium'
+  name: 'Adamantium-hacka'
+  type:
+  - '&7&oVerktyg'
+SUPREME_ADAMANTIUM_PLATE:
+  name: 'Adamantium-platta'
+  type:
+  - '&7&oKomponenter'
+SUPREME_ADAMANTIUM_SHOVEL:
+  description:
+  - '&f&lEn spade av Adamantium'
+  name: 'Adamantium-spade'
+  type:
+  - '&7&oVerktyg'
+SUPREME_ADAMANTIUM_SWORD:
+  description:
+  - '&f&lEtt svärd av Adamantium'
+  name: 'Adamantium-svärd'
+  type:
+  - '&7&oVapen'
+SUPREME_ALLOY_ADAMANTIUM:
+  name: 'Adamantium-legering'
+  type:
+  - '&7&oKomponenter'
+SUPREME_ALLOY_AURUM:
+  name: 'Aurum-legering'
+  type:
+  - '&7&oKomponenter'
+SUPREME_ALLOY_IRIDIUM:
+  name: 'Iridiumlegering'
+  type:
+  - '&7&oKomponenter'
+SUPREME_ALLOY_MANGANESE:
+  name: 'Manganlegering'
+  type:
+  - '&7&oKomponenter'
+SUPREME_ALLOY_PLATINUM:
+  name: 'Platinalegering'
+  type:
+  - '&7&oKomponenter'
+SUPREME_ALLOY_TITANIUM:
+  name: 'Titanlegering'
+  type:
+  - '&7&oKomponenter'
+SUPREME_ALLOY_ZIRCONIUM:
+  name: 'Zirkoniumlegering'
+  type:
+  - '&7&oKomponenter'
+SUPREME_AQUA_GENERATOR:
+  name: 'Aqua-generator'
+  stats:
+  - '&6Avancerad generator'
+  type:
+  - '&7&oMaskin'
+SUPREME_ATTRIBUTE_BOMB:
+  description:
+  - '&7Ett superattribut för bomb med specialeffekter'
+  name: 'Bombattribut'
+  type:
+  - '&7&oMagiska komponenter'
+SUPREME_ATTRIBUTE_FORTUNE:
+  description:
+  - '&7Ett superattribut för lycka med specialeffekter'
+  name: 'Lyckoattribut'
+  type:
+  - '&7&oMagiska komponenter'
+SUPREME_ATTRIBUTE_IMPETUS:
+  description:
+  - '&7Ett superattribut för impetus med specialeffekter'
+  name: 'Impetus-attribut'
+  type:
+  - '&7&oMagiska komponenter'
+SUPREME_ATTRIBUTE_MAGIC:
+  description:
+  - '&7Ett superattribut för magi med specialeffekter'
+  name: 'Magiattribut'
+  type:
+  - '&7&oMagiska komponenter'
+SUPREME_AURUM_AXE:
+  description:
+  - '&f&lEn yxa av Aurum'
+  name: 'Aurum-yxa'
+  type:
+  - '&7&oVerktyg'
+SUPREME_AURUM_BOOTS:
+  description:
+  - '&f&lStövlar av Aurum'
+  name: 'Aurum-stövlar'
+  type:
+  - '&7&oRustning'
+SUPREME_AURUM_CAPACITOR:
+  name: 'Aurum-kondensator'
+  stats:
+  - '&6Avancerad kondensator'
+  - '&8⇨ &e⚡ &71,000,000.00 J kapacitet'
+  type:
+  - '&7&oMaskin'
+SUPREME_AURUM_CHESTPLATE:
+  description:
+  - '&f&lEn bröstplåt av Aurum'
+  name: 'Aurum-bröstplåt'
+  type:
+  - '&7&oRustning'
+SUPREME_AURUM_HELMET:
+  description:
+  - '&f&lEn hjälm av Aurum'
+  name: 'Aurum-hjälm'
+  type:
+  - '&7&oRustning'
+SUPREME_AURUM_LEGGINGS:
+  description:
+  - '&f&lEtt benskydd av Aurum'
+  name: 'Aurum-benskydd'
+  type:
+  - '&7&oRustning'
+SUPREME_AURUM_PICKAXE:
+  description:
+  - '&f&lEn hacka av Aurum'
+  name: 'Aurum-hacka'
+  type:
+  - '&7&oVerktyg'
+SUPREME_AURUM_PLATE:
+  name: 'Aurum-platta'
+  type:
+  - '&7&oKomponenter'
+SUPREME_AURUM_SHOVEL:
+  description:
+  - '&f&lEn spade av Aurum'
+  name: 'Aurum-spade'
+  type:
+  - '&7&oVerktyg'
+SUPREME_AURUM_SWORD:
+  description:
+  - '&f&lEtt svärd av Aurum'
+  name: 'Aurum-svärd'
+  type:
+  - '&7&oVapen'
+SUPREME_AXE_EPIC:
+  description:
+  - '&f&lEn episk yxa av Thornium'
+  name: 'Episk yxa'
+  type:
+  - '&7&oVerktyg'
+SUPREME_AXE_LEGENDARY:
+  description:
+  - '&f&lEn legendarisk yxa av Thornium'
+  name: 'Legendarisk yxa'
+  type:
+  - '&7&oVerktyg'
+SUPREME_AXE_MAGIC:
+  description:
+  - '&f&lEn magisk yxa av Thornium'
+  name: 'Magisk yxa'
+  type:
+  - '&7&oVerktyg'
+SUPREME_AXE_RARE:
+  description:
+  - '&f&lEn sällsynt yxa av Thornium'
+  name: 'Sällsynt yxa'
+  type:
+  - '&7&oVerktyg'
+SUPREME_AXE_SUPREME:
+  description:
+  - '&f&lEn suverän yxa av Thornium'
+  name: 'Suverän yxa'
+  type:
+  - '&7&oVerktyg'
+SUPREME_AXE_THORNIUM:
+  description:
+  - '&f&lEn yxa av Thornium'
+  name: 'Thornium-yxa'
+  type:
+  - '&7&oVerktyg'
+SUPREME_BASIC_AQUA_GENERATOR:
+  name: 'Grundläggande Aqua-generator'
+  stats:
+  - '&eGrundläggande generator'
+  type:
+  - '&7&oMaskin'
+SUPREME_BASIC_IGNIS_GENERATOR:
+  name: 'Grundläggande Ignis-generator'
+  stats:
+  - '&eGrundläggande generator'
+  type:
+  - '&7&oMaskin'
+SUPREME_BASIC_LUMIUM_GENERATOR:
+  name: 'Grundläggande Lumium-generator'
+  stats:
+  - '&6Avancerad generator'
+  type:
+  - '&7&oMaskin'
+SUPREME_BASIC_LUX_GENERATOR:
+  name: 'Grundläggande Lux-generator'
+  stats:
+  - '&eGrundläggande generator'
+  type:
+  - '&7&oMaskin'
+SUPREME_BASIC_VENTUS_GENERATOR:
+  name: 'Grundläggande Ventus-generator'
+  stats:
+  - '&eGrundläggande generator'
+  type:
+  - '&7&oMaskin'
+SUPREME_BLEND_MACHINE:
+  name: 'Blandningsmaskin'
+  type:
+  - '&7&oAvancerade komponenter'
+SUPREME_BOOTS_EPIC:
+  description:
+  - '&f&lEpiska stövlar av Thornium'
+  name: 'Episka stövlar'
+  type:
+  - '&7&oRustning'
+SUPREME_BOOTS_LEGENDARY:
+  description:
+  - '&f&lLegendariska stövlar av Thornium'
+  name: 'Legendariska stövlar'
+  type:
+  - '&7&oRustning'
+SUPREME_BOOTS_MAGIC:
+  description:
+  - '&f&lMagiska stövlar av Thornium'
+  name: 'Magiska stövlar'
+  type:
+  - '&7&oRustning'
+SUPREME_BOOTS_RARE:
+  description:
+  - '&f&lSällsynta stövlar av Thornium'
+  name: 'Sällsynta stövlar'
+  type:
+  - '&7&oRustning'
+SUPREME_BOOTS_SUPREME:
+  description:
+  - '&f&lSuveräna stövlar av Thornium'
+  name: 'Suveräna stövlar'
+  type:
+  - '&7&oRustning'
+SUPREME_BOOTS_THORNIUM:
+  description:
+  - '&f&lStövlar av Thornium'
+  name: 'Thornium-stövlar'
+  type:
+  - '&7&oRustning'
+SUPREME_BOW_EPIC:
+  description:
+  - '&f&lEn episk båge av Thornium'
+  name: 'Episk båge'
+  type:
+  - '&7&oVapen'
+SUPREME_BOW_LEGENDARY:
+  description:
+  - '&f&lEn legendarisk båge av Thornium'
+  name: 'Legendarisk båge'
+  type:
+  - '&7&oVapen'
+SUPREME_BOW_MAGIC:
+  description:
+  - '&f&lEn magisk båge av Thornium'
+  name: 'Magisk båge'
+  type:
+  - '&7&oVapen'
+SUPREME_BOW_RARE:
+  description:
+  - '&f&lEn sällsynt båge av Thornium'
+  name: 'Sällsynt båge'
+  type:
+  - '&7&oVapen'
+SUPREME_BOW_SUPREME:
+  description:
+  - '&f&lEn suverän båge av Thornium'
+  name: 'Suverän båge'
+  type:
+  - '&7&oVapen'
+SUPREME_BOW_THORNIUM:
+  description:
+  - '&f&lEn båge av Thornium'
+  name: 'Thornium-båge'
+  type:
+  - '&7&oVapen'
+SUPREME_CARD_ALUMINUM_BRASS:
+  description:
+  - '&fÄndra till produktion av aluminiummässingstacka'
+  name: "Maskinkort (aluminiummässingstacka)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_ALUMINUM_BRONZE:
+  description:
+  - '&fÄndra till produktion av aluminiumbronstacka'
+  name: "Maskinkort (aluminiumbronstacka)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_ALUMINUM_DUST:
+  description:
+  - '&fÄndra till produktion av aluminiumdamm'
+  name: "Maskinkort (aluminiumdamm)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_AMETHYST:
+  description:
+  - '&fÄndra till produktion av ametist'
+  name: "Maskinkort (ametist)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_ANDESITE:
+  description:
+  - '&fÄndra till produktion av andesit'
+  name: "Maskinkort (andesit)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_APPLE:
+  description:
+  - '&fÄndra till produktion av äpple'
+  name: "Maskinkort (äpple)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_BATTERY:
+  description:
+  - '&fÄndra till produktion av batteri'
+  name: "Maskinkort (batteri)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_BILLON:
+  description:
+  - '&fÄndra till produktion av billontacka'
+  name: "Maskinkort (billontacka)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_BLAZE_ROD:
+  description:
+  - '&fÄndra till produktion av blazestav'
+  name: "Maskinkort (blazestav)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_BRASS:
+  description:
+  - '&fÄndra till produktion av mässingstacka'
+  name: "Maskinkort (mässingstacka)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_BRONZE:
+  description:
+  - '&fÄndra till produktion av bronstacka'
+  name: "Maskinkort (bronstacka)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_CARBON:
+  description:
+  - '&fÄndra till produktion av karbon'
+  name: "Maskinkort (karbon)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_CARBONADO:
+  description:
+  - '&fÄndra till produktion av carbonado'
+  name: "Maskinkort (carbonado)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_CARBON_PRESS:
+  description:
+  - '&fÄndra till produktion av komprimerat karbon'
+  name: "Maskinkort (komprimerat karbon)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_CLAY:
+  description:
+  - '&fÄndra till produktion av lera'
+  name: "Maskinkort (lera)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_COAL:
+  description:
+  - '&fÄndra till produktion av kol'
+  name: "Maskinkort (kol)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_COBALT:
+  description:
+  - '&fÄndra till produktion av kobolt'
+  name: "Maskinkort (kobolt)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_COPPER:
+  description:
+  - '&fÄndra till produktion av koppar'
+  name: "Maskinkort (koppar)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_COPPER_DUST:
+  description:
+  - '&fÄndra till produktion av koppardamm'
+  name: "Maskinkort (koppardamm)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_CORINTHIAN_BRONZE:
+  description:
+  - '&fÄndra till produktion av korintisk bronstacka'
+  name: "Maskinkort (korintisk bronstacka)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_DAMASCUS:
+  description:
+  - '&fÄndra till produktion av damaskusstål'
+  name: "Maskinkort (damaskusstål)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_DIAMOND:
+  description:
+  - '&fÄndra till produktion av diamant'
+  name: "Maskinkort (diamant)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_DIORITE:
+  description:
+  - '&fÄndra till produktion av diorit'
+  name: "Maskinkort (diorit)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_DURALUMIN:
+  description:
+  - '&fÄndra till produktion av duraluminiumtacka'
+  name: "Maskinkort (duraluminiumtacka)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_ELECTRIC_MOTOR:
+  description:
+  - '&fÄndra till produktion av elektrisk motor'
+  name: "Maskinkort (elektrisk motor)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_ELECTRO_MAGNET:
+  description:
+  - '&fÄndra till produktion av elektromagnet'
+  name: "Maskinkort (elektromagnet)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_EMERALD:
+  description:
+  - '&fÄndra till produktion av smaragd'
+  name: "Maskinkort (smaragd)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_ENDSTONE:
+  description:
+  - '&fÄndra till produktion av endsten'
+  name: "Maskinkort (endsten)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_FERROSILICON:
+  description:
+  - '&fÄndra till produktion av ferrokisel'
+  name: "Maskinkort (ferrokisel)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_GLOW_INK_SAC:
+  description:
+  - '&fÄndra till produktion av lysande bläcksäck'
+  name: "Maskinkort (lysande bläcksäck)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_GOLD:
+  description:
+  - '&fÄndra till produktion av guld'
+  name: "Maskinkort (guld)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_GOLD24K:
+  description:
+  - '&fÄndra till produktion av guld 24k'
+  name: "Maskinkort (guld 24k)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_GOLD_DUST:
+  description:
+  - '&fÄndra till produktion av gulddamm'
+  name: "Maskinkort (gulddamm)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_GRANITE:
+  description:
+  - '&fÄndra till produktion av granit'
+  name: "Maskinkort (granit)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_GRAVEL:
+  description:
+  - '&fÄndra till produktion av grus'
+  name: "Maskinkort (grus)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_HARDENED_METAL:
+  description:
+  - '&fÄndra till produktion av härdad metalltacka'
+  name: "Maskinkort (härdad metalltacka)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_HEATING_COIL:
+  description:
+  - '&fÄndra till produktion av värmespiral'
+  name: "Maskinkort (värmespiral)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_HONEY_BOTTLE:
+  description:
+  - '&fÄndra till produktion av honungsflaska'
+  name: "Maskinkort (honungsflaska)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_INK_SAC:
+  description:
+  - '&fÄndra till produktion av bläcksäck'
+  name: "Maskinkort (bläcksäck)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_IRON:
+  description:
+  - '&fÄndra till produktion av järn'
+  name: "Maskinkort (järn)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_IRON_DUST:
+  description:
+  - '&fÄndra till produktion av järndamm'
+  name: "Maskinkort (järndamm)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_LAPIS:
+  description:
+  - '&fÄndra till produktion av lapis'
+  name: "Maskinkort (lapis)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_LEAD_DUST:
+  description:
+  - '&fÄndra till produktion av blydamm'
+  name: "Maskinkort (blydamm)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_MAGNESIUM_DUST:
+  description:
+  - '&fÄndra till produktion av magnesiumdamm'
+  name: "Maskinkort (magnesiumdamm)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_MAGNET:
+  description:
+  - '&fÄndra till produktion av magnet'
+  name: "Maskinkort (magnet)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_NETHERITE:
+  description:
+  - '&fÄndra till produktion av netherit'
+  name: "Maskinkort (netherit)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_NETHER_STAR:
+  description:
+  - '&fÄndra till produktion av netherstjärna'
+  name: "Maskinkort (netherstjärna)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_NICKEL:
+  description:
+  - '&fÄndra till produktion av nickel'
+  name: "Maskinkort (nickel)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_PLASTIC_SHEET:
+  description:
+  - '&fÄndra till produktion av plastark'
+  name: "Maskinkort (plastark)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_QUARTZ:
+  description:
+  - '&fÄndra till produktion av kvarts'
+  name: "Maskinkort (kvarts)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_QUARTZ_BLOCK:
+  description:
+  - '&fÄndra till produktion av kvartsblock'
+  name: "Maskinkort (kvartsblock)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_REDSTONE:
+  description:
+  - '&fÄndra till produktion av rödsten'
+  name: "Maskinkort (rödsten)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_REDSTONE_ALLOY:
+  description:
+  - '&fÄndra till produktion av rödstenslegering'
+  name: "Maskinkort (rödstenslegering)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_REINFORCED_ALLOY:
+  description:
+  - '&fÄndra till produktion av förstärkt legeringstacka'
+  name: "Maskinkort (förstärkt legeringstacka)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SAND:
+  description:
+  - '&fÄndra till produktion av sand'
+  name: "Maskinkort (sand)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SILICON:
+  description:
+  - '&fÄndra till produktion av kisel'
+  name: "Maskinkort (kisel)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SILVER_DUST:
+  description:
+  - '&fÄndra till produktion av silverdamm'
+  name: "Maskinkort (silverdamm)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SLIME_BALL:
+  description:
+  - '&fÄndra till produktion av slemboll'
+  name: "Maskinkort (slemboll)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SNOW:
+  description:
+  - '&fÄndra till produktion av snö'
+  name: "Maskinkort (snö)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SOLDER:
+  description:
+  - '&fÄndra till produktion av lödtennstacka'
+  name: "Maskinkort (lödtennstacka)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_STEEL:
+  description:
+  - '&fÄndra till produktion av stål'
+  name: "Maskinkort (stål)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_STONE:
+  description:
+  - '&fÄndra till produktion av sten'
+  name: "Maskinkort (sten)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SULFATE:
+  description:
+  - '&fÄndra till produktion av sulfat'
+  name: "Maskinkort (sulfat)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SYNTHETIC_DIAMOND:
+  description:
+  - '&fÄndra till produktion av syntetisk diamant'
+  name: "Maskinkort (syntetisk diamant)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SYNTHETIC_EMERALD:
+  description:
+  - '&fÄndra till produktion av syntetisk smaragd'
+  name: "Maskinkort (syntetisk smaragd)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SYNTHETIC_SAPPHIRE:
+  description:
+  - '&fÄndra till produktion av syntetisk safir'
+  name: "Maskinkort (syntetisk safir)"
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_TIN_DUST:
+  description:
+  - '&fÄndra till produktion av tenndamm'
+  name: "Maskinkort (tenndamm)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_WITHER_ROSE:
+  description:
+  - '&fÄndra till produktion av witherros'
+  name: "Maskinkort (witherros)"
+  stats:
+  - '&eGrundläggande maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_ZINC_DUST:
+  description:
+  - '&fÄndra till produktion av zinkdamm'
+  name: "Maskinkort (zinkdamm)"
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARRIAGE_MACHINE:
+  name: 'Vagnmaskin'
+  type:
+  - '&7&oAvancerade komponenter'
+SUPREME_CENTER_CARD_ADVANCED:
+  description:
+  - '&fKomponent som låter maskinen producera föremål'
+  name: 'Avancerad komponent för kort'
+  type:
+  - '&7&oKomponent'
+SUPREME_CENTER_CARD_SIMPLE:
+  description:
+  - '&fKomponent som låter maskinen producera föremål'
+  name: 'Grundläggande komponent för kort'
+  type:
+  - '&7&oKomponent'
+SUPREME_CENTER_CARD_ULTIMATE:
+  description:
+  - '&fKomponent som låter maskinen producera föremål'
+  name: 'Ultimat komponent för kort'
+  type:
+  - '&7&oKomponent'
+SUPREME_CETRUS_AQUA:
+  description:
+  - '&7En super Aqua-spira'
+  name: 'Cetrus Aqua'
+  type:
+  - '&7&oMagiska komponenter'
+SUPREME_CETRUS_IGNIS:
+  description:
+  - '&7En super Ignis-spira'
+  name: 'Cetrus Ignis'
+  type:
+  - '&7&oMagiska komponenter'
+SUPREME_CETRUS_LUMIUM:
+  description:
+  - '&7En super Lumium-spira'
+  name: 'Cetrus Lumium'
+  type:
+  - '&7&oMagiska komponenter'
+SUPREME_CETRUS_LUX:
+  description:
+  - '&7En super Lux-spira'
+  name: 'Cetrus Lux'
+  type:
+  - '&7&oMagiska komponenter'
+SUPREME_CETRUS_VENTUS:
+  description:
+  - '&7En super Ventus-spira'
+  name: 'Cetrus Ventus'
+  type:
+  - '&7&oMagiska komponenter'
+SUPREME_CHECK_INVENTORY:
+  description:
+  - '&fKontrollerar om den närliggande kistan har filterföremålet'
+  - '&falla sidor beaktas (hittar första)'
+  - '&fom det hittas tänds detta block'
+  name: "Inventariekontrollant"
+  stats:
+  - '&6Avancerad maskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b1.0x'
+  type:
+  - '&7&oMaskin'
+SUPREME_CHESTPLATE_EPIC:
+  description:
+  - '&f&lEn episk bröstplåt av Thornium'
+  name: 'Episk bröstplåt'
+  type:
+  - '&7&oRustning'
+SUPREME_CHESTPLATE_LEGENDARY:
+  description:
+  - '&f&lEn legendarisk bröstplåt av Thornium'
+  name: 'Legendarisk bröstplåt'
+  type:
+  - '&7&oRustning'
+SUPREME_CHESTPLATE_MAGIC:
+  description:
+  - '&f&lEn magisk bröstplåt av Thornium'
+  name: 'Magisk bröstplåt'
+  type:
+  - '&7&oRustning'
+SUPREME_CHESTPLATE_RARE:
+  description:
+  - '&f&lEn sällsynt bröstplåt av Thornium'
+  name: 'Sällsynt bröstplåt'
+  type:
+  - '&7&oRustning'
+SUPREME_CHESTPLATE_SUPREME:
+  description:
+  - '&f&lEn suverän bröstplåt av Thornium'
+  name: 'Suverän bröstplåt'
+  type:
+  - '&7&oRustning'
+SUPREME_CHESTPLATE_THORNIUM:
+  description:
+  - '&f&lEn bröstplåt av Thornium'
+  name: 'Thornium-bröstplåt'
+  type:
+  - '&7&oRustning'
+SUPREME_COAL_QUARRY:
+  name: 'Kolstenbrott'
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oMaskin'
+SUPREME_CONVEYANCE_MACHINE:
+  name: 'Transportmaskin'
+  type:
+  - '&7&oAvancerade komponenter'
+SUPREME_CORE_ACACIA_LOG:
+  description:
+  - '&7En super akacia'
+  name: 'Suverän akaciastock'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_ANDESITE:
+  description:
+  - '&7En super andesit'
+  name: 'Suverän andesit'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_APPLE:
+  description:
+  - '&7Ett super äpple'
+  name: 'Suveränt äpple'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_BEEF:
+  description:
+  - '&7Ett super nötkött'
+  name: 'Suveränt nötkött'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_BEETROOT:
+  description:
+  - '&7En super rödbeta'
+  name: 'Suverän rödbeta'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_BIRCH_LOG:
+  description:
+  - '&7En super björk'
+  name: 'Suverän björkstock'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_BLACK:
+  description:
+  - '&7En super svart'
+  name: 'Suverän svart'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_BLUE:
+  description:
+  - '&7En super blå'
+  name: 'Suverän blå'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_CARROT:
+  description:
+  - '&7En suverän morot'
+  name: 'Suverän morot'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_CHICKEN:
+  description:
+  - '&7En super kyckling'
+  name: 'Suverän kyckling'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_CLAY:
+  description:
+  - '&7En super lera'
+  name: 'Suverän lera'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_COAL:
+  description:
+  - '&7Ett super kol'
+  name: 'Suveränt kol'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_COD:
+  description:
+  - '&7En super torsk'
+  name: 'Suverän torsk'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_CRIMSON_STEM:
+  description:
+  - '&7En super scharlakansröd'
+  name: 'Suverän scharlakansröd stam'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_CYAN:
+  description:
+  - '&7En super cyan'
+  name: 'Suverän cyan'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_DARK_OAK_LOG:
+  description:
+  - '&7En super mörk'
+  name: 'Suverän mörkekstock'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_DIAMOND:
+  description:
+  - '&7En super diamant'
+  name: 'Suverän diamant'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_DIORITE:
+  description:
+  - '&7En super diorit'
+  name: 'Suverän diorit'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_EMERALD:
+  description:
+  - '&7En super smaragd'
+  name: 'Suverän smaragd'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_ENDSTONE:
+  description:
+  - '&7En super endsten'
+  name: 'Suverän endsten'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_GOLD:
+  description:
+  - '&7Ett super guld'
+  name: 'Suveränt guld'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_GRANITE:
+  description:
+  - '&7En super granit'
+  name: 'Suverän granit'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_GRAVEL:
+  description:
+  - '&7Ett super grus'
+  name: 'Suveränt grus'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_GRAY:
+  description:
+  - '&7En super grå'
+  name: 'Suverän grå'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_GREEN:
+  description:
+  - '&7En super grön'
+  name: 'Suverän grön'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_IRON:
+  description:
+  - '&7Ett super järn'
+  name: 'Suveränt järn'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_JUNGLE_LOG:
+  description:
+  - '&7En super djungel'
+  name: 'Suverän djungelstock'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_LAPIS:
+  description:
+  - '&7En super lapis'
+  name: 'Suverän lapis'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_MELON:
+  description:
+  - '&7En super melon'
+  name: 'Suverän melon'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_MUTTON:
+  description:
+  - '&7Ett super fårkött'
+  name: 'Suveränt fårkött'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_NETHERITE:
+  description:
+  - '&7En super netherit'
+  name: 'Suverän netherit'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_OAK_LOG:
+  description:
+  - '&7En super ek'
+  name: 'Suverän ekstock'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_OF_ALLOY:
+  description:
+  - '&7Denna kärna innehåller flera malmer'
+  - '&7som har samlats in runt om i världen.'
+  name: 'Kärna av legering'
+  type:
+  - '&7&oMagiska komponenter'
+SUPREME_CORE_OF_BLOCK:
+  description:
+  - '&7Denna kärna innehåller flera block'
+  - '&7som har samlats in runt om i världen.'
+  name: 'Kärna av block'
+  type:
+  - '&7&oMagiska komponenter'
+SUPREME_CORE_OF_COLOR:
+  description:
+  - '&7Denna kärna innehåller flera färger'
+  - '&7som har samlats in runt om i världen.'
+  name: 'Kärna av färg'
+  type:
+  - '&7&oMagiska komponenter'
+SUPREME_CORE_OF_DEATH:
+  description:
+  - '&7Denna kärna innehåller själarna från '
+  - '&7olika varelser som har gått vidare.'
+  name: 'Kärna av död'
+  type:
+  - '&7&oMagiska komponenter'
+SUPREME_CORE_OF_LIFE:
+  description:
+  - '&7Denna kärna innehåller fragment av liv'
+  - '&7som har samlats in av världen.'
+  name: 'Kärna av liv'
+  type:
+  - '&7&oMagiska komponenter'
+SUPREME_CORE_OF_NATURE:
+  description:
+  - '&7Denna kärna innehåller flera naturliga'
+  - '&7som har samlats in runt om i världen.'
+  name: 'Kärna av natur'
+  type:
+  - '&7&oMagiska komponenter'
+SUPREME_CORE_PINK:
+  description:
+  - '&7En super rosa'
+  name: 'Suverän rosa'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_PORKCHOP:
+  description:
+  - '&7Ett super bacon'
+  name: "Suverän fläskkotlett"
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_POTATO:
+  description:
+  - '&7En super potatis'
+  name: 'Suverän potatis'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_PUMPKIN:
+  description:
+  - '&7En super pumpa'
+  name: 'Suverän pumpa'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_PURPLE:
+  description:
+  - '&7En super lila'
+  name: 'Suverän lila'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_QUARTZ:
+  description:
+  - '&7En super kvarts'
+  name: 'Suverän kvarts'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_RED:
+  description:
+  - '&7En super röd'
+  name: 'Suverän röd'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_REDSTONE:
+  description:
+  - '&7En super rödsten'
+  name: 'Suverän rödsten'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_SALMON:
+  description:
+  - '&7En super lax'
+  name: 'Suverän lax'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_SAND:
+  description:
+  - '&7En super sand'
+  name: 'Suverän sand'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_SNOW:
+  description:
+  - '&7En super snö'
+  name: 'Suverän snö'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_SPIDER_EYE:
+  description:
+  - '&7Ett super öga'
+  name: "Suveränt spindelöga"
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_SPRUCE_LOG:
+  description:
+  - '&7En super gran'
+  name: 'Suverän granstock'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_STONE:
+  description:
+  - '&7En super kullersten'
+  name: 'Suverän kullersten'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_STRING:
+  description:
+  - '&7Ett super koppel'
+  name: "Suveränt snöre"
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_SUGAR_CANE:
+  description:
+  - '&7Ett super sockerrör'
+  name: 'Suveränt sockerrör'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_SWEET_BERRIES:
+  description:
+  - '&7Några super bär'
+  name: 'Suveräna sötbär'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_TEAR:
+  description:
+  - '&7En super tår'
+  name: "Suverän ghasttår"
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_WARPED_STEM:
+  description:
+  - '&7En super vriden'
+  name: 'Suverän vriden stam'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_WHEAT:
+  description:
+  - '&7Ett super vete'
+  name: 'Suveränt vete'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_WITHER_ROSE:
+  description:
+  - '&7En super ros'
+  name: 'Suverän witherros'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CORE_YELLOW:
+  description:
+  - '&7En super gul'
+  name: 'Suverän gul'
+  type:
+  - '&7&oKärnkomponenter'
+SUPREME_CRYSTALLIZER_MACHINE:
+  name: 'Kristalliseringsmaskin'
+  type:
+  - '&7&oAvancerade komponenter'
+SUPREME_DIAMOND_QUARRY:
+  name: 'Diamantstenbrott'
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oMaskin'
+SUPREME_DUST_AMETHYST:
+  name: 'Ametistdamm'
+  type:
+  - '&7&oKomponent'
+SUPREME_DUST_GLOW_INK:
+  name: 'Lysande bläckdamm'
+  type:
+  - '&7&oKomponent'
+SUPREME_DUST_NETHERITE:
+  name: 'Netheritdamm'
+  type:
+  - '&7&oKomponent'
+SUPREME_ELECTRIC_CORE_I:
+  description:
+  - '&fTillverka kärnresurser'
+  name: 'Elektrisk kärnmaskin'
+  stats:
+  - '&6Avancerad maskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b1.0x'
+  type:
+  - '&7&oMaskin'
+SUPREME_ELECTRIC_CORE_II:
+  description:
+  - '&fAvancerad tillverkning av kärnresurser'
+  name: 'Elektrisk kärnmaskin II'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b5.0x'
+  type:
+  - '&7&oMaskin'
+SUPREME_ELECTRIC_CORE_III:
+  description:
+  - '&fAvancerad tillverkning av kärnresurser'
+  name: 'Elektrisk kärnmaskin III'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b15.0x'
+  type:
+  - '&7&oMaskin'
+SUPREME_ELECTRIC_CRAFTER_I:
+  description:
+  - '&fTillverka föremål'
+  name: 'Elektrisk tillverkare'
+  stats:
+  - '&6Avancerad maskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b1.0x'
+  type:
+  - '&7&oMaskin'
+SUPREME_ELECTRIC_CRAFTER_II:
+  description:
+  - '&fAvancerad tillverkning av föremål'
+  name: 'Elektrisk tillverkare II'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b5.0x'
+  type:
+  - '&7&oMaskin'
+SUPREME_ELECTRIC_CRAFTER_III:
+  description:
+  - '&fAvancerad tillverkning av föremål'
+  name: 'Elektrisk tillverkare III'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b15.0x'
+  type:
+  - '&7&oMaskin'
+SUPREME_ELECTRIC_GEAR_I:
+  description:
+  - '&fTillverka utrustningsnivåer'
+  name: 'Elektrisk utrustningsmaskin'
+  stats:
+  - '&6Avancerad maskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b1.0x'
+  type:
+  - '&7&oMaskin'
+SUPREME_ELECTRIC_GEAR_II:
+  description:
+  - '&fAvancerad tillverkning av utrustningsnivåer'
+  name: 'Elektrisk utrustningsmaskin II'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b5.0x'
+  type:
+  - '&7&oMaskin'
+SUPREME_ELECTRIC_GEAR_III:
+  description:
+  - '&fAvancerad tillverkning av utrustningsnivåer'
+  name: 'Elektrisk utrustningsmaskin III'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b15.0x'
+  type:
+  - '&7&oMaskin'
+SUPREME_ELECTRIC_ITEM:
+  name: "Elektriskt"
+  type:
+  - '&7&oDiverse'
+SUPREME_ELECTRIC_MAGICAL_I:
+  description:
+  - '&fTillverka magiska resurser'
+  name: 'Elektrisk magimaskin'
+  stats:
+  - '&6Avancerad maskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b1.0x'
+  type:
+  - '&7&oMaskin'
+SUPREME_ELECTRIC_MAGICAL_II:
+  description:
+  - '&fAvancerad tillverkning av magiska resurser'
+  name: 'Elektrisk magimaskin II'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b5.0x'
+  type:
+  - '&7&oMaskin'
+SUPREME_ELECTRIC_MAGICAL_III:
+  description:
+  - '&fAvancerad tillverkning av magiska resurser'
+  name: 'Elektrisk magimaskin III'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b15.0x'
+  type:
+  - '&7&oMaskin'
+SUPREME_EMPTY_MOBTECH:
+  name: 'Tom MobTech'
+  type:
+  - '&7&oKomponent'
+SUPREME_FORGE_INGOT_I:
+  description:
+  - '&fDenna maskin låter dig'
+  - '&fsmida tackresurser.'
+  name: 'Smedja för tackor'
+  stats:
+  - '&6Avancerad maskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J buffert'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMaskin'
+SUPREME_FORGE_INGOT_II:
+  description:
+  - '&fDenna maskin låter dig'
+  - '&fsmida tackresurser.'
+  name: 'Smedja för tackor II'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J buffert'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMaskin'
+SUPREME_FORGE_INGOT_III:
+  description:
+  - '&fDenna maskin låter dig'
+  - '&fsmida tackresurser.'
+  name: 'Smedja för tackor III'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J buffert'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMaskin'
+SUPREME_FORGE_MAGICAL_I:
+  description:
+  - '&fDenna maskin låter dig'
+  - '&fsmida magiska resurser.'
+  name: 'Smedja för magi'
+  stats:
+  - '&6Avancerad maskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J buffert'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMaskin'
+SUPREME_FORGE_MAGICAL_II:
+  description:
+  - '&fDenna maskin låter dig'
+  - '&fsmida magiska resurser.'
+  name: 'Smedja för magi II'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J buffert'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMaskin'
+SUPREME_FORGE_MAGICAL_III:
+  description:
+  - '&fDenna maskin låter dig'
+  - '&fsmida magiska resurser.'
+  name: 'Smedja för magi III'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J buffert'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMaskin'
+SUPREME_FOUNDRY_I:
+  description:
+  - '&fGjuteri- och syntetiseringsföremål'
+  name: 'Gjuteri'
+  stats:
+  - '&6Avancerad maskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b1.0x'
+  type:
+  - '&7&oMaskin'
+SUPREME_FOUNDRY_II:
+  description:
+  - '&fAvancerade gjuteri- och syntetiseringsföremål'
+  name: 'Gjuteri II'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b5.0x'
+  type:
+  - '&7&oMaskin'
+SUPREME_FOUNDRY_III:
+  description:
+  - '&fAvancerade gjuteri- och syntetiseringsföremål'
+  name: 'Gjuteri III'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b15.0x'
+  type:
+  - '&7&oMaskin'
+SUPREME_GENERATOR_MOB_ADVANCED:
+  name: 'Avancerad mobgenerator'
+  stats:
+  - '&eGrundläggande generator'
+  type:
+  - '&7&oMaskin'
+SUPREME_GENERATOR_MOB_BASIC:
+  name: 'Grundläggande mobgenerator'
+  stats:
+  - '&eGrundläggande generator'
+  type:
+  - '&7&oMaskin'
+SUPREME_GENERATOR_MOB_MEDIUM:
+  name: 'Medelstor mobgenerator'
+  stats:
+  - '&eGrundläggande generator'
+  type:
+  - '&7&oMaskin'
+SUPREME_GENE_BERSERK:
+  name: 'Bärsärkgen'
+  type:
+  - '&7&oKomponent'
+SUPREME_GENE_INTELLIGENCE:
+  name: 'Intelligensgen'
+  type:
+  - '&7&oKomponent'
+SUPREME_GENE_LUCK:
+  name: 'Lyckogen'
+  type:
+  - '&7&oKomponent'
+SUPREME_GOLD_QUARRY:
+  name: 'Guldstenbrott'
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oMaskin'
+SUPREME_HELMET_EPIC:
+  description:
+  - '&f&lEn episk hjälm av Thornium'
+  name: 'Episk hjälm'
+  type:
+  - '&7&oRustning'
+SUPREME_HELMET_LEGENDARY:
+  description:
+  - '&f&lEn legendarisk hjälm av Thornium'
+  name: 'Legendarisk hjälm'
+  type:
+  - '&7&oRustning'
+SUPREME_HELMET_MAGIC:
+  description:
+  - '&f&lEn magisk hjälm av Thornium'
+  name: 'Magisk hjälm'
+  type:
+  - '&7&oRustning'
+SUPREME_HELMET_RARE:
+  description:
+  - '&f&lEn sällsynt hjälm av Thornium'
+  name: 'Sällsynt hjälm'
+  type:
+  - '&7&oRustning'
+SUPREME_HELMET_SUPREME:
+  description:
+  - '&f&lEn suverän hjälm av Thornium'
+  name: 'Suverän hjälm'
+  type:
+  - '&7&oRustning'
+SUPREME_HELMET_THORNIUM:
+  description:
+  - '&f&lEn hjälm av Thornium'
+  name: 'Thornium-hjälm'
+  type:
+  - '&7&oRustning'
+SUPREME_IGNIS_GENERATOR:
+  name: 'Ignis-generator'
+  stats:
+  - '&6Avancerad generator'
+  type:
+  - '&7&oMaskin'
+SUPREME_INDUCTIVE_MACHINE:
+  name: 'Induktiv maskin'
+  type:
+  - '&7&oAvancerade komponenter'
+SUPREME_INDUCTOR_MACHINE:
+  name: 'Induktormaskin'
+  type:
+  - '&7&oAvancerade komponenter'
+SUPREME_IRIDIUM_PLATE:
+  name: 'Iridiumplatta'
+  type:
+  - '&7&oKomponenter'
+SUPREME_IRON_QUARRY:
+  name: 'Järnstenbrott'
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oMaskin'
+SUPREME_LEGGINGS_EPIC:
+  description:
+  - '&f&lEpiska benskydd av Thornium'
+  name: 'Episka benskydd'
+  type:
+  - '&7&oRustning'
+SUPREME_LEGGINGS_LEGENDARY:
+  description:
+  - '&f&lLegendariska benskydd av Thornium'
+  name: 'Legendariska benskydd'
+  type:
+  - '&7&oRustning'
+SUPREME_LEGGINGS_MAGIC:
+  description:
+  - '&f&lMagiska benskydd av Thornium'
+  name: 'Magiska benskydd'
+  type:
+  - '&7&oRustning'
+SUPREME_LEGGINGS_RARE:
+  description:
+  - '&f&lSällsynta benskydd av Thornium'
+  name: 'Sällsynta benskydd'
+  type:
+  - '&7&oRustning'
+SUPREME_LEGGINGS_SUPREME:
+  description:
+  - '&f&lSuveräna benskydd av Thornium'
+  name: 'Suveräna benskydd'
+  type:
+  - '&7&oRustning'
+SUPREME_LEGGINGS_THORNIUM:
+  description:
+  - '&f&lBenskydd av Thornium'
+  name: 'Thornium-benskydd'
+  type:
+  - '&7&oRustning'
+SUPREME_LUMIUM_GENERATOR:
+  name: 'Lumium-generator'
+  stats:
+  - '&6Avancerad generator'
+  type:
+  - '&7&oMaskin'
+SUPREME_LUX_GENERATOR:
+  name: 'Lux-generator'
+  stats:
+  - '&6Avancerad generator'
+  type:
+  - '&7&oMaskin'
+SUPREME_MAGIC_ALTAR_I:
+  description:
+  - '&fTillverka runor och magiska föremål'
+  name: 'Magiskt altare'
+  stats:
+  - '&6Avancerad maskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b1.0x'
+  type:
+  - '&7&oMaskin'
+SUPREME_MAGIC_ALTAR_II:
+  description:
+  - '&fAvancerad tillverkning av runor och magiska föremål'
+  name: 'Magiskt altare II'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b5.0x'
+  type:
+  - '&7&oMaskin'
+SUPREME_MAGIC_ALTAR_III:
+  description:
+  - '&fAvancerad tillverkning av runor och magiska föremål'
+  name: 'Magiskt altare III'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b15.0x'
+  type:
+  - '&7&oMaskin'
+SUPREME_MAIN_ITEM:
+  name: "Supreme"
+  type:
+  - '&7&oDiverse'
+SUPREME_MANGANESE_PLATE:
+  name: 'Manganplatta'
+  type:
+  - '&7&oKomponenter'
+SUPREME_MOB_COLLECTOR_MACHINE_I:
+  description:
+  - '&fDenna maskin låter dig samla '
+  - '&fföremål från närliggande mobs. (4 block)'
+  name: 'Mobsamlare'
+  stats:
+  - '&6Avancerad maskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J buffert'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMaskin'
+SUPREME_MOB_COLLECTOR_MACHINE_II:
+  description:
+  - '&fDenna maskin låter dig samla'
+  - '&f föremål från närliggande mobs. (8 block)'
+  name: 'Mobsamlare II'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J buffert'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMaskin'
+SUPREME_MOB_COLLECTOR_MACHINE_III:
+  description:
+  - '&fDenna maskin låter dig samla'
+  - '&f föremål från närliggande mobs. (16 block)'
+  name: 'Mobsamlare III'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J buffert'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMaskin'
+SUPREME_MOB_COLLECTOR_TOOL_I:
+  name: "MobTech-samlare I (Verktyg)"
+  stats:
+  - '&8⇨ &e⚡ &750 J per användning'
+  type:
+  - '&7&oVerktyg'
+SUPREME_MOB_COLLECTOR_TOOL_II:
+  name: "MobTech-samlare II (Verktyg)"
+  stats:
+  - '&8⇨ &e⚡ &750 J per användning'
+  type:
+  - '&7&oVerktyg'
+SUPREME_MOB_COLLECTOR_TOOL_III:
+  name: "MobTech-samlare III (Verktyg)"
+  stats:
+  - '&8⇨ &e⚡ &750 J per användning'
+  type:
+  - '&7&oVerktyg'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_II:
+  description:
+  - '&fDenna maskin låter dig samla '
+  - '&fMobTech-huvud från närliggande mobs. (6 block)'
+  name: 'MobTech-samlare II'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J buffert'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMaskin'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_III:
+  description:
+  - '&fDenna maskin låter dig samla '
+  - '&fMobTech-huvud från närliggande mobs. (9 block)'
+  name: 'MobTech-samlare III'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J buffert'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMaskin'
+SUPREME_MULTIBLOCK_CORE:
+  description:
+  - '&7&oHär kan du tillverka kärnor!'
+  - '&aMultiblockmaskin'
+  name: 'Kärnfabrikator'
+  type:
+  - '&7&oMaskin'
+SUPREME_MULTIBLOCK_GEAR:
+  description:
+  - '&7&oHär kan du tillverka vapen, rustning och verktyg!'
+  - '&aMultiblockmaskin'
+  name: 'Utrustningsfabrikator'
+  type:
+  - '&7&oMaskin'
+SUPREME_MULTIBLOCK_MAGICAL:
+  description:
+  - '&7&oHär kan du tillverka magiska föremål!'
+  - '&aMultiblockmaskin'
+  name: 'Magifabrikator'
+  type:
+  - '&7&oMaskin'
+SUPREME_PETRIFIER_MACHINE:
+  name: 'Försteningsmaskin'
+  type:
+  - '&7&oAvancerade komponenter'
+SUPREME_PICKAXE_EPIC:
+  description:
+  - '&f&lEn episk hacka av Thornium'
+  name: 'Episk hacka'
+  type:
+  - '&7&oVerktyg'
+SUPREME_PICKAXE_LEGENDARY:
+  description:
+  - '&f&lEn legendarisk hacka av Thornium'
+  name: 'Legendarisk hacka'
+  type:
+  - '&7&oVerktyg'
+SUPREME_PICKAXE_MAGIC:
+  description:
+  - '&f&lEn magisk hacka av Thornium'
+  name: 'Magisk hacka'
+  type:
+  - '&7&oVerktyg'
+SUPREME_PICKAXE_RARE:
+  description:
+  - '&f&lEn sällsynt hacka av Thornium'
+  name: 'Sällsynt hacka'
+  type:
+  - '&7&oVerktyg'
+SUPREME_PICKAXE_SUPREME:
+  description:
+  - '&f&lEn suverän hacka av Thornium'
+  name: 'Suverän hacka'
+  type:
+  - '&7&oVerktyg'
+SUPREME_PICKAXE_THORNIUM:
+  description:
+  - '&f&lEn hacka av Thornium'
+  name: 'Thornium-hacka'
+  type:
+  - '&7&oVerktyg'
+SUPREME_PLATINUM_PLATE:
+  name: 'Platinaplatta'
+  type:
+  - '&7&oKomponenter'
+SUPREME_RUSTLESS_MACHINE:
+  name: 'Rostfri maskin'
+  type:
+  - '&7&oAvancerade komponenter'
+SUPREME_SHIELD_EPIC:
+  description:
+  - '&f&lEn episk sköld av Thornium'
+  name: 'Episk sköld'
+  type:
+  - '&7&oVapen'
+SUPREME_SHIELD_LEGENDARY:
+  description:
+  - '&f&lEn legendarisk sköld av Thornium'
+  name: 'Legendarisk sköld'
+  type:
+  - '&7&oVapen'
+SUPREME_SHIELD_MAGIC:
+  description:
+  - '&f&lEn magisk sköld av Thornium'
+  name: 'Magisk sköld'
+  type:
+  - '&7&oVapen'
+SUPREME_SHIELD_RARE:
+  description:
+  - '&f&lEn sällsynt sköld av Thornium'
+  name: 'Sällsynt sköld'
+  type:
+  - '&7&oVapen'
+SUPREME_SHIELD_SUPREME:
+  description:
+  - '&f&lEn suverän sköld av Thornium'
+  name: 'Suverän sköld'
+  type:
+  - '&7&oVapen'
+SUPREME_SHIELD_THORNIUM:
+  description:
+  - '&f&lEn sköld av Thornium'
+  name: 'Thornium-sköld'
+  type:
+  - '&7&oVapen'
+SUPREME_SHOVEL_EPIC:
+  description:
+  - '&f&lEn episk spade av Thornium'
+  name: 'Episk spade'
+  type:
+  - '&7&oVerktyg'
+SUPREME_SHOVEL_LEGENDARY:
+  description:
+  - '&f&lEn legendarisk spade av Thornium'
+  name: 'Legendarisk spade'
+  type:
+  - '&7&oVerktyg'
+SUPREME_SHOVEL_MAGIC:
+  description:
+  - '&f&lEn magisk spade av Thornium'
+  name: 'Magisk spade'
+  type:
+  - '&7&oVerktyg'
+SUPREME_SHOVEL_RARE:
+  description:
+  - '&f&lEn sällsynt spade av Thornium'
+  name: 'Sällsynt spade'
+  type:
+  - '&7&oVerktyg'
+SUPREME_SHOVEL_SUPREME:
+  description:
+  - '&f&lEn suverän spade av Thornium'
+  name: 'Suverän spade'
+  type:
+  - '&7&oVerktyg'
+SUPREME_SHOVEL_THORNIUM:
+  description:
+  - '&f&lEn spade av Thornium'
+  name: 'Thornium-spade'
+  type:
+  - '&7&oVerktyg'
+SUPREME_STAINLESS_MACHINE:
+  name: 'Fläckfri maskin'
+  type:
+  - '&7&oAvancerade komponenter'
+SUPREME_STONE_QUARRY:
+  name: 'Stenbrott'
+  stats:
+  - '&aMedelstor maskin'
+  type:
+  - '&7&oMaskin'
+SUPREME_SUPREME:
+  description:
+  - '&7Den suveräna'
+  name: 'Suverän'
+  type:
+  - '&7&oSlutspelskomponenter'
+SUPREME_SUPREME_CAPACITOR:
+  name: 'Suverän kondensator'
+  stats:
+  - '&4Slutspelskondensator'
+  - '&8⇨ &e⚡ &7Oändlig J-kapacitet'
+  type:
+  - '&7&oMaskin'
+SUPREME_SUPREME_GENERATOR:
+  name: 'Suverän generator'
+  stats:
+  - '&4Slutspelsgenerator'
+  type:
+  - '&7&oMaskin'
+SUPREME_SUPREME_NUGGET:
+  description:
+  - '&7Från stenbrottet för suveräna klimpar'
+  name: 'Suverän klimp'
+  type:
+  - '&7&oSlutspelskomponenter'
+SUPREME_SUPREME_NUGGETS_QUARRY:
+  name: 'Stenbrott för suveräna klimpar'
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oMaskin'
+SUPREME_SWORD_EPIC:
+  description:
+  - '&f&lEtt episkt svärd av Thornium'
+  name: 'Episkt svärd'
+  type:
+  - '&7&oVapen'
+SUPREME_SWORD_LEGENDARY:
+  description:
+  - '&f&lEtt legendariskt svärd av Thornium'
+  name: 'Legendariskt svärd'
+  type:
+  - '&7&oVapen'
+SUPREME_SWORD_MAGIC:
+  description:
+  - '&f&lEtt magiskt svärd av Thornium'
+  name: 'Magiskt svärd'
+  type:
+  - '&7&oVapen'
+SUPREME_SWORD_RARE:
+  description:
+  - '&f&lEtt sällsynt svärd av Thornium'
+  name: 'Sällsynt svärd'
+  type:
+  - '&7&oVapen'
+SUPREME_SWORD_SUPREME:
+  description:
+  - '&f&lEtt suveränt svärd av Thornium'
+  name: 'Suveränt svärd'
+  type:
+  - '&7&oVapen'
+SUPREME_SWORD_THORNIUM:
+  description:
+  - '&f&lEtt svärd av Thornium'
+  name: 'Thornium-svärd'
+  type:
+  - '&7&oVapen'
+SUPREME_SYNTHETIC_AMETHYST:
+  name: 'Syntetisk ametist'
+  type:
+  - '&7&oKomponenter'
+SUPREME_SYNTHETIC_RUBY:
+  name: 'Syntetisk rubin'
+  type:
+  - '&7&oKomponenter'
+SUPREME_TECH_GENERATOR:
+  description:
+  - '&fMed hjälp av kraft och bin/golem/zombie, '
+  - '&fgenereras material långsamt.'
+  name: 'Teknikgenerator'
+  stats:
+  - '&4Slutspelsmaskin'
+  type:
+  - '&7&oMaskin'
+SUPREME_TECH_MUTATION_I:
+  description:
+  - '&fAnvänd generatormutation '
+  - '&fför att nå högre nivåer'
+  name: 'Teknikmutation'
+  stats:
+  - '&4Slutspelsmaskin'
+  type:
+  - '&7&oMaskin'
+SUPREME_TECH_MUTATION_II:
+  description:
+  - '&fAnvänd generatormutation '
+  - '&fför att nå högre nivåer'
+  - '&fChansfaktor multiplicerad med 2x'
+  name: 'Teknikmutation II'
+  stats:
+  - '&4Slutspelsmaskin'
+  type:
+  - '&7&oMaskin'
+SUPREME_TECH_MUTATION_III:
+  description:
+  - '&fAnvänd generatormutation '
+  - '&fför att nå högre nivåer'
+  - '&fChansfaktor multiplicerad med 4x'
+  name: 'Teknikmutation III'
+  stats:
+  - '&4Slutspelsmaskin'
+  type:
+  - '&7&oMaskin'
+SUPREME_TECH_ROBOTIC:
+  description:
+  - '&fAnvänd robotar på nybörjarnivå '
+  - '&fför att nå högre nivåer'
+  - '&fbehöver 64x för att uppgradera'
+  name: 'Teknikrobotik'
+  stats:
+  - '&4Slutspelsmaskin'
+  type:
+  - '&7&oMaskin'
+SUPREME_TECH_ROBOTIC_II:
+  description:
+  - '&fAnvänd robotar på nybörjarnivå '
+  - '&fför att nå högre nivåer'
+  - '&fbehöver 32x för att uppgradera'
+  name: 'Teknikrobotik II'
+  stats:
+  - '&4Slutspelsmaskin'
+  type:
+  - '&7&oMaskin'
+SUPREME_TECH_ROBOTIC_III:
+  description:
+  - '&fAnvänd robotar på nybörjarnivå '
+  - '&fför att nå högre nivåer'
+  - '&fbehöver 16x för att uppgradera'
+  name: 'Teknikrobotik III'
+  stats:
+  - '&4Slutspelsmaskin'
+  type:
+  - '&7&oMaskin'
+SUPREME_THORNERITE:
+  name: 'Thornerite'
+  type:
+  - '&7&oSlutspelskomponenter'
+SUPREME_THORNIUM_BIT:
+  description:
+  - '&7Från Thornium-stenbrottet'
+  name: 'Thornium-bit'
+  type:
+  - '&7&oSlutspelskomponenter'
+SUPREME_THORNIUM_BIT_SYNTHETIC:
+  description:
+  - '&7Från Thornium-biten'
+  name: 'Syntetisk Thornium-bit'
+  type:
+  - '&7&oSlutspelskomponenter'
+SUPREME_THORNIUM_CAPACITOR:
+  name: 'Thornium-kondensator'
+  stats:
+  - '&4Slutspelskondensator'
+  - '&8⇨ &e⚡ &7100,000,000.00 J kapacitet'
+  type:
+  - '&7&oMaskin'
+SUPREME_THORNIUM_CARBONADO:
+  description:
+  - '&7Från Thornium-tackan'
+  name: 'Thornium-carbonado'
+  type:
+  - '&7&oSlutspelskomponenter'
+SUPREME_THORNIUM_DUST:
+  description:
+  - '&7Från Thornium-biten'
+  name: 'Thornium-damm'
+  type:
+  - '&7&oSlutspelskomponenter'
+SUPREME_THORNIUM_DUST_SYNTHETIC:
+  description:
+  - '&7Från Thornium-dammet'
+  name: 'Syntetiskt Thornium-damm'
+  type:
+  - '&7&oSlutspelskomponenter'
+SUPREME_THORNIUM_ENERGIZED:
+  description:
+  - '&7Från Thornium-tackan'
+  name: 'Energiladdat Thornium'
+  type:
+  - '&7&oSlutspelskomponenter'
+SUPREME_THORNIUM_GENERATOR:
+  name: 'Thornium-generator'
+  stats:
+  - '&4Slutspelsgenerator'
+  type:
+  - '&7&oMaskin'
+SUPREME_THORNIUM_INGOT:
+  description:
+  - '&7Från Thornium-dammet'
+  name: 'Thornium-tacka'
+  type:
+  - '&7&oSlutspelskomponenter'
+SUPREME_THORNIUM_INGOT_SYNTHETIC:
+  description:
+  - '&7Från Thornium-tackan'
+  name: 'Syntetisk Thornium-tacka'
+  type:
+  - '&7&oSlutspelskomponenter'
+SUPREME_THORNIUM_QUARRY:
+  name: 'Thornium-stenbrott'
+  stats:
+  - '&6Avancerad maskin'
+  type:
+  - '&7&oMaskin'
+SUPREME_TITANIUM_AXE:
+  description:
+  - '&f&lEn yxa av titan'
+  name: 'Titanyxa'
+  type:
+  - '&7&oVerktyg'
+SUPREME_TITANIUM_BOOTS:
+  description:
+  - '&f&lStövlar av titan'
+  name: 'Titanstövlar'
+  type:
+  - '&7&oRustning'
+SUPREME_TITANIUM_CAPACITOR:
+  name: 'Titankondensator'
+  stats:
+  - '&6Avancerad kondensator'
+  - '&8⇨ &e⚡ &74,000,000.00 J kapacitet'
+  type:
+  - '&7&oMaskin'
+SUPREME_TITANIUM_CHESTPLATE:
+  description:
+  - '&f&lEn bröstplåt av titan'
+  name: 'Titanbröstplåt'
+  type:
+  - '&7&oRustning'
+SUPREME_TITANIUM_HELMET:
+  description:
+  - '&f&lEn hjälm av titan'
+  name: 'Titanhjälm'
+  type:
+  - '&7&oRustning'
+SUPREME_TITANIUM_LEGGINGS:
+  description:
+  - '&f&lEtt benskydd av titan'
+  name: 'Titanbenskydd'
+  type:
+  - '&7&oRustning'
+SUPREME_TITANIUM_PICKAXE:
+  description:
+  - '&f&lEn hacka av titan'
+  name: 'Titanhacka'
+  type:
+  - '&7&oVerktyg'
+SUPREME_TITANIUM_PLATE:
+  name: 'Titanplatta'
+  type:
+  - '&7&oKomponenter'
+SUPREME_TITANIUM_SHOVEL:
+  description:
+  - '&f&lEn spade av titan'
+  name: 'Titanspade'
+  type:
+  - '&7&oVerktyg'
+SUPREME_TITANIUM_SWORD:
+  description:
+  - '&f&lEtt svärd av titan'
+  name: 'Titansvärd'
+  type:
+  - '&7&oVapen'
+SUPREME_VENTUS_GENERATOR:
+  name: 'Ventus-generator'
+  stats:
+  - '&eGrundläggande generator'
+  type:
+  - '&7&oMaskin'
+SUPREME_VIRTUAL_AQUARIUM_I:
+  description:
+  - '&fDenna maskin låter dig samla '
+  - '&f föremål som samlas in till havs.'
+  name: 'Virtuellt akvarium'
+  stats:
+  - '&6Avancerad maskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J buffert'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMaskin'
+SUPREME_VIRTUAL_AQUARIUM_II:
+  description:
+  - '&fDenna maskin låter dig samla'
+  - '&f föremål som samlas in till havs.'
+  name: 'Virtuellt akvarium II'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J buffert'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMaskin'
+SUPREME_VIRTUAL_AQUARIUM_III:
+  description:
+  - '&fDenna maskin låter dig samla'
+  - '&f föremål som samlas in till havs.'
+  name: 'Virtuellt akvarium III'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J buffert'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMaskin'
+SUPREME_VIRTUAL_GARDEN_I:
+  description:
+  - '&fDenna maskin låter dig'
+  - '&fodla vissa resurser.'
+  name: 'Virtuell trädgård'
+  stats:
+  - '&6Avancerad maskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J buffert'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMaskin'
+SUPREME_VIRTUAL_GARDEN_II:
+  description:
+  - '&fDenna maskin låter dig'
+  - '&fodla vissa resurser.'
+  name: 'Virtuell trädgård II'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J buffert'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMaskin'
+SUPREME_VIRTUAL_GARDEN_III:
+  description:
+  - '&fDenna maskin låter dig'
+  - '&fodla vissa resurser.'
+  name: 'Virtuell trädgård III'
+  stats:
+  - '&4Slutspelsmaskin'
+  - '&8⇨ &b⚡ &7Hastighet: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J buffert'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMaskin'
+SUPREME_ZIRCONIUM_PLATE:
+  name: 'Zirkoniumplatta'
+  type:
+  - '&7&oKomponenter'

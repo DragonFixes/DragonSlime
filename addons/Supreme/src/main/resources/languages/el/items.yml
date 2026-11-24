@@ -1,0 +1,2352 @@
+MOB_TECH_COLLECTOR_MACHINE:
+  description:
+  - '&fΑυτή η μηχανή σου επιτρέπει να συλλέγεις '
+  - '&fΚεφάλι Μομπτέκ από κοντινά πλάσματα. (3 μπλοκ)'
+  name: 'Συλλέκτης Μομπτέκ I'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_ADAMANTIUM_AXE:
+  description:
+  - '&f&lΈνα τσεκούρι από Αδαμάντιουμ'
+  name: 'Τσεκούρι Αδαμάντιουμ'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_ADAMANTIUM_BOOTS:
+  description:
+  - '&f&lΜπότες από Αδαμάντιουμ'
+  name: 'Μπότες Αδαμάντιουμ'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_ADAMANTIUM_CAPACITOR:
+  name: 'Πυκνωτής Αδαμάντιουμ'
+  stats:
+  - '&6Προηγμένος Πυκνωτής'
+  - '&8⇨ &e⚡ &7Χωρητικότητα 16,000,000.00 J'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_ADAMANTIUM_CHESTPLATE:
+  description:
+  - '&f&lΈνας θώρακας από Αδαμάντιουμ'
+  name: 'Θώρακας Αδαμάντιουμ'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_ADAMANTIUM_HELMET:
+  description:
+  - '&f&lΈνα κράνος από Αδαμάντιουμ'
+  name: 'Κράνος Αδαμάντιουμ'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_ADAMANTIUM_LEGGINGS:
+  description:
+  - '&f&lΠερικνημίδες από Αδαμάντιουμ'
+  name: 'Περικνημίδες Αδαμάντιουμ'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_ADAMANTIUM_PICKAXE:
+  description:
+  - '&f&lΜια αξίνα από Αδαμάντιουμ'
+  name: 'Αξίνα Αδαμάντιουμ'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_ADAMANTIUM_PLATE:
+  name: 'Πλάκα Αδαμάντιουμ'
+  type:
+  - '&7&oΕξαρτήματα'
+SUPREME_ADAMANTIUM_SHOVEL:
+  description:
+  - '&f&lΈνα φτυάρι από Αδαμάντιουμ'
+  name: 'Φτυάρι Αδαμάντιουμ'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_ADAMANTIUM_SWORD:
+  description:
+  - '&f&lΈνα ξίφος από Αδαμάντιουμ'
+  name: 'Ξίφος Αδαμάντιουμ'
+  type:
+  - '&7&oΌπλα'
+SUPREME_ALLOY_ADAMANTIUM:
+  name: 'Κράμα Αδαμάντιουμ'
+  type:
+  - '&7&oΕξαρτήματα'
+SUPREME_ALLOY_AURUM:
+  name: 'Κράμα Αούρουμ'
+  type:
+  - '&7&oΕξαρτήματα'
+SUPREME_ALLOY_IRIDIUM:
+  name: 'Κράμα Ιριδίου'
+  type:
+  - '&7&oΕξαρτήματα'
+SUPREME_ALLOY_MANGANESE:
+  name: 'Κράμα Μαγγανίου'
+  type:
+  - '&7&oΕξαρτήματα'
+SUPREME_ALLOY_PLATINUM:
+  name: 'Κράμα Πλατίνας'
+  type:
+  - '&7&oΕξαρτήματα'
+SUPREME_ALLOY_TITANIUM:
+  name: 'Κράμα Τιτανίου'
+  type:
+  - '&7&oΕξαρτήματα'
+SUPREME_ALLOY_ZIRCONIUM:
+  name: 'Κράμα Ζιρκονίου'
+  type:
+  - '&7&oΕξαρτήματα'
+SUPREME_AQUA_GENERATOR:
+  name: 'Γεννήτρια Άκουα'
+  stats:
+  - '&6Προηγμένη Γεννήτρια'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_ATTRIBUTE_BOMB:
+  description:
+  - '&7Μια υπερ-ιδιότητα βόμβας με ειδικές επιδράσεις'
+  name: 'Ιδιότητα Βόμβας'
+  type:
+  - '&7&oΜαγικά εξαρτήματα'
+SUPREME_ATTRIBUTE_FORTUNE:
+  description:
+  - '&7Μια υπερ-ιδιότητα τύχης με ειδικές επιδράσεις'
+  name: 'Ιδιότητα Τύχης'
+  type:
+  - '&7&oΜαγικά εξαρτήματα'
+SUPREME_ATTRIBUTE_IMPETUS:
+  description:
+  - '&7Μια υπερ-ιδιότητα ορμής με ειδικές επιδράσεις'
+  name: 'Ιδιότητα Ορμής'
+  type:
+  - '&7&oΜαγικά εξαρτήματα'
+SUPREME_ATTRIBUTE_MAGIC:
+  description:
+  - '&7Μια υπερ-ιδιότητα μαγείας με ειδικές επιδράσεις'
+  name: 'Ιδιότητα Μαγείας'
+  type:
+  - '&7&oΜαγικά εξαρτήματα'
+SUPREME_AURUM_AXE:
+  description:
+  - '&f&lΈνα τσεκούρι από Αούρουμ'
+  name: 'Τσεκούρι Αούρουμ'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_AURUM_BOOTS:
+  description:
+  - '&f&lΜπότες από Αούρουμ'
+  name: 'Μπότες Αούρουμ'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_AURUM_CAPACITOR:
+  name: 'Πυκνωτής Αούρουμ'
+  stats:
+  - '&6Προηγμένος Πυκνωτής'
+  - '&8⇨ &e⚡ &7Χωρητικότητα 1,000,000.00 J'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_AURUM_CHESTPLATE:
+  description:
+  - '&f&lΈνας θώρακας από Αούρουμ'
+  name: 'Θώρακας Αούρουμ'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_AURUM_HELMET:
+  description:
+  - '&f&lΈνα κράνος από Αούρουμ'
+  name: 'Κράνος Αούρουμ'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_AURUM_LEGGINGS:
+  description:
+  - '&f&lΠερικνημίδες από Αούρουμ'
+  name: 'Περικνημίδες Αούρουμ'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_AURUM_PICKAXE:
+  description:
+  - '&f&lΜια αξίνα από Αούρουμ'
+  name: 'Αξίνα Αούρουμ'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_AURUM_PLATE:
+  name: 'Πλάκα Αούρουμ'
+  type:
+  - '&7&oΕξαρτήματα'
+SUPREME_AURUM_SHOVEL:
+  description:
+  - '&f&lΈνα φτυάρι από Αούρουμ'
+  name: 'Φτυάρι Αούρουμ'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_AURUM_SWORD:
+  description:
+  - '&f&lΈνα ξίφος από Αούρουμ'
+  name: 'Ξίφος Αούρουμ'
+  type:
+  - '&7&oΌπλα'
+SUPREME_AXE_EPIC:
+  description:
+  - '&f&lΈνα επικό τσεκούρι από Θόρνιουμ'
+  name: 'Επικό Τσεκούρι'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_AXE_LEGENDARY:
+  description:
+  - '&f&lΈνα θρυλικό τσεκούρι από Θόρνιουμ'
+  name: 'Θρυλικό Τσεκούρι'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_AXE_MAGIC:
+  description:
+  - '&f&lΈνα μαγικό τσεκούρι από Θόρνιουμ'
+  name: 'Μαγικό Τσεκούρι'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_AXE_RARE:
+  description:
+  - '&f&lΈνα σπάνιο τσεκούρι από Θόρνιουμ'
+  name: 'Σπάνιο Τσεκούρι'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_AXE_SUPREME:
+  description:
+  - '&f&lΈνα υπέρτατο τσεκούρι από Θόρνιουμ'
+  name: 'Υπέρτατο Τσεκούρι'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_AXE_THORNIUM:
+  description:
+  - '&f&lΈνα τσεκούρι από Θόρνιουμ'
+  name: 'Τσεκούρι Θόρνιουμ'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_BASIC_AQUA_GENERATOR:
+  name: 'Βασική Γεννήτρια Άκουα'
+  stats:
+  - '&eΒασική Γεννήτρια'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_BASIC_IGNIS_GENERATOR:
+  name: 'Βασική Γεννήτρια Ίγκνις'
+  stats:
+  - '&eΒασική Γεννήτρια'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_BASIC_LUMIUM_GENERATOR:
+  name: 'Βασική Γεννήτρια Λούμιουμ'
+  stats:
+  - '&6Προηγμένη Γεννήτρια'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_BASIC_LUX_GENERATOR:
+  name: 'Βασική Γεννήτρια Λουξ'
+  stats:
+  - '&eΒασική Γεννήτρια'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_BASIC_VENTUS_GENERATOR:
+  name: 'Βασική Γεννήτρια Βέντους'
+  stats:
+  - '&eΒασική Γεννήτρια'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_BLEND_MACHINE:
+  name: 'Μηχανή Ανάμειξης'
+  type:
+  - '&7&oΠροηγμένα εξαρτήματα'
+SUPREME_BOOTS_EPIC:
+  description:
+  - '&f&lΕπικές μπότες από Θόρνιουμ'
+  name: 'Επικές Μπότες'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_BOOTS_LEGENDARY:
+  description:
+  - '&f&lΘρυλικές μπότες από Θόρνιουμ'
+  name: 'Θρυλικές Μπότες'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_BOOTS_MAGIC:
+  description:
+  - '&f&lΜαγικές μπότες από Θόρνιουμ'
+  name: 'Μαγικές Μπότες'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_BOOTS_RARE:
+  description:
+  - '&f&lΣπάνιες μπότες από Θόρνιουμ'
+  name: 'Σπάνιες Μπότες'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_BOOTS_SUPREME:
+  description:
+  - '&f&lΥπέρτατες μπότες από Θόρνιουμ'
+  name: 'Υπέρτατες Μπότες'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_BOOTS_THORNIUM:
+  description:
+  - '&f&lΜπότες από Θόρνιουμ'
+  name: 'Μπότες Θόρνιουμ'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_BOW_EPIC:
+  description:
+  - '&f&lΈνα επικό τόξο από Θόρνιουμ'
+  name: 'Επικό Τόξο'
+  type:
+  - '&7&oΌπλα'
+SUPREME_BOW_LEGENDARY:
+  description:
+  - '&f&lΈνα θρυλικό τόξο από Θόρνιουμ'
+  name: 'Θρυλικό Τόξο'
+  type:
+  - '&7&oΌπλα'
+SUPREME_BOW_MAGIC:
+  description:
+  - '&f&lΈνα μαγικό τόξο από Θόρνιουμ'
+  name: 'Μαγικό Τόξο'
+  type:
+  - '&7&oΌπλα'
+SUPREME_BOW_RARE:
+  description:
+  - '&f&lΈνα σπάνιο τόξο από Θόρνιουμ'
+  name: 'Σπάνιο Τόξο'
+  type:
+  - '&7&oΌπλα'
+SUPREME_BOW_SUPREME:
+  description:
+  - '&f&lΈνα υπέρτατο τόξο από Θόρνιουμ'
+  name: 'Υπέρτατο Τόξο'
+  type:
+  - '&7&oΌπλα'
+SUPREME_BOW_THORNIUM:
+  description:
+  - '&f&lΈνα τόξο από Θόρνιουμ'
+  name: 'Τόξο Θόρνιουμ'
+  type:
+  - '&7&oΌπλα'
+SUPREME_CARD_ALUMINUM_BRASS:
+  description:
+  - '&fΑλλαγή σε παραγωγή Πλινθώματος Ορείχαλκου Αλουμινίου'
+  name: "Κάρτα Μηχανής (Πλίνθωμα Ορείχαλκου Αλουμινίου)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_ALUMINUM_BRONZE:
+  description:
+  - '&fΑλλαγή σε παραγωγή Πλινθώματος Μπρούντζου Αλουμινίου'
+  name: "Κάρτα Μηχανής (Πλίνθωμα Μπρούντζου Αλουμινίου)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_ALUMINUM_DUST:
+  description:
+  - '&fΑλλαγή σε παραγωγή Σκόνης Αλουμινίου'
+  name: "Κάρτα Μηχανής (Σκόνη Αλουμινίου)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_AMETHYST:
+  description:
+  - '&fΑλλαγή σε παραγωγή Αμέθυστου'
+  name: "Κάρτα Μηχανής (Αμέθυστος)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_ANDESITE:
+  description:
+  - '&fΑλλαγή σε παραγωγή Ανδεσίτη'
+  name: "Κάρτα Μηχανής (Ανδεσίτης)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_APPLE:
+  description:
+  - '&fΑλλαγή σε παραγωγή Μήλου'
+  name: "Κάρτα Μηχανής (Μήλο)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_BATTERY:
+  description:
+  - '&fΑλλαγή σε παραγωγή Μπαταρίας'
+  name: "Κάρτα Μηχανής (Μπαταρία)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_BILLON:
+  description:
+  - '&fΑλλαγή σε παραγωγή Πλινθώματος Μπιγιόν'
+  name: "Κάρτα Μηχανής (Πλίνθωμα Μπιγιόν)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_BLAZE_ROD:
+  description:
+  - '&fΑλλαγή σε παραγωγή Ράβδου Μπλέιζ'
+  name: "Κάρτα Μηχανής (Ράβδος Μπλέιζ)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_BRASS:
+  description:
+  - '&fΑλλαγή σε παραγωγή Πλινθώματος Ορείχαλκου'
+  name: "Κάρτα Μηχανής (Πλίνθωμα Ορείχαλκου)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_BRONZE:
+  description:
+  - '&fΑλλαγή σε παραγωγή Πλινθώματος Μπρούντζου'
+  name: "Κάρτα Μηχανής (Πλίνθωμα Μπρούντζου)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_CARBON:
+  description:
+  - '&fΑλλαγή σε παραγωγή Άνθρακα'
+  name: "Κάρτα Μηχανής (Άνθρακας)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_CARBONADO:
+  description:
+  - '&fΑλλαγή σε παραγωγή Καρμπονάδο'
+  name: "Κάρτα Μηχανής (Καρμπονάδο)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_CARBON_PRESS:
+  description:
+  - '&fΑλλαγή σε παραγωγή Συμπιεσμένου Άνθρακα'
+  name: "Κάρτα Μηχανής (Συμπιεσμένος Άνθρακας)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_CLAY:
+  description:
+  - '&fΑλλαγή σε παραγωγή Αργίλου'
+  name: "Κάρτα Μηχανής (Άργιλος)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_COAL:
+  description:
+  - '&fΑλλαγή σε παραγωγή Κάρβουνου'
+  name: "Κάρτα Μηχανής (Κάρβουνο)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_COBALT:
+  description:
+  - '&fΑλλαγή σε παραγωγή Κοβαλτίου'
+  name: "Κάρτα Μηχανής (Κοβάλτιο)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_COPPER:
+  description:
+  - '&fΑλλαγή σε παραγωγή Χαλκού'
+  name: "Κάρτα Μηχανής (Χαλκός)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_COPPER_DUST:
+  description:
+  - '&fΑλλαγή σε παραγωγή Σκόνης Χαλκού'
+  name: "Κάρτα Μηχανής (Σκόνη Χαλκού)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_CORINTHIAN_BRONZE:
+  description:
+  - '&fΑλλαγή σε παραγωγή Πλινθώματος Κορινθιακού Μπρούντζου'
+  name: "Κάρτα Μηχανής (Πλίνθωμα Κορινθιακού Μπρούντζου)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_DAMASCUS:
+  description:
+  - '&fΑλλαγή σε παραγωγή Δαμασκού'
+  name: "Κάρτα Μηχανής (Δαμασκός)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_DIAMOND:
+  description:
+  - '&fΑλλαγή σε παραγωγή Διαμαντιού'
+  name: "Κάρτα Μηχανής (Διαμάντι)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_DIORITE:
+  description:
+  - '&fΑλλαγή σε παραγωγή Διορίτη'
+  name: "Κάρτα Μηχανής (Διορίτης)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_DURALUMIN:
+  description:
+  - '&fΑλλαγή σε παραγωγή Πλινθώματος Ντουραλουμινίου'
+  name: "Κάρτα Μηχανής (Πλίνθωμα Ντουραλουμινίου)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_ELECTRIC_MOTOR:
+  description:
+  - '&fΑλλαγή σε παραγωγή Ηλεκτρικού Μοτέρ'
+  name: "Κάρτα Μηχανής (Ηλεκτρικό Μοτέρ)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_ELECTRO_MAGNET:
+  description:
+  - '&fΑλλαγή σε παραγωγή Ηλεκτρομαγνήτη'
+  name: "Κάρτα Μηχανής (Ηλεκτρομαγνήτης)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_EMERALD:
+  description:
+  - '&fΑλλαγή σε παραγωγή Σμαραγδιού'
+  name: "Κάρτα Μηχανής (Σμαράγδι)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_ENDSTONE:
+  description:
+  - '&fΑλλαγή σε παραγωγή Πέτρας του Έντερ'
+  name: "Κάρτα Μηχανής (Πέτρα του Έντερ)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_FERROSILICON:
+  description:
+  - '&fΑλλαγή σε παραγωγή Σιδηροπυριτίου'
+  name: "Κάρτα Μηχανής (Σιδηροπυρίτιο)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_GLOW_INK_SAC:
+  description:
+  - '&fΑλλαγή σε παραγωγή Σάκου Φωτεινής Μελάνης'
+  name: "Κάρτα Μηχανής (Σάκος Φωτεινής Μελάνης)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_GOLD:
+  description:
+  - '&fΑλλαγή σε παραγωγή Χρυσού'
+  name: "Κάρτα Μηχανής (Χρυσός)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_GOLD24K:
+  description:
+  - '&fΑλλαγή σε παραγωγή Χρυσού 24k'
+  name: "Κάρτα Μηχανής (Χρυσός 24k)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_GOLD_DUST:
+  description:
+  - '&fΑλλαγή σε παραγωγή Σκόνης Χρυσού'
+  name: "Κάρτα Μηχανής (Σκόνη Χρυσού)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_GRANITE:
+  description:
+  - '&fΑλλαγή σε παραγωγή Γρανίτη'
+  name: "Κάρτα Μηχανής (Γρανίτης)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_GRAVEL:
+  description:
+  - '&fΑλλαγή σε παραγωγή Χαλικιού'
+  name: "Κάρτα Μηχανής (Χαλίκι)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_HARDENED_METAL:
+  description:
+  - '&fΑλλαγή σε παραγωγή Πλινθώματος Σκληρυμένου Μετάλλου'
+  name: "Κάρτα Μηχανής (Πλίνθωμα Σκληρυμένου Μετάλλου)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_HEATING_COIL:
+  description:
+  - '&fΑλλαγή σε παραγωγή Θερμαντικού Πηνίου'
+  name: "Κάρτα Μηχανής (Θερμαντικό Πηνίο)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_HONEY_BOTTLE:
+  description:
+  - '&fΑλλαγή σε παραγωγή Μπουκαλιού Μελιού'
+  name: "Κάρτα Μηχανής (Μπουκάλι Μελιού)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_INK_SAC:
+  description:
+  - '&fΑλλαγή σε παραγωγή Σάκου Μελάνης'
+  name: "Κάρτα Μηχανής (Σάκος Μελάνης)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_IRON:
+  description:
+  - '&fΑλλαγή σε παραγωγή Σιδήρου'
+  name: "Κάρτα Μηχανής (Σίδηρος)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_IRON_DUST:
+  description:
+  - '&fΑλλαγή σε παραγωγή Σκόνης Σιδήρου'
+  name: "Κάρτα Μηχανής (Σκόνη Σιδήρου)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_LAPIS:
+  description:
+  - '&fΑλλαγή σε παραγωγή Λάπις'
+  name: "Κάρτα Μηχανής (Λάπις)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_LEAD_DUST:
+  description:
+  - '&fΑλλαγή σε παραγωγή Σκόνης Μολύβδου'
+  name: "Κάρτα Μηχανής (Σκόνη Μολύβδου)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_MAGNESIUM_DUST:
+  description:
+  - '&fΑλλαγή σε παραγωγή Σκόνης Μαγνησίου'
+  name: "Κάρτα Μηχανής (Σκόνη Μαγνησίου)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_MAGNET:
+  description:
+  - '&fΑλλαγή σε παραγωγή Μαγνήτη'
+  name: "Κάρτα Μηχανής (Μαγνήτης)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_NETHERITE:
+  description:
+  - '&fΑλλαγή σε παραγωγή Νέθεραϊτ'
+  name: "Κάρτα Μηχανής (Νέθεραϊτ)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_NETHER_STAR:
+  description:
+  - '&fΑλλαγή σε παραγωγή Αστεριού του Νέθερ'
+  name: "Κάρτα Μηχανής (Αστέρι του Νέθερ)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_NICKEL:
+  description:
+  - '&fΑλλαγή σε παραγωγή Νικελίου'
+  name: "Κάρτα Μηχανής (Νικέλιο)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_PLASTIC_SHEET:
+  description:
+  - '&fΑλλαγή σε παραγωγή Πλαστικού Φύλλου'
+  name: "Κάρτα Μηχανής (Πλαστικό Φύλλο)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_QUARTZ:
+  description:
+  - '&fΑλλαγή σε παραγωγή Κουάρτζ'
+  name: "Κάρτα Μηχανής (Κουάρτζ)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_QUARTZ_BLOCK:
+  description:
+  - '&fΑλλαγή σε παραγωγή Μπλοκ Κουάρτζ'
+  name: "Κάρτα Μηχανής (Μπλοκ Κουάρτζ)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_REDSTONE:
+  description:
+  - '&fΑλλαγή σε παραγωγή Ρεντστόουν'
+  name: "Κάρτα Μηχανής (Ρεντστόουν)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_REDSTONE_ALLOY:
+  description:
+  - '&fΑλλαγή σε παραγωγή Κράματος Ρεντστόουν'
+  name: "Κάρτα Μηχανής (Κράμα Ρεντστόουν)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_REINFORCED_ALLOY:
+  description:
+  - '&fΑλλαγή σε παραγωγή Πλινθώματος Ενισχυμένου Κράματος'
+  name: "Κάρτα Μηχανής (Πλίνθωμα Ενισχυμένου Κράματος)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_SAND:
+  description:
+  - '&fΑλλαγή σε παραγωγή Άμμου'
+  name: "Κάρτα Μηχανής (Άμμος)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_SILICON:
+  description:
+  - '&fΑλλαγή σε παραγωγή Πυριτίου'
+  name: "Κάρτα Μηχανής (Πυρίτιο)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_SILVER_DUST:
+  description:
+  - '&fΑλλαγή σε παραγωγή Σκόνης Ασημιού'
+  name: "Κάρτα Μηχανής (Σκόνη Ασημιού)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_SLIME_BALL:
+  description:
+  - '&fΑλλαγή σε παραγωγή Μπάλας Σλάιμ'
+  name: "Κάρτα Μηχανής (Μπάλα Σλάιμ)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_SNOW:
+  description:
+  - '&fΑλλαγή σε παραγωγή Χιονιού'
+  name: "Κάρτα Μηχανής (Χιόνι)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_SOLDER:
+  description:
+  - '&fΑλλαγή σε παραγωγή Πλινθώματος Συγκόλλησης'
+  name: "Κάρτα Μηχανής (Πλίνθωμα Συγκόλλησης)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_STEEL:
+  description:
+  - '&fΑλλαγή σε παραγωγή Χάλυβα'
+  name: "Κάρτα Μηχανής (Χάλυβας)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_STONE:
+  description:
+  - '&fΑλλαγή σε παραγωγή Πέτρας'
+  name: "Κάρτα Μηχανής (Πέτρα)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_SULFATE:
+  description:
+  - '&fΑλλαγή σε παραγωγή Θειικού Άλατος'
+  name: "Κάρτα Μηχανής (Θειικό Άλας)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_SYNTHETIC_DIAMOND:
+  description:
+  - '&fΑλλαγή σε παραγωγή Συνθετικού Διαμαντιού'
+  name: "Κάρτα Μηχανής (Συνθετικό Διαμάντι)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_SYNTHETIC_EMERALD:
+  description:
+  - '&fΑλλαγή σε παραγωγή Συνθετικού Σμαραγδιού'
+  name: "Κάρτα Μηχανής (Συνθετικό Σμαράγδι)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_SYNTHETIC_SAPPHIRE:
+  description:
+  - '&fΑλλαγή σε παραγωγή Συνθετικού Ζαφειριού'
+  name: "Κάρτα Μηχανής (Συνθετικό Ζαφείρι)"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_TIN_DUST:
+  description:
+  - '&fΑλλαγή σε παραγωγή Σκόνης Κασσιτέρου'
+  name: "Κάρτα Μηχανής (Σκόνη Κασσιτέρου)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_WITHER_ROSE:
+  description:
+  - '&fΑλλαγή σε παραγωγή Ρόδου του Γουίδερ'
+  name: "Κάρτα Μηχανής (Ρόδο του Γουίδερ)"
+  stats:
+  - '&eΒασική Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARD_ZINC_DUST:
+  description:
+  - '&fΑλλαγή σε παραγωγή Σκόνης Ψευδαργύρου'
+  name: "Κάρτα Μηχανής (Σκόνη Ψευδαργύρου)"
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CARRIAGE_MACHINE:
+  name: 'Μηχανή Μεταφοράς'
+  type:
+  - '&7&oΠροηγμένα εξαρτήματα'
+SUPREME_CENTER_CARD_ADVANCED:
+  description:
+  - '&fΕξάρτημα για Μηχανή που παράγει αντικείμενα'
+  name: 'Προηγμένο Εξάρτημα για Κάρτα'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CENTER_CARD_SIMPLE:
+  description:
+  - '&fΕξάρτημα για Μηχανή που παράγει αντικείμενα'
+  name: 'Βασικό Εξάρτημα για Κάρτα'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CENTER_CARD_ULTIMATE:
+  description:
+  - '&fΕξάρτημα για Μηχανή που παράγει αντικείμενα'
+  name: 'Απόλυτο Εξάρτημα για Κάρτα'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_CETRUS_AQUA:
+  description:
+  - '&7Ένα υπερ-σκήπτρο Άκουα'
+  name: 'Κέτρους Άκουα'
+  type:
+  - '&7&oΜαγικά εξαρτήματα'
+SUPREME_CETRUS_IGNIS:
+  description:
+  - '&7Ένα υπερ-σκήπτρο Ίγκνις'
+  name: 'Κέτρους Ίγκνις'
+  type:
+  - '&7&oΜαγικά εξαρτήματα'
+SUPREME_CETRUS_LUMIUM:
+  description:
+  - '&7Ένα υπερ-σκήπτρο Λούμιουμ'
+  name: 'Κέτρους Λούμιουμ'
+  type:
+  - '&7&oΜαγικά εξαρτήματα'
+SUPREME_CETRUS_LUX:
+  description:
+  - '&7Ένα υπερ-σκήπτρο Λουξ'
+  name: 'Κέτρους Λουξ'
+  type:
+  - '&7&oΜαγικά εξαρτήματα'
+SUPREME_CETRUS_VENTUS:
+  description:
+  - '&7Ένα υπερ-σκήπτρο Βέντους'
+  name: 'Κέτρους Βέντους'
+  type:
+  - '&7&oΜαγικά εξαρτήματα'
+SUPREME_CHECK_INVENTORY:
+  description:
+  - '&fΕλέγχει αν το κοντινό κιβώτιο έχει το αντικείμενο φίλτρου'
+  - '&fόλες οι πλευρές λαμβάνονται υπόψη (εύρεση του πρώτου)'
+  - '&fαν βρεθεί, αυτό το μπλοκ θα ανάψει'
+  name: "Ελεγκτής Αποθήκης"
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b1.0x'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_CHESTPLATE_EPIC:
+  description:
+  - '&f&lΈνας επικός θώρακας από Θόρνιουμ'
+  name: 'Επικός Θώρακας'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_CHESTPLATE_LEGENDARY:
+  description:
+  - '&f&lΈνας θρυλικός θώρακας από Θόρνιουμ'
+  name: 'Θρυλικός Θώρακας'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_CHESTPLATE_MAGIC:
+  description:
+  - '&f&lΈνας μαγικός θώρακας από Θόρνιουμ'
+  name: 'Μαγικός Θώρακας'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_CHESTPLATE_RARE:
+  description:
+  - '&f&lΈνας σπάνιος θώρακας από Θόρνιουμ'
+  name: 'Σπάνιος Θώρακας'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_CHESTPLATE_SUPREME:
+  description:
+  - '&f&lΈνας υπέρτατος θώρακας από Θόρνιουμ'
+  name: 'Υπέρτατος Θώρακας'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_CHESTPLATE_THORNIUM:
+  description:
+  - '&f&lΈνας θώρακας από Θόρνιουμ'
+  name: 'Θώρακας Θόρνιουμ'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_COAL_QUARRY:
+  name: 'Λατομείο Κάρβουνου'
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_CONVEYANCE_MACHINE:
+  name: 'Μηχανή Μεταγωγής'
+  type:
+  - '&7&oΠροηγμένα εξαρτήματα'
+SUPREME_CORE_ACACIA_LOG:
+  description:
+  - '&7Μια υπερ-ακακία'
+  name: 'Υπέρτατος Κορμός Ακακίας'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_ANDESITE:
+  description:
+  - '&7Ένας υπερ-ανδεσίτης'
+  name: 'Υπέρτατος ανδεσίτης'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_APPLE:
+  description:
+  - '&7Ένα υπερ-μήλο'
+  name: 'Υπέρτατο Μήλο'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_BEEF:
+  description:
+  - '&7Ένα υπερ-βοδινό'
+  name: 'Υπέρτατο βοδινό'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_BEETROOT:
+  description:
+  - '&7Ένα υπερ-παντζάρι'
+  name: 'Υπέρτατο Παντζάρι'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_BIRCH_LOG:
+  description:
+  - '&7Μια υπερ-σημύδα'
+  name: 'Υπέρτατος Κορμός Σημύδας'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_BLACK:
+  description:
+  - '&7Ένα υπερ-μαύρο'
+  name: 'Υπέρτατο Μαύρο'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_BLUE:
+  description:
+  - '&7Ένα υπερ-μπλε'
+  name: 'Υπέρτατο Μπλε'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_CARROT:
+  description:
+  - '&7Ένα Υπέρτατο Καρότο'
+  name: 'Υπέρτατο Καρότο'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_CHICKEN:
+  description:
+  - '&7Ένα υπερ-κοτόπουλο'
+  name: 'Υπέρτατο κοτόπουλο'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_CLAY:
+  description:
+  - '&7Ένας υπερ-άργιλος'
+  name: 'Υπέρτατος άργιλος'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_COAL:
+  description:
+  - '&7Ένα υπερ-κάρβουνο'
+  name: 'Υπέρτατο κάρβουνο'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_COD:
+  description:
+  - '&7Ένας υπερ-βακαλάος'
+  name: 'Υπέρτατος βακαλάος'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_CRIMSON_STEM:
+  description:
+  - '&7Ένα υπερ-βυσσινί'
+  name: 'Υπέρτατος Βυσσινί Μίσχος'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_CYAN:
+  description:
+  - '&7Ένα υπερ-κυανό'
+  name: 'Υπέρτατο Κυανό'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_DARK_OAK_LOG:
+  description:
+  - '&7Ένα υπερ-σκούρο'
+  name: 'Υπέρτατος Κορμός Σκούρας Δρυός'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_DIAMOND:
+  description:
+  - '&7Ένα υπερ-διαμάντι'
+  name: 'Υπέρτατο διαμάντι'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_DIORITE:
+  description:
+  - '&7Ένας υπερ-διορίτης'
+  name: 'Υπέρτατος διορίτης'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_EMERALD:
+  description:
+  - '&7Ένα υπερ-σμαράγδι'
+  name: 'Υπέρτατο σμαράγδι'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_ENDSTONE:
+  description:
+  - '&7Μια υπερ-πέτρα του Έντερ'
+  name: 'Υπέρτατη πέτρα του Έντερ'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_GOLD:
+  description:
+  - '&7Ένας υπερ-χρυσός'
+  name: 'Υπέρτατος χρυσός'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_GRANITE:
+  description:
+  - '&7Ένας υπερ-γρανίτης'
+  name: 'Υπέρτατος γρανίτης'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_GRAVEL:
+  description:
+  - '&7Ένα υπερ-χαλίκι'
+  name: 'Υπέρτατο χαλίκι'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_GRAY:
+  description:
+  - '&7Ένα υπερ-γκρι'
+  name: 'Υπέρτατο Γκρι'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_GREEN:
+  description:
+  - '&7Ένα υπερ-πράσινο'
+  name: 'Υπέρτατο Πράσινο'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_IRON:
+  description:
+  - '&7Ένας υπερ-σίδηρος'
+  name: 'Υπέρτατος σίδηρος'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_JUNGLE_LOG:
+  description:
+  - '&7Μια υπερ-ζούγκλα'
+  name: 'Υπέρτατος Κορμός Ζούγκλας'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_LAPIS:
+  description:
+  - '&7Ένα υπερ-λάπις'
+  name: 'Υπέρτατο λάπις'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_MELON:
+  description:
+  - '&7Ένα υπερ-πεπόνι'
+  name: 'Υπέρτατο Πεπόνι'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_MUTTON:
+  description:
+  - '&7Ένα υπερ-αρνί'
+  name: 'Υπέρτατο αρνί'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_NETHERITE:
+  description:
+  - '&7Ένα υπερ-νέθεραϊτ'
+  name: 'Υπέρτατο νέθεραϊτ'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_OAK_LOG:
+  description:
+  - '&7Μια υπερ-δρυς'
+  name: 'Υπέρτατος Κορμός Δρυός'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_OF_ALLOY:
+  description:
+  - '&7Αυτός ο πυρήνας περιέχει διάφορα μεταλλεύματα'
+  - '&7που έχουν συλλεχθεί σε όλον τον κόσμο.'
+  name: 'Πυρήνας Κράματος'
+  type:
+  - '&7&oΜαγικά εξαρτήματα'
+SUPREME_CORE_OF_BLOCK:
+  description:
+  - '&7Αυτός ο πυρήνας περιέχει διάφορα μπλοκ'
+  - '&7που έχουν συλλεχθεί σε όλον τον κόσμο.'
+  name: 'Πυρήνας Μπλοκ'
+  type:
+  - '&7&oΜαγικά εξαρτήματα'
+SUPREME_CORE_OF_COLOR:
+  description:
+  - '&7Αυτός ο πυρήνας περιέχει διάφορα χρώματα'
+  - '&7που έχουν συλλεχθεί σε όλον τον κόσμο.'
+  name: 'Πυρήνας Χρώματος'
+  type:
+  - '&7&oΜαγικά εξαρτήματα'
+SUPREME_CORE_OF_DEATH:
+  description:
+  - '&7Αυτός ο πυρήνας περιέχει τις ψυχές '
+  - '&7διάφορων οντοτήτων που πέρασαν στο επέκεινα.'
+  name: 'Πυρήνας Θανάτου'
+  type:
+  - '&7&oΜαγικά εξαρτήματα'
+SUPREME_CORE_OF_LIFE:
+  description:
+  - '&7Αυτός ο πυρήνας περιέχει θραύσματα ζωής'
+  - '&7που έχουν συλλεχθεί από τον κόσμο.'
+  name: 'Πυρήνας Ζωής'
+  type:
+  - '&7&oΜαγικά εξαρτήματα'
+SUPREME_CORE_OF_NATURE:
+  description:
+  - '&7Αυτός ο πυρήνας περιέχει διάφορα φυσικά'
+  - '&7που έχουν συλλεχθεί σε όλον τον κόσμο.'
+  name: 'Πυρήνας Φύσης'
+  type:
+  - '&7&oΜαγικά εξαρτήματα'
+SUPREME_CORE_PINK:
+  description:
+  - '&7Ένα υπερ-ροζ'
+  name: 'Υπέρτατο ροζ'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_PORKCHOP:
+  description:
+  - '&7Ένα υπερ-μπέικον'
+  name: "Υπέρτατη Χοιρινή Μπριζόλα"
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_POTATO:
+  description:
+  - '&7Μια υπερ-πατάτα'
+  name: 'Υπέρτατη Πατάτα'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_PUMPKIN:
+  description:
+  - '&7Μια υπερ-κολοκύθα'
+  name: 'Υπέρτατη Κολοκύθα'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_PURPLE:
+  description:
+  - '&7Ένα υπερ-μοβ'
+  name: 'Υπέρτατο Μοβ'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_QUARTZ:
+  description:
+  - '&7Ένα υπερ-κουάρτζ'
+  name: 'Υπέρτατο κουάρτζ'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_RED:
+  description:
+  - '&7Ένα υπερ-κόκκινο'
+  name: 'Υπέρτατο Κόκκινο'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_REDSTONE:
+  description:
+  - '&7Ένα υπερ-ρεντστόουν'
+  name: 'Υπέρτατο ρεντστόουν'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_SALMON:
+  description:
+  - '&7Ένας υπερ-σολομός'
+  name: 'Υπέρτατος σολομός'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_SAND:
+  description:
+  - '&7Μια υπερ-άμμος'
+  name: 'Υπέρτατη άμμος'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_SNOW:
+  description:
+  - '&7Ένα υπερ-χιόνι'
+  name: 'Υπέρτατο χιόνι'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_SPIDER_EYE:
+  description:
+  - '&7Ένα υπερ-μάτι'
+  name: "Υπέρτατο Μάτι Αράχνης"
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_SPRUCE_LOG:
+  description:
+  - '&7Μια υπερ-ελάτη'
+  name: 'Υπέρτατος Κορμός Ελάτης'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_STONE:
+  description:
+  - '&7Ένα υπερ-λιθόστρωτο'
+  name: 'Υπέρτατο λιθόστρωτο'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_STRING:
+  description:
+  - '&7Ένα υπερ-λουρί'
+  name: "Υπέρτατο Νήμα"
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_SUGAR_CANE:
+  description:
+  - '&7Ένα υπερ-ζαχαροκάλαμο'
+  name: 'Υπέρτατο Ζαχαροκάλαμο'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_SWEET_BERRIES:
+  description:
+  - '&7Μερικά υπερ-μούρα'
+  name: 'Υπέρτατα Γλυκά Μούρα'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_TEAR:
+  description:
+  - '&7Ένα υπερ-δάκρυ'
+  name: "Υπέρτατο Δάκρυ Γκαστ"
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_WARPED_STEM:
+  description:
+  - '&7Ένα υπερ-στρεβλό'
+  name: 'Υπέρτατος Στρεβλός Μίσχος'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_WHEAT:
+  description:
+  - '&7Ένα υπερ-σιτάρι'
+  name: 'Υπέρτατο Σιτάρι'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_WITHER_ROSE:
+  description:
+  - '&7Ένα υπερ-ρόδο'
+  name: 'Υπέρτατο Ρόδο του Γουίδερ'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CORE_YELLOW:
+  description:
+  - '&7Ένα υπερ-κίτρινο'
+  name: 'Υπέρτατο Κίτρινο'
+  type:
+  - '&7&oΒασικά εξαρτήματα'
+SUPREME_CRYSTALLIZER_MACHINE:
+  name: 'Μηχανή Κρυστάλλωσης'
+  type:
+  - '&7&oΠροηγμένα εξαρτήματα'
+SUPREME_DIAMOND_QUARRY:
+  name: 'Λατομείο Διαμαντιών'
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_DUST_AMETHYST:
+  name: 'Σκόνη Αμέθυστου'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_DUST_GLOW_INK:
+  name: 'Σκόνη Φωτεινής Μελάνης'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_DUST_NETHERITE:
+  name: 'Σκόνη Νέθεραϊτ'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_ELECTRIC_CORE_I:
+  description:
+  - '&fΚατασκευή πόρων πυρήνα'
+  name: 'Μηχανή Ηλεκτρικού Πυρήνα'
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b1.0x'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_ELECTRIC_CORE_II:
+  description:
+  - '&fΠροηγμένη κατασκευή πόρων πυρήνα'
+  name: 'Μηχανή Ηλεκτρικού Πυρήνα II'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b5.0x'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_ELECTRIC_CORE_III:
+  description:
+  - '&fΠροηγμένη κατασκευή πόρων πυρήνα'
+  name: 'Μηχανή Ηλεκτρικού Πυρήνα III'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b15.0x'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_ELECTRIC_CRAFTER_I:
+  description:
+  - '&fΚατασκευή Αντικειμένων'
+  name: 'Ηλεκτρικός Κατασκευαστής'
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b1.0x'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_ELECTRIC_CRAFTER_II:
+  description:
+  - '&fΠροηγμένη Κατασκευή Αντικειμένων'
+  name: 'Ηλεκτρικός Κατασκευαστής II'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b5.0x'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_ELECTRIC_CRAFTER_III:
+  description:
+  - '&fΠροηγμένη Κατασκευή Αντικειμένων'
+  name: 'Ηλεκτρικός Κατασκευαστής III'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b15.0x'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_ELECTRIC_GEAR_I:
+  description:
+  - '&fΚατασκευή βαθμίδας εξοπλισμού'
+  name: 'Μηχανή Ηλεκτρικού Εξοπλισμού'
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b1.0x'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_ELECTRIC_GEAR_II:
+  description:
+  - '&fΠροηγμένη κατασκευή βαθμίδας εξοπλισμού'
+  name: 'Μηχανή Ηλεκτρικού Εξοπλισμού II'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b5.0x'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_ELECTRIC_GEAR_III:
+  description:
+  - '&fΠροηγμένη κατασκευή βαθμίδας εξοπλισμού'
+  name: 'Μηχανή Ηλεκτρικού Εξοπλισμού III'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b15.0x'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_ELECTRIC_ITEM:
+  name: "Ηλεκτρικά"
+  type:
+  - '&7&oΔιάφορα'
+SUPREME_ELECTRIC_MAGICAL_I:
+  description:
+  - '&fΚατασκευή μαγικών πόρων'
+  name: 'Ηλεκτρική Μαγική Μηχανή'
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b1.0x'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_ELECTRIC_MAGICAL_II:
+  description:
+  - '&fΠροηγμένη κατασκευή μαγικών πόρων'
+  name: 'Ηλεκτρική Μαγική Μηχανή II'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b5.0x'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_ELECTRIC_MAGICAL_III:
+  description:
+  - '&fΠροηγμένη κατασκευή μαγικών πόρων'
+  name: 'Ηλεκτρική Μαγική Μηχανή III'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b15.0x'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_EMPTY_MOBTECH:
+  name: 'Άδειο Μομπτέκ'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_FORGE_INGOT_I:
+  description:
+  - '&fΑυτή η μηχανή σου επιτρέπει να'
+  - '&fσφυρηλατείς πόρους πλινθωμάτων.'
+  name: 'Καμίνι Πλινθωμάτων'
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b1.0x'
+  - '&8⇨ &e⚡ &7Απόθεμα 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_FORGE_INGOT_II:
+  description:
+  - '&fΑυτή η μηχανή σου επιτρέπει να'
+  - '&fσφυρηλατείς πόρους πλινθωμάτων.'
+  name: 'Καμίνι Πλινθωμάτων II'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b5.0x'
+  - '&8⇨ &e⚡ &7Απόθεμα 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_FORGE_INGOT_III:
+  description:
+  - '&fΑυτή η μηχανή σου επιτρέπει να'
+  - '&fσφυρηλατείς πόρους πλινθωμάτων.'
+  name: 'Καμίνι Πλινθωμάτων III'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b15.0x'
+  - '&8⇨ &e⚡ &7Απόθεμα 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_FORGE_MAGICAL_I:
+  description:
+  - '&fΑυτή η μηχανή σου επιτρέπει να'
+  - '&fσφυρηλατείς μαγικούς πόρους.'
+  name: 'Μαγικό Καμίνι'
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b1.0x'
+  - '&8⇨ &e⚡ &7Απόθεμα 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_FORGE_MAGICAL_II:
+  description:
+  - '&fΑυτή η μηχανή σου επιτρέπει να'
+  - '&fσφυρηλατείς μαγικούς πόρους.'
+  name: 'Μαγικό Καμίνι II'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b5.0x'
+  - '&8⇨ &e⚡ &7Απόθεμα 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_FORGE_MAGICAL_III:
+  description:
+  - '&fΑυτή η μηχανή σου επιτρέπει να'
+  - '&fσφυρηλατείς μαγικούς πόρους.'
+  name: 'Μαγικό Καμίνι III'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b15.0x'
+  - '&8⇨ &e⚡ &7Απόθεμα 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_FOUNDRY_I:
+  description:
+  - '&fΧυτήριο και Σύνθεση Αντικειμένων'
+  name: 'Χυτήριο'
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b1.0x'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_FOUNDRY_II:
+  description:
+  - '&fΠροηγμένο Χυτήριο και Σύνθεση Αντικειμένων'
+  name: 'Χυτήριο II'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b5.0x'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_FOUNDRY_III:
+  description:
+  - '&fΠροηγμένο Χυτήριο και Σύνθεση Αντικειμένων'
+  name: 'Χυτήριο III'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b15.0x'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_GENERATOR_MOB_ADVANCED:
+  name: 'Προηγμένη Γεννήτρια Πλασμάτων'
+  stats:
+  - '&eΒασική Γεννήτρια'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_GENERATOR_MOB_BASIC:
+  name: 'Βασική Γεννήτρια Πλασμάτων'
+  stats:
+  - '&eΒασική Γεννήτρια'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_GENERATOR_MOB_MEDIUM:
+  name: 'Μεσαία Γεννήτρια Πλασμάτων'
+  stats:
+  - '&eΒασική Γεννήτρια'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_GENE_BERSERK:
+  name: 'Γονίδιο Μανίας'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_GENE_INTELLIGENCE:
+  name: 'Γονίδιο Ευφυΐας'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_GENE_LUCK:
+  name: 'Γονίδιο Τύχης'
+  type:
+  - '&7&oΕξάρτημα'
+SUPREME_GOLD_QUARRY:
+  name: 'Λατομείο Χρυσού'
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_HELMET_EPIC:
+  description:
+  - '&f&lΈνα επικό κράνος από Θόρνιουμ'
+  name: 'Επικό Κράνος'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_HELMET_LEGENDARY:
+  description:
+  - '&f&lΈνα θρυλικό κράνος από Θόρνιουμ'
+  name: 'Θρυλικό Κράνος'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_HELMET_MAGIC:
+  description:
+  - '&f&lΈνα μαγικό κράνος από Θόρνιουμ'
+  name: 'Μαγικό Κράνος'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_HELMET_RARE:
+  description:
+  - '&f&lΈνα σπάνιο κράνος από Θόρνιουμ'
+  name: 'Σπάνιο Κράνος'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_HELMET_SUPREME:
+  description:
+  - '&f&lΈνα υπέρτατο κράνος από Θόρνιουμ'
+  name: 'Υπέρτατο Κράνος'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_HELMET_THORNIUM:
+  description:
+  - '&f&lΈνα κράνος από Θόρνιουμ'
+  name: 'Κράνος Θόρνιουμ'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_IGNIS_GENERATOR:
+  name: 'Γεννήτρια Ίγκνις'
+  stats:
+  - '&6Προηγμένη Γεννήτρια'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_INDUCTIVE_MACHINE:
+  name: 'Επαγωγική Μηχανή'
+  type:
+  - '&7&oΠροηγμένα εξαρτήματα'
+SUPREME_INDUCTOR_MACHINE:
+  name: 'Μηχανή Επαγωγέα'
+  type:
+  - '&7&oΠροηγμένα εξαρτήματα'
+SUPREME_IRIDIUM_PLATE:
+  name: 'Πλάκα Ιριδίου'
+  type:
+  - '&7&oΕξαρτήματα'
+SUPREME_IRON_QUARRY:
+  name: 'Λατομείο Σιδήρου'
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_LEGGINGS_EPIC:
+  description:
+  - '&f&lΕπικές περικνημίδες από Θόρνιουμ'
+  name: 'Επικές Περικνημίδες'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_LEGGINGS_LEGENDARY:
+  description:
+  - '&f&lΘρυλικές περικνημίδες από Θόρνιουμ'
+  name: 'Θρυλικές Περικνημίδες'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_LEGGINGS_MAGIC:
+  description:
+  - '&f&lΜαγικές περικνημίδες από Θόρνιουμ'
+  name: 'Μαγικές Περικνημίδες'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_LEGGINGS_RARE:
+  description:
+  - '&f&lΣπάνιες περικνημίδες από Θόρνιουμ'
+  name: 'Σπάνιες Περικνημίδες'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_LEGGINGS_SUPREME:
+  description:
+  - '&f&lΥπέρτατες περικνημίδες από Θόρνιουμ'
+  name: 'Υπέρτατες Περικνημίδες'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_LEGGINGS_THORNIUM:
+  description:
+  - '&f&lΠερικνημίδες από Θόρνιουμ'
+  name: 'Περικνημίδες Θόρνιουμ'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_LUMIUM_GENERATOR:
+  name: 'Γεννήτρια Λούμιουμ'
+  stats:
+  - '&6Προηγμένη Γεννήτρια'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_LUX_GENERATOR:
+  name: 'Γεννήτρια Λουξ'
+  stats:
+  - '&6Προηγμένη Γεννήτρια'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_MAGIC_ALTAR_I:
+  description:
+  - '&fΚατασκευή Ρούνων και Μαγικών Αντικειμένων'
+  name: 'Μαγικός Βωμός'
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b1.0x'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_MAGIC_ALTAR_II:
+  description:
+  - '&fΠροηγμένη Κατασκευή Ρούνων και Μαγικών Αντικειμένων'
+  name: 'Μαγικός Βωμός II'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b5.0x'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_MAGIC_ALTAR_III:
+  description:
+  - '&fΠροηγμένη Κατασκευή Ρούνων και Μαγικών Αντικειμένων'
+  name: 'Μαγικός Βωμός III'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b15.0x'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_MAIN_ITEM:
+  name: "Supreme"
+  type:
+  - '&7&oΔιάφορα'
+SUPREME_MANGANESE_PLATE:
+  name: 'Πλάκα Μαγγανίου'
+  type:
+  - '&7&oΕξαρτήματα'
+SUPREME_MOB_COLLECTOR_MACHINE_I:
+  description:
+  - '&fΑυτή η μηχανή σου επιτρέπει να συλλέγεις '
+  - '&fαντικείμενα από κοντινά πλάσματα. (4 μπλοκ)'
+  name: 'Συλλέκτης Πλασμάτων'
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b1.0x'
+  - '&8⇨ &e⚡ &7Απόθεμα 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_MOB_COLLECTOR_MACHINE_II:
+  description:
+  - '&fΑυτή η μηχανή σου επιτρέπει να συλλέγεις'
+  - '&f αντικείμενα από κοντινά πλάσματα. (8 μπλοκ)'
+  name: 'Συλλέκτης Πλασμάτων II'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b5.0x'
+  - '&8⇨ &e⚡ &7Απόθεμα 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_MOB_COLLECTOR_MACHINE_III:
+  description:
+  - '&fΑυτή η μηχανή σου επιτρέπει να συλλέγεις'
+  - '&f αντικείμενα από κοντινά πλάσματα. (16 μπλοκ)'
+  name: 'Συλλέκτης Πλασμάτων III'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b15.0x'
+  - '&8⇨ &e⚡ &7Απόθεμα 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_MOB_COLLECTOR_TOOL_I:
+  name: "Συλλέκτης Μομπτέκ I (Εργαλείο)"
+  stats:
+  - '&8⇨ &e⚡ &750 J ανά χρήση'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_MOB_COLLECTOR_TOOL_II:
+  name: "Συλλέκτης Μομπτέκ II (Εργαλείο)"
+  stats:
+  - '&8⇨ &e⚡ &750 J ανά χρήση'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_MOB_COLLECTOR_TOOL_III:
+  name: "Συλλέκτης Μομπτέκ III (Εργαλείο)"
+  stats:
+  - '&8⇨ &e⚡ &750 J ανά χρήση'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_II:
+  description:
+  - '&fΑυτή η μηχανή σου επιτρέπει να συλλέγεις '
+  - '&fΚεφάλι Μομπτέκ από κοντινά πλάσματα. (6 μπλοκ)'
+  name: 'Συλλέκτης Μομπτέκ II'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b1.0x'
+  - '&8⇨ &e⚡ &7Απόθεμα 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_III:
+  description:
+  - '&fΑυτή η μηχανή σου επιτρέπει να συλλέγεις '
+  - '&fΚεφάλι Μομπτέκ από κοντινά πλάσματα. (9 μπλοκ)'
+  name: 'Συλλέκτης Μομπτέκ III'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b1.0x'
+  - '&8⇨ &e⚡ &7Απόθεμα 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_MULTIBLOCK_CORE:
+  description:
+  - '&7&oΕδώ μπορείς να κατασκευάσεις πυρήνες!'
+  - '&aΜηχανή Πολυμπλόκ'
+  name: 'Κατασκευαστής Πυρήνων'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_MULTIBLOCK_GEAR:
+  description:
+  - '&7&oΕδώ μπορείς να κατασκευάσεις όπλα, πανοπλίες και εργαλεία!'
+  - '&aΜηχανή Πολυμπλόκ'
+  name: 'Κατασκευαστής Εξοπλισμού'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_MULTIBLOCK_MAGICAL:
+  description:
+  - '&7&oΕδώ μπορείς να κατασκευάσεις μαγικά!'
+  - '&aΜηχανή Πολυμπλόκ'
+  name: 'Μαγικός Κατασκευαστής'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_PETRIFIER_MACHINE:
+  name: 'Μηχανή Απολίθωσης'
+  type:
+  - '&7&oΠροηγμένα εξαρτήματα'
+SUPREME_PICKAXE_EPIC:
+  description:
+  - '&f&lΜια επική αξίνα από Θόρνιουμ'
+  name: 'Επική Αξίνα'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_PICKAXE_LEGENDARY:
+  description:
+  - '&f&lΜια θρυλική αξίνα από Θόρνιουμ'
+  name: 'Θρυλική Αξίνα'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_PICKAXE_MAGIC:
+  description:
+  - '&f&lΜια μαγική αξίνα από Θόρνιουμ'
+  name: 'Μαγική Αξίνα'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_PICKAXE_RARE:
+  description:
+  - '&f&lΜια σπάνια αξίνα από Θόρνιουμ'
+  name: 'Σπάνια Αξίνα'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_PICKAXE_SUPREME:
+  description:
+  - '&f&lΜια υπέρτατη αξίνα από Θόρνιουμ'
+  name: 'Υπέρτατη Αξίνα'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_PICKAXE_THORNIUM:
+  description:
+  - '&f&lΜια αξίνα από Θόρνιουμ'
+  name: 'Αξίνα Θόρνιουμ'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_PLATINUM_PLATE:
+  name: 'Πλάκα Πλατίνας'
+  type:
+  - '&7&oΕξαρτήματα'
+SUPREME_RUSTLESS_MACHINE:
+  name: 'Μηχανή Χωρίς Σκουριά'
+  type:
+  - '&7&oΠροηγμένα εξαρτήματα'
+SUPREME_SHIELD_EPIC:
+  description:
+  - '&f&lΜια επική ασπίδα από Θόρνιουμ'
+  name: 'Επική Ασπίδα'
+  type:
+  - '&7&oΌπλα'
+SUPREME_SHIELD_LEGENDARY:
+  description:
+  - '&f&lΜια θρυλική ασπίδα από Θόρνιουμ'
+  name: 'Θρυλική Ασπίδα'
+  type:
+  - '&7&oΌπλα'
+SUPREME_SHIELD_MAGIC:
+  description:
+  - '&f&lΜια μαγική ασπίδα από Θόρνιουμ'
+  name: 'Μαγική Ασπίδα'
+  type:
+  - '&7&oΌπλα'
+SUPREME_SHIELD_RARE:
+  description:
+  - '&f&lΜια σπάνια ασπίδα από Θόρνιουμ'
+  name: 'Σπάνια Ασπίδα'
+  type:
+  - '&7&oΌπλα'
+SUPREME_SHIELD_SUPREME:
+  description:
+  - '&f&lΜια υπέρτατη ασπίδα από Θόρνιουμ'
+  name: 'Υπέρτατη Ασπίδα'
+  type:
+  - '&7&oΌπλα'
+SUPREME_SHIELD_THORNIUM:
+  description:
+  - '&f&lΜια ασπίδα από Θόρνιουμ'
+  name: 'Ασπίδα Θόρνιουμ'
+  type:
+  - '&7&oΌπλα'
+SUPREME_SHOVEL_EPIC:
+  description:
+  - '&f&lΈνα επικό φτυάρι από Θόρνιουμ'
+  name: 'Επικό Φτυάρι'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_SHOVEL_LEGENDARY:
+  description:
+  - '&f&lΈνα θρυλικό φτυάρι από Θόρνιουμ'
+  name: 'Θρυλικό Φτυάρι'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_SHOVEL_MAGIC:
+  description:
+  - '&f&lΈνα μαγικό φτυάρι από Θόρνιουμ'
+  name: 'Μαγικό Φτυάρι'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_SHOVEL_RARE:
+  description:
+  - '&f&lΈνα σπάνιο φτυάρι από Θόρνιουμ'
+  name: 'Σπάνιο Φτυάρι'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_SHOVEL_SUPREME:
+  description:
+  - '&f&lΈνα υπέρτατο φτυάρι από Θόρνιουμ'
+  name: 'Υπέρτατο Φτυάρι'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_SHOVEL_THORNIUM:
+  description:
+  - '&f&lΈνα φτυάρι από Θόρνιουμ'
+  name: 'Φτυάρι Θόρνιουμ'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_STAINLESS_MACHINE:
+  name: 'Ανοξείδωτη Μηχανή'
+  type:
+  - '&7&oΠροηγμένα εξαρτήματα'
+SUPREME_STONE_QUARRY:
+  name: 'Λατομείο Πέτρας'
+  stats:
+  - '&aΜεσαία Μηχανή'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_SUPREME:
+  description:
+  - '&7Το Υπέρτατο'
+  name: 'Υπέρτατο'
+  type:
+  - '&7&oΕξαρτήματα τελικού σταδίου'
+SUPREME_SUPREME_CAPACITOR:
+  name: 'Υπέρτατος Πυκνωτής'
+  stats:
+  - '&4Πυκνωτής Τελικού Σταδίου'
+  - '&8⇨ &e⚡ &7Άπειρη Χωρητικότητα J'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_SUPREME_GENERATOR:
+  name: 'Υπέρτατη Γεννήτρια'
+  stats:
+  - '&4Γεννήτρια Τελικού Σταδίου'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_SUPREME_NUGGET:
+  description:
+  - '&7Από το Λατομείο Υπέρτατων Ψηγμάτων'
+  name: 'Υπέρτατο Ψήγμα'
+  type:
+  - '&7&oΕξαρτήματα τελικού σταδίου'
+SUPREME_SUPREME_NUGGETS_QUARRY:
+  name: 'Λατομείο Υπέρτατων Ψηγμάτων'
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_SWORD_EPIC:
+  description:
+  - '&f&lΈνα επικό ξίφος από Θόρνιουμ'
+  name: 'Επικό Ξίφος'
+  type:
+  - '&7&oΌπλα'
+SUPREME_SWORD_LEGENDARY:
+  description:
+  - '&f&lΈνα θρυλικό ξίφος από Θόρνιουμ'
+  name: 'Θρυλικό Ξίφος'
+  type:
+  - '&7&oΌπλα'
+SUPREME_SWORD_MAGIC:
+  description:
+  - '&f&lΈνα μαγικό ξίφος από Θόρνιουμ'
+  name: 'Μαγικό Ξίφος'
+  type:
+  - '&7&oΌπλα'
+SUPREME_SWORD_RARE:
+  description:
+  - '&f&lΈνα σπάνιο ξίφος από Θόρνιουμ'
+  name: 'Σπάνιο Ξίφος'
+  type:
+  - '&7&oΌπλα'
+SUPREME_SWORD_SUPREME:
+  description:
+  - '&f&lΈνα υπέρτατο ξίφος από Θόρνιουμ'
+  name: 'Υπέρτατο Ξίφος'
+  type:
+  - '&7&oΌπλα'
+SUPREME_SWORD_THORNIUM:
+  description:
+  - '&f&lΈνα ξίφος από Θόρνιουμ'
+  name: 'Ξίφος Θόρνιουμ'
+  type:
+  - '&7&oΌπλα'
+SUPREME_SYNTHETIC_AMETHYST:
+  name: 'Συνθετικός Αμέθυστος'
+  type:
+  - '&7&oΕξαρτήματα'
+SUPREME_SYNTHETIC_RUBY:
+  name: 'Συνθετικό Ρουμπίνι'
+  type:
+  - '&7&oΕξαρτήματα'
+SUPREME_TECH_GENERATOR:
+  description:
+  - '&fΧρησιμοποιώντας ισχύ και μέλισσες/γκόλεμ/ζόμπι, '
+  - '&fπαράγει αργά υλικά.'
+  name: 'Τεχνολογική Γεννήτρια'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_TECH_MUTATION_I:
+  description:
+  - '&fΧρησιμοποίησε γεννήτρια μετάλλαξης '
+  - '&fγια να προχωρήσεις σε υψηλότερα επίπεδα'
+  name: 'Τεχνολογική Μετάλλαξη'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_TECH_MUTATION_II:
+  description:
+  - '&fΧρησιμοποίησε γεννήτρια μετάλλαξης '
+  - '&fγια να προχωρήσεις σε υψηλότερα επίπεδα'
+  - '&fΠαράγοντας πιθανότητας επί 2x'
+  name: 'Τεχνολογική Μετάλλαξη II'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_TECH_MUTATION_III:
+  description:
+  - '&fΧρησιμοποίησε γεννήτρια μετάλλαξης '
+  - '&fγια να προχωρήσεις σε υψηλότερα επίπεδα'
+  - '&fΠαράγοντας πιθανότητας επί 4x'
+  name: 'Τεχνολογική Μετάλλαξη III'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_TECH_ROBOTIC:
+  description:
+  - '&fΧρησιμοποίησε ρομπότ αρχάριου επιπέδου '
+  - '&fγια να προχωρήσεις σε υψηλότερα επίπεδα'
+  - '&fχρειάζεται 64x για αναβάθμιση'
+  name: 'Τεχνολογική Ρομποτική'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_TECH_ROBOTIC_II:
+  description:
+  - '&fΧρησιμοποίησε ρομπότ αρχάριου επιπέδου '
+  - '&fγια να προχωρήσεις σε υψηλότερα επίπεδα'
+  - '&fχρειάζεται 32x για αναβάθμιση'
+  name: 'Τεχνολογική Ρομποτική II'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_TECH_ROBOTIC_III:
+  description:
+  - '&fΧρησιμοποίησε ρομπότ αρχάριου επιπέδου '
+  - '&fγια να προχωρήσεις σε υψηλότερα επίπεδα'
+  - '&fχρειάζεται 16x για αναβάθμιση'
+  name: 'Τεχνολογική Ρομποτική III'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_THORNERITE:
+  name: 'Θορνερίτης'
+  type:
+  - '&7&oΕξαρτήματα τελικού σταδίου'
+SUPREME_THORNIUM_BIT:
+  description:
+  - '&7Από το Λατομείο Θόρνιουμ'
+  name: 'Θραύσμα Θόρνιουμ'
+  type:
+  - '&7&oΕξαρτήματα τελικού σταδίου'
+SUPREME_THORNIUM_BIT_SYNTHETIC:
+  description:
+  - '&7Από το Θραύσμα Θόρνιουμ'
+  name: 'Συνθετικό Θραύσμα Θόρνιουμ'
+  type:
+  - '&7&oΕξαρτήματα τελικού σταδίου'
+SUPREME_THORNIUM_CAPACITOR:
+  name: 'Πυκνωτής Θόρνιουμ'
+  stats:
+  - '&4Πυκνωτής Τελικού Σταδίου'
+  - '&8⇨ &e⚡ &7Χωρητικότητα 100,000,000.00 J'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_THORNIUM_CARBONADO:
+  description:
+  - '&7Από το Πλίνθωμα Θόρνιουμ'
+  name: 'Καρμπονάδο Θόρνιουμ'
+  type:
+  - '&7&oΕξαρτήματα τελικού σταδίου'
+SUPREME_THORNIUM_DUST:
+  description:
+  - '&7Από το Θραύσμα Θόρνιουμ'
+  name: 'Σκόνη Θόρνιουμ'
+  type:
+  - '&7&oΕξαρτήματα τελικού σταδίου'
+SUPREME_THORNIUM_DUST_SYNTHETIC:
+  description:
+  - '&7Από τη Σκόνη Θόρνιουμ'
+  name: 'Συνθετική Σκόνη Θόρνιουμ'
+  type:
+  - '&7&oΕξαρτήματα τελικού σταδίου'
+SUPREME_THORNIUM_ENERGIZED:
+  description:
+  - '&7Από το Πλίνθωμα Θόρνιουμ'
+  name: 'Ενεργειακό Θόρνιουμ'
+  type:
+  - '&7&oΕξαρτήματα τελικού σταδίου'
+SUPREME_THORNIUM_GENERATOR:
+  name: 'Γεννήτρια Θόρνιουμ'
+  stats:
+  - '&4Γεννήτρια Τελικού Σταδίου'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_THORNIUM_INGOT:
+  description:
+  - '&7Από τη Σκόνη Θόρνιουμ'
+  name: 'Πλίνθωμα Θόρνιουμ'
+  type:
+  - '&7&oΕξαρτήματα τελικού σταδίου'
+SUPREME_THORNIUM_INGOT_SYNTHETIC:
+  description:
+  - '&7Από το Πλίνθωμα Θόρνιουμ'
+  name: 'Συνθετικό Πλίνθωμα Θόρνιουμ'
+  type:
+  - '&7&oΕξαρτήματα τελικού σταδίου'
+SUPREME_THORNIUM_QUARRY:
+  name: 'Λατομείο Θόρνιουμ'
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_TITANIUM_AXE:
+  description:
+  - '&f&lΈνα τσεκούρι από Τιτάνιο'
+  name: 'Τσεκούρι Τιτανίου'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_TITANIUM_BOOTS:
+  description:
+  - '&f&lΜπότες από Τιτάνιο'
+  name: 'Μπότες Τιτανίου'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_TITANIUM_CAPACITOR:
+  name: 'Πυκνωτής Τιτανίου'
+  stats:
+  - '&6Προηγμένος Πυκνωτής'
+  - '&8⇨ &e⚡ &7Χωρητικότητα 4,000,000.00 J'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_TITANIUM_CHESTPLATE:
+  description:
+  - '&f&lΈνας θώρακας από Τιτάνιο'
+  name: 'Θώρακας Τιτανίου'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_TITANIUM_HELMET:
+  description:
+  - '&f&lΈνα κράνος από Τιτάνιο'
+  name: 'Κράνος Τιτανίου'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_TITANIUM_LEGGINGS:
+  description:
+  - '&f&lΠερικνημίδες από Τιτάνιο'
+  name: 'Περικνημίδες Τιτανίου'
+  type:
+  - '&7&oΠανοπλία'
+SUPREME_TITANIUM_PICKAXE:
+  description:
+  - '&f&lΜια αξίνα από Τιτάνιο'
+  name: 'Αξίνα Τιτανίου'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_TITANIUM_PLATE:
+  name: 'Πλάκα Τιτανίου'
+  type:
+  - '&7&oΕξαρτήματα'
+SUPREME_TITANIUM_SHOVEL:
+  description:
+  - '&f&lΈνα φτυάρι από Τιτάνιο'
+  name: 'Φτυάρι Τιτανίου'
+  type:
+  - '&7&oΕργαλεία'
+SUPREME_TITANIUM_SWORD:
+  description:
+  - '&f&lΈνα ξίφος από Τιτάνιο'
+  name: 'Ξίφος Τιτανίου'
+  type:
+  - '&7&oΌπλα'
+SUPREME_VENTUS_GENERATOR:
+  name: 'Γεννήτρια Βέντους'
+  stats:
+  - '&eΒασική Γεννήτρια'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_VIRTUAL_AQUARIUM_I:
+  description:
+  - '&fΑυτή η μηχανή σου επιτρέπει να συλλέγεις '
+  - '&f αντικείμενα που συλλέγονται στη θάλασσα.'
+  name: 'Εικονικό Ενυδρείο'
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b1.0x'
+  - '&8⇨ &e⚡ &7Απόθεμα 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_VIRTUAL_AQUARIUM_II:
+  description:
+  - '&fΑυτή η μηχανή σου επιτρέπει να συλλέγεις'
+  - '&f αντικείμενα που συλλέγονται στη θάλασσα.'
+  name: 'Εικονικό Ενυδρείο II'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b5.0x'
+  - '&8⇨ &e⚡ &7Απόθεμα 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_VIRTUAL_AQUARIUM_III:
+  description:
+  - '&fΑυτή η μηχανή σου επιτρέπει να συλλέγεις'
+  - '&f αντικείμενα που συλλέγονται στη θάλασσα.'
+  name: 'Εικονικό Ενυδρείο III'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b15.0x'
+  - '&8⇨ &e⚡ &7Απόθεμα 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_VIRTUAL_GARDEN_I:
+  description:
+  - '&fΑυτή η μηχανή σου επιτρέπει να'
+  - '&fκαλλιεργείς κάποιους πόρους.'
+  name: 'Εικονικός Κήπος'
+  stats:
+  - '&6Προηγμένη Μηχανή'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b1.0x'
+  - '&8⇨ &e⚡ &7Απόθεμα 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_VIRTUAL_GARDEN_II:
+  description:
+  - '&fΑυτή η μηχανή σου επιτρέπει να'
+  - '&fκαλλιεργείς κάποιους πόρους.'
+  name: 'Εικονικός Κήπος II'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b5.0x'
+  - '&8⇨ &e⚡ &7Απόθεμα 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_VIRTUAL_GARDEN_III:
+  description:
+  - '&fΑυτή η μηχανή σου επιτρέπει να'
+  - '&fκαλλιεργείς κάποιους πόρους.'
+  name: 'Εικονικός Κήπος III'
+  stats:
+  - '&4Μηχανή Τελικού Σταδίου'
+  - '&8⇨ &b⚡ &7Ταχύτητα: &b15.0x'
+  - '&8⇨ &e⚡ &7Απόθεμα 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oΜηχανή'
+SUPREME_ZIRCONIUM_PLATE:
+  name: 'Πλάκα Ζιρκονίου'
+  type:
+  - '&7&oΕξαρτήματα'

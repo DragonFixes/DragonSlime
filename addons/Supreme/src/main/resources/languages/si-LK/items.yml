@@ -1,0 +1,2352 @@
+MOB_TECH_COLLECTOR_MACHINE:
+  description:
+  - '&fමෙම යන්ත්‍රය ඔබට එකතු කිරීමට ඉඩ දෙයි '
+  - '&fආසන්න මොබ්වලින් මොබ්ටෙක් හිස්. (3 කුට්ටිය)'
+  name: 'මොබ්ටෙක් එකතු කරන්නා I'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_ADAMANTIUM_AXE:
+  description:
+  - '&f&lඇඩමැන්ටියම් පොරොවකි'
+  name: 'ඇඩමැන්ටියම් පොරොව'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_ADAMANTIUM_BOOTS:
+  description:
+  - '&f&lඇඩමැන්ටියම් පාවහනකි'
+  name: 'ඇඩමැන්ටියම් පාවහන්'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_ADAMANTIUM_CAPACITOR:
+  name: 'ඇඩමැන්ටියම් ධාරිත්‍රකය'
+  stats:
+  - '&6උසස් ධාරිත්‍රකය'
+  - '&8⇨ &e⚡ &716,000,000.00 J ධාරිතාව'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_ADAMANTIUM_CHESTPLATE:
+  description:
+  - '&f&lඇඩමැන්ටියම් පපු කවචයකි'
+  name: 'ඇඩමැන්ටියම් පපු කවචය'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_ADAMANTIUM_HELMET:
+  description:
+  - '&f&lඇඩමැන්ටියම් හිස්වැස්මකි'
+  name: 'ඇඩමැන්ටියම් හිස්වැස්ම'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_ADAMANTIUM_LEGGINGS:
+  description:
+  - '&f&lඇඩමැන්ටියම් කලිසමකි'
+  name: 'ඇඩමැන්ටියම් කලිසම'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_ADAMANTIUM_PICKAXE:
+  description:
+  - '&f&lඇඩමැන්ටියම් පිකැක්සයකි'
+  name: 'ඇඩමැන්ටියම් පිකැක්ස්'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_ADAMANTIUM_PLATE:
+  name: 'ඇඩමැන්ටියම් තහඩුව'
+  type:
+  - '&7&oසංරචක'
+SUPREME_ADAMANTIUM_SHOVEL:
+  description:
+  - '&f&lඇඩමැන්ටියම් සවලකි'
+  name: 'ඇඩමැන්ටියම් සවල'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_ADAMANTIUM_SWORD:
+  description:
+  - '&f&lඇඩමැන්ටියම් කඩුවකි'
+  name: 'ඇඩමැන්ටියම් කඩුව'
+  type:
+  - '&7&oආයුධ'
+SUPREME_ALLOY_ADAMANTIUM:
+  name: 'ඇඩමැන්ටියම් මිශ්‍ර ලෝහය'
+  type:
+  - '&7&oසංරචක'
+SUPREME_ALLOY_AURUM:
+  name: 'අවුරම් මිශ්‍ර ලෝහය'
+  type:
+  - '&7&oසංරචක'
+SUPREME_ALLOY_IRIDIUM:
+  name: 'ඉරිඩියම් මිශ්‍ර ලෝහය'
+  type:
+  - '&7&oසංරචක'
+SUPREME_ALLOY_MANGANESE:
+  name: 'මැංගනීස් මිශ්‍ර ලෝහය'
+  type:
+  - '&7&oසංරචක'
+SUPREME_ALLOY_PLATINUM:
+  name: 'ප්ලැටිනම් මිශ්‍ර ලෝහය'
+  type:
+  - '&7&oසංරචක'
+SUPREME_ALLOY_TITANIUM:
+  name: 'ටයිටේනියම් මිශ්‍ර ලෝහය'
+  type:
+  - '&7&oසංරචක'
+SUPREME_ALLOY_ZIRCONIUM:
+  name: 'සර්කෝනියම් මිශ්‍ර ලෝහය'
+  type:
+  - '&7&oසංරචක'
+SUPREME_AQUA_GENERATOR:
+  name: 'ඇක්වා ජනකය'
+  stats:
+  - '&6උසස් ජනකය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_ATTRIBUTE_BOMB:
+  description:
+  - '&7විශේෂ බලපෑම් සහිත සුපිරි බෝම්බ ගුණාංගයකි'
+  name: 'බෝම්බ ගුණාංගය'
+  type:
+  - '&7&oමායාකාරී සංරචක'
+SUPREME_ATTRIBUTE_FORTUNE:
+  description:
+  - '&7විශේෂ බලපෑම් සහිත සුපිරි වාසනා ගුණාංගයකි'
+  name: 'වාසනා ගුණාංගය'
+  type:
+  - '&7&oමායාකාරී සංරචක'
+SUPREME_ATTRIBUTE_IMPETUS:
+  description:
+  - '&7විශේෂ බලපෑම් සහිත සුපිරි ප්‍රබලතා ගුණාංගයකි'
+  name: 'ප්‍රබලතා ගුණාංගය'
+  type:
+  - '&7&oමායාකාරී සංරචක'
+SUPREME_ATTRIBUTE_MAGIC:
+  description:
+  - '&7විශේෂ බලපෑම් සහිත සුපිරි ඉන්ද්‍රජාල ගුණාංගයකි'
+  name: 'ඉන්ද්‍රජාල ගුණාංගය'
+  type:
+  - '&7&oමායාකාරී සංරචක'
+SUPREME_AURUM_AXE:
+  description:
+  - '&f&lඅවුරම් පොරොවකි'
+  name: 'අවුරම් පොරොව'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_AURUM_BOOTS:
+  description:
+  - '&f&lඅවුරම් පාවහනකි'
+  name: 'අවුරම් පාවහන්'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_AURUM_CAPACITOR:
+  name: 'අවුරම් ධාරිත්‍රකය'
+  stats:
+  - '&6උසස් ධාරිත්‍රකය'
+  - '&8⇨ &e⚡ &71,000,000.00 J ධාරිතාව'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_AURUM_CHESTPLATE:
+  description:
+  - '&f&lඅවුරම් පපු කවචයකි'
+  name: 'අවුරම් පපු කවචය'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_AURUM_HELMET:
+  description:
+  - '&f&lඅවුරම් හිස්වැස්මකි'
+  name: 'අවුරම් හිස්වැස්ම'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_AURUM_LEGGINGS:
+  description:
+  - '&f&lඅවුරම් කලිසමකි'
+  name: 'අවුරම් කලිසම'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_AURUM_PICKAXE:
+  description:
+  - '&f&lඅවුරම් පිකැක්සයකි'
+  name: 'අවුරම් පිකැක්ස්'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_AURUM_PLATE:
+  name: 'අවුරම් තහඩුව'
+  type:
+  - '&7&oසංරචක'
+SUPREME_AURUM_SHOVEL:
+  description:
+  - '&f&lඅවුරම් සවලකි'
+  name: 'අවුරම් සවල'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_AURUM_SWORD:
+  description:
+  - '&f&lඅවුරම් කඩුවකි'
+  name: 'අවුරම් කඩුව'
+  type:
+  - '&7&oආයුධ'
+SUPREME_AXE_EPIC:
+  description:
+  - '&f&lවිශිෂ්ට තෝර්නියම් පොරොවකි'
+  name: 'විශිෂ්ට පොරොව'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_AXE_LEGENDARY:
+  description:
+  - '&f&lපුරාවෘත්තික තෝර්නියම් පොරොවකි'
+  name: 'පුරාවෘත්තික පොරොව'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_AXE_MAGIC:
+  description:
+  - '&f&lඉන්ද්‍රජාල තෝර්නියම් පොරොවකි'
+  name: 'ඉන්ද්‍රජාල පොරොව'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_AXE_RARE:
+  description:
+  - '&f&lදුර්ලභ තෝර්නියම් පොරොවකි'
+  name: 'දුර්ලභ පොරොව'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_AXE_SUPREME:
+  description:
+  - '&f&lඋත්තරීතර තෝර්නියම් පොරොවකි'
+  name: 'උත්තරීතර පොරොව'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_AXE_THORNIUM:
+  description:
+  - '&f&lතෝර්නියම් පොරොවකි'
+  name: 'තෝර්නියම් පොරොව'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_BASIC_AQUA_GENERATOR:
+  name: 'මූලික ඇක්වා ජනකය'
+  stats:
+  - '&eමූලික ජනකය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_BASIC_IGNIS_GENERATOR:
+  name: 'මූලික ඉග්නිස් ජනකය'
+  stats:
+  - '&eමූලික ජනකය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_BASIC_LUMIUM_GENERATOR:
+  name: 'මූලික ලුමියම් ජනකය'
+  stats:
+  - '&6උසස් ජනකය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_BASIC_LUX_GENERATOR:
+  name: 'මූලික ලක්ස් ජනකය'
+  stats:
+  - '&eමූලික ජනකය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_BASIC_VENTUS_GENERATOR:
+  name: 'මූලික වෙන්ටස් ජනකය'
+  stats:
+  - '&eමූලික ජනකය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_BLEND_MACHINE:
+  name: 'මිශ්‍රණ යන්ත්‍රය'
+  type:
+  - '&7&oඋසස් සංරචක'
+SUPREME_BOOTS_EPIC:
+  description:
+  - '&f&lවිශිෂ්ට තෝර්නියම් පාවහනකි'
+  name: 'විශිෂ්ට පාවහන්'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_BOOTS_LEGENDARY:
+  description:
+  - '&f&lපුරාවෘත්තික තෝර්නියම් පාවහනකි'
+  name: 'පුරාවෘත්තික පාවහන්'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_BOOTS_MAGIC:
+  description:
+  - '&f&lඉන්ද්‍රජාල තෝර්නියම් පාවහනකි'
+  name: 'ඉන්ද්‍රජාල පාවහන්'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_BOOTS_RARE:
+  description:
+  - '&f&lදුර්ලභ තෝර්නියම් පාවහනකි'
+  name: 'දුර්ලභ පාවහන්'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_BOOTS_SUPREME:
+  description:
+  - '&f&lඋත්තරීතර තෝර්නියම් පාවහනකි'
+  name: 'උත්තරීතර පාවහන්'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_BOOTS_THORNIUM:
+  description:
+  - '&f&lතෝර්නියම් පාවහනකි'
+  name: 'තෝර්නියම් පාවහන්'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_BOW_EPIC:
+  description:
+  - '&f&lවිශිෂ්ට තෝර්නියම් දුන්නකි'
+  name: 'විශිෂ්ට දුන්න'
+  type:
+  - '&7&oආයුධ'
+SUPREME_BOW_LEGENDARY:
+  description:
+  - '&f&lපුරාවෘත්තික තෝර්නියම් දුන්නකි'
+  name: 'පුරාවෘත්තික දුන්න'
+  type:
+  - '&7&oආයුධ'
+SUPREME_BOW_MAGIC:
+  description:
+  - '&f&lඉන්ද්‍රජාල තෝර්නියම් දුන්නකි'
+  name: 'ඉන්ද්‍රජාල දුන්න'
+  type:
+  - '&7&oආයුධ'
+SUPREME_BOW_RARE:
+  description:
+  - '&f&lදුර්ලභ තෝර්නියම් දුන්නකි'
+  name: 'දුර්ලභ දුන්න'
+  type:
+  - '&7&oආයුධ'
+SUPREME_BOW_SUPREME:
+  description:
+  - '&f&lඋත්තරීතර තෝර්නියම් දුන්නකි'
+  name: 'උත්තරීතර දුන්න'
+  type:
+  - '&7&oආයුධ'
+SUPREME_BOW_THORNIUM:
+  description:
+  - '&f&lතෝර්නියම් දුන්නකි'
+  name: 'තෝර්නියම් දුන්න'
+  type:
+  - '&7&oආයුධ'
+SUPREME_CARD_ALUMINUM_BRASS:
+  description:
+  - '&fනිෂ්පාදනය ඇලුමිනියම් පිත්තල දණ්ඩ වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ඇලුමිනියම් පිත්තල දණ්ඩ)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_ALUMINUM_BRONZE:
+  description:
+  - '&fනිෂ්පාදනය ඇලුමිනියම් ලෝකඩ දණ්ඩ වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ඇලුමිනියම් ලෝකඩ දණ්ඩ)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_ALUMINUM_DUST:
+  description:
+  - '&fනිෂ්පාදනය ඇලුමිනියම් දූවිලි වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ඇලුමිනියම් දූවිලි)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_AMETHYST:
+  description:
+  - '&fනිෂ්පාදනය ඇමතිස්ට් වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ඇමතිස්ට්)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_ANDESITE:
+  description:
+  - '&fනිෂ්පාදනය ඇන්ඩසයිට් වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ඇන්ඩසයිට්)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_APPLE:
+  description:
+  - '&fනිෂ්පාදනය ඇපල් වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ඇපල්)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_BATTERY:
+  description:
+  - '&fනිෂ්පාදනය බැටරිය වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (බැටරිය)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_BILLON:
+  description:
+  - '&fනිෂ්පාදනය බිලන් දණ්ඩ වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (බිලන් දණ්ඩ)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_BLAZE_ROD:
+  description:
+  - '&fනිෂ්පාදනය බ්ලේස් කූරු වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (බ්ලේස් කූරු)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_BRASS:
+  description:
+  - '&fනිෂ්පාදනය පිත්තල දණ්ඩ වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (පිත්තල දණ්ඩ)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_BRONZE:
+  description:
+  - '&fනිෂ්පාදනය ලෝකඩ දණ්ඩ වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ලෝකඩ දණ්ඩ)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_CARBON:
+  description:
+  - '&fනිෂ්පාදනය කාබන් වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (කාබන්)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_CARBONADO:
+  description:
+  - '&fනිෂ්පාදනය කාබනාඩෝ වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (කාබනාඩෝ)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_CARBON_PRESS:
+  description:
+  - '&fනිෂ්පාදනය සම්පීඩිත කාබන් වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (සම්පීඩිත කාබන්)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_CLAY:
+  description:
+  - '&fනිෂ්පාදනය මැටි වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (මැටි)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_COAL:
+  description:
+  - '&fනිෂ්පාදනය ගල් අඟුරු වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ගල් අඟුරු)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_COBALT:
+  description:
+  - '&fනිෂ්පාදනය කොබෝල්ට් වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (කොබෝල්ට්)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_COPPER:
+  description:
+  - '&fනිෂ්පාදනය තඹ වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (තඹ)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_COPPER_DUST:
+  description:
+  - '&fනිෂ්පාදනය තඹ දූවිලි වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (තඹ දූවිලි)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_CORINTHIAN_BRONZE:
+  description:
+  - '&fනිෂ්පාදනය කොරින්තියන් ලෝකඩ දණ්ඩ වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (කොරින්තියන් ලෝකඩ දණ්ඩ)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_DAMASCUS:
+  description:
+  - '&fනිෂ්පාදනය දමස්කස් වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (දමස්කස්)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_DIAMOND:
+  description:
+  - '&fනිෂ්පාදනය දියමන්ති වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (දියමන්ති)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_DIORITE:
+  description:
+  - '&fනිෂ්පාදනය ඩයොරයිට් වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ඩයොරයිට්)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_DURALUMIN:
+  description:
+  - '&fනිෂ්පාදනය ඩුරලුමින් දණ්ඩ වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ඩුරලුමින් දණ්ඩ)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_ELECTRIC_MOTOR:
+  description:
+  - '&fනිෂ්පාදනය විද්‍යුත් මෝටරය වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (විද්‍යුත් මෝටරය)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_ELECTRO_MAGNET:
+  description:
+  - '&fනිෂ්පාදනය විද්‍යුත් චුම්බකය වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (විද්‍යුත් චුම්බකය)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_EMERALD:
+  description:
+  - '&fනිෂ්පාදනය මරකත වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (මරකත)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_ENDSTONE:
+  description:
+  - '&fනිෂ්පාදනය එන්ඩ්ගල වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (එන්ඩ්ගල)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_FERROSILICON:
+  description:
+  - '&fනිෂ්පාදනය ෆෙරෝසිලිකන් වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ෆෙරෝසිලිකන්)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_GLOW_INK_SAC:
+  description:
+  - '&fනිෂ්පාදනය දිලිසෙන තීන්ත මල්ල වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (දිලිසෙන තීන්ත මල්ල)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_GOLD:
+  description:
+  - '&fනිෂ්පාදනය රන් වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (රන්)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_GOLD24K:
+  description:
+  - '&fනිෂ්පාදනය රන් 24k වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (රන් 24k)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_GOLD_DUST:
+  description:
+  - '&fනිෂ්පාදනය රන් දූවිලි වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (රන් දූවිලි)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_GRANITE:
+  description:
+  - '&fනිෂ්පාදනය ග්‍රැනයිට් වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ග්‍රැනයිට්)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_GRAVEL:
+  description:
+  - '&fනිෂ්පාදනය බොරළු වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (බොරළු)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_HARDENED_METAL:
+  description:
+  - '&fනිෂ්පාදනය දැඩි කළ ලෝහ දණ්ඩ වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (දැඩි කළ ලෝහ දණ්ඩ)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_HEATING_COIL:
+  description:
+  - '&fනිෂ්පාදනය තාපන කුණ්ඩලය වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (තාපන කුණ්ඩලය)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_HONEY_BOTTLE:
+  description:
+  - '&fනිෂ්පාදනය මී පැණි බෝතලය වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (මී පැණි බෝතලය)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_INK_SAC:
+  description:
+  - '&fනිෂ්පාදනය තීන්ත මල්ල වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (තීන්ත මල්ල)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_IRON:
+  description:
+  - '&fනිෂ්පාදනය යකඩ වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (යකඩ)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_IRON_DUST:
+  description:
+  - '&fනිෂ්පාදනය යකඩ දූවිලි වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (යකඩ දූවිලි)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_LAPIS:
+  description:
+  - '&fනිෂ්පාදනය ලැපිස් වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ලැපිස්)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_LEAD_DUST:
+  description:
+  - '&fනිෂ්පාදනය ඊයම් දූවිලි වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ඊයම් දූවිලි)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_MAGNESIUM_DUST:
+  description:
+  - '&fනිෂ්පාදනය මැග්නීසියම් දූවිලි වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (මැග්නීසියම් දූවිලි)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_MAGNET:
+  description:
+  - '&fනිෂ්පාදනය චුම්බකය වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (චුම්බකය)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_NETHERITE:
+  description:
+  - '&fනිෂ්පාදනය නෙදරයිට් වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (නෙදරයිට්)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_NETHER_STAR:
+  description:
+  - '&fනිෂ්පාදනය නෙදර් තරුව වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (නෙදර් තරුව)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_NICKEL:
+  description:
+  - '&fනිෂ්පාදනය නිකල් වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (නිකල්)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_PLASTIC_SHEET:
+  description:
+  - '&fනිෂ්පාදනය ප්ලාස්ටික් පත්‍රය වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ප්ලාස්ටික් පත්‍රය)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_QUARTZ:
+  description:
+  - '&fනිෂ්පාදනය ක්වාර්ට්ස් වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ක්වාර්ට්ස්)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_QUARTZ_BLOCK:
+  description:
+  - '&fනිෂ්පාදනය ක්වාර්ට්ස් කුට්ටිය වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ක්වාර්ට්ස් කුට්ටිය)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_REDSTONE:
+  description:
+  - '&fනිෂ්පාදනය රෙඩ්ස්ටෝන් වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (රෙඩ්ස්ටෝන්)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_REDSTONE_ALLOY:
+  description:
+  - '&fනිෂ්පාදනය රෙඩ්ස්ටෝන් මිශ්‍ර ලෝහය වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (රෙඩ්ස්ටෝන් මිශ්‍ර ලෝහය)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_REINFORCED_ALLOY:
+  description:
+  - '&fනිෂ්පාදනය ශක්තිමත් කළ මිශ්‍ර ලෝහ දණ්ඩ වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ශක්තිමත් කළ මිශ්‍ර ලෝහ දණ්ඩ)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_SAND:
+  description:
+  - '&fනිෂ්පාදනය වැලි වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (වැලි)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_SILICON:
+  description:
+  - '&fනිෂ්පාදනය සිලිකන් වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (සිලිකන්)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_SILVER_DUST:
+  description:
+  - '&fනිෂ්පාදනය රිදී දූවිලි වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (රිදී දූවිලි)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_SLIME_BALL:
+  description:
+  - '&fනිෂ්පාදනය ස්ලයිම් බෝලය වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ස්ලයිම් බෝලය)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_SNOW:
+  description:
+  - '&fනිෂ්පාදනය හිම වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (හිම)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_SOLDER:
+  description:
+  - '&fනිෂ්පාදනය සෝල්ඩර් දණ්ඩ වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (සෝල්ඩර් දණ්ඩ)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_STEEL:
+  description:
+  - '&fනිෂ්පාදනය වානේ වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (වානේ)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_STONE:
+  description:
+  - '&fනිෂ්පාදනය ගල් වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ගල්)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_SULFATE:
+  description:
+  - '&fනිෂ්පාදනය සල්ෆේට් වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (සල්ෆේට්)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_SYNTHETIC_DIAMOND:
+  description:
+  - '&fනිෂ්පාදනය කෘත්‍රිම දියමන්ති වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (කෘත්‍රිම දියමන්ති)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_SYNTHETIC_EMERALD:
+  description:
+  - '&fනිෂ්පාදනය කෘත්‍රිම මරකත වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (කෘත්‍රිම මරකත)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_SYNTHETIC_SAPPHIRE:
+  description:
+  - '&fනිෂ්පාදනය කෘත්‍රිම නිල්මැණික වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (කෘත්‍රිම නිල්මැණික)"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_TIN_DUST:
+  description:
+  - '&fනිෂ්පාදනය ටින් දූවිලි වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (ටින් දූවිලි)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_WITHER_ROSE:
+  description:
+  - '&fනිෂ්පාදනය විදර් රෝසය වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (විදර් රෝසය)"
+  stats:
+  - '&eමූලික යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARD_ZINC_DUST:
+  description:
+  - '&fනිෂ්පාදනය සින්ක් දූවිලි වෙත වෙනස් කරන්න'
+  name: "යන්ත්‍ර කාඩ්පත (සින්ක් දූවිලි)"
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CARRIAGE_MACHINE:
+  name: 'රැගෙනයාමේ යන්ත්‍රය'
+  type:
+  - '&7&oඋසස් සංරචක'
+SUPREME_CENTER_CARD_ADVANCED:
+  description:
+  - '&fඅයිතම නිපදවීම සඳහා යන්ත්‍රයට අංගය'
+  name: 'කාඩ්පත සඳහා උසස් අංගය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CENTER_CARD_SIMPLE:
+  description:
+  - '&fඅයිතම නිපදවීම සඳහා යන්ත්‍රයට අංගය'
+  name: 'කාඩ්පත සඳහා මූලික අංගය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CENTER_CARD_ULTIMATE:
+  description:
+  - '&fඅයිතම නිපදවීම සඳහා යන්ත්‍රයට අංගය'
+  name: 'කාඩ්පත සඳහා පරම අංගය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_CETRUS_AQUA:
+  description:
+  - '&7සුපිරි ඇක්වා රාජදණ්ඩකි'
+  name: 'සෙට්‍රස් ඇක්වා'
+  type:
+  - '&7&oමායාකාරී සංරචක'
+SUPREME_CETRUS_IGNIS:
+  description:
+  - '&7සුපිරි ඉග්නිස් රාජදණ්ඩකි'
+  name: 'සෙට්‍රස් ඉග්නිස්'
+  type:
+  - '&7&oමායාකාරී සංරචක'
+SUPREME_CETRUS_LUMIUM:
+  description:
+  - '&7සුපිරි ලුමියම් රාජදණ්ඩකි'
+  name: 'සෙට්‍රස් ලුමියම්'
+  type:
+  - '&7&oමායාකාරී සංරචක'
+SUPREME_CETRUS_LUX:
+  description:
+  - '&7සුපිරි ලක්ස් රාජදණ්ඩකි'
+  name: 'සෙට්‍රස් ලක්ස්'
+  type:
+  - '&7&oමායාකාරී සංරචක'
+SUPREME_CETRUS_VENTUS:
+  description:
+  - '&7සුපිරි වෙන්ටස් රාජදණ්ඩකි'
+  name: 'සෙට්‍රස් වෙන්ටස්'
+  type:
+  - '&7&oමායාකාරී සංරචක'
+SUPREME_CHECK_INVENTORY:
+  description:
+  - '&fආසන්න පෙට්ටියේ පෙරහන් අයිතමය තිබේදැයි පරීක්ෂා කරයි'
+  - '&fසියලු මුහුණත් සලකා බලනු ලැබේ (පළමුව හමු වන එක)'
+  - '&fහමු වුවහොත්, මෙම කුට්ටිය දැල්වෙයි'
+  name: "ඉන්වෙන්ටරි පරීක්ෂකය"
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b1.0x'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_CHESTPLATE_EPIC:
+  description:
+  - '&f&lවිශිෂ්ට තෝර්නියම් පපු කවචයකි'
+  name: 'විශිෂ්ට පපු කවචය'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_CHESTPLATE_LEGENDARY:
+  description:
+  - '&f&lපුරාවෘත්තික තෝර්නියම් පපු කවචයකි'
+  name: 'පුරාවෘත්තික පපු කවචය'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_CHESTPLATE_MAGIC:
+  description:
+  - '&f&lඉන්ද්‍රජාල තෝර්නියම් පපු කවචයකි'
+  name: 'ඉන්ද්‍රජාල පපු කවචය'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_CHESTPLATE_RARE:
+  description:
+  - '&f&lදුර්ලභ තෝර්නියම් පපු කවචයකි'
+  name: 'දුර්ලභ පපු කවචය'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_CHESTPLATE_SUPREME:
+  description:
+  - '&f&lඋත්තරීතර තෝර්නියම් පපු කවචයකි'
+  name: 'උත්තරීතර පපු කවචය'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_CHESTPLATE_THORNIUM:
+  description:
+  - '&f&lතෝර්නියම් පපු කවචයකි'
+  name: 'තෝර්නියම් පපු කවචය'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_COAL_QUARRY:
+  name: 'ගල් අඟුරු පතලය'
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_CONVEYANCE_MACHINE:
+  name: 'ප්‍රවාහන යන්ත්‍රය'
+  type:
+  - '&7&oඋසස් සංරචක'
+SUPREME_CORE_ACACIA_LOG:
+  description:
+  - '&7සුපිරි අකේසියාවකි'
+  name: 'උත්තරීතර අකේසියා ලී කොටය'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_ANDESITE:
+  description:
+  - '&7සුපිරි ඇන්ඩසයිට්'
+  name: 'උත්තරීතර ඇන්ඩසයිට්'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_APPLE:
+  description:
+  - '&7සුපිරි ඇපල්'
+  name: 'උත්තරීතර ඇපල්'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_BEEF:
+  description:
+  - '&7සුපිරි ගව මස්'
+  name: 'උත්තරීතර ගව මස්'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_BEETROOT:
+  description:
+  - '&7සුපිරි බීට්රූට්'
+  name: 'උත්තරීතර බීට්රූට්'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_BIRCH_LOG:
+  description:
+  - '&7සුපිරි බිර්ච්'
+  name: 'උත්තරීතර බිර්ච් ලී කොටය'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_BLACK:
+  description:
+  - '&7සුපිරි කළු'
+  name: 'උත්තරීතර කළු'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_BLUE:
+  description:
+  - '&7සුපිරි නිල්'
+  name: 'උත්තරීතර නිල්'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_CARROT:
+  description:
+  - '&7උත්තරීතර කැරට්'
+  name: 'උත්තරීතර කැරට්'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_CHICKEN:
+  description:
+  - '&7සුපිරි කුකුල් මස්'
+  name: 'උත්තරීතර කුකුල් මස්'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_CLAY:
+  description:
+  - '&7සුපිරි මැටි'
+  name: 'උත්තරීතර මැටි'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_COAL:
+  description:
+  - '&7සුපිරි ගල් අඟුරු'
+  name: 'උත්තරීතර ගල් අඟුරු'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_COD:
+  description:
+  - '&7සුපිරි කොඩ් මාළු'
+  name: 'උත්තරීතර කොඩ් මාළු'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_CRIMSON_STEM:
+  description:
+  - '&7සුපිරි තද රතු'
+  name: 'උත්තරීතර තද රතු කඳ'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_CYAN:
+  description:
+  - '&7සුපිරි නිල්හරිත'
+  name: 'උත්තරීතර නිල්හරිත'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_DARK_OAK_LOG:
+  description:
+  - '&7සුපිරි අඳුරු'
+  name: 'උත්තරීතර අඳුරු ඕක් ලී කොටය'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_DIAMOND:
+  description:
+  - '&7සුපිරි දියමන්ති'
+  name: 'උත්තරීතර දියමන්ති'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_DIORITE:
+  description:
+  - '&7සුපිරි ඩයොරයිට්'
+  name: 'උත්තරීතර ඩයොරයිට්'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_EMERALD:
+  description:
+  - '&7සුපිරි මරකත'
+  name: 'උත්තරීතර මරකත'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_ENDSTONE:
+  description:
+  - '&7සුපිරි එන්ඩ්ගල'
+  name: 'උත්තරීතර එන්ඩ්ගල'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_GOLD:
+  description:
+  - '&7සුපිරි රන්'
+  name: 'උත්තරීතර රන්'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_GRANITE:
+  description:
+  - '&7සුපිරි ග්‍රැනයිට්'
+  name: 'උත්තරීතර ග්‍රැනයිට්'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_GRAVEL:
+  description:
+  - '&7සුපිරි බොරළු'
+  name: 'උත්තරීතර බොරළු'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_GRAY:
+  description:
+  - '&7සුපිරි අළු'
+  name: 'උත්තරීතර අළු'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_GREEN:
+  description:
+  - '&7සුපිරි කොළ'
+  name: 'උත්තරීතර කොළ'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_IRON:
+  description:
+  - '&7සුපිරි යකඩ'
+  name: 'උත්තරීතර යකඩ'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_JUNGLE_LOG:
+  description:
+  - '&7සුපිරි වනාන්තර'
+  name: 'උත්තරීතර වනාන්තර ලී කොටය'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_LAPIS:
+  description:
+  - '&7සුපිරි ලැපිස්'
+  name: 'උත්තරීතර ලැපිස්'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_MELON:
+  description:
+  - '&7සුපිරි කොමඩු'
+  name: 'උත්තරීතර කොමඩු'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_MUTTON:
+  description:
+  - '&7සුපිරි එළු මස්'
+  name: 'උත්තරීතර එළු මස්'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_NETHERITE:
+  description:
+  - '&7සුපිරි නෙදරයිට්'
+  name: 'උත්තරීතර නෙදරයිට්'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_OAK_LOG:
+  description:
+  - '&7සුපිරි ඕක්'
+  name: 'උත්තරීතර ඕක් ලී කොටය'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_OF_ALLOY:
+  description:
+  - '&7මෙම හරයේ ලෝපස් කිහිපයක් අඩංගු වේ'
+  - '&7ඒවා ලොව පුරා එකතු කරගත් ඒවා වේ.'
+  name: 'මිශ්‍ර ලෝහයේ හරය'
+  type:
+  - '&7&oමායාකාරී සංරචක'
+SUPREME_CORE_OF_BLOCK:
+  description:
+  - '&7මෙම හරයේ කුට්ටි කිහිපයක් අඩංගු වේ'
+  - '&7ඒවා ලොව පුරා එකතු කරගත් ඒවා වේ.'
+  name: 'කුට්ටියේ හරය'
+  type:
+  - '&7&oමායාකාරී සංරචක'
+SUPREME_CORE_OF_COLOR:
+  description:
+  - '&7මෙම හරයේ වර්ණ කිහිපයක් අඩංගු වේ'
+  - '&7ඒවා ලොව පුරා එකතු කරගත් ඒවා වේ.'
+  name: 'වර්ණයේ හරය'
+  type:
+  - '&7&oමායාකාරී සංරචක'
+SUPREME_CORE_OF_DEATH:
+  description:
+  - '&7මෙම හරයේ අඩංගු වන්නේ '
+  - '&7එතෙර ගිය විවිධ ජීවීන්ගේ ආත්මයන් වේ.'
+  name: 'මරණයේ හරය'
+  type:
+  - '&7&oමායාකාරී සංරචක'
+SUPREME_CORE_OF_LIFE:
+  description:
+  - '&7මෙම හරයේ ජීවයේ කැබලි අඩංගු වේ'
+  - '&7ඒවා ලොව විසින් එකතු කරගත් ඒවා වේ.'
+  name: 'ජීවයේ හරය'
+  type:
+  - '&7&oමායාකාරී සංරචක'
+SUPREME_CORE_OF_NATURE:
+  description:
+  - '&7මෙම හරයේ ස්වාභාවික ද්‍රව්‍ය කිහිපයක් අඩංගු වේ'
+  - '&7ඒවා ලොව පුරා එකතු කරගත් ඒවා වේ.'
+  name: 'ස්වභාවධර්මයේ හරය'
+  type:
+  - '&7&oමායාකාරී සංරචක'
+SUPREME_CORE_PINK:
+  description:
+  - '&7සුපිරි රෝස'
+  name: 'උත්තරීතර රෝස'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_PORKCHOP:
+  description:
+  - '&7සුපිරි බේකන්'
+  name: "උත්තරීතර ඌරු මස්"
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_POTATO:
+  description:
+  - '&7සුපිරි අල'
+  name: 'උත්තරීතර අල'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_PUMPKIN:
+  description:
+  - '&7සුපිරි වට්ටක්කා'
+  name: 'උත්තරීතර වට්ටක්කා'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_PURPLE:
+  description:
+  - '&7සුපිරි දම්'
+  name: 'උත්තරීතර දම්'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_QUARTZ:
+  description:
+  - '&7සුපිරි ක්වාර්ට්ස්'
+  name: 'උත්තරීතර ක්වාර්ට්ස්'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_RED:
+  description:
+  - '&7සුපිරි රතු'
+  name: 'උත්තරීතර රතු'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_REDSTONE:
+  description:
+  - '&7සුපිරි රෙඩ්ස්ටෝන්'
+  name: 'උත්තරීතර රෙඩ්ස්ටෝන්'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_SALMON:
+  description:
+  - '&7සුපිරි සැමන්'
+  name: 'උත්තරීතර සැමන්'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_SAND:
+  description:
+  - '&7සුපිරි වැලි'
+  name: 'උත්තරීතර වැලි'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_SNOW:
+  description:
+  - '&7සුපිරි හිම'
+  name: 'උත්තරීතර හිම'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_SPIDER_EYE:
+  description:
+  - '&7සුපිරි ඇසකි'
+  name: "උත්තරීතර මකුළු ඇස"
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_SPRUCE_LOG:
+  description:
+  - '&7සුපිරි ස්පෘස්'
+  name: 'උත්තරීතර ස්පෘස් ලී කොටය'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_STONE:
+  description:
+  - '&7සුපිරි ගල් කැට'
+  name: 'උත්තරීතර ගල් කැට'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_STRING:
+  description:
+  - '&7සුපිරි ලණුවකි'
+  name: "උත්තරීතර නූල"
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_SUGAR_CANE:
+  description:
+  - '&7සුපිරි උක්'
+  name: 'උත්තරීතර උක්ගස'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_SWEET_BERRIES:
+  description:
+  - '&7සුපිරි බෙරි'
+  name: 'උත්තරීතර මිහිරි බෙරි'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_TEAR:
+  description:
+  - '&7සුපිරි කඳුළකි'
+  name: "උත්තරීතර ගාස්ට් කඳුළ"
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_WARPED_STEM:
+  description:
+  - '&7සුපිරි විකෘති'
+  name: 'උත්තරීතර විකෘති කඳ'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_WHEAT:
+  description:
+  - '&7සුපිරි තිරිඟු'
+  name: 'උත්තරීතර තිරිඟු'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_WITHER_ROSE:
+  description:
+  - '&7සුපිරි රෝසයකි'
+  name: 'උත්තරීතර විදර් රෝසය'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CORE_YELLOW:
+  description:
+  - '&7සුපිරි කහ'
+  name: 'උත්තරීතර කහ'
+  type:
+  - '&7&oමූලික සංරචක'
+SUPREME_CRYSTALLIZER_MACHINE:
+  name: 'ස්ඵටිකකාරක යන්ත්‍රය'
+  type:
+  - '&7&oඋසස් සංරචක'
+SUPREME_DIAMOND_QUARRY:
+  name: 'දියමන්ති පතලය'
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_DUST_AMETHYST:
+  name: 'ඇමතිස්ට් දූවිලි'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_DUST_GLOW_INK:
+  name: 'දිලිසෙන තීන්ත දූවිලි'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_DUST_NETHERITE:
+  name: 'නෙදරයිට් දූවිලි'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_ELECTRIC_CORE_I:
+  description:
+  - '&fහරයේ සම්පත තනන්න'
+  name: 'විද්‍යුත් හර යන්ත්‍රය'
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b1.0x'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_ELECTRIC_CORE_II:
+  description:
+  - '&fහරයේ සම්පත උසස් ලෙස තනන්න'
+  name: 'විද්‍යුත් හර යන්ත්‍රය II'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b5.0x'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_ELECTRIC_CORE_III:
+  description:
+  - '&fහරයේ සම්පත උසස් ලෙස තනන්න'
+  name: 'විද්‍යුත් හර යන්ත්‍රය III'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b15.0x'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_ELECTRIC_CRAFTER_I:
+  description:
+  - '&fඅයිතම තනන්න'
+  name: 'විද්‍යුත් තනන්නා'
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b1.0x'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_ELECTRIC_CRAFTER_II:
+  description:
+  - '&fඅයිතම උසස් ලෙස තනන්න'
+  name: 'විද්‍යුත් තනන්නා II'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b5.0x'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_ELECTRIC_CRAFTER_III:
+  description:
+  - '&fඅයිතම උසස් ලෙස තනන්න'
+  name: 'විද්‍යුත් තනන්නා III'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b15.0x'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_ELECTRIC_GEAR_I:
+  description:
+  - '&fඋපකරණවල ස්තරය තනන්න'
+  name: 'විද්‍යුත් උපකරණ යන්ත්‍රය'
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b1.0x'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_ELECTRIC_GEAR_II:
+  description:
+  - '&fඋපකරණවල ස්තරය උසස් ලෙස තනන්න'
+  name: 'විද්‍යුත් උපකරණ යන්ත්‍රය II'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b5.0x'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_ELECTRIC_GEAR_III:
+  description:
+  - '&fඋපකරණවල ස්තරය උසස් ලෙස තනන්න'
+  name: 'විද්‍යුත් උපකරණ යන්ත්‍රය III'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b15.0x'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_ELECTRIC_ITEM:
+  name: "විදුලි"
+  type:
+  - '&7&oවිවිධ'
+SUPREME_ELECTRIC_MAGICAL_I:
+  description:
+  - '&fඉන්ද්‍රජාලික සම්පත තනන්න'
+  name: 'විද්‍යුත් ඉන්ද්‍රජාලික යන්ත්‍රය'
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b1.0x'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_ELECTRIC_MAGICAL_II:
+  description:
+  - '&fඉන්ද්‍රජාලික සම්පත උසස් ලෙස තනන්න'
+  name: 'විද්‍යුත් ඉන්ද්‍රජාලික යන්ත්‍රය II'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b5.0x'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_ELECTRIC_MAGICAL_III:
+  description:
+  - '&fඉන්ද්‍රජාලික සම්පත උසස් ලෙස තනන්න'
+  name: 'විද්‍යුත් ඉන්ද්‍රජාලික යන්ත්‍රය III'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b15.0x'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_EMPTY_MOBTECH:
+  name: 'හිස් මොබ්ටෙක්'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_FORGE_INGOT_I:
+  description:
+  - '&fමෙම යන්ත්‍රය ඔබට ඉඩ දෙයි'
+  - '&fදණ්ඩ සම්පත් කම්මලේ තැනීමට.'
+  name: 'දණ්ඩ කම්මලය'
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J බෆරය'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_FORGE_INGOT_II:
+  description:
+  - '&fමෙම යන්ත්‍රය ඔබට ඉඩ දෙයි'
+  - '&fදණ්ඩ සම්පත් කම්මලේ තැනීමට.'
+  name: 'දණ්ඩ කම්මලය II'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J බෆරය'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_FORGE_INGOT_III:
+  description:
+  - '&fමෙම යන්ත්‍රය ඔබට ඉඩ දෙයි'
+  - '&fදණ්ඩ සම්පත් කම්මලේ තැනීමට.'
+  name: 'දණ්ඩ කම්මලය III'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J බෆරය'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_FORGE_MAGICAL_I:
+  description:
+  - '&fමෙම යන්ත්‍රය ඔබට ඉඩ දෙයි'
+  - '&fඉන්ද්‍රජාලික සම්පත් කම්මලේ තැනීමට.'
+  name: 'ඉන්ද්‍රජාලික කම්මලය'
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J බෆරය'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_FORGE_MAGICAL_II:
+  description:
+  - '&fමෙම යන්ත්‍රය ඔබට ඉඩ දෙයි'
+  - '&fඉන්ද්‍රජාලික සම්පත් කම්මලේ තැනීමට.'
+  name: 'ඉන්ද්‍රජාලික කම්මලය II'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J බෆරය'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_FORGE_MAGICAL_III:
+  description:
+  - '&fමෙම යන්ත්‍රය ඔබට ඉඩ දෙයි'
+  - '&fඉන්ද්‍රජාලික සම්පත් කම්මලේ තැනීමට.'
+  name: 'ඉන්ද්‍රජාලික කම්මලය III'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J බෆරය'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_FOUNDRY_I:
+  description:
+  - '&fවාත්තු ශාලා සහ සංස්ලේෂක අයිතම'
+  name: 'වාත්තු ශාලාව'
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b1.0x'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_FOUNDRY_II:
+  description:
+  - '&fඋසස් වාත්තු ශාලා සහ සංස්ලේෂක අයිතම'
+  name: 'වාත්තු ශාලාව II'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b5.0x'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_FOUNDRY_III:
+  description:
+  - '&fඋසස් වාත්තු ශාලා සහ සංස්ලේෂක අයිතම'
+  name: 'වාත්තු ශාලාව III'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b15.0x'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_GENERATOR_MOB_ADVANCED:
+  name: 'උසස් මොබ් නිෂ්පාදකය'
+  stats:
+  - '&eමූලික ජනකය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_GENERATOR_MOB_BASIC:
+  name: 'මූලික මොබ් නිෂ්පාදකය'
+  stats:
+  - '&eමූලික ජනකය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_GENERATOR_MOB_MEDIUM:
+  name: 'මධ්‍යම මොබ් නිෂ්පාදකය'
+  stats:
+  - '&eමූලික ජනකය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_GENE_BERSERK:
+  name: 'උමතු ජානය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_GENE_INTELLIGENCE:
+  name: 'බුද්ධි ජානය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_GENE_LUCK:
+  name: 'වාසනා ජානය'
+  type:
+  - '&7&oසංරචකය'
+SUPREME_GOLD_QUARRY:
+  name: 'රන් පතලය'
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_HELMET_EPIC:
+  description:
+  - '&f&lවිශිෂ්ට තෝර්නියම් හිස්වැස්මකි'
+  name: 'විශිෂ්ට හිස්වැස්ම'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_HELMET_LEGENDARY:
+  description:
+  - '&f&lපුරාවෘත්තික තෝර්නියම් හිස්වැස්මකි'
+  name: 'පුරාවෘත්තික හිස්වැස්ම'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_HELMET_MAGIC:
+  description:
+  - '&f&lඉන්ද්‍රජාල තෝර්නියම් හිස්වැස්මකි'
+  name: 'ඉන්ද්‍රජාල හිස්වැස්ම'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_HELMET_RARE:
+  description:
+  - '&f&lදුර්ලභ තෝර්නියම් හිස්වැස්මකි'
+  name: 'දුර්ලභ හිස්වැස්ම'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_HELMET_SUPREME:
+  description:
+  - '&f&lඋත්තරීතර තෝර්නියම් හිස්වැස්මකි'
+  name: 'උත්තරීතර හිස්වැස්ම'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_HELMET_THORNIUM:
+  description:
+  - '&f&lතෝර්නියම් හිස්වැස්මකි'
+  name: 'තෝර්නියම් හිස්වැස්ම'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_IGNIS_GENERATOR:
+  name: 'ඉග්නිස් ජනකය'
+  stats:
+  - '&6උසස් ජනකය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_INDUCTIVE_MACHINE:
+  name: 'ප්‍රේරණීය යන්ත්‍රය'
+  type:
+  - '&7&oඋසස් සංරචක'
+SUPREME_INDUCTOR_MACHINE:
+  name: 'ප්‍රේරක යන්ත්‍රය'
+  type:
+  - '&7&oඋසස් සංරචක'
+SUPREME_IRIDIUM_PLATE:
+  name: 'ඉරිඩියම් තහඩුව'
+  type:
+  - '&7&oසංරචක'
+SUPREME_IRON_QUARRY:
+  name: 'යකඩ පතලය'
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_LEGGINGS_EPIC:
+  description:
+  - '&f&lවිශිෂ්ට තෝර්නියම් කලිසමකි'
+  name: 'විශිෂ්ට කලිසම'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_LEGGINGS_LEGENDARY:
+  description:
+  - '&f&lපුරාවෘත්තික තෝර්නියම් කලිසමකි'
+  name: 'පුරාවෘත්තික කලිසම'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_LEGGINGS_MAGIC:
+  description:
+  - '&f&lඉන්ද්‍රජාල තෝර්නියම් කලිසමකි'
+  name: 'ඉන්ද්‍රජාල කලිසම'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_LEGGINGS_RARE:
+  description:
+  - '&f&lදුර්ලභ තෝර්නියම් කලිසමකි'
+  name: 'දුර්ලභ කලිසම'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_LEGGINGS_SUPREME:
+  description:
+  - '&f&lඋත්තරීතර තෝර්නියම් කලිසමකි'
+  name: 'උත්තරීතර කලිසම'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_LEGGINGS_THORNIUM:
+  description:
+  - '&f&lතෝර්නියම් කලිසමකි'
+  name: 'තෝර්නියම් කලිසම'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_LUMIUM_GENERATOR:
+  name: 'ලුමියම් ජනකය'
+  stats:
+  - '&6උසස් ජනකය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_LUX_GENERATOR:
+  name: 'ලක්ස් ජනකය'
+  stats:
+  - '&6උසස් ජනකය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_MAGIC_ALTAR_I:
+  description:
+  - '&fරූන සහ ඉන්ද්‍රජාලික අයිතම තනන්න'
+  name: 'ඉන්ද්‍රජාල පූජාසනය'
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b1.0x'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_MAGIC_ALTAR_II:
+  description:
+  - '&fරූන සහ ඉන්ද්‍රජාලික අයිතම උසස් ලෙස තනන්න'
+  name: 'ඉන්ද්‍රජාල පූජාසනය II'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b5.0x'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_MAGIC_ALTAR_III:
+  description:
+  - '&fරූන සහ ඉන්ද්‍රජාලික අයිතම උසස් ලෙස තනන්න'
+  name: 'ඉන්ද්‍රජාල පූජාසනය III'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b15.0x'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_MAIN_ITEM:
+  name: "Supreme"
+  type:
+  - '&7&oවිවිධ'
+SUPREME_MANGANESE_PLATE:
+  name: 'මැංගනීස් තහඩුව'
+  type:
+  - '&7&oසංරචක'
+SUPREME_MOB_COLLECTOR_MACHINE_I:
+  description:
+  - '&fමෙම යන්ත්‍රය ඔබට එකතු කිරීමට ඉඩ දෙයි '
+  - '&fආසන්න මොබ්වලින් අයිතම. (4 කුට්ටිය)'
+  name: 'මොබ් එකතු කරන්නා'
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J බෆරය'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_MOB_COLLECTOR_MACHINE_II:
+  description:
+  - '&fමෙම යන්ත්‍රය ඔබට එකතු කිරීමට ඉඩ දෙයි'
+  - '&f ආසන්න මොබ්වලින් අයිතම. (8 කුට්ටිය)'
+  name: 'මොබ් එකතු කරන්නා II'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J බෆරය'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_MOB_COLLECTOR_MACHINE_III:
+  description:
+  - '&fමෙම යන්ත්‍රය ඔබට එකතු කිරීමට ඉඩ දෙයි'
+  - '&f ආසන්න මොබ්වලින් අයිතම. (16 කුට්ටිය)'
+  name: 'මොබ් එකතු කරන්නා III'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J බෆරය'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_MOB_COLLECTOR_TOOL_I:
+  name: "මොබ්ටෙක් එකතු කරන්නා I (මෙවලම)"
+  stats:
+  - '&8⇨ &e⚡ &7භාවිතයකට 50 J'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_MOB_COLLECTOR_TOOL_II:
+  name: "මොබ්ටෙක් එකතු කරන්නා II (මෙවලම)"
+  stats:
+  - '&8⇨ &e⚡ &7භාවිතයකට 50 J'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_MOB_COLLECTOR_TOOL_III:
+  name: "මොබ්ටෙක් එකතු කරන්නා III (මෙවලම)"
+  stats:
+  - '&8⇨ &e⚡ &7භාවිතයකට 50 J'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_II:
+  description:
+  - '&fමෙම යන්ත්‍රය ඔබට එකතු කිරීමට ඉඩ දෙයි '
+  - '&fආසන්න මොබ්වලින් මොබ්ටෙක් හිස්. (6 කුට්ටිය)'
+  name: 'මොබ්ටෙක් එකතු කරන්නා II'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J බෆරය'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_III:
+  description:
+  - '&fමෙම යන්ත්‍රය ඔබට එකතු කිරීමට ඉඩ දෙයි '
+  - '&fආසන්න මොබ්වලින් මොබ්ටෙක් හිස්. (9 කුට්ටිය)'
+  name: 'මොබ්ටෙක් එකතු කරන්නා III'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J බෆරය'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_MULTIBLOCK_CORE:
+  description:
+  - '&7&oඔබට මෙහි හරය තැනිය හැකියි!'
+  - '&aබහු-කුට්ටි යන්ත්‍රය'
+  name: 'හර නිර්මාපකය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_MULTIBLOCK_GEAR:
+  description:
+  - '&7&oඔබට මෙහි අවි, සන්නාහ සහ මෙවලම් තැනිය හැකියි!'
+  - '&aබහු-කුට්ටි යන්ත්‍රය'
+  name: 'උපකරණ නිර්මාපකය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_MULTIBLOCK_MAGICAL:
+  description:
+  - '&7&oඔබට මෙහි ඉන්ද්‍රජාලික තැනිය හැකියි!'
+  - '&aබහු-කුට්ටි යන්ත්‍රය'
+  name: 'ඉන්ද්‍රජාලික නිර්මාපකය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_PETRIFIER_MACHINE:
+  name: 'ගල් කරන යන්ත්‍රය'
+  type:
+  - '&7&oඋසස් සංරචක'
+SUPREME_PICKAXE_EPIC:
+  description:
+  - '&f&lවිශිෂ්ට තෝර්නියම් පිකැක්සයකි'
+  name: 'විශිෂ්ට පිකැක්ස්'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_PICKAXE_LEGENDARY:
+  description:
+  - '&f&lපුරාවෘත්තික තෝර්නියම් පිකැක්සයකි'
+  name: 'පුරාවෘත්තික පිකැක්ස්'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_PICKAXE_MAGIC:
+  description:
+  - '&f&lඉන්ද්‍රජාල තෝර්නියම් පිකැක්සයකි'
+  name: 'ඉන්ද්‍රජාල පිකැක්ස්'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_PICKAXE_RARE:
+  description:
+  - '&f&lදුර්ලභ තෝර්නියම් පිකැක්සයකි'
+  name: 'දුර්ලභ පිකැක්ස්'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_PICKAXE_SUPREME:
+  description:
+  - '&f&lඋත්තරීතර තෝර්නියම් පිකැක්සයකි'
+  name: 'උත්තරීතර පිකැක්ස්'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_PICKAXE_THORNIUM:
+  description:
+  - '&f&lතෝර්නියම් පිකැක්සයකි'
+  name: 'තෝර්නියම් පිකැක්ස්'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_PLATINUM_PLATE:
+  name: 'ප්ලැටිනම් තහඩුව'
+  type:
+  - '&7&oසංරචක'
+SUPREME_RUSTLESS_MACHINE:
+  name: 'මල නොබැඳෙන යන්ත්‍රය'
+  type:
+  - '&7&oඋසස් සංරචක'
+SUPREME_SHIELD_EPIC:
+  description:
+  - '&f&lවිශිෂ්ට තෝර්නියම් පලිහකි'
+  name: 'විශිෂ්ට පලිහ'
+  type:
+  - '&7&oආයුධ'
+SUPREME_SHIELD_LEGENDARY:
+  description:
+  - '&f&lපුරාවෘත්තික තෝර්නියම් පලිහකි'
+  name: 'පුරාවෘත්තික පලිහ'
+  type:
+  - '&7&oආයුධ'
+SUPREME_SHIELD_MAGIC:
+  description:
+  - '&f&lඉන්ද්‍රජාල තෝර්නියම් පලිහකි'
+  name: 'ඉන්ද්‍රජාල පලිහ'
+  type:
+  - '&7&oආයුධ'
+SUPREME_SHIELD_RARE:
+  description:
+  - '&f&lදුර්ලභ තෝර්නියම් පලිහකි'
+  name: 'දුර්ලභ පලිහ'
+  type:
+  - '&7&oආයුධ'
+SUPREME_SHIELD_SUPREME:
+  description:
+  - '&f&lඋත්තරීතර තෝර්නියම් පලිහකි'
+  name: 'උත්තරීතර පලිහ'
+  type:
+  - '&7&oආයුධ'
+SUPREME_SHIELD_THORNIUM:
+  description:
+  - '&f&lතෝර්නියම් පලිහකි'
+  name: 'තෝර්නියම් පලිහ'
+  type:
+  - '&7&oආයුධ'
+SUPREME_SHOVEL_EPIC:
+  description:
+  - '&f&lවිශිෂ්ට තෝර්නියම් සවලකි'
+  name: 'විශිෂ්ට සවල'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_SHOVEL_LEGENDARY:
+  description:
+  - '&f&lපුරාවෘත්තික තෝර්නියම් සවලකි'
+  name: 'පුරාවෘත්තික සවල'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_SHOVEL_MAGIC:
+  description:
+  - '&f&lඉන්ද්‍රජාල තෝර්නියම් සවලකි'
+  name: 'ඉන්ද්‍රජාල සවල'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_SHOVEL_RARE:
+  description:
+  - '&f&lදුර්ලභ තෝර්නියම් සවලකි'
+  name: 'දුර්ලභ සවල'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_SHOVEL_SUPREME:
+  description:
+  - '&f&lඋත්තරීතර තෝර්නියම් සවලකි'
+  name: 'උත්තරීතර සවල'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_SHOVEL_THORNIUM:
+  description:
+  - '&f&lතෝර්නියම් සවලකි'
+  name: 'තෝර්නියම් සවල'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_STAINLESS_MACHINE:
+  name: 'කැළැල් නොවන යන්ත්‍රය'
+  type:
+  - '&7&oඋසස් සංරචක'
+SUPREME_STONE_QUARRY:
+  name: 'ගල් පතලය'
+  stats:
+  - '&aමධ්‍යම යන්ත්‍රය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_SUPREME:
+  description:
+  - '&7උත්තරීතරයා'
+  name: 'උත්තරීතර'
+  type:
+  - '&7&oඅවසන් අදියරේ සංරචක'
+SUPREME_SUPREME_CAPACITOR:
+  name: 'උත්තරීතර ධාරිත්‍රකය'
+  stats:
+  - '&4අවසන් අදියර ධාරිත්‍රකය'
+  - '&8⇨ &e⚡ &7අසීමිත J ධාරිතාව'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_SUPREME_GENERATOR:
+  name: 'උත්තරීතර ජනකය'
+  stats:
+  - '&4අවසන් අදියර ජනකය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_SUPREME_NUGGET:
+  description:
+  - '&7උත්තරීතර කැට පතලෙන්'
+  name: 'උත්තරීතර කැටය'
+  type:
+  - '&7&oඅවසන් අදියරේ සංරචක'
+SUPREME_SUPREME_NUGGETS_QUARRY:
+  name: 'උත්තරීතර කැට පතලය'
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_SWORD_EPIC:
+  description:
+  - '&f&lවිශිෂ්ට තෝර්නියම් කඩුවකි'
+  name: 'විශිෂ්ට කඩුව'
+  type:
+  - '&7&oආයුධ'
+SUPREME_SWORD_LEGENDARY:
+  description:
+  - '&f&lපුරාවෘත්තික තෝර්නියම් කඩුවකි'
+  name: 'පුරාවෘත්තික කඩුව'
+  type:
+  - '&7&oආයුධ'
+SUPREME_SWORD_MAGIC:
+  description:
+  - '&f&lඉන්ද්‍රජාල තෝර්නියම් කඩුවකි'
+  name: 'ඉන්ද්‍රජාල කඩුව'
+  type:
+  - '&7&oආයුධ'
+SUPREME_SWORD_RARE:
+  description:
+  - '&f&lදුර්ලභ තෝර්නියම් කඩුවකි'
+  name: 'දුර්ලභ කඩුව'
+  type:
+  - '&7&oආයුධ'
+SUPREME_SWORD_SUPREME:
+  description:
+  - '&f&lඋත්තරීතර තෝර්නියම් කඩුවකි'
+  name: 'උත්තරීතර කඩුව'
+  type:
+  - '&7&oආයුධ'
+SUPREME_SWORD_THORNIUM:
+  description:
+  - '&f&lතෝර්නියම් කඩුවකි'
+  name: 'තෝර්නියම් කඩුව'
+  type:
+  - '&7&oආයුධ'
+SUPREME_SYNTHETIC_AMETHYST:
+  name: 'කෘත්‍රිම ඇමතිස්ට්'
+  type:
+  - '&7&oසංරචක'
+SUPREME_SYNTHETIC_RUBY:
+  name: 'කෘත්‍රිම රතුමැණික'
+  type:
+  - '&7&oසංරචක'
+SUPREME_TECH_GENERATOR:
+  description:
+  - '&fබලය සහ මීමැස්සන්/ගොලෙම්/සොම්බි භාවිතයෙන්, '
+  - '&fසෙමින් ද්‍රව්‍ය ජනනය කරයි.'
+  name: 'තාක්ෂණ නිෂ්පාදකය'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_TECH_MUTATION_I:
+  description:
+  - '&fනිෂ්පාදක විකරණය භාවිතා කරන්න '
+  - '&fඉහළ මට්ටම් වෙත ප්‍රගමනය වීමට'
+  name: 'තාක්ෂණ විකරණය'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_TECH_MUTATION_II:
+  description:
+  - '&fනිෂ්පාදක විකරණය භාවිතා කරන්න '
+  - '&fඉහළ මට්ටම් වෙත ප්‍රගමනය වීමට'
+  - '&fසම්භාවිතා සාධකය 2x කින් ගුණ වේ'
+  name: 'තාක්ෂණ විකරණය II'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_TECH_MUTATION_III:
+  description:
+  - '&fනිෂ්පාදක විකරණය භාවිතා කරන්න '
+  - '&fඉහළ මට්ටම් වෙත ප්‍රගමනය වීමට'
+  - '&fසම්භාවිතා සාධකය 4x කින් ගුණ වේ'
+  name: 'තාක්ෂණ විකරණය III'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_TECH_ROBOTIC:
+  description:
+  - '&fආරම්භක මට්ටමේ රොබෝවරු භාවිතා කරන්න '
+  - '&fඉහළ මට්ටම් වෙත ප්‍රගමනය වීමට'
+  - '&fවැඩිදියුණු කිරීමට 64x අවශ්‍යයි'
+  name: 'තාක්ෂණ රොබෝ'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_TECH_ROBOTIC_II:
+  description:
+  - '&fආරම්භක මට්ටමේ රොබෝවරු භාවිතා කරන්න '
+  - '&fඉහළ මට්ටම් වෙත ප්‍රගමනය වීමට'
+  - '&fවැඩිදියුණු කිරීමට 32x අවශ්‍යයි'
+  name: 'තාක්ෂණ රොබෝ II'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_TECH_ROBOTIC_III:
+  description:
+  - '&fආරම්භක මට්ටමේ රොබෝවරු භාවිතා කරන්න '
+  - '&fඉහළ මට්ටම් වෙත ප්‍රගමනය වීමට'
+  - '&fවැඩිදියුණු කිරීමට 16x අවශ්‍යයි'
+  name: 'තාක්ෂණ රොබෝ III'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_THORNERITE:
+  name: 'තෝර්නරයිට්'
+  type:
+  - '&7&oඅවසන් අදියරේ සංරචක'
+SUPREME_THORNIUM_BIT:
+  description:
+  - '&7තෝර්නියම් පතලෙන්'
+  name: 'තෝර්නියම් කැබැල්ල'
+  type:
+  - '&7&oඅවසන් අදියරේ සංරචක'
+SUPREME_THORNIUM_BIT_SYNTHETIC:
+  description:
+  - '&7තෝර්නියම් කැබැල්ලෙන්'
+  name: 'කෘත්‍රිම තෝර්නියම් කැබැල්ල'
+  type:
+  - '&7&oඅවසන් අදියරේ සංරචක'
+SUPREME_THORNIUM_CAPACITOR:
+  name: 'තෝර්නියම් ධාරිත්‍රකය'
+  stats:
+  - '&4අවසන් අදියර ධාරිත්‍රකය'
+  - '&8⇨ &e⚡ &7100,000,000.00 J ධාරිතාව'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_THORNIUM_CARBONADO:
+  description:
+  - '&7තෝර්නියම් දණ්ඩෙන්'
+  name: 'තෝර්නියම් කාබනාඩෝ'
+  type:
+  - '&7&oඅවසන් අදියරේ සංරචක'
+SUPREME_THORNIUM_DUST:
+  description:
+  - '&7තෝර්නියම් කැබැල්ලෙන්'
+  name: 'තෝර්නියම් දූවිලි'
+  type:
+  - '&7&oඅවසන් අදියරේ සංරචක'
+SUPREME_THORNIUM_DUST_SYNTHETIC:
+  description:
+  - '&7තෝර්නියම් දූවිලිවලින්'
+  name: 'කෘත්‍රිම තෝර්නියම් දූවිලි'
+  type:
+  - '&7&oඅවසන් අදියරේ සංරචක'
+SUPREME_THORNIUM_ENERGIZED:
+  description:
+  - '&7තෝර්නියම් දණ්ඩෙන්'
+  name: 'ආරෝපිත තෝර්නියම්'
+  type:
+  - '&7&oඅවසන් අදියරේ සංරචක'
+SUPREME_THORNIUM_GENERATOR:
+  name: 'තෝර්නියම් ජනකය'
+  stats:
+  - '&4අවසන් අදියර ජනකය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_THORNIUM_INGOT:
+  description:
+  - '&7තෝර්නියම් දූවිලිවලින්'
+  name: 'තෝර්නියම් දණ්ඩ'
+  type:
+  - '&7&oඅවසන් අදියරේ සංරචක'
+SUPREME_THORNIUM_INGOT_SYNTHETIC:
+  description:
+  - '&7තෝර්නියම් දණ්ඩෙන්'
+  name: 'කෘත්‍රිම තෝර්නියම් දණ්ඩ'
+  type:
+  - '&7&oඅවසන් අදියරේ සංරචක'
+SUPREME_THORNIUM_QUARRY:
+  name: 'තෝර්නියම් පතලය'
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_TITANIUM_AXE:
+  description:
+  - '&f&lටයිටේනියම් පොරොවකි'
+  name: 'ටයිටේනියම් පොරොව'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_TITANIUM_BOOTS:
+  description:
+  - '&f&lටයිටේනියම් පාවහනකි'
+  name: 'ටයිටේනියම් පාවහන්'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_TITANIUM_CAPACITOR:
+  name: 'ටයිටේනියම් ධාරිත්‍රකය'
+  stats:
+  - '&6උසස් ධාරිත්‍රකය'
+  - '&8⇨ &e⚡ &74,000,000.00 J ධාරිතාව'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_TITANIUM_CHESTPLATE:
+  description:
+  - '&f&lටයිටේනියම් පපු කවචයකි'
+  name: 'ටයිටේනියම් පපු කවචය'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_TITANIUM_HELMET:
+  description:
+  - '&f&lටයිටේනියම් හිස්වැස්මකි'
+  name: 'ටයිටේනියම් හිස්වැස්ම'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_TITANIUM_LEGGINGS:
+  description:
+  - '&f&lටයිටේනියම් කලිසමකි'
+  name: 'ටයිටේනියම් කලිසම'
+  type:
+  - '&7&oසන්නාහය'
+SUPREME_TITANIUM_PICKAXE:
+  description:
+  - '&f&lටයිටේනියම් පිකැක්සයකි'
+  name: 'ටයිටේනියම් පිකැක්ස්'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_TITANIUM_PLATE:
+  name: 'ටයිටේනියම් තහඩුව'
+  type:
+  - '&7&oසංරචක'
+SUPREME_TITANIUM_SHOVEL:
+  description:
+  - '&f&lටයිටේනියම් සවලකි'
+  name: 'ටයිටේනියම් සවල'
+  type:
+  - '&7&oමෙවලම්'
+SUPREME_TITANIUM_SWORD:
+  description:
+  - '&f&lටයිටේනියම් කඩුවකි'
+  name: 'ටයිටේනියම් කඩුව'
+  type:
+  - '&7&oආයුධ'
+SUPREME_VENTUS_GENERATOR:
+  name: 'වෙන්ටස් ජනකය'
+  stats:
+  - '&eමූලික ජනකය'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_VIRTUAL_AQUARIUM_I:
+  description:
+  - '&fමෙම යන්ත්‍රය ඔබට එකතු කිරීමට ඉඩ දෙයි '
+  - '&f මුහුදේ එකතු කරන අයිතම.'
+  name: 'අතථ්‍ය මත්ස්‍යාගාරය'
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J බෆරය'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_VIRTUAL_AQUARIUM_II:
+  description:
+  - '&fමෙම යන්ත්‍රය ඔබට එකතු කිරීමට ඉඩ දෙයි'
+  - '&f මුහුදේ එකතු කරන අයිතම.'
+  name: 'අතථ්‍ය මත්ස්‍යාගාරය II'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J බෆරය'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_VIRTUAL_AQUARIUM_III:
+  description:
+  - '&fමෙම යන්ත්‍රය ඔබට එකතු කිරීමට ඉඩ දෙයි'
+  - '&f මුහුදේ එකතු කරන අයිතම.'
+  name: 'අතථ්‍ය මත්ස්‍යාගාරය III'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J බෆරය'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_VIRTUAL_GARDEN_I:
+  description:
+  - '&fමෙම යන්ත්‍රය ඔබට ඉඩ දෙයි'
+  - '&fසම්පත් කිහිපයක් වගා කිරීමට.'
+  name: 'අතථ්‍ය උද්‍යානය'
+  stats:
+  - '&6උසස් යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J බෆරය'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_VIRTUAL_GARDEN_II:
+  description:
+  - '&fමෙම යන්ත්‍රය ඔබට ඉඩ දෙයි'
+  - '&fසම්පත් කිහිපයක් වගා කිරීමට.'
+  name: 'අතථ්‍ය උද්‍යානය II'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J බෆරය'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_VIRTUAL_GARDEN_III:
+  description:
+  - '&fමෙම යන්ත්‍රය ඔබට ඉඩ දෙයි'
+  - '&fසම්පත් කිහිපයක් වගා කිරීමට.'
+  name: 'අතථ්‍ය උද්‍යානය III'
+  stats:
+  - '&4අවසන් අදියර යන්ත්‍රය'
+  - '&8⇨ &b⚡ &7වේගය: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J බෆරය'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oයන්ත්‍රය'
+SUPREME_ZIRCONIUM_PLATE:
+  name: 'සර්කෝනියම් තහඩුව'
+  type:
+  - '&7&oසංරචක'

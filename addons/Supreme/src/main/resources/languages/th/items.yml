@@ -1,0 +1,2352 @@
+MOB_TECH_COLLECTOR_MACHINE:
+  description:
+  - '&fเครื่องจักรนี้ทำให้คุณเก็บรวบรวม '
+  - '&fหัวม็อบเทคจากม็อบใกล้เคียง (3 บล็อก)'
+  name: 'เครื่องเก็บม็อบเทค I'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_ADAMANTIUM_AXE:
+  description:
+  - '&f&lขวานที่ทำจากอะดาแมนเทียม'
+  name: 'ขวานอะดาแมนเทียม'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_ADAMANTIUM_BOOTS:
+  description:
+  - '&f&lรองเท้าเกราะที่ทำจากอะดาแมนเทียม'
+  name: 'รองเท้าเกราะอะดาแมนเทียม'
+  type:
+  - '&7&oเกราะ'
+SUPREME_ADAMANTIUM_CAPACITOR:
+  name: 'ตัวเก็บประจุอะดาแมนเทียม'
+  stats:
+  - '&6ตัวเก็บประจุขั้นสูง'
+  - '&8⇨ &e⚡ &7ความจุ 16,000,000.00 J'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_ADAMANTIUM_CHESTPLATE:
+  description:
+  - '&f&lเสื้อเกราะที่ทำจากอะดาแมนเทียม'
+  name: 'เสื้อเกราะอะดาแมนเทียม'
+  type:
+  - '&7&oเกราะ'
+SUPREME_ADAMANTIUM_HELMET:
+  description:
+  - '&f&lหมวกเกราะที่ทำจากอะดาแมนเทียม'
+  name: 'หมวกเกราะอะดาแมนเทียม'
+  type:
+  - '&7&oเกราะ'
+SUPREME_ADAMANTIUM_LEGGINGS:
+  description:
+  - '&f&lกางเกงเกราะที่ทำจากอะดาแมนเทียม'
+  name: 'กางเกงเกราะอะดาแมนเทียม'
+  type:
+  - '&7&oเกราะ'
+SUPREME_ADAMANTIUM_PICKAXE:
+  description:
+  - '&f&lอีเต้อที่ทำจากอะดาแมนเทียม'
+  name: 'อีเต้ออะดาแมนเทียม'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_ADAMANTIUM_PLATE:
+  name: 'แผ่นอะดาแมนเทียม'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_ADAMANTIUM_SHOVEL:
+  description:
+  - '&f&lพลั่วที่ทำจากอะดาแมนเทียม'
+  name: 'พลั่วอะดาแมนเทียม'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_ADAMANTIUM_SWORD:
+  description:
+  - '&f&lดาบที่ทำจากอะดาแมนเทียม'
+  name: 'ดาบอะดาแมนเทียม'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_ALLOY_ADAMANTIUM:
+  name: 'โลหะผสมอะดาแมนเทียม'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_ALLOY_AURUM:
+  name: 'โลหะผสมออรุม'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_ALLOY_IRIDIUM:
+  name: 'โลหะผสมอิริเดียม'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_ALLOY_MANGANESE:
+  name: 'โลหะผสมแมงกานีส'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_ALLOY_PLATINUM:
+  name: 'โลหะผสมแพลตินัม'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_ALLOY_TITANIUM:
+  name: 'โลหะผสมไทเทเนียม'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_ALLOY_ZIRCONIUM:
+  name: 'โลหะผสมเซอร์โคเนียม'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_AQUA_GENERATOR:
+  name: 'เครื่องกำเนิดอควา'
+  stats:
+  - '&6เครื่องกำเนิดขั้นสูง'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_ATTRIBUTE_BOMB:
+  description:
+  - '&7คุณสมบัติระเบิดซูเปอร์ที่มีเอฟเฟกต์พิเศษ'
+  name: 'คุณสมบัติระเบิด'
+  type:
+  - '&7&oส่วนประกอบเวทมนตร์'
+SUPREME_ATTRIBUTE_FORTUNE:
+  description:
+  - '&7คุณสมบัติโชคลาภซูเปอร์ที่มีเอฟเฟกต์พิเศษ'
+  name: 'คุณสมบัติโชคลาภ'
+  type:
+  - '&7&oส่วนประกอบเวทมนตร์'
+SUPREME_ATTRIBUTE_IMPETUS:
+  description:
+  - '&7คุณสมบัติแรงผลักซูเปอร์ที่มีเอฟเฟกต์พิเศษ'
+  name: 'คุณสมบัติแรงผลัก'
+  type:
+  - '&7&oส่วนประกอบเวทมนตร์'
+SUPREME_ATTRIBUTE_MAGIC:
+  description:
+  - '&7คุณสมบัติเวทมนตร์ซูเปอร์ที่มีเอฟเฟกต์พิเศษ'
+  name: 'คุณสมบัติเวทมนตร์'
+  type:
+  - '&7&oส่วนประกอบเวทมนตร์'
+SUPREME_AURUM_AXE:
+  description:
+  - '&f&lขวานที่ทำจากออรุม'
+  name: 'ขวานออรุม'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_AURUM_BOOTS:
+  description:
+  - '&f&lรองเท้าเกราะที่ทำจากออรุม'
+  name: 'รองเท้าเกราะออรุม'
+  type:
+  - '&7&oเกราะ'
+SUPREME_AURUM_CAPACITOR:
+  name: 'ตัวเก็บประจุออรุม'
+  stats:
+  - '&6ตัวเก็บประจุขั้นสูง'
+  - '&8⇨ &e⚡ &7ความจุ 1,000,000.00 J'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_AURUM_CHESTPLATE:
+  description:
+  - '&f&lเสื้อเกราะที่ทำจากออรุม'
+  name: 'เสื้อเกราะออรุม'
+  type:
+  - '&7&oเกราะ'
+SUPREME_AURUM_HELMET:
+  description:
+  - '&f&lหมวกเกราะที่ทำจากออรุม'
+  name: 'หมวกเกราะออรุม'
+  type:
+  - '&7&oเกราะ'
+SUPREME_AURUM_LEGGINGS:
+  description:
+  - '&f&lกางเกงเกราะที่ทำจากออรุม'
+  name: 'กางเกงเกราะออรุม'
+  type:
+  - '&7&oเกราะ'
+SUPREME_AURUM_PICKAXE:
+  description:
+  - '&f&lอีเต้อที่ทำจากออรุม'
+  name: 'อีเต้อออรุม'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_AURUM_PLATE:
+  name: 'แผ่นออรุม'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_AURUM_SHOVEL:
+  description:
+  - '&f&lพลั่วที่ทำจากออรุม'
+  name: 'พลั่วออรุม'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_AURUM_SWORD:
+  description:
+  - '&f&lดาบที่ทำจากออรุม'
+  name: 'ดาบออรุม'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_AXE_EPIC:
+  description:
+  - '&f&lขวานเอพิคที่ทำจากธอร์เนียม'
+  name: 'ขวานเอพิค'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_AXE_LEGENDARY:
+  description:
+  - '&f&lขวานตำนานที่ทำจากธอร์เนียม'
+  name: 'ขวานตำนาน'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_AXE_MAGIC:
+  description:
+  - '&f&lขวานเวทมนตร์ที่ทำจากธอร์เนียม'
+  name: 'ขวานเวทมนตร์'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_AXE_RARE:
+  description:
+  - '&f&lขวานหายากที่ทำจากธอร์เนียม'
+  name: 'ขวานหายาก'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_AXE_SUPREME:
+  description:
+  - '&f&lขวานสูงสุดที่ทำจากธอร์เนียม'
+  name: 'ขวานสูงสุด'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_AXE_THORNIUM:
+  description:
+  - '&f&lขวานที่ทำจากธอร์เนียม'
+  name: 'ขวานธอร์เนียม'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_BASIC_AQUA_GENERATOR:
+  name: 'เครื่องกำเนิดอควาพื้นฐาน'
+  stats:
+  - '&eเครื่องกำเนิดพื้นฐาน'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_BASIC_IGNIS_GENERATOR:
+  name: 'เครื่องกำเนิดอิกนิสพื้นฐาน'
+  stats:
+  - '&eเครื่องกำเนิดพื้นฐาน'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_BASIC_LUMIUM_GENERATOR:
+  name: 'เครื่องกำเนิดลูเมียมพื้นฐาน'
+  stats:
+  - '&6เครื่องกำเนิดขั้นสูง'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_BASIC_LUX_GENERATOR:
+  name: 'เครื่องกำเนิดลักซ์พื้นฐาน'
+  stats:
+  - '&eเครื่องกำเนิดพื้นฐาน'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_BASIC_VENTUS_GENERATOR:
+  name: 'เครื่องกำเนิดเวนตุสพื้นฐาน'
+  stats:
+  - '&eเครื่องกำเนิดพื้นฐาน'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_BLEND_MACHINE:
+  name: 'เครื่องจักรผสม'
+  type:
+  - '&7&oส่วนประกอบขั้นสูง'
+SUPREME_BOOTS_EPIC:
+  description:
+  - '&f&lรองเท้าเกราะเอพิคที่ทำจากธอร์เนียม'
+  name: 'รองเท้าเกราะเอพิค'
+  type:
+  - '&7&oเกราะ'
+SUPREME_BOOTS_LEGENDARY:
+  description:
+  - '&f&lรองเท้าเกราะตำนานที่ทำจากธอร์เนียม'
+  name: 'รองเท้าเกราะตำนาน'
+  type:
+  - '&7&oเกราะ'
+SUPREME_BOOTS_MAGIC:
+  description:
+  - '&f&lรองเท้าเกราะเวทมนตร์ที่ทำจากธอร์เนียม'
+  name: 'รองเท้าเกราะเวทมนตร์'
+  type:
+  - '&7&oเกราะ'
+SUPREME_BOOTS_RARE:
+  description:
+  - '&f&lรองเท้าเกราะหายากที่ทำจากธอร์เนียม'
+  name: 'รองเท้าเกราะหายาก'
+  type:
+  - '&7&oเกราะ'
+SUPREME_BOOTS_SUPREME:
+  description:
+  - '&f&lรองเท้าเกราะสูงสุดที่ทำจากธอร์เนียม'
+  name: 'รองเท้าเกราะสูงสุด'
+  type:
+  - '&7&oเกราะ'
+SUPREME_BOOTS_THORNIUM:
+  description:
+  - '&f&lรองเท้าเกราะที่ทำจากธอร์เนียม'
+  name: 'รองเท้าเกราะธอร์เนียม'
+  type:
+  - '&7&oเกราะ'
+SUPREME_BOW_EPIC:
+  description:
+  - '&f&lธนูเอพิคที่ทำจากธอร์เนียม'
+  name: 'ธนูเอพิค'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_BOW_LEGENDARY:
+  description:
+  - '&f&lธนูตำนานที่ทำจากธอร์เนียม'
+  name: 'ธนูตำนาน'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_BOW_MAGIC:
+  description:
+  - '&f&lธนูเวทมนตร์ที่ทำจากธอร์เนียม'
+  name: 'ธนูเวทมนตร์'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_BOW_RARE:
+  description:
+  - '&f&lธนูหายากที่ทำจากธอร์เนียม'
+  name: 'ธนูหายาก'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_BOW_SUPREME:
+  description:
+  - '&f&lธนูสูงสุดที่ทำจากธอร์เนียม'
+  name: 'ธนูสูงสุด'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_BOW_THORNIUM:
+  description:
+  - '&f&lธนูที่ทำจากธอร์เนียม'
+  name: 'ธนูธอร์เนียม'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_CARD_ALUMINUM_BRASS:
+  description:
+  - '&fเปลี่ยนไปผลิตแท่งอะลูมิเนียมทองเหลือง'
+  name: "การ์ดเครื่องจักร (แท่งอะลูมิเนียมทองเหลือง)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_ALUMINUM_BRONZE:
+  description:
+  - '&fเปลี่ยนไปผลิตแท่งอะลูมิเนียมทองสัมฤทธิ์'
+  name: "การ์ดเครื่องจักร (แท่งอะลูมิเนียมทองสัมฤทธิ์)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_ALUMINUM_DUST:
+  description:
+  - '&fเปลี่ยนไปผลิตผงอะลูมิเนียม'
+  name: "การ์ดเครื่องจักร (ผงอะลูมิเนียม)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_AMETHYST:
+  description:
+  - '&fเปลี่ยนไปผลิตแอมิทิสต์'
+  name: "การ์ดเครื่องจักร (แอมิทิสต์)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_ANDESITE:
+  description:
+  - '&fเปลี่ยนไปผลิตแอนดีไซต์'
+  name: "การ์ดเครื่องจักร (แอนดีไซต์)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_APPLE:
+  description:
+  - '&fเปลี่ยนไปผลิตแอปเปิล'
+  name: "การ์ดเครื่องจักร (แอปเปิล)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_BATTERY:
+  description:
+  - '&fเปลี่ยนไปผลิตแบตเตอรี'
+  name: "การ์ดเครื่องจักร (แบตเตอรี)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_BILLON:
+  description:
+  - '&fเปลี่ยนไปผลิตแท่งบิลลอน'
+  name: "การ์ดเครื่องจักร (แท่งบิลลอน)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_BLAZE_ROD:
+  description:
+  - '&fเปลี่ยนไปผลิตแท่งเบลซ'
+  name: "การ์ดเครื่องจักร (แท่งเบลซ)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_BRASS:
+  description:
+  - '&fเปลี่ยนไปผลิตแท่งทองเหลือง'
+  name: "การ์ดเครื่องจักร (แท่งทองเหลือง)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_BRONZE:
+  description:
+  - '&fเปลี่ยนไปผลิตแท่งทองสัมฤทธิ์'
+  name: "การ์ดเครื่องจักร (แท่งทองสัมฤทธิ์)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_CARBON:
+  description:
+  - '&fเปลี่ยนไปผลิตคาร์บอน'
+  name: "การ์ดเครื่องจักร (คาร์บอน)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_CARBONADO:
+  description:
+  - '&fเปลี่ยนไปผลิตคาร์โบนาโด'
+  name: "การ์ดเครื่องจักร (คาร์โบนาโด)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_CARBON_PRESS:
+  description:
+  - '&fเปลี่ยนไปผลิตคาร์บอนอัดแน่น'
+  name: "การ์ดเครื่องจักร (คาร์บอนอัดแน่น)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_CLAY:
+  description:
+  - '&fเปลี่ยนไปผลิตดินเหนียว'
+  name: "การ์ดเครื่องจักร (ดินเหนียว)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_COAL:
+  description:
+  - '&fเปลี่ยนไปผลิตถ่านหิน'
+  name: "การ์ดเครื่องจักร (ถ่านหิน)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_COBALT:
+  description:
+  - '&fเปลี่ยนไปผลิตโคบอลต์'
+  name: "การ์ดเครื่องจักร (โคบอลต์)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_COPPER:
+  description:
+  - '&fเปลี่ยนไปผลิตทองแดง'
+  name: "การ์ดเครื่องจักร (ทองแดง)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_COPPER_DUST:
+  description:
+  - '&fเปลี่ยนไปผลิตผงทองแดง'
+  name: "การ์ดเครื่องจักร (ผงทองแดง)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_CORINTHIAN_BRONZE:
+  description:
+  - '&fเปลี่ยนไปผลิตแท่งทองสัมฤทธิ์โครินธ์'
+  name: "การ์ดเครื่องจักร (แท่งทองสัมฤทธิ์โครินธ์)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_DAMASCUS:
+  description:
+  - '&fเปลี่ยนไปผลิตดามัสกัส'
+  name: "การ์ดเครื่องจักร (ดามัสกัส)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_DIAMOND:
+  description:
+  - '&fเปลี่ยนไปผลิตเพชร'
+  name: "การ์ดเครื่องจักร (เพชร)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_DIORITE:
+  description:
+  - '&fเปลี่ยนไปผลิตไดโอไรต์'
+  name: "การ์ดเครื่องจักร (ไดโอไรต์)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_DURALUMIN:
+  description:
+  - '&fเปลี่ยนไปผลิตแท่งดูราลูมิน'
+  name: "การ์ดเครื่องจักร (แท่งดูราลูมิน)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_ELECTRIC_MOTOR:
+  description:
+  - '&fเปลี่ยนไปผลิตมอเตอร์ไฟฟ้า'
+  name: "การ์ดเครื่องจักร (มอเตอร์ไฟฟ้า)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_ELECTRO_MAGNET:
+  description:
+  - '&fเปลี่ยนไปผลิตแม่เหล็กไฟฟ้า'
+  name: "การ์ดเครื่องจักร (แม่เหล็กไฟฟ้า)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_EMERALD:
+  description:
+  - '&fเปลี่ยนไปผลิตมรกต'
+  name: "การ์ดเครื่องจักร (มรกต)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_ENDSTONE:
+  description:
+  - '&fเปลี่ยนไปผลิตหินเอนด์'
+  name: "การ์ดเครื่องจักร (หินเอนด์)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_FERROSILICON:
+  description:
+  - '&fเปลี่ยนไปผลิตเฟอร์โรซิลิคอน'
+  name: "การ์ดเครื่องจักร (เฟอร์โรซิลิคอน)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_GLOW_INK_SAC:
+  description:
+  - '&fเปลี่ยนไปผลิตถุงหมึกเรืองแสง'
+  name: "การ์ดเครื่องจักร (ถุงหมึกเรืองแสง)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_GOLD:
+  description:
+  - '&fเปลี่ยนไปผลิตทอง'
+  name: "การ์ดเครื่องจักร (ทอง)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_GOLD24K:
+  description:
+  - '&fเปลี่ยนไปผลิตทอง 24k'
+  name: "การ์ดเครื่องจักร (ทอง 24k)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_GOLD_DUST:
+  description:
+  - '&fเปลี่ยนไปผลิตผงทอง'
+  name: "การ์ดเครื่องจักร (ผงทอง)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_GRANITE:
+  description:
+  - '&fเปลี่ยนไปผลิตแกรนิต'
+  name: "การ์ดเครื่องจักร (แกรนิต)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_GRAVEL:
+  description:
+  - '&fเปลี่ยนไปผลิตกรวด'
+  name: "การ์ดเครื่องจักร (กรวด)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_HARDENED_METAL:
+  description:
+  - '&fเปลี่ยนไปผลิตแท่งโลหะชุบแข็ง'
+  name: "การ์ดเครื่องจักร (แท่งโลหะชุบแข็ง)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_HEATING_COIL:
+  description:
+  - '&fเปลี่ยนไปผลิตขดลวดความร้อน'
+  name: "การ์ดเครื่องจักร (ขดลวดความร้อน)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_HONEY_BOTTLE:
+  description:
+  - '&fเปลี่ยนไปผลิตขวดน้ำผึ้ง'
+  name: "การ์ดเครื่องจักร (ขวดน้ำผึ้ง)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_INK_SAC:
+  description:
+  - '&fเปลี่ยนไปผลิตถุงหมึก'
+  name: "การ์ดเครื่องจักร (ถุงหมึก)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_IRON:
+  description:
+  - '&fเปลี่ยนไปผลิตเหล็ก'
+  name: "การ์ดเครื่องจักร (เหล็ก)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_IRON_DUST:
+  description:
+  - '&fเปลี่ยนไปผลิตผงเหล็ก'
+  name: "การ์ดเครื่องจักร (ผงเหล็ก)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_LAPIS:
+  description:
+  - '&fเปลี่ยนไปผลิตลาพิส'
+  name: "การ์ดเครื่องจักร (ลาพิส)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_LEAD_DUST:
+  description:
+  - '&fเปลี่ยนไปผลิตผงตะกั่ว'
+  name: "การ์ดเครื่องจักร (ผงตะกั่ว)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_MAGNESIUM_DUST:
+  description:
+  - '&fเปลี่ยนไปผลิตผงแมกนีเซียม'
+  name: "การ์ดเครื่องจักร (ผงแมกนีเซียม)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_MAGNET:
+  description:
+  - '&fเปลี่ยนไปผลิตแม่เหล็ก'
+  name: "การ์ดเครื่องจักร (แม่เหล็ก)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_NETHERITE:
+  description:
+  - '&fเปลี่ยนไปผลิตเนเธอไรต์'
+  name: "การ์ดเครื่องจักร (เนเธอไรต์)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_NETHER_STAR:
+  description:
+  - '&fเปลี่ยนไปผลิตดาวเนเธอร์'
+  name: "การ์ดเครื่องจักร (ดาวเนเธอร์)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_NICKEL:
+  description:
+  - '&fเปลี่ยนไปผลิตนิกเกิล'
+  name: "การ์ดเครื่องจักร (นิกเกิล)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_PLASTIC_SHEET:
+  description:
+  - '&fเปลี่ยนไปผลิตแผ่นพลาสติก'
+  name: "การ์ดเครื่องจักร (แผ่นพลาสติก)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_QUARTZ:
+  description:
+  - '&fเปลี่ยนไปผลิตควอตซ์'
+  name: "การ์ดเครื่องจักร (ควอตซ์)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_QUARTZ_BLOCK:
+  description:
+  - '&fเปลี่ยนไปผลิตบล็อกควอตซ์'
+  name: "การ์ดเครื่องจักร (บล็อกควอตซ์)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_REDSTONE:
+  description:
+  - '&fเปลี่ยนไปผลิตเรดสโตน'
+  name: "การ์ดเครื่องจักร (เรดสโตน)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_REDSTONE_ALLOY:
+  description:
+  - '&fเปลี่ยนไปผลิตโลหะผสมเรดสโตน'
+  name: "การ์ดเครื่องจักร (โลหะผสมเรดสโตน)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_REINFORCED_ALLOY:
+  description:
+  - '&fเปลี่ยนไปผลิตแท่งโลหะผสมเสริมแรง'
+  name: "การ์ดเครื่องจักร (แท่งโลหะผสมเสริมแรง)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_SAND:
+  description:
+  - '&fเปลี่ยนไปผลิตทราย'
+  name: "การ์ดเครื่องจักร (ทราย)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_SILICON:
+  description:
+  - '&fเปลี่ยนไปผลิตซิลิคอน'
+  name: "การ์ดเครื่องจักร (ซิลิคอน)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_SILVER_DUST:
+  description:
+  - '&fเปลี่ยนไปผลิตผงเงิน'
+  name: "การ์ดเครื่องจักร (ผงเงิน)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_SLIME_BALL:
+  description:
+  - '&fเปลี่ยนไปผลิตก้อนสไลม์'
+  name: "การ์ดเครื่องจักร (ก้อนสไลม์)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_SNOW:
+  description:
+  - '&fเปลี่ยนไปผลิตหิมะ'
+  name: "การ์ดเครื่องจักร (หิมะ)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_SOLDER:
+  description:
+  - '&fเปลี่ยนไปผลิตแท่งตะกั่วบัดกรี'
+  name: "การ์ดเครื่องจักร (แท่งตะกั่วบัดกรี)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_STEEL:
+  description:
+  - '&fเปลี่ยนไปผลิตเหล็กกล้า'
+  name: "การ์ดเครื่องจักร (เหล็กกล้า)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_STONE:
+  description:
+  - '&fเปลี่ยนไปผลิตหิน'
+  name: "การ์ดเครื่องจักร (หิน)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_SULFATE:
+  description:
+  - '&fเปลี่ยนไปผลิตซัลเฟต'
+  name: "การ์ดเครื่องจักร (ซัลเฟต)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_SYNTHETIC_DIAMOND:
+  description:
+  - '&fเปลี่ยนไปผลิตเพชรสังเคราะห์'
+  name: "การ์ดเครื่องจักร (เพชรสังเคราะห์)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_SYNTHETIC_EMERALD:
+  description:
+  - '&fเปลี่ยนไปผลิตมรกตสังเคราะห์'
+  name: "การ์ดเครื่องจักร (มรกตสังเคราะห์)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_SYNTHETIC_SAPPHIRE:
+  description:
+  - '&fเปลี่ยนไปผลิตแซฟไฟร์สังเคราะห์'
+  name: "การ์ดเครื่องจักร (แซฟไฟร์สังเคราะห์)"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_TIN_DUST:
+  description:
+  - '&fเปลี่ยนไปผลิตผงดีบุก'
+  name: "การ์ดเครื่องจักร (ผงดีบุก)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_WITHER_ROSE:
+  description:
+  - '&fเปลี่ยนไปผลิตกุหลาบวิเธอร์'
+  name: "การ์ดเครื่องจักร (กุหลาบวิเธอร์)"
+  stats:
+  - '&eเครื่องจักรพื้นฐาน'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARD_ZINC_DUST:
+  description:
+  - '&fเปลี่ยนไปผลิตผงสังกะสี'
+  name: "การ์ดเครื่องจักร (ผงสังกะสี)"
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CARRIAGE_MACHINE:
+  name: 'เครื่องจักรบรรทุก'
+  type:
+  - '&7&oส่วนประกอบขั้นสูง'
+SUPREME_CENTER_CARD_ADVANCED:
+  description:
+  - '&fชิ้นส่วนสำหรับเครื่องจักรเพื่อผลิตไอเทม'
+  name: 'ชิ้นส่วนขั้นสูงสำหรับการ์ด'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CENTER_CARD_SIMPLE:
+  description:
+  - '&fชิ้นส่วนสำหรับเครื่องจักรเพื่อผลิตไอเทม'
+  name: 'ชิ้นส่วนพื้นฐานสำหรับการ์ด'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CENTER_CARD_ULTIMATE:
+  description:
+  - '&fชิ้นส่วนสำหรับเครื่องจักรเพื่อผลิตไอเทม'
+  name: 'ชิ้นส่วนสุดยอดสำหรับการ์ด'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_CETRUS_AQUA:
+  description:
+  - '&7คทาอควาซูเปอร์'
+  name: 'เซทรุสอควา'
+  type:
+  - '&7&oส่วนประกอบเวทมนตร์'
+SUPREME_CETRUS_IGNIS:
+  description:
+  - '&7คทาอิกนิสซูเปอร์'
+  name: 'เซทรุสอิกนิส'
+  type:
+  - '&7&oส่วนประกอบเวทมนตร์'
+SUPREME_CETRUS_LUMIUM:
+  description:
+  - '&7คทาลูเมียมซูเปอร์'
+  name: 'เซทรุสลูเมียม'
+  type:
+  - '&7&oส่วนประกอบเวทมนตร์'
+SUPREME_CETRUS_LUX:
+  description:
+  - '&7คทาลักซ์ซูเปอร์'
+  name: 'เซทรุสลักซ์'
+  type:
+  - '&7&oส่วนประกอบเวทมนตร์'
+SUPREME_CETRUS_VENTUS:
+  description:
+  - '&7คทาเวนตุสซูเปอร์'
+  name: 'เซทรุสเวนตุส'
+  type:
+  - '&7&oส่วนประกอบเวทมนตร์'
+SUPREME_CHECK_INVENTORY:
+  description:
+  - '&fตรวจว่าหีบใกล้เคียงมีไอเทมตัวกรองหรือไม่'
+  - '&fพิจารณาทุกด้าน (พบอันแรกก่อน)'
+  - '&fหากพบ บล็อกนี้จะสว่างขึ้น'
+  name: "เครื่องตรวจสอบช่องเก็บของ"
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b1.0x'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_CHESTPLATE_EPIC:
+  description:
+  - '&f&lเสื้อเกราะเอพิคที่ทำจากธอร์เนียม'
+  name: 'เสื้อเกราะเอพิค'
+  type:
+  - '&7&oเกราะ'
+SUPREME_CHESTPLATE_LEGENDARY:
+  description:
+  - '&f&lเสื้อเกราะตำนานที่ทำจากธอร์เนียม'
+  name: 'เสื้อเกราะตำนาน'
+  type:
+  - '&7&oเกราะ'
+SUPREME_CHESTPLATE_MAGIC:
+  description:
+  - '&f&lเสื้อเกราะเวทมนตร์ที่ทำจากธอร์เนียม'
+  name: 'เสื้อเกราะเวทมนตร์'
+  type:
+  - '&7&oเกราะ'
+SUPREME_CHESTPLATE_RARE:
+  description:
+  - '&f&lเสื้อเกราะหายากที่ทำจากธอร์เนียม'
+  name: 'เสื้อเกราะหายาก'
+  type:
+  - '&7&oเกราะ'
+SUPREME_CHESTPLATE_SUPREME:
+  description:
+  - '&f&lเสื้อเกราะสูงสุดที่ทำจากธอร์เนียม'
+  name: 'เสื้อเกราะสูงสุด'
+  type:
+  - '&7&oเกราะ'
+SUPREME_CHESTPLATE_THORNIUM:
+  description:
+  - '&f&lเสื้อเกราะที่ทำจากธอร์เนียม'
+  name: 'เสื้อเกราะธอร์เนียม'
+  type:
+  - '&7&oเกราะ'
+SUPREME_COAL_QUARRY:
+  name: 'เหมืองถ่านหิน'
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_CONVEYANCE_MACHINE:
+  name: 'เครื่องจักรลำเลียง'
+  type:
+  - '&7&oส่วนประกอบขั้นสูง'
+SUPREME_CORE_ACACIA_LOG:
+  description:
+  - '&7อาคาเซียซูเปอร์'
+  name: 'ท่อนซุงอาคาเซียสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_ANDESITE:
+  description:
+  - '&7แอนดีไซต์ซูเปอร์'
+  name: 'แอนดีไซต์สูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_APPLE:
+  description:
+  - '&7แอปเปิลซูเปอร์'
+  name: 'แอปเปิลสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_BEEF:
+  description:
+  - '&7เนื้อวัวซูเปอร์'
+  name: 'เนื้อวัวสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_BEETROOT:
+  description:
+  - '&7บีทรูทซูเปอร์'
+  name: 'บีทรูทสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_BIRCH_LOG:
+  description:
+  - '&7เบิร์ชซูเปอร์'
+  name: 'ท่อนซุงเบิร์ชสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_BLACK:
+  description:
+  - '&7สีดำซูเปอร์'
+  name: 'สีดำสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_BLUE:
+  description:
+  - '&7สีน้ำเงินซูเปอร์'
+  name: 'สีน้ำเงินสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_CARROT:
+  description:
+  - '&7แครอทสูงสุด'
+  name: 'แครอทสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_CHICKEN:
+  description:
+  - '&7ไก่ซูเปอร์'
+  name: 'ไก่สูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_CLAY:
+  description:
+  - '&7ดินเหนียวซูเปอร์'
+  name: 'ดินเหนียวสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_COAL:
+  description:
+  - '&7ถ่านหินซูเปอร์'
+  name: 'ถ่านหินสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_COD:
+  description:
+  - '&7ปลาคอดซูเปอร์'
+  name: 'ปลาคอดสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_CRIMSON_STEM:
+  description:
+  - '&7คริมสันซูเปอร์'
+  name: 'ลำต้นคริมสันสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_CYAN:
+  description:
+  - '&7สีฟ้าซูเปอร์'
+  name: 'สีฟ้าสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_DARK_OAK_LOG:
+  description:
+  - '&7โอ๊กดำซูเปอร์'
+  name: 'ท่อนซุงโอ๊กดำสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_DIAMOND:
+  description:
+  - '&7เพชรซูเปอร์'
+  name: 'เพชรสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_DIORITE:
+  description:
+  - '&7ไดโอไรต์ซูเปอร์'
+  name: 'ไดโอไรต์สูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_EMERALD:
+  description:
+  - '&7มรกตซูเปอร์'
+  name: 'มรกตสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_ENDSTONE:
+  description:
+  - '&7หินเอนด์ซูเปอร์'
+  name: 'หินเอนด์สูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_GOLD:
+  description:
+  - '&7ทองซูเปอร์'
+  name: 'ทองสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_GRANITE:
+  description:
+  - '&7แกรนิตซูเปอร์'
+  name: 'แกรนิตสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_GRAVEL:
+  description:
+  - '&7กรวดซูเปอร์'
+  name: 'กรวดสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_GRAY:
+  description:
+  - '&7สีเทาซูเปอร์'
+  name: 'สีเทาสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_GREEN:
+  description:
+  - '&7สีเขียวซูเปอร์'
+  name: 'สีเขียวสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_IRON:
+  description:
+  - '&7เหล็กซูเปอร์'
+  name: 'เหล็กสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_JUNGLE_LOG:
+  description:
+  - '&7ป่าทึบซูเปอร์'
+  name: 'ท่อนซุงป่าทึบสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_LAPIS:
+  description:
+  - '&7ลาพิสซูเปอร์'
+  name: 'ลาพิสสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_MELON:
+  description:
+  - '&7แตงโมซูเปอร์'
+  name: 'แตงโมสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_MUTTON:
+  description:
+  - '&7เนื้อแกะซูเปอร์'
+  name: 'เนื้อแกะสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_NETHERITE:
+  description:
+  - '&7เนเธอไรต์ซูเปอร์'
+  name: 'เนเธอไรต์สูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_OAK_LOG:
+  description:
+  - '&7โอ๊กซูเปอร์'
+  name: 'ท่อนซุงโอ๊กสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_OF_ALLOY:
+  description:
+  - '&7แกนนี้บรรจุแร่หลายชนิด'
+  - '&7ที่ถูกเก็บรวบรวมมาจากทั่วโลก'
+  name: 'แกนโลหะผสม'
+  type:
+  - '&7&oส่วนประกอบเวทมนตร์'
+SUPREME_CORE_OF_BLOCK:
+  description:
+  - '&7แกนนี้บรรจุบล็อกหลายชนิด'
+  - '&7ที่ถูกเก็บรวบรวมมาจากทั่วโลก'
+  name: 'แกนบล็อก'
+  type:
+  - '&7&oส่วนประกอบเวทมนตร์'
+SUPREME_CORE_OF_COLOR:
+  description:
+  - '&7แกนนี้บรรจุสีหลายสี'
+  - '&7ที่ถูกเก็บรวบรวมมาจากทั่วโลก'
+  name: 'แกนสี'
+  type:
+  - '&7&oส่วนประกอบเวทมนตร์'
+SUPREME_CORE_OF_DEATH:
+  description:
+  - '&7แกนนี้บรรจุวิญญาณของ '
+  - '&7สิ่งมีชีวิตต่างๆ ที่ล่วงลับไปแล้ว'
+  name: 'แกนความตาย'
+  type:
+  - '&7&oส่วนประกอบเวทมนตร์'
+SUPREME_CORE_OF_LIFE:
+  description:
+  - '&7แกนนี้บรรจุเศษเสี้ยวของชีวิต'
+  - '&7ที่โลกได้เก็บรวบรวมไว้'
+  name: 'แกนชีวิต'
+  type:
+  - '&7&oส่วนประกอบเวทมนตร์'
+SUPREME_CORE_OF_NATURE:
+  description:
+  - '&7แกนนี้บรรจุสิ่งธรรมชาติหลายอย่าง'
+  - '&7ที่ถูกเก็บรวบรวมมาจากทั่วโลก'
+  name: 'แกนธรรมชาติ'
+  type:
+  - '&7&oส่วนประกอบเวทมนตร์'
+SUPREME_CORE_PINK:
+  description:
+  - '&7สีชมพูซูเปอร์'
+  name: 'สีชมพูสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_PORKCHOP:
+  description:
+  - '&7เบคอนซูเปอร์'
+  name: "หมูสูงสุด"
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_POTATO:
+  description:
+  - '&7มันฝรั่งซูเปอร์'
+  name: 'มันฝรั่งสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_PUMPKIN:
+  description:
+  - '&7ฟักทองซูเปอร์'
+  name: 'ฟักทองสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_PURPLE:
+  description:
+  - '&7สีม่วงซูเปอร์'
+  name: 'สีม่วงสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_QUARTZ:
+  description:
+  - '&7ควอตซ์ซูเปอร์'
+  name: 'ควอตซ์สูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_RED:
+  description:
+  - '&7สีแดงซูเปอร์'
+  name: 'สีแดงสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_REDSTONE:
+  description:
+  - '&7เรดสโตนซูเปอร์'
+  name: 'เรดสโตนสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_SALMON:
+  description:
+  - '&7ปลาแซลมอนซูเปอร์'
+  name: 'ปลาแซลมอนสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_SAND:
+  description:
+  - '&7ทรายซูเปอร์'
+  name: 'ทรายสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_SNOW:
+  description:
+  - '&7หิมะซูเปอร์'
+  name: 'หิมะสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_SPIDER_EYE:
+  description:
+  - '&7ตาซูเปอร์'
+  name: "ตาแมงมุมสูงสุด"
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_SPRUCE_LOG:
+  description:
+  - '&7สปรูซซูเปอร์'
+  name: 'ท่อนซุงสปรูซสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_STONE:
+  description:
+  - '&7หินกรวดซูเปอร์'
+  name: 'หินกรวดสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_STRING:
+  description:
+  - '&7เชือกจูงซูเปอร์'
+  name: "เส้นด้ายสูงสุด"
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_SUGAR_CANE:
+  description:
+  - '&7อ้อยซูเปอร์'
+  name: 'อ้อยสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_SWEET_BERRIES:
+  description:
+  - '&7เบอร์รีซูเปอร์'
+  name: 'เบอร์รีหวานสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_TEAR:
+  description:
+  - '&7น้ำตาซูเปอร์'
+  name: "น้ำตากาสต์สูงสุด"
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_WARPED_STEM:
+  description:
+  - '&7วอร์ปซูเปอร์'
+  name: 'ลำต้นวอร์ปสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_WHEAT:
+  description:
+  - '&7ข้าวสาลีซูเปอร์'
+  name: 'ข้าวสาลีสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_WITHER_ROSE:
+  description:
+  - '&7กุหลาบซูเปอร์'
+  name: 'กุหลาบวิเธอร์สูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CORE_YELLOW:
+  description:
+  - '&7สีเหลืองซูเปอร์'
+  name: 'สีเหลืองสูงสุด'
+  type:
+  - '&7&oส่วนประกอบหลัก'
+SUPREME_CRYSTALLIZER_MACHINE:
+  name: 'เครื่องจักรตกผลึก'
+  type:
+  - '&7&oส่วนประกอบขั้นสูง'
+SUPREME_DIAMOND_QUARRY:
+  name: 'เหมืองเพชร'
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_DUST_AMETHYST:
+  name: 'ผงแอมิทิสต์'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_DUST_GLOW_INK:
+  name: 'ผงหมึกเรืองแสง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_DUST_NETHERITE:
+  name: 'ผงเนเธอไรต์'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_ELECTRIC_CORE_I:
+  description:
+  - '&fคราฟต์ทรัพยากรของแกน'
+  name: 'เครื่องจักรแกนไฟฟ้า'
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b1.0x'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_ELECTRIC_CORE_II:
+  description:
+  - '&fคราฟต์ทรัพยากรของแกนขั้นสูง'
+  name: 'เครื่องจักรแกนไฟฟ้า II'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b5.0x'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_ELECTRIC_CORE_III:
+  description:
+  - '&fคราฟต์ทรัพยากรของแกนขั้นสูง'
+  name: 'เครื่องจักรแกนไฟฟ้า III'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b15.0x'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_ELECTRIC_CRAFTER_I:
+  description:
+  - '&fคราฟต์ไอเทม'
+  name: 'เครื่องคราฟต์ไฟฟ้า'
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b1.0x'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_ELECTRIC_CRAFTER_II:
+  description:
+  - '&fคราฟต์ไอเทมขั้นสูง'
+  name: 'เครื่องคราฟต์ไฟฟ้า II'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b5.0x'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_ELECTRIC_CRAFTER_III:
+  description:
+  - '&fคราฟต์ไอเทมขั้นสูง'
+  name: 'เครื่องคราฟต์ไฟฟ้า III'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b15.0x'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_ELECTRIC_GEAR_I:
+  description:
+  - '&fคราฟต์ระดับของอุปกรณ์'
+  name: 'เครื่องจักรอุปกรณ์ไฟฟ้า'
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b1.0x'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_ELECTRIC_GEAR_II:
+  description:
+  - '&fคราฟต์ระดับของอุปกรณ์ขั้นสูง'
+  name: 'เครื่องจักรอุปกรณ์ไฟฟ้า II'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b5.0x'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_ELECTRIC_GEAR_III:
+  description:
+  - '&fคราฟต์ระดับของอุปกรณ์ขั้นสูง'
+  name: 'เครื่องจักรอุปกรณ์ไฟฟ้า III'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b15.0x'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_ELECTRIC_ITEM:
+  name: "ไฟฟ้า"
+  type:
+  - '&7&oเบ็ดเตล็ด'
+SUPREME_ELECTRIC_MAGICAL_I:
+  description:
+  - '&fคราฟต์ทรัพยากรเวทมนตร์'
+  name: 'เครื่องจักรเวทมนตร์ไฟฟ้า'
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b1.0x'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_ELECTRIC_MAGICAL_II:
+  description:
+  - '&fคราฟต์ทรัพยากรเวทมนตร์ขั้นสูง'
+  name: 'เครื่องจักรเวทมนตร์ไฟฟ้า II'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b5.0x'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_ELECTRIC_MAGICAL_III:
+  description:
+  - '&fคราฟต์ทรัพยากรเวทมนตร์ขั้นสูง'
+  name: 'เครื่องจักรเวทมนตร์ไฟฟ้า III'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b15.0x'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_EMPTY_MOBTECH:
+  name: 'ม็อบเทคว่างเปล่า'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_FORGE_INGOT_I:
+  description:
+  - '&fเครื่องจักรนี้ทำให้คุณสามารถ'
+  - '&fหล่อทรัพยากรแท่งโลหะได้'
+  name: 'เตาหลอมแท่งโลหะ'
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b1.0x'
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_FORGE_INGOT_II:
+  description:
+  - '&fเครื่องจักรนี้ทำให้คุณสามารถ'
+  - '&fหล่อทรัพยากรแท่งโลหะได้'
+  name: 'เตาหลอมแท่งโลหะ II'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b5.0x'
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_FORGE_INGOT_III:
+  description:
+  - '&fเครื่องจักรนี้ทำให้คุณสามารถ'
+  - '&fหล่อทรัพยากรแท่งโลหะได้'
+  name: 'เตาหลอมแท่งโลหะ III'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b15.0x'
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_FORGE_MAGICAL_I:
+  description:
+  - '&fเครื่องจักรนี้ทำให้คุณสามารถ'
+  - '&fหล่อทรัพยากรเวทมนตร์ได้'
+  name: 'เตาหลอมเวทมนตร์'
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b1.0x'
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_FORGE_MAGICAL_II:
+  description:
+  - '&fเครื่องจักรนี้ทำให้คุณสามารถ'
+  - '&fหล่อทรัพยากรเวทมนตร์ได้'
+  name: 'เตาหลอมเวทมนตร์ II'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b5.0x'
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_FORGE_MAGICAL_III:
+  description:
+  - '&fเครื่องจักรนี้ทำให้คุณสามารถ'
+  - '&fหล่อทรัพยากรเวทมนตร์ได้'
+  name: 'เตาหลอมเวทมนตร์ III'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b15.0x'
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_FOUNDRY_I:
+  description:
+  - '&fไอเทมโรงหล่อและเครื่องสังเคราะห์'
+  name: 'โรงหล่อ'
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b1.0x'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_FOUNDRY_II:
+  description:
+  - '&fไอเทมโรงหล่อและเครื่องสังเคราะห์ขั้นสูง'
+  name: 'โรงหล่อ II'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b5.0x'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_FOUNDRY_III:
+  description:
+  - '&fไอเทมโรงหล่อและเครื่องสังเคราะห์ขั้นสูง'
+  name: 'โรงหล่อ III'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b15.0x'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_GENERATOR_MOB_ADVANCED:
+  name: 'เครื่องกำเนิดม็อบขั้นสูง'
+  stats:
+  - '&eเครื่องกำเนิดพื้นฐาน'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_GENERATOR_MOB_BASIC:
+  name: 'เครื่องกำเนิดม็อบพื้นฐาน'
+  stats:
+  - '&eเครื่องกำเนิดพื้นฐาน'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_GENERATOR_MOB_MEDIUM:
+  name: 'เครื่องกำเนิดม็อบขนาดกลาง'
+  stats:
+  - '&eเครื่องกำเนิดพื้นฐาน'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_GENE_BERSERK:
+  name: 'ยีนคลุ้มคลั่ง'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_GENE_INTELLIGENCE:
+  name: 'ยีนปัญญา'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_GENE_LUCK:
+  name: 'ยีนโชค'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_GOLD_QUARRY:
+  name: 'เหมืองทอง'
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_HELMET_EPIC:
+  description:
+  - '&f&lหมวกเกราะเอพิคที่ทำจากธอร์เนียม'
+  name: 'หมวกเกราะเอพิค'
+  type:
+  - '&7&oเกราะ'
+SUPREME_HELMET_LEGENDARY:
+  description:
+  - '&f&lหมวกเกราะตำนานที่ทำจากธอร์เนียม'
+  name: 'หมวกเกราะตำนาน'
+  type:
+  - '&7&oเกราะ'
+SUPREME_HELMET_MAGIC:
+  description:
+  - '&f&lหมวกเกราะเวทมนตร์ที่ทำจากธอร์เนียม'
+  name: 'หมวกเกราะเวทมนตร์'
+  type:
+  - '&7&oเกราะ'
+SUPREME_HELMET_RARE:
+  description:
+  - '&f&lหมวกเกราะหายากที่ทำจากธอร์เนียม'
+  name: 'หมวกเกราะหายาก'
+  type:
+  - '&7&oเกราะ'
+SUPREME_HELMET_SUPREME:
+  description:
+  - '&f&lหมวกเกราะสูงสุดที่ทำจากธอร์เนียม'
+  name: 'หมวกเกราะสูงสุด'
+  type:
+  - '&7&oเกราะ'
+SUPREME_HELMET_THORNIUM:
+  description:
+  - '&f&lหมวกเกราะที่ทำจากธอร์เนียม'
+  name: 'หมวกเกราะธอร์เนียม'
+  type:
+  - '&7&oเกราะ'
+SUPREME_IGNIS_GENERATOR:
+  name: 'เครื่องกำเนิดอิกนิส'
+  stats:
+  - '&6เครื่องกำเนิดขั้นสูง'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_INDUCTIVE_MACHINE:
+  name: 'เครื่องจักรเหนี่ยวนำ'
+  type:
+  - '&7&oส่วนประกอบขั้นสูง'
+SUPREME_INDUCTOR_MACHINE:
+  name: 'เครื่องจักรตัวเหนี่ยวนำ'
+  type:
+  - '&7&oส่วนประกอบขั้นสูง'
+SUPREME_IRIDIUM_PLATE:
+  name: 'แผ่นอิริเดียม'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_IRON_QUARRY:
+  name: 'เหมืองเหล็ก'
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_LEGGINGS_EPIC:
+  description:
+  - '&f&lกางเกงเกราะเอพิคที่ทำจากธอร์เนียม'
+  name: 'กางเกงเกราะเอพิค'
+  type:
+  - '&7&oเกราะ'
+SUPREME_LEGGINGS_LEGENDARY:
+  description:
+  - '&f&lกางเกงเกราะตำนานที่ทำจากธอร์เนียม'
+  name: 'กางเกงเกราะตำนาน'
+  type:
+  - '&7&oเกราะ'
+SUPREME_LEGGINGS_MAGIC:
+  description:
+  - '&f&lกางเกงเกราะเวทมนตร์ที่ทำจากธอร์เนียม'
+  name: 'กางเกงเกราะเวทมนตร์'
+  type:
+  - '&7&oเกราะ'
+SUPREME_LEGGINGS_RARE:
+  description:
+  - '&f&lกางเกงเกราะหายากที่ทำจากธอร์เนียม'
+  name: 'กางเกงเกราะหายาก'
+  type:
+  - '&7&oเกราะ'
+SUPREME_LEGGINGS_SUPREME:
+  description:
+  - '&f&lกางเกงเกราะสูงสุดที่ทำจากธอร์เนียม'
+  name: 'กางเกงเกราะสูงสุด'
+  type:
+  - '&7&oเกราะ'
+SUPREME_LEGGINGS_THORNIUM:
+  description:
+  - '&f&lกางเกงเกราะที่ทำจากธอร์เนียม'
+  name: 'กางเกงเกราะธอร์เนียม'
+  type:
+  - '&7&oเกราะ'
+SUPREME_LUMIUM_GENERATOR:
+  name: 'เครื่องกำเนิดลูเมียม'
+  stats:
+  - '&6เครื่องกำเนิดขั้นสูง'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_LUX_GENERATOR:
+  name: 'เครื่องกำเนิดลักซ์'
+  stats:
+  - '&6เครื่องกำเนิดขั้นสูง'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_MAGIC_ALTAR_I:
+  description:
+  - '&fคราฟต์รูนและไอเทมเวทมนตร์'
+  name: 'แท่นบูชาเวทมนตร์'
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b1.0x'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_MAGIC_ALTAR_II:
+  description:
+  - '&fคราฟต์รูนและไอเทมเวทมนตร์ขั้นสูง'
+  name: 'แท่นบูชาเวทมนตร์ II'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b5.0x'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_MAGIC_ALTAR_III:
+  description:
+  - '&fคราฟต์รูนและไอเทมเวทมนตร์ขั้นสูง'
+  name: 'แท่นบูชาเวทมนตร์ III'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b15.0x'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_MAIN_ITEM:
+  name: "Supreme"
+  type:
+  - '&7&oเบ็ดเตล็ด'
+SUPREME_MANGANESE_PLATE:
+  name: 'แผ่นแมงกานีส'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_MOB_COLLECTOR_MACHINE_I:
+  description:
+  - '&fเครื่องจักรนี้ทำให้คุณเก็บรวบรวม '
+  - '&fไอเทมจากม็อบใกล้เคียงได้ (4 บล็อก)'
+  name: 'เครื่องเก็บม็อบ'
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b1.0x'
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_MOB_COLLECTOR_MACHINE_II:
+  description:
+  - '&fเครื่องจักรนี้ทำให้คุณเก็บรวบรวม'
+  - '&f ไอเทมจากม็อบใกล้เคียงได้ (8 บล็อก)'
+  name: 'เครื่องเก็บม็อบ II'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b5.0x'
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_MOB_COLLECTOR_MACHINE_III:
+  description:
+  - '&fเครื่องจักรนี้ทำให้คุณเก็บรวบรวม'
+  - '&f ไอเทมจากม็อบใกล้เคียงได้ (16 บล็อก)'
+  name: 'เครื่องเก็บม็อบ III'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b15.0x'
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_MOB_COLLECTOR_TOOL_I:
+  name: "เครื่องเก็บม็อบเทค I (เครื่องมือ)"
+  stats:
+  - '&8⇨ &e⚡ &750 J ต่อการใช้'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_MOB_COLLECTOR_TOOL_II:
+  name: "เครื่องเก็บม็อบเทค II (เครื่องมือ)"
+  stats:
+  - '&8⇨ &e⚡ &750 J ต่อการใช้'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_MOB_COLLECTOR_TOOL_III:
+  name: "เครื่องเก็บม็อบเทค III (เครื่องมือ)"
+  stats:
+  - '&8⇨ &e⚡ &750 J ต่อการใช้'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_II:
+  description:
+  - '&fเครื่องจักรนี้ทำให้คุณเก็บรวบรวม '
+  - '&fหัวม็อบเทคจากม็อบใกล้เคียง (6 บล็อก)'
+  name: 'เครื่องเก็บม็อบเทค II'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b1.0x'
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_III:
+  description:
+  - '&fเครื่องจักรนี้ทำให้คุณเก็บรวบรวม '
+  - '&fหัวม็อบเทคจากม็อบใกล้เคียง (9 บล็อก)'
+  name: 'เครื่องเก็บม็อบเทค III'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b1.0x'
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_MULTIBLOCK_CORE:
+  description:
+  - '&7&oคุณคราฟต์แกนได้ที่นี่!'
+  - '&aเครื่องจักรมัลติบล็อก'
+  name: 'เครื่องประกอบแกน'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_MULTIBLOCK_GEAR:
+  description:
+  - '&7&oคุณคราฟต์อาวุธ เกราะ และเครื่องมือได้ที่นี่!'
+  - '&aเครื่องจักรมัลติบล็อก'
+  name: 'เครื่องประกอบอุปกรณ์'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_MULTIBLOCK_MAGICAL:
+  description:
+  - '&7&oคุณคราฟต์ของเวทมนตร์ได้ที่นี่!'
+  - '&aเครื่องจักรมัลติบล็อก'
+  name: 'เครื่องประกอบเวทมนตร์'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_PETRIFIER_MACHINE:
+  name: 'เครื่องจักรทำให้เป็นหิน'
+  type:
+  - '&7&oส่วนประกอบขั้นสูง'
+SUPREME_PICKAXE_EPIC:
+  description:
+  - '&f&lอีเต้อเอพิคที่ทำจากธอร์เนียม'
+  name: 'อีเต้อเอพิค'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_PICKAXE_LEGENDARY:
+  description:
+  - '&f&lอีเต้อตำนานที่ทำจากธอร์เนียม'
+  name: 'อีเต้อตำนาน'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_PICKAXE_MAGIC:
+  description:
+  - '&f&lอีเต้อเวทมนตร์ที่ทำจากธอร์เนียม'
+  name: 'อีเต้อเวทมนตร์'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_PICKAXE_RARE:
+  description:
+  - '&f&lอีเต้อหายากที่ทำจากธอร์เนียม'
+  name: 'อีเต้อหายาก'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_PICKAXE_SUPREME:
+  description:
+  - '&f&lอีเต้อสูงสุดที่ทำจากธอร์เนียม'
+  name: 'อีเต้อสูงสุด'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_PICKAXE_THORNIUM:
+  description:
+  - '&f&lอีเต้อที่ทำจากธอร์เนียม'
+  name: 'อีเต้อธอร์เนียม'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_PLATINUM_PLATE:
+  name: 'แผ่นแพลตินัม'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_RUSTLESS_MACHINE:
+  name: 'เครื่องจักรกันสนิม'
+  type:
+  - '&7&oส่วนประกอบขั้นสูง'
+SUPREME_SHIELD_EPIC:
+  description:
+  - '&f&lโล่เอพิคที่ทำจากธอร์เนียม'
+  name: 'โล่เอพิค'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_SHIELD_LEGENDARY:
+  description:
+  - '&f&lโล่ตำนานที่ทำจากธอร์เนียม'
+  name: 'โล่ตำนาน'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_SHIELD_MAGIC:
+  description:
+  - '&f&lโล่เวทมนตร์ที่ทำจากธอร์เนียม'
+  name: 'โล่เวทมนตร์'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_SHIELD_RARE:
+  description:
+  - '&f&lโล่หายากที่ทำจากธอร์เนียม'
+  name: 'โล่หายาก'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_SHIELD_SUPREME:
+  description:
+  - '&f&lโล่สูงสุดที่ทำจากธอร์เนียม'
+  name: 'โล่สูงสุด'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_SHIELD_THORNIUM:
+  description:
+  - '&f&lโล่ที่ทำจากธอร์เนียม'
+  name: 'โล่ธอร์เนียม'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_SHOVEL_EPIC:
+  description:
+  - '&f&lพลั่วเอพิคที่ทำจากธอร์เนียม'
+  name: 'พลั่วเอพิค'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_SHOVEL_LEGENDARY:
+  description:
+  - '&f&lพลั่วตำนานที่ทำจากธอร์เนียม'
+  name: 'พลั่วตำนาน'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_SHOVEL_MAGIC:
+  description:
+  - '&f&lพลั่วเวทมนตร์ที่ทำจากธอร์เนียม'
+  name: 'พลั่วเวทมนตร์'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_SHOVEL_RARE:
+  description:
+  - '&f&lพลั่วหายากที่ทำจากธอร์เนียม'
+  name: 'พลั่วหายาก'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_SHOVEL_SUPREME:
+  description:
+  - '&f&lพลั่วสูงสุดที่ทำจากธอร์เนียม'
+  name: 'พลั่วสูงสุด'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_SHOVEL_THORNIUM:
+  description:
+  - '&f&lพลั่วที่ทำจากธอร์เนียม'
+  name: 'พลั่วธอร์เนียม'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_STAINLESS_MACHINE:
+  name: 'เครื่องจักรไร้สนิม'
+  type:
+  - '&7&oส่วนประกอบขั้นสูง'
+SUPREME_STONE_QUARRY:
+  name: 'เหมืองหิน'
+  stats:
+  - '&aเครื่องจักรขนาดกลาง'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_SUPREME:
+  description:
+  - '&7สิ่งสูงสุด'
+  name: 'สูงสุด'
+  type:
+  - '&7&oส่วนประกอบช่วงท้ายเกม'
+SUPREME_SUPREME_CAPACITOR:
+  name: 'ตัวเก็บประจุสูงสุด'
+  stats:
+  - '&4ตัวเก็บประจุปลายเกม'
+  - '&8⇨ &e⚡ &7ความจุ J อนันต์'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_SUPREME_GENERATOR:
+  name: 'เครื่องกำเนิดสูงสุด'
+  stats:
+  - '&4เครื่องกำเนิดปลายเกม'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_SUPREME_NUGGET:
+  description:
+  - '&7จากเหมืองนักเกตสูงสุด'
+  name: 'นักเกตสูงสุด'
+  type:
+  - '&7&oส่วนประกอบช่วงท้ายเกม'
+SUPREME_SUPREME_NUGGETS_QUARRY:
+  name: 'เหมืองนักเกตสูงสุด'
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_SWORD_EPIC:
+  description:
+  - '&f&lดาบเอพิคที่ทำจากธอร์เนียม'
+  name: 'ดาบเอพิค'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_SWORD_LEGENDARY:
+  description:
+  - '&f&lดาบตำนานที่ทำจากธอร์เนียม'
+  name: 'ดาบตำนาน'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_SWORD_MAGIC:
+  description:
+  - '&f&lดาบเวทมนตร์ที่ทำจากธอร์เนียม'
+  name: 'ดาบเวทมนตร์'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_SWORD_RARE:
+  description:
+  - '&f&lดาบหายากที่ทำจากธอร์เนียม'
+  name: 'ดาบหายาก'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_SWORD_SUPREME:
+  description:
+  - '&f&lดาบสูงสุดที่ทำจากธอร์เนียม'
+  name: 'ดาบสูงสุด'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_SWORD_THORNIUM:
+  description:
+  - '&f&lดาบที่ทำจากธอร์เนียม'
+  name: 'ดาบธอร์เนียม'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_SYNTHETIC_AMETHYST:
+  name: 'แอมิทิสต์สังเคราะห์'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_SYNTHETIC_RUBY:
+  name: 'ทับทิมสังเคราะห์'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_TECH_GENERATOR:
+  description:
+  - '&fใช้พลังงานและผึ้ง/โกเลม/ซอมบี้ '
+  - '&fผลิตวัสดุอย่างช้าๆ'
+  name: 'เครื่องกำเนิดเทค'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_TECH_MUTATION_I:
+  description:
+  - '&fใช้การกลายพันธุ์ของเครื่องกำเนิด '
+  - '&fเพื่อไปยังระดับที่สูงกว่า'
+  name: 'เทคกลายพันธุ์'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_TECH_MUTATION_II:
+  description:
+  - '&fใช้การกลายพันธุ์ของเครื่องกำเนิด '
+  - '&fเพื่อไปยังระดับที่สูงกว่า'
+  - '&fตัวคูณโอกาสเพิ่มเป็น 2x'
+  name: 'เทคกลายพันธุ์ II'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_TECH_MUTATION_III:
+  description:
+  - '&fใช้การกลายพันธุ์ของเครื่องกำเนิด '
+  - '&fเพื่อไปยังระดับที่สูงกว่า'
+  - '&fตัวคูณโอกาสเพิ่มเป็น 4x'
+  name: 'เทคกลายพันธุ์ III'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_TECH_ROBOTIC:
+  description:
+  - '&fใช้หุ่นยนต์ระดับเริ่มต้น '
+  - '&fเพื่อไปยังระดับที่สูงกว่า'
+  - '&fต้องการ 64x เพื่ออัปเกรด'
+  name: 'เทคหุ่นยนต์'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_TECH_ROBOTIC_II:
+  description:
+  - '&fใช้หุ่นยนต์ระดับเริ่มต้น '
+  - '&fเพื่อไปยังระดับที่สูงกว่า'
+  - '&fต้องการ 32x เพื่ออัปเกรด'
+  name: 'เทคหุ่นยนต์ II'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_TECH_ROBOTIC_III:
+  description:
+  - '&fใช้หุ่นยนต์ระดับเริ่มต้น '
+  - '&fเพื่อไปยังระดับที่สูงกว่า'
+  - '&fต้องการ 16x เพื่ออัปเกรด'
+  name: 'เทคหุ่นยนต์ III'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_THORNERITE:
+  name: 'ธอร์เนอไรต์'
+  type:
+  - '&7&oส่วนประกอบช่วงท้ายเกม'
+SUPREME_THORNIUM_BIT:
+  description:
+  - '&7จากเหมืองธอร์เนียม'
+  name: 'ชิ้นธอร์เนียม'
+  type:
+  - '&7&oส่วนประกอบช่วงท้ายเกม'
+SUPREME_THORNIUM_BIT_SYNTHETIC:
+  description:
+  - '&7จากชิ้นธอร์เนียม'
+  name: 'ชิ้นธอร์เนียมสังเคราะห์'
+  type:
+  - '&7&oส่วนประกอบช่วงท้ายเกม'
+SUPREME_THORNIUM_CAPACITOR:
+  name: 'ตัวเก็บประจุธอร์เนียม'
+  stats:
+  - '&4ตัวเก็บประจุปลายเกม'
+  - '&8⇨ &e⚡ &7ความจุ 100,000,000.00 J'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_THORNIUM_CARBONADO:
+  description:
+  - '&7จากแท่งธอร์เนียม'
+  name: 'คาร์โบนาโดธอร์เนียม'
+  type:
+  - '&7&oส่วนประกอบช่วงท้ายเกม'
+SUPREME_THORNIUM_DUST:
+  description:
+  - '&7จากชิ้นธอร์เนียม'
+  name: 'ผงธอร์เนียม'
+  type:
+  - '&7&oส่วนประกอบช่วงท้ายเกม'
+SUPREME_THORNIUM_DUST_SYNTHETIC:
+  description:
+  - '&7จากผงธอร์เนียม'
+  name: 'ผงธอร์เนียมสังเคราะห์'
+  type:
+  - '&7&oส่วนประกอบช่วงท้ายเกม'
+SUPREME_THORNIUM_ENERGIZED:
+  description:
+  - '&7จากแท่งธอร์เนียม'
+  name: 'ธอร์เนียมอัดพลัง'
+  type:
+  - '&7&oส่วนประกอบช่วงท้ายเกม'
+SUPREME_THORNIUM_GENERATOR:
+  name: 'เครื่องกำเนิดธอร์เนียม'
+  stats:
+  - '&4เครื่องกำเนิดปลายเกม'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_THORNIUM_INGOT:
+  description:
+  - '&7จากผงธอร์เนียม'
+  name: 'แท่งธอร์เนียม'
+  type:
+  - '&7&oส่วนประกอบช่วงท้ายเกม'
+SUPREME_THORNIUM_INGOT_SYNTHETIC:
+  description:
+  - '&7จากแท่งธอร์เนียม'
+  name: 'แท่งธอร์เนียมสังเคราะห์'
+  type:
+  - '&7&oส่วนประกอบช่วงท้ายเกม'
+SUPREME_THORNIUM_QUARRY:
+  name: 'เหมืองธอร์เนียม'
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_TITANIUM_AXE:
+  description:
+  - '&f&lขวานที่ทำจากไทเทเนียม'
+  name: 'ขวานไทเทเนียม'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_TITANIUM_BOOTS:
+  description:
+  - '&f&lรองเท้าเกราะที่ทำจากไทเทเนียม'
+  name: 'รองเท้าเกราะไทเทเนียม'
+  type:
+  - '&7&oเกราะ'
+SUPREME_TITANIUM_CAPACITOR:
+  name: 'ตัวเก็บประจุไทเทเนียม'
+  stats:
+  - '&6ตัวเก็บประจุขั้นสูง'
+  - '&8⇨ &e⚡ &7ความจุ 4,000,000.00 J'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_TITANIUM_CHESTPLATE:
+  description:
+  - '&f&lเสื้อเกราะที่ทำจากไทเทเนียม'
+  name: 'เสื้อเกราะไทเทเนียม'
+  type:
+  - '&7&oเกราะ'
+SUPREME_TITANIUM_HELMET:
+  description:
+  - '&f&lหมวกเกราะที่ทำจากไทเทเนียม'
+  name: 'หมวกเกราะไทเทเนียม'
+  type:
+  - '&7&oเกราะ'
+SUPREME_TITANIUM_LEGGINGS:
+  description:
+  - '&f&lกางเกงเกราะที่ทำจากไทเทเนียม'
+  name: 'กางเกงเกราะไทเทเนียม'
+  type:
+  - '&7&oเกราะ'
+SUPREME_TITANIUM_PICKAXE:
+  description:
+  - '&f&lอีเต้อที่ทำจากไทเทเนียม'
+  name: 'อีเต้อไทเทเนียม'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_TITANIUM_PLATE:
+  name: 'แผ่นไทเทเนียม'
+  type:
+  - '&7&oส่วนประกอบ'
+SUPREME_TITANIUM_SHOVEL:
+  description:
+  - '&f&lพลั่วที่ทำจากไทเทเนียม'
+  name: 'พลั่วไทเทเนียม'
+  type:
+  - '&7&oเครื่องมือ'
+SUPREME_TITANIUM_SWORD:
+  description:
+  - '&f&lดาบที่ทำจากไทเทเนียม'
+  name: 'ดาบไทเทเนียม'
+  type:
+  - '&7&oอาวุธ'
+SUPREME_VENTUS_GENERATOR:
+  name: 'เครื่องกำเนิดเวนตุส'
+  stats:
+  - '&eเครื่องกำเนิดพื้นฐาน'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_VIRTUAL_AQUARIUM_I:
+  description:
+  - '&fเครื่องจักรนี้ทำให้คุณเก็บรวบรวม '
+  - '&f ไอเทมที่เก็บรวบรวมได้ในทะเล'
+  name: 'ตู้ปลาเสมือน'
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b1.0x'
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_VIRTUAL_AQUARIUM_II:
+  description:
+  - '&fเครื่องจักรนี้ทำให้คุณเก็บรวบรวม'
+  - '&f ไอเทมที่เก็บรวบรวมได้ในทะเล'
+  name: 'ตู้ปลาเสมือน II'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b5.0x'
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_VIRTUAL_AQUARIUM_III:
+  description:
+  - '&fเครื่องจักรนี้ทำให้คุณเก็บรวบรวม'
+  - '&f ไอเทมที่เก็บรวบรวมได้ในทะเล'
+  name: 'ตู้ปลาเสมือน III'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b15.0x'
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_VIRTUAL_GARDEN_I:
+  description:
+  - '&fเครื่องจักรนี้ทำให้คุณสามารถ'
+  - '&fเพาะปลูกทรัพยากรบางอย่าง'
+  name: 'สวนเสมือน'
+  stats:
+  - '&6เครื่องจักรขั้นสูง'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b1.0x'
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_VIRTUAL_GARDEN_II:
+  description:
+  - '&fเครื่องจักรนี้ทำให้คุณสามารถ'
+  - '&fเพาะปลูกทรัพยากรบางอย่าง'
+  name: 'สวนเสมือน II'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b5.0x'
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_VIRTUAL_GARDEN_III:
+  description:
+  - '&fเครื่องจักรนี้ทำให้คุณสามารถ'
+  - '&fเพาะปลูกทรัพยากรบางอย่าง'
+  name: 'สวนเสมือน III'
+  stats:
+  - '&4เครื่องจักรปลายเกม'
+  - '&8⇨ &b⚡ &7ความเร็ว: &b15.0x'
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oเครื่องจักร'
+SUPREME_ZIRCONIUM_PLATE:
+  name: 'แผ่นเซอร์โคเนียม'
+  type:
+  - '&7&oส่วนประกอบ'

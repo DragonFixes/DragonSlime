@@ -1,0 +1,2352 @@
+MOB_TECH_COLLECTOR_MACHINE:
+  description:
+  - '&fTa maszyna pozwala ci zbierać '
+  - '&fgłowy MobTech z pobliskich mobów. (3 bloki)'
+  name: 'Kolektor MobTech I'
+  type:
+  - '&7&oMaszyna'
+SUPREME_ADAMANTIUM_AXE:
+  description:
+  - '&f&lSiekiera wykuta z adamantium'
+  name: 'Siekiera z adamantium'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_ADAMANTIUM_BOOTS:
+  description:
+  - '&f&lButy wykute z adamantium'
+  name: 'Buty z adamantium'
+  type:
+  - '&7&oZbroja'
+SUPREME_ADAMANTIUM_CAPACITOR:
+  name: 'Kondensator z adamantium'
+  stats:
+  - '&6Zaawansowany kondensator'
+  - '&8⇨ &e⚡ &716,000,000.00 J pojemności'
+  type:
+  - '&7&oMaszyna'
+SUPREME_ADAMANTIUM_CHESTPLATE:
+  description:
+  - '&f&lNapierśnik wykuty z adamantium'
+  name: 'Napierśnik z adamantium'
+  type:
+  - '&7&oZbroja'
+SUPREME_ADAMANTIUM_HELMET:
+  description:
+  - '&f&lHełm wykuty z adamantium'
+  name: 'Hełm z adamantium'
+  type:
+  - '&7&oZbroja'
+SUPREME_ADAMANTIUM_LEGGINGS:
+  description:
+  - '&f&lSpodnie wykute z adamantium'
+  name: 'Spodnie z adamantium'
+  type:
+  - '&7&oZbroja'
+SUPREME_ADAMANTIUM_PICKAXE:
+  description:
+  - '&f&lKilof wykuty z adamantium'
+  name: 'Kilof z adamantium'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_ADAMANTIUM_PLATE:
+  name: 'Płyta z adamantium'
+  type:
+  - '&7&oKomponenty'
+SUPREME_ADAMANTIUM_SHOVEL:
+  description:
+  - '&f&lŁopata wykuta z adamantium'
+  name: 'Łopata z adamantium'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_ADAMANTIUM_SWORD:
+  description:
+  - '&f&lMiecz wykuty z adamantium'
+  name: 'Miecz z adamantium'
+  type:
+  - '&7&oBroń'
+SUPREME_ALLOY_ADAMANTIUM:
+  name: 'Stop adamantium'
+  type:
+  - '&7&oKomponenty'
+SUPREME_ALLOY_AURUM:
+  name: 'Stop aurum'
+  type:
+  - '&7&oKomponenty'
+SUPREME_ALLOY_IRIDIUM:
+  name: 'Stop irydu'
+  type:
+  - '&7&oKomponenty'
+SUPREME_ALLOY_MANGANESE:
+  name: 'Stop manganu'
+  type:
+  - '&7&oKomponenty'
+SUPREME_ALLOY_PLATINUM:
+  name: 'Stop platyny'
+  type:
+  - '&7&oKomponenty'
+SUPREME_ALLOY_TITANIUM:
+  name: 'Stop tytanu'
+  type:
+  - '&7&oKomponenty'
+SUPREME_ALLOY_ZIRCONIUM:
+  name: 'Stop cyrkonu'
+  type:
+  - '&7&oKomponenty'
+SUPREME_AQUA_GENERATOR:
+  name: 'Generator Aqua'
+  stats:
+  - '&6Zaawansowany generator'
+  type:
+  - '&7&oMaszyna'
+SUPREME_ATTRIBUTE_BOMB:
+  description:
+  - '&7Super atrybut bomby ze specjalnymi efektami'
+  name: 'Atrybut bomby'
+  type:
+  - '&7&oMagiczne komponenty'
+SUPREME_ATTRIBUTE_FORTUNE:
+  description:
+  - '&7Super atrybut fortuny ze specjalnymi efektami'
+  name: 'Atrybut fortuny'
+  type:
+  - '&7&oMagiczne komponenty'
+SUPREME_ATTRIBUTE_IMPETUS:
+  description:
+  - '&7Super atrybut impetu ze specjalnymi efektami'
+  name: 'Atrybut impetu'
+  type:
+  - '&7&oMagiczne komponenty'
+SUPREME_ATTRIBUTE_MAGIC:
+  description:
+  - '&7Super atrybut magii ze specjalnymi efektami'
+  name: 'Atrybut magii'
+  type:
+  - '&7&oMagiczne komponenty'
+SUPREME_AURUM_AXE:
+  description:
+  - '&f&lSiekiera wykuta z aurum'
+  name: 'Siekiera z aurum'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_AURUM_BOOTS:
+  description:
+  - '&f&lButy wykute z aurum'
+  name: 'Buty z aurum'
+  type:
+  - '&7&oZbroja'
+SUPREME_AURUM_CAPACITOR:
+  name: 'Kondensator z aurum'
+  stats:
+  - '&6Zaawansowany kondensator'
+  - '&8⇨ &e⚡ &71,000,000.00 J pojemności'
+  type:
+  - '&7&oMaszyna'
+SUPREME_AURUM_CHESTPLATE:
+  description:
+  - '&f&lNapierśnik wykuty z aurum'
+  name: 'Napierśnik z aurum'
+  type:
+  - '&7&oZbroja'
+SUPREME_AURUM_HELMET:
+  description:
+  - '&f&lHełm wykuty z aurum'
+  name: 'Hełm z aurum'
+  type:
+  - '&7&oZbroja'
+SUPREME_AURUM_LEGGINGS:
+  description:
+  - '&f&lSpodnie wykute z aurum'
+  name: 'Spodnie z aurum'
+  type:
+  - '&7&oZbroja'
+SUPREME_AURUM_PICKAXE:
+  description:
+  - '&f&lKilof wykuty z aurum'
+  name: 'Kilof z aurum'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_AURUM_PLATE:
+  name: 'Płyta z aurum'
+  type:
+  - '&7&oKomponenty'
+SUPREME_AURUM_SHOVEL:
+  description:
+  - '&f&lŁopata wykuta z aurum'
+  name: 'Łopata z aurum'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_AURUM_SWORD:
+  description:
+  - '&f&lMiecz wykuty z aurum'
+  name: 'Miecz z aurum'
+  type:
+  - '&7&oBroń'
+SUPREME_AXE_EPIC:
+  description:
+  - '&f&lEpicka siekiera wykuta z thornium'
+  name: 'Epicka siekiera'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_AXE_LEGENDARY:
+  description:
+  - '&f&lLegendarna siekiera wykuta z thornium'
+  name: 'Legendarna siekiera'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_AXE_MAGIC:
+  description:
+  - '&f&lMagiczna siekiera wykuta z thornium'
+  name: 'Magiczna siekiera'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_AXE_RARE:
+  description:
+  - '&f&lRzadka siekiera wykuta z thornium'
+  name: 'Rzadka siekiera'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_AXE_SUPREME:
+  description:
+  - '&f&lNajwyższa siekiera wykuta z thornium'
+  name: 'Najwyższa siekiera'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_AXE_THORNIUM:
+  description:
+  - '&f&lSiekiera wykuta z thornium'
+  name: 'Siekiera z thornium'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_BASIC_AQUA_GENERATOR:
+  name: 'Podstawowy generator Aqua'
+  stats:
+  - '&ePodstawowy generator'
+  type:
+  - '&7&oMaszyna'
+SUPREME_BASIC_IGNIS_GENERATOR:
+  name: 'Podstawowy generator Ignis'
+  stats:
+  - '&ePodstawowy generator'
+  type:
+  - '&7&oMaszyna'
+SUPREME_BASIC_LUMIUM_GENERATOR:
+  name: 'Podstawowy generator Lumium'
+  stats:
+  - '&6Zaawansowany generator'
+  type:
+  - '&7&oMaszyna'
+SUPREME_BASIC_LUX_GENERATOR:
+  name: 'Podstawowy generator Lux'
+  stats:
+  - '&ePodstawowy generator'
+  type:
+  - '&7&oMaszyna'
+SUPREME_BASIC_VENTUS_GENERATOR:
+  name: 'Podstawowy generator Ventus'
+  stats:
+  - '&ePodstawowy generator'
+  type:
+  - '&7&oMaszyna'
+SUPREME_BLEND_MACHINE:
+  name: 'Maszyna mieszająca'
+  type:
+  - '&7&oZaawansowane komponenty'
+SUPREME_BOOTS_EPIC:
+  description:
+  - '&f&lEpickie buty wykute z thornium'
+  name: 'Epickie buty'
+  type:
+  - '&7&oZbroja'
+SUPREME_BOOTS_LEGENDARY:
+  description:
+  - '&f&lLegendarne buty wykute z thornium'
+  name: 'Legendarne buty'
+  type:
+  - '&7&oZbroja'
+SUPREME_BOOTS_MAGIC:
+  description:
+  - '&f&lMagiczne buty wykute z thornium'
+  name: 'Magiczne buty'
+  type:
+  - '&7&oZbroja'
+SUPREME_BOOTS_RARE:
+  description:
+  - '&f&lRzadkie buty wykute z thornium'
+  name: 'Rzadkie buty'
+  type:
+  - '&7&oZbroja'
+SUPREME_BOOTS_SUPREME:
+  description:
+  - '&f&lNajwyższe buty wykute z thornium'
+  name: 'Najwyższe buty'
+  type:
+  - '&7&oZbroja'
+SUPREME_BOOTS_THORNIUM:
+  description:
+  - '&f&lButy wykute z thornium'
+  name: 'Buty z thornium'
+  type:
+  - '&7&oZbroja'
+SUPREME_BOW_EPIC:
+  description:
+  - '&f&lEpicki łuk wykuty z thornium'
+  name: 'Epicki łuk'
+  type:
+  - '&7&oBroń'
+SUPREME_BOW_LEGENDARY:
+  description:
+  - '&f&lLegendarny łuk wykuty z thornium'
+  name: 'Legendarny łuk'
+  type:
+  - '&7&oBroń'
+SUPREME_BOW_MAGIC:
+  description:
+  - '&f&lMagiczny łuk wykuty z thornium'
+  name: 'Magiczny łuk'
+  type:
+  - '&7&oBroń'
+SUPREME_BOW_RARE:
+  description:
+  - '&f&lRzadki łuk wykuty z thornium'
+  name: 'Rzadki łuk'
+  type:
+  - '&7&oBroń'
+SUPREME_BOW_SUPREME:
+  description:
+  - '&f&lNajwyższy łuk wykuty z thornium'
+  name: 'Najwyższy łuk'
+  type:
+  - '&7&oBroń'
+SUPREME_BOW_THORNIUM:
+  description:
+  - '&f&lŁuk wykuty z thornium'
+  name: 'Łuk z thornium'
+  type:
+  - '&7&oBroń'
+SUPREME_CARD_ALUMINUM_BRASS:
+  description:
+  - '&fZmień produkcję na sztabkę mosiądzu aluminiowego'
+  name: "Karta maszyny (Sztabka mosiądzu aluminiowego)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_ALUMINUM_BRONZE:
+  description:
+  - '&fZmień produkcję na sztabkę brązu aluminiowego'
+  name: "Karta maszyny (Sztabka brązu aluminiowego)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_ALUMINUM_DUST:
+  description:
+  - '&fZmień produkcję na pył aluminium'
+  name: "Karta maszyny (Pył aluminium)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_AMETHYST:
+  description:
+  - '&fZmień produkcję na ametyst'
+  name: "Karta maszyny (Ametyst)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_ANDESITE:
+  description:
+  - '&fZmień produkcję na andezyt'
+  name: "Karta maszyny (Andezyt)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_APPLE:
+  description:
+  - '&fZmień produkcję na jabłko'
+  name: "Karta maszyny (Jabłko)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_BATTERY:
+  description:
+  - '&fZmień produkcję na baterię'
+  name: "Karta maszyny (Bateria)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_BILLON:
+  description:
+  - '&fZmień produkcję na sztabkę bilonu'
+  name: "Karta maszyny (Sztabka bilonu)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_BLAZE_ROD:
+  description:
+  - '&fZmień produkcję na płomienną różdżkę'
+  name: "Karta maszyny (Płomienna różdżka)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_BRASS:
+  description:
+  - '&fZmień produkcję na sztabkę mosiądzu'
+  name: "Karta maszyny (Sztabka mosiądzu)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_BRONZE:
+  description:
+  - '&fZmień produkcję na sztabkę brązu'
+  name: "Karta maszyny (Sztabka brązu)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_CARBON:
+  description:
+  - '&fZmień produkcję na karbon'
+  name: "Karta maszyny (Karbon)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_CARBONADO:
+  description:
+  - '&fZmień produkcję na karbonado'
+  name: "Karta maszyny (Karbonado)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_CARBON_PRESS:
+  description:
+  - '&fZmień produkcję na sprasowany karbon'
+  name: "Karta maszyny (Sprasowany karbon)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_CLAY:
+  description:
+  - '&fZmień produkcję na glinę'
+  name: "Karta maszyny (Glina)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_COAL:
+  description:
+  - '&fZmień produkcję na węgiel'
+  name: "Karta maszyny (Węgiel)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_COBALT:
+  description:
+  - '&fZmień produkcję na kobalt'
+  name: "Karta maszyny (Kobalt)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_COPPER:
+  description:
+  - '&fZmień produkcję na miedź'
+  name: "Karta maszyny (Miedź)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_COPPER_DUST:
+  description:
+  - '&fZmień produkcję na pył miedzi'
+  name: "Karta maszyny (Pył miedzi)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_CORINTHIAN_BRONZE:
+  description:
+  - '&fZmień produkcję na sztabkę brązu korynckiego'
+  name: "Karta maszyny (Sztabka brązu korynckiego)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_DAMASCUS:
+  description:
+  - '&fZmień produkcję na damast'
+  name: "Karta maszyny (Damast)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_DIAMOND:
+  description:
+  - '&fZmień produkcję na diament'
+  name: "Karta maszyny (Diament)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_DIORITE:
+  description:
+  - '&fZmień produkcję na dioryt'
+  name: "Karta maszyny (Dioryt)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_DURALUMIN:
+  description:
+  - '&fZmień produkcję na sztabkę duraluminium'
+  name: "Karta maszyny (Sztabka duraluminium)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_ELECTRIC_MOTOR:
+  description:
+  - '&fZmień produkcję na silnik elektryczny'
+  name: "Karta maszyny (Silnik elektryczny)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_ELECTRO_MAGNET:
+  description:
+  - '&fZmień produkcję na elektromagnes'
+  name: "Karta maszyny (Elektromagnes)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_EMERALD:
+  description:
+  - '&fZmień produkcję na szmaragd'
+  name: "Karta maszyny (Szmaragd)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_ENDSTONE:
+  description:
+  - '&fZmień produkcję na kamień Kresu'
+  name: "Karta maszyny (Kamień Kresu)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_FERROSILICON:
+  description:
+  - '&fZmień produkcję na żelazokrzem'
+  name: "Karta maszyny (Żelazokrzem)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_GLOW_INK_SAC:
+  description:
+  - '&fZmień produkcję na świecący woreczek atramentu'
+  name: "Karta maszyny (Świecący woreczek atramentu)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_GOLD:
+  description:
+  - '&fZmień produkcję na złoto'
+  name: "Karta maszyny (Złoto)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_GOLD24K:
+  description:
+  - '&fZmień produkcję na złoto 24k'
+  name: "Karta maszyny (Złoto 24k)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_GOLD_DUST:
+  description:
+  - '&fZmień produkcję na pył złota'
+  name: "Karta maszyny (Pył złota)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_GRANITE:
+  description:
+  - '&fZmień produkcję na granit'
+  name: "Karta maszyny (Granit)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_GRAVEL:
+  description:
+  - '&fZmień produkcję na żwir'
+  name: "Karta maszyny (Żwir)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_HARDENED_METAL:
+  description:
+  - '&fZmień produkcję na sztabkę utwardzonego metalu'
+  name: "Karta maszyny (Sztabka utwardzonego metalu)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_HEATING_COIL:
+  description:
+  - '&fZmień produkcję na cewkę grzewczą'
+  name: "Karta maszyny (Cewka grzewcza)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_HONEY_BOTTLE:
+  description:
+  - '&fZmień produkcję na butelkę miodu'
+  name: "Karta maszyny (Butelka miodu)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_INK_SAC:
+  description:
+  - '&fZmień produkcję na woreczek atramentu'
+  name: "Karta maszyny (Woreczek atramentu)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_IRON:
+  description:
+  - '&fZmień produkcję na żelazo'
+  name: "Karta maszyny (Żelazo)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_IRON_DUST:
+  description:
+  - '&fZmień produkcję na pył żelaza'
+  name: "Karta maszyny (Pył żelaza)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_LAPIS:
+  description:
+  - '&fZmień produkcję na lazuryt'
+  name: "Karta maszyny (Lazuryt)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_LEAD_DUST:
+  description:
+  - '&fZmień produkcję na pył ołowiu'
+  name: "Karta maszyny (Pył ołowiu)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_MAGNESIUM_DUST:
+  description:
+  - '&fZmień produkcję na pył magnezu'
+  name: "Karta maszyny (Pył magnezu)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_MAGNET:
+  description:
+  - '&fZmień produkcję na magnes'
+  name: "Karta maszyny (Magnes)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_NETHERITE:
+  description:
+  - '&fZmień produkcję na netheryt'
+  name: "Karta maszyny (Netheryt)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_NETHER_STAR:
+  description:
+  - '&fZmień produkcję na gwiazdę Netheru'
+  name: "Karta maszyny (Gwiazda Netheru)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_NICKEL:
+  description:
+  - '&fZmień produkcję na nikiel'
+  name: "Karta maszyny (Nikiel)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_PLASTIC_SHEET:
+  description:
+  - '&fZmień produkcję na arkusz plastiku'
+  name: "Karta maszyny (Arkusz plastiku)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_QUARTZ:
+  description:
+  - '&fZmień produkcję na kwarc'
+  name: "Karta maszyny (Kwarc)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_QUARTZ_BLOCK:
+  description:
+  - '&fZmień produkcję na blok kwarcu'
+  name: "Karta maszyny (Blok kwarcu)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_REDSTONE:
+  description:
+  - '&fZmień produkcję na czerwony kamień'
+  name: "Karta maszyny (Czerwony kamień)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_REDSTONE_ALLOY:
+  description:
+  - '&fZmień produkcję na stop czerwonego kamienia'
+  name: "Karta maszyny (Stop czerwonego kamienia)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_REINFORCED_ALLOY:
+  description:
+  - '&fZmień produkcję na sztabkę wzmocnionego stopu'
+  name: "Karta maszyny (Sztabka wzmocnionego stopu)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SAND:
+  description:
+  - '&fZmień produkcję na piasek'
+  name: "Karta maszyny (Piasek)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SILICON:
+  description:
+  - '&fZmień produkcję na krzem'
+  name: "Karta maszyny (Krzem)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SILVER_DUST:
+  description:
+  - '&fZmień produkcję na pył srebra'
+  name: "Karta maszyny (Pył srebra)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SLIME_BALL:
+  description:
+  - '&fZmień produkcję na kulę szlamu'
+  name: "Karta maszyny (Kula szlamu)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SNOW:
+  description:
+  - '&fZmień produkcję na śnieg'
+  name: "Karta maszyny (Śnieg)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SOLDER:
+  description:
+  - '&fZmień produkcję na sztabkę lutu'
+  name: "Karta maszyny (Sztabka lutu)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_STEEL:
+  description:
+  - '&fZmień produkcję na stal'
+  name: "Karta maszyny (Stal)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_STONE:
+  description:
+  - '&fZmień produkcję na kamień'
+  name: "Karta maszyny (Kamień)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SULFATE:
+  description:
+  - '&fZmień produkcję na siarczan'
+  name: "Karta maszyny (Siarczan)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SYNTHETIC_DIAMOND:
+  description:
+  - '&fZmień produkcję na syntetyczny diament'
+  name: "Karta maszyny (Syntetyczny diament)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SYNTHETIC_EMERALD:
+  description:
+  - '&fZmień produkcję na syntetyczny szmaragd'
+  name: "Karta maszyny (Syntetyczny szmaragd)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_SYNTHETIC_SAPPHIRE:
+  description:
+  - '&fZmień produkcję na syntetyczny szafir'
+  name: "Karta maszyny (Syntetyczny szafir)"
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_TIN_DUST:
+  description:
+  - '&fZmień produkcję na pył cyny'
+  name: "Karta maszyny (Pył cyny)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_WITHER_ROSE:
+  description:
+  - '&fZmień produkcję na różę withera'
+  name: "Karta maszyny (Róża withera)"
+  stats:
+  - '&ePodstawowa maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARD_ZINC_DUST:
+  description:
+  - '&fZmień produkcję na pył cynku'
+  name: "Karta maszyny (Pył cynku)"
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oKomponent'
+SUPREME_CARRIAGE_MACHINE:
+  name: 'Maszyna przewozowa'
+  type:
+  - '&7&oZaawansowane komponenty'
+SUPREME_CENTER_CARD_ADVANCED:
+  description:
+  - '&fKomponent maszyny do produkcji przedmiotów'
+  name: 'Zaawansowany komponent do karty'
+  type:
+  - '&7&oKomponent'
+SUPREME_CENTER_CARD_SIMPLE:
+  description:
+  - '&fKomponent maszyny do produkcji przedmiotów'
+  name: 'Podstawowy komponent do karty'
+  type:
+  - '&7&oKomponent'
+SUPREME_CENTER_CARD_ULTIMATE:
+  description:
+  - '&fKomponent maszyny do produkcji przedmiotów'
+  name: 'Ostateczny komponent do karty'
+  type:
+  - '&7&oKomponent'
+SUPREME_CETRUS_AQUA:
+  description:
+  - '&7Super berło Aqua'
+  name: 'Cetrus Aqua'
+  type:
+  - '&7&oMagiczne komponenty'
+SUPREME_CETRUS_IGNIS:
+  description:
+  - '&7Super berło Ignis'
+  name: 'Cetrus Ignis'
+  type:
+  - '&7&oMagiczne komponenty'
+SUPREME_CETRUS_LUMIUM:
+  description:
+  - '&7Super berło Lumium'
+  name: 'Cetrus Lumium'
+  type:
+  - '&7&oMagiczne komponenty'
+SUPREME_CETRUS_LUX:
+  description:
+  - '&7Super berło Lux'
+  name: 'Cetrus Lux'
+  type:
+  - '&7&oMagiczne komponenty'
+SUPREME_CETRUS_VENTUS:
+  description:
+  - '&7Super berło Ventus'
+  name: 'Cetrus Ventus'
+  type:
+  - '&7&oMagiczne komponenty'
+SUPREME_CHECK_INVENTORY:
+  description:
+  - '&fSprawdza, czy pobliska skrzynia zawiera przedmiot z filtra'
+  - '&fbrane są pod uwagę wszystkie ściany (znajdź pierwszą)'
+  - '&fjeśli znajdzie, ten blok się zaświeci'
+  name: 'Sprawdzacz ekwipunku'
+  stats:
+  - '&6Zaawansowana maszyna'
+  - '&8⇨ &b⚡ &7Prędkość: &b1.0x'
+  type:
+  - '&7&oMaszyna'
+SUPREME_CHESTPLATE_EPIC:
+  description:
+  - '&f&lEpicki napierśnik wykuty z thornium'
+  name: 'Epicki napierśnik'
+  type:
+  - '&7&oZbroja'
+SUPREME_CHESTPLATE_LEGENDARY:
+  description:
+  - '&f&lLegendarny napierśnik wykuty z thornium'
+  name: 'Legendarny napierśnik'
+  type:
+  - '&7&oZbroja'
+SUPREME_CHESTPLATE_MAGIC:
+  description:
+  - '&f&lMagiczny napierśnik wykuty z thornium'
+  name: 'Magiczny napierśnik'
+  type:
+  - '&7&oZbroja'
+SUPREME_CHESTPLATE_RARE:
+  description:
+  - '&f&lRzadki napierśnik wykuty z thornium'
+  name: 'Rzadki napierśnik'
+  type:
+  - '&7&oZbroja'
+SUPREME_CHESTPLATE_SUPREME:
+  description:
+  - '&f&lNajwyższy napierśnik wykuty z thornium'
+  name: 'Najwyższy napierśnik'
+  type:
+  - '&7&oZbroja'
+SUPREME_CHESTPLATE_THORNIUM:
+  description:
+  - '&f&lNapierśnik wykuty z thornium'
+  name: 'Napierśnik z thornium'
+  type:
+  - '&7&oZbroja'
+SUPREME_COAL_QUARRY:
+  name: 'Kamieniołom węgla'
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oMaszyna'
+SUPREME_CONVEYANCE_MACHINE:
+  name: 'Maszyna transportowa'
+  type:
+  - '&7&oZaawansowane komponenty'
+SUPREME_CORE_ACACIA_LOG:
+  description:
+  - '&7Super akacja'
+  name: 'Najwyższa kłoda akacjowa'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_ANDESITE:
+  description:
+  - '&7Super andezyt'
+  name: 'Najwyższy andezyt'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_APPLE:
+  description:
+  - '&7Super jabłko'
+  name: 'Najwyższe jabłko'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_BEEF:
+  description:
+  - '&7Super wołowina'
+  name: 'Najwyższa wołowina'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_BEETROOT:
+  description:
+  - '&7Super burak'
+  name: 'Najwyższy burak'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_BIRCH_LOG:
+  description:
+  - '&7Super brzoza'
+  name: 'Najwyższa kłoda brzozowa'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_BLACK:
+  description:
+  - '&7Super czerń'
+  name: 'Najwyższa czerń'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_BLUE:
+  description:
+  - '&7Super błękit'
+  name: 'Najwyższy błękit'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_CARROT:
+  description:
+  - '&7Najwyższa marchewka'
+  name: 'Najwyższa marchewka'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_CHICKEN:
+  description:
+  - '&7Super kurczak'
+  name: 'Najwyższy kurczak'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_CLAY:
+  description:
+  - '&7Super glina'
+  name: 'Najwyższa glina'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_COAL:
+  description:
+  - '&7Super węgiel'
+  name: 'Najwyższy węgiel'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_COD:
+  description:
+  - '&7Super dorsz'
+  name: 'Najwyższy dorsz'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_CRIMSON_STEM:
+  description:
+  - '&7Super karmazyn'
+  name: 'Najwyższa karmazynowa łodyga'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_CYAN:
+  description:
+  - '&7Super cyjan'
+  name: 'Najwyższy cyjan'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_DARK_OAK_LOG:
+  description:
+  - '&7Super ciemny dąb'
+  name: 'Najwyższa kłoda ciemnego dębu'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_DIAMOND:
+  description:
+  - '&7Super diament'
+  name: 'Najwyższy diament'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_DIORITE:
+  description:
+  - '&7Super dioryt'
+  name: 'Najwyższy dioryt'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_EMERALD:
+  description:
+  - '&7Super szmaragd'
+  name: 'Najwyższy szmaragd'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_ENDSTONE:
+  description:
+  - '&7Super kamień Kresu'
+  name: 'Najwyższy kamień Kresu'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_GOLD:
+  description:
+  - '&7Super złoto'
+  name: 'Najwyższe złoto'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_GRANITE:
+  description:
+  - '&7Super granit'
+  name: 'Najwyższy granit'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_GRAVEL:
+  description:
+  - '&7Super żwir'
+  name: 'Najwyższy żwir'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_GRAY:
+  description:
+  - '&7Super szarość'
+  name: 'Najwyższa szarość'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_GREEN:
+  description:
+  - '&7Super zieleń'
+  name: 'Najwyższa zieleń'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_IRON:
+  description:
+  - '&7Super żelazo'
+  name: 'Najwyższe żelazo'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_JUNGLE_LOG:
+  description:
+  - '&7Super dżungla'
+  name: 'Najwyższa kłoda tropikalna'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_LAPIS:
+  description:
+  - '&7Super lazuryt'
+  name: 'Najwyższy lazuryt'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_MELON:
+  description:
+  - '&7Super arbuz'
+  name: 'Najwyższy arbuz'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_MUTTON:
+  description:
+  - '&7Super baranina'
+  name: 'Najwyższa baranina'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_NETHERITE:
+  description:
+  - '&7Super netheryt'
+  name: 'Najwyższy netheryt'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_OAK_LOG:
+  description:
+  - '&7Super dąb'
+  name: 'Najwyższa kłoda dębowa'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_OF_ALLOY:
+  description:
+  - '&7Ten rdzeń zawiera wiele rud'
+  - '&7zebranych z całego świata.'
+  name: 'Rdzeń stopu'
+  type:
+  - '&7&oMagiczne komponenty'
+SUPREME_CORE_OF_BLOCK:
+  description:
+  - '&7Ten rdzeń zawiera wiele bloków'
+  - '&7zebranych z całego świata.'
+  name: 'Rdzeń bloków'
+  type:
+  - '&7&oMagiczne komponenty'
+SUPREME_CORE_OF_COLOR:
+  description:
+  - '&7Ten rdzeń zawiera wiele kolorów'
+  - '&7zebranych z całego świata.'
+  name: 'Rdzeń kolorów'
+  type:
+  - '&7&oMagiczne komponenty'
+SUPREME_CORE_OF_DEATH:
+  description:
+  - '&7Ten rdzeń zawiera dusze '
+  - '&7różnych istot, które odeszły za próg.'
+  name: 'Rdzeń śmierci'
+  type:
+  - '&7&oMagiczne komponenty'
+SUPREME_CORE_OF_LIFE:
+  description:
+  - '&7Ten rdzeń zawiera okruchy życia'
+  - '&7zebrane przez świat.'
+  name: 'Rdzeń życia'
+  type:
+  - '&7&oMagiczne komponenty'
+SUPREME_CORE_OF_NATURE:
+  description:
+  - '&7Ten rdzeń zawiera wiele naturalnych zasobów'
+  - '&7zebranych z całego świata.'
+  name: 'Rdzeń natury'
+  type:
+  - '&7&oMagiczne komponenty'
+SUPREME_CORE_PINK:
+  description:
+  - '&7Super róż'
+  name: 'Najwyższy róż'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_PORKCHOP:
+  description:
+  - '&7Super bekon'
+  name: "Najwyższy schab"
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_POTATO:
+  description:
+  - '&7Super ziemniak'
+  name: 'Najwyższy ziemniak'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_PUMPKIN:
+  description:
+  - '&7Super dynia'
+  name: 'Najwyższa dynia'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_PURPLE:
+  description:
+  - '&7Super fiolet'
+  name: 'Najwyższy fiolet'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_QUARTZ:
+  description:
+  - '&7Super kwarc'
+  name: 'Najwyższy kwarc'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_RED:
+  description:
+  - '&7Super czerwień'
+  name: 'Najwyższa czerwień'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_REDSTONE:
+  description:
+  - '&7Super czerwony kamień'
+  name: 'Najwyższy czerwony kamień'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_SALMON:
+  description:
+  - '&7Super łosoś'
+  name: 'Najwyższy łosoś'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_SAND:
+  description:
+  - '&7Super piasek'
+  name: 'Najwyższy piasek'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_SNOW:
+  description:
+  - '&7Super śnieg'
+  name: 'Najwyższy śnieg'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_SPIDER_EYE:
+  description:
+  - '&7Super oko'
+  name: "Najwyższe oko pająka"
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_SPRUCE_LOG:
+  description:
+  - '&7Super świerk'
+  name: 'Najwyższa kłoda świerkowa'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_STONE:
+  description:
+  - '&7Super bruk'
+  name: 'Najwyższy bruk'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_STRING:
+  description:
+  - '&7Super smycz'
+  name: "Najwyższa nić"
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_SUGAR_CANE:
+  description:
+  - '&7Super trzcina cukrowa'
+  name: 'Najwyższa trzcina cukrowa'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_SWEET_BERRIES:
+  description:
+  - '&7Super jagody'
+  name: 'Najwyższe słodkie jagody'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_TEAR:
+  description:
+  - '&7Super łza'
+  name: "Najwyższa łza ghasta"
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_WARPED_STEM:
+  description:
+  - '&7Super spaczenie'
+  name: 'Najwyższa spaczona łodyga'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_WHEAT:
+  description:
+  - '&7Super pszenica'
+  name: 'Najwyższa pszenica'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_WITHER_ROSE:
+  description:
+  - '&7Super róża'
+  name: 'Najwyższa róża withera'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CORE_YELLOW:
+  description:
+  - '&7Super żółć'
+  name: 'Najwyższa żółć'
+  type:
+  - '&7&oPodstawowe komponenty'
+SUPREME_CRYSTALLIZER_MACHINE:
+  name: 'Maszyna krystalizująca'
+  type:
+  - '&7&oZaawansowane komponenty'
+SUPREME_DIAMOND_QUARRY:
+  name: 'Kamieniołom diamentów'
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oMaszyna'
+SUPREME_DUST_AMETHYST:
+  name: 'Pył ametystu'
+  type:
+  - '&7&oKomponent'
+SUPREME_DUST_GLOW_INK:
+  name: 'Pył świecącego atramentu'
+  type:
+  - '&7&oKomponent'
+SUPREME_DUST_NETHERITE:
+  name: 'Pył netherytu'
+  type:
+  - '&7&oKomponent'
+SUPREME_ELECTRIC_CORE_I:
+  description:
+  - '&fWytwarzaj surowce rdzeni'
+  name: 'Elektryczna maszyna rdzeni'
+  stats:
+  - '&6Zaawansowana maszyna'
+  - '&8⇨ &b⚡ &7Prędkość: &b1.0x'
+  type:
+  - '&7&oMaszyna'
+SUPREME_ELECTRIC_CORE_II:
+  description:
+  - '&fZaawansowane wytwarzanie surowców rdzeni'
+  name: 'Elektryczna maszyna rdzeni II'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b5.0x'
+  type:
+  - '&7&oMaszyna'
+SUPREME_ELECTRIC_CORE_III:
+  description:
+  - '&fZaawansowane wytwarzanie surowców rdzeni'
+  name: 'Elektryczna maszyna rdzeni III'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b15.0x'
+  type:
+  - '&7&oMaszyna'
+SUPREME_ELECTRIC_CRAFTER_I:
+  description:
+  - '&fWytwarzaj przedmioty'
+  name: 'Elektryczny wytwórca'
+  stats:
+  - '&6Zaawansowana maszyna'
+  - '&8⇨ &b⚡ &7Prędkość: &b1.0x'
+  type:
+  - '&7&oMaszyna'
+SUPREME_ELECTRIC_CRAFTER_II:
+  description:
+  - '&fZaawansowane wytwarzanie przedmiotów'
+  name: 'Elektryczny wytwórca II'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b5.0x'
+  type:
+  - '&7&oMaszyna'
+SUPREME_ELECTRIC_CRAFTER_III:
+  description:
+  - '&fZaawansowane wytwarzanie przedmiotów'
+  name: 'Elektryczny wytwórca III'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b15.0x'
+  type:
+  - '&7&oMaszyna'
+SUPREME_ELECTRIC_GEAR_I:
+  description:
+  - '&fWytwarzaj poziomy sprzętu'
+  name: 'Elektryczna maszyna sprzętu'
+  stats:
+  - '&6Zaawansowana maszyna'
+  - '&8⇨ &b⚡ &7Prędkość: &b1.0x'
+  type:
+  - '&7&oMaszyna'
+SUPREME_ELECTRIC_GEAR_II:
+  description:
+  - '&fZaawansowane wytwarzanie poziomów sprzętu'
+  name: 'Elektryczna maszyna sprzętu II'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b5.0x'
+  type:
+  - '&7&oMaszyna'
+SUPREME_ELECTRIC_GEAR_III:
+  description:
+  - '&fZaawansowane wytwarzanie poziomów sprzętu'
+  name: 'Elektryczna maszyna sprzętu III'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b15.0x'
+  type:
+  - '&7&oMaszyna'
+SUPREME_ELECTRIC_ITEM:
+  name: "Elektryczne"
+  type:
+  - '&7&oRóżne'
+SUPREME_ELECTRIC_MAGICAL_I:
+  description:
+  - '&fWytwarzaj surowce magiczne'
+  name: 'Elektryczna maszyna magiczna'
+  stats:
+  - '&6Zaawansowana maszyna'
+  - '&8⇨ &b⚡ &7Prędkość: &b1.0x'
+  type:
+  - '&7&oMaszyna'
+SUPREME_ELECTRIC_MAGICAL_II:
+  description:
+  - '&fZaawansowane wytwarzanie surowców magicznych'
+  name: 'Elektryczna maszyna magiczna II'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b5.0x'
+  type:
+  - '&7&oMaszyna'
+SUPREME_ELECTRIC_MAGICAL_III:
+  description:
+  - '&fZaawansowane wytwarzanie surowców magicznych'
+  name: 'Elektryczna maszyna magiczna III'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b15.0x'
+  type:
+  - '&7&oMaszyna'
+SUPREME_EMPTY_MOBTECH:
+  name: 'Pusty MobTech'
+  type:
+  - '&7&oKomponent'
+SUPREME_FORGE_INGOT_I:
+  description:
+  - '&fTa maszyna pozwala ci'
+  - '&fwykuwać surowce w sztabki.'
+  name: 'Kuźnia sztabek'
+  stats:
+  - '&6Zaawansowana maszyna'
+  - '&8⇨ &b⚡ &7Prędkość: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J bufora'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMaszyna'
+SUPREME_FORGE_INGOT_II:
+  description:
+  - '&fTa maszyna pozwala ci'
+  - '&fwykuwać surowce w sztabki.'
+  name: 'Kuźnia sztabek II'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J bufora'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMaszyna'
+SUPREME_FORGE_INGOT_III:
+  description:
+  - '&fTa maszyna pozwala ci'
+  - '&fwykuwać surowce w sztabki.'
+  name: 'Kuźnia sztabek III'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J bufora'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMaszyna'
+SUPREME_FORGE_MAGICAL_I:
+  description:
+  - '&fTa maszyna pozwala ci'
+  - '&fwykuwać surowce magiczne.'
+  name: 'Kuźnia magiczna'
+  stats:
+  - '&6Zaawansowana maszyna'
+  - '&8⇨ &b⚡ &7Prędkość: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J bufora'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMaszyna'
+SUPREME_FORGE_MAGICAL_II:
+  description:
+  - '&fTa maszyna pozwala ci'
+  - '&fwykuwać surowce magiczne.'
+  name: 'Kuźnia magiczna II'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J bufora'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMaszyna'
+SUPREME_FORGE_MAGICAL_III:
+  description:
+  - '&fTa maszyna pozwala ci'
+  - '&fwykuwać surowce magiczne.'
+  name: 'Kuźnia magiczna III'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J bufora'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMaszyna'
+SUPREME_FOUNDRY_I:
+  description:
+  - '&fOdlewanie i synteza przedmiotów'
+  name: 'Odlewnia'
+  stats:
+  - '&6Zaawansowana maszyna'
+  - '&8⇨ &b⚡ &7Prędkość: &b1.0x'
+  type:
+  - '&7&oMaszyna'
+SUPREME_FOUNDRY_II:
+  description:
+  - '&fZaawansowane odlewanie i synteza przedmiotów'
+  name: 'Odlewnia II'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b5.0x'
+  type:
+  - '&7&oMaszyna'
+SUPREME_FOUNDRY_III:
+  description:
+  - '&fZaawansowane odlewanie i synteza przedmiotów'
+  name: 'Odlewnia III'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b15.0x'
+  type:
+  - '&7&oMaszyna'
+SUPREME_GENERATOR_MOB_ADVANCED:
+  name: 'Zaawansowany generator mobów'
+  stats:
+  - '&ePodstawowy generator'
+  type:
+  - '&7&oMaszyna'
+SUPREME_GENERATOR_MOB_BASIC:
+  name: 'Podstawowy generator mobów'
+  stats:
+  - '&ePodstawowy generator'
+  type:
+  - '&7&oMaszyna'
+SUPREME_GENERATOR_MOB_MEDIUM:
+  name: 'Średni generator mobów'
+  stats:
+  - '&ePodstawowy generator'
+  type:
+  - '&7&oMaszyna'
+SUPREME_GENE_BERSERK:
+  name: 'Gen berserka'
+  type:
+  - '&7&oKomponent'
+SUPREME_GENE_INTELLIGENCE:
+  name: 'Gen inteligencji'
+  type:
+  - '&7&oKomponent'
+SUPREME_GENE_LUCK:
+  name: 'Gen szczęścia'
+  type:
+  - '&7&oKomponent'
+SUPREME_GOLD_QUARRY:
+  name: 'Kamieniołom złota'
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oMaszyna'
+SUPREME_HELMET_EPIC:
+  description:
+  - '&f&lEpicki hełm wykuty z thornium'
+  name: 'Epicki hełm'
+  type:
+  - '&7&oZbroja'
+SUPREME_HELMET_LEGENDARY:
+  description:
+  - '&f&lLegendarny hełm wykuty z thornium'
+  name: 'Legendarny hełm'
+  type:
+  - '&7&oZbroja'
+SUPREME_HELMET_MAGIC:
+  description:
+  - '&f&lMagiczny hełm wykuty z thornium'
+  name: 'Magiczny hełm'
+  type:
+  - '&7&oZbroja'
+SUPREME_HELMET_RARE:
+  description:
+  - '&f&lRzadki hełm wykuty z thornium'
+  name: 'Rzadki hełm'
+  type:
+  - '&7&oZbroja'
+SUPREME_HELMET_SUPREME:
+  description:
+  - '&f&lNajwyższy hełm wykuty z thornium'
+  name: 'Najwyższy hełm'
+  type:
+  - '&7&oZbroja'
+SUPREME_HELMET_THORNIUM:
+  description:
+  - '&f&lHełm wykuty z thornium'
+  name: 'Hełm z thornium'
+  type:
+  - '&7&oZbroja'
+SUPREME_IGNIS_GENERATOR:
+  name: 'Generator Ignis'
+  stats:
+  - '&6Zaawansowany generator'
+  type:
+  - '&7&oMaszyna'
+SUPREME_INDUCTIVE_MACHINE:
+  name: 'Maszyna indukcyjna'
+  type:
+  - '&7&oZaawansowane komponenty'
+SUPREME_INDUCTOR_MACHINE:
+  name: 'Maszyna induktora'
+  type:
+  - '&7&oZaawansowane komponenty'
+SUPREME_IRIDIUM_PLATE:
+  name: 'Płyta z irydu'
+  type:
+  - '&7&oKomponenty'
+SUPREME_IRON_QUARRY:
+  name: 'Kamieniołom żelaza'
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oMaszyna'
+SUPREME_LEGGINGS_EPIC:
+  description:
+  - '&f&lEpickie spodnie wykute z thornium'
+  name: 'Epickie spodnie'
+  type:
+  - '&7&oZbroja'
+SUPREME_LEGGINGS_LEGENDARY:
+  description:
+  - '&f&lLegendarne spodnie wykute z thornium'
+  name: 'Legendarne spodnie'
+  type:
+  - '&7&oZbroja'
+SUPREME_LEGGINGS_MAGIC:
+  description:
+  - '&f&lMagiczne spodnie wykute z thornium'
+  name: 'Magiczne spodnie'
+  type:
+  - '&7&oZbroja'
+SUPREME_LEGGINGS_RARE:
+  description:
+  - '&f&lRzadkie spodnie wykute z thornium'
+  name: 'Rzadkie spodnie'
+  type:
+  - '&7&oZbroja'
+SUPREME_LEGGINGS_SUPREME:
+  description:
+  - '&f&lNajwyższe spodnie wykute z thornium'
+  name: 'Najwyższe spodnie'
+  type:
+  - '&7&oZbroja'
+SUPREME_LEGGINGS_THORNIUM:
+  description:
+  - '&f&lSpodnie wykute z thornium'
+  name: 'Spodnie z thornium'
+  type:
+  - '&7&oZbroja'
+SUPREME_LUMIUM_GENERATOR:
+  name: 'Generator Lumium'
+  stats:
+  - '&6Zaawansowany generator'
+  type:
+  - '&7&oMaszyna'
+SUPREME_LUX_GENERATOR:
+  name: 'Generator Lux'
+  stats:
+  - '&6Zaawansowany generator'
+  type:
+  - '&7&oMaszyna'
+SUPREME_MAGIC_ALTAR_I:
+  description:
+  - '&fWytwarzaj runy i magiczne przedmioty'
+  name: 'Magiczny ołtarz'
+  stats:
+  - '&6Zaawansowana maszyna'
+  - '&8⇨ &b⚡ &7Prędkość: &b1.0x'
+  type:
+  - '&7&oMaszyna'
+SUPREME_MAGIC_ALTAR_II:
+  description:
+  - '&fZaawansowane wytwarzanie run i magicznych przedmiotów'
+  name: 'Magiczny ołtarz II'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b5.0x'
+  type:
+  - '&7&oMaszyna'
+SUPREME_MAGIC_ALTAR_III:
+  description:
+  - '&fZaawansowane wytwarzanie run i magicznych przedmiotów'
+  name: 'Magiczny ołtarz III'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b15.0x'
+  type:
+  - '&7&oMaszyna'
+SUPREME_MAIN_ITEM:
+  name: "Supreme"
+  type:
+  - '&7&oRóżne'
+SUPREME_MANGANESE_PLATE:
+  name: 'Płyta z manganu'
+  type:
+  - '&7&oKomponenty'
+SUPREME_MOB_COLLECTOR_MACHINE_I:
+  description:
+  - '&fTa maszyna pozwala ci zbierać '
+  - '&fprzedmioty z pobliskich mobów. (4 bloki)'
+  name: 'Kolektor mobów'
+  stats:
+  - '&6Zaawansowana maszyna'
+  - '&8⇨ &b⚡ &7Prędkość: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J bufora'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMaszyna'
+SUPREME_MOB_COLLECTOR_MACHINE_II:
+  description:
+  - '&fTa maszyna pozwala ci zbierać'
+  - '&f przedmioty z pobliskich mobów. (8 bloków)'
+  name: 'Kolektor mobów II'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J bufora'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMaszyna'
+SUPREME_MOB_COLLECTOR_MACHINE_III:
+  description:
+  - '&fTa maszyna pozwala ci zbierać'
+  - '&f przedmioty z pobliskich mobów. (16 bloków)'
+  name: 'Kolektor mobów III'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J bufora'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMaszyna'
+SUPREME_MOB_COLLECTOR_TOOL_I:
+  name: "Kolektor MobTech I (Narzędzie)"
+  stats:
+  - '&8⇨ &e⚡ &750 J na użycie'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_MOB_COLLECTOR_TOOL_II:
+  name: "Kolektor MobTech II (Narzędzie)"
+  stats:
+  - '&8⇨ &e⚡ &750 J na użycie'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_MOB_COLLECTOR_TOOL_III:
+  name: "Kolektor MobTech III (Narzędzie)"
+  stats:
+  - '&8⇨ &e⚡ &750 J na użycie'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_II:
+  description:
+  - '&fTa maszyna pozwala ci zbierać '
+  - '&fgłowy MobTech z pobliskich mobów. (6 bloków)'
+  name: 'Kolektor MobTech II'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J bufora'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMaszyna'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_III:
+  description:
+  - '&fTa maszyna pozwala ci zbierać '
+  - '&fgłowy MobTech z pobliskich mobów. (9 bloków)'
+  name: 'Kolektor MobTech III'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J bufora'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMaszyna'
+SUPREME_MULTIBLOCK_CORE:
+  description:
+  - '&7&oTutaj możesz wytwarzać rdzenie!'
+  - '&aMaszyna Multiblok'
+  name: 'Fabrykator rdzeni'
+  type:
+  - '&7&oMaszyna'
+SUPREME_MULTIBLOCK_GEAR:
+  description:
+  - '&7&oTutaj możesz wytwarzać bronie, zbroje i narzędzia!'
+  - '&aMaszyna Multiblok'
+  name: 'Fabrykator sprzętu'
+  type:
+  - '&7&oMaszyna'
+SUPREME_MULTIBLOCK_MAGICAL:
+  description:
+  - '&7&oTutaj możesz wytwarzać przedmioty magiczne!'
+  - '&aMaszyna Multiblok'
+  name: 'Fabrykator magiczny'
+  type:
+  - '&7&oMaszyna'
+SUPREME_PETRIFIER_MACHINE:
+  name: 'Maszyna petryfikująca'
+  type:
+  - '&7&oZaawansowane komponenty'
+SUPREME_PICKAXE_EPIC:
+  description:
+  - '&f&lEpicki kilof wykuty z thornium'
+  name: 'Epicki kilof'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_PICKAXE_LEGENDARY:
+  description:
+  - '&f&lLegendarny kilof wykuty z thornium'
+  name: 'Legendarny kilof'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_PICKAXE_MAGIC:
+  description:
+  - '&f&lMagiczny kilof wykuty z thornium'
+  name: 'Magiczny kilof'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_PICKAXE_RARE:
+  description:
+  - '&f&lRzadki kilof wykuty z thornium'
+  name: 'Rzadki kilof'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_PICKAXE_SUPREME:
+  description:
+  - '&f&lNajwyższy kilof wykuty z thornium'
+  name: 'Najwyższy kilof'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_PICKAXE_THORNIUM:
+  description:
+  - '&f&lKilof wykuty z thornium'
+  name: 'Kilof z thornium'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_PLATINUM_PLATE:
+  name: 'Płyta z platyny'
+  type:
+  - '&7&oKomponenty'
+SUPREME_RUSTLESS_MACHINE:
+  name: 'Maszyna odrdzewiająca'
+  type:
+  - '&7&oZaawansowane komponenty'
+SUPREME_SHIELD_EPIC:
+  description:
+  - '&f&lEpicka tarcza wykuta z thornium'
+  name: 'Epicka tarcza'
+  type:
+  - '&7&oBroń'
+SUPREME_SHIELD_LEGENDARY:
+  description:
+  - '&f&lLegendarna tarcza wykuta z thornium'
+  name: 'Legendarna tarcza'
+  type:
+  - '&7&oBroń'
+SUPREME_SHIELD_MAGIC:
+  description:
+  - '&f&lMagiczna tarcza wykuta z thornium'
+  name: 'Magiczna tarcza'
+  type:
+  - '&7&oBroń'
+SUPREME_SHIELD_RARE:
+  description:
+  - '&f&lRzadka tarcza wykuta z thornium'
+  name: 'Rzadka tarcza'
+  type:
+  - '&7&oBroń'
+SUPREME_SHIELD_SUPREME:
+  description:
+  - '&f&lNajwyższa tarcza wykuta z thornium'
+  name: 'Najwyższa tarcza'
+  type:
+  - '&7&oBroń'
+SUPREME_SHIELD_THORNIUM:
+  description:
+  - '&f&lTarcza wykuta z thornium'
+  name: 'Tarcza z thornium'
+  type:
+  - '&7&oBroń'
+SUPREME_SHOVEL_EPIC:
+  description:
+  - '&f&lEpicka łopata wykuta z thornium'
+  name: 'Epicka łopata'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_SHOVEL_LEGENDARY:
+  description:
+  - '&f&lLegendarna łopata wykuta z thornium'
+  name: 'Legendarna łopata'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_SHOVEL_MAGIC:
+  description:
+  - '&f&lMagiczna łopata wykuta z thornium'
+  name: 'Magiczna łopata'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_SHOVEL_RARE:
+  description:
+  - '&f&lRzadka łopata wykuta z thornium'
+  name: 'Rzadka łopata'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_SHOVEL_SUPREME:
+  description:
+  - '&f&lNajwyższa łopata wykuta z thornium'
+  name: 'Najwyższa łopata'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_SHOVEL_THORNIUM:
+  description:
+  - '&f&lŁopata wykuta z thornium'
+  name: 'Łopata z thornium'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_STAINLESS_MACHINE:
+  name: 'Maszyna nierdzewna'
+  type:
+  - '&7&oZaawansowane komponenty'
+SUPREME_STONE_QUARRY:
+  name: 'Kamieniołom kamienia'
+  stats:
+  - '&aŚrednia maszyna'
+  type:
+  - '&7&oMaszyna'
+SUPREME_SUPREME:
+  description:
+  - '&7Najwyższy'
+  name: 'Najwyższy'
+  type:
+  - '&7&oKomponenty końcowe'
+SUPREME_SUPREME_CAPACITOR:
+  name: 'Najwyższy kondensator'
+  stats:
+  - '&4Kondensator końcowej fazy gry'
+  - '&8⇨ &e⚡ &7Nieskończenie wiele J pojemności'
+  type:
+  - '&7&oMaszyna'
+SUPREME_SUPREME_GENERATOR:
+  name: 'Najwyższy generator'
+  stats:
+  - '&4Generator końcowej fazy gry'
+  type:
+  - '&7&oMaszyna'
+SUPREME_SUPREME_NUGGET:
+  description:
+  - '&7Z kamieniołomu najwyższych bryłek'
+  name: 'Najwyższa bryłka'
+  type:
+  - '&7&oKomponenty końcowe'
+SUPREME_SUPREME_NUGGETS_QUARRY:
+  name: 'Kamieniołom najwyższych bryłek'
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oMaszyna'
+SUPREME_SWORD_EPIC:
+  description:
+  - '&f&lEpicki miecz wykuty z thornium'
+  name: 'Epicki miecz'
+  type:
+  - '&7&oBroń'
+SUPREME_SWORD_LEGENDARY:
+  description:
+  - '&f&lLegendarny miecz wykuty z thornium'
+  name: 'Legendarny miecz'
+  type:
+  - '&7&oBroń'
+SUPREME_SWORD_MAGIC:
+  description:
+  - '&f&lMagiczny miecz wykuty z thornium'
+  name: 'Magiczny miecz'
+  type:
+  - '&7&oBroń'
+SUPREME_SWORD_RARE:
+  description:
+  - '&f&lRzadki miecz wykuty z thornium'
+  name: 'Rzadki miecz'
+  type:
+  - '&7&oBroń'
+SUPREME_SWORD_SUPREME:
+  description:
+  - '&f&lNajwyższy miecz wykuty z thornium'
+  name: 'Najwyższy miecz'
+  type:
+  - '&7&oBroń'
+SUPREME_SWORD_THORNIUM:
+  description:
+  - '&f&lMiecz wykuty z thornium'
+  name: 'Miecz z thornium'
+  type:
+  - '&7&oBroń'
+SUPREME_SYNTHETIC_AMETHYST:
+  name: 'Syntetyczny ametyst'
+  type:
+  - '&7&oKomponenty'
+SUPREME_SYNTHETIC_RUBY:
+  name: 'Syntetyczny rubin'
+  type:
+  - '&7&oKomponenty'
+SUPREME_TECH_GENERATOR:
+  description:
+  - '&fUżywając mocy oraz pszczół/golemów/zombie, '
+  - '&fpowoli wytwarza materiały.'
+  name: 'Generator technologiczny'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  type:
+  - '&7&oMaszyna'
+SUPREME_TECH_MUTATION_I:
+  description:
+  - '&fUżyj mutacji generatora '
+  - '&faby przejść na wyższe poziomy'
+  name: 'Mutacja technologiczna'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  type:
+  - '&7&oMaszyna'
+SUPREME_TECH_MUTATION_II:
+  description:
+  - '&fUżyj mutacji generatora '
+  - '&faby przejść na wyższe poziomy'
+  - '&fWspółczynnik szansy pomnożony 2x'
+  name: 'Mutacja technologiczna II'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  type:
+  - '&7&oMaszyna'
+SUPREME_TECH_MUTATION_III:
+  description:
+  - '&fUżyj mutacji generatora '
+  - '&faby przejść na wyższe poziomy'
+  - '&fWspółczynnik szansy pomnożony 4x'
+  name: 'Mutacja technologiczna III'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  type:
+  - '&7&oMaszyna'
+SUPREME_TECH_ROBOTIC:
+  description:
+  - '&fUżyj robotów poziomu początkowego '
+  - '&faby przejść na wyższe poziomy'
+  - '&fpotrzeba 64x do ulepszenia'
+  name: 'Robotyka technologiczna'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  type:
+  - '&7&oMaszyna'
+SUPREME_TECH_ROBOTIC_II:
+  description:
+  - '&fUżyj robotów poziomu początkowego '
+  - '&faby przejść na wyższe poziomy'
+  - '&fpotrzeba 32x do ulepszenia'
+  name: 'Robotyka technologiczna II'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  type:
+  - '&7&oMaszyna'
+SUPREME_TECH_ROBOTIC_III:
+  description:
+  - '&fUżyj robotów poziomu początkowego '
+  - '&faby przejść na wyższe poziomy'
+  - '&fpotrzeba 16x do ulepszenia'
+  name: 'Robotyka technologiczna III'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  type:
+  - '&7&oMaszyna'
+SUPREME_THORNERITE:
+  name: 'Thornerite'
+  type:
+  - '&7&oKomponenty końcowe'
+SUPREME_THORNIUM_BIT:
+  description:
+  - '&7Z kamieniołomu thornium'
+  name: 'Odłamek thornium'
+  type:
+  - '&7&oKomponenty końcowe'
+SUPREME_THORNIUM_BIT_SYNTHETIC:
+  description:
+  - '&7Z odłamka thornium'
+  name: 'Syntetyczny odłamek thornium'
+  type:
+  - '&7&oKomponenty końcowe'
+SUPREME_THORNIUM_CAPACITOR:
+  name: 'Kondensator z thornium'
+  stats:
+  - '&4Kondensator końcowej fazy gry'
+  - '&8⇨ &e⚡ &7100,000,000.00 J pojemności'
+  type:
+  - '&7&oMaszyna'
+SUPREME_THORNIUM_CARBONADO:
+  description:
+  - '&7Ze sztabki thornium'
+  name: 'Karbonado z thornium'
+  type:
+  - '&7&oKomponenty końcowe'
+SUPREME_THORNIUM_DUST:
+  description:
+  - '&7Z odłamka thornium'
+  name: 'Pył thornium'
+  type:
+  - '&7&oKomponenty końcowe'
+SUPREME_THORNIUM_DUST_SYNTHETIC:
+  description:
+  - '&7Z pyłu thornium'
+  name: 'Syntetyczny pył thornium'
+  type:
+  - '&7&oKomponenty końcowe'
+SUPREME_THORNIUM_ENERGIZED:
+  description:
+  - '&7Ze sztabki thornium'
+  name: 'Naładowany thornium'
+  type:
+  - '&7&oKomponenty końcowe'
+SUPREME_THORNIUM_GENERATOR:
+  name: 'Generator z thornium'
+  stats:
+  - '&4Generator końcowej fazy gry'
+  type:
+  - '&7&oMaszyna'
+SUPREME_THORNIUM_INGOT:
+  description:
+  - '&7Z pyłu thornium'
+  name: 'Sztabka thornium'
+  type:
+  - '&7&oKomponenty końcowe'
+SUPREME_THORNIUM_INGOT_SYNTHETIC:
+  description:
+  - '&7Ze sztabki thornium'
+  name: 'Syntetyczna sztabka thornium'
+  type:
+  - '&7&oKomponenty końcowe'
+SUPREME_THORNIUM_QUARRY:
+  name: 'Kamieniołom thornium'
+  stats:
+  - '&6Zaawansowana maszyna'
+  type:
+  - '&7&oMaszyna'
+SUPREME_TITANIUM_AXE:
+  description:
+  - '&f&lSiekiera wykuta z tytanu'
+  name: 'Siekiera z tytanu'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_TITANIUM_BOOTS:
+  description:
+  - '&f&lButy wykute z tytanu'
+  name: 'Buty z tytanu'
+  type:
+  - '&7&oZbroja'
+SUPREME_TITANIUM_CAPACITOR:
+  name: 'Kondensator z tytanu'
+  stats:
+  - '&6Zaawansowany kondensator'
+  - '&8⇨ &e⚡ &74,000,000.00 J pojemności'
+  type:
+  - '&7&oMaszyna'
+SUPREME_TITANIUM_CHESTPLATE:
+  description:
+  - '&f&lNapierśnik wykuty z tytanu'
+  name: 'Napierśnik z tytanu'
+  type:
+  - '&7&oZbroja'
+SUPREME_TITANIUM_HELMET:
+  description:
+  - '&f&lHełm wykuty z tytanu'
+  name: 'Hełm z tytanu'
+  type:
+  - '&7&oZbroja'
+SUPREME_TITANIUM_LEGGINGS:
+  description:
+  - '&f&lSpodnie wykute z tytanu'
+  name: 'Spodnie z tytanu'
+  type:
+  - '&7&oZbroja'
+SUPREME_TITANIUM_PICKAXE:
+  description:
+  - '&f&lKilof wykuty z tytanu'
+  name: 'Kilof z tytanu'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_TITANIUM_PLATE:
+  name: 'Płyta z tytanu'
+  type:
+  - '&7&oKomponenty'
+SUPREME_TITANIUM_SHOVEL:
+  description:
+  - '&f&lŁopata wykuta z tytanu'
+  name: 'Łopata z tytanu'
+  type:
+  - '&7&oNarzędzia'
+SUPREME_TITANIUM_SWORD:
+  description:
+  - '&f&lMiecz wykuty z tytanu'
+  name: 'Miecz z tytanu'
+  type:
+  - '&7&oBroń'
+SUPREME_VENTUS_GENERATOR:
+  name: 'Generator Ventus'
+  stats:
+  - '&ePodstawowy generator'
+  type:
+  - '&7&oMaszyna'
+SUPREME_VIRTUAL_AQUARIUM_I:
+  description:
+  - '&fTa maszyna pozwala ci zbierać '
+  - '&f przedmioty pochodzące z morza.'
+  name: 'Wirtualne akwarium'
+  stats:
+  - '&6Zaawansowana maszyna'
+  - '&8⇨ &b⚡ &7Prędkość: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J bufora'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMaszyna'
+SUPREME_VIRTUAL_AQUARIUM_II:
+  description:
+  - '&fTa maszyna pozwala ci zbierać'
+  - '&f przedmioty pochodzące z morza.'
+  name: 'Wirtualne akwarium II'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J bufora'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMaszyna'
+SUPREME_VIRTUAL_AQUARIUM_III:
+  description:
+  - '&fTa maszyna pozwala ci zbierać'
+  - '&f przedmioty pochodzące z morza.'
+  name: 'Wirtualne akwarium III'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J bufora'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMaszyna'
+SUPREME_VIRTUAL_GARDEN_I:
+  description:
+  - '&fTa maszyna pozwala ci'
+  - '&fuprawiać różne surowce.'
+  name: 'Wirtualny ogród'
+  stats:
+  - '&6Zaawansowana maszyna'
+  - '&8⇨ &b⚡ &7Prędkość: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J bufora'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMaszyna'
+SUPREME_VIRTUAL_GARDEN_II:
+  description:
+  - '&fTa maszyna pozwala ci'
+  - '&fuprawiać różne surowce.'
+  name: 'Wirtualny ogród II'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J bufora'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMaszyna'
+SUPREME_VIRTUAL_GARDEN_III:
+  description:
+  - '&fTa maszyna pozwala ci'
+  - '&fuprawiać różne surowce.'
+  name: 'Wirtualny ogród III'
+  stats:
+  - '&4Maszyna końcowej fazy gry'
+  - '&8⇨ &b⚡ &7Prędkość: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J bufora'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMaszyna'
+SUPREME_ZIRCONIUM_PLATE:
+  name: 'Płyta z cyrkonu'
+  type:
+  - '&7&oKomponenty'

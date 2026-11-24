@@ -1,0 +1,2352 @@
+MOB_TECH_COLLECTOR_MACHINE:
+  description:
+  - '&fהמכונה הזו מאפשרת לך לאסוף '
+  - '&fראשי מובטק מיצורים בסביבה. (3 בלוק)'
+  name: 'אוסף מובטק I'
+  type:
+  - '&7&oמכונה'
+SUPREME_ADAMANTIUM_AXE:
+  description:
+  - '&f&lגרזן מאדמנטיום'
+  name: 'גרזן אדמנטיום'
+  type:
+  - '&7&oכלים'
+SUPREME_ADAMANTIUM_BOOTS:
+  description:
+  - '&f&lמגפיים מאדמנטיום'
+  name: 'מגפי אדמנטיום'
+  type:
+  - '&7&oשריון'
+SUPREME_ADAMANTIUM_CAPACITOR:
+  name: 'קבל אדמנטיום'
+  stats:
+  - '&6קבל מתקדם'
+  - '&8⇨ &e⚡ &7קיבולת 16,000,000.00 J'
+  type:
+  - '&7&oמכונה'
+SUPREME_ADAMANTIUM_CHESTPLATE:
+  description:
+  - '&f&lשריון חזה מאדמנטיום'
+  name: 'שריון חזה אדמנטיום'
+  type:
+  - '&7&oשריון'
+SUPREME_ADAMANTIUM_HELMET:
+  description:
+  - '&f&lקסדה מאדמנטיום'
+  name: 'קסדת אדמנטיום'
+  type:
+  - '&7&oשריון'
+SUPREME_ADAMANTIUM_LEGGINGS:
+  description:
+  - '&f&lמכנסיים מאדמנטיום'
+  name: 'מכנסי אדמנטיום'
+  type:
+  - '&7&oשריון'
+SUPREME_ADAMANTIUM_PICKAXE:
+  description:
+  - '&f&lמכוש מאדמנטיום'
+  name: 'מכוש אדמנטיום'
+  type:
+  - '&7&oכלים'
+SUPREME_ADAMANTIUM_PLATE:
+  name: 'לוחית אדמנטיום'
+  type:
+  - '&7&oרכיבים'
+SUPREME_ADAMANTIUM_SHOVEL:
+  description:
+  - '&f&lאת חפירה מאדמנטיום'
+  name: 'את חפירה אדמנטיום'
+  type:
+  - '&7&oכלים'
+SUPREME_ADAMANTIUM_SWORD:
+  description:
+  - '&f&lחרב מאדמנטיום'
+  name: 'חרב אדמנטיום'
+  type:
+  - '&7&oנשקים'
+SUPREME_ALLOY_ADAMANTIUM:
+  name: 'סגסוגת אדמנטיום'
+  type:
+  - '&7&oרכיבים'
+SUPREME_ALLOY_AURUM:
+  name: 'סגסוגת אאורום'
+  type:
+  - '&7&oרכיבים'
+SUPREME_ALLOY_IRIDIUM:
+  name: 'סגסוגת אירידיום'
+  type:
+  - '&7&oרכיבים'
+SUPREME_ALLOY_MANGANESE:
+  name: 'סגסוגת מנגן'
+  type:
+  - '&7&oרכיבים'
+SUPREME_ALLOY_PLATINUM:
+  name: 'סגסוגת פלטינה'
+  type:
+  - '&7&oרכיבים'
+SUPREME_ALLOY_TITANIUM:
+  name: 'סגסוגת טיטניום'
+  type:
+  - '&7&oרכיבים'
+SUPREME_ALLOY_ZIRCONIUM:
+  name: 'סגסוגת זירקוניום'
+  type:
+  - '&7&oרכיבים'
+SUPREME_AQUA_GENERATOR:
+  name: 'גנרטור אקווה'
+  stats:
+  - '&6גנרטור מתקדם'
+  type:
+  - '&7&oמכונה'
+SUPREME_ATTRIBUTE_BOMB:
+  description:
+  - '&7תכונת פצצה סופר עם אפקטים מיוחדים'
+  name: 'תכונת פצצה'
+  type:
+  - '&7&oרכיבים קסומים'
+SUPREME_ATTRIBUTE_FORTUNE:
+  description:
+  - '&7תכונת שפע סופר עם אפקטים מיוחדים'
+  name: 'תכונת שפע'
+  type:
+  - '&7&oרכיבים קסומים'
+SUPREME_ATTRIBUTE_IMPETUS:
+  description:
+  - '&7תכונת תנופה סופר עם אפקטים מיוחדים'
+  name: 'תכונת תנופה'
+  type:
+  - '&7&oרכיבים קסומים'
+SUPREME_ATTRIBUTE_MAGIC:
+  description:
+  - '&7תכונת קסם סופר עם אפקטים מיוחדים'
+  name: 'תכונת קסם'
+  type:
+  - '&7&oרכיבים קסומים'
+SUPREME_AURUM_AXE:
+  description:
+  - '&f&lגרזן מאאורום'
+  name: 'גרזן אאורום'
+  type:
+  - '&7&oכלים'
+SUPREME_AURUM_BOOTS:
+  description:
+  - '&f&lמגפיים מאאורום'
+  name: 'מגפי אאורום'
+  type:
+  - '&7&oשריון'
+SUPREME_AURUM_CAPACITOR:
+  name: 'קבל אאורום'
+  stats:
+  - '&6קבל מתקדם'
+  - '&8⇨ &e⚡ &7קיבולת 1,000,000.00 J'
+  type:
+  - '&7&oמכונה'
+SUPREME_AURUM_CHESTPLATE:
+  description:
+  - '&f&lשריון חזה מאאורום'
+  name: 'שריון חזה אאורום'
+  type:
+  - '&7&oשריון'
+SUPREME_AURUM_HELMET:
+  description:
+  - '&f&lקסדה מאאורום'
+  name: 'קסדת אאורום'
+  type:
+  - '&7&oשריון'
+SUPREME_AURUM_LEGGINGS:
+  description:
+  - '&f&lמכנסיים מאאורום'
+  name: 'מכנסי אאורום'
+  type:
+  - '&7&oשריון'
+SUPREME_AURUM_PICKAXE:
+  description:
+  - '&f&lמכוש מאאורום'
+  name: 'מכוש אאורום'
+  type:
+  - '&7&oכלים'
+SUPREME_AURUM_PLATE:
+  name: 'לוחית אאורום'
+  type:
+  - '&7&oרכיבים'
+SUPREME_AURUM_SHOVEL:
+  description:
+  - '&f&lאת חפירה מאאורום'
+  name: 'את חפירה אאורום'
+  type:
+  - '&7&oכלים'
+SUPREME_AURUM_SWORD:
+  description:
+  - '&f&lחרב מאאורום'
+  name: 'חרב אאורום'
+  type:
+  - '&7&oנשקים'
+SUPREME_AXE_EPIC:
+  description:
+  - '&f&lגרזן אפי מתורניום'
+  name: 'גרזן אפי'
+  type:
+  - '&7&oכלים'
+SUPREME_AXE_LEGENDARY:
+  description:
+  - '&f&lגרזן אגדי מתורניום'
+  name: 'גרזן אגדי'
+  type:
+  - '&7&oכלים'
+SUPREME_AXE_MAGIC:
+  description:
+  - '&f&lגרזן קסום מתורניום'
+  name: 'גרזן קסום'
+  type:
+  - '&7&oכלים'
+SUPREME_AXE_RARE:
+  description:
+  - '&f&lגרזן נדיר מתורניום'
+  name: 'גרזן נדיר'
+  type:
+  - '&7&oכלים'
+SUPREME_AXE_SUPREME:
+  description:
+  - '&f&lגרזן עילאי מתורניום'
+  name: 'גרזן עילאי'
+  type:
+  - '&7&oכלים'
+SUPREME_AXE_THORNIUM:
+  description:
+  - '&f&lגרזן מתורניום'
+  name: 'גרזן תורניום'
+  type:
+  - '&7&oכלים'
+SUPREME_BASIC_AQUA_GENERATOR:
+  name: 'גנרטור אקווה בסיסי'
+  stats:
+  - '&eגנרטור בסיסי'
+  type:
+  - '&7&oמכונה'
+SUPREME_BASIC_IGNIS_GENERATOR:
+  name: 'גנרטור איגניס בסיסי'
+  stats:
+  - '&eגנרטור בסיסי'
+  type:
+  - '&7&oמכונה'
+SUPREME_BASIC_LUMIUM_GENERATOR:
+  name: 'גנרטור לומיום בסיסי'
+  stats:
+  - '&6גנרטור מתקדם'
+  type:
+  - '&7&oמכונה'
+SUPREME_BASIC_LUX_GENERATOR:
+  name: 'גנרטור לוקס בסיסי'
+  stats:
+  - '&eגנרטור בסיסי'
+  type:
+  - '&7&oמכונה'
+SUPREME_BASIC_VENTUS_GENERATOR:
+  name: 'גנרטור ונטוס בסיסי'
+  stats:
+  - '&eגנרטור בסיסי'
+  type:
+  - '&7&oמכונה'
+SUPREME_BLEND_MACHINE:
+  name: 'מכונת ערבול'
+  type:
+  - '&7&oרכיבים מתקדמים'
+SUPREME_BOOTS_EPIC:
+  description:
+  - '&f&lמגפיים אפיים מתורניום'
+  name: 'מגפיים אפיים'
+  type:
+  - '&7&oשריון'
+SUPREME_BOOTS_LEGENDARY:
+  description:
+  - '&f&lמגפיים אגדיים מתורניום'
+  name: 'מגפיים אגדיים'
+  type:
+  - '&7&oשריון'
+SUPREME_BOOTS_MAGIC:
+  description:
+  - '&f&lמגפיים קסומים מתורניום'
+  name: 'מגפיים קסומים'
+  type:
+  - '&7&oשריון'
+SUPREME_BOOTS_RARE:
+  description:
+  - '&f&lמגפיים נדירים מתורניום'
+  name: 'מגפיים נדירים'
+  type:
+  - '&7&oשריון'
+SUPREME_BOOTS_SUPREME:
+  description:
+  - '&f&lמגפיים עילאיים מתורניום'
+  name: 'מגפיים עילאיים'
+  type:
+  - '&7&oשריון'
+SUPREME_BOOTS_THORNIUM:
+  description:
+  - '&f&lמגפיים מתורניום'
+  name: 'מגפי תורניום'
+  type:
+  - '&7&oשריון'
+SUPREME_BOW_EPIC:
+  description:
+  - '&f&lקשת אפית מתורניום'
+  name: 'קשת אפית'
+  type:
+  - '&7&oנשקים'
+SUPREME_BOW_LEGENDARY:
+  description:
+  - '&f&lקשת אגדית מתורניום'
+  name: 'קשת אגדית'
+  type:
+  - '&7&oנשקים'
+SUPREME_BOW_MAGIC:
+  description:
+  - '&f&lקשת קסומה מתורניום'
+  name: 'קשת קסומה'
+  type:
+  - '&7&oנשקים'
+SUPREME_BOW_RARE:
+  description:
+  - '&f&lקשת נדירה מתורניום'
+  name: 'קשת נדירה'
+  type:
+  - '&7&oנשקים'
+SUPREME_BOW_SUPREME:
+  description:
+  - '&f&lקשת עילאית מתורניום'
+  name: 'קשת עילאית'
+  type:
+  - '&7&oנשקים'
+SUPREME_BOW_THORNIUM:
+  description:
+  - '&f&lקשת מתורניום'
+  name: 'קשת תורניום'
+  type:
+  - '&7&oנשקים'
+SUPREME_CARD_ALUMINUM_BRASS:
+  description:
+  - '&fהחלף לייצור מטיל פליז אלומיניום'
+  name: "כרטיס מכונה (מטיל פליז אלומיניום)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_ALUMINUM_BRONZE:
+  description:
+  - '&fהחלף לייצור מטיל ארד אלומיניום'
+  name: "כרטיס מכונה (מטיל ארד אלומיניום)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_ALUMINUM_DUST:
+  description:
+  - '&fהחלף לייצור אבקת אלומיניום'
+  name: "כרטיס מכונה (אבקת אלומיניום)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_AMETHYST:
+  description:
+  - '&fהחלף לייצור אמטיסט'
+  name: "כרטיס מכונה (אמטיסט)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_ANDESITE:
+  description:
+  - '&fהחלף לייצור אנדזיט'
+  name: "כרטיס מכונה (אנדזיט)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_APPLE:
+  description:
+  - '&fהחלף לייצור תפוח'
+  name: "כרטיס מכונה (תפוח)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_BATTERY:
+  description:
+  - '&fהחלף לייצור סוללה'
+  name: "כרטיס מכונה (סוללה)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_BILLON:
+  description:
+  - '&fהחלף לייצור מטיל בילון'
+  name: "כרטיס מכונה (מטיל בילון)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_BLAZE_ROD:
+  description:
+  - '&fהחלף לייצור מטה בלייז'
+  name: "כרטיס מכונה (מטה בלייז)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_BRASS:
+  description:
+  - '&fהחלף לייצור מטיל פליז'
+  name: "כרטיס מכונה (מטיל פליז)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_BRONZE:
+  description:
+  - '&fהחלף לייצור מטיל ארד'
+  name: "כרטיס מכונה (מטיל ארד)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_CARBON:
+  description:
+  - '&fהחלף לייצור פחמן'
+  name: "כרטיס מכונה (פחמן)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_CARBONADO:
+  description:
+  - '&fהחלף לייצור קרבונדו'
+  name: "כרטיס מכונה (קרבונדו)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_CARBON_PRESS:
+  description:
+  - '&fהחלף לייצור פחמן דחוס'
+  name: "כרטיס מכונה (פחמן דחוס)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_CLAY:
+  description:
+  - '&fהחלף לייצור חימר'
+  name: "כרטיס מכונה (חימר)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_COAL:
+  description:
+  - '&fהחלף לייצור פחם'
+  name: "כרטיס מכונה (פחם)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_COBALT:
+  description:
+  - '&fהחלף לייצור קובלט'
+  name: "כרטיס מכונה (קובלט)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_COPPER:
+  description:
+  - '&fהחלף לייצור נחושת'
+  name: "כרטיס מכונה (נחושת)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_COPPER_DUST:
+  description:
+  - '&fהחלף לייצור אבקת נחושת'
+  name: "כרטיס מכונה (אבקת נחושת)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_CORINTHIAN_BRONZE:
+  description:
+  - '&fהחלף לייצור מטיל ארד קורינתי'
+  name: "כרטיס מכונה (מטיל ארד קורינתי)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_DAMASCUS:
+  description:
+  - '&fהחלף לייצור פלדת דמשק'
+  name: "כרטיס מכונה (פלדת דמשק)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_DIAMOND:
+  description:
+  - '&fהחלף לייצור יהלום'
+  name: "כרטיס מכונה (יהלום)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_DIORITE:
+  description:
+  - '&fהחלף לייצור דיוריט'
+  name: "כרטיס מכונה (דיוריט)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_DURALUMIN:
+  description:
+  - '&fהחלף לייצור מטיל דוראלומין'
+  name: "כרטיס מכונה (מטיל דוראלומין)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_ELECTRIC_MOTOR:
+  description:
+  - '&fהחלף לייצור מנוע חשמלי'
+  name: "כרטיס מכונה (מנוע חשמלי)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_ELECTRO_MAGNET:
+  description:
+  - '&fהחלף לייצור אלקטרומגנט'
+  name: "כרטיס מכונה (אלקטרומגנט)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_EMERALD:
+  description:
+  - '&fהחלף לייצור אזמרגד'
+  name: "כרטיס מכונה (אזמרגד)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_ENDSTONE:
+  description:
+  - '&fהחלף לייצור אבן אנד'
+  name: "כרטיס מכונה (אבן אנד)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_FERROSILICON:
+  description:
+  - '&fהחלף לייצור פרוסיליקון'
+  name: "כרטיס מכונה (פרוסיליקון)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_GLOW_INK_SAC:
+  description:
+  - '&fהחלף לייצור שק דיו זוהר'
+  name: "כרטיס מכונה (שק דיו זוהר)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_GOLD:
+  description:
+  - '&fהחלף לייצור זהב'
+  name: "כרטיס מכונה (זהב)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_GOLD24K:
+  description:
+  - '&fהחלף לייצור זהב 24k'
+  name: "כרטיס מכונה (זהב 24k)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_GOLD_DUST:
+  description:
+  - '&fהחלף לייצור אבקת זהב'
+  name: "כרטיס מכונה (אבקת זהב)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_GRANITE:
+  description:
+  - '&fהחלף לייצור גרניט'
+  name: "כרטיס מכונה (גרניט)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_GRAVEL:
+  description:
+  - '&fהחלף לייצור חצץ'
+  name: "כרטיס מכונה (חצץ)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_HARDENED_METAL:
+  description:
+  - '&fהחלף לייצור מטיל מתכת מוקשחת'
+  name: "כרטיס מכונה (מטיל מתכת מוקשחת)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_HEATING_COIL:
+  description:
+  - '&fהחלף לייצור סליל חימום'
+  name: "כרטיס מכונה (סליל חימום)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_HONEY_BOTTLE:
+  description:
+  - '&fהחלף לייצור בקבוק דבש'
+  name: "כרטיס מכונה (בקבוק דבש)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_INK_SAC:
+  description:
+  - '&fהחלף לייצור שק דיו'
+  name: "כרטיס מכונה (שק דיו)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_IRON:
+  description:
+  - '&fהחלף לייצור ברזל'
+  name: "כרטיס מכונה (ברזל)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_IRON_DUST:
+  description:
+  - '&fהחלף לייצור אבקת ברזל'
+  name: "כרטיס מכונה (אבקת ברזל)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_LAPIS:
+  description:
+  - '&fהחלף לייצור לפיס'
+  name: "כרטיס מכונה (לפיס)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_LEAD_DUST:
+  description:
+  - '&fהחלף לייצור אבקת עופרת'
+  name: "כרטיס מכונה (אבקת עופרת)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_MAGNESIUM_DUST:
+  description:
+  - '&fהחלף לייצור אבקת מגנזיום'
+  name: "כרטיס מכונה (אבקת מגנזיום)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_MAGNET:
+  description:
+  - '&fהחלף לייצור מגנט'
+  name: "כרטיס מכונה (מגנט)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_NETHERITE:
+  description:
+  - '&fהחלף לייצור נתרייט'
+  name: "כרטיס מכונה (נתרייט)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_NETHER_STAR:
+  description:
+  - '&fהחלף לייצור כוכב נתר'
+  name: "כרטיס מכונה (כוכב נתר)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_NICKEL:
+  description:
+  - '&fהחלף לייצור ניקל'
+  name: "כרטיס מכונה (ניקל)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_PLASTIC_SHEET:
+  description:
+  - '&fהחלף לייצור יריעת פלסטיק'
+  name: "כרטיס מכונה (יריעת פלסטיק)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_QUARTZ:
+  description:
+  - '&fהחלף לייצור קוורץ'
+  name: "כרטיס מכונה (קוורץ)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_QUARTZ_BLOCK:
+  description:
+  - '&fהחלף לייצור בלוק קוורץ'
+  name: "כרטיס מכונה (בלוק קוורץ)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_REDSTONE:
+  description:
+  - '&fהחלף לייצור אבן אדומה'
+  name: "כרטיס מכונה (אבן אדומה)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_REDSTONE_ALLOY:
+  description:
+  - '&fהחלף לייצור סגסוגת אבן אדומה'
+  name: "כרטיס מכונה (סגסוגת אבן אדומה)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_REINFORCED_ALLOY:
+  description:
+  - '&fהחלף לייצור מטיל סגסוגת מחוזקת'
+  name: "כרטיס מכונה (מטיל סגסוגת מחוזקת)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_SAND:
+  description:
+  - '&fהחלף לייצור חול'
+  name: "כרטיס מכונה (חול)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_SILICON:
+  description:
+  - '&fהחלף לייצור צורן'
+  name: "כרטיס מכונה (צורן)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_SILVER_DUST:
+  description:
+  - '&fהחלף לייצור אבקת כסף'
+  name: "כרטיס מכונה (אבקת כסף)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_SLIME_BALL:
+  description:
+  - '&fהחלף לייצור כדור ריר'
+  name: "כרטיס מכונה (כדור ריר)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_SNOW:
+  description:
+  - '&fהחלף לייצור שלג'
+  name: "כרטיס מכונה (שלג)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_SOLDER:
+  description:
+  - '&fהחלף לייצור מטיל הלחמה'
+  name: "כרטיס מכונה (מטיל הלחמה)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_STEEL:
+  description:
+  - '&fהחלף לייצור פלדה'
+  name: "כרטיס מכונה (פלדה)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_STONE:
+  description:
+  - '&fהחלף לייצור אבן'
+  name: "כרטיס מכונה (אבן)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_SULFATE:
+  description:
+  - '&fהחלף לייצור סולפט'
+  name: "כרטיס מכונה (סולפט)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_SYNTHETIC_DIAMOND:
+  description:
+  - '&fהחלף לייצור יהלום סינתטי'
+  name: "כרטיס מכונה (יהלום סינתטי)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_SYNTHETIC_EMERALD:
+  description:
+  - '&fהחלף לייצור אזמרגד סינתטי'
+  name: "כרטיס מכונה (אזמרגד סינתטי)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_SYNTHETIC_SAPPHIRE:
+  description:
+  - '&fהחלף לייצור ספיר סינתטי'
+  name: "כרטיס מכונה (ספיר סינתטי)"
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_TIN_DUST:
+  description:
+  - '&fהחלף לייצור אבקת בדיל'
+  name: "כרטיס מכונה (אבקת בדיל)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_WITHER_ROSE:
+  description:
+  - '&fהחלף לייצור שושנת ווית''ר'
+  name: "כרטיס מכונה (שושנת ווית'ר)"
+  stats:
+  - '&eמכונה בסיסית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARD_ZINC_DUST:
+  description:
+  - '&fהחלף לייצור אבקת אבץ'
+  name: "כרטיס מכונה (אבקת אבץ)"
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oרכיב'
+SUPREME_CARRIAGE_MACHINE:
+  name: 'מכונת נשיאה'
+  type:
+  - '&7&oרכיבים מתקדמים'
+SUPREME_CENTER_CARD_ADVANCED:
+  description:
+  - '&fרכיב למכונה לייצור פריטים'
+  name: 'רכיב מתקדם לכרטיס'
+  type:
+  - '&7&oרכיב'
+SUPREME_CENTER_CARD_SIMPLE:
+  description:
+  - '&fרכיב למכונה לייצור פריטים'
+  name: 'רכיב בסיסי לכרטיס'
+  type:
+  - '&7&oרכיב'
+SUPREME_CENTER_CARD_ULTIMATE:
+  description:
+  - '&fרכיב למכונה לייצור פריטים'
+  name: 'רכיב אולטימטיבי לכרטיס'
+  type:
+  - '&7&oרכיב'
+SUPREME_CETRUS_AQUA:
+  description:
+  - '&7שרביט אקווה סופר'
+  name: 'קטרוס אקווה'
+  type:
+  - '&7&oרכיבים קסומים'
+SUPREME_CETRUS_IGNIS:
+  description:
+  - '&7שרביט איגניס סופר'
+  name: 'קטרוס איגניס'
+  type:
+  - '&7&oרכיבים קסומים'
+SUPREME_CETRUS_LUMIUM:
+  description:
+  - '&7שרביט לומיום סופר'
+  name: 'קטרוס לומיום'
+  type:
+  - '&7&oרכיבים קסומים'
+SUPREME_CETRUS_LUX:
+  description:
+  - '&7שרביט לוקס סופר'
+  name: 'קטרוס לוקס'
+  type:
+  - '&7&oרכיבים קסומים'
+SUPREME_CETRUS_VENTUS:
+  description:
+  - '&7שרביט ונטוס סופר'
+  name: 'קטרוס ונטוס'
+  type:
+  - '&7&oרכיבים קסומים'
+SUPREME_CHECK_INVENTORY:
+  description:
+  - '&fבודק אם בתיבה שבסביבה יש את פריט הסינון'
+  - '&fכל הפאות נלקחות בחשבון (מוצא את הראשונה)'
+  - '&fאם נמצא, הבלוק הזה יאיר'
+  name: "בודק מלאי"
+  stats:
+  - '&6מכונה מתקדמת'
+  - '&8⇨ &b⚡ &7מהירות: &b1.0x'
+  type:
+  - '&7&oמכונה'
+SUPREME_CHESTPLATE_EPIC:
+  description:
+  - '&f&lשריון חזה אפי מתורניום'
+  name: 'שריון חזה אפי'
+  type:
+  - '&7&oשריון'
+SUPREME_CHESTPLATE_LEGENDARY:
+  description:
+  - '&f&lשריון חזה אגדי מתורניום'
+  name: 'שריון חזה אגדי'
+  type:
+  - '&7&oשריון'
+SUPREME_CHESTPLATE_MAGIC:
+  description:
+  - '&f&lשריון חזה קסום מתורניום'
+  name: 'שריון חזה קסום'
+  type:
+  - '&7&oשריון'
+SUPREME_CHESTPLATE_RARE:
+  description:
+  - '&f&lשריון חזה נדיר מתורניום'
+  name: 'שריון חזה נדיר'
+  type:
+  - '&7&oשריון'
+SUPREME_CHESTPLATE_SUPREME:
+  description:
+  - '&f&lשריון חזה עילאי מתורניום'
+  name: 'שריון חזה עילאי'
+  type:
+  - '&7&oשריון'
+SUPREME_CHESTPLATE_THORNIUM:
+  description:
+  - '&f&lשריון חזה מתורניום'
+  name: 'שריון חזה תורניום'
+  type:
+  - '&7&oשריון'
+SUPREME_COAL_QUARRY:
+  name: 'מכרה פחם'
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oמכונה'
+SUPREME_CONVEYANCE_MACHINE:
+  name: 'מכונת העברה'
+  type:
+  - '&7&oרכיבים מתקדמים'
+SUPREME_CORE_ACACIA_LOG:
+  description:
+  - '&7שיטה סופר'
+  name: 'בול שיטה עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_ANDESITE:
+  description:
+  - '&7אנדזיט סופר'
+  name: 'אנדזיט עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_APPLE:
+  description:
+  - '&7תפוח סופר'
+  name: 'תפוח עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_BEEF:
+  description:
+  - '&7בשר בקר סופר'
+  name: 'בשר בקר עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_BEETROOT:
+  description:
+  - '&7סלק סופר'
+  name: 'סלק עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_BIRCH_LOG:
+  description:
+  - '&7ליבנה סופר'
+  name: 'בול ליבנה עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_BLACK:
+  description:
+  - '&7שחור סופר'
+  name: 'שחור עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_BLUE:
+  description:
+  - '&7כחול סופר'
+  name: 'כחול עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_CARROT:
+  description:
+  - '&7גזר עילאי'
+  name: 'גזר עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_CHICKEN:
+  description:
+  - '&7עוף סופר'
+  name: 'עוף עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_CLAY:
+  description:
+  - '&7חימר סופר'
+  name: 'חימר עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_COAL:
+  description:
+  - '&7פחם סופר'
+  name: 'פחם עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_COD:
+  description:
+  - '&7בקלה סופר'
+  name: 'בקלה עילאית'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_CRIMSON_STEM:
+  description:
+  - '&7ארגמן סופר'
+  name: 'גזע ארגמן עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_CYAN:
+  description:
+  - '&7ציאן סופר'
+  name: 'ציאן עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_DARK_OAK_LOG:
+  description:
+  - '&7כהה סופר'
+  name: 'בול אלון כהה עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_DIAMOND:
+  description:
+  - '&7יהלום סופר'
+  name: 'יהלום עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_DIORITE:
+  description:
+  - '&7דיוריט סופר'
+  name: 'דיוריט עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_EMERALD:
+  description:
+  - '&7אזמרגד סופר'
+  name: 'אזמרגד עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_ENDSTONE:
+  description:
+  - '&7אבן אנד סופר'
+  name: 'אבן אנד עילאית'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_GOLD:
+  description:
+  - '&7זהב סופר'
+  name: 'זהב עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_GRANITE:
+  description:
+  - '&7גרניט סופר'
+  name: 'גרניט עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_GRAVEL:
+  description:
+  - '&7חצץ סופר'
+  name: 'חצץ עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_GRAY:
+  description:
+  - '&7אפור סופר'
+  name: 'אפור עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_GREEN:
+  description:
+  - '&7ירוק סופר'
+  name: 'ירוק עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_IRON:
+  description:
+  - '&7ברזל סופר'
+  name: 'ברזל עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_JUNGLE_LOG:
+  description:
+  - '&7ג''ונגל סופר'
+  name: 'בול ג''ונגל עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_LAPIS:
+  description:
+  - '&7לפיס סופר'
+  name: 'לפיס עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_MELON:
+  description:
+  - '&7אבטיח סופר'
+  name: 'אבטיח עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_MUTTON:
+  description:
+  - '&7בשר כבש סופר'
+  name: 'בשר כבש עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_NETHERITE:
+  description:
+  - '&7נתרייט סופר'
+  name: 'נתרייט עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_OAK_LOG:
+  description:
+  - '&7אלון סופר'
+  name: 'בול אלון עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_OF_ALLOY:
+  description:
+  - '&7הליבה הזו מכילה עפרות שונות'
+  - '&7שנאספו מכל רחבי העולם.'
+  name: 'ליבת סגסוגת'
+  type:
+  - '&7&oרכיבים קסומים'
+SUPREME_CORE_OF_BLOCK:
+  description:
+  - '&7הליבה הזו מכילה בלוקים שונים'
+  - '&7שנאספו מכל רחבי העולם.'
+  name: 'ליבת בלוק'
+  type:
+  - '&7&oרכיבים קסומים'
+SUPREME_CORE_OF_COLOR:
+  description:
+  - '&7הליבה הזו מכילה צבעים שונים'
+  - '&7שנאספו מכל רחבי העולם.'
+  name: 'ליבת צבע'
+  type:
+  - '&7&oרכיבים קסומים'
+SUPREME_CORE_OF_DEATH:
+  description:
+  - '&7הליבה הזו מכילה את נשמותיהם של '
+  - '&7יצורים שונים שחלפו מן העולם.'
+  name: 'ליבת מוות'
+  type:
+  - '&7&oרכיבים קסומים'
+SUPREME_CORE_OF_LIFE:
+  description:
+  - '&7הליבה הזו מכילה שברי חיים'
+  - '&7שנאספו בידי העולם.'
+  name: 'ליבת חיים'
+  type:
+  - '&7&oרכיבים קסומים'
+SUPREME_CORE_OF_NATURE:
+  description:
+  - '&7הליבה הזו מכילה חומרים טבעיים'
+  - '&7שנאספו מכל רחבי העולם.'
+  name: 'ליבת טבע'
+  type:
+  - '&7&oרכיבים קסומים'
+SUPREME_CORE_PINK:
+  description:
+  - '&7ורוד סופר'
+  name: 'ורוד עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_PORKCHOP:
+  description:
+  - '&7בייקון סופר'
+  name: "צלע חזיר עילאית"
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_POTATO:
+  description:
+  - '&7תפוח אדמה סופר'
+  name: 'תפוח אדמה עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_PUMPKIN:
+  description:
+  - '&7דלעת סופר'
+  name: 'דלעת עילאית'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_PURPLE:
+  description:
+  - '&7סגול סופר'
+  name: 'סגול עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_QUARTZ:
+  description:
+  - '&7קוורץ סופר'
+  name: 'קוורץ עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_RED:
+  description:
+  - '&7אדום סופר'
+  name: 'אדום עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_REDSTONE:
+  description:
+  - '&7אבן אדומה סופר'
+  name: 'אבן אדומה עילאית'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_SALMON:
+  description:
+  - '&7סלמון סופר'
+  name: 'סלמון עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_SAND:
+  description:
+  - '&7חול סופר'
+  name: 'חול עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_SNOW:
+  description:
+  - '&7שלג סופר'
+  name: 'שלג עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_SPIDER_EYE:
+  description:
+  - '&7עין סופר'
+  name: "עין עכביש עילאית"
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_SPRUCE_LOG:
+  description:
+  - '&7אשוח סופר'
+  name: 'בול אשוח עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_STONE:
+  description:
+  - '&7אבן מרוצפת סופר'
+  name: 'אבן מרוצפת עילאית'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_STRING:
+  description:
+  - '&7רצועה סופר'
+  name: "חוט עילאי"
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_SUGAR_CANE:
+  description:
+  - '&7קנה סוכר סופר'
+  name: 'קנה סוכר עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_SWEET_BERRIES:
+  description:
+  - '&7פירות יער סופר'
+  name: 'פירות יער מתוקים עילאיים'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_TEAR:
+  description:
+  - '&7דמעה סופר'
+  name: "דמעת גאסט עילאית"
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_WARPED_STEM:
+  description:
+  - '&7מעוקם סופר'
+  name: 'גזע מעוקם עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_WHEAT:
+  description:
+  - '&7חיטה סופר'
+  name: 'חיטה עילאית'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_WITHER_ROSE:
+  description:
+  - '&7שושנה סופר'
+  name: 'שושנת ווית''ר עילאית'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CORE_YELLOW:
+  description:
+  - '&7צהוב סופר'
+  name: 'צהוב עילאי'
+  type:
+  - '&7&oרכיבי יסוד'
+SUPREME_CRYSTALLIZER_MACHINE:
+  name: 'מכונת גיבוש'
+  type:
+  - '&7&oרכיבים מתקדמים'
+SUPREME_DIAMOND_QUARRY:
+  name: 'מכרה יהלומים'
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oמכונה'
+SUPREME_DUST_AMETHYST:
+  name: 'אבקת אמטיסט'
+  type:
+  - '&7&oרכיב'
+SUPREME_DUST_GLOW_INK:
+  name: 'אבקת דיו זוהר'
+  type:
+  - '&7&oרכיב'
+SUPREME_DUST_NETHERITE:
+  name: 'אבקת נתרייט'
+  type:
+  - '&7&oרכיב'
+SUPREME_ELECTRIC_CORE_I:
+  description:
+  - '&fיצירת משאבי ליבה'
+  name: 'מכונת ליבה חשמלית'
+  stats:
+  - '&6מכונה מתקדמת'
+  - '&8⇨ &b⚡ &7מהירות: &b1.0x'
+  type:
+  - '&7&oמכונה'
+SUPREME_ELECTRIC_CORE_II:
+  description:
+  - '&fיצירה מתקדמת של משאבי ליבה'
+  name: 'מכונת ליבה חשמלית II'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b5.0x'
+  type:
+  - '&7&oמכונה'
+SUPREME_ELECTRIC_CORE_III:
+  description:
+  - '&fיצירה מתקדמת של משאבי ליבה'
+  name: 'מכונת ליבה חשמלית III'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b15.0x'
+  type:
+  - '&7&oמכונה'
+SUPREME_ELECTRIC_CRAFTER_I:
+  description:
+  - '&fיצירת פריטים'
+  name: 'יוצר חשמלי'
+  stats:
+  - '&6מכונה מתקדמת'
+  - '&8⇨ &b⚡ &7מהירות: &b1.0x'
+  type:
+  - '&7&oמכונה'
+SUPREME_ELECTRIC_CRAFTER_II:
+  description:
+  - '&fיצירת פריטים מתקדמת'
+  name: 'יוצר חשמלי II'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b5.0x'
+  type:
+  - '&7&oמכונה'
+SUPREME_ELECTRIC_CRAFTER_III:
+  description:
+  - '&fיצירת פריטים מתקדמת'
+  name: 'יוצר חשמלי III'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b15.0x'
+  type:
+  - '&7&oמכונה'
+SUPREME_ELECTRIC_GEAR_I:
+  description:
+  - '&fיצירת דרגת ציוד'
+  name: 'מכונת ציוד חשמלית'
+  stats:
+  - '&6מכונה מתקדמת'
+  - '&8⇨ &b⚡ &7מהירות: &b1.0x'
+  type:
+  - '&7&oמכונה'
+SUPREME_ELECTRIC_GEAR_II:
+  description:
+  - '&fיצירה מתקדמת של דרגת ציוד'
+  name: 'מכונת ציוד חשמלית II'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b5.0x'
+  type:
+  - '&7&oמכונה'
+SUPREME_ELECTRIC_GEAR_III:
+  description:
+  - '&fיצירה מתקדמת של דרגת ציוד'
+  name: 'מכונת ציוד חשמלית III'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b15.0x'
+  type:
+  - '&7&oמכונה'
+SUPREME_ELECTRIC_ITEM:
+  name: "חשמל"
+  type:
+  - '&7&oשונות'
+SUPREME_ELECTRIC_MAGICAL_I:
+  description:
+  - '&fיצירת משאבים קסומים'
+  name: 'מכונה קסומה חשמלית'
+  stats:
+  - '&6מכונה מתקדמת'
+  - '&8⇨ &b⚡ &7מהירות: &b1.0x'
+  type:
+  - '&7&oמכונה'
+SUPREME_ELECTRIC_MAGICAL_II:
+  description:
+  - '&fיצירה מתקדמת של משאבים קסומים'
+  name: 'מכונה קסומה חשמלית II'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b5.0x'
+  type:
+  - '&7&oמכונה'
+SUPREME_ELECTRIC_MAGICAL_III:
+  description:
+  - '&fיצירה מתקדמת של משאבים קסומים'
+  name: 'מכונה קסומה חשמלית III'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b15.0x'
+  type:
+  - '&7&oמכונה'
+SUPREME_EMPTY_MOBTECH:
+  name: 'מובטק ריק'
+  type:
+  - '&7&oרכיב'
+SUPREME_FORGE_INGOT_I:
+  description:
+  - '&fהמכונה הזו מאפשרת לך'
+  - '&fלחשל משאבי מטילים.'
+  name: 'מפחת מטילים'
+  stats:
+  - '&6מכונה מתקדמת'
+  - '&8⇨ &b⚡ &7מהירות: &b1.0x'
+  - '&8⇨ &e⚡ &7מאגר 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oמכונה'
+SUPREME_FORGE_INGOT_II:
+  description:
+  - '&fהמכונה הזו מאפשרת לך'
+  - '&fלחשל משאבי מטילים.'
+  name: 'מפחת מטילים II'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b5.0x'
+  - '&8⇨ &e⚡ &7מאגר 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oמכונה'
+SUPREME_FORGE_INGOT_III:
+  description:
+  - '&fהמכונה הזו מאפשרת לך'
+  - '&fלחשל משאבי מטילים.'
+  name: 'מפחת מטילים III'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b15.0x'
+  - '&8⇨ &e⚡ &7מאגר 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oמכונה'
+SUPREME_FORGE_MAGICAL_I:
+  description:
+  - '&fהמכונה הזו מאפשרת לך'
+  - '&fלחשל משאבים קסומים.'
+  name: 'מפחה קסומה'
+  stats:
+  - '&6מכונה מתקדמת'
+  - '&8⇨ &b⚡ &7מהירות: &b1.0x'
+  - '&8⇨ &e⚡ &7מאגר 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oמכונה'
+SUPREME_FORGE_MAGICAL_II:
+  description:
+  - '&fהמכונה הזו מאפשרת לך'
+  - '&fלחשל משאבים קסומים.'
+  name: 'מפחה קסומה II'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b5.0x'
+  - '&8⇨ &e⚡ &7מאגר 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oמכונה'
+SUPREME_FORGE_MAGICAL_III:
+  description:
+  - '&fהמכונה הזו מאפשרת לך'
+  - '&fלחשל משאבים קסומים.'
+  name: 'מפחה קסומה III'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b15.0x'
+  - '&8⇨ &e⚡ &7מאגר 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oמכונה'
+SUPREME_FOUNDRY_I:
+  description:
+  - '&fפריטי בית יציקה וסינתזה'
+  name: 'בית יציקה'
+  stats:
+  - '&6מכונה מתקדמת'
+  - '&8⇨ &b⚡ &7מהירות: &b1.0x'
+  type:
+  - '&7&oמכונה'
+SUPREME_FOUNDRY_II:
+  description:
+  - '&fפריטי בית יציקה וסינתזה מתקדמים'
+  name: 'בית יציקה II'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b5.0x'
+  type:
+  - '&7&oמכונה'
+SUPREME_FOUNDRY_III:
+  description:
+  - '&fפריטי בית יציקה וסינתזה מתקדמים'
+  name: 'בית יציקה III'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b15.0x'
+  type:
+  - '&7&oמכונה'
+SUPREME_GENERATOR_MOB_ADVANCED:
+  name: 'מפיק יצורים מתקדם'
+  stats:
+  - '&eגנרטור בסיסי'
+  type:
+  - '&7&oמכונה'
+SUPREME_GENERATOR_MOB_BASIC:
+  name: 'מפיק יצורים בסיסי'
+  stats:
+  - '&eגנרטור בסיסי'
+  type:
+  - '&7&oמכונה'
+SUPREME_GENERATOR_MOB_MEDIUM:
+  name: 'מפיק יצורים בינוני'
+  stats:
+  - '&eגנרטור בסיסי'
+  type:
+  - '&7&oמכונה'
+SUPREME_GENE_BERSERK:
+  name: 'גן זעם'
+  type:
+  - '&7&oרכיב'
+SUPREME_GENE_INTELLIGENCE:
+  name: 'גן תבונה'
+  type:
+  - '&7&oרכיב'
+SUPREME_GENE_LUCK:
+  name: 'גן מזל'
+  type:
+  - '&7&oרכיב'
+SUPREME_GOLD_QUARRY:
+  name: 'מכרה זהב'
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oמכונה'
+SUPREME_HELMET_EPIC:
+  description:
+  - '&f&lקסדה אפית מתורניום'
+  name: 'קסדה אפית'
+  type:
+  - '&7&oשריון'
+SUPREME_HELMET_LEGENDARY:
+  description:
+  - '&f&lקסדה אגדית מתורניום'
+  name: 'קסדה אגדית'
+  type:
+  - '&7&oשריון'
+SUPREME_HELMET_MAGIC:
+  description:
+  - '&f&lקסדה קסומה מתורניום'
+  name: 'קסדה קסומה'
+  type:
+  - '&7&oשריון'
+SUPREME_HELMET_RARE:
+  description:
+  - '&f&lקסדה נדירה מתורניום'
+  name: 'קסדה נדירה'
+  type:
+  - '&7&oשריון'
+SUPREME_HELMET_SUPREME:
+  description:
+  - '&f&lקסדה עילאית מתורניום'
+  name: 'קסדה עילאית'
+  type:
+  - '&7&oשריון'
+SUPREME_HELMET_THORNIUM:
+  description:
+  - '&f&lקסדה מתורניום'
+  name: 'קסדת תורניום'
+  type:
+  - '&7&oשריון'
+SUPREME_IGNIS_GENERATOR:
+  name: 'גנרטור איגניס'
+  stats:
+  - '&6גנרטור מתקדם'
+  type:
+  - '&7&oמכונה'
+SUPREME_INDUCTIVE_MACHINE:
+  name: 'מכונה אינדוקטיבית'
+  type:
+  - '&7&oרכיבים מתקדמים'
+SUPREME_INDUCTOR_MACHINE:
+  name: 'מכונת משרן'
+  type:
+  - '&7&oרכיבים מתקדמים'
+SUPREME_IRIDIUM_PLATE:
+  name: 'לוחית אירידיום'
+  type:
+  - '&7&oרכיבים'
+SUPREME_IRON_QUARRY:
+  name: 'מכרה ברזל'
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oמכונה'
+SUPREME_LEGGINGS_EPIC:
+  description:
+  - '&f&lמכנסיים אפיים מתורניום'
+  name: 'מכנסיים אפיים'
+  type:
+  - '&7&oשריון'
+SUPREME_LEGGINGS_LEGENDARY:
+  description:
+  - '&f&lמכנסיים אגדיים מתורניום'
+  name: 'מכנסיים אגדיים'
+  type:
+  - '&7&oשריון'
+SUPREME_LEGGINGS_MAGIC:
+  description:
+  - '&f&lמכנסיים קסומים מתורניום'
+  name: 'מכנסיים קסומים'
+  type:
+  - '&7&oשריון'
+SUPREME_LEGGINGS_RARE:
+  description:
+  - '&f&lמכנסיים נדירים מתורניום'
+  name: 'מכנסיים נדירים'
+  type:
+  - '&7&oשריון'
+SUPREME_LEGGINGS_SUPREME:
+  description:
+  - '&f&lמכנסיים עילאיים מתורניום'
+  name: 'מכנסיים עילאיים'
+  type:
+  - '&7&oשריון'
+SUPREME_LEGGINGS_THORNIUM:
+  description:
+  - '&f&lמכנסיים מתורניום'
+  name: 'מכנסי תורניום'
+  type:
+  - '&7&oשריון'
+SUPREME_LUMIUM_GENERATOR:
+  name: 'גנרטור לומיום'
+  stats:
+  - '&6גנרטור מתקדם'
+  type:
+  - '&7&oמכונה'
+SUPREME_LUX_GENERATOR:
+  name: 'גנרטור לוקס'
+  stats:
+  - '&6גנרטור מתקדם'
+  type:
+  - '&7&oמכונה'
+SUPREME_MAGIC_ALTAR_I:
+  description:
+  - '&fיצירת רונות ופריטים קסומים'
+  name: 'מזבח קסם'
+  stats:
+  - '&6מכונה מתקדמת'
+  - '&8⇨ &b⚡ &7מהירות: &b1.0x'
+  type:
+  - '&7&oמכונה'
+SUPREME_MAGIC_ALTAR_II:
+  description:
+  - '&fיצירה מתקדמת של רונות ופריטים קסומים'
+  name: 'מזבח קסם II'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b5.0x'
+  type:
+  - '&7&oמכונה'
+SUPREME_MAGIC_ALTAR_III:
+  description:
+  - '&fיצירה מתקדמת של רונות ופריטים קסומים'
+  name: 'מזבח קסם III'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b15.0x'
+  type:
+  - '&7&oמכונה'
+SUPREME_MAIN_ITEM:
+  name: "Supreme"
+  type:
+  - '&7&oשונות'
+SUPREME_MANGANESE_PLATE:
+  name: 'לוחית מנגן'
+  type:
+  - '&7&oרכיבים'
+SUPREME_MOB_COLLECTOR_MACHINE_I:
+  description:
+  - '&fהמכונה הזו מאפשרת לך לאסוף '
+  - '&fפריטים מיצורים בסביבה. (4 בלוק)'
+  name: 'אוסף יצורים'
+  stats:
+  - '&6מכונה מתקדמת'
+  - '&8⇨ &b⚡ &7מהירות: &b1.0x'
+  - '&8⇨ &e⚡ &7מאגר 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oמכונה'
+SUPREME_MOB_COLLECTOR_MACHINE_II:
+  description:
+  - '&fהמכונה הזו מאפשרת לך לאסוף'
+  - '&f פריטים מיצורים בסביבה. (8 בלוק)'
+  name: 'אוסף יצורים II'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b5.0x'
+  - '&8⇨ &e⚡ &7מאגר 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oמכונה'
+SUPREME_MOB_COLLECTOR_MACHINE_III:
+  description:
+  - '&fהמכונה הזו מאפשרת לך לאסוף'
+  - '&f פריטים מיצורים בסביבה. (16 בלוק)'
+  name: 'אוסף יצורים III'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b15.0x'
+  - '&8⇨ &e⚡ &7מאגר 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oמכונה'
+SUPREME_MOB_COLLECTOR_TOOL_I:
+  name: "אוסף מובטק I (כלי)"
+  stats:
+  - '&8⇨ &e⚡ &750 J לשימוש'
+  type:
+  - '&7&oכלים'
+SUPREME_MOB_COLLECTOR_TOOL_II:
+  name: "אוסף מובטק II (כלי)"
+  stats:
+  - '&8⇨ &e⚡ &750 J לשימוש'
+  type:
+  - '&7&oכלים'
+SUPREME_MOB_COLLECTOR_TOOL_III:
+  name: "אוסף מובטק III (כלי)"
+  stats:
+  - '&8⇨ &e⚡ &750 J לשימוש'
+  type:
+  - '&7&oכלים'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_II:
+  description:
+  - '&fהמכונה הזו מאפשרת לך לאסוף '
+  - '&fראשי מובטק מיצורים בסביבה. (6 בלוק)'
+  name: 'אוסף מובטק II'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b1.0x'
+  - '&8⇨ &e⚡ &7מאגר 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oמכונה'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_III:
+  description:
+  - '&fהמכונה הזו מאפשרת לך לאסוף '
+  - '&fראשי מובטק מיצורים בסביבה. (9 בלוק)'
+  name: 'אוסף מובטק III'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b1.0x'
+  - '&8⇨ &e⚡ &7מאגר 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oמכונה'
+SUPREME_MULTIBLOCK_CORE:
+  description:
+  - '&7&oכאן אפשר ליצור ליבות!'
+  - '&aמכונת רב-בלוק'
+  name: 'מייצר ליבות'
+  type:
+  - '&7&oמכונה'
+SUPREME_MULTIBLOCK_GEAR:
+  description:
+  - '&7&oכאן אפשר ליצור נשקים, שריון וכלים!'
+  - '&aמכונת רב-בלוק'
+  name: 'מייצר ציוד'
+  type:
+  - '&7&oמכונה'
+SUPREME_MULTIBLOCK_MAGICAL:
+  description:
+  - '&7&oכאן אפשר ליצור פריטים קסומים!'
+  - '&aמכונת רב-בלוק'
+  name: 'מייצר קסום'
+  type:
+  - '&7&oמכונה'
+SUPREME_PETRIFIER_MACHINE:
+  name: 'מכונת התאבנות'
+  type:
+  - '&7&oרכיבים מתקדמים'
+SUPREME_PICKAXE_EPIC:
+  description:
+  - '&f&lמכוש אפי מתורניום'
+  name: 'מכוש אפי'
+  type:
+  - '&7&oכלים'
+SUPREME_PICKAXE_LEGENDARY:
+  description:
+  - '&f&lמכוש אגדי מתורניום'
+  name: 'מכוש אגדי'
+  type:
+  - '&7&oכלים'
+SUPREME_PICKAXE_MAGIC:
+  description:
+  - '&f&lמכוש קסום מתורניום'
+  name: 'מכוש קסום'
+  type:
+  - '&7&oכלים'
+SUPREME_PICKAXE_RARE:
+  description:
+  - '&f&lמכוש נדיר מתורניום'
+  name: 'מכוש נדיר'
+  type:
+  - '&7&oכלים'
+SUPREME_PICKAXE_SUPREME:
+  description:
+  - '&f&lמכוש עילאי מתורניום'
+  name: 'מכוש עילאי'
+  type:
+  - '&7&oכלים'
+SUPREME_PICKAXE_THORNIUM:
+  description:
+  - '&f&lמכוש מתורניום'
+  name: 'מכוש תורניום'
+  type:
+  - '&7&oכלים'
+SUPREME_PLATINUM_PLATE:
+  name: 'לוחית פלטינה'
+  type:
+  - '&7&oרכיבים'
+SUPREME_RUSTLESS_MACHINE:
+  name: 'מכונה חסינת חלודה'
+  type:
+  - '&7&oרכיבים מתקדמים'
+SUPREME_SHIELD_EPIC:
+  description:
+  - '&f&lמגן אפי מתורניום'
+  name: 'מגן אפי'
+  type:
+  - '&7&oנשקים'
+SUPREME_SHIELD_LEGENDARY:
+  description:
+  - '&f&lמגן אגדי מתורניום'
+  name: 'מגן אגדי'
+  type:
+  - '&7&oנשקים'
+SUPREME_SHIELD_MAGIC:
+  description:
+  - '&f&lמגן קסום מתורניום'
+  name: 'מגן קסום'
+  type:
+  - '&7&oנשקים'
+SUPREME_SHIELD_RARE:
+  description:
+  - '&f&lמגן נדיר מתורניום'
+  name: 'מגן נדיר'
+  type:
+  - '&7&oנשקים'
+SUPREME_SHIELD_SUPREME:
+  description:
+  - '&f&lמגן עילאי מתורניום'
+  name: 'מגן עילאי'
+  type:
+  - '&7&oנשקים'
+SUPREME_SHIELD_THORNIUM:
+  description:
+  - '&f&lמגן מתורניום'
+  name: 'מגן תורניום'
+  type:
+  - '&7&oנשקים'
+SUPREME_SHOVEL_EPIC:
+  description:
+  - '&f&lאת חפירה אפית מתורניום'
+  name: 'את חפירה אפית'
+  type:
+  - '&7&oכלים'
+SUPREME_SHOVEL_LEGENDARY:
+  description:
+  - '&f&lאת חפירה אגדית מתורניום'
+  name: 'את חפירה אגדית'
+  type:
+  - '&7&oכלים'
+SUPREME_SHOVEL_MAGIC:
+  description:
+  - '&f&lאת חפירה קסומה מתורניום'
+  name: 'את חפירה קסומה'
+  type:
+  - '&7&oכלים'
+SUPREME_SHOVEL_RARE:
+  description:
+  - '&f&lאת חפירה נדירה מתורניום'
+  name: 'את חפירה נדירה'
+  type:
+  - '&7&oכלים'
+SUPREME_SHOVEL_SUPREME:
+  description:
+  - '&f&lאת חפירה עילאית מתורניום'
+  name: 'את חפירה עילאית'
+  type:
+  - '&7&oכלים'
+SUPREME_SHOVEL_THORNIUM:
+  description:
+  - '&f&lאת חפירה מתורניום'
+  name: 'את חפירה תורניום'
+  type:
+  - '&7&oכלים'
+SUPREME_STAINLESS_MACHINE:
+  name: 'מכונת אל-חלד'
+  type:
+  - '&7&oרכיבים מתקדמים'
+SUPREME_STONE_QUARRY:
+  name: 'מכרה אבן'
+  stats:
+  - '&aמכונה בינונית'
+  type:
+  - '&7&oמכונה'
+SUPREME_SUPREME:
+  description:
+  - '&7העילאי'
+  name: 'עילאי'
+  type:
+  - '&7&oרכיבי סוף המשחק'
+SUPREME_SUPREME_CAPACITOR:
+  name: 'קבל עילאי'
+  stats:
+  - '&4קבל סוף-משחק'
+  - '&8⇨ &e⚡ &7קיבולת J אינסופית'
+  type:
+  - '&7&oמכונה'
+SUPREME_SUPREME_GENERATOR:
+  name: 'גנרטור עילאי'
+  stats:
+  - '&4גנרטור סוף-משחק'
+  type:
+  - '&7&oמכונה'
+SUPREME_SUPREME_NUGGET:
+  description:
+  - '&7ממכרה הנאגטים העילאי'
+  name: 'נאגט עילאי'
+  type:
+  - '&7&oרכיבי סוף המשחק'
+SUPREME_SUPREME_NUGGETS_QUARRY:
+  name: 'מכרה נאגטים עילאיים'
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oמכונה'
+SUPREME_SWORD_EPIC:
+  description:
+  - '&f&lחרב אפית מתורניום'
+  name: 'חרב אפית'
+  type:
+  - '&7&oנשקים'
+SUPREME_SWORD_LEGENDARY:
+  description:
+  - '&f&lחרב אגדית מתורניום'
+  name: 'חרב אגדית'
+  type:
+  - '&7&oנשקים'
+SUPREME_SWORD_MAGIC:
+  description:
+  - '&f&lחרב קסומה מתורניום'
+  name: 'חרב קסומה'
+  type:
+  - '&7&oנשקים'
+SUPREME_SWORD_RARE:
+  description:
+  - '&f&lחרב נדירה מתורניום'
+  name: 'חרב נדירה'
+  type:
+  - '&7&oנשקים'
+SUPREME_SWORD_SUPREME:
+  description:
+  - '&f&lחרב עילאית מתורניום'
+  name: 'חרב עילאית'
+  type:
+  - '&7&oנשקים'
+SUPREME_SWORD_THORNIUM:
+  description:
+  - '&f&lחרב מתורניום'
+  name: 'חרב תורניום'
+  type:
+  - '&7&oנשקים'
+SUPREME_SYNTHETIC_AMETHYST:
+  name: 'אמטיסט סינתטי'
+  type:
+  - '&7&oרכיבים'
+SUPREME_SYNTHETIC_RUBY:
+  name: 'אודם סינתטי'
+  type:
+  - '&7&oרכיבים'
+SUPREME_TECH_GENERATOR:
+  description:
+  - '&fבעזרת כוח ודבורים/גולם/זומבי, '
+  - '&fמייצר חומרים לאט.'
+  name: 'מפיק טכנולוגי'
+  stats:
+  - '&4מכונת סוף-משחק'
+  type:
+  - '&7&oמכונה'
+SUPREME_TECH_MUTATION_I:
+  description:
+  - '&fהשתמש במפיק המוטציות '
+  - '&fכדי להתקדם לרמות גבוהות יותר'
+  name: 'מוטציה טכנולוגית'
+  stats:
+  - '&4מכונת סוף-משחק'
+  type:
+  - '&7&oמכונה'
+SUPREME_TECH_MUTATION_II:
+  description:
+  - '&fהשתמש במפיק המוטציות '
+  - '&fכדי להתקדם לרמות גבוהות יותר'
+  - '&fמקדם הסיכוי מוכפל ב-2x'
+  name: 'מוטציה טכנולוגית II'
+  stats:
+  - '&4מכונת סוף-משחק'
+  type:
+  - '&7&oמכונה'
+SUPREME_TECH_MUTATION_III:
+  description:
+  - '&fהשתמש במפיק המוטציות '
+  - '&fכדי להתקדם לרמות גבוהות יותר'
+  - '&fמקדם הסיכוי מוכפל ב-4x'
+  name: 'מוטציה טכנולוגית III'
+  stats:
+  - '&4מכונת סוף-משחק'
+  type:
+  - '&7&oמכונה'
+SUPREME_TECH_ROBOTIC:
+  description:
+  - '&fהשתמש ברובוטים ברמת מתחיל '
+  - '&fכדי להתקדם לרמות גבוהות יותר'
+  - '&fצריך 64x לשדרוג'
+  name: 'רובוטיקה טכנולוגית'
+  stats:
+  - '&4מכונת סוף-משחק'
+  type:
+  - '&7&oמכונה'
+SUPREME_TECH_ROBOTIC_II:
+  description:
+  - '&fהשתמש ברובוטים ברמת מתחיל '
+  - '&fכדי להתקדם לרמות גבוהות יותר'
+  - '&fצריך 32x לשדרוג'
+  name: 'רובוטיקה טכנולוגית II'
+  stats:
+  - '&4מכונת סוף-משחק'
+  type:
+  - '&7&oמכונה'
+SUPREME_TECH_ROBOTIC_III:
+  description:
+  - '&fהשתמש ברובוטים ברמת מתחיל '
+  - '&fכדי להתקדם לרמות גבוהות יותר'
+  - '&fצריך 16x לשדרוג'
+  name: 'רובוטיקה טכנולוגית III'
+  stats:
+  - '&4מכונת סוף-משחק'
+  type:
+  - '&7&oמכונה'
+SUPREME_THORNERITE:
+  name: 'תורנריט'
+  type:
+  - '&7&oרכיבי סוף המשחק'
+SUPREME_THORNIUM_BIT:
+  description:
+  - '&7ממכרה התורניום'
+  name: 'שבב תורניום'
+  type:
+  - '&7&oרכיבי סוף המשחק'
+SUPREME_THORNIUM_BIT_SYNTHETIC:
+  description:
+  - '&7משבב התורניום'
+  name: 'שבב תורניום סינתטי'
+  type:
+  - '&7&oרכיבי סוף המשחק'
+SUPREME_THORNIUM_CAPACITOR:
+  name: 'קבל תורניום'
+  stats:
+  - '&4קבל סוף-משחק'
+  - '&8⇨ &e⚡ &7קיבולת 100,000,000.00 J'
+  type:
+  - '&7&oמכונה'
+SUPREME_THORNIUM_CARBONADO:
+  description:
+  - '&7ממטיל התורניום'
+  name: 'קרבונדו תורניום'
+  type:
+  - '&7&oרכיבי סוף המשחק'
+SUPREME_THORNIUM_DUST:
+  description:
+  - '&7משבב התורניום'
+  name: 'אבקת תורניום'
+  type:
+  - '&7&oרכיבי סוף המשחק'
+SUPREME_THORNIUM_DUST_SYNTHETIC:
+  description:
+  - '&7מאבקת התורניום'
+  name: 'אבקת תורניום סינתטית'
+  type:
+  - '&7&oרכיבי סוף המשחק'
+SUPREME_THORNIUM_ENERGIZED:
+  description:
+  - '&7ממטיל התורניום'
+  name: 'תורניום טעון'
+  type:
+  - '&7&oרכיבי סוף המשחק'
+SUPREME_THORNIUM_GENERATOR:
+  name: 'גנרטור תורניום'
+  stats:
+  - '&4גנרטור סוף-משחק'
+  type:
+  - '&7&oמכונה'
+SUPREME_THORNIUM_INGOT:
+  description:
+  - '&7מאבקת התורניום'
+  name: 'מטיל תורניום'
+  type:
+  - '&7&oרכיבי סוף המשחק'
+SUPREME_THORNIUM_INGOT_SYNTHETIC:
+  description:
+  - '&7ממטיל התורניום'
+  name: 'מטיל תורניום סינתטי'
+  type:
+  - '&7&oרכיבי סוף המשחק'
+SUPREME_THORNIUM_QUARRY:
+  name: 'מכרה תורניום'
+  stats:
+  - '&6מכונה מתקדמת'
+  type:
+  - '&7&oמכונה'
+SUPREME_TITANIUM_AXE:
+  description:
+  - '&f&lגרזן מטיטניום'
+  name: 'גרזן טיטניום'
+  type:
+  - '&7&oכלים'
+SUPREME_TITANIUM_BOOTS:
+  description:
+  - '&f&lמגפיים מטיטניום'
+  name: 'מגפי טיטניום'
+  type:
+  - '&7&oשריון'
+SUPREME_TITANIUM_CAPACITOR:
+  name: 'קבל טיטניום'
+  stats:
+  - '&6קבל מתקדם'
+  - '&8⇨ &e⚡ &7קיבולת 4,000,000.00 J'
+  type:
+  - '&7&oמכונה'
+SUPREME_TITANIUM_CHESTPLATE:
+  description:
+  - '&f&lשריון חזה מטיטניום'
+  name: 'שריון חזה טיטניום'
+  type:
+  - '&7&oשריון'
+SUPREME_TITANIUM_HELMET:
+  description:
+  - '&f&lקסדה מטיטניום'
+  name: 'קסדת טיטניום'
+  type:
+  - '&7&oשריון'
+SUPREME_TITANIUM_LEGGINGS:
+  description:
+  - '&f&lמכנסיים מטיטניום'
+  name: 'מכנסי טיטניום'
+  type:
+  - '&7&oשריון'
+SUPREME_TITANIUM_PICKAXE:
+  description:
+  - '&f&lמכוש מטיטניום'
+  name: 'מכוש טיטניום'
+  type:
+  - '&7&oכלים'
+SUPREME_TITANIUM_PLATE:
+  name: 'לוחית טיטניום'
+  type:
+  - '&7&oרכיבים'
+SUPREME_TITANIUM_SHOVEL:
+  description:
+  - '&f&lאת חפירה מטיטניום'
+  name: 'את חפירה טיטניום'
+  type:
+  - '&7&oכלים'
+SUPREME_TITANIUM_SWORD:
+  description:
+  - '&f&lחרב מטיטניום'
+  name: 'חרב טיטניום'
+  type:
+  - '&7&oנשקים'
+SUPREME_VENTUS_GENERATOR:
+  name: 'גנרטור ונטוס'
+  stats:
+  - '&eגנרטור בסיסי'
+  type:
+  - '&7&oמכונה'
+SUPREME_VIRTUAL_AQUARIUM_I:
+  description:
+  - '&fהמכונה הזו מאפשרת לך לאסוף '
+  - '&f פריטים הנאספים בים.'
+  name: 'אקווריום וירטואלי'
+  stats:
+  - '&6מכונה מתקדמת'
+  - '&8⇨ &b⚡ &7מהירות: &b1.0x'
+  - '&8⇨ &e⚡ &7מאגר 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oמכונה'
+SUPREME_VIRTUAL_AQUARIUM_II:
+  description:
+  - '&fהמכונה הזו מאפשרת לך לאסוף'
+  - '&f פריטים הנאספים בים.'
+  name: 'אקווריום וירטואלי II'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b5.0x'
+  - '&8⇨ &e⚡ &7מאגר 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oמכונה'
+SUPREME_VIRTUAL_AQUARIUM_III:
+  description:
+  - '&fהמכונה הזו מאפשרת לך לאסוף'
+  - '&f פריטים הנאספים בים.'
+  name: 'אקווריום וירטואלי III'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b15.0x'
+  - '&8⇨ &e⚡ &7מאגר 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oמכונה'
+SUPREME_VIRTUAL_GARDEN_I:
+  description:
+  - '&fהמכונה הזו מאפשרת לך'
+  - '&fלגדל כמה משאבים.'
+  name: 'גן וירטואלי'
+  stats:
+  - '&6מכונה מתקדמת'
+  - '&8⇨ &b⚡ &7מהירות: &b1.0x'
+  - '&8⇨ &e⚡ &7מאגר 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oמכונה'
+SUPREME_VIRTUAL_GARDEN_II:
+  description:
+  - '&fהמכונה הזו מאפשרת לך'
+  - '&fלגדל כמה משאבים.'
+  name: 'גן וירטואלי II'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b5.0x'
+  - '&8⇨ &e⚡ &7מאגר 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oמכונה'
+SUPREME_VIRTUAL_GARDEN_III:
+  description:
+  - '&fהמכונה הזו מאפשרת לך'
+  - '&fלגדל כמה משאבים.'
+  name: 'גן וירטואלי III'
+  stats:
+  - '&4מכונת סוף-משחק'
+  - '&8⇨ &b⚡ &7מהירות: &b15.0x'
+  - '&8⇨ &e⚡ &7מאגר 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oמכונה'
+SUPREME_ZIRCONIUM_PLATE:
+  name: 'לוחית זירקוניום'
+  type:
+  - '&7&oרכיבים'

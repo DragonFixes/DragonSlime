@@ -1,0 +1,2352 @@
+MOB_TECH_COLLECTOR_MACHINE:
+  description:
+  - '&fCette machine vous permet de collecter '
+  - '&fles têtes MobTech des créatures à proximité. (3 blocs)'
+  name: 'Collecteur MobTech I'
+  type:
+  - '&7&oMachine'
+SUPREME_ADAMANTIUM_AXE:
+  description:
+  - '&f&lUne hache en Adamantium'
+  name: 'Hache en Adamantium'
+  type:
+  - '&7&oOutils'
+SUPREME_ADAMANTIUM_BOOTS:
+  description:
+  - '&f&lDes bottes en Adamantium'
+  name: 'Bottes en Adamantium'
+  type:
+  - '&7&oArmure'
+SUPREME_ADAMANTIUM_CAPACITOR:
+  name: 'Condensateur en Adamantium'
+  stats:
+  - '&6Condensateur avancé'
+  - '&8⇨ &e⚡ &7Capacité de 16,000,000.00 J'
+  type:
+  - '&7&oMachine'
+SUPREME_ADAMANTIUM_CHESTPLATE:
+  description:
+  - '&f&lUn plastron en Adamantium'
+  name: 'Plastron en Adamantium'
+  type:
+  - '&7&oArmure'
+SUPREME_ADAMANTIUM_HELMET:
+  description:
+  - '&f&lUn casque en Adamantium'
+  name: 'Casque en Adamantium'
+  type:
+  - '&7&oArmure'
+SUPREME_ADAMANTIUM_LEGGINGS:
+  description:
+  - '&f&lDes jambières en Adamantium'
+  name: 'Jambières en Adamantium'
+  type:
+  - '&7&oArmure'
+SUPREME_ADAMANTIUM_PICKAXE:
+  description:
+  - '&f&lUne pioche en Adamantium'
+  name: 'Pioche en Adamantium'
+  type:
+  - '&7&oOutils'
+SUPREME_ADAMANTIUM_PLATE:
+  name: 'Plaque d''Adamantium'
+  type:
+  - '&7&oComposants'
+SUPREME_ADAMANTIUM_SHOVEL:
+  description:
+  - '&f&lUne pelle en Adamantium'
+  name: 'Pelle en Adamantium'
+  type:
+  - '&7&oOutils'
+SUPREME_ADAMANTIUM_SWORD:
+  description:
+  - '&f&lUne épée en Adamantium'
+  name: 'Épée en Adamantium'
+  type:
+  - '&7&oArmes'
+SUPREME_ALLOY_ADAMANTIUM:
+  name: 'Alliage d''Adamantium'
+  type:
+  - '&7&oComposants'
+SUPREME_ALLOY_AURUM:
+  name: 'Alliage d''Aurum'
+  type:
+  - '&7&oComposants'
+SUPREME_ALLOY_IRIDIUM:
+  name: 'Alliage d''iridium'
+  type:
+  - '&7&oComposants'
+SUPREME_ALLOY_MANGANESE:
+  name: 'Alliage de manganèse'
+  type:
+  - '&7&oComposants'
+SUPREME_ALLOY_PLATINUM:
+  name: 'Alliage de platine'
+  type:
+  - '&7&oComposants'
+SUPREME_ALLOY_TITANIUM:
+  name: 'Alliage de titane'
+  type:
+  - '&7&oComposants'
+SUPREME_ALLOY_ZIRCONIUM:
+  name: 'Alliage de zirconium'
+  type:
+  - '&7&oComposants'
+SUPREME_AQUA_GENERATOR:
+  name: 'Générateur Aqua'
+  stats:
+  - '&6Générateur avancé'
+  type:
+  - '&7&oMachine'
+SUPREME_ATTRIBUTE_BOMB:
+  description:
+  - '&7Un super attribut Bombe aux effets spéciaux'
+  name: 'Attribut Bombe'
+  type:
+  - '&7&oComposants magiques'
+SUPREME_ATTRIBUTE_FORTUNE:
+  description:
+  - '&7Un super attribut Fortune aux effets spéciaux'
+  name: 'Attribut Fortune'
+  type:
+  - '&7&oComposants magiques'
+SUPREME_ATTRIBUTE_IMPETUS:
+  description:
+  - '&7Un super attribut Impetus aux effets spéciaux'
+  name: 'Attribut Impetus'
+  type:
+  - '&7&oComposants magiques'
+SUPREME_ATTRIBUTE_MAGIC:
+  description:
+  - '&7Un super attribut Magie aux effets spéciaux'
+  name: 'Attribut Magie'
+  type:
+  - '&7&oComposants magiques'
+SUPREME_AURUM_AXE:
+  description:
+  - '&f&lUne hache en Aurum'
+  name: 'Hache en Aurum'
+  type:
+  - '&7&oOutils'
+SUPREME_AURUM_BOOTS:
+  description:
+  - '&f&lDes bottes en Aurum'
+  name: 'Bottes en Aurum'
+  type:
+  - '&7&oArmure'
+SUPREME_AURUM_CAPACITOR:
+  name: 'Condensateur en Aurum'
+  stats:
+  - '&6Condensateur avancé'
+  - '&8⇨ &e⚡ &7Capacité de 1,000,000.00 J'
+  type:
+  - '&7&oMachine'
+SUPREME_AURUM_CHESTPLATE:
+  description:
+  - '&f&lUn plastron en Aurum'
+  name: 'Plastron en Aurum'
+  type:
+  - '&7&oArmure'
+SUPREME_AURUM_HELMET:
+  description:
+  - '&f&lUn casque en Aurum'
+  name: 'Casque en Aurum'
+  type:
+  - '&7&oArmure'
+SUPREME_AURUM_LEGGINGS:
+  description:
+  - '&f&lDes jambières en Aurum'
+  name: 'Jambières en Aurum'
+  type:
+  - '&7&oArmure'
+SUPREME_AURUM_PICKAXE:
+  description:
+  - '&f&lUne pioche en Aurum'
+  name: 'Pioche en Aurum'
+  type:
+  - '&7&oOutils'
+SUPREME_AURUM_PLATE:
+  name: 'Plaque d''Aurum'
+  type:
+  - '&7&oComposants'
+SUPREME_AURUM_SHOVEL:
+  description:
+  - '&f&lUne pelle en Aurum'
+  name: 'Pelle en Aurum'
+  type:
+  - '&7&oOutils'
+SUPREME_AURUM_SWORD:
+  description:
+  - '&f&lUne épée en Aurum'
+  name: 'Épée en Aurum'
+  type:
+  - '&7&oArmes'
+SUPREME_AXE_EPIC:
+  description:
+  - '&f&lUne hache épique en Thornium'
+  name: 'Hache épique'
+  type:
+  - '&7&oOutils'
+SUPREME_AXE_LEGENDARY:
+  description:
+  - '&f&lUne hache légendaire en Thornium'
+  name: 'Hache légendaire'
+  type:
+  - '&7&oOutils'
+SUPREME_AXE_MAGIC:
+  description:
+  - '&f&lUne hache magique en Thornium'
+  name: 'Hache magique'
+  type:
+  - '&7&oOutils'
+SUPREME_AXE_RARE:
+  description:
+  - '&f&lUne hache rare en Thornium'
+  name: 'Hache rare'
+  type:
+  - '&7&oOutils'
+SUPREME_AXE_SUPREME:
+  description:
+  - '&f&lUne hache suprême en Thornium'
+  name: 'Hache suprême'
+  type:
+  - '&7&oOutils'
+SUPREME_AXE_THORNIUM:
+  description:
+  - '&f&lUne hache en Thornium'
+  name: 'Hache en Thornium'
+  type:
+  - '&7&oOutils'
+SUPREME_BASIC_AQUA_GENERATOR:
+  name: 'Générateur Aqua basique'
+  stats:
+  - '&eGénérateur basique'
+  type:
+  - '&7&oMachine'
+SUPREME_BASIC_IGNIS_GENERATOR:
+  name: 'Générateur Ignis basique'
+  stats:
+  - '&eGénérateur basique'
+  type:
+  - '&7&oMachine'
+SUPREME_BASIC_LUMIUM_GENERATOR:
+  name: 'Générateur Lumium basique'
+  stats:
+  - '&6Générateur avancé'
+  type:
+  - '&7&oMachine'
+SUPREME_BASIC_LUX_GENERATOR:
+  name: 'Générateur Lux basique'
+  stats:
+  - '&eGénérateur basique'
+  type:
+  - '&7&oMachine'
+SUPREME_BASIC_VENTUS_GENERATOR:
+  name: 'Générateur Ventus basique'
+  stats:
+  - '&eGénérateur basique'
+  type:
+  - '&7&oMachine'
+SUPREME_BLEND_MACHINE:
+  name: 'Machine de mélange'
+  type:
+  - '&7&oComposants avancés'
+SUPREME_BOOTS_EPIC:
+  description:
+  - '&f&lDes bottes épiques en Thornium'
+  name: 'Bottes épiques'
+  type:
+  - '&7&oArmure'
+SUPREME_BOOTS_LEGENDARY:
+  description:
+  - '&f&lDes bottes légendaires en Thornium'
+  name: 'Bottes légendaires'
+  type:
+  - '&7&oArmure'
+SUPREME_BOOTS_MAGIC:
+  description:
+  - '&f&lDes bottes magiques en Thornium'
+  name: 'Bottes magiques'
+  type:
+  - '&7&oArmure'
+SUPREME_BOOTS_RARE:
+  description:
+  - '&f&lDes bottes rares en Thornium'
+  name: 'Bottes rares'
+  type:
+  - '&7&oArmure'
+SUPREME_BOOTS_SUPREME:
+  description:
+  - '&f&lDes bottes suprêmes en Thornium'
+  name: 'Bottes suprêmes'
+  type:
+  - '&7&oArmure'
+SUPREME_BOOTS_THORNIUM:
+  description:
+  - '&f&lDes bottes en Thornium'
+  name: 'Bottes en Thornium'
+  type:
+  - '&7&oArmure'
+SUPREME_BOW_EPIC:
+  description:
+  - '&f&lUn arc épique en Thornium'
+  name: 'Arc épique'
+  type:
+  - '&7&oArmes'
+SUPREME_BOW_LEGENDARY:
+  description:
+  - '&f&lUn arc légendaire en Thornium'
+  name: 'Arc légendaire'
+  type:
+  - '&7&oArmes'
+SUPREME_BOW_MAGIC:
+  description:
+  - '&f&lUn arc magique en Thornium'
+  name: 'Arc magique'
+  type:
+  - '&7&oArmes'
+SUPREME_BOW_RARE:
+  description:
+  - '&f&lUn arc rare en Thornium'
+  name: 'Arc rare'
+  type:
+  - '&7&oArmes'
+SUPREME_BOW_SUPREME:
+  description:
+  - '&f&lUn arc suprême en Thornium'
+  name: 'Arc suprême'
+  type:
+  - '&7&oArmes'
+SUPREME_BOW_THORNIUM:
+  description:
+  - '&f&lUn arc en Thornium'
+  name: 'Arc en Thornium'
+  type:
+  - '&7&oArmes'
+SUPREME_CARD_ALUMINUM_BRASS:
+  description:
+  - '&fChange la production en Lingot de laiton d''aluminium'
+  name: "Carte machine (Lingot de laiton d'aluminium)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_ALUMINUM_BRONZE:
+  description:
+  - '&fChange la production en Lingot de bronze d''aluminium'
+  name: "Carte machine (Lingot de bronze d'aluminium)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_ALUMINUM_DUST:
+  description:
+  - '&fChange la production en Poudre d''aluminium'
+  name: "Carte machine (Poudre d'aluminium)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_AMETHYST:
+  description:
+  - '&fChange la production en Améthyste'
+  name: "Carte machine (Améthyste)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_ANDESITE:
+  description:
+  - '&fChange la production en Andésite'
+  name: "Carte machine (Andésite)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_APPLE:
+  description:
+  - '&fChange la production en Pomme'
+  name: "Carte machine (Pomme)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_BATTERY:
+  description:
+  - '&fChange la production en Batterie'
+  name: "Carte machine (Batterie)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_BILLON:
+  description:
+  - '&fChange la production en Lingot de billon'
+  name: "Carte machine (Lingot de billon)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_BLAZE_ROD:
+  description:
+  - '&fChange la production en Bâton de blaze'
+  name: "Carte machine (Bâton de blaze)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_BRASS:
+  description:
+  - '&fChange la production en Lingot de laiton'
+  name: "Carte machine (Lingot de laiton)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_BRONZE:
+  description:
+  - '&fChange la production en Lingot de bronze'
+  name: "Carte machine (Lingot de bronze)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_CARBON:
+  description:
+  - '&fChange la production en Carbone'
+  name: "Carte machine (Carbone)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_CARBONADO:
+  description:
+  - '&fChange la production en Carbonado'
+  name: "Carte machine (Carbonado)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_CARBON_PRESS:
+  description:
+  - '&fChange la production en Carbone compressé'
+  name: "Carte machine (Carbone compressé)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_CLAY:
+  description:
+  - '&fChange la production en Argile'
+  name: "Carte machine (Argile)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_COAL:
+  description:
+  - '&fChange la production en Charbon'
+  name: "Carte machine (Charbon)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_COBALT:
+  description:
+  - '&fChange la production en Cobalt'
+  name: "Carte machine (Cobalt)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_COPPER:
+  description:
+  - '&fChange la production en Cuivre'
+  name: "Carte machine (Cuivre)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_COPPER_DUST:
+  description:
+  - '&fChange la production en Poudre de cuivre'
+  name: "Carte machine (Poudre de cuivre)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_CORINTHIAN_BRONZE:
+  description:
+  - '&fChange la production en Lingot de bronze corinthien'
+  name: "Carte machine (Lingot de bronze corinthien)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_DAMASCUS:
+  description:
+  - '&fChange la production en Damas'
+  name: "Carte machine (Damas)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_DIAMOND:
+  description:
+  - '&fChange la production en Diamant'
+  name: "Carte machine (Diamant)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_DIORITE:
+  description:
+  - '&fChange la production en Diorite'
+  name: "Carte machine (Diorite)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_DURALUMIN:
+  description:
+  - '&fChange la production en Lingot de duralumin'
+  name: "Carte machine (Lingot de duralumin)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_ELECTRIC_MOTOR:
+  description:
+  - '&fChange la production en Moteur électrique'
+  name: "Carte machine (Moteur électrique)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_ELECTRO_MAGNET:
+  description:
+  - '&fChange la production en Électroaimant'
+  name: "Carte machine (Électroaimant)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_EMERALD:
+  description:
+  - '&fChange la production en Émeraude'
+  name: "Carte machine (Émeraude)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_ENDSTONE:
+  description:
+  - '&fChange la production en Pierre de l''End'
+  name: "Carte machine (Pierre de l'End)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_FERROSILICON:
+  description:
+  - '&fChange la production en Ferrosilicium'
+  name: "Carte machine (Ferrosilicium)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_GLOW_INK_SAC:
+  description:
+  - '&fChange la production en Poche d''encre luminescente'
+  name: "Carte machine (Poche d'encre luminescente)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_GOLD:
+  description:
+  - '&fChange la production en Or'
+  name: "Carte machine (Or)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_GOLD24K:
+  description:
+  - '&fChange la production en Or 24k'
+  name: "Carte machine (Or 24k)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_GOLD_DUST:
+  description:
+  - '&fChange la production en Poudre d''or'
+  name: "Carte machine (Poudre d'or)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_GRANITE:
+  description:
+  - '&fChange la production en Granite'
+  name: "Carte machine (Granite)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_GRAVEL:
+  description:
+  - '&fChange la production en Gravier'
+  name: "Carte machine (Gravier)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_HARDENED_METAL:
+  description:
+  - '&fChange la production en Lingot de métal durci'
+  name: "Carte machine (Lingot de métal durci)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_HEATING_COIL:
+  description:
+  - '&fChange la production en Bobine chauffante'
+  name: "Carte machine (Bobine chauffante)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_HONEY_BOTTLE:
+  description:
+  - '&fChange la production en Bouteille de miel'
+  name: "Carte machine (Bouteille de miel)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_INK_SAC:
+  description:
+  - '&fChange la production en Poche d''encre'
+  name: "Carte machine (Poche d'encre)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_IRON:
+  description:
+  - '&fChange la production en Fer'
+  name: "Carte machine (Fer)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_IRON_DUST:
+  description:
+  - '&fChange la production en Poudre de fer'
+  name: "Carte machine (Poudre de fer)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_LAPIS:
+  description:
+  - '&fChange la production en Lapis'
+  name: "Carte machine (Lapis)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_LEAD_DUST:
+  description:
+  - '&fChange la production en Poudre de plomb'
+  name: "Carte machine (Poudre de plomb)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_MAGNESIUM_DUST:
+  description:
+  - '&fChange la production en Poudre de magnésium'
+  name: "Carte machine (Poudre de magnésium)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_MAGNET:
+  description:
+  - '&fChange la production en Aimant'
+  name: "Carte machine (Aimant)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_NETHERITE:
+  description:
+  - '&fChange la production en Netherite'
+  name: "Carte machine (Netherite)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_NETHER_STAR:
+  description:
+  - '&fChange la production en Étoile du Nether'
+  name: "Carte machine (Étoile du Nether)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_NICKEL:
+  description:
+  - '&fChange la production en Nickel'
+  name: "Carte machine (Nickel)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_PLASTIC_SHEET:
+  description:
+  - '&fChange la production en Feuille de plastique'
+  name: "Carte machine (Feuille de plastique)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_QUARTZ:
+  description:
+  - '&fChange la production en Quartz'
+  name: "Carte machine (Quartz)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_QUARTZ_BLOCK:
+  description:
+  - '&fChange la production en Bloc de quartz'
+  name: "Carte machine (Bloc de quartz)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_REDSTONE:
+  description:
+  - '&fChange la production en Redstone'
+  name: "Carte machine (Redstone)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_REDSTONE_ALLOY:
+  description:
+  - '&fChange la production en Alliage de redstone'
+  name: "Carte machine (Alliage de redstone)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_REINFORCED_ALLOY:
+  description:
+  - '&fChange la production en Lingot d''alliage renforcé'
+  name: "Carte machine (Lingot d'alliage renforcé)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_SAND:
+  description:
+  - '&fChange la production en Sable'
+  name: "Carte machine (Sable)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_SILICON:
+  description:
+  - '&fChange la production en Silicium'
+  name: "Carte machine (Silicium)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_SILVER_DUST:
+  description:
+  - '&fChange la production en Poudre d''argent'
+  name: "Carte machine (Poudre d'argent)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_SLIME_BALL:
+  description:
+  - '&fChange la production en Boule de slime'
+  name: "Carte machine (Boule de slime)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_SNOW:
+  description:
+  - '&fChange la production en Neige'
+  name: "Carte machine (Neige)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_SOLDER:
+  description:
+  - '&fChange la production en Lingot de soudure'
+  name: "Carte machine (Lingot de soudure)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_STEEL:
+  description:
+  - '&fChange la production en Acier'
+  name: "Carte machine (Acier)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_STONE:
+  description:
+  - '&fChange la production en Pierre'
+  name: "Carte machine (Pierre)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_SULFATE:
+  description:
+  - '&fChange la production en Sulfate'
+  name: "Carte machine (Sulfate)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_SYNTHETIC_DIAMOND:
+  description:
+  - '&fChange la production en Diamant synthétique'
+  name: "Carte machine (Diamant synthétique)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_SYNTHETIC_EMERALD:
+  description:
+  - '&fChange la production en Émeraude synthétique'
+  name: "Carte machine (Émeraude synthétique)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_SYNTHETIC_SAPPHIRE:
+  description:
+  - '&fChange la production en Saphir synthétique'
+  name: "Carte machine (Saphir synthétique)"
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_TIN_DUST:
+  description:
+  - '&fChange la production en Poudre d''étain'
+  name: "Carte machine (Poudre d'étain)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_WITHER_ROSE:
+  description:
+  - '&fChange la production en Rose du Wither'
+  name: "Carte machine (Rose du Wither)"
+  stats:
+  - '&eMachine basique'
+  type:
+  - '&7&oComposant'
+SUPREME_CARD_ZINC_DUST:
+  description:
+  - '&fChange la production en Poudre de zinc'
+  name: "Carte machine (Poudre de zinc)"
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oComposant'
+SUPREME_CARRIAGE_MACHINE:
+  name: 'Machine de transport'
+  type:
+  - '&7&oComposants avancés'
+SUPREME_CENTER_CARD_ADVANCED:
+  description:
+  - '&fComposant de machine pour produire des objets'
+  name: 'Composant avancé pour carte'
+  type:
+  - '&7&oComposant'
+SUPREME_CENTER_CARD_SIMPLE:
+  description:
+  - '&fComposant de machine pour produire des objets'
+  name: 'Composant basique pour carte'
+  type:
+  - '&7&oComposant'
+SUPREME_CENTER_CARD_ULTIMATE:
+  description:
+  - '&fComposant de machine pour produire des objets'
+  name: 'Composant ultime pour carte'
+  type:
+  - '&7&oComposant'
+SUPREME_CETRUS_AQUA:
+  description:
+  - '&7Un super sceptre Aqua'
+  name: 'Cetrus Aqua'
+  type:
+  - '&7&oComposants magiques'
+SUPREME_CETRUS_IGNIS:
+  description:
+  - '&7Un super sceptre Ignis'
+  name: 'Cetrus Ignis'
+  type:
+  - '&7&oComposants magiques'
+SUPREME_CETRUS_LUMIUM:
+  description:
+  - '&7Un super sceptre Lumium'
+  name: 'Cetrus Lumium'
+  type:
+  - '&7&oComposants magiques'
+SUPREME_CETRUS_LUX:
+  description:
+  - '&7Un super sceptre Lux'
+  name: 'Cetrus Lux'
+  type:
+  - '&7&oComposants magiques'
+SUPREME_CETRUS_VENTUS:
+  description:
+  - '&7Un super sceptre Ventus'
+  name: 'Cetrus Ventus'
+  type:
+  - '&7&oComposants magiques'
+SUPREME_CHECK_INVENTORY:
+  description:
+  - '&fVérifie si le coffre à proximité contient l''objet filtre'
+  - '&ftoutes les faces sont prises en compte (première trouvée)'
+  - '&fsi trouvé, ce bloc s''allume'
+  name: "Vérificateur d'inventaire"
+  stats:
+  - '&6Machine avancée'
+  - '&8⇨ &b⚡ &7Vitesse : &b1.0x'
+  type:
+  - '&7&oMachine'
+SUPREME_CHESTPLATE_EPIC:
+  description:
+  - '&f&lUn plastron épique en Thornium'
+  name: 'Plastron épique'
+  type:
+  - '&7&oArmure'
+SUPREME_CHESTPLATE_LEGENDARY:
+  description:
+  - '&f&lUn plastron légendaire en Thornium'
+  name: 'Plastron légendaire'
+  type:
+  - '&7&oArmure'
+SUPREME_CHESTPLATE_MAGIC:
+  description:
+  - '&f&lUn plastron magique en Thornium'
+  name: 'Plastron magique'
+  type:
+  - '&7&oArmure'
+SUPREME_CHESTPLATE_RARE:
+  description:
+  - '&f&lUn plastron rare en Thornium'
+  name: 'Plastron rare'
+  type:
+  - '&7&oArmure'
+SUPREME_CHESTPLATE_SUPREME:
+  description:
+  - '&f&lUn plastron suprême en Thornium'
+  name: 'Plastron suprême'
+  type:
+  - '&7&oArmure'
+SUPREME_CHESTPLATE_THORNIUM:
+  description:
+  - '&f&lUn plastron en Thornium'
+  name: 'Plastron en Thornium'
+  type:
+  - '&7&oArmure'
+SUPREME_COAL_QUARRY:
+  name: 'Carrière de charbon'
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oMachine'
+SUPREME_CONVEYANCE_MACHINE:
+  name: 'Machine de convoyage'
+  type:
+  - '&7&oComposants avancés'
+SUPREME_CORE_ACACIA_LOG:
+  description:
+  - '&7Un super acacia'
+  name: 'Bûche d''acacia suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_ANDESITE:
+  description:
+  - '&7Une super andésite'
+  name: 'Andésite suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_APPLE:
+  description:
+  - '&7Une super pomme'
+  name: 'Pomme suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_BEEF:
+  description:
+  - '&7Un super bœuf'
+  name: 'Bœuf suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_BEETROOT:
+  description:
+  - '&7Une super betterave'
+  name: 'Betterave suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_BIRCH_LOG:
+  description:
+  - '&7Un super bouleau'
+  name: 'Bûche de bouleau suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_BLACK:
+  description:
+  - '&7Un super noir'
+  name: 'Noir suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_BLUE:
+  description:
+  - '&7Un super bleu'
+  name: 'Bleu suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_CARROT:
+  description:
+  - '&7Une carotte suprême'
+  name: 'Carotte suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_CHICKEN:
+  description:
+  - '&7Un super poulet'
+  name: 'Poulet suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_CLAY:
+  description:
+  - '&7Une super argile'
+  name: 'Argile suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_COAL:
+  description:
+  - '&7Un super charbon'
+  name: 'Charbon suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_COD:
+  description:
+  - '&7Une super morue'
+  name: 'Morue suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_CRIMSON_STEM:
+  description:
+  - '&7Une super tige carmin'
+  name: 'Tige carmin suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_CYAN:
+  description:
+  - '&7Un super cyan'
+  name: 'Cyan suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_DARK_OAK_LOG:
+  description:
+  - '&7Un super chêne noir'
+  name: 'Bûche de chêne noir suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_DIAMOND:
+  description:
+  - '&7Un super diamant'
+  name: 'Diamant suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_DIORITE:
+  description:
+  - '&7Une super diorite'
+  name: 'Diorite suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_EMERALD:
+  description:
+  - '&7Une super émeraude'
+  name: 'Émeraude suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_ENDSTONE:
+  description:
+  - '&7Une super pierre de l''End'
+  name: 'Pierre de l''End suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_GOLD:
+  description:
+  - '&7Un super or'
+  name: 'Or suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_GRANITE:
+  description:
+  - '&7Un super granite'
+  name: 'Granite suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_GRAVEL:
+  description:
+  - '&7Un super gravier'
+  name: 'Gravier suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_GRAY:
+  description:
+  - '&7Un super gris'
+  name: 'Gris suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_GREEN:
+  description:
+  - '&7Un super vert'
+  name: 'Vert suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_IRON:
+  description:
+  - '&7Un super fer'
+  name: 'Fer suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_JUNGLE_LOG:
+  description:
+  - '&7Un super acajou'
+  name: 'Bûche d''acajou suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_LAPIS:
+  description:
+  - '&7Un super lapis'
+  name: 'Lapis suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_MELON:
+  description:
+  - '&7Une super pastèque'
+  name: 'Pastèque suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_MUTTON:
+  description:
+  - '&7Un super mouton'
+  name: 'Mouton suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_NETHERITE:
+  description:
+  - '&7Un super netherite'
+  name: 'Netherite suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_OAK_LOG:
+  description:
+  - '&7Un super chêne'
+  name: 'Bûche de chêne suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_OF_ALLOY:
+  description:
+  - '&7Ce noyau contient plusieurs minerais'
+  - '&7qui ont été collectés à travers le monde.'
+  name: 'Noyau d''alliage'
+  type:
+  - '&7&oComposants magiques'
+SUPREME_CORE_OF_BLOCK:
+  description:
+  - '&7Ce noyau contient plusieurs blocs'
+  - '&7qui ont été collectés à travers le monde.'
+  name: 'Noyau de bloc'
+  type:
+  - '&7&oComposants magiques'
+SUPREME_CORE_OF_COLOR:
+  description:
+  - '&7Ce noyau contient plusieurs couleurs'
+  - '&7qui ont été collectés à travers le monde.'
+  name: 'Noyau de couleur'
+  type:
+  - '&7&oComposants magiques'
+SUPREME_CORE_OF_DEATH:
+  description:
+  - '&7Ce noyau contient les âmes de '
+  - '&7diverses entités passées dans l''au-delà.'
+  name: 'Noyau de mort'
+  type:
+  - '&7&oComposants magiques'
+SUPREME_CORE_OF_LIFE:
+  description:
+  - '&7Ce noyau contient des fragments de vie'
+  - '&7qui ont été collectés par le monde.'
+  name: 'Noyau de vie'
+  type:
+  - '&7&oComposants magiques'
+SUPREME_CORE_OF_NATURE:
+  description:
+  - '&7Ce noyau contient plusieurs éléments naturels'
+  - '&7qui ont été collectés à travers le monde.'
+  name: 'Noyau de nature'
+  type:
+  - '&7&oComposants magiques'
+SUPREME_CORE_PINK:
+  description:
+  - '&7Un super rose'
+  name: 'Rose suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_PORKCHOP:
+  description:
+  - '&7Un super bacon'
+  name: "Côtelette de porc suprême"
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_POTATO:
+  description:
+  - '&7Une super pomme de terre'
+  name: 'Pomme de terre suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_PUMPKIN:
+  description:
+  - '&7Une super citrouille'
+  name: 'Citrouille suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_PURPLE:
+  description:
+  - '&7Un super violet'
+  name: 'Violet suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_QUARTZ:
+  description:
+  - '&7Un super quartz'
+  name: 'Quartz suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_RED:
+  description:
+  - '&7Un super rouge'
+  name: 'Rouge suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_REDSTONE:
+  description:
+  - '&7Une super redstone'
+  name: 'Redstone suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_SALMON:
+  description:
+  - '&7Un super saumon'
+  name: 'Saumon suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_SAND:
+  description:
+  - '&7Un super sable'
+  name: 'Sable suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_SNOW:
+  description:
+  - '&7Une super neige'
+  name: 'Neige suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_SPIDER_EYE:
+  description:
+  - '&7Un super œil'
+  name: "Œil d'araignée suprême"
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_SPRUCE_LOG:
+  description:
+  - '&7Un super sapin'
+  name: 'Bûche de sapin suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_STONE:
+  description:
+  - '&7Une super pierre taillée'
+  name: 'Pierre taillée suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_STRING:
+  description:
+  - '&7Une super laisse'
+  name: "Ficelle suprême"
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_SUGAR_CANE:
+  description:
+  - '&7Une super canne à sucre'
+  name: 'Canne à sucre suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_SWEET_BERRIES:
+  description:
+  - '&7De super baies'
+  name: 'Baies sucrées suprêmes'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_TEAR:
+  description:
+  - '&7Une super larme'
+  name: "Larme de Ghast suprême"
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_WARPED_STEM:
+  description:
+  - '&7Une super tige tordue'
+  name: 'Tige tordue suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_WHEAT:
+  description:
+  - '&7Un super blé'
+  name: 'Blé suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_WITHER_ROSE:
+  description:
+  - '&7Une super rose'
+  name: 'Rose du Wither suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CORE_YELLOW:
+  description:
+  - '&7Un super jaune'
+  name: 'Jaune suprême'
+  type:
+  - '&7&oComposants de base'
+SUPREME_CRYSTALLIZER_MACHINE:
+  name: 'Machine de cristallisation'
+  type:
+  - '&7&oComposants avancés'
+SUPREME_DIAMOND_QUARRY:
+  name: 'Carrière de diamant'
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oMachine'
+SUPREME_DUST_AMETHYST:
+  name: 'Poudre d''améthyste'
+  type:
+  - '&7&oComposant'
+SUPREME_DUST_GLOW_INK:
+  name: 'Poudre d''encre luminescente'
+  type:
+  - '&7&oComposant'
+SUPREME_DUST_NETHERITE:
+  name: 'Poudre de netherite'
+  type:
+  - '&7&oComposant'
+SUPREME_ELECTRIC_CORE_I:
+  description:
+  - '&fRessource de fabrication de noyau'
+  name: 'Machine électrique à noyaux'
+  stats:
+  - '&6Machine avancée'
+  - '&8⇨ &b⚡ &7Vitesse : &b1.0x'
+  type:
+  - '&7&oMachine'
+SUPREME_ELECTRIC_CORE_II:
+  description:
+  - '&fRessource de fabrication avancée de noyau'
+  name: 'Machine électrique à noyaux II'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b5.0x'
+  type:
+  - '&7&oMachine'
+SUPREME_ELECTRIC_CORE_III:
+  description:
+  - '&fRessource de fabrication avancée de noyau'
+  name: 'Machine électrique à noyaux III'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b15.0x'
+  type:
+  - '&7&oMachine'
+SUPREME_ELECTRIC_CRAFTER_I:
+  description:
+  - '&fFabrique des objets'
+  name: 'Fabricateur électrique'
+  stats:
+  - '&6Machine avancée'
+  - '&8⇨ &b⚡ &7Vitesse : &b1.0x'
+  type:
+  - '&7&oMachine'
+SUPREME_ELECTRIC_CRAFTER_II:
+  description:
+  - '&fFabrication avancée d''objets'
+  name: 'Fabricateur électrique II'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b5.0x'
+  type:
+  - '&7&oMachine'
+SUPREME_ELECTRIC_CRAFTER_III:
+  description:
+  - '&fFabrication avancée d''objets'
+  name: 'Fabricateur électrique III'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b15.0x'
+  type:
+  - '&7&oMachine'
+SUPREME_ELECTRIC_GEAR_I:
+  description:
+  - '&fPalier de fabrication d''équipement'
+  name: 'Machine électrique à équipement'
+  stats:
+  - '&6Machine avancée'
+  - '&8⇨ &b⚡ &7Vitesse : &b1.0x'
+  type:
+  - '&7&oMachine'
+SUPREME_ELECTRIC_GEAR_II:
+  description:
+  - '&fPalier de fabrication avancée d''équipement'
+  name: 'Machine électrique à équipement II'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b5.0x'
+  type:
+  - '&7&oMachine'
+SUPREME_ELECTRIC_GEAR_III:
+  description:
+  - '&fPalier de fabrication avancée d''équipement'
+  name: 'Machine électrique à équipement III'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b15.0x'
+  type:
+  - '&7&oMachine'
+SUPREME_ELECTRIC_ITEM:
+  name: "Électrique"
+  type:
+  - '&7&oDivers'
+SUPREME_ELECTRIC_MAGICAL_I:
+  description:
+  - '&fRessource de fabrication magique'
+  name: 'Machine électrique magique'
+  stats:
+  - '&6Machine avancée'
+  - '&8⇨ &b⚡ &7Vitesse : &b1.0x'
+  type:
+  - '&7&oMachine'
+SUPREME_ELECTRIC_MAGICAL_II:
+  description:
+  - '&fRessource de fabrication magique avancée'
+  name: 'Machine électrique magique II'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b5.0x'
+  type:
+  - '&7&oMachine'
+SUPREME_ELECTRIC_MAGICAL_III:
+  description:
+  - '&fRessource de fabrication magique avancée'
+  name: 'Machine électrique magique III'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b15.0x'
+  type:
+  - '&7&oMachine'
+SUPREME_EMPTY_MOBTECH:
+  name: 'MobTech vide'
+  type:
+  - '&7&oComposant'
+SUPREME_FORGE_INGOT_I:
+  description:
+  - '&fCette machine vous permet de'
+  - '&fforger des ressources en lingots.'
+  name: 'Forge à lingots'
+  stats:
+  - '&6Machine avancée'
+  - '&8⇨ &b⚡ &7Vitesse : &b1.0x'
+  - '&8⇨ &e⚡ &7Tampon de 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMachine'
+SUPREME_FORGE_INGOT_II:
+  description:
+  - '&fCette machine vous permet de'
+  - '&fforger des ressources en lingots.'
+  name: 'Forge à lingots II'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b5.0x'
+  - '&8⇨ &e⚡ &7Tampon de 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMachine'
+SUPREME_FORGE_INGOT_III:
+  description:
+  - '&fCette machine vous permet de'
+  - '&fforger des ressources en lingots.'
+  name: 'Forge à lingots III'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b15.0x'
+  - '&8⇨ &e⚡ &7Tampon de 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMachine'
+SUPREME_FORGE_MAGICAL_I:
+  description:
+  - '&fCette machine vous permet de'
+  - '&fforger des ressources magiques.'
+  name: 'Forge magique'
+  stats:
+  - '&6Machine avancée'
+  - '&8⇨ &b⚡ &7Vitesse : &b1.0x'
+  - '&8⇨ &e⚡ &7Tampon de 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMachine'
+SUPREME_FORGE_MAGICAL_II:
+  description:
+  - '&fCette machine vous permet de'
+  - '&fforger des ressources magiques.'
+  name: 'Forge magique II'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b5.0x'
+  - '&8⇨ &e⚡ &7Tampon de 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMachine'
+SUPREME_FORGE_MAGICAL_III:
+  description:
+  - '&fCette machine vous permet de'
+  - '&fforger des ressources magiques.'
+  name: 'Forge magique III'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b15.0x'
+  - '&8⇨ &e⚡ &7Tampon de 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMachine'
+SUPREME_FOUNDRY_I:
+  description:
+  - '&fObjets de fonderie et de synthétiseur'
+  name: 'Fonderie'
+  stats:
+  - '&6Machine avancée'
+  - '&8⇨ &b⚡ &7Vitesse : &b1.0x'
+  type:
+  - '&7&oMachine'
+SUPREME_FOUNDRY_II:
+  description:
+  - '&fObjets avancés de fonderie et de synthétiseur'
+  name: 'Fonderie II'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b5.0x'
+  type:
+  - '&7&oMachine'
+SUPREME_FOUNDRY_III:
+  description:
+  - '&fObjets avancés de fonderie et de synthétiseur'
+  name: 'Fonderie III'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b15.0x'
+  type:
+  - '&7&oMachine'
+SUPREME_GENERATOR_MOB_ADVANCED:
+  name: 'Générateur de créatures avancé'
+  stats:
+  - '&eGénérateur basique'
+  type:
+  - '&7&oMachine'
+SUPREME_GENERATOR_MOB_BASIC:
+  name: 'Générateur de créatures basique'
+  stats:
+  - '&eGénérateur basique'
+  type:
+  - '&7&oMachine'
+SUPREME_GENERATOR_MOB_MEDIUM:
+  name: 'Générateur de créatures moyen'
+  stats:
+  - '&eGénérateur basique'
+  type:
+  - '&7&oMachine'
+SUPREME_GENE_BERSERK:
+  name: 'Gène de berserk'
+  type:
+  - '&7&oComposant'
+SUPREME_GENE_INTELLIGENCE:
+  name: 'Gène d''intelligence'
+  type:
+  - '&7&oComposant'
+SUPREME_GENE_LUCK:
+  name: 'Gène de chance'
+  type:
+  - '&7&oComposant'
+SUPREME_GOLD_QUARRY:
+  name: 'Carrière d''or'
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oMachine'
+SUPREME_HELMET_EPIC:
+  description:
+  - '&f&lUn casque épique en Thornium'
+  name: 'Casque épique'
+  type:
+  - '&7&oArmure'
+SUPREME_HELMET_LEGENDARY:
+  description:
+  - '&f&lUn casque légendaire en Thornium'
+  name: 'Casque légendaire'
+  type:
+  - '&7&oArmure'
+SUPREME_HELMET_MAGIC:
+  description:
+  - '&f&lUn casque magique en Thornium'
+  name: 'Casque magique'
+  type:
+  - '&7&oArmure'
+SUPREME_HELMET_RARE:
+  description:
+  - '&f&lUn casque rare en Thornium'
+  name: 'Casque rare'
+  type:
+  - '&7&oArmure'
+SUPREME_HELMET_SUPREME:
+  description:
+  - '&f&lUn casque suprême en Thornium'
+  name: 'Casque suprême'
+  type:
+  - '&7&oArmure'
+SUPREME_HELMET_THORNIUM:
+  description:
+  - '&f&lUn casque en Thornium'
+  name: 'Casque en Thornium'
+  type:
+  - '&7&oArmure'
+SUPREME_IGNIS_GENERATOR:
+  name: 'Générateur Ignis'
+  stats:
+  - '&6Générateur avancé'
+  type:
+  - '&7&oMachine'
+SUPREME_INDUCTIVE_MACHINE:
+  name: 'Machine inductive'
+  type:
+  - '&7&oComposants avancés'
+SUPREME_INDUCTOR_MACHINE:
+  name: 'Machine à induction'
+  type:
+  - '&7&oComposants avancés'
+SUPREME_IRIDIUM_PLATE:
+  name: 'Plaque d''iridium'
+  type:
+  - '&7&oComposants'
+SUPREME_IRON_QUARRY:
+  name: 'Carrière de fer'
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oMachine'
+SUPREME_LEGGINGS_EPIC:
+  description:
+  - '&f&lDes jambières épiques en Thornium'
+  name: 'Jambières épiques'
+  type:
+  - '&7&oArmure'
+SUPREME_LEGGINGS_LEGENDARY:
+  description:
+  - '&f&lDes jambières légendaires en Thornium'
+  name: 'Jambières légendaires'
+  type:
+  - '&7&oArmure'
+SUPREME_LEGGINGS_MAGIC:
+  description:
+  - '&f&lDes jambières magiques en Thornium'
+  name: 'Jambières magiques'
+  type:
+  - '&7&oArmure'
+SUPREME_LEGGINGS_RARE:
+  description:
+  - '&f&lDes jambières rares en Thornium'
+  name: 'Jambières rares'
+  type:
+  - '&7&oArmure'
+SUPREME_LEGGINGS_SUPREME:
+  description:
+  - '&f&lDes jambières suprêmes en Thornium'
+  name: 'Jambières suprêmes'
+  type:
+  - '&7&oArmure'
+SUPREME_LEGGINGS_THORNIUM:
+  description:
+  - '&f&lDes jambières en Thornium'
+  name: 'Jambières en Thornium'
+  type:
+  - '&7&oArmure'
+SUPREME_LUMIUM_GENERATOR:
+  name: 'Générateur Lumium'
+  stats:
+  - '&6Générateur avancé'
+  type:
+  - '&7&oMachine'
+SUPREME_LUX_GENERATOR:
+  name: 'Générateur Lux'
+  stats:
+  - '&6Générateur avancé'
+  type:
+  - '&7&oMachine'
+SUPREME_MAGIC_ALTAR_I:
+  description:
+  - '&fFabrique des runes et des objets magiques'
+  name: 'Autel magique'
+  stats:
+  - '&6Machine avancée'
+  - '&8⇨ &b⚡ &7Vitesse : &b1.0x'
+  type:
+  - '&7&oMachine'
+SUPREME_MAGIC_ALTAR_II:
+  description:
+  - '&fFabrication avancée de runes et d''objets magiques'
+  name: 'Autel magique II'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b5.0x'
+  type:
+  - '&7&oMachine'
+SUPREME_MAGIC_ALTAR_III:
+  description:
+  - '&fFabrication avancée de runes et d''objets magiques'
+  name: 'Autel magique III'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b15.0x'
+  type:
+  - '&7&oMachine'
+SUPREME_MAIN_ITEM:
+  name: "Supreme"
+  type:
+  - '&7&oDivers'
+SUPREME_MANGANESE_PLATE:
+  name: 'Plaque de manganèse'
+  type:
+  - '&7&oComposants'
+SUPREME_MOB_COLLECTOR_MACHINE_I:
+  description:
+  - '&fCette machine vous permet de collecter '
+  - '&fles objets des créatures à proximité. (4 blocs)'
+  name: 'Collecteur de créatures'
+  stats:
+  - '&6Machine avancée'
+  - '&8⇨ &b⚡ &7Vitesse : &b1.0x'
+  - '&8⇨ &e⚡ &7Tampon de 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMachine'
+SUPREME_MOB_COLLECTOR_MACHINE_II:
+  description:
+  - '&fCette machine vous permet de collecter'
+  - '&f les objets des créatures à proximité. (8 blocs)'
+  name: 'Collecteur de créatures II'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b5.0x'
+  - '&8⇨ &e⚡ &7Tampon de 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMachine'
+SUPREME_MOB_COLLECTOR_MACHINE_III:
+  description:
+  - '&fCette machine vous permet de collecter'
+  - '&f les objets des créatures à proximité. (16 blocs)'
+  name: 'Collecteur de créatures III'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b15.0x'
+  - '&8⇨ &e⚡ &7Tampon de 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMachine'
+SUPREME_MOB_COLLECTOR_TOOL_I:
+  name: "Collecteur MobTech I (Outil)"
+  stats:
+  - '&8⇨ &e⚡ &750 J par utilisation'
+  type:
+  - '&7&oOutils'
+SUPREME_MOB_COLLECTOR_TOOL_II:
+  name: "Collecteur MobTech II (Outil)"
+  stats:
+  - '&8⇨ &e⚡ &750 J par utilisation'
+  type:
+  - '&7&oOutils'
+SUPREME_MOB_COLLECTOR_TOOL_III:
+  name: "Collecteur MobTech III (Outil)"
+  stats:
+  - '&8⇨ &e⚡ &750 J par utilisation'
+  type:
+  - '&7&oOutils'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_II:
+  description:
+  - '&fCette machine vous permet de collecter '
+  - '&fles têtes MobTech des créatures à proximité. (6 blocs)'
+  name: 'Collecteur MobTech II'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b1.0x'
+  - '&8⇨ &e⚡ &7Tampon de 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMachine'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_III:
+  description:
+  - '&fCette machine vous permet de collecter '
+  - '&fles têtes MobTech des créatures à proximité. (9 blocs)'
+  name: 'Collecteur MobTech III'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b1.0x'
+  - '&8⇨ &e⚡ &7Tampon de 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMachine'
+SUPREME_MULTIBLOCK_CORE:
+  description:
+  - '&7&oVous pouvez fabriquer des noyaux ici !'
+  - '&aMachine multibloc'
+  name: 'Fabricateur de noyaux'
+  type:
+  - '&7&oMachine'
+SUPREME_MULTIBLOCK_GEAR:
+  description:
+  - '&7&oVous pouvez fabriquer des armes, des armures et des outils ici !'
+  - '&aMachine multibloc'
+  name: 'Fabricateur d''équipement'
+  type:
+  - '&7&oMachine'
+SUPREME_MULTIBLOCK_MAGICAL:
+  description:
+  - '&7&oVous pouvez fabriquer des objets magiques ici !'
+  - '&aMachine multibloc'
+  name: 'Fabricateur magique'
+  type:
+  - '&7&oMachine'
+SUPREME_PETRIFIER_MACHINE:
+  name: 'Machine de pétrification'
+  type:
+  - '&7&oComposants avancés'
+SUPREME_PICKAXE_EPIC:
+  description:
+  - '&f&lUne pioche épique en Thornium'
+  name: 'Pioche épique'
+  type:
+  - '&7&oOutils'
+SUPREME_PICKAXE_LEGENDARY:
+  description:
+  - '&f&lUne pioche légendaire en Thornium'
+  name: 'Pioche légendaire'
+  type:
+  - '&7&oOutils'
+SUPREME_PICKAXE_MAGIC:
+  description:
+  - '&f&lUne pioche magique en Thornium'
+  name: 'Pioche magique'
+  type:
+  - '&7&oOutils'
+SUPREME_PICKAXE_RARE:
+  description:
+  - '&f&lUne pioche rare en Thornium'
+  name: 'Pioche rare'
+  type:
+  - '&7&oOutils'
+SUPREME_PICKAXE_SUPREME:
+  description:
+  - '&f&lUne pioche suprême en Thornium'
+  name: 'Pioche suprême'
+  type:
+  - '&7&oOutils'
+SUPREME_PICKAXE_THORNIUM:
+  description:
+  - '&f&lUne pioche en Thornium'
+  name: 'Pioche en Thornium'
+  type:
+  - '&7&oOutils'
+SUPREME_PLATINUM_PLATE:
+  name: 'Plaque de platine'
+  type:
+  - '&7&oComposants'
+SUPREME_RUSTLESS_MACHINE:
+  name: 'Machine antirouille'
+  type:
+  - '&7&oComposants avancés'
+SUPREME_SHIELD_EPIC:
+  description:
+  - '&f&lUn bouclier épique en Thornium'
+  name: 'Bouclier épique'
+  type:
+  - '&7&oArmes'
+SUPREME_SHIELD_LEGENDARY:
+  description:
+  - '&f&lUn bouclier légendaire en Thornium'
+  name: 'Bouclier légendaire'
+  type:
+  - '&7&oArmes'
+SUPREME_SHIELD_MAGIC:
+  description:
+  - '&f&lUn bouclier magique en Thornium'
+  name: 'Bouclier magique'
+  type:
+  - '&7&oArmes'
+SUPREME_SHIELD_RARE:
+  description:
+  - '&f&lUn bouclier rare en Thornium'
+  name: 'Bouclier rare'
+  type:
+  - '&7&oArmes'
+SUPREME_SHIELD_SUPREME:
+  description:
+  - '&f&lUn bouclier suprême en Thornium'
+  name: 'Bouclier suprême'
+  type:
+  - '&7&oArmes'
+SUPREME_SHIELD_THORNIUM:
+  description:
+  - '&f&lUn bouclier en Thornium'
+  name: 'Bouclier en Thornium'
+  type:
+  - '&7&oArmes'
+SUPREME_SHOVEL_EPIC:
+  description:
+  - '&f&lUne pelle épique en Thornium'
+  name: 'Pelle épique'
+  type:
+  - '&7&oOutils'
+SUPREME_SHOVEL_LEGENDARY:
+  description:
+  - '&f&lUne pelle légendaire en Thornium'
+  name: 'Pelle légendaire'
+  type:
+  - '&7&oOutils'
+SUPREME_SHOVEL_MAGIC:
+  description:
+  - '&f&lUne pelle magique en Thornium'
+  name: 'Pelle magique'
+  type:
+  - '&7&oOutils'
+SUPREME_SHOVEL_RARE:
+  description:
+  - '&f&lUne pelle rare en Thornium'
+  name: 'Pelle rare'
+  type:
+  - '&7&oOutils'
+SUPREME_SHOVEL_SUPREME:
+  description:
+  - '&f&lUne pelle suprême en Thornium'
+  name: 'Pelle suprême'
+  type:
+  - '&7&oOutils'
+SUPREME_SHOVEL_THORNIUM:
+  description:
+  - '&f&lUne pelle en Thornium'
+  name: 'Pelle en Thornium'
+  type:
+  - '&7&oOutils'
+SUPREME_STAINLESS_MACHINE:
+  name: 'Machine inoxydable'
+  type:
+  - '&7&oComposants avancés'
+SUPREME_STONE_QUARRY:
+  name: 'Carrière de pierre'
+  stats:
+  - '&aMachine moyenne'
+  type:
+  - '&7&oMachine'
+SUPREME_SUPREME:
+  description:
+  - '&7Le Suprême'
+  name: 'Suprême'
+  type:
+  - '&7&oComposants de fin de partie'
+SUPREME_SUPREME_CAPACITOR:
+  name: 'Condensateur suprême'
+  stats:
+  - '&4Condensateur de fin de jeu'
+  - '&8⇨ &e⚡ &7Capacité infinie en J'
+  type:
+  - '&7&oMachine'
+SUPREME_SUPREME_GENERATOR:
+  name: 'Générateur suprême'
+  stats:
+  - '&4Générateur de fin de jeu'
+  type:
+  - '&7&oMachine'
+SUPREME_SUPREME_NUGGET:
+  description:
+  - '&7Issue de la Carrière de pépites suprêmes'
+  name: 'Pépite suprême'
+  type:
+  - '&7&oComposants de fin de partie'
+SUPREME_SUPREME_NUGGETS_QUARRY:
+  name: 'Carrière de pépites suprêmes'
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oMachine'
+SUPREME_SWORD_EPIC:
+  description:
+  - '&f&lUne épée épique en Thornium'
+  name: 'Épée épique'
+  type:
+  - '&7&oArmes'
+SUPREME_SWORD_LEGENDARY:
+  description:
+  - '&f&lUne épée légendaire en Thornium'
+  name: 'Épée légendaire'
+  type:
+  - '&7&oArmes'
+SUPREME_SWORD_MAGIC:
+  description:
+  - '&f&lUne épée magique en Thornium'
+  name: 'Épée magique'
+  type:
+  - '&7&oArmes'
+SUPREME_SWORD_RARE:
+  description:
+  - '&f&lUne épée rare en Thornium'
+  name: 'Épée rare'
+  type:
+  - '&7&oArmes'
+SUPREME_SWORD_SUPREME:
+  description:
+  - '&f&lUne épée suprême en Thornium'
+  name: 'Épée suprême'
+  type:
+  - '&7&oArmes'
+SUPREME_SWORD_THORNIUM:
+  description:
+  - '&f&lUne épée en Thornium'
+  name: 'Épée en Thornium'
+  type:
+  - '&7&oArmes'
+SUPREME_SYNTHETIC_AMETHYST:
+  name: 'Améthyste synthétique'
+  type:
+  - '&7&oComposants'
+SUPREME_SYNTHETIC_RUBY:
+  name: 'Rubis synthétique'
+  type:
+  - '&7&oComposants'
+SUPREME_TECH_GENERATOR:
+  description:
+  - '&fAvec de l''énergie et des abeilles/golems/zombies, '
+  - '&fgénère lentement des matériaux.'
+  name: 'Générateur technologique'
+  stats:
+  - '&4Machine de fin de jeu'
+  type:
+  - '&7&oMachine'
+SUPREME_TECH_MUTATION_I:
+  description:
+  - '&fUtilisez la mutation du générateur '
+  - '&fpour progresser vers des niveaux supérieurs'
+  name: 'Mutation technologique'
+  stats:
+  - '&4Machine de fin de jeu'
+  type:
+  - '&7&oMachine'
+SUPREME_TECH_MUTATION_II:
+  description:
+  - '&fUtilisez la mutation du générateur '
+  - '&fpour progresser vers des niveaux supérieurs'
+  - '&fFacteur de chance multiplié par 2x'
+  name: 'Mutation technologique II'
+  stats:
+  - '&4Machine de fin de jeu'
+  type:
+  - '&7&oMachine'
+SUPREME_TECH_MUTATION_III:
+  description:
+  - '&fUtilisez la mutation du générateur '
+  - '&fpour progresser vers des niveaux supérieurs'
+  - '&fFacteur de chance multiplié par 4x'
+  name: 'Mutation technologique III'
+  stats:
+  - '&4Machine de fin de jeu'
+  type:
+  - '&7&oMachine'
+SUPREME_TECH_ROBOTIC:
+  description:
+  - '&fUtilisez des robots de niveau débutant '
+  - '&fpour progresser vers des niveaux supérieurs'
+  - '&fnécessite 64x pour améliorer'
+  name: 'Robot technologique'
+  stats:
+  - '&4Machine de fin de jeu'
+  type:
+  - '&7&oMachine'
+SUPREME_TECH_ROBOTIC_II:
+  description:
+  - '&fUtilisez des robots de niveau débutant '
+  - '&fpour progresser vers des niveaux supérieurs'
+  - '&fnécessite 32x pour améliorer'
+  name: 'Robot technologique II'
+  stats:
+  - '&4Machine de fin de jeu'
+  type:
+  - '&7&oMachine'
+SUPREME_TECH_ROBOTIC_III:
+  description:
+  - '&fUtilisez des robots de niveau débutant '
+  - '&fpour progresser vers des niveaux supérieurs'
+  - '&fnécessite 16x pour améliorer'
+  name: 'Robot technologique III'
+  stats:
+  - '&4Machine de fin de jeu'
+  type:
+  - '&7&oMachine'
+SUPREME_THORNERITE:
+  name: 'Thornerite'
+  type:
+  - '&7&oComposants de fin de partie'
+SUPREME_THORNIUM_BIT:
+  description:
+  - '&7Issu de la Carrière de Thornium'
+  name: 'Fragment de Thornium'
+  type:
+  - '&7&oComposants de fin de partie'
+SUPREME_THORNIUM_BIT_SYNTHETIC:
+  description:
+  - '&7Issu du Fragment de Thornium'
+  name: 'Fragment de Thornium synthétique'
+  type:
+  - '&7&oComposants de fin de partie'
+SUPREME_THORNIUM_CAPACITOR:
+  name: 'Condensateur en Thornium'
+  stats:
+  - '&4Condensateur de fin de jeu'
+  - '&8⇨ &e⚡ &7Capacité de 100,000,000.00 J'
+  type:
+  - '&7&oMachine'
+SUPREME_THORNIUM_CARBONADO:
+  description:
+  - '&7Issu du Lingot de Thornium'
+  name: 'Carbonado en Thornium'
+  type:
+  - '&7&oComposants de fin de partie'
+SUPREME_THORNIUM_DUST:
+  description:
+  - '&7Issu du Fragment de Thornium'
+  name: 'Poudre de Thornium'
+  type:
+  - '&7&oComposants de fin de partie'
+SUPREME_THORNIUM_DUST_SYNTHETIC:
+  description:
+  - '&7Issu de la Poudre de Thornium'
+  name: 'Poudre de Thornium synthétique'
+  type:
+  - '&7&oComposants de fin de partie'
+SUPREME_THORNIUM_ENERGIZED:
+  description:
+  - '&7Issu du Lingot de Thornium'
+  name: 'Thornium énergisé'
+  type:
+  - '&7&oComposants de fin de partie'
+SUPREME_THORNIUM_GENERATOR:
+  name: 'Générateur Thornium'
+  stats:
+  - '&4Générateur de fin de jeu'
+  type:
+  - '&7&oMachine'
+SUPREME_THORNIUM_INGOT:
+  description:
+  - '&7Issu de la Poudre de Thornium'
+  name: 'Lingot de Thornium'
+  type:
+  - '&7&oComposants de fin de partie'
+SUPREME_THORNIUM_INGOT_SYNTHETIC:
+  description:
+  - '&7Issu du Lingot de Thornium'
+  name: 'Lingot de Thornium synthétique'
+  type:
+  - '&7&oComposants de fin de partie'
+SUPREME_THORNIUM_QUARRY:
+  name: 'Carrière de Thornium'
+  stats:
+  - '&6Machine avancée'
+  type:
+  - '&7&oMachine'
+SUPREME_TITANIUM_AXE:
+  description:
+  - '&f&lUne hache en Titane'
+  name: 'Hache en Titane'
+  type:
+  - '&7&oOutils'
+SUPREME_TITANIUM_BOOTS:
+  description:
+  - '&f&lDes bottes en Titane'
+  name: 'Bottes en Titane'
+  type:
+  - '&7&oArmure'
+SUPREME_TITANIUM_CAPACITOR:
+  name: 'Condensateur en Titane'
+  stats:
+  - '&6Condensateur avancé'
+  - '&8⇨ &e⚡ &7Capacité de 4,000,000.00 J'
+  type:
+  - '&7&oMachine'
+SUPREME_TITANIUM_CHESTPLATE:
+  description:
+  - '&f&lUn plastron en Titane'
+  name: 'Plastron en Titane'
+  type:
+  - '&7&oArmure'
+SUPREME_TITANIUM_HELMET:
+  description:
+  - '&f&lUn casque en Titane'
+  name: 'Casque en Titane'
+  type:
+  - '&7&oArmure'
+SUPREME_TITANIUM_LEGGINGS:
+  description:
+  - '&f&lDes jambières en Titane'
+  name: 'Jambières en Titane'
+  type:
+  - '&7&oArmure'
+SUPREME_TITANIUM_PICKAXE:
+  description:
+  - '&f&lUne pioche en Titane'
+  name: 'Pioche en Titane'
+  type:
+  - '&7&oOutils'
+SUPREME_TITANIUM_PLATE:
+  name: 'Plaque de titane'
+  type:
+  - '&7&oComposants'
+SUPREME_TITANIUM_SHOVEL:
+  description:
+  - '&f&lUne pelle en Titane'
+  name: 'Pelle en Titane'
+  type:
+  - '&7&oOutils'
+SUPREME_TITANIUM_SWORD:
+  description:
+  - '&f&lUne épée en Titane'
+  name: 'Épée en Titane'
+  type:
+  - '&7&oArmes'
+SUPREME_VENTUS_GENERATOR:
+  name: 'Générateur Ventus'
+  stats:
+  - '&eGénérateur basique'
+  type:
+  - '&7&oMachine'
+SUPREME_VIRTUAL_AQUARIUM_I:
+  description:
+  - '&fCette machine vous permet de collecter '
+  - '&f les objets collectés en mer.'
+  name: 'Aquarium virtuel'
+  stats:
+  - '&6Machine avancée'
+  - '&8⇨ &b⚡ &7Vitesse : &b1.0x'
+  - '&8⇨ &e⚡ &7Tampon de 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMachine'
+SUPREME_VIRTUAL_AQUARIUM_II:
+  description:
+  - '&fCette machine vous permet de collecter'
+  - '&f les objets collectés en mer.'
+  name: 'Aquarium virtuel II'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b5.0x'
+  - '&8⇨ &e⚡ &7Tampon de 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMachine'
+SUPREME_VIRTUAL_AQUARIUM_III:
+  description:
+  - '&fCette machine vous permet de collecter'
+  - '&f les objets collectés en mer.'
+  name: 'Aquarium virtuel III'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b15.0x'
+  - '&8⇨ &e⚡ &7Tampon de 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMachine'
+SUPREME_VIRTUAL_GARDEN_I:
+  description:
+  - '&fCette machine vous permet de'
+  - '&fcultiver des ressources.'
+  name: 'Jardin virtuel'
+  stats:
+  - '&6Machine avancée'
+  - '&8⇨ &b⚡ &7Vitesse : &b1.0x'
+  - '&8⇨ &e⚡ &7Tampon de 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMachine'
+SUPREME_VIRTUAL_GARDEN_II:
+  description:
+  - '&fCette machine vous permet de'
+  - '&fcultiver des ressources.'
+  name: 'Jardin virtuel II'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b5.0x'
+  - '&8⇨ &e⚡ &7Tampon de 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMachine'
+SUPREME_VIRTUAL_GARDEN_III:
+  description:
+  - '&fCette machine vous permet de'
+  - '&fcultiver des ressources.'
+  name: 'Jardin virtuel III'
+  stats:
+  - '&4Machine de fin de jeu'
+  - '&8⇨ &b⚡ &7Vitesse : &b15.0x'
+  - '&8⇨ &e⚡ &7Tampon de 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMachine'
+SUPREME_ZIRCONIUM_PLATE:
+  name: 'Plaque de zirconium'
+  type:
+  - '&7&oComposants'

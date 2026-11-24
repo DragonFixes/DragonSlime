@@ -1,0 +1,2352 @@
+MOB_TECH_COLLECTOR_MACHINE:
+  description:
+  - '&fAceastă mașină îți permite să colectezi '
+  - '&fCapete MobTech de la mobi din apropiere. (3 blocuri)'
+  name: 'Colector MobTech I'
+  type:
+  - '&7&oMașină'
+SUPREME_ADAMANTIUM_AXE:
+  description:
+  - '&f&lUn Topor de Adamantium'
+  name: 'Topor de Adamantium'
+  type:
+  - '&7&oUnelte'
+SUPREME_ADAMANTIUM_BOOTS:
+  description:
+  - '&f&lNiște Cizme de Adamantium'
+  name: 'Cizme de Adamantium'
+  type:
+  - '&7&oArmură'
+SUPREME_ADAMANTIUM_CAPACITOR:
+  name: 'Condensator de Adamantium'
+  stats:
+  - '&6Condensator Avansat'
+  - '&8⇨ &e⚡ &7Capacitate 16,000,000.00 J'
+  type:
+  - '&7&oMașină'
+SUPREME_ADAMANTIUM_CHESTPLATE:
+  description:
+  - '&f&lO Platoșă de Adamantium'
+  name: 'Platoșă de Adamantium'
+  type:
+  - '&7&oArmură'
+SUPREME_ADAMANTIUM_HELMET:
+  description:
+  - '&f&lO Cască de Adamantium'
+  name: 'Cască de Adamantium'
+  type:
+  - '&7&oArmură'
+SUPREME_ADAMANTIUM_LEGGINGS:
+  description:
+  - '&f&lNiște Jambiere de Adamantium'
+  name: 'Jambiere de Adamantium'
+  type:
+  - '&7&oArmură'
+SUPREME_ADAMANTIUM_PICKAXE:
+  description:
+  - '&f&lUn Târnăcop de Adamantium'
+  name: 'Târnăcop de Adamantium'
+  type:
+  - '&7&oUnelte'
+SUPREME_ADAMANTIUM_PLATE:
+  name: 'Placă de Adamantium'
+  type:
+  - '&7&oComponente'
+SUPREME_ADAMANTIUM_SHOVEL:
+  description:
+  - '&f&lO Lopată de Adamantium'
+  name: 'Lopată de Adamantium'
+  type:
+  - '&7&oUnelte'
+SUPREME_ADAMANTIUM_SWORD:
+  description:
+  - '&f&lO Sabie de Adamantium'
+  name: 'Sabie de Adamantium'
+  type:
+  - '&7&oArme'
+SUPREME_ALLOY_ADAMANTIUM:
+  name: 'Aliaj de Adamantium'
+  type:
+  - '&7&oComponente'
+SUPREME_ALLOY_AURUM:
+  name: 'Aliaj de Aurum'
+  type:
+  - '&7&oComponente'
+SUPREME_ALLOY_IRIDIUM:
+  name: 'Aliaj de Iridiu'
+  type:
+  - '&7&oComponente'
+SUPREME_ALLOY_MANGANESE:
+  name: 'Aliaj de Mangan'
+  type:
+  - '&7&oComponente'
+SUPREME_ALLOY_PLATINUM:
+  name: 'Aliaj de Platină'
+  type:
+  - '&7&oComponente'
+SUPREME_ALLOY_TITANIUM:
+  name: 'Aliaj de Titan'
+  type:
+  - '&7&oComponente'
+SUPREME_ALLOY_ZIRCONIUM:
+  name: 'Aliaj de Zirconiu'
+  type:
+  - '&7&oComponente'
+SUPREME_AQUA_GENERATOR:
+  name: 'Generator Aqua'
+  stats:
+  - '&6Generator Avansat'
+  type:
+  - '&7&oMașină'
+SUPREME_ATTRIBUTE_BOMB:
+  description:
+  - '&7Un atribut super de bombă cu efecte speciale'
+  name: 'Bombă de Atribut'
+  type:
+  - '&7&oComponente magice'
+SUPREME_ATTRIBUTE_FORTUNE:
+  description:
+  - '&7Un atribut super de noroc cu efecte speciale'
+  name: 'Atribut de Noroc'
+  type:
+  - '&7&oComponente magice'
+SUPREME_ATTRIBUTE_IMPETUS:
+  description:
+  - '&7Un atribut super de impetus cu efecte speciale'
+  name: 'Atribut Impetus'
+  type:
+  - '&7&oComponente magice'
+SUPREME_ATTRIBUTE_MAGIC:
+  description:
+  - '&7Un atribut super de magie cu efecte speciale'
+  name: 'Atribut Magic'
+  type:
+  - '&7&oComponente magice'
+SUPREME_AURUM_AXE:
+  description:
+  - '&f&lUn Topor de Aurum'
+  name: 'Topor de Aurum'
+  type:
+  - '&7&oUnelte'
+SUPREME_AURUM_BOOTS:
+  description:
+  - '&f&lNiște Cizme de Aurum'
+  name: 'Cizme de Aurum'
+  type:
+  - '&7&oArmură'
+SUPREME_AURUM_CAPACITOR:
+  name: 'Condensator de Aurum'
+  stats:
+  - '&6Condensator Avansat'
+  - '&8⇨ &e⚡ &7Capacitate 1,000,000.00 J'
+  type:
+  - '&7&oMașină'
+SUPREME_AURUM_CHESTPLATE:
+  description:
+  - '&f&lO Platoșă de Aurum'
+  name: 'Platoșă de Aurum'
+  type:
+  - '&7&oArmură'
+SUPREME_AURUM_HELMET:
+  description:
+  - '&f&lO Cască de Aurum'
+  name: 'Cască de Aurum'
+  type:
+  - '&7&oArmură'
+SUPREME_AURUM_LEGGINGS:
+  description:
+  - '&f&lNiște Jambiere de Aurum'
+  name: 'Jambiere de Aurum'
+  type:
+  - '&7&oArmură'
+SUPREME_AURUM_PICKAXE:
+  description:
+  - '&f&lUn Târnăcop de Aurum'
+  name: 'Târnăcop de Aurum'
+  type:
+  - '&7&oUnelte'
+SUPREME_AURUM_PLATE:
+  name: 'Placă de Aurum'
+  type:
+  - '&7&oComponente'
+SUPREME_AURUM_SHOVEL:
+  description:
+  - '&f&lO Lopată de Aurum'
+  name: 'Lopată de Aurum'
+  type:
+  - '&7&oUnelte'
+SUPREME_AURUM_SWORD:
+  description:
+  - '&f&lO Sabie de Aurum'
+  name: 'Sabie de Aurum'
+  type:
+  - '&7&oArme'
+SUPREME_AXE_EPIC:
+  description:
+  - '&f&lUn Topor Epic de Thornium'
+  name: 'Topor Epic'
+  type:
+  - '&7&oUnelte'
+SUPREME_AXE_LEGENDARY:
+  description:
+  - '&f&lUn Topor Legendar de Thornium'
+  name: 'Topor Legendar'
+  type:
+  - '&7&oUnelte'
+SUPREME_AXE_MAGIC:
+  description:
+  - '&f&lUn Topor Magic de Thornium'
+  name: 'Topor Magic'
+  type:
+  - '&7&oUnelte'
+SUPREME_AXE_RARE:
+  description:
+  - '&f&lUn Topor Rar de Thornium'
+  name: 'Topor Rar'
+  type:
+  - '&7&oUnelte'
+SUPREME_AXE_SUPREME:
+  description:
+  - '&f&lUn Topor Suprem de Thornium'
+  name: 'Topor Suprem'
+  type:
+  - '&7&oUnelte'
+SUPREME_AXE_THORNIUM:
+  description:
+  - '&f&lUn Topor de Thornium'
+  name: 'Topor de Thornium'
+  type:
+  - '&7&oUnelte'
+SUPREME_BASIC_AQUA_GENERATOR:
+  name: 'Generator Aqua de bază'
+  stats:
+  - '&eGenerator de bază'
+  type:
+  - '&7&oMașină'
+SUPREME_BASIC_IGNIS_GENERATOR:
+  name: 'Generator Ignis de bază'
+  stats:
+  - '&eGenerator de bază'
+  type:
+  - '&7&oMașină'
+SUPREME_BASIC_LUMIUM_GENERATOR:
+  name: 'Generator Lumium de bază'
+  stats:
+  - '&6Generator Avansat'
+  type:
+  - '&7&oMașină'
+SUPREME_BASIC_LUX_GENERATOR:
+  name: 'Generator Lux de bază'
+  stats:
+  - '&eGenerator de bază'
+  type:
+  - '&7&oMașină'
+SUPREME_BASIC_VENTUS_GENERATOR:
+  name: 'Generator Ventus de bază'
+  stats:
+  - '&eGenerator de bază'
+  type:
+  - '&7&oMașină'
+SUPREME_BLEND_MACHINE:
+  name: 'Mașină de Amestecare'
+  type:
+  - '&7&oComponente avansate'
+SUPREME_BOOTS_EPIC:
+  description:
+  - '&f&lNiște Cizme Epice de Thornium'
+  name: 'Cizme Epice'
+  type:
+  - '&7&oArmură'
+SUPREME_BOOTS_LEGENDARY:
+  description:
+  - '&f&lNiște Cizme Legendare de Thornium'
+  name: 'Cizme Legendare'
+  type:
+  - '&7&oArmură'
+SUPREME_BOOTS_MAGIC:
+  description:
+  - '&f&lNiște Cizme Magice de Thornium'
+  name: 'Cizme Magice'
+  type:
+  - '&7&oArmură'
+SUPREME_BOOTS_RARE:
+  description:
+  - '&f&lNiște Cizme Rare de Thornium'
+  name: 'Cizme Rare'
+  type:
+  - '&7&oArmură'
+SUPREME_BOOTS_SUPREME:
+  description:
+  - '&f&lNiște Cizme Supreme de Thornium'
+  name: 'Cizme Supreme'
+  type:
+  - '&7&oArmură'
+SUPREME_BOOTS_THORNIUM:
+  description:
+  - '&f&lNiște Cizme de Thornium'
+  name: 'Cizme de Thornium'
+  type:
+  - '&7&oArmură'
+SUPREME_BOW_EPIC:
+  description:
+  - '&f&lUn Arc Epic de Thornium'
+  name: 'Arc Epic'
+  type:
+  - '&7&oArme'
+SUPREME_BOW_LEGENDARY:
+  description:
+  - '&f&lUn Arc Legendar de Thornium'
+  name: 'Arc Legendar'
+  type:
+  - '&7&oArme'
+SUPREME_BOW_MAGIC:
+  description:
+  - '&f&lUn Arc Magic de Thornium'
+  name: 'Arc Magic'
+  type:
+  - '&7&oArme'
+SUPREME_BOW_RARE:
+  description:
+  - '&f&lUn Arc Rar de Thornium'
+  name: 'Arc Rar'
+  type:
+  - '&7&oArme'
+SUPREME_BOW_SUPREME:
+  description:
+  - '&f&lUn Arc Suprem de Thornium'
+  name: 'Arc Suprem'
+  type:
+  - '&7&oArme'
+SUPREME_BOW_THORNIUM:
+  description:
+  - '&f&lUn Arc de Thornium'
+  name: 'Arc de Thornium'
+  type:
+  - '&7&oArme'
+SUPREME_CARD_ALUMINUM_BRASS:
+  description:
+  - '&fSchimbă Producția la Lingou de Alamă cu Aluminiu'
+  name: "Card de Mașină (Lingou de Alamă cu Aluminiu)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_ALUMINUM_BRONZE:
+  description:
+  - '&fSchimbă Producția la Lingou de Bronz cu Aluminiu'
+  name: "Card de Mașină (Lingou de Bronz cu Aluminiu)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_ALUMINUM_DUST:
+  description:
+  - '&fSchimbă Producția la Praf de Aluminiu'
+  name: "Card de Mașină (Praf de Aluminiu)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_AMETHYST:
+  description:
+  - '&fSchimbă Producția la Ametist'
+  name: "Card de Mașină (Ametist)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_ANDESITE:
+  description:
+  - '&fSchimbă Producția la Andezit'
+  name: "Card de Mașină (Andezit)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_APPLE:
+  description:
+  - '&fSchimbă Producția la Măr'
+  name: "Card de Mașină (Măr)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_BATTERY:
+  description:
+  - '&fSchimbă Producția la Baterie'
+  name: "Card de Mașină (Baterie)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_BILLON:
+  description:
+  - '&fSchimbă Producția la Lingou de Billon'
+  name: "Card de Mașină (Lingou de Billon)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_BLAZE_ROD:
+  description:
+  - '&fSchimbă Producția la Vergea de Blaze'
+  name: "Card de Mașină (Vergea de Blaze)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_BRASS:
+  description:
+  - '&fSchimbă Producția la Lingou de Alamă'
+  name: "Card de Mașină (Lingou de Alamă)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_BRONZE:
+  description:
+  - '&fSchimbă Producția la Lingou de Bronz'
+  name: "Card de Mașină (Lingou de Bronz)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_CARBON:
+  description:
+  - '&fSchimbă Producția la Carbon'
+  name: "Card de Mașină (Carbon)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_CARBONADO:
+  description:
+  - '&fSchimbă Producția la Carbonado'
+  name: "Card de Mașină (Carbonado)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_CARBON_PRESS:
+  description:
+  - '&fSchimbă Producția la Carbon Comprimat'
+  name: "Card de Mașină (Carbon Comprimat)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_CLAY:
+  description:
+  - '&fSchimbă Producția la Lut'
+  name: "Card de Mașină (Lut)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_COAL:
+  description:
+  - '&fSchimbă Producția la Cărbune'
+  name: "Card de Mașină (Cărbune)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_COBALT:
+  description:
+  - '&fSchimbă Producția la Cobalt'
+  name: "Card de Mașină (Cobalt)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_COPPER:
+  description:
+  - '&fSchimbă Producția la Cupru'
+  name: "Card de Mașină (Cupru)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_COPPER_DUST:
+  description:
+  - '&fSchimbă Producția la Praf de Cupru'
+  name: "Card de Mașină (Praf de Cupru)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_CORINTHIAN_BRONZE:
+  description:
+  - '&fSchimbă Producția la Lingou de Bronz Corintic'
+  name: "Card de Mașină (Lingou de Bronz Corintic)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_DAMASCUS:
+  description:
+  - '&fSchimbă Producția la Damasc'
+  name: "Card de Mașină (Damasc)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_DIAMOND:
+  description:
+  - '&fSchimbă Producția la Diamant'
+  name: "Card de Mașină (Diamant)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_DIORITE:
+  description:
+  - '&fSchimbă Producția la Diorit'
+  name: "Card de Mașină (Diorit)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_DURALUMIN:
+  description:
+  - '&fSchimbă Producția la Lingou de Duraluminiu'
+  name: "Card de Mașină (Lingou de Duraluminiu)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_ELECTRIC_MOTOR:
+  description:
+  - '&fSchimbă Producția la Motor Electric'
+  name: "Card de Mașină (Motor Electric)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_ELECTRO_MAGNET:
+  description:
+  - '&fSchimbă Producția la Electromagnet'
+  name: "Card de Mașină (Electromagnet)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_EMERALD:
+  description:
+  - '&fSchimbă Producția la Smarald'
+  name: "Card de Mașină (Smarald)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_ENDSTONE:
+  description:
+  - '&fSchimbă Producția la Piatră de End'
+  name: "Card de Mașină (Piatră de End)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_FERROSILICON:
+  description:
+  - '&fSchimbă Producția la Ferosiliciu'
+  name: "Card de Mașină (Ferosiliciu)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_GLOW_INK_SAC:
+  description:
+  - '&fSchimbă Producția la Sac de Cerneală Strălucitoare'
+  name: "Card de Mașină (Sac de Cerneală Strălucitoare)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_GOLD:
+  description:
+  - '&fSchimbă Producția la Aur'
+  name: "Card de Mașină (Aur)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_GOLD24K:
+  description:
+  - '&fSchimbă Producția la Aur 24k'
+  name: "Card de Mașină (Aur 24k)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_GOLD_DUST:
+  description:
+  - '&fSchimbă Producția la Praf de Aur'
+  name: "Card de Mașină (Praf de Aur)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_GRANITE:
+  description:
+  - '&fSchimbă Producția la Granit'
+  name: "Card de Mașină (Granit)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_GRAVEL:
+  description:
+  - '&fSchimbă Producția la Pietriș'
+  name: "Card de Mașină (Pietriș)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_HARDENED_METAL:
+  description:
+  - '&fSchimbă Producția la Lingou de Metal Întărit'
+  name: "Card de Mașină (Lingou de Metal Întărit)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_HEATING_COIL:
+  description:
+  - '&fSchimbă Producția la Bobină de Încălzire'
+  name: "Card de Mașină (Bobină de Încălzire)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_HONEY_BOTTLE:
+  description:
+  - '&fSchimbă Producția la Sticlă de Miere'
+  name: "Card de Mașină (Sticlă de Miere)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_INK_SAC:
+  description:
+  - '&fSchimbă Producția la Sac de Cerneală'
+  name: "Card de Mașină (Sac de Cerneală)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_IRON:
+  description:
+  - '&fSchimbă Producția la Fier'
+  name: "Card de Mașină (Fier)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_IRON_DUST:
+  description:
+  - '&fSchimbă Producția la Praf de Fier'
+  name: "Card de Mașină (Praf de Fier)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_LAPIS:
+  description:
+  - '&fSchimbă Producția la Lapis'
+  name: "Card de Mașină (Lapis)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_LEAD_DUST:
+  description:
+  - '&fSchimbă Producția la Praf de Plumb'
+  name: "Card de Mașină (Praf de Plumb)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_MAGNESIUM_DUST:
+  description:
+  - '&fSchimbă Producția la Praf de Magneziu'
+  name: "Card de Mașină (Praf de Magneziu)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_MAGNET:
+  description:
+  - '&fSchimbă Producția la Magnet'
+  name: "Card de Mașină (Magnet)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_NETHERITE:
+  description:
+  - '&fSchimbă Producția la Netherite'
+  name: "Card de Mașină (Netherite)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_NETHER_STAR:
+  description:
+  - '&fSchimbă Producția la Stea de Nether'
+  name: "Card de Mașină (Stea de Nether)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_NICKEL:
+  description:
+  - '&fSchimbă Producția la Nichel'
+  name: "Card de Mașină (Nichel)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_PLASTIC_SHEET:
+  description:
+  - '&fSchimbă Producția la Foaie de Plastic'
+  name: "Card de Mașină (Foaie de Plastic)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_QUARTZ:
+  description:
+  - '&fSchimbă Producția la Cuarț'
+  name: "Card de Mașină (Cuarț)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_QUARTZ_BLOCK:
+  description:
+  - '&fSchimbă Producția la Bloc de Cuarț'
+  name: "Card de Mașină (Bloc de Cuarț)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_REDSTONE:
+  description:
+  - '&fSchimbă Producția la Redstone'
+  name: "Card de Mașină (Redstone)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_REDSTONE_ALLOY:
+  description:
+  - '&fSchimbă Producția la Aliaj de Redstone'
+  name: "Card de Mașină (Aliaj de Redstone)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_REINFORCED_ALLOY:
+  description:
+  - '&fSchimbă Producția la Lingou de Aliaj Întărit'
+  name: "Card de Mașină (Lingou de Aliaj Întărit)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_SAND:
+  description:
+  - '&fSchimbă Producția la Nisip'
+  name: "Card de Mașină (Nisip)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_SILICON:
+  description:
+  - '&fSchimbă Producția la Siliciu'
+  name: "Card de Mașină (Siliciu)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_SILVER_DUST:
+  description:
+  - '&fSchimbă Producția la Praf de Argint'
+  name: "Card de Mașină (Praf de Argint)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_SLIME_BALL:
+  description:
+  - '&fSchimbă Producția la Bulgăre de Slime'
+  name: "Card de Mașină (Bulgăre de Slime)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_SNOW:
+  description:
+  - '&fSchimbă Producția la Zăpadă'
+  name: "Card de Mașină (Zăpadă)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_SOLDER:
+  description:
+  - '&fSchimbă Producția la Lingou de Fludor'
+  name: "Card de Mașină (Lingou de Fludor)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_STEEL:
+  description:
+  - '&fSchimbă Producția la Oțel'
+  name: "Card de Mașină (Oțel)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_STONE:
+  description:
+  - '&fSchimbă Producția la Piatră'
+  name: "Card de Mașină (Piatră)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_SULFATE:
+  description:
+  - '&fSchimbă Producția la Sulfat'
+  name: "Card de Mașină (Sulfat)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_SYNTHETIC_DIAMOND:
+  description:
+  - '&fSchimbă Producția la Diamant Sintetic'
+  name: "Card de Mașină (Diamant Sintetic)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_SYNTHETIC_EMERALD:
+  description:
+  - '&fSchimbă Producția la Smarald Sintetic'
+  name: "Card de Mașină (Smarald Sintetic)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_SYNTHETIC_SAPPHIRE:
+  description:
+  - '&fSchimbă Producția la Safir Sintetic'
+  name: "Card de Mașină (Safir Sintetic)"
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_TIN_DUST:
+  description:
+  - '&fSchimbă Producția la Praf de Staniu'
+  name: "Card de Mașină (Praf de Staniu)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_WITHER_ROSE:
+  description:
+  - '&fSchimbă Producția la Trandafir Wither'
+  name: "Card de Mașină (Trandafir Wither)"
+  stats:
+  - '&eMașină de bază'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARD_ZINC_DUST:
+  description:
+  - '&fSchimbă Producția la Praf de Zinc'
+  name: "Card de Mașină (Praf de Zinc)"
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oComponentă'
+SUPREME_CARRIAGE_MACHINE:
+  name: 'Mașină de Transport'
+  type:
+  - '&7&oComponente avansate'
+SUPREME_CENTER_CARD_ADVANCED:
+  description:
+  - '&fComponentă pentru Mașină pentru a produce obiecte'
+  name: 'Componentă Avansată pentru Card'
+  type:
+  - '&7&oComponentă'
+SUPREME_CENTER_CARD_SIMPLE:
+  description:
+  - '&fComponentă pentru Mașină pentru a produce obiecte'
+  name: 'Componentă de bază pentru Card'
+  type:
+  - '&7&oComponentă'
+SUPREME_CENTER_CARD_ULTIMATE:
+  description:
+  - '&fComponentă pentru Mașină pentru a produce obiecte'
+  name: 'Componentă Finală pentru Card'
+  type:
+  - '&7&oComponentă'
+SUPREME_CETRUS_AQUA:
+  description:
+  - '&7Un sceptru super de Aqua'
+  name: 'Cetrus Aqua'
+  type:
+  - '&7&oComponente magice'
+SUPREME_CETRUS_IGNIS:
+  description:
+  - '&7Un sceptru super de Ignis'
+  name: 'Cetrus Ignis'
+  type:
+  - '&7&oComponente magice'
+SUPREME_CETRUS_LUMIUM:
+  description:
+  - '&7Un sceptru super de Lumium'
+  name: 'Cetrus Lumium'
+  type:
+  - '&7&oComponente magice'
+SUPREME_CETRUS_LUX:
+  description:
+  - '&7Un sceptru super de Lux'
+  name: 'Cetrus Lux'
+  type:
+  - '&7&oComponente magice'
+SUPREME_CETRUS_VENTUS:
+  description:
+  - '&7Un sceptru super de Ventus'
+  name: 'Cetrus Ventus'
+  type:
+  - '&7&oComponente magice'
+SUPREME_CHECK_INVENTORY:
+  description:
+  - '&fVerifică dacă cufărul din apropiere are obiectul-filtru'
+  - '&ftoate fețele sunt luate în considerare (găsește primul)'
+  - '&fdacă este găsit, acest bloc se va aprinde'
+  name: "Verificator de Inventar"
+  stats:
+  - '&6Mașină Avansată'
+  - '&8⇨ &b⚡ &7Viteză: &b1.0x'
+  type:
+  - '&7&oMașină'
+SUPREME_CHESTPLATE_EPIC:
+  description:
+  - '&f&lO Platoșă Epică de Thornium'
+  name: 'Platoșă Epică'
+  type:
+  - '&7&oArmură'
+SUPREME_CHESTPLATE_LEGENDARY:
+  description:
+  - '&f&lO Platoșă Legendară de Thornium'
+  name: 'Platoșă Legendară'
+  type:
+  - '&7&oArmură'
+SUPREME_CHESTPLATE_MAGIC:
+  description:
+  - '&f&lO Platoșă Magică de Thornium'
+  name: 'Platoșă Magică'
+  type:
+  - '&7&oArmură'
+SUPREME_CHESTPLATE_RARE:
+  description:
+  - '&f&lO Platoșă Rară de Thornium'
+  name: 'Platoșă Rară'
+  type:
+  - '&7&oArmură'
+SUPREME_CHESTPLATE_SUPREME:
+  description:
+  - '&f&lO Platoșă Supremă de Thornium'
+  name: 'Platoșă Supremă'
+  type:
+  - '&7&oArmură'
+SUPREME_CHESTPLATE_THORNIUM:
+  description:
+  - '&f&lO Platoșă de Thornium'
+  name: 'Platoșă de Thornium'
+  type:
+  - '&7&oArmură'
+SUPREME_COAL_QUARRY:
+  name: 'Carieră de Cărbune'
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oMașină'
+SUPREME_CONVEYANCE_MACHINE:
+  name: 'Mașină de Transfer'
+  type:
+  - '&7&oComponente avansate'
+SUPREME_CORE_ACACIA_LOG:
+  description:
+  - '&7Super acacia'
+  name: 'Buștean de Acacia Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_ANDESITE:
+  description:
+  - '&7Super andezit'
+  name: 'Andezit Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_APPLE:
+  description:
+  - '&7Super măr'
+  name: 'Măr Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_BEEF:
+  description:
+  - '&7Super carne de vită'
+  name: 'Carne de Vită Supremă'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_BEETROOT:
+  description:
+  - '&7Super sfeclă'
+  name: 'Sfeclă Supremă'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_BIRCH_LOG:
+  description:
+  - '&7Super mesteacăn'
+  name: 'Buștean de Mesteacăn Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_BLACK:
+  description:
+  - '&7Super negru'
+  name: 'Negru Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_BLUE:
+  description:
+  - '&7Super albastru'
+  name: 'Albastru Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_CARROT:
+  description:
+  - '&7Un Morcov Suprem'
+  name: 'Morcov Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_CHICKEN:
+  description:
+  - '&7Super pui'
+  name: 'Pui Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_CLAY:
+  description:
+  - '&7Super lut'
+  name: 'Lut Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_COAL:
+  description:
+  - '&7Super cărbune'
+  name: 'Cărbune Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_COD:
+  description:
+  - '&7Super cod'
+  name: 'Cod Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_CRIMSON_STEM:
+  description:
+  - '&7Super crimson'
+  name: 'Tulpină Crimson Supremă'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_CYAN:
+  description:
+  - '&7Super cyan'
+  name: 'Cyan Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_DARK_OAK_LOG:
+  description:
+  - '&7Super stejar închis'
+  name: 'Buștean de Stejar Închis Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_DIAMOND:
+  description:
+  - '&7Super diamant'
+  name: 'Diamant Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_DIORITE:
+  description:
+  - '&7Super diorit'
+  name: 'Diorit Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_EMERALD:
+  description:
+  - '&7Super smarald'
+  name: 'Smarald Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_ENDSTONE:
+  description:
+  - '&7Super piatră de End'
+  name: 'Piatră de End Supremă'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_GOLD:
+  description:
+  - '&7Super aur'
+  name: 'Aur Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_GRANITE:
+  description:
+  - '&7Super granit'
+  name: 'Granit Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_GRAVEL:
+  description:
+  - '&7Super pietriș'
+  name: 'Pietriș Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_GRAY:
+  description:
+  - '&7Super gri'
+  name: 'Gri Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_GREEN:
+  description:
+  - '&7Super verde'
+  name: 'Verde Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_IRON:
+  description:
+  - '&7Super fier'
+  name: 'Fier Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_JUNGLE_LOG:
+  description:
+  - '&7Super junglă'
+  name: 'Buștean de Junglă Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_LAPIS:
+  description:
+  - '&7Super lapis'
+  name: 'Lapis Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_MELON:
+  description:
+  - '&7Super pepene'
+  name: 'Pepene Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_MUTTON:
+  description:
+  - '&7Super carne de oaie'
+  name: 'Carne de Oaie Supremă'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_NETHERITE:
+  description:
+  - '&7Super netherite'
+  name: 'Netherite Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_OAK_LOG:
+  description:
+  - '&7Super stejar'
+  name: 'Buștean de Stejar Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_OF_ALLOY:
+  description:
+  - '&7Acest nucleu conține mai multe minereuri'
+  - '&7care au fost colectate în toată lumea.'
+  name: 'Nucleu de Aliaj'
+  type:
+  - '&7&oComponente magice'
+SUPREME_CORE_OF_BLOCK:
+  description:
+  - '&7Acest nucleu conține mai multe blocuri'
+  - '&7care au fost colectate în toată lumea.'
+  name: 'Nucleu de Bloc'
+  type:
+  - '&7&oComponente magice'
+SUPREME_CORE_OF_COLOR:
+  description:
+  - '&7Acest nucleu conține mai multe culori'
+  - '&7care au fost colectate în toată lumea.'
+  name: 'Nucleu de Culoare'
+  type:
+  - '&7&oComponente magice'
+SUPREME_CORE_OF_DEATH:
+  description:
+  - '&7Acest nucleu conține sufletele unor '
+  - '&7diverse entități care au trecut dincolo.'
+  name: 'Nucleu al Morții'
+  type:
+  - '&7&oComponente magice'
+SUPREME_CORE_OF_LIFE:
+  description:
+  - '&7Acest nucleu conține fragmente de viață'
+  - '&7care au fost colectate de lume.'
+  name: 'Nucleu al Vieții'
+  type:
+  - '&7&oComponente magice'
+SUPREME_CORE_OF_NATURE:
+  description:
+  - '&7Acest nucleu conține mai multe elemente naturale'
+  - '&7care au fost colectate în toată lumea.'
+  name: 'Nucleu al Naturii'
+  type:
+  - '&7&oComponente magice'
+SUPREME_CORE_PINK:
+  description:
+  - '&7Super roz'
+  name: 'Roz Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_PORKCHOP:
+  description:
+  - '&7Super bacon'
+  name: "Cotlet de Porc Suprem"
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_POTATO:
+  description:
+  - '&7Super cartof'
+  name: 'Cartof Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_PUMPKIN:
+  description:
+  - '&7Super dovleac'
+  name: 'Dovleac Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_PURPLE:
+  description:
+  - '&7Super mov'
+  name: 'Mov Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_QUARTZ:
+  description:
+  - '&7Super cuarț'
+  name: 'Cuarț Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_RED:
+  description:
+  - '&7Super roșu'
+  name: 'Roșu Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_REDSTONE:
+  description:
+  - '&7Super redstone'
+  name: 'Redstone Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_SALMON:
+  description:
+  - '&7Super somon'
+  name: 'Somon Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_SAND:
+  description:
+  - '&7Super nisip'
+  name: 'Nisip Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_SNOW:
+  description:
+  - '&7Super zăpadă'
+  name: 'Zăpadă Supremă'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_SPIDER_EYE:
+  description:
+  - '&7Super ochi'
+  name: "Ochi de Păianjen Suprem"
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_SPRUCE_LOG:
+  description:
+  - '&7Super molid'
+  name: 'Buștean de Molid Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_STONE:
+  description:
+  - '&7Super piatră spartă'
+  name: 'Piatră Spartă Supremă'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_STRING:
+  description:
+  - '&7Super lesă'
+  name: "Ață Supremă"
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_SUGAR_CANE:
+  description:
+  - '&7Super trestie de zahăr'
+  name: 'Trestie de Zahăr Supremă'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_SWEET_BERRIES:
+  description:
+  - '&7Super fructe de pădure'
+  name: 'Fructe de Pădure Dulci Supreme'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_TEAR:
+  description:
+  - '&7Super lacrimă'
+  name: "Lacrimă de Ghast Supremă"
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_WARPED_STEM:
+  description:
+  - '&7Super warped'
+  name: 'Tulpină Warped Supremă'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_WHEAT:
+  description:
+  - '&7Super grâu'
+  name: 'Grâu Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_WITHER_ROSE:
+  description:
+  - '&7Super trandafir'
+  name: 'Trandafir Wither Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CORE_YELLOW:
+  description:
+  - '&7Super galben'
+  name: 'Galben Suprem'
+  type:
+  - '&7&oComponente de bază'
+SUPREME_CRYSTALLIZER_MACHINE:
+  name: 'Mașină de Cristalizare'
+  type:
+  - '&7&oComponente avansate'
+SUPREME_DIAMOND_QUARRY:
+  name: 'Carieră de Diamant'
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oMașină'
+SUPREME_DUST_AMETHYST:
+  name: 'Praf de Ametist'
+  type:
+  - '&7&oComponentă'
+SUPREME_DUST_GLOW_INK:
+  name: 'Praf de Cerneală Strălucitoare'
+  type:
+  - '&7&oComponentă'
+SUPREME_DUST_NETHERITE:
+  name: 'Praf de Netherite'
+  type:
+  - '&7&oComponentă'
+SUPREME_ELECTRIC_CORE_I:
+  description:
+  - '&fFabricare de resursă de nucleu'
+  name: 'Mașină Electrică de Nucleu'
+  stats:
+  - '&6Mașină Avansată'
+  - '&8⇨ &b⚡ &7Viteză: &b1.0x'
+  type:
+  - '&7&oMașină'
+SUPREME_ELECTRIC_CORE_II:
+  description:
+  - '&fFabricare avansată de resursă de nucleu'
+  name: 'Mașină Electrică de Nucleu II'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b5.0x'
+  type:
+  - '&7&oMașină'
+SUPREME_ELECTRIC_CORE_III:
+  description:
+  - '&fFabricare avansată de resursă de nucleu'
+  name: 'Mașină Electrică de Nucleu III'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b15.0x'
+  type:
+  - '&7&oMașină'
+SUPREME_ELECTRIC_CRAFTER_I:
+  description:
+  - '&fFabrică Obiecte'
+  name: 'Fabricator Electric'
+  stats:
+  - '&6Mașină Avansată'
+  - '&8⇨ &b⚡ &7Viteză: &b1.0x'
+  type:
+  - '&7&oMașină'
+SUPREME_ELECTRIC_CRAFTER_II:
+  description:
+  - '&fFabricare Avansată de Obiecte'
+  name: 'Fabricator Electric II'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b5.0x'
+  type:
+  - '&7&oMașină'
+SUPREME_ELECTRIC_CRAFTER_III:
+  description:
+  - '&fFabricare Avansată de Obiecte'
+  name: 'Fabricator Electric III'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b15.0x'
+  type:
+  - '&7&oMașină'
+SUPREME_ELECTRIC_GEAR_I:
+  description:
+  - '&fFabricare de nivel de echipament'
+  name: 'Mașină Electrică de Echipament'
+  stats:
+  - '&6Mașină Avansată'
+  - '&8⇨ &b⚡ &7Viteză: &b1.0x'
+  type:
+  - '&7&oMașină'
+SUPREME_ELECTRIC_GEAR_II:
+  description:
+  - '&fFabricare avansată de nivel de echipament'
+  name: 'Mașină Electrică de Echipament II'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b5.0x'
+  type:
+  - '&7&oMașină'
+SUPREME_ELECTRIC_GEAR_III:
+  description:
+  - '&fFabricare avansată de nivel de echipament'
+  name: 'Mașină Electrică de Echipament III'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b15.0x'
+  type:
+  - '&7&oMașină'
+SUPREME_ELECTRIC_ITEM:
+  name: "Electrice"
+  type:
+  - '&7&oDiverse'
+SUPREME_ELECTRIC_MAGICAL_I:
+  description:
+  - '&fFabricare de resursă magică'
+  name: 'Mașină Electrică Magică'
+  stats:
+  - '&6Mașină Avansată'
+  - '&8⇨ &b⚡ &7Viteză: &b1.0x'
+  type:
+  - '&7&oMașină'
+SUPREME_ELECTRIC_MAGICAL_II:
+  description:
+  - '&fFabricare avansată de resursă magică'
+  name: 'Mașină Electrică Magică II'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b5.0x'
+  type:
+  - '&7&oMașină'
+SUPREME_ELECTRIC_MAGICAL_III:
+  description:
+  - '&fFabricare avansată de resursă magică'
+  name: 'Mașină Electrică Magică III'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b15.0x'
+  type:
+  - '&7&oMașină'
+SUPREME_EMPTY_MOBTECH:
+  name: 'MobTech Gol'
+  type:
+  - '&7&oComponentă'
+SUPREME_FORGE_INGOT_I:
+  description:
+  - '&fAceastă mașină îți permite să'
+  - '&fforjezi resurse de lingouri.'
+  name: 'Forjă de Lingouri'
+  stats:
+  - '&6Mașină Avansată'
+  - '&8⇨ &b⚡ &7Viteză: &b1.0x'
+  - '&8⇨ &e⚡ &7Tampon 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMașină'
+SUPREME_FORGE_INGOT_II:
+  description:
+  - '&fAceastă mașină îți permite să'
+  - '&fforjezi resurse de lingouri.'
+  name: 'Forjă de Lingouri II'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b5.0x'
+  - '&8⇨ &e⚡ &7Tampon 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMașină'
+SUPREME_FORGE_INGOT_III:
+  description:
+  - '&fAceastă mașină îți permite să'
+  - '&fforjezi resurse de lingouri.'
+  name: 'Forjă de Lingouri III'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b15.0x'
+  - '&8⇨ &e⚡ &7Tampon 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMașină'
+SUPREME_FORGE_MAGICAL_I:
+  description:
+  - '&fAceastă mașină îți permite să'
+  - '&fforjezi resurse magice.'
+  name: 'Forjă Magică'
+  stats:
+  - '&6Mașină Avansată'
+  - '&8⇨ &b⚡ &7Viteză: &b1.0x'
+  - '&8⇨ &e⚡ &7Tampon 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMașină'
+SUPREME_FORGE_MAGICAL_II:
+  description:
+  - '&fAceastă mașină îți permite să'
+  - '&fforjezi resurse magice.'
+  name: 'Forjă Magică II'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b5.0x'
+  - '&8⇨ &e⚡ &7Tampon 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMașină'
+SUPREME_FORGE_MAGICAL_III:
+  description:
+  - '&fAceastă mașină îți permite să'
+  - '&fforjezi resurse magice.'
+  name: 'Forjă Magică III'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b15.0x'
+  - '&8⇨ &e⚡ &7Tampon 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMașină'
+SUPREME_FOUNDRY_I:
+  description:
+  - '&fObiecte de Turnătorie și Sintetizator'
+  name: 'Turnătorie'
+  stats:
+  - '&6Mașină Avansată'
+  - '&8⇨ &b⚡ &7Viteză: &b1.0x'
+  type:
+  - '&7&oMașină'
+SUPREME_FOUNDRY_II:
+  description:
+  - '&fObiecte Avansate de Turnătorie și Sintetizator'
+  name: 'Turnătorie II'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b5.0x'
+  type:
+  - '&7&oMașină'
+SUPREME_FOUNDRY_III:
+  description:
+  - '&fObiecte Avansate de Turnătorie și Sintetizator'
+  name: 'Turnătorie III'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b15.0x'
+  type:
+  - '&7&oMașină'
+SUPREME_GENERATOR_MOB_ADVANCED:
+  name: 'Generator Mob Avansat'
+  stats:
+  - '&eGenerator de bază'
+  type:
+  - '&7&oMașină'
+SUPREME_GENERATOR_MOB_BASIC:
+  name: 'Generator Mob de bază'
+  stats:
+  - '&eGenerator de bază'
+  type:
+  - '&7&oMașină'
+SUPREME_GENERATOR_MOB_MEDIUM:
+  name: 'Generator Mob Mediu'
+  stats:
+  - '&eGenerator de bază'
+  type:
+  - '&7&oMașină'
+SUPREME_GENE_BERSERK:
+  name: 'Genă Berserk'
+  type:
+  - '&7&oComponentă'
+SUPREME_GENE_INTELLIGENCE:
+  name: 'Genă de Inteligență'
+  type:
+  - '&7&oComponentă'
+SUPREME_GENE_LUCK:
+  name: 'Genă de Noroc'
+  type:
+  - '&7&oComponentă'
+SUPREME_GOLD_QUARRY:
+  name: 'Carieră de Aur'
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oMașină'
+SUPREME_HELMET_EPIC:
+  description:
+  - '&f&lO Cască Epică de Thornium'
+  name: 'Cască Epică'
+  type:
+  - '&7&oArmură'
+SUPREME_HELMET_LEGENDARY:
+  description:
+  - '&f&lO Cască Legendară de Thornium'
+  name: 'Cască Legendară'
+  type:
+  - '&7&oArmură'
+SUPREME_HELMET_MAGIC:
+  description:
+  - '&f&lO Cască Magică de Thornium'
+  name: 'Cască Magică'
+  type:
+  - '&7&oArmură'
+SUPREME_HELMET_RARE:
+  description:
+  - '&f&lO Cască Rară de Thornium'
+  name: 'Cască Rară'
+  type:
+  - '&7&oArmură'
+SUPREME_HELMET_SUPREME:
+  description:
+  - '&f&lO Cască Supremă de Thornium'
+  name: 'Cască Supremă'
+  type:
+  - '&7&oArmură'
+SUPREME_HELMET_THORNIUM:
+  description:
+  - '&f&lO Cască de Thornium'
+  name: 'Cască de Thornium'
+  type:
+  - '&7&oArmură'
+SUPREME_IGNIS_GENERATOR:
+  name: 'Generator Ignis'
+  stats:
+  - '&6Generator Avansat'
+  type:
+  - '&7&oMașină'
+SUPREME_INDUCTIVE_MACHINE:
+  name: 'Mașină Inductivă'
+  type:
+  - '&7&oComponente avansate'
+SUPREME_INDUCTOR_MACHINE:
+  name: 'Mașină Inductor'
+  type:
+  - '&7&oComponente avansate'
+SUPREME_IRIDIUM_PLATE:
+  name: 'Placă de Iridiu'
+  type:
+  - '&7&oComponente'
+SUPREME_IRON_QUARRY:
+  name: 'Carieră de Fier'
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oMașină'
+SUPREME_LEGGINGS_EPIC:
+  description:
+  - '&f&lNiște Jambiere Epice de Thornium'
+  name: 'Jambiere Epice'
+  type:
+  - '&7&oArmură'
+SUPREME_LEGGINGS_LEGENDARY:
+  description:
+  - '&f&lNiște Jambiere Legendare de Thornium'
+  name: 'Jambiere Legendare'
+  type:
+  - '&7&oArmură'
+SUPREME_LEGGINGS_MAGIC:
+  description:
+  - '&f&lNiște Jambiere Magice de Thornium'
+  name: 'Jambiere Magice'
+  type:
+  - '&7&oArmură'
+SUPREME_LEGGINGS_RARE:
+  description:
+  - '&f&lNiște Jambiere Rare de Thornium'
+  name: 'Jambiere Rare'
+  type:
+  - '&7&oArmură'
+SUPREME_LEGGINGS_SUPREME:
+  description:
+  - '&f&lNiște Jambiere Supreme de Thornium'
+  name: 'Jambiere Supreme'
+  type:
+  - '&7&oArmură'
+SUPREME_LEGGINGS_THORNIUM:
+  description:
+  - '&f&lNiște Jambiere de Thornium'
+  name: 'Jambiere de Thornium'
+  type:
+  - '&7&oArmură'
+SUPREME_LUMIUM_GENERATOR:
+  name: 'Generator Lumium'
+  stats:
+  - '&6Generator Avansat'
+  type:
+  - '&7&oMașină'
+SUPREME_LUX_GENERATOR:
+  name: 'Generator Lux'
+  stats:
+  - '&6Generator Avansat'
+  type:
+  - '&7&oMașină'
+SUPREME_MAGIC_ALTAR_I:
+  description:
+  - '&fFabrică Rune și Obiecte Magice'
+  name: 'Altar Magic'
+  stats:
+  - '&6Mașină Avansată'
+  - '&8⇨ &b⚡ &7Viteză: &b1.0x'
+  type:
+  - '&7&oMașină'
+SUPREME_MAGIC_ALTAR_II:
+  description:
+  - '&fFabricare Avansată de Rune și Obiecte Magice'
+  name: 'Altar Magic II'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b5.0x'
+  type:
+  - '&7&oMașină'
+SUPREME_MAGIC_ALTAR_III:
+  description:
+  - '&fFabricare Avansată de Rune și Obiecte Magice'
+  name: 'Altar Magic III'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b15.0x'
+  type:
+  - '&7&oMașină'
+SUPREME_MAIN_ITEM:
+  name: "Supreme"
+  type:
+  - '&7&oDiverse'
+SUPREME_MANGANESE_PLATE:
+  name: 'Placă de Mangan'
+  type:
+  - '&7&oComponente'
+SUPREME_MOB_COLLECTOR_MACHINE_I:
+  description:
+  - '&fAceastă mașină îți permite să colectezi '
+  - '&fobiecte de la mobi din apropiere. (4 blocuri)'
+  name: 'Colector de Mobi'
+  stats:
+  - '&6Mașină Avansată'
+  - '&8⇨ &b⚡ &7Viteză: &b1.0x'
+  - '&8⇨ &e⚡ &7Tampon 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMașină'
+SUPREME_MOB_COLLECTOR_MACHINE_II:
+  description:
+  - '&fAceastă mașină îți permite să colectezi'
+  - '&f obiecte de la mobi din apropiere. (8 blocuri)'
+  name: 'Colector de Mobi II'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b5.0x'
+  - '&8⇨ &e⚡ &7Tampon 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMașină'
+SUPREME_MOB_COLLECTOR_MACHINE_III:
+  description:
+  - '&fAceastă mașină îți permite să colectezi'
+  - '&f obiecte de la mobi din apropiere. (16 blocuri)'
+  name: 'Colector de Mobi III'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b15.0x'
+  - '&8⇨ &e⚡ &7Tampon 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMașină'
+SUPREME_MOB_COLLECTOR_TOOL_I:
+  name: "Colector MobTech I (Unealtă)"
+  stats:
+  - '&8⇨ &e⚡ &750 J per utilizare'
+  type:
+  - '&7&oUnelte'
+SUPREME_MOB_COLLECTOR_TOOL_II:
+  name: "Colector MobTech II (Unealtă)"
+  stats:
+  - '&8⇨ &e⚡ &750 J per utilizare'
+  type:
+  - '&7&oUnelte'
+SUPREME_MOB_COLLECTOR_TOOL_III:
+  name: "Colector MobTech III (Unealtă)"
+  stats:
+  - '&8⇨ &e⚡ &750 J per utilizare'
+  type:
+  - '&7&oUnelte'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_II:
+  description:
+  - '&fAceastă mașină îți permite să colectezi '
+  - '&fCapete MobTech de la mobi din apropiere. (6 blocuri)'
+  name: 'Colector MobTech II'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b1.0x'
+  - '&8⇨ &e⚡ &7Tampon 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMașină'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_III:
+  description:
+  - '&fAceastă mașină îți permite să colectezi '
+  - '&fCapete MobTech de la mobi din apropiere. (9 blocuri)'
+  name: 'Colector MobTech III'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b1.0x'
+  - '&8⇨ &e⚡ &7Tampon 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMașină'
+SUPREME_MULTIBLOCK_CORE:
+  description:
+  - '&7&oAici poți fabrica nuclee!'
+  - '&aMașină Multibloc'
+  name: 'Fabricator de Nuclee'
+  type:
+  - '&7&oMașină'
+SUPREME_MULTIBLOCK_GEAR:
+  description:
+  - '&7&oAici poți fabrica arme, armuri și unelte!'
+  - '&aMașină Multibloc'
+  name: 'Fabricator de Echipament'
+  type:
+  - '&7&oMașină'
+SUPREME_MULTIBLOCK_MAGICAL:
+  description:
+  - '&7&oAici poți fabrica obiecte magice!'
+  - '&aMașină Multibloc'
+  name: 'Fabricator Magic'
+  type:
+  - '&7&oMașină'
+SUPREME_PETRIFIER_MACHINE:
+  name: 'Mașină de Petrificare'
+  type:
+  - '&7&oComponente avansate'
+SUPREME_PICKAXE_EPIC:
+  description:
+  - '&f&lUn Târnăcop Epic de Thornium'
+  name: 'Târnăcop Epic'
+  type:
+  - '&7&oUnelte'
+SUPREME_PICKAXE_LEGENDARY:
+  description:
+  - '&f&lUn Târnăcop Legendar de Thornium'
+  name: 'Târnăcop Legendar'
+  type:
+  - '&7&oUnelte'
+SUPREME_PICKAXE_MAGIC:
+  description:
+  - '&f&lUn Târnăcop Magic de Thornium'
+  name: 'Târnăcop Magic'
+  type:
+  - '&7&oUnelte'
+SUPREME_PICKAXE_RARE:
+  description:
+  - '&f&lUn Târnăcop Rar de Thornium'
+  name: 'Târnăcop Rar'
+  type:
+  - '&7&oUnelte'
+SUPREME_PICKAXE_SUPREME:
+  description:
+  - '&f&lUn Târnăcop Suprem de Thornium'
+  name: 'Târnăcop Suprem'
+  type:
+  - '&7&oUnelte'
+SUPREME_PICKAXE_THORNIUM:
+  description:
+  - '&f&lUn Târnăcop de Thornium'
+  name: 'Târnăcop de Thornium'
+  type:
+  - '&7&oUnelte'
+SUPREME_PLATINUM_PLATE:
+  name: 'Placă de Platină'
+  type:
+  - '&7&oComponente'
+SUPREME_RUSTLESS_MACHINE:
+  name: 'Mașină Fără Rugină'
+  type:
+  - '&7&oComponente avansate'
+SUPREME_SHIELD_EPIC:
+  description:
+  - '&f&lUn Scut Epic de Thornium'
+  name: 'Scut Epic'
+  type:
+  - '&7&oArme'
+SUPREME_SHIELD_LEGENDARY:
+  description:
+  - '&f&lUn Scut Legendar de Thornium'
+  name: 'Scut Legendar'
+  type:
+  - '&7&oArme'
+SUPREME_SHIELD_MAGIC:
+  description:
+  - '&f&lUn Scut Magic de Thornium'
+  name: 'Scut Magic'
+  type:
+  - '&7&oArme'
+SUPREME_SHIELD_RARE:
+  description:
+  - '&f&lUn Scut Rar de Thornium'
+  name: 'Scut Rar'
+  type:
+  - '&7&oArme'
+SUPREME_SHIELD_SUPREME:
+  description:
+  - '&f&lUn Scut Suprem de Thornium'
+  name: 'Scut Suprem'
+  type:
+  - '&7&oArme'
+SUPREME_SHIELD_THORNIUM:
+  description:
+  - '&f&lUn Scut de Thornium'
+  name: 'Scut de Thornium'
+  type:
+  - '&7&oArme'
+SUPREME_SHOVEL_EPIC:
+  description:
+  - '&f&lO Lopată Epică de Thornium'
+  name: 'Lopată Epică'
+  type:
+  - '&7&oUnelte'
+SUPREME_SHOVEL_LEGENDARY:
+  description:
+  - '&f&lO Lopată Legendară de Thornium'
+  name: 'Lopată Legendară'
+  type:
+  - '&7&oUnelte'
+SUPREME_SHOVEL_MAGIC:
+  description:
+  - '&f&lO Lopată Magică de Thornium'
+  name: 'Lopată Magică'
+  type:
+  - '&7&oUnelte'
+SUPREME_SHOVEL_RARE:
+  description:
+  - '&f&lO Lopată Rară de Thornium'
+  name: 'Lopată Rară'
+  type:
+  - '&7&oUnelte'
+SUPREME_SHOVEL_SUPREME:
+  description:
+  - '&f&lO Lopată Supremă de Thornium'
+  name: 'Lopată Supremă'
+  type:
+  - '&7&oUnelte'
+SUPREME_SHOVEL_THORNIUM:
+  description:
+  - '&f&lO Lopată de Thornium'
+  name: 'Lopată de Thornium'
+  type:
+  - '&7&oUnelte'
+SUPREME_STAINLESS_MACHINE:
+  name: 'Mașină Inoxidabilă'
+  type:
+  - '&7&oComponente avansate'
+SUPREME_STONE_QUARRY:
+  name: 'Carieră de Piatră'
+  stats:
+  - '&aMașină Medie'
+  type:
+  - '&7&oMașină'
+SUPREME_SUPREME:
+  description:
+  - '&7Supremul'
+  name: 'Suprem'
+  type:
+  - '&7&oComponente de final de joc'
+SUPREME_SUPREME_CAPACITOR:
+  name: 'Condensator Suprem'
+  stats:
+  - '&4Condensator de final de joc'
+  - '&8⇨ &e⚡ &7Capacitate J infinită'
+  type:
+  - '&7&oMașină'
+SUPREME_SUPREME_GENERATOR:
+  name: 'Generator Suprem'
+  stats:
+  - '&4Generator de final de joc'
+  type:
+  - '&7&oMașină'
+SUPREME_SUPREME_NUGGET:
+  description:
+  - '&7De la Cariera de Pepite Supreme'
+  name: 'Pepită Supremă'
+  type:
+  - '&7&oComponente de final de joc'
+SUPREME_SUPREME_NUGGETS_QUARRY:
+  name: 'Carieră de Pepite Supreme'
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oMașină'
+SUPREME_SWORD_EPIC:
+  description:
+  - '&f&lO Sabie Epică de Thornium'
+  name: 'Sabie Epică'
+  type:
+  - '&7&oArme'
+SUPREME_SWORD_LEGENDARY:
+  description:
+  - '&f&lO Sabie Legendară de Thornium'
+  name: 'Sabie Legendară'
+  type:
+  - '&7&oArme'
+SUPREME_SWORD_MAGIC:
+  description:
+  - '&f&lO Sabie Magică de Thornium'
+  name: 'Sabie Magică'
+  type:
+  - '&7&oArme'
+SUPREME_SWORD_RARE:
+  description:
+  - '&f&lO Sabie Rară de Thornium'
+  name: 'Sabie Rară'
+  type:
+  - '&7&oArme'
+SUPREME_SWORD_SUPREME:
+  description:
+  - '&f&lO Sabie Supremă de Thornium'
+  name: 'Sabie Supremă'
+  type:
+  - '&7&oArme'
+SUPREME_SWORD_THORNIUM:
+  description:
+  - '&f&lO Sabie de Thornium'
+  name: 'Sabie de Thornium'
+  type:
+  - '&7&oArme'
+SUPREME_SYNTHETIC_AMETHYST:
+  name: 'Ametist Sintetic'
+  type:
+  - '&7&oComponente'
+SUPREME_SYNTHETIC_RUBY:
+  name: 'Rubin Sintetic'
+  type:
+  - '&7&oComponente'
+SUPREME_TECH_GENERATOR:
+  description:
+  - '&fFolosind energie și albine/golem/zombie, '
+  - '&fgenerează lent materiale.'
+  name: 'Generator Tech'
+  stats:
+  - '&4Mașină de final de joc'
+  type:
+  - '&7&oMașină'
+SUPREME_TECH_MUTATION_I:
+  description:
+  - '&fFolosește mutația generatorului '
+  - '&fpentru a progresa la niveluri superioare'
+  name: 'Mutație Tech'
+  stats:
+  - '&4Mașină de final de joc'
+  type:
+  - '&7&oMașină'
+SUPREME_TECH_MUTATION_II:
+  description:
+  - '&fFolosește mutația generatorului '
+  - '&fpentru a progresa la niveluri superioare'
+  - '&fFactorul de șansă înmulțit cu 2x'
+  name: 'Mutație Tech II'
+  stats:
+  - '&4Mașină de final de joc'
+  type:
+  - '&7&oMașină'
+SUPREME_TECH_MUTATION_III:
+  description:
+  - '&fFolosește mutația generatorului '
+  - '&fpentru a progresa la niveluri superioare'
+  - '&fFactorul de șansă înmulțit cu 4x'
+  name: 'Mutație Tech III'
+  stats:
+  - '&4Mașină de final de joc'
+  type:
+  - '&7&oMașină'
+SUPREME_TECH_ROBOTIC:
+  description:
+  - '&fFolosește roboți de nivel începător '
+  - '&fpentru a progresa la niveluri superioare'
+  - '&fnecesită 64x pentru îmbunătățire'
+  name: 'Robotică Tech'
+  stats:
+  - '&4Mașină de final de joc'
+  type:
+  - '&7&oMașină'
+SUPREME_TECH_ROBOTIC_II:
+  description:
+  - '&fFolosește roboți de nivel începător '
+  - '&fpentru a progresa la niveluri superioare'
+  - '&fnecesită 32x pentru îmbunătățire'
+  name: 'Robotică Tech II'
+  stats:
+  - '&4Mașină de final de joc'
+  type:
+  - '&7&oMașină'
+SUPREME_TECH_ROBOTIC_III:
+  description:
+  - '&fFolosește roboți de nivel începător '
+  - '&fpentru a progresa la niveluri superioare'
+  - '&fnecesită 16x pentru îmbunătățire'
+  name: 'Robotică Tech III'
+  stats:
+  - '&4Mașină de final de joc'
+  type:
+  - '&7&oMașină'
+SUPREME_THORNERITE:
+  name: 'Thornerite'
+  type:
+  - '&7&oComponente de final de joc'
+SUPREME_THORNIUM_BIT:
+  description:
+  - '&7Din Cariera de Thornium'
+  name: 'Bucată de Thornium'
+  type:
+  - '&7&oComponente de final de joc'
+SUPREME_THORNIUM_BIT_SYNTHETIC:
+  description:
+  - '&7Din Bucata de Thornium'
+  name: 'Bucată de Thornium Sintetică'
+  type:
+  - '&7&oComponente de final de joc'
+SUPREME_THORNIUM_CAPACITOR:
+  name: 'Condensator de Thornium'
+  stats:
+  - '&4Condensator de final de joc'
+  - '&8⇨ &e⚡ &7Capacitate 100,000,000.00 J'
+  type:
+  - '&7&oMașină'
+SUPREME_THORNIUM_CARBONADO:
+  description:
+  - '&7Din Lingoul de Thornium'
+  name: 'Carbonado de Thornium'
+  type:
+  - '&7&oComponente de final de joc'
+SUPREME_THORNIUM_DUST:
+  description:
+  - '&7Din Bucata de Thornium'
+  name: 'Praf de Thornium'
+  type:
+  - '&7&oComponente de final de joc'
+SUPREME_THORNIUM_DUST_SYNTHETIC:
+  description:
+  - '&7Din Praful de Thornium'
+  name: 'Praf de Thornium Sintetic'
+  type:
+  - '&7&oComponente de final de joc'
+SUPREME_THORNIUM_ENERGIZED:
+  description:
+  - '&7Din Lingoul de Thornium'
+  name: 'Thornium Energizat'
+  type:
+  - '&7&oComponente de final de joc'
+SUPREME_THORNIUM_GENERATOR:
+  name: 'Generator de Thornium'
+  stats:
+  - '&4Generator de final de joc'
+  type:
+  - '&7&oMașină'
+SUPREME_THORNIUM_INGOT:
+  description:
+  - '&7Din Praful de Thornium'
+  name: 'Lingou de Thornium'
+  type:
+  - '&7&oComponente de final de joc'
+SUPREME_THORNIUM_INGOT_SYNTHETIC:
+  description:
+  - '&7Din Lingoul de Thornium'
+  name: 'Lingou de Thornium Sintetic'
+  type:
+  - '&7&oComponente de final de joc'
+SUPREME_THORNIUM_QUARRY:
+  name: 'Carieră de Thornium'
+  stats:
+  - '&6Mașină Avansată'
+  type:
+  - '&7&oMașină'
+SUPREME_TITANIUM_AXE:
+  description:
+  - '&f&lUn Topor de Titan'
+  name: 'Topor de Titan'
+  type:
+  - '&7&oUnelte'
+SUPREME_TITANIUM_BOOTS:
+  description:
+  - '&f&lNiște Cizme de Titan'
+  name: 'Cizme de Titan'
+  type:
+  - '&7&oArmură'
+SUPREME_TITANIUM_CAPACITOR:
+  name: 'Condensator de Titan'
+  stats:
+  - '&6Condensator Avansat'
+  - '&8⇨ &e⚡ &7Capacitate 4,000,000.00 J'
+  type:
+  - '&7&oMașină'
+SUPREME_TITANIUM_CHESTPLATE:
+  description:
+  - '&f&lO Platoșă de Titan'
+  name: 'Platoșă de Titan'
+  type:
+  - '&7&oArmură'
+SUPREME_TITANIUM_HELMET:
+  description:
+  - '&f&lO Cască de Titan'
+  name: 'Cască de Titan'
+  type:
+  - '&7&oArmură'
+SUPREME_TITANIUM_LEGGINGS:
+  description:
+  - '&f&lNiște Jambiere de Titan'
+  name: 'Jambiere de Titan'
+  type:
+  - '&7&oArmură'
+SUPREME_TITANIUM_PICKAXE:
+  description:
+  - '&f&lUn Târnăcop de Titan'
+  name: 'Târnăcop de Titan'
+  type:
+  - '&7&oUnelte'
+SUPREME_TITANIUM_PLATE:
+  name: 'Placă de Titan'
+  type:
+  - '&7&oComponente'
+SUPREME_TITANIUM_SHOVEL:
+  description:
+  - '&f&lO Lopată de Titan'
+  name: 'Lopată de Titan'
+  type:
+  - '&7&oUnelte'
+SUPREME_TITANIUM_SWORD:
+  description:
+  - '&f&lO Sabie de Titan'
+  name: 'Sabie de Titan'
+  type:
+  - '&7&oArme'
+SUPREME_VENTUS_GENERATOR:
+  name: 'Generator Ventus'
+  stats:
+  - '&eGenerator de bază'
+  type:
+  - '&7&oMașină'
+SUPREME_VIRTUAL_AQUARIUM_I:
+  description:
+  - '&fAceastă mașină îți permite să colectezi '
+  - '&f obiecte care sunt colectate în mare.'
+  name: 'Acvariu Virtual'
+  stats:
+  - '&6Mașină Avansată'
+  - '&8⇨ &b⚡ &7Viteză: &b1.0x'
+  - '&8⇨ &e⚡ &7Tampon 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMașină'
+SUPREME_VIRTUAL_AQUARIUM_II:
+  description:
+  - '&fAceastă mașină îți permite să colectezi'
+  - '&f obiecte care sunt colectate în mare.'
+  name: 'Acvariu Virtual II'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b5.0x'
+  - '&8⇨ &e⚡ &7Tampon 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMașină'
+SUPREME_VIRTUAL_AQUARIUM_III:
+  description:
+  - '&fAceastă mașină îți permite să colectezi'
+  - '&f obiecte care sunt colectate în mare.'
+  name: 'Acvariu Virtual III'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b15.0x'
+  - '&8⇨ &e⚡ &7Tampon 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMașină'
+SUPREME_VIRTUAL_GARDEN_I:
+  description:
+  - '&fAceastă mașină îți permite să'
+  - '&fcultivi niște resurse.'
+  name: 'Grădină Virtuală'
+  stats:
+  - '&6Mașină Avansată'
+  - '&8⇨ &b⚡ &7Viteză: &b1.0x'
+  - '&8⇨ &e⚡ &7Tampon 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMașină'
+SUPREME_VIRTUAL_GARDEN_II:
+  description:
+  - '&fAceastă mașină îți permite să'
+  - '&fcultivi niște resurse.'
+  name: 'Grădină Virtuală II'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b5.0x'
+  - '&8⇨ &e⚡ &7Tampon 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMașină'
+SUPREME_VIRTUAL_GARDEN_III:
+  description:
+  - '&fAceastă mașină îți permite să'
+  - '&fcultivi niște resurse.'
+  name: 'Grădină Virtuală III'
+  stats:
+  - '&4Mașină de final de joc'
+  - '&8⇨ &b⚡ &7Viteză: &b15.0x'
+  - '&8⇨ &e⚡ &7Tampon 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMașină'
+SUPREME_ZIRCONIUM_PLATE:
+  name: 'Placă de Zirconiu'
+  type:
+  - '&7&oComponente'

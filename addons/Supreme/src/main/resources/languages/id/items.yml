@@ -1,0 +1,2352 @@
+MOB_TECH_COLLECTOR_MACHINE:
+  description:
+  - '&fMesin ini memungkinkan Anda mengumpulkan '
+  - '&fkepala MobTech dari mob terdekat. (3 blok)'
+  name: 'Pengumpul MobTech I'
+  type:
+  - '&7&oMesin'
+SUPREME_ADAMANTIUM_AXE:
+  description:
+  - '&f&lKapak dari Adamantium'
+  name: 'Kapak Adamantium'
+  type:
+  - '&7&oAlat'
+SUPREME_ADAMANTIUM_BOOTS:
+  description:
+  - '&f&lSepatu Bot dari Adamantium'
+  name: 'Sepatu Bot Adamantium'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_ADAMANTIUM_CAPACITOR:
+  name: 'Kapasitor Adamantium'
+  stats:
+  - '&6Kapasitor Canggih'
+  - '&8⇨ &e⚡ &7Kapasitas 16,000,000.00 J'
+  type:
+  - '&7&oMesin'
+SUPREME_ADAMANTIUM_CHESTPLATE:
+  description:
+  - '&f&lZirah Dada dari Adamantium'
+  name: 'Zirah Dada Adamantium'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_ADAMANTIUM_HELMET:
+  description:
+  - '&f&lHelm dari Adamantium'
+  name: 'Helm Adamantium'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_ADAMANTIUM_LEGGINGS:
+  description:
+  - '&f&lCelana Zirah dari Adamantium'
+  name: 'Celana Zirah Adamantium'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_ADAMANTIUM_PICKAXE:
+  description:
+  - '&f&lBeliung dari Adamantium'
+  name: 'Beliung Adamantium'
+  type:
+  - '&7&oAlat'
+SUPREME_ADAMANTIUM_PLATE:
+  name: 'Pelat Adamantium'
+  type:
+  - '&7&oKomponen'
+SUPREME_ADAMANTIUM_SHOVEL:
+  description:
+  - '&f&lSekop dari Adamantium'
+  name: 'Sekop Adamantium'
+  type:
+  - '&7&oAlat'
+SUPREME_ADAMANTIUM_SWORD:
+  description:
+  - '&f&lPedang dari Adamantium'
+  name: 'Pedang Adamantium'
+  type:
+  - '&7&oSenjata'
+SUPREME_ALLOY_ADAMANTIUM:
+  name: 'Paduan Adamantium'
+  type:
+  - '&7&oKomponen'
+SUPREME_ALLOY_AURUM:
+  name: 'Paduan Aurum'
+  type:
+  - '&7&oKomponen'
+SUPREME_ALLOY_IRIDIUM:
+  name: 'Paduan Iridium'
+  type:
+  - '&7&oKomponen'
+SUPREME_ALLOY_MANGANESE:
+  name: 'Paduan Mangan'
+  type:
+  - '&7&oKomponen'
+SUPREME_ALLOY_PLATINUM:
+  name: 'Paduan Platina'
+  type:
+  - '&7&oKomponen'
+SUPREME_ALLOY_TITANIUM:
+  name: 'Paduan Titanium'
+  type:
+  - '&7&oKomponen'
+SUPREME_ALLOY_ZIRCONIUM:
+  name: 'Paduan Zirkonium'
+  type:
+  - '&7&oKomponen'
+SUPREME_AQUA_GENERATOR:
+  name: 'Generator Aqua'
+  stats:
+  - '&6Generator Canggih'
+  type:
+  - '&7&oMesin'
+SUPREME_ATTRIBUTE_BOMB:
+  description:
+  - '&7Atribut bom super dengan efek khusus'
+  name: 'Atribut Bom'
+  type:
+  - '&7&oKomponen Sihir'
+SUPREME_ATTRIBUTE_FORTUNE:
+  description:
+  - '&7Atribut keberuntungan super dengan efek khusus'
+  name: 'Atribut Keberuntungan'
+  type:
+  - '&7&oKomponen Sihir'
+SUPREME_ATTRIBUTE_IMPETUS:
+  description:
+  - '&7Atribut impetus super dengan efek khusus'
+  name: 'Atribut Impetus'
+  type:
+  - '&7&oKomponen Sihir'
+SUPREME_ATTRIBUTE_MAGIC:
+  description:
+  - '&7Atribut sihir super dengan efek khusus'
+  name: 'Atribut Sihir'
+  type:
+  - '&7&oKomponen Sihir'
+SUPREME_AURUM_AXE:
+  description:
+  - '&f&lKapak dari Aurum'
+  name: 'Kapak Aurum'
+  type:
+  - '&7&oAlat'
+SUPREME_AURUM_BOOTS:
+  description:
+  - '&f&lSepatu Bot dari Aurum'
+  name: 'Sepatu Bot Aurum'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_AURUM_CAPACITOR:
+  name: 'Kapasitor Aurum'
+  stats:
+  - '&6Kapasitor Canggih'
+  - '&8⇨ &e⚡ &7Kapasitas 1,000,000.00 J'
+  type:
+  - '&7&oMesin'
+SUPREME_AURUM_CHESTPLATE:
+  description:
+  - '&f&lZirah Dada dari Aurum'
+  name: 'Zirah Dada Aurum'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_AURUM_HELMET:
+  description:
+  - '&f&lHelm dari Aurum'
+  name: 'Helm Aurum'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_AURUM_LEGGINGS:
+  description:
+  - '&f&lCelana Zirah dari Aurum'
+  name: 'Celana Zirah Aurum'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_AURUM_PICKAXE:
+  description:
+  - '&f&lBeliung dari Aurum'
+  name: 'Beliung Aurum'
+  type:
+  - '&7&oAlat'
+SUPREME_AURUM_PLATE:
+  name: 'Pelat Aurum'
+  type:
+  - '&7&oKomponen'
+SUPREME_AURUM_SHOVEL:
+  description:
+  - '&f&lSekop dari Aurum'
+  name: 'Sekop Aurum'
+  type:
+  - '&7&oAlat'
+SUPREME_AURUM_SWORD:
+  description:
+  - '&f&lPedang dari Aurum'
+  name: 'Pedang Aurum'
+  type:
+  - '&7&oSenjata'
+SUPREME_AXE_EPIC:
+  description:
+  - '&f&lKapak Epik dari Thornium'
+  name: 'Kapak Epik'
+  type:
+  - '&7&oAlat'
+SUPREME_AXE_LEGENDARY:
+  description:
+  - '&f&lKapak Legendaris dari Thornium'
+  name: 'Kapak Legendaris'
+  type:
+  - '&7&oAlat'
+SUPREME_AXE_MAGIC:
+  description:
+  - '&f&lKapak Sihir dari Thornium'
+  name: 'Kapak Sihir'
+  type:
+  - '&7&oAlat'
+SUPREME_AXE_RARE:
+  description:
+  - '&f&lKapak Langka dari Thornium'
+  name: 'Kapak Langka'
+  type:
+  - '&7&oAlat'
+SUPREME_AXE_SUPREME:
+  description:
+  - '&f&lKapak Agung dari Thornium'
+  name: 'Kapak Agung'
+  type:
+  - '&7&oAlat'
+SUPREME_AXE_THORNIUM:
+  description:
+  - '&f&lKapak dari Thornium'
+  name: 'Kapak Thornium'
+  type:
+  - '&7&oAlat'
+SUPREME_BASIC_AQUA_GENERATOR:
+  name: 'Generator Aqua Dasar'
+  stats:
+  - '&eGenerator Dasar'
+  type:
+  - '&7&oMesin'
+SUPREME_BASIC_IGNIS_GENERATOR:
+  name: 'Generator Ignis Dasar'
+  stats:
+  - '&eGenerator Dasar'
+  type:
+  - '&7&oMesin'
+SUPREME_BASIC_LUMIUM_GENERATOR:
+  name: 'Generator Lumium Dasar'
+  stats:
+  - '&6Generator Canggih'
+  type:
+  - '&7&oMesin'
+SUPREME_BASIC_LUX_GENERATOR:
+  name: 'Generator Lux Dasar'
+  stats:
+  - '&eGenerator Dasar'
+  type:
+  - '&7&oMesin'
+SUPREME_BASIC_VENTUS_GENERATOR:
+  name: 'Generator Ventus Dasar'
+  stats:
+  - '&eGenerator Dasar'
+  type:
+  - '&7&oMesin'
+SUPREME_BLEND_MACHINE:
+  name: 'Mesin Campuran'
+  type:
+  - '&7&oKomponen Lanjutan'
+SUPREME_BOOTS_EPIC:
+  description:
+  - '&f&lSepatu Bot Epik dari Thornium'
+  name: 'Sepatu Bot Epik'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_BOOTS_LEGENDARY:
+  description:
+  - '&f&lSepatu Bot Legendaris dari Thornium'
+  name: 'Sepatu Bot Legendaris'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_BOOTS_MAGIC:
+  description:
+  - '&f&lSepatu Bot Sihir dari Thornium'
+  name: 'Sepatu Bot Sihir'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_BOOTS_RARE:
+  description:
+  - '&f&lSepatu Bot Langka dari Thornium'
+  name: 'Sepatu Bot Langka'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_BOOTS_SUPREME:
+  description:
+  - '&f&lSepatu Bot Agung dari Thornium'
+  name: 'Sepatu Bot Agung'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_BOOTS_THORNIUM:
+  description:
+  - '&f&lSepatu Bot dari Thornium'
+  name: 'Sepatu Bot Thornium'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_BOW_EPIC:
+  description:
+  - '&f&lBusur Epik dari Thornium'
+  name: 'Busur Epik'
+  type:
+  - '&7&oSenjata'
+SUPREME_BOW_LEGENDARY:
+  description:
+  - '&f&lBusur Legendaris dari Thornium'
+  name: 'Busur Legendaris'
+  type:
+  - '&7&oSenjata'
+SUPREME_BOW_MAGIC:
+  description:
+  - '&f&lBusur Sihir dari Thornium'
+  name: 'Busur Sihir'
+  type:
+  - '&7&oSenjata'
+SUPREME_BOW_RARE:
+  description:
+  - '&f&lBusur Langka dari Thornium'
+  name: 'Busur Langka'
+  type:
+  - '&7&oSenjata'
+SUPREME_BOW_SUPREME:
+  description:
+  - '&f&lBusur Agung dari Thornium'
+  name: 'Busur Agung'
+  type:
+  - '&7&oSenjata'
+SUPREME_BOW_THORNIUM:
+  description:
+  - '&f&lBusur dari Thornium'
+  name: 'Busur Thornium'
+  type:
+  - '&7&oSenjata'
+SUPREME_CARD_ALUMINUM_BRASS:
+  description:
+  - '&fUbah ke Produksi Batangan Kuningan Aluminium'
+  name: "Kartu Mesin (Batangan Kuningan Aluminium)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_ALUMINUM_BRONZE:
+  description:
+  - '&fUbah ke Produksi Batangan Perunggu Aluminium'
+  name: "Kartu Mesin (Batangan Perunggu Aluminium)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_ALUMINUM_DUST:
+  description:
+  - '&fUbah ke Produksi Serbuk Aluminium'
+  name: "Kartu Mesin (Serbuk Aluminium)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_AMETHYST:
+  description:
+  - '&fUbah ke Produksi Kecubung'
+  name: "Kartu Mesin (Kecubung)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_ANDESITE:
+  description:
+  - '&fUbah ke Produksi Andesit'
+  name: "Kartu Mesin (Andesit)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_APPLE:
+  description:
+  - '&fUbah ke Produksi Apel'
+  name: "Kartu Mesin (Apel)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_BATTERY:
+  description:
+  - '&fUbah ke Produksi Baterai'
+  name: "Kartu Mesin (Baterai)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_BILLON:
+  description:
+  - '&fUbah ke Produksi Batangan Billon'
+  name: "Kartu Mesin (Batangan Billon)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_BLAZE_ROD:
+  description:
+  - '&fUbah ke Produksi Tongkat Blaze'
+  name: "Kartu Mesin (Tongkat Blaze)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_BRASS:
+  description:
+  - '&fUbah ke Produksi Batangan Kuningan'
+  name: "Kartu Mesin (Batangan Kuningan)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_BRONZE:
+  description:
+  - '&fUbah ke Produksi Batangan Perunggu'
+  name: "Kartu Mesin (Batangan Perunggu)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_CARBON:
+  description:
+  - '&fUbah ke Produksi Karbon'
+  name: "Kartu Mesin (Karbon)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_CARBONADO:
+  description:
+  - '&fUbah ke Produksi Karbonado'
+  name: "Kartu Mesin (Karbonado)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_CARBON_PRESS:
+  description:
+  - '&fUbah ke Produksi Karbon Terkompresi'
+  name: "Kartu Mesin (Karbon Terkompresi)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_CLAY:
+  description:
+  - '&fUbah ke Produksi Tanah Liat'
+  name: "Kartu Mesin (Tanah Liat)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_COAL:
+  description:
+  - '&fUbah ke Produksi Batu Bara'
+  name: "Kartu Mesin (Batu Bara)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_COBALT:
+  description:
+  - '&fUbah ke Produksi Kobalt'
+  name: "Kartu Mesin (Kobalt)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_COPPER:
+  description:
+  - '&fUbah ke Produksi Tembaga'
+  name: "Kartu Mesin (Tembaga)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_COPPER_DUST:
+  description:
+  - '&fUbah ke Produksi Serbuk Tembaga'
+  name: "Kartu Mesin (Serbuk Tembaga)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_CORINTHIAN_BRONZE:
+  description:
+  - '&fUbah ke Produksi Batangan Perunggu Korintus'
+  name: "Kartu Mesin (Batangan Perunggu Korintus)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_DAMASCUS:
+  description:
+  - '&fUbah ke Produksi Damaskus'
+  name: "Kartu Mesin (Damaskus)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_DIAMOND:
+  description:
+  - '&fUbah ke Produksi Berlian'
+  name: "Kartu Mesin (Berlian)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_DIORITE:
+  description:
+  - '&fUbah ke Produksi Diorit'
+  name: "Kartu Mesin (Diorit)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_DURALUMIN:
+  description:
+  - '&fUbah ke Produksi Batangan Duralumin'
+  name: "Kartu Mesin (Batangan Duralumin)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_ELECTRIC_MOTOR:
+  description:
+  - '&fUbah ke Produksi Motor Listrik'
+  name: "Kartu Mesin (Motor Listrik)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_ELECTRO_MAGNET:
+  description:
+  - '&fUbah ke Produksi Elektromagnet'
+  name: "Kartu Mesin (Elektromagnet)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_EMERALD:
+  description:
+  - '&fUbah ke Produksi Zamrud'
+  name: "Kartu Mesin (Zamrud)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_ENDSTONE:
+  description:
+  - '&fUbah ke Produksi Batu End'
+  name: "Kartu Mesin (Batu End)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_FERROSILICON:
+  description:
+  - '&fUbah ke Produksi Ferosilikon'
+  name: "Kartu Mesin (Ferosilikon)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_GLOW_INK_SAC:
+  description:
+  - '&fUbah ke Produksi Kantong Tinta Bercahaya'
+  name: "Kartu Mesin (Kantong Tinta Bercahaya)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_GOLD:
+  description:
+  - '&fUbah ke Produksi Emas'
+  name: "Kartu Mesin (Emas)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_GOLD24K:
+  description:
+  - '&fUbah ke Produksi Emas 24k'
+  name: "Kartu Mesin (Emas 24k)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_GOLD_DUST:
+  description:
+  - '&fUbah ke Produksi Serbuk Emas'
+  name: "Kartu Mesin (Serbuk Emas)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_GRANITE:
+  description:
+  - '&fUbah ke Produksi Granit'
+  name: "Kartu Mesin (Granit)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_GRAVEL:
+  description:
+  - '&fUbah ke Produksi Kerikil'
+  name: "Kartu Mesin (Kerikil)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_HARDENED_METAL:
+  description:
+  - '&fUbah ke Produksi Batangan Logam Keras'
+  name: "Kartu Mesin (Batangan Logam Keras)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_HEATING_COIL:
+  description:
+  - '&fUbah ke Produksi Kumparan Pemanas'
+  name: "Kartu Mesin (Kumparan Pemanas)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_HONEY_BOTTLE:
+  description:
+  - '&fUbah ke Produksi Botol Madu'
+  name: "Kartu Mesin (Botol Madu)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_INK_SAC:
+  description:
+  - '&fUbah ke Produksi Kantong Tinta'
+  name: "Kartu Mesin (Kantong Tinta)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_IRON:
+  description:
+  - '&fUbah ke Produksi Besi'
+  name: "Kartu Mesin (Besi)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_IRON_DUST:
+  description:
+  - '&fUbah ke Produksi Serbuk Besi'
+  name: "Kartu Mesin (Serbuk Besi)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_LAPIS:
+  description:
+  - '&fUbah ke Produksi Lapis'
+  name: "Kartu Mesin (Lapis)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_LEAD_DUST:
+  description:
+  - '&fUbah ke Produksi Serbuk Timbal'
+  name: "Kartu Mesin (Serbuk Timbal)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_MAGNESIUM_DUST:
+  description:
+  - '&fUbah ke Produksi Serbuk Magnesium'
+  name: "Kartu Mesin (Serbuk Magnesium)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_MAGNET:
+  description:
+  - '&fUbah ke Produksi Magnet'
+  name: "Kartu Mesin (Magnet)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_NETHERITE:
+  description:
+  - '&fUbah ke Produksi Netherite'
+  name: "Kartu Mesin (Netherite)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_NETHER_STAR:
+  description:
+  - '&fUbah ke Produksi Bintang Nether'
+  name: "Kartu Mesin (Bintang Nether)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_NICKEL:
+  description:
+  - '&fUbah ke Produksi Nikel'
+  name: "Kartu Mesin (Nikel)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_PLASTIC_SHEET:
+  description:
+  - '&fUbah ke Produksi Lembaran Plastik'
+  name: "Kartu Mesin (Lembaran Plastik)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_QUARTZ:
+  description:
+  - '&fUbah ke Produksi Kuarsa'
+  name: "Kartu Mesin (Kuarsa)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_QUARTZ_BLOCK:
+  description:
+  - '&fUbah ke Produksi Blok Kuarsa'
+  name: "Kartu Mesin (Blok Kuarsa)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_REDSTONE:
+  description:
+  - '&fUbah ke Produksi Redstone'
+  name: "Kartu Mesin (Redstone)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_REDSTONE_ALLOY:
+  description:
+  - '&fUbah ke Produksi Paduan Redstone'
+  name: "Kartu Mesin (Paduan Redstone)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_REINFORCED_ALLOY:
+  description:
+  - '&fUbah ke Produksi Batangan Paduan Diperkuat'
+  name: "Kartu Mesin (Batangan Paduan Diperkuat)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_SAND:
+  description:
+  - '&fUbah ke Produksi Pasir'
+  name: "Kartu Mesin (Pasir)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_SILICON:
+  description:
+  - '&fUbah ke Produksi Silikon'
+  name: "Kartu Mesin (Silikon)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_SILVER_DUST:
+  description:
+  - '&fUbah ke Produksi Serbuk Perak'
+  name: "Kartu Mesin (Serbuk Perak)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_SLIME_BALL:
+  description:
+  - '&fUbah ke Produksi Bola Slime'
+  name: "Kartu Mesin (Bola Slime)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_SNOW:
+  description:
+  - '&fUbah ke Produksi Salju'
+  name: "Kartu Mesin (Salju)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_SOLDER:
+  description:
+  - '&fUbah ke Produksi Batangan Solder'
+  name: "Kartu Mesin (Batangan Solder)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_STEEL:
+  description:
+  - '&fUbah ke Produksi Baja'
+  name: "Kartu Mesin (Baja)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_STONE:
+  description:
+  - '&fUbah ke Produksi Batu'
+  name: "Kartu Mesin (Batu)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_SULFATE:
+  description:
+  - '&fUbah ke Produksi Sulfat'
+  name: "Kartu Mesin (Sulfat)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_SYNTHETIC_DIAMOND:
+  description:
+  - '&fUbah ke Produksi Berlian Sintetis'
+  name: "Kartu Mesin (Berlian Sintetis)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_SYNTHETIC_EMERALD:
+  description:
+  - '&fUbah ke Produksi Zamrud Sintetis'
+  name: "Kartu Mesin (Zamrud Sintetis)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_SYNTHETIC_SAPPHIRE:
+  description:
+  - '&fUbah ke Produksi Safir Sintetis'
+  name: "Kartu Mesin (Safir Sintetis)"
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_TIN_DUST:
+  description:
+  - '&fUbah ke Produksi Serbuk Timah'
+  name: "Kartu Mesin (Serbuk Timah)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_WITHER_ROSE:
+  description:
+  - '&fUbah ke Produksi Mawar Wither'
+  name: "Kartu Mesin (Mawar Wither)"
+  stats:
+  - '&eMesin Dasar'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARD_ZINC_DUST:
+  description:
+  - '&fUbah ke Produksi Serbuk Seng'
+  name: "Kartu Mesin (Serbuk Seng)"
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oKomponen'
+SUPREME_CARRIAGE_MACHINE:
+  name: 'Mesin Angkut'
+  type:
+  - '&7&oKomponen Lanjutan'
+SUPREME_CENTER_CARD_ADVANCED:
+  description:
+  - '&fKomponen untuk Mesin agar memproduksi item'
+  name: 'Komponen Canggih untuk Kartu'
+  type:
+  - '&7&oKomponen'
+SUPREME_CENTER_CARD_SIMPLE:
+  description:
+  - '&fKomponen untuk Mesin agar memproduksi item'
+  name: 'Komponen Dasar untuk Kartu'
+  type:
+  - '&7&oKomponen'
+SUPREME_CENTER_CARD_ULTIMATE:
+  description:
+  - '&fKomponen untuk Mesin agar memproduksi item'
+  name: 'Komponen Puncak untuk Kartu'
+  type:
+  - '&7&oKomponen'
+SUPREME_CETRUS_AQUA:
+  description:
+  - '&7Tongkat aqua super'
+  name: 'Cetrus Aqua'
+  type:
+  - '&7&oKomponen Sihir'
+SUPREME_CETRUS_IGNIS:
+  description:
+  - '&7Tongkat ignis super'
+  name: 'Cetrus Ignis'
+  type:
+  - '&7&oKomponen Sihir'
+SUPREME_CETRUS_LUMIUM:
+  description:
+  - '&7Tongkat lumium super'
+  name: 'Cetrus Lumium'
+  type:
+  - '&7&oKomponen Sihir'
+SUPREME_CETRUS_LUX:
+  description:
+  - '&7Tongkat lux super'
+  name: 'Cetrus Lux'
+  type:
+  - '&7&oKomponen Sihir'
+SUPREME_CETRUS_VENTUS:
+  description:
+  - '&7Tongkat ventus super'
+  name: 'Cetrus Ventus'
+  type:
+  - '&7&oKomponen Sihir'
+SUPREME_CHECK_INVENTORY:
+  description:
+  - '&fMemeriksa apakah peti terdekat punya item filter'
+  - '&fsemua sisi ikut diperiksa (cari yang pertama)'
+  - '&fjika ditemukan, blok ini akan menyala'
+  name: "Pemeriksa Inventaris"
+  stats:
+  - '&6Mesin Canggih'
+  - '&8⇨ &b⚡ &7Kecepatan: &b1.0x'
+  type:
+  - '&7&oMesin'
+SUPREME_CHESTPLATE_EPIC:
+  description:
+  - '&f&lZirah Dada Epik dari Thornium'
+  name: 'Zirah Dada Epik'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_CHESTPLATE_LEGENDARY:
+  description:
+  - '&f&lZirah Dada Legendaris dari Thornium'
+  name: 'Zirah Dada Legendaris'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_CHESTPLATE_MAGIC:
+  description:
+  - '&f&lZirah Dada Sihir dari Thornium'
+  name: 'Zirah Dada Sihir'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_CHESTPLATE_RARE:
+  description:
+  - '&f&lZirah Dada Langka dari Thornium'
+  name: 'Zirah Dada Langka'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_CHESTPLATE_SUPREME:
+  description:
+  - '&f&lZirah Dada Agung dari Thornium'
+  name: 'Zirah Dada Agung'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_CHESTPLATE_THORNIUM:
+  description:
+  - '&f&lZirah Dada dari Thornium'
+  name: 'Zirah Dada Thornium'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_COAL_QUARRY:
+  name: 'Tambang Batu Bara'
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oMesin'
+SUPREME_CONVEYANCE_MACHINE:
+  name: 'Mesin Penghantar'
+  type:
+  - '&7&oKomponen Lanjutan'
+SUPREME_CORE_ACACIA_LOG:
+  description:
+  - '&7Akasia super'
+  name: 'Kayu Akasia Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_ANDESITE:
+  description:
+  - '&7Andesit super'
+  name: 'Andesit Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_APPLE:
+  description:
+  - '&7Apel super'
+  name: 'Apel Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_BEEF:
+  description:
+  - '&7Daging sapi super'
+  name: 'Daging Sapi Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_BEETROOT:
+  description:
+  - '&7Bit super'
+  name: 'Bit Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_BIRCH_LOG:
+  description:
+  - '&7Birch super'
+  name: 'Kayu Birch Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_BLACK:
+  description:
+  - '&7Hitam super'
+  name: 'Hitam Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_BLUE:
+  description:
+  - '&7Biru super'
+  name: 'Biru Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_CARROT:
+  description:
+  - '&7Wortel Agung'
+  name: 'Wortel Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_CHICKEN:
+  description:
+  - '&7Ayam super'
+  name: 'Ayam Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_CLAY:
+  description:
+  - '&7Tanah liat super'
+  name: 'Tanah Liat Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_COAL:
+  description:
+  - '&7Batu bara super'
+  name: 'Batu Bara Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_COD:
+  description:
+  - '&7Ikan kod super'
+  name: 'Ikan Kod Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_CRIMSON_STEM:
+  description:
+  - '&7Crimson super'
+  name: 'Batang Crimson Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_CYAN:
+  description:
+  - '&7Sian super'
+  name: 'Sian Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_DARK_OAK_LOG:
+  description:
+  - '&7Gelap super'
+  name: 'Kayu Ek Gelap Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_DIAMOND:
+  description:
+  - '&7Berlian super'
+  name: 'Berlian Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_DIORITE:
+  description:
+  - '&7Diorit super'
+  name: 'Diorit Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_EMERALD:
+  description:
+  - '&7Zamrud super'
+  name: 'Zamrud Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_ENDSTONE:
+  description:
+  - '&7Batu End super'
+  name: 'Batu End Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_GOLD:
+  description:
+  - '&7Emas super'
+  name: 'Emas Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_GRANITE:
+  description:
+  - '&7Granit super'
+  name: 'Granit Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_GRAVEL:
+  description:
+  - '&7Kerikil super'
+  name: 'Kerikil Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_GRAY:
+  description:
+  - '&7Abu-abu super'
+  name: 'Abu-abu Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_GREEN:
+  description:
+  - '&7Hijau super'
+  name: 'Hijau Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_IRON:
+  description:
+  - '&7Besi super'
+  name: 'Besi Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_JUNGLE_LOG:
+  description:
+  - '&7Hutan super'
+  name: 'Kayu Hutan Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_LAPIS:
+  description:
+  - '&7Lapis super'
+  name: 'Lapis Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_MELON:
+  description:
+  - '&7Semangka super'
+  name: 'Semangka Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_MUTTON:
+  description:
+  - '&7Daging domba super'
+  name: 'Daging Domba Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_NETHERITE:
+  description:
+  - '&7Netherite super'
+  name: 'Netherite Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_OAK_LOG:
+  description:
+  - '&7Ek super'
+  name: 'Kayu Ek Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_OF_ALLOY:
+  description:
+  - '&7Inti ini berisi beberapa bijih'
+  - '&7yang telah dikumpulkan di seluruh dunia.'
+  name: 'Inti Paduan'
+  type:
+  - '&7&oKomponen Sihir'
+SUPREME_CORE_OF_BLOCK:
+  description:
+  - '&7Inti ini berisi beberapa blok'
+  - '&7yang telah dikumpulkan di seluruh dunia.'
+  name: 'Inti Blok'
+  type:
+  - '&7&oKomponen Sihir'
+SUPREME_CORE_OF_COLOR:
+  description:
+  - '&7Inti ini berisi beberapa warna'
+  - '&7yang telah dikumpulkan di seluruh dunia.'
+  name: 'Inti Warna'
+  type:
+  - '&7&oKomponen Sihir'
+SUPREME_CORE_OF_DEATH:
+  description:
+  - '&7Inti ini berisi jiwa dari '
+  - '&7berbagai entitas yang telah tiada.'
+  name: 'Inti Kematian'
+  type:
+  - '&7&oKomponen Sihir'
+SUPREME_CORE_OF_LIFE:
+  description:
+  - '&7Inti ini berisi serpihan kehidupan'
+  - '&7yang telah dikumpulkan oleh dunia.'
+  name: 'Inti Kehidupan'
+  type:
+  - '&7&oKomponen Sihir'
+SUPREME_CORE_OF_NATURE:
+  description:
+  - '&7Inti ini berisi beberapa bahan alami'
+  - '&7yang telah dikumpulkan di seluruh dunia.'
+  name: 'Inti Alam'
+  type:
+  - '&7&oKomponen Sihir'
+SUPREME_CORE_PINK:
+  description:
+  - '&7Merah muda super'
+  name: 'Merah Muda Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_PORKCHOP:
+  description:
+  - '&7Bacon super'
+  name: "Daging Babi Agung"
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_POTATO:
+  description:
+  - '&7Kentang super'
+  name: 'Kentang Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_PUMPKIN:
+  description:
+  - '&7Labu super'
+  name: 'Labu Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_PURPLE:
+  description:
+  - '&7Ungu super'
+  name: 'Ungu Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_QUARTZ:
+  description:
+  - '&7Kuarsa super'
+  name: 'Kuarsa Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_RED:
+  description:
+  - '&7Merah super'
+  name: 'Merah Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_REDSTONE:
+  description:
+  - '&7Redstone super'
+  name: 'Redstone Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_SALMON:
+  description:
+  - '&7Ikan salmon super'
+  name: 'Ikan Salmon Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_SAND:
+  description:
+  - '&7Pasir super'
+  name: 'Pasir Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_SNOW:
+  description:
+  - '&7Salju super'
+  name: 'Salju Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_SPIDER_EYE:
+  description:
+  - '&7Mata super'
+  name: "Mata Laba-laba Agung"
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_SPRUCE_LOG:
+  description:
+  - '&7Cemara super'
+  name: 'Kayu Cemara Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_STONE:
+  description:
+  - '&7Batu bulat super'
+  name: 'Batu Bulat Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_STRING:
+  description:
+  - '&7Tali kekang super'
+  name: "Benang Agung"
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_SUGAR_CANE:
+  description:
+  - '&7Tebu super'
+  name: 'Tebu Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_SWEET_BERRIES:
+  description:
+  - '&7Buah beri super'
+  name: 'Buah Beri Manis Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_TEAR:
+  description:
+  - '&7Air mata super'
+  name: "Air Mata Ghast Agung"
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_WARPED_STEM:
+  description:
+  - '&7Warped super'
+  name: 'Batang Warped Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_WHEAT:
+  description:
+  - '&7Gandum super'
+  name: 'Gandum Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_WITHER_ROSE:
+  description:
+  - '&7Mawar super'
+  name: 'Mawar Wither Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CORE_YELLOW:
+  description:
+  - '&7Kuning super'
+  name: 'Kuning Agung'
+  type:
+  - '&7&oKomponen Inti'
+SUPREME_CRYSTALLIZER_MACHINE:
+  name: 'Mesin Kristalisasi'
+  type:
+  - '&7&oKomponen Lanjutan'
+SUPREME_DIAMOND_QUARRY:
+  name: 'Tambang Berlian'
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oMesin'
+SUPREME_DUST_AMETHYST:
+  name: 'Serbuk Kecubung'
+  type:
+  - '&7&oKomponen'
+SUPREME_DUST_GLOW_INK:
+  name: 'Serbuk Tinta Bercahaya'
+  type:
+  - '&7&oKomponen'
+SUPREME_DUST_NETHERITE:
+  name: 'Serbuk Netherite'
+  type:
+  - '&7&oKomponen'
+SUPREME_ELECTRIC_CORE_I:
+  description:
+  - '&fSumber daya pembuatan inti'
+  name: 'Mesin Inti Listrik'
+  stats:
+  - '&6Mesin Canggih'
+  - '&8⇨ &b⚡ &7Kecepatan: &b1.0x'
+  type:
+  - '&7&oMesin'
+SUPREME_ELECTRIC_CORE_II:
+  description:
+  - '&fSumber daya pembuatan canggih inti'
+  name: 'Mesin Inti Listrik II'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b5.0x'
+  type:
+  - '&7&oMesin'
+SUPREME_ELECTRIC_CORE_III:
+  description:
+  - '&fSumber daya pembuatan canggih inti'
+  name: 'Mesin Inti Listrik III'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b15.0x'
+  type:
+  - '&7&oMesin'
+SUPREME_ELECTRIC_CRAFTER_I:
+  description:
+  - '&fBuat Item'
+  name: 'Perakit Listrik'
+  stats:
+  - '&6Mesin Canggih'
+  - '&8⇨ &b⚡ &7Kecepatan: &b1.0x'
+  type:
+  - '&7&oMesin'
+SUPREME_ELECTRIC_CRAFTER_II:
+  description:
+  - '&fPembuatan Item Canggih'
+  name: 'Perakit Listrik II'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b5.0x'
+  type:
+  - '&7&oMesin'
+SUPREME_ELECTRIC_CRAFTER_III:
+  description:
+  - '&fPembuatan Item Canggih'
+  name: 'Perakit Listrik III'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b15.0x'
+  type:
+  - '&7&oMesin'
+SUPREME_ELECTRIC_GEAR_I:
+  description:
+  - '&fTingkat pembuatan perlengkapan'
+  name: 'Mesin Perlengkapan Listrik'
+  stats:
+  - '&6Mesin Canggih'
+  - '&8⇨ &b⚡ &7Kecepatan: &b1.0x'
+  type:
+  - '&7&oMesin'
+SUPREME_ELECTRIC_GEAR_II:
+  description:
+  - '&fTingkat pembuatan canggih perlengkapan'
+  name: 'Mesin Perlengkapan Listrik II'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b5.0x'
+  type:
+  - '&7&oMesin'
+SUPREME_ELECTRIC_GEAR_III:
+  description:
+  - '&fTingkat pembuatan canggih perlengkapan'
+  name: 'Mesin Perlengkapan Listrik III'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b15.0x'
+  type:
+  - '&7&oMesin'
+SUPREME_ELECTRIC_ITEM:
+  name: "Listrik"
+  type:
+  - '&7&oLainnya'
+SUPREME_ELECTRIC_MAGICAL_I:
+  description:
+  - '&fSumber daya pembuatan ajaib'
+  name: 'Mesin Ajaib Listrik'
+  stats:
+  - '&6Mesin Canggih'
+  - '&8⇨ &b⚡ &7Kecepatan: &b1.0x'
+  type:
+  - '&7&oMesin'
+SUPREME_ELECTRIC_MAGICAL_II:
+  description:
+  - '&fSumber daya pembuatan canggih ajaib'
+  name: 'Mesin Ajaib Listrik II'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b5.0x'
+  type:
+  - '&7&oMesin'
+SUPREME_ELECTRIC_MAGICAL_III:
+  description:
+  - '&fSumber daya pembuatan canggih ajaib'
+  name: 'Mesin Ajaib Listrik III'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b15.0x'
+  type:
+  - '&7&oMesin'
+SUPREME_EMPTY_MOBTECH:
+  name: 'MobTech Kosong'
+  type:
+  - '&7&oKomponen'
+SUPREME_FORGE_INGOT_I:
+  description:
+  - '&fMesin ini memungkinkan Anda'
+  - '&fmenempa sumber daya batangan.'
+  name: 'Tempa Batangan'
+  stats:
+  - '&6Mesin Canggih'
+  - '&8⇨ &b⚡ &7Kecepatan: &b1.0x'
+  - '&8⇨ &e⚡ &7Penyangga 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMesin'
+SUPREME_FORGE_INGOT_II:
+  description:
+  - '&fMesin ini memungkinkan Anda'
+  - '&fmenempa sumber daya batangan.'
+  name: 'Tempa Batangan II'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b5.0x'
+  - '&8⇨ &e⚡ &7Penyangga 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMesin'
+SUPREME_FORGE_INGOT_III:
+  description:
+  - '&fMesin ini memungkinkan Anda'
+  - '&fmenempa sumber daya batangan.'
+  name: 'Tempa Batangan III'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b15.0x'
+  - '&8⇨ &e⚡ &7Penyangga 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMesin'
+SUPREME_FORGE_MAGICAL_I:
+  description:
+  - '&fMesin ini memungkinkan Anda'
+  - '&fmenempa sumber daya ajaib.'
+  name: 'Tempa Ajaib'
+  stats:
+  - '&6Mesin Canggih'
+  - '&8⇨ &b⚡ &7Kecepatan: &b1.0x'
+  - '&8⇨ &e⚡ &7Penyangga 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMesin'
+SUPREME_FORGE_MAGICAL_II:
+  description:
+  - '&fMesin ini memungkinkan Anda'
+  - '&fmenempa sumber daya ajaib.'
+  name: 'Tempa Ajaib II'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b5.0x'
+  - '&8⇨ &e⚡ &7Penyangga 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMesin'
+SUPREME_FORGE_MAGICAL_III:
+  description:
+  - '&fMesin ini memungkinkan Anda'
+  - '&fmenempa sumber daya ajaib.'
+  name: 'Tempa Ajaib III'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b15.0x'
+  - '&8⇨ &e⚡ &7Penyangga 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMesin'
+SUPREME_FOUNDRY_I:
+  description:
+  - '&fItem Pengecoran dan Penyintesis'
+  name: 'Pengecoran'
+  stats:
+  - '&6Mesin Canggih'
+  - '&8⇨ &b⚡ &7Kecepatan: &b1.0x'
+  type:
+  - '&7&oMesin'
+SUPREME_FOUNDRY_II:
+  description:
+  - '&fItem Pengecoran dan Penyintesis Canggih'
+  name: 'Pengecoran II'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b5.0x'
+  type:
+  - '&7&oMesin'
+SUPREME_FOUNDRY_III:
+  description:
+  - '&fItem Pengecoran dan Penyintesis Canggih'
+  name: 'Pengecoran III'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b15.0x'
+  type:
+  - '&7&oMesin'
+SUPREME_GENERATOR_MOB_ADVANCED:
+  name: 'Generator Mob Canggih'
+  stats:
+  - '&eGenerator Dasar'
+  type:
+  - '&7&oMesin'
+SUPREME_GENERATOR_MOB_BASIC:
+  name: 'Generator Mob Dasar'
+  stats:
+  - '&eGenerator Dasar'
+  type:
+  - '&7&oMesin'
+SUPREME_GENERATOR_MOB_MEDIUM:
+  name: 'Generator Mob Sedang'
+  stats:
+  - '&eGenerator Dasar'
+  type:
+  - '&7&oMesin'
+SUPREME_GENE_BERSERK:
+  name: 'Gen Amuk'
+  type:
+  - '&7&oKomponen'
+SUPREME_GENE_INTELLIGENCE:
+  name: 'Gen Kecerdasan'
+  type:
+  - '&7&oKomponen'
+SUPREME_GENE_LUCK:
+  name: 'Gen Keberuntungan'
+  type:
+  - '&7&oKomponen'
+SUPREME_GOLD_QUARRY:
+  name: 'Tambang Emas'
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oMesin'
+SUPREME_HELMET_EPIC:
+  description:
+  - '&f&lHelm Epik dari Thornium'
+  name: 'Helm Epik'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_HELMET_LEGENDARY:
+  description:
+  - '&f&lHelm Legendaris dari Thornium'
+  name: 'Helm Legendaris'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_HELMET_MAGIC:
+  description:
+  - '&f&lHelm Sihir dari Thornium'
+  name: 'Helm Sihir'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_HELMET_RARE:
+  description:
+  - '&f&lHelm Langka dari Thornium'
+  name: 'Helm Langka'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_HELMET_SUPREME:
+  description:
+  - '&f&lHelm Agung dari Thornium'
+  name: 'Helm Agung'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_HELMET_THORNIUM:
+  description:
+  - '&f&lHelm dari Thornium'
+  name: 'Helm Thornium'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_IGNIS_GENERATOR:
+  name: 'Generator Ignis'
+  stats:
+  - '&6Generator Canggih'
+  type:
+  - '&7&oMesin'
+SUPREME_INDUCTIVE_MACHINE:
+  name: 'Mesin Induktif'
+  type:
+  - '&7&oKomponen Lanjutan'
+SUPREME_INDUCTOR_MACHINE:
+  name: 'Mesin Induktor'
+  type:
+  - '&7&oKomponen Lanjutan'
+SUPREME_IRIDIUM_PLATE:
+  name: 'Pelat Iridium'
+  type:
+  - '&7&oKomponen'
+SUPREME_IRON_QUARRY:
+  name: 'Tambang Besi'
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oMesin'
+SUPREME_LEGGINGS_EPIC:
+  description:
+  - '&f&lCelana Zirah Epik dari Thornium'
+  name: 'Celana Zirah Epik'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_LEGGINGS_LEGENDARY:
+  description:
+  - '&f&lCelana Zirah Legendaris dari Thornium'
+  name: 'Celana Zirah Legendaris'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_LEGGINGS_MAGIC:
+  description:
+  - '&f&lCelana Zirah Sihir dari Thornium'
+  name: 'Celana Zirah Sihir'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_LEGGINGS_RARE:
+  description:
+  - '&f&lCelana Zirah Langka dari Thornium'
+  name: 'Celana Zirah Langka'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_LEGGINGS_SUPREME:
+  description:
+  - '&f&lCelana Zirah Agung dari Thornium'
+  name: 'Celana Zirah Agung'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_LEGGINGS_THORNIUM:
+  description:
+  - '&f&lCelana Zirah dari Thornium'
+  name: 'Celana Zirah Thornium'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_LUMIUM_GENERATOR:
+  name: 'Generator Lumium'
+  stats:
+  - '&6Generator Canggih'
+  type:
+  - '&7&oMesin'
+SUPREME_LUX_GENERATOR:
+  name: 'Generator Lux'
+  stats:
+  - '&6Generator Canggih'
+  type:
+  - '&7&oMesin'
+SUPREME_MAGIC_ALTAR_I:
+  description:
+  - '&fBuat Rune dan Item Ajaib'
+  name: 'Altar Sihir'
+  stats:
+  - '&6Mesin Canggih'
+  - '&8⇨ &b⚡ &7Kecepatan: &b1.0x'
+  type:
+  - '&7&oMesin'
+SUPREME_MAGIC_ALTAR_II:
+  description:
+  - '&fPembuatan Canggih Rune dan Item Ajaib'
+  name: 'Altar Sihir II'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b5.0x'
+  type:
+  - '&7&oMesin'
+SUPREME_MAGIC_ALTAR_III:
+  description:
+  - '&fPembuatan Canggih Rune dan Item Ajaib'
+  name: 'Altar Sihir III'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b15.0x'
+  type:
+  - '&7&oMesin'
+SUPREME_MAIN_ITEM:
+  name: "Supreme"
+  type:
+  - '&7&oLainnya'
+SUPREME_MANGANESE_PLATE:
+  name: 'Pelat Mangan'
+  type:
+  - '&7&oKomponen'
+SUPREME_MOB_COLLECTOR_MACHINE_I:
+  description:
+  - '&fMesin ini memungkinkan Anda mengumpulkan '
+  - '&fitem dari mob terdekat. (4 blok)'
+  name: 'Pengumpul Mob'
+  stats:
+  - '&6Mesin Canggih'
+  - '&8⇨ &b⚡ &7Kecepatan: &b1.0x'
+  - '&8⇨ &e⚡ &7Penyangga 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMesin'
+SUPREME_MOB_COLLECTOR_MACHINE_II:
+  description:
+  - '&fMesin ini memungkinkan Anda mengumpulkan'
+  - '&f item dari mob terdekat. (8 blok)'
+  name: 'Pengumpul Mob II'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b5.0x'
+  - '&8⇨ &e⚡ &7Penyangga 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMesin'
+SUPREME_MOB_COLLECTOR_MACHINE_III:
+  description:
+  - '&fMesin ini memungkinkan Anda mengumpulkan'
+  - '&f item dari mob terdekat. (16 blok)'
+  name: 'Pengumpul Mob III'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b15.0x'
+  - '&8⇨ &e⚡ &7Penyangga 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMesin'
+SUPREME_MOB_COLLECTOR_TOOL_I:
+  name: "Pengumpul MobTech I (Alat)"
+  stats:
+  - '&8⇨ &e⚡ &750 J per penggunaan'
+  type:
+  - '&7&oAlat'
+SUPREME_MOB_COLLECTOR_TOOL_II:
+  name: "Pengumpul MobTech II (Alat)"
+  stats:
+  - '&8⇨ &e⚡ &750 J per penggunaan'
+  type:
+  - '&7&oAlat'
+SUPREME_MOB_COLLECTOR_TOOL_III:
+  name: "Pengumpul MobTech III (Alat)"
+  stats:
+  - '&8⇨ &e⚡ &750 J per penggunaan'
+  type:
+  - '&7&oAlat'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_II:
+  description:
+  - '&fMesin ini memungkinkan Anda mengumpulkan '
+  - '&fkepala MobTech dari mob terdekat. (6 blok)'
+  name: 'Pengumpul MobTech II'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b1.0x'
+  - '&8⇨ &e⚡ &7Penyangga 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMesin'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_III:
+  description:
+  - '&fMesin ini memungkinkan Anda mengumpulkan '
+  - '&fkepala MobTech dari mob terdekat. (9 blok)'
+  name: 'Pengumpul MobTech III'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b1.0x'
+  - '&8⇨ &e⚡ &7Penyangga 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMesin'
+SUPREME_MULTIBLOCK_CORE:
+  description:
+  - '&7&oAnda bisa membuat inti di sini!'
+  - '&aMesin Multiblok'
+  name: 'Pembuat Inti'
+  type:
+  - '&7&oMesin'
+SUPREME_MULTIBLOCK_GEAR:
+  description:
+  - '&7&oAnda bisa membuat senjata, zirah dan alat di sini!'
+  - '&aMesin Multiblok'
+  name: 'Pembuat Perlengkapan'
+  type:
+  - '&7&oMesin'
+SUPREME_MULTIBLOCK_MAGICAL:
+  description:
+  - '&7&oAnda bisa membuat barang ajaib di sini!'
+  - '&aMesin Multiblok'
+  name: 'Pembuat Ajaib'
+  type:
+  - '&7&oMesin'
+SUPREME_PETRIFIER_MACHINE:
+  name: 'Mesin Petrifikasi'
+  type:
+  - '&7&oKomponen Lanjutan'
+SUPREME_PICKAXE_EPIC:
+  description:
+  - '&f&lBeliung Epik dari Thornium'
+  name: 'Beliung Epik'
+  type:
+  - '&7&oAlat'
+SUPREME_PICKAXE_LEGENDARY:
+  description:
+  - '&f&lBeliung Legendaris dari Thornium'
+  name: 'Beliung Legendaris'
+  type:
+  - '&7&oAlat'
+SUPREME_PICKAXE_MAGIC:
+  description:
+  - '&f&lBeliung Sihir dari Thornium'
+  name: 'Beliung Sihir'
+  type:
+  - '&7&oAlat'
+SUPREME_PICKAXE_RARE:
+  description:
+  - '&f&lBeliung Langka dari Thornium'
+  name: 'Beliung Langka'
+  type:
+  - '&7&oAlat'
+SUPREME_PICKAXE_SUPREME:
+  description:
+  - '&f&lBeliung Agung dari Thornium'
+  name: 'Beliung Agung'
+  type:
+  - '&7&oAlat'
+SUPREME_PICKAXE_THORNIUM:
+  description:
+  - '&f&lBeliung dari Thornium'
+  name: 'Beliung Thornium'
+  type:
+  - '&7&oAlat'
+SUPREME_PLATINUM_PLATE:
+  name: 'Pelat Platina'
+  type:
+  - '&7&oKomponen'
+SUPREME_RUSTLESS_MACHINE:
+  name: 'Mesin Anti Karat'
+  type:
+  - '&7&oKomponen Lanjutan'
+SUPREME_SHIELD_EPIC:
+  description:
+  - '&f&lPerisai Epik dari Thornium'
+  name: 'Perisai Epik'
+  type:
+  - '&7&oSenjata'
+SUPREME_SHIELD_LEGENDARY:
+  description:
+  - '&f&lPerisai Legendaris dari Thornium'
+  name: 'Perisai Legendaris'
+  type:
+  - '&7&oSenjata'
+SUPREME_SHIELD_MAGIC:
+  description:
+  - '&f&lPerisai Sihir dari Thornium'
+  name: 'Perisai Sihir'
+  type:
+  - '&7&oSenjata'
+SUPREME_SHIELD_RARE:
+  description:
+  - '&f&lPerisai Langka dari Thornium'
+  name: 'Perisai Langka'
+  type:
+  - '&7&oSenjata'
+SUPREME_SHIELD_SUPREME:
+  description:
+  - '&f&lPerisai Agung dari Thornium'
+  name: 'Perisai Agung'
+  type:
+  - '&7&oSenjata'
+SUPREME_SHIELD_THORNIUM:
+  description:
+  - '&f&lPerisai dari Thornium'
+  name: 'Perisai Thornium'
+  type:
+  - '&7&oSenjata'
+SUPREME_SHOVEL_EPIC:
+  description:
+  - '&f&lSekop Epik dari Thornium'
+  name: 'Sekop Epik'
+  type:
+  - '&7&oAlat'
+SUPREME_SHOVEL_LEGENDARY:
+  description:
+  - '&f&lSekop Legendaris dari Thornium'
+  name: 'Sekop Legendaris'
+  type:
+  - '&7&oAlat'
+SUPREME_SHOVEL_MAGIC:
+  description:
+  - '&f&lSekop Sihir dari Thornium'
+  name: 'Sekop Sihir'
+  type:
+  - '&7&oAlat'
+SUPREME_SHOVEL_RARE:
+  description:
+  - '&f&lSekop Langka dari Thornium'
+  name: 'Sekop Langka'
+  type:
+  - '&7&oAlat'
+SUPREME_SHOVEL_SUPREME:
+  description:
+  - '&f&lSekop Agung dari Thornium'
+  name: 'Sekop Agung'
+  type:
+  - '&7&oAlat'
+SUPREME_SHOVEL_THORNIUM:
+  description:
+  - '&f&lSekop dari Thornium'
+  name: 'Sekop Thornium'
+  type:
+  - '&7&oAlat'
+SUPREME_STAINLESS_MACHINE:
+  name: 'Mesin Nirkarat'
+  type:
+  - '&7&oKomponen Lanjutan'
+SUPREME_STONE_QUARRY:
+  name: 'Tambang Batu'
+  stats:
+  - '&aMesin Sedang'
+  type:
+  - '&7&oMesin'
+SUPREME_SUPREME:
+  description:
+  - '&7Sang Agung'
+  name: 'Agung'
+  type:
+  - '&7&oKomponen Akhir Permainan'
+SUPREME_SUPREME_CAPACITOR:
+  name: 'Kapasitor Agung'
+  stats:
+  - '&4Kapasitor Akhir Permainan'
+  - '&8⇨ &e⚡ &7Kapasitas J Tak Terbatas'
+  type:
+  - '&7&oMesin'
+SUPREME_SUPREME_GENERATOR:
+  name: 'Generator Agung'
+  stats:
+  - '&4Generator Akhir Permainan'
+  type:
+  - '&7&oMesin'
+SUPREME_SUPREME_NUGGET:
+  description:
+  - '&7Dari Tambang Bongkahan Agung'
+  name: 'Bongkahan Agung'
+  type:
+  - '&7&oKomponen Akhir Permainan'
+SUPREME_SUPREME_NUGGETS_QUARRY:
+  name: 'Bongkahan Tambang Agung'
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oMesin'
+SUPREME_SWORD_EPIC:
+  description:
+  - '&f&lPedang Epik dari Thornium'
+  name: 'Pedang Epik'
+  type:
+  - '&7&oSenjata'
+SUPREME_SWORD_LEGENDARY:
+  description:
+  - '&f&lPedang Legendaris dari Thornium'
+  name: 'Pedang Legendaris'
+  type:
+  - '&7&oSenjata'
+SUPREME_SWORD_MAGIC:
+  description:
+  - '&f&lPedang Sihir dari Thornium'
+  name: 'Pedang Sihir'
+  type:
+  - '&7&oSenjata'
+SUPREME_SWORD_RARE:
+  description:
+  - '&f&lPedang Langka dari Thornium'
+  name: 'Pedang Langka'
+  type:
+  - '&7&oSenjata'
+SUPREME_SWORD_SUPREME:
+  description:
+  - '&f&lPedang Agung dari Thornium'
+  name: 'Pedang Agung'
+  type:
+  - '&7&oSenjata'
+SUPREME_SWORD_THORNIUM:
+  description:
+  - '&f&lPedang dari Thornium'
+  name: 'Pedang Thornium'
+  type:
+  - '&7&oSenjata'
+SUPREME_SYNTHETIC_AMETHYST:
+  name: 'Kecubung Sintetis'
+  type:
+  - '&7&oKomponen'
+SUPREME_SYNTHETIC_RUBY:
+  name: 'Rubi Sintetis'
+  type:
+  - '&7&oKomponen'
+SUPREME_TECH_GENERATOR:
+  description:
+  - '&fMenggunakan daya dan lebah/golem/zombie, '
+  - '&fperlahan menghasilkan bahan.'
+  name: 'Generator Teknologi'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  type:
+  - '&7&oMesin'
+SUPREME_TECH_MUTATION_I:
+  description:
+  - '&fGunakan mutasi generator '
+  - '&funtuk maju ke level lebih tinggi'
+  name: 'Mutasi Teknologi'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  type:
+  - '&7&oMesin'
+SUPREME_TECH_MUTATION_II:
+  description:
+  - '&fGunakan mutasi generator '
+  - '&funtuk maju ke level lebih tinggi'
+  - '&fFaktor peluang dikalikan 2x'
+  name: 'Mutasi Teknologi II'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  type:
+  - '&7&oMesin'
+SUPREME_TECH_MUTATION_III:
+  description:
+  - '&fGunakan mutasi generator '
+  - '&funtuk maju ke level lebih tinggi'
+  - '&fFaktor peluang dikalikan 4x'
+  name: 'Mutasi Teknologi III'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  type:
+  - '&7&oMesin'
+SUPREME_TECH_ROBOTIC:
+  description:
+  - '&fGunakan robot level pemula '
+  - '&funtuk maju ke level lebih tinggi'
+  - '&fperlu 64x untuk meningkatkan'
+  name: 'Teknologi Robotik'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  type:
+  - '&7&oMesin'
+SUPREME_TECH_ROBOTIC_II:
+  description:
+  - '&fGunakan robot level pemula '
+  - '&funtuk maju ke level lebih tinggi'
+  - '&fperlu 32x untuk meningkatkan'
+  name: 'Teknologi Robotik II'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  type:
+  - '&7&oMesin'
+SUPREME_TECH_ROBOTIC_III:
+  description:
+  - '&fGunakan robot level pemula '
+  - '&funtuk maju ke level lebih tinggi'
+  - '&fperlu 16x untuk meningkatkan'
+  name: 'Teknologi Robotik III'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  type:
+  - '&7&oMesin'
+SUPREME_THORNERITE:
+  name: 'Thornerite'
+  type:
+  - '&7&oKomponen Akhir Permainan'
+SUPREME_THORNIUM_BIT:
+  description:
+  - '&7Dari Tambang Thornium'
+  name: 'Keping Thornium'
+  type:
+  - '&7&oKomponen Akhir Permainan'
+SUPREME_THORNIUM_BIT_SYNTHETIC:
+  description:
+  - '&7Dari Keping Thornium'
+  name: 'Keping Thornium Sintetis'
+  type:
+  - '&7&oKomponen Akhir Permainan'
+SUPREME_THORNIUM_CAPACITOR:
+  name: 'Kapasitor Thornium'
+  stats:
+  - '&4Kapasitor Akhir Permainan'
+  - '&8⇨ &e⚡ &7Kapasitas 100,000,000.00 J'
+  type:
+  - '&7&oMesin'
+SUPREME_THORNIUM_CARBONADO:
+  description:
+  - '&7Dari Batangan Thornium'
+  name: 'Karbonado Thornium'
+  type:
+  - '&7&oKomponen Akhir Permainan'
+SUPREME_THORNIUM_DUST:
+  description:
+  - '&7Dari Keping Thornium'
+  name: 'Serbuk Thornium'
+  type:
+  - '&7&oKomponen Akhir Permainan'
+SUPREME_THORNIUM_DUST_SYNTHETIC:
+  description:
+  - '&7Dari Serbuk Thornium'
+  name: 'Serbuk Thornium Sintetis'
+  type:
+  - '&7&oKomponen Akhir Permainan'
+SUPREME_THORNIUM_ENERGIZED:
+  description:
+  - '&7Dari Batangan Thornium'
+  name: 'Thornium Berenergi'
+  type:
+  - '&7&oKomponen Akhir Permainan'
+SUPREME_THORNIUM_GENERATOR:
+  name: 'Generator Thornium'
+  stats:
+  - '&4Generator Akhir Permainan'
+  type:
+  - '&7&oMesin'
+SUPREME_THORNIUM_INGOT:
+  description:
+  - '&7Dari Serbuk Thornium'
+  name: 'Batangan Thornium'
+  type:
+  - '&7&oKomponen Akhir Permainan'
+SUPREME_THORNIUM_INGOT_SYNTHETIC:
+  description:
+  - '&7Dari Batangan Thornium'
+  name: 'Batangan Thornium Sintetis'
+  type:
+  - '&7&oKomponen Akhir Permainan'
+SUPREME_THORNIUM_QUARRY:
+  name: 'Tambang Thornium'
+  stats:
+  - '&6Mesin Canggih'
+  type:
+  - '&7&oMesin'
+SUPREME_TITANIUM_AXE:
+  description:
+  - '&f&lKapak dari Titanium'
+  name: 'Kapak Titanium'
+  type:
+  - '&7&oAlat'
+SUPREME_TITANIUM_BOOTS:
+  description:
+  - '&f&lSepatu Bot dari Titanium'
+  name: 'Sepatu Bot Titanium'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_TITANIUM_CAPACITOR:
+  name: 'Kapasitor Titanium'
+  stats:
+  - '&6Kapasitor Canggih'
+  - '&8⇨ &e⚡ &7Kapasitas 4,000,000.00 J'
+  type:
+  - '&7&oMesin'
+SUPREME_TITANIUM_CHESTPLATE:
+  description:
+  - '&f&lZirah Dada dari Titanium'
+  name: 'Zirah Dada Titanium'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_TITANIUM_HELMET:
+  description:
+  - '&f&lHelm dari Titanium'
+  name: 'Helm Titanium'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_TITANIUM_LEGGINGS:
+  description:
+  - '&f&lCelana Zirah dari Titanium'
+  name: 'Celana Zirah Titanium'
+  type:
+  - '&7&oBaju Zirah'
+SUPREME_TITANIUM_PICKAXE:
+  description:
+  - '&f&lBeliung dari Titanium'
+  name: 'Beliung Titanium'
+  type:
+  - '&7&oAlat'
+SUPREME_TITANIUM_PLATE:
+  name: 'Pelat Titanium'
+  type:
+  - '&7&oKomponen'
+SUPREME_TITANIUM_SHOVEL:
+  description:
+  - '&f&lSekop dari Titanium'
+  name: 'Sekop Titanium'
+  type:
+  - '&7&oAlat'
+SUPREME_TITANIUM_SWORD:
+  description:
+  - '&f&lPedang dari Titanium'
+  name: 'Pedang Titanium'
+  type:
+  - '&7&oSenjata'
+SUPREME_VENTUS_GENERATOR:
+  name: 'Generator Ventus'
+  stats:
+  - '&eGenerator Dasar'
+  type:
+  - '&7&oMesin'
+SUPREME_VIRTUAL_AQUARIUM_I:
+  description:
+  - '&fMesin ini memungkinkan Anda mengumpulkan '
+  - '&f item yang dikumpulkan di laut.'
+  name: 'Akuarium Virtual'
+  stats:
+  - '&6Mesin Canggih'
+  - '&8⇨ &b⚡ &7Kecepatan: &b1.0x'
+  - '&8⇨ &e⚡ &7Penyangga 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMesin'
+SUPREME_VIRTUAL_AQUARIUM_II:
+  description:
+  - '&fMesin ini memungkinkan Anda mengumpulkan'
+  - '&f item yang dikumpulkan di laut.'
+  name: 'Akuarium Virtual II'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b5.0x'
+  - '&8⇨ &e⚡ &7Penyangga 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMesin'
+SUPREME_VIRTUAL_AQUARIUM_III:
+  description:
+  - '&fMesin ini memungkinkan Anda mengumpulkan'
+  - '&f item yang dikumpulkan di laut.'
+  name: 'Akuarium Virtual III'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b15.0x'
+  - '&8⇨ &e⚡ &7Penyangga 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMesin'
+SUPREME_VIRTUAL_GARDEN_I:
+  description:
+  - '&fMesin ini memungkinkan Anda'
+  - '&fmembudidayakan beberapa sumber daya.'
+  name: 'Taman Virtual'
+  stats:
+  - '&6Mesin Canggih'
+  - '&8⇨ &b⚡ &7Kecepatan: &b1.0x'
+  - '&8⇨ &e⚡ &7Penyangga 1000 J'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oMesin'
+SUPREME_VIRTUAL_GARDEN_II:
+  description:
+  - '&fMesin ini memungkinkan Anda'
+  - '&fmembudidayakan beberapa sumber daya.'
+  name: 'Taman Virtual II'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b5.0x'
+  - '&8⇨ &e⚡ &7Penyangga 5000 J'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oMesin'
+SUPREME_VIRTUAL_GARDEN_III:
+  description:
+  - '&fMesin ini memungkinkan Anda'
+  - '&fmembudidayakan beberapa sumber daya.'
+  name: 'Taman Virtual III'
+  stats:
+  - '&4Mesin Akhir Permainan'
+  - '&8⇨ &b⚡ &7Kecepatan: &b15.0x'
+  - '&8⇨ &e⚡ &7Penyangga 15000 J'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMesin'
+SUPREME_ZIRCONIUM_PLATE:
+  name: 'Pelat Zirkonium'
+  type:
+  - '&7&oKomponen'

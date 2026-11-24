@@ -1,0 +1,2352 @@
+MOB_TECH_COLLECTOR_MACHINE:
+  description:
+  - '&fEz a gép lehetővé teszi, hogy összegyűjtsd '
+  - '&fMobTech fej a közeli moboktól. (3 blokk)'
+  name: 'MobTech Gyűjtő I'
+  type:
+  - '&7&oGép'
+SUPREME_ADAMANTIUM_AXE:
+  description:
+  - '&f&lEgy fejsze Adamantiumból'
+  name: 'Adamantium Fejsze'
+  type:
+  - '&7&oEszközök'
+SUPREME_ADAMANTIUM_BOOTS:
+  description:
+  - '&f&lEgy csizma Adamantiumból'
+  name: 'Adamantium Csizma'
+  type:
+  - '&7&oPáncél'
+SUPREME_ADAMANTIUM_CAPACITOR:
+  name: 'Adamantium Kondenzátor'
+  stats:
+  - '&6Fejlett Kondenzátor'
+  - '&8⇨ &e⚡ &716,000,000.00 J Kapacitás'
+  type:
+  - '&7&oGép'
+SUPREME_ADAMANTIUM_CHESTPLATE:
+  description:
+  - '&f&lEgy mellvért Adamantiumból'
+  name: 'Adamantium Mellvért'
+  type:
+  - '&7&oPáncél'
+SUPREME_ADAMANTIUM_HELMET:
+  description:
+  - '&f&lEgy sisak Adamantiumból'
+  name: 'Adamantium Sisak'
+  type:
+  - '&7&oPáncél'
+SUPREME_ADAMANTIUM_LEGGINGS:
+  description:
+  - '&f&lEgy lábvért Adamantiumból'
+  name: 'Adamantium Lábvért'
+  type:
+  - '&7&oPáncél'
+SUPREME_ADAMANTIUM_PICKAXE:
+  description:
+  - '&f&lEgy csákány Adamantiumból'
+  name: 'Adamantium Csákány'
+  type:
+  - '&7&oEszközök'
+SUPREME_ADAMANTIUM_PLATE:
+  name: 'Adamantium Lemez'
+  type:
+  - '&7&oAlkatrészek'
+SUPREME_ADAMANTIUM_SHOVEL:
+  description:
+  - '&f&lEgy lapát Adamantiumból'
+  name: 'Adamantium Lapát'
+  type:
+  - '&7&oEszközök'
+SUPREME_ADAMANTIUM_SWORD:
+  description:
+  - '&f&lEgy kard Adamantiumból'
+  name: 'Adamantium Kard'
+  type:
+  - '&7&oFegyverek'
+SUPREME_ALLOY_ADAMANTIUM:
+  name: 'Adamantium Ötvözet'
+  type:
+  - '&7&oAlkatrészek'
+SUPREME_ALLOY_AURUM:
+  name: 'Aurum Ötvözet'
+  type:
+  - '&7&oAlkatrészek'
+SUPREME_ALLOY_IRIDIUM:
+  name: 'Irídium Ötvözet'
+  type:
+  - '&7&oAlkatrészek'
+SUPREME_ALLOY_MANGANESE:
+  name: 'Mangán Ötvözet'
+  type:
+  - '&7&oAlkatrészek'
+SUPREME_ALLOY_PLATINUM:
+  name: 'Platina Ötvözet'
+  type:
+  - '&7&oAlkatrészek'
+SUPREME_ALLOY_TITANIUM:
+  name: 'Titán Ötvözet'
+  type:
+  - '&7&oAlkatrészek'
+SUPREME_ALLOY_ZIRCONIUM:
+  name: 'Cirkónium Ötvözet'
+  type:
+  - '&7&oAlkatrészek'
+SUPREME_AQUA_GENERATOR:
+  name: 'Aqua Generátor'
+  stats:
+  - '&6Fejlett Generátor'
+  type:
+  - '&7&oGép'
+SUPREME_ATTRIBUTE_BOMB:
+  description:
+  - '&7Egy szuper bomba attribútum különleges hatásokkal'
+  name: 'Attribútum Bomba'
+  type:
+  - '&7&oVarázslatos alkatrészek'
+SUPREME_ATTRIBUTE_FORTUNE:
+  description:
+  - '&7Egy szuper szerencse attribútum különleges hatásokkal'
+  name: 'Attribútum Szerencse'
+  type:
+  - '&7&oVarázslatos alkatrészek'
+SUPREME_ATTRIBUTE_IMPETUS:
+  description:
+  - '&7Egy szuper impetus attribútum különleges hatásokkal'
+  name: 'Attribútum Impetus'
+  type:
+  - '&7&oVarázslatos alkatrészek'
+SUPREME_ATTRIBUTE_MAGIC:
+  description:
+  - '&7Egy szuper mágia attribútum különleges hatásokkal'
+  name: 'Attribútum Mágia'
+  type:
+  - '&7&oVarázslatos alkatrészek'
+SUPREME_AURUM_AXE:
+  description:
+  - '&f&lEgy fejsze Aurumból'
+  name: 'Aurum Fejsze'
+  type:
+  - '&7&oEszközök'
+SUPREME_AURUM_BOOTS:
+  description:
+  - '&f&lEgy csizma Aurumból'
+  name: 'Aurum Csizma'
+  type:
+  - '&7&oPáncél'
+SUPREME_AURUM_CAPACITOR:
+  name: 'Aurum Kondenzátor'
+  stats:
+  - '&6Fejlett Kondenzátor'
+  - '&8⇨ &e⚡ &71,000,000.00 J Kapacitás'
+  type:
+  - '&7&oGép'
+SUPREME_AURUM_CHESTPLATE:
+  description:
+  - '&f&lEgy mellvért Aurumból'
+  name: 'Aurum Mellvért'
+  type:
+  - '&7&oPáncél'
+SUPREME_AURUM_HELMET:
+  description:
+  - '&f&lEgy sisak Aurumból'
+  name: 'Aurum Sisak'
+  type:
+  - '&7&oPáncél'
+SUPREME_AURUM_LEGGINGS:
+  description:
+  - '&f&lEgy lábvért Aurumból'
+  name: 'Aurum Lábvért'
+  type:
+  - '&7&oPáncél'
+SUPREME_AURUM_PICKAXE:
+  description:
+  - '&f&lEgy csákány Aurumból'
+  name: 'Aurum Csákány'
+  type:
+  - '&7&oEszközök'
+SUPREME_AURUM_PLATE:
+  name: 'Aurum Lemez'
+  type:
+  - '&7&oAlkatrészek'
+SUPREME_AURUM_SHOVEL:
+  description:
+  - '&f&lEgy lapát Aurumból'
+  name: 'Aurum Lapát'
+  type:
+  - '&7&oEszközök'
+SUPREME_AURUM_SWORD:
+  description:
+  - '&f&lEgy kard Aurumból'
+  name: 'Aurum Kard'
+  type:
+  - '&7&oFegyverek'
+SUPREME_AXE_EPIC:
+  description:
+  - '&f&lEgy epikus fejsze Thorniumból'
+  name: 'Epikus Fejsze'
+  type:
+  - '&7&oEszközök'
+SUPREME_AXE_LEGENDARY:
+  description:
+  - '&f&lEgy legendás fejsze Thorniumból'
+  name: 'Legendás Fejsze'
+  type:
+  - '&7&oEszközök'
+SUPREME_AXE_MAGIC:
+  description:
+  - '&f&lEgy mágikus fejsze Thorniumból'
+  name: 'Mágikus Fejsze'
+  type:
+  - '&7&oEszközök'
+SUPREME_AXE_RARE:
+  description:
+  - '&f&lEgy ritka fejsze Thorniumból'
+  name: 'Ritka Fejsze'
+  type:
+  - '&7&oEszközök'
+SUPREME_AXE_SUPREME:
+  description:
+  - '&f&lEgy legfőbb fejsze Thorniumból'
+  name: 'Legfőbb Fejsze'
+  type:
+  - '&7&oEszközök'
+SUPREME_AXE_THORNIUM:
+  description:
+  - '&f&lEgy fejsze Thorniumból'
+  name: 'Thornium Fejsze'
+  type:
+  - '&7&oEszközök'
+SUPREME_BASIC_AQUA_GENERATOR:
+  name: 'Alap Aqua Generátor'
+  stats:
+  - '&eAlap Generátor'
+  type:
+  - '&7&oGép'
+SUPREME_BASIC_IGNIS_GENERATOR:
+  name: 'Alap Ignis Generátor'
+  stats:
+  - '&eAlap Generátor'
+  type:
+  - '&7&oGép'
+SUPREME_BASIC_LUMIUM_GENERATOR:
+  name: 'Alap Lumium Generátor'
+  stats:
+  - '&6Fejlett Generátor'
+  type:
+  - '&7&oGép'
+SUPREME_BASIC_LUX_GENERATOR:
+  name: 'Alap Lux Generátor'
+  stats:
+  - '&eAlap Generátor'
+  type:
+  - '&7&oGép'
+SUPREME_BASIC_VENTUS_GENERATOR:
+  name: 'Alap Ventus Generátor'
+  stats:
+  - '&eAlap Generátor'
+  type:
+  - '&7&oGép'
+SUPREME_BLEND_MACHINE:
+  name: 'Keverő Gép'
+  type:
+  - '&7&oFejlett alkatrészek'
+SUPREME_BOOTS_EPIC:
+  description:
+  - '&f&lEgy epikus csizma Thorniumból'
+  name: 'Epikus Csizma'
+  type:
+  - '&7&oPáncél'
+SUPREME_BOOTS_LEGENDARY:
+  description:
+  - '&f&lEgy legendás csizma Thorniumból'
+  name: 'Legendás Csizma'
+  type:
+  - '&7&oPáncél'
+SUPREME_BOOTS_MAGIC:
+  description:
+  - '&f&lEgy mágikus csizma Thorniumból'
+  name: 'Mágikus Csizma'
+  type:
+  - '&7&oPáncél'
+SUPREME_BOOTS_RARE:
+  description:
+  - '&f&lEgy ritka csizma Thorniumból'
+  name: 'Ritka Csizma'
+  type:
+  - '&7&oPáncél'
+SUPREME_BOOTS_SUPREME:
+  description:
+  - '&f&lEgy legfőbb csizma Thorniumból'
+  name: 'Legfőbb Csizma'
+  type:
+  - '&7&oPáncél'
+SUPREME_BOOTS_THORNIUM:
+  description:
+  - '&f&lEgy csizma Thorniumból'
+  name: 'Thornium Csizma'
+  type:
+  - '&7&oPáncél'
+SUPREME_BOW_EPIC:
+  description:
+  - '&f&lEgy epikus íj Thorniumból'
+  name: 'Epikus Íj'
+  type:
+  - '&7&oFegyverek'
+SUPREME_BOW_LEGENDARY:
+  description:
+  - '&f&lEgy legendás íj Thorniumból'
+  name: 'Legendás Íj'
+  type:
+  - '&7&oFegyverek'
+SUPREME_BOW_MAGIC:
+  description:
+  - '&f&lEgy mágikus íj Thorniumból'
+  name: 'Mágikus Íj'
+  type:
+  - '&7&oFegyverek'
+SUPREME_BOW_RARE:
+  description:
+  - '&f&lEgy ritka íj Thorniumból'
+  name: 'Ritka Íj'
+  type:
+  - '&7&oFegyverek'
+SUPREME_BOW_SUPREME:
+  description:
+  - '&f&lEgy legfőbb íj Thorniumból'
+  name: 'Legfőbb Íj'
+  type:
+  - '&7&oFegyverek'
+SUPREME_BOW_THORNIUM:
+  description:
+  - '&f&lEgy íj Thorniumból'
+  name: 'Thornium Íj'
+  type:
+  - '&7&oFegyverek'
+SUPREME_CARD_ALUMINUM_BRASS:
+  description:
+  - '&fVáltás Alumínium Sárgarézrúd termelésére'
+  name: "Gépkártya (Alumínium Sárgarézrúd)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_ALUMINUM_BRONZE:
+  description:
+  - '&fVáltás Alumínium Bronzrúd termelésére'
+  name: "Gépkártya (Alumínium Bronzrúd)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_ALUMINUM_DUST:
+  description:
+  - '&fVáltás Alumíniumpor termelésére'
+  name: "Gépkártya (Alumíniumpor)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_AMETHYST:
+  description:
+  - '&fVáltás Ametiszt termelésére'
+  name: "Gépkártya (Ametiszt)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_ANDESITE:
+  description:
+  - '&fVáltás Andezit termelésére'
+  name: "Gépkártya (Andezit)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_APPLE:
+  description:
+  - '&fVáltás Alma termelésére'
+  name: "Gépkártya (Alma)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_BATTERY:
+  description:
+  - '&fVáltás Akkumulátor termelésére'
+  name: "Gépkártya (Akkumulátor)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_BILLON:
+  description:
+  - '&fVáltás Billonrúd termelésére'
+  name: "Gépkártya (Billonrúd)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_BLAZE_ROD:
+  description:
+  - '&fVáltás Blaze Rúd termelésére'
+  name: "Gépkártya (Blaze Rúd)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_BRASS:
+  description:
+  - '&fVáltás Sárgarézrúd termelésére'
+  name: "Gépkártya (Sárgarézrúd)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_BRONZE:
+  description:
+  - '&fVáltás Bronzrúd termelésére'
+  name: "Gépkártya (Bronzrúd)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_CARBON:
+  description:
+  - '&fVáltás Karbon termelésére'
+  name: "Gépkártya (Karbon)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_CARBONADO:
+  description:
+  - '&fVáltás Karbonádó termelésére'
+  name: "Gépkártya (Karbonádó)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_CARBON_PRESS:
+  description:
+  - '&fVáltás Tömörített Karbon termelésére'
+  name: "Gépkártya (Tömörített Karbon)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_CLAY:
+  description:
+  - '&fVáltás Agyag termelésére'
+  name: "Gépkártya (Agyag)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_COAL:
+  description:
+  - '&fVáltás Szén termelésére'
+  name: "Gépkártya (Szén)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_COBALT:
+  description:
+  - '&fVáltás Kobalt termelésére'
+  name: "Gépkártya (Kobalt)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_COPPER:
+  description:
+  - '&fVáltás Réz termelésére'
+  name: "Gépkártya (Réz)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_COPPER_DUST:
+  description:
+  - '&fVáltás Rézpor termelésére'
+  name: "Gépkártya (Rézpor)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_CORINTHIAN_BRONZE:
+  description:
+  - '&fVáltás Korinthoszi Bronzrúd termelésére'
+  name: "Gépkártya (Korinthoszi Bronzrúd)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_DAMASCUS:
+  description:
+  - '&fVáltás Damaszkuszi Acél termelésére'
+  name: "Gépkártya (Damaszkuszi Acél)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_DIAMOND:
+  description:
+  - '&fVáltás Gyémánt termelésére'
+  name: "Gépkártya (Gyémánt)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_DIORITE:
+  description:
+  - '&fVáltás Diorit termelésére'
+  name: "Gépkártya (Diorit)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_DURALUMIN:
+  description:
+  - '&fVáltás Dúralumínium Rúd termelésére'
+  name: "Gépkártya (Dúralumínium Rúd)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_ELECTRIC_MOTOR:
+  description:
+  - '&fVáltás Elektromos Motor termelésére'
+  name: "Gépkártya (Elektromos Motor)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_ELECTRO_MAGNET:
+  description:
+  - '&fVáltás Elektromágnes termelésére'
+  name: "Gépkártya (Elektromágnes)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_EMERALD:
+  description:
+  - '&fVáltás Smaragd termelésére'
+  name: "Gépkártya (Smaragd)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_ENDSTONE:
+  description:
+  - '&fVáltás Endkő termelésére'
+  name: "Gépkártya (Endkő)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_FERROSILICON:
+  description:
+  - '&fVáltás Ferroszilícium termelésére'
+  name: "Gépkártya (Ferroszilícium)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_GLOW_INK_SAC:
+  description:
+  - '&fVáltás Világító Tintazsák termelésére'
+  name: "Gépkártya (Világító Tintazsák)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_GOLD:
+  description:
+  - '&fVáltás Arany termelésére'
+  name: "Gépkártya (Arany)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_GOLD24K:
+  description:
+  - '&fVáltás Arany 24k termelésére'
+  name: "Gépkártya (Arany 24k)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_GOLD_DUST:
+  description:
+  - '&fVáltás Aranypor termelésére'
+  name: "Gépkártya (Aranypor)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_GRANITE:
+  description:
+  - '&fVáltás Gránit termelésére'
+  name: "Gépkártya (Gránit)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_GRAVEL:
+  description:
+  - '&fVáltás Kavics termelésére'
+  name: "Gépkártya (Kavics)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_HARDENED_METAL:
+  description:
+  - '&fVáltás Keményített Fémrúd termelésére'
+  name: "Gépkártya (Keményített Fémrúd)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_HEATING_COIL:
+  description:
+  - '&fVáltás Fűtőtekercs termelésére'
+  name: "Gépkártya (Fűtőtekercs)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_HONEY_BOTTLE:
+  description:
+  - '&fVáltás Mézes Palack termelésére'
+  name: "Gépkártya (Mézes Palack)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_INK_SAC:
+  description:
+  - '&fVáltás Tintazsák termelésére'
+  name: "Gépkártya (Tintazsák)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_IRON:
+  description:
+  - '&fVáltás Vas termelésére'
+  name: "Gépkártya (Vas)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_IRON_DUST:
+  description:
+  - '&fVáltás Vaspor termelésére'
+  name: "Gépkártya (Vaspor)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_LAPIS:
+  description:
+  - '&fVáltás Lazurit termelésére'
+  name: "Gépkártya (Lazurit)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_LEAD_DUST:
+  description:
+  - '&fVáltás Ólompor termelésére'
+  name: "Gépkártya (Ólompor)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_MAGNESIUM_DUST:
+  description:
+  - '&fVáltás Magnéziumpor termelésére'
+  name: "Gépkártya (Magnéziumpor)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_MAGNET:
+  description:
+  - '&fVáltás Mágnes termelésére'
+  name: "Gépkártya (Mágnes)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_NETHERITE:
+  description:
+  - '&fVáltás Netherit termelésére'
+  name: "Gépkártya (Netherit)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_NETHER_STAR:
+  description:
+  - '&fVáltás Nether Csillag termelésére'
+  name: "Gépkártya (Nether Csillag)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_NICKEL:
+  description:
+  - '&fVáltás Nikkel termelésére'
+  name: "Gépkártya (Nikkel)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_PLASTIC_SHEET:
+  description:
+  - '&fVáltás Műanyag Lap termelésére'
+  name: "Gépkártya (Műanyag Lap)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_QUARTZ:
+  description:
+  - '&fVáltás Kvarc termelésére'
+  name: "Gépkártya (Kvarc)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_QUARTZ_BLOCK:
+  description:
+  - '&fVáltás Kvarc Blokk termelésére'
+  name: "Gépkártya (Kvarc Blokk)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_REDSTONE:
+  description:
+  - '&fVáltás Redstone termelésére'
+  name: "Gépkártya (Redstone)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_REDSTONE_ALLOY:
+  description:
+  - '&fVáltás Redstone Ötvözet termelésére'
+  name: "Gépkártya (Redstone Ötvözet)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_REINFORCED_ALLOY:
+  description:
+  - '&fVáltás Megerősített Ötvözetrúd termelésére'
+  name: "Gépkártya (Megerősített Ötvözetrúd)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_SAND:
+  description:
+  - '&fVáltás Homok termelésére'
+  name: "Gépkártya (Homok)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_SILICON:
+  description:
+  - '&fVáltás Szilícium termelésére'
+  name: "Gépkártya (Szilícium)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_SILVER_DUST:
+  description:
+  - '&fVáltás Ezüstpor termelésére'
+  name: "Gépkártya (Ezüstpor)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_SLIME_BALL:
+  description:
+  - '&fVáltás Nyálkagolyó termelésére'
+  name: "Gépkártya (Nyálkagolyó)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_SNOW:
+  description:
+  - '&fVáltás Hó termelésére'
+  name: "Gépkártya (Hó)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_SOLDER:
+  description:
+  - '&fVáltás Forrasztórúd termelésére'
+  name: "Gépkártya (Forrasztórúd)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_STEEL:
+  description:
+  - '&fVáltás Acél termelésére'
+  name: "Gépkártya (Acél)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_STONE:
+  description:
+  - '&fVáltás Kő termelésére'
+  name: "Gépkártya (Kő)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_SULFATE:
+  description:
+  - '&fVáltás Szulfát termelésére'
+  name: "Gépkártya (Szulfát)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_SYNTHETIC_DIAMOND:
+  description:
+  - '&fVáltás Szintetikus Gyémánt termelésére'
+  name: "Gépkártya (Szintetikus Gyémánt)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_SYNTHETIC_EMERALD:
+  description:
+  - '&fVáltás Szintetikus Smaragd termelésére'
+  name: "Gépkártya (Szintetikus Smaragd)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_SYNTHETIC_SAPPHIRE:
+  description:
+  - '&fVáltás Szintetikus Zafír termelésére'
+  name: "Gépkártya (Szintetikus Zafír)"
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_TIN_DUST:
+  description:
+  - '&fVáltás Ónpor termelésére'
+  name: "Gépkártya (Ónpor)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_WITHER_ROSE:
+  description:
+  - '&fVáltás Wither Rózsa termelésére'
+  name: "Gépkártya (Wither Rózsa)"
+  stats:
+  - '&eAlap Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARD_ZINC_DUST:
+  description:
+  - '&fVáltás Cinkpor termelésére'
+  name: "Gépkártya (Cinkpor)"
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CARRIAGE_MACHINE:
+  name: 'Szállító Gép'
+  type:
+  - '&7&oFejlett alkatrészek'
+SUPREME_CENTER_CARD_ADVANCED:
+  description:
+  - '&fAlkatrész a Géphez tárgyak termeléséhez'
+  name: 'Fejlett Alkatrész Kártyához'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CENTER_CARD_SIMPLE:
+  description:
+  - '&fAlkatrész a Géphez tárgyak termeléséhez'
+  name: 'Alap Alkatrész Kártyához'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CENTER_CARD_ULTIMATE:
+  description:
+  - '&fAlkatrész a Géphez tárgyak termeléséhez'
+  name: 'Végső Alkatrész Kártyához'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_CETRUS_AQUA:
+  description:
+  - '&7Egy szuper aqua jogar'
+  name: 'Cetrus Aqua'
+  type:
+  - '&7&oVarázslatos alkatrészek'
+SUPREME_CETRUS_IGNIS:
+  description:
+  - '&7Egy szuper ignis jogar'
+  name: 'Cetrus Ignis'
+  type:
+  - '&7&oVarázslatos alkatrészek'
+SUPREME_CETRUS_LUMIUM:
+  description:
+  - '&7Egy szuper lumium jogar'
+  name: 'Cetrus Lumium'
+  type:
+  - '&7&oVarázslatos alkatrészek'
+SUPREME_CETRUS_LUX:
+  description:
+  - '&7Egy szuper lux jogar'
+  name: 'Cetrus Lux'
+  type:
+  - '&7&oVarázslatos alkatrészek'
+SUPREME_CETRUS_VENTUS:
+  description:
+  - '&7Egy szuper ventus jogar'
+  name: 'Cetrus Ventus'
+  type:
+  - '&7&oVarázslatos alkatrészek'
+SUPREME_CHECK_INVENTORY:
+  description:
+  - '&fEllenőrzi, hogy a közeli ládában megvan-e a szűrt tárgy'
+  - '&fminden oldalt figyelembe vesz (az elsőt találja meg)'
+  - '&fha megtalálja, ez a blokk kivilágosodik'
+  name: "Leltárellenőrző"
+  stats:
+  - '&6Fejlett Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b1.0x'
+  type:
+  - '&7&oGép'
+SUPREME_CHESTPLATE_EPIC:
+  description:
+  - '&f&lEgy epikus mellvért Thorniumból'
+  name: 'Epikus Mellvért'
+  type:
+  - '&7&oPáncél'
+SUPREME_CHESTPLATE_LEGENDARY:
+  description:
+  - '&f&lEgy legendás mellvért Thorniumból'
+  name: 'Legendás Mellvért'
+  type:
+  - '&7&oPáncél'
+SUPREME_CHESTPLATE_MAGIC:
+  description:
+  - '&f&lEgy mágikus mellvért Thorniumból'
+  name: 'Mágikus Mellvért'
+  type:
+  - '&7&oPáncél'
+SUPREME_CHESTPLATE_RARE:
+  description:
+  - '&f&lEgy ritka mellvért Thorniumból'
+  name: 'Ritka Mellvért'
+  type:
+  - '&7&oPáncél'
+SUPREME_CHESTPLATE_SUPREME:
+  description:
+  - '&f&lEgy legfőbb mellvért Thorniumból'
+  name: 'Legfőbb Mellvért'
+  type:
+  - '&7&oPáncél'
+SUPREME_CHESTPLATE_THORNIUM:
+  description:
+  - '&f&lEgy mellvért Thorniumból'
+  name: 'Thornium Mellvért'
+  type:
+  - '&7&oPáncél'
+SUPREME_COAL_QUARRY:
+  name: 'Szénbánya'
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oGép'
+SUPREME_CONVEYANCE_MACHINE:
+  name: 'Továbbító Gép'
+  type:
+  - '&7&oFejlett alkatrészek'
+SUPREME_CORE_ACACIA_LOG:
+  description:
+  - '&7Egy szuper akác'
+  name: 'Legfőbb Akácrönk'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_ANDESITE:
+  description:
+  - '&7Egy szuper andezit'
+  name: 'Legfőbb andezit'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_APPLE:
+  description:
+  - '&7Egy szuper alma'
+  name: 'Legfőbb Alma'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_BEEF:
+  description:
+  - '&7Egy szuper marhahús'
+  name: 'Legfőbb marhahús'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_BEETROOT:
+  description:
+  - '&7Egy szuper cékla'
+  name: 'Legfőbb Cékla'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_BIRCH_LOG:
+  description:
+  - '&7Egy szuper nyír'
+  name: 'Legfőbb Nyírrönk'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_BLACK:
+  description:
+  - '&7Egy szuper fekete'
+  name: 'Legfőbb Fekete'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_BLUE:
+  description:
+  - '&7Egy szuper kék'
+  name: 'Legfőbb Kék'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_CARROT:
+  description:
+  - '&7Egy legfőbb répa'
+  name: 'Legfőbb Répa'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_CHICKEN:
+  description:
+  - '&7Egy szuper csirke'
+  name: 'Legfőbb csirke'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_CLAY:
+  description:
+  - '&7Egy szuper agyag'
+  name: 'Legfőbb agyag'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_COAL:
+  description:
+  - '&7Egy szuper szén'
+  name: 'Legfőbb szén'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_COD:
+  description:
+  - '&7Egy szuper tőkehal'
+  name: 'Legfőbb tőkehal'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_CRIMSON_STEM:
+  description:
+  - '&7Egy szuper kármin'
+  name: 'Legfőbb Kárminszár'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_CYAN:
+  description:
+  - '&7Egy szuper cián'
+  name: 'Legfőbb Cián'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_DARK_OAK_LOG:
+  description:
+  - '&7Egy szuper sötét'
+  name: 'Legfőbb Sötét Tölgyrönk'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_DIAMOND:
+  description:
+  - '&7Egy szuper gyémánt'
+  name: 'Legfőbb gyémánt'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_DIORITE:
+  description:
+  - '&7Egy szuper diorit'
+  name: 'Legfőbb diorit'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_EMERALD:
+  description:
+  - '&7Egy szuper smaragd'
+  name: 'Legfőbb smaragd'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_ENDSTONE:
+  description:
+  - '&7Egy szuper endkő'
+  name: 'Legfőbb endkő'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_GOLD:
+  description:
+  - '&7Egy szuper arany'
+  name: 'Legfőbb arany'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_GRANITE:
+  description:
+  - '&7Egy szuper gránit'
+  name: 'Legfőbb gránit'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_GRAVEL:
+  description:
+  - '&7Egy szuper kavics'
+  name: 'Legfőbb kavics'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_GRAY:
+  description:
+  - '&7Egy szuper szürke'
+  name: 'Legfőbb Szürke'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_GREEN:
+  description:
+  - '&7Egy szuper zöld'
+  name: 'Legfőbb Zöld'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_IRON:
+  description:
+  - '&7Egy szuper vas'
+  name: 'Legfőbb vas'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_JUNGLE_LOG:
+  description:
+  - '&7Egy szuper dzsungel'
+  name: 'Legfőbb Dzsungelrönk'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_LAPIS:
+  description:
+  - '&7Egy szuper lazurit'
+  name: 'Legfőbb lazurit'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_MELON:
+  description:
+  - '&7Egy szuper dinnye'
+  name: 'Legfőbb Dinnye'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_MUTTON:
+  description:
+  - '&7Egy szuper bárányhús'
+  name: 'Legfőbb bárányhús'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_NETHERITE:
+  description:
+  - '&7Egy szuper netherit'
+  name: 'Legfőbb netherit'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_OAK_LOG:
+  description:
+  - '&7Egy szuper tölgy'
+  name: 'Legfőbb Tölgyrönk'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_OF_ALLOY:
+  description:
+  - '&7Ez a mag többféle ércet tartalmaz'
+  - '&7amelyeket a világ körül gyűjtöttek össze.'
+  name: 'Ötvözetmag'
+  type:
+  - '&7&oVarázslatos alkatrészek'
+SUPREME_CORE_OF_BLOCK:
+  description:
+  - '&7Ez a mag többféle blokkot tartalmaz'
+  - '&7amelyeket a világ körül gyűjtöttek össze.'
+  name: 'Blokkmag'
+  type:
+  - '&7&oVarázslatos alkatrészek'
+SUPREME_CORE_OF_COLOR:
+  description:
+  - '&7Ez a mag többféle színt tartalmaz'
+  - '&7amelyeket a világ körül gyűjtöttek össze.'
+  name: 'Színmag'
+  type:
+  - '&7&oVarázslatos alkatrészek'
+SUPREME_CORE_OF_DEATH:
+  description:
+  - '&7Ez a mag olyan lények lelkeit tartalmazza, '
+  - '&7amelyek már átléptek a túlvilágra.'
+  name: 'Halálmag'
+  type:
+  - '&7&oVarázslatos alkatrészek'
+SUPREME_CORE_OF_LIFE:
+  description:
+  - '&7Ez a mag az élet töredékeit tartalmazza'
+  - '&7amelyeket a világ gyűjtött össze.'
+  name: 'Életmag'
+  type:
+  - '&7&oVarázslatos alkatrészek'
+SUPREME_CORE_OF_NATURE:
+  description:
+  - '&7Ez a mag többféle természetes elemet tartalmaz'
+  - '&7amelyeket a világ körül gyűjtöttek össze.'
+  name: 'Természetmag'
+  type:
+  - '&7&oVarázslatos alkatrészek'
+SUPREME_CORE_PINK:
+  description:
+  - '&7Egy szuper rózsaszín'
+  name: 'Legfőbb rózsaszín'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_PORKCHOP:
+  description:
+  - '&7Egy szuper szalonna'
+  name: "Legfőbb sertésborda"
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_POTATO:
+  description:
+  - '&7Egy szuper burgonya'
+  name: 'Legfőbb Burgonya'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_PUMPKIN:
+  description:
+  - '&7Egy szuper sütőtök'
+  name: 'Legfőbb Sütőtök'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_PURPLE:
+  description:
+  - '&7Egy szuper lila'
+  name: 'Legfőbb Lila'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_QUARTZ:
+  description:
+  - '&7Egy szuper kvarc'
+  name: 'Legfőbb kvarc'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_RED:
+  description:
+  - '&7Egy szuper vörös'
+  name: 'Legfőbb Vörös'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_REDSTONE:
+  description:
+  - '&7Egy szuper redstone'
+  name: 'Legfőbb redstone'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_SALMON:
+  description:
+  - '&7Egy szuper lazac'
+  name: 'Legfőbb lazac'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_SAND:
+  description:
+  - '&7Egy szuper homok'
+  name: 'Legfőbb homok'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_SNOW:
+  description:
+  - '&7Egy szuper hó'
+  name: 'Legfőbb hó'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_SPIDER_EYE:
+  description:
+  - '&7Egy szuper szem'
+  name: "Legfőbb pókszem"
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_SPRUCE_LOG:
+  description:
+  - '&7Egy szuper fenyő'
+  name: 'Legfőbb Fenyőrönk'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_STONE:
+  description:
+  - '&7Egy szuper kavicskő'
+  name: 'Legfőbb kavicskő'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_STRING:
+  description:
+  - '&7Egy szuper póráz'
+  name: "Legfőbb fonal"
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_SUGAR_CANE:
+  description:
+  - '&7Egy szuper cukornád'
+  name: 'Legfőbb Cukornád'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_SWEET_BERRIES:
+  description:
+  - '&7Egy szuper bogyó'
+  name: 'Legfőbb Édes Bogyók'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_TEAR:
+  description:
+  - '&7Egy szuper könny'
+  name: "Legfőbb ghastkönny"
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_WARPED_STEM:
+  description:
+  - '&7Egy szuper ferde'
+  name: 'Legfőbb Ferde Szár'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_WHEAT:
+  description:
+  - '&7Egy szuper búza'
+  name: 'Legfőbb Búza'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_WITHER_ROSE:
+  description:
+  - '&7Egy szuper rózsa'
+  name: 'Legfőbb Wither Rózsa'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CORE_YELLOW:
+  description:
+  - '&7Egy szuper sárga'
+  name: 'Legfőbb Sárga'
+  type:
+  - '&7&oAlapalkatrészek'
+SUPREME_CRYSTALLIZER_MACHINE:
+  name: 'Kristályosító Gép'
+  type:
+  - '&7&oFejlett alkatrészek'
+SUPREME_DIAMOND_QUARRY:
+  name: 'Gyémántbánya'
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oGép'
+SUPREME_DUST_AMETHYST:
+  name: 'Ametisztpor'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_DUST_GLOW_INK:
+  name: 'Világító Tintapor'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_DUST_NETHERITE:
+  name: 'Netheritpor'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_ELECTRIC_CORE_I:
+  description:
+  - '&fMag nyersanyagok barkácsolása'
+  name: 'Elektromos Mag Gép'
+  stats:
+  - '&6Fejlett Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b1.0x'
+  type:
+  - '&7&oGép'
+SUPREME_ELECTRIC_CORE_II:
+  description:
+  - '&fMag nyersanyagok fejlett barkácsolása'
+  name: 'Elektromos Mag Gép II'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b5.0x'
+  type:
+  - '&7&oGép'
+SUPREME_ELECTRIC_CORE_III:
+  description:
+  - '&fMag nyersanyagok fejlett barkácsolása'
+  name: 'Elektromos Mag Gép III'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b15.0x'
+  type:
+  - '&7&oGép'
+SUPREME_ELECTRIC_CRAFTER_I:
+  description:
+  - '&fTárgyak barkácsolása'
+  name: 'Elektromos Barkácsoló'
+  stats:
+  - '&6Fejlett Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b1.0x'
+  type:
+  - '&7&oGép'
+SUPREME_ELECTRIC_CRAFTER_II:
+  description:
+  - '&fTárgyak fejlett barkácsolása'
+  name: 'Elektromos Barkácsoló II'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b5.0x'
+  type:
+  - '&7&oGép'
+SUPREME_ELECTRIC_CRAFTER_III:
+  description:
+  - '&fTárgyak fejlett barkácsolása'
+  name: 'Elektromos Barkácsoló III'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b15.0x'
+  type:
+  - '&7&oGép'
+SUPREME_ELECTRIC_GEAR_I:
+  description:
+  - '&fFelszerelés szintjének barkácsolása'
+  name: 'Elektromos Felszerelés Gép'
+  stats:
+  - '&6Fejlett Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b1.0x'
+  type:
+  - '&7&oGép'
+SUPREME_ELECTRIC_GEAR_II:
+  description:
+  - '&fFelszerelés szintjének fejlett barkácsolása'
+  name: 'Elektromos Felszerelés Gép II'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b5.0x'
+  type:
+  - '&7&oGép'
+SUPREME_ELECTRIC_GEAR_III:
+  description:
+  - '&fFelszerelés szintjének fejlett barkácsolása'
+  name: 'Elektromos Felszerelés Gép III'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b15.0x'
+  type:
+  - '&7&oGép'
+SUPREME_ELECTRIC_ITEM:
+  name: "Elektromos"
+  type:
+  - '&7&oEgyéb'
+SUPREME_ELECTRIC_MAGICAL_I:
+  description:
+  - '&fMágikus nyersanyagok barkácsolása'
+  name: 'Elektromos Mágikus Gép'
+  stats:
+  - '&6Fejlett Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b1.0x'
+  type:
+  - '&7&oGép'
+SUPREME_ELECTRIC_MAGICAL_II:
+  description:
+  - '&fMágikus nyersanyagok fejlett barkácsolása'
+  name: 'Elektromos Mágikus Gép II'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b5.0x'
+  type:
+  - '&7&oGép'
+SUPREME_ELECTRIC_MAGICAL_III:
+  description:
+  - '&fMágikus nyersanyagok fejlett barkácsolása'
+  name: 'Elektromos Mágikus Gép III'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b15.0x'
+  type:
+  - '&7&oGép'
+SUPREME_EMPTY_MOBTECH:
+  name: 'Üres MobTech'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_FORGE_INGOT_I:
+  description:
+  - '&fEz a gép lehetővé teszi'
+  - '&fa rúd nyersanyagok kovácsolását.'
+  name: 'Kohó Rúd'
+  stats:
+  - '&6Fejlett Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J Puffer'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oGép'
+SUPREME_FORGE_INGOT_II:
+  description:
+  - '&fEz a gép lehetővé teszi'
+  - '&fa rúd nyersanyagok kovácsolását.'
+  name: 'Kohó Rúd II'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J Puffer'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oGép'
+SUPREME_FORGE_INGOT_III:
+  description:
+  - '&fEz a gép lehetővé teszi'
+  - '&fa rúd nyersanyagok kovácsolását.'
+  name: 'Kohó Rúd III'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J Puffer'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oGép'
+SUPREME_FORGE_MAGICAL_I:
+  description:
+  - '&fEz a gép lehetővé teszi'
+  - '&fa mágikus nyersanyagok kovácsolását.'
+  name: 'Kohó Mágikus'
+  stats:
+  - '&6Fejlett Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J Puffer'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oGép'
+SUPREME_FORGE_MAGICAL_II:
+  description:
+  - '&fEz a gép lehetővé teszi'
+  - '&fa mágikus nyersanyagok kovácsolását.'
+  name: 'Kohó Mágikus II'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J Puffer'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oGép'
+SUPREME_FORGE_MAGICAL_III:
+  description:
+  - '&fEz a gép lehetővé teszi'
+  - '&fa mágikus nyersanyagok kovácsolását.'
+  name: 'Kohó Mágikus III'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J Puffer'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oGép'
+SUPREME_FOUNDRY_I:
+  description:
+  - '&fTárgyak öntése és szintetizálása'
+  name: 'Öntöde'
+  stats:
+  - '&6Fejlett Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b1.0x'
+  type:
+  - '&7&oGép'
+SUPREME_FOUNDRY_II:
+  description:
+  - '&fTárgyak fejlett öntése és szintetizálása'
+  name: 'Öntöde II'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b5.0x'
+  type:
+  - '&7&oGép'
+SUPREME_FOUNDRY_III:
+  description:
+  - '&fTárgyak fejlett öntése és szintetizálása'
+  name: 'Öntöde III'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b15.0x'
+  type:
+  - '&7&oGép'
+SUPREME_GENERATOR_MOB_ADVANCED:
+  name: 'Fejlett Mob Termelő'
+  stats:
+  - '&eAlap Generátor'
+  type:
+  - '&7&oGép'
+SUPREME_GENERATOR_MOB_BASIC:
+  name: 'Alap Mob Termelő'
+  stats:
+  - '&eAlap Generátor'
+  type:
+  - '&7&oGép'
+SUPREME_GENERATOR_MOB_MEDIUM:
+  name: 'Közepes Mob Termelő'
+  stats:
+  - '&eAlap Generátor'
+  type:
+  - '&7&oGép'
+SUPREME_GENE_BERSERK:
+  name: 'Ámokfutó Gén'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_GENE_INTELLIGENCE:
+  name: 'Intelligencia Gén'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_GENE_LUCK:
+  name: 'Szerencse Gén'
+  type:
+  - '&7&oAlkatrész'
+SUPREME_GOLD_QUARRY:
+  name: 'Aranybánya'
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oGép'
+SUPREME_HELMET_EPIC:
+  description:
+  - '&f&lEgy epikus sisak Thorniumból'
+  name: 'Epikus Sisak'
+  type:
+  - '&7&oPáncél'
+SUPREME_HELMET_LEGENDARY:
+  description:
+  - '&f&lEgy legendás sisak Thorniumból'
+  name: 'Legendás Sisak'
+  type:
+  - '&7&oPáncél'
+SUPREME_HELMET_MAGIC:
+  description:
+  - '&f&lEgy mágikus sisak Thorniumból'
+  name: 'Mágikus Sisak'
+  type:
+  - '&7&oPáncél'
+SUPREME_HELMET_RARE:
+  description:
+  - '&f&lEgy ritka sisak Thorniumból'
+  name: 'Ritka Sisak'
+  type:
+  - '&7&oPáncél'
+SUPREME_HELMET_SUPREME:
+  description:
+  - '&f&lEgy legfőbb sisak Thorniumból'
+  name: 'Legfőbb Sisak'
+  type:
+  - '&7&oPáncél'
+SUPREME_HELMET_THORNIUM:
+  description:
+  - '&f&lEgy sisak Thorniumból'
+  name: 'Thornium Sisak'
+  type:
+  - '&7&oPáncél'
+SUPREME_IGNIS_GENERATOR:
+  name: 'Ignis Generátor'
+  stats:
+  - '&6Fejlett Generátor'
+  type:
+  - '&7&oGép'
+SUPREME_INDUCTIVE_MACHINE:
+  name: 'Induktív Gép'
+  type:
+  - '&7&oFejlett alkatrészek'
+SUPREME_INDUCTOR_MACHINE:
+  name: 'Induktor Gép'
+  type:
+  - '&7&oFejlett alkatrészek'
+SUPREME_IRIDIUM_PLATE:
+  name: 'Irídium Lemez'
+  type:
+  - '&7&oAlkatrészek'
+SUPREME_IRON_QUARRY:
+  name: 'Vasbánya'
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oGép'
+SUPREME_LEGGINGS_EPIC:
+  description:
+  - '&f&lEgy epikus lábvért Thorniumból'
+  name: 'Epikus Lábvért'
+  type:
+  - '&7&oPáncél'
+SUPREME_LEGGINGS_LEGENDARY:
+  description:
+  - '&f&lEgy legendás lábvért Thorniumból'
+  name: 'Legendás Lábvért'
+  type:
+  - '&7&oPáncél'
+SUPREME_LEGGINGS_MAGIC:
+  description:
+  - '&f&lEgy mágikus lábvért Thorniumból'
+  name: 'Mágikus Lábvért'
+  type:
+  - '&7&oPáncél'
+SUPREME_LEGGINGS_RARE:
+  description:
+  - '&f&lEgy ritka lábvért Thorniumból'
+  name: 'Ritka Lábvért'
+  type:
+  - '&7&oPáncél'
+SUPREME_LEGGINGS_SUPREME:
+  description:
+  - '&f&lEgy legfőbb lábvért Thorniumból'
+  name: 'Legfőbb Lábvért'
+  type:
+  - '&7&oPáncél'
+SUPREME_LEGGINGS_THORNIUM:
+  description:
+  - '&f&lEgy lábvért Thorniumból'
+  name: 'Thornium Lábvért'
+  type:
+  - '&7&oPáncél'
+SUPREME_LUMIUM_GENERATOR:
+  name: 'Lumium Generátor'
+  stats:
+  - '&6Fejlett Generátor'
+  type:
+  - '&7&oGép'
+SUPREME_LUX_GENERATOR:
+  name: 'Lux Generátor'
+  stats:
+  - '&6Fejlett Generátor'
+  type:
+  - '&7&oGép'
+SUPREME_MAGIC_ALTAR_I:
+  description:
+  - '&fRúnák és mágikus tárgyak barkácsolása'
+  name: 'Mágikus Oltár'
+  stats:
+  - '&6Fejlett Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b1.0x'
+  type:
+  - '&7&oGép'
+SUPREME_MAGIC_ALTAR_II:
+  description:
+  - '&fRúnák és mágikus tárgyak fejlett barkácsolása'
+  name: 'Mágikus Oltár II'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b5.0x'
+  type:
+  - '&7&oGép'
+SUPREME_MAGIC_ALTAR_III:
+  description:
+  - '&fRúnák és mágikus tárgyak fejlett barkácsolása'
+  name: 'Mágikus Oltár III'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b15.0x'
+  type:
+  - '&7&oGép'
+SUPREME_MAIN_ITEM:
+  name: "Supreme"
+  type:
+  - '&7&oEgyéb'
+SUPREME_MANGANESE_PLATE:
+  name: 'Mangán Lemez'
+  type:
+  - '&7&oAlkatrészek'
+SUPREME_MOB_COLLECTOR_MACHINE_I:
+  description:
+  - '&fEz a gép lehetővé teszi, hogy összegyűjtsd '
+  - '&fa közeli mobok tárgyait. (4 blokk)'
+  name: 'Mob Gyűjtő'
+  stats:
+  - '&6Fejlett Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J Puffer'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oGép'
+SUPREME_MOB_COLLECTOR_MACHINE_II:
+  description:
+  - '&fEz a gép lehetővé teszi, hogy összegyűjtsd'
+  - '&f a közeli mobok tárgyait. (8 blokk)'
+  name: 'Mob Gyűjtő II'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J Puffer'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oGép'
+SUPREME_MOB_COLLECTOR_MACHINE_III:
+  description:
+  - '&fEz a gép lehetővé teszi, hogy összegyűjtsd'
+  - '&f a közeli mobok tárgyait. (16 blokk)'
+  name: 'Mob Gyűjtő III'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J Puffer'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oGép'
+SUPREME_MOB_COLLECTOR_TOOL_I:
+  name: "MobTech Gyűjtő I (Eszköz)"
+  stats:
+  - '&8⇨ &e⚡ &750 J / használat'
+  type:
+  - '&7&oEszközök'
+SUPREME_MOB_COLLECTOR_TOOL_II:
+  name: "MobTech Gyűjtő II (Eszköz)"
+  stats:
+  - '&8⇨ &e⚡ &750 J / használat'
+  type:
+  - '&7&oEszközök'
+SUPREME_MOB_COLLECTOR_TOOL_III:
+  name: "MobTech Gyűjtő III (Eszköz)"
+  stats:
+  - '&8⇨ &e⚡ &750 J / használat'
+  type:
+  - '&7&oEszközök'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_II:
+  description:
+  - '&fEz a gép lehetővé teszi, hogy összegyűjtsd '
+  - '&fMobTech fej a közeli moboktól. (6 blokk)'
+  name: 'MobTech Gyűjtő II'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J Puffer'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oGép'
+SUPREME_MOB_TECH_COLLECTOR_MACHINE_III:
+  description:
+  - '&fEz a gép lehetővé teszi, hogy összegyűjtsd '
+  - '&fMobTech fej a közeli moboktól. (9 blokk)'
+  name: 'MobTech Gyűjtő III'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J Puffer'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oGép'
+SUPREME_MULTIBLOCK_CORE:
+  description:
+  - '&7&oItt magot barkácsolhatsz!'
+  - '&aMultiblokk Gép'
+  name: 'Maggyártó'
+  type:
+  - '&7&oGép'
+SUPREME_MULTIBLOCK_GEAR:
+  description:
+  - '&7&oItt fegyvereket, páncélt és szerszámokat barkácsolhatsz!'
+  - '&aMultiblokk Gép'
+  name: 'Felszerelésgyártó'
+  type:
+  - '&7&oGép'
+SUPREME_MULTIBLOCK_MAGICAL:
+  description:
+  - '&7&oItt mágikus dolgokat barkácsolhatsz!'
+  - '&aMultiblokk Gép'
+  name: 'Mágikus Gyártó'
+  type:
+  - '&7&oGép'
+SUPREME_PETRIFIER_MACHINE:
+  name: 'Megkövesítő Gép'
+  type:
+  - '&7&oFejlett alkatrészek'
+SUPREME_PICKAXE_EPIC:
+  description:
+  - '&f&lEgy epikus csákány Thorniumból'
+  name: 'Epikus Csákány'
+  type:
+  - '&7&oEszközök'
+SUPREME_PICKAXE_LEGENDARY:
+  description:
+  - '&f&lEgy legendás csákány Thorniumból'
+  name: 'Legendás Csákány'
+  type:
+  - '&7&oEszközök'
+SUPREME_PICKAXE_MAGIC:
+  description:
+  - '&f&lEgy mágikus csákány Thorniumból'
+  name: 'Mágikus Csákány'
+  type:
+  - '&7&oEszközök'
+SUPREME_PICKAXE_RARE:
+  description:
+  - '&f&lEgy ritka csákány Thorniumból'
+  name: 'Ritka Csákány'
+  type:
+  - '&7&oEszközök'
+SUPREME_PICKAXE_SUPREME:
+  description:
+  - '&f&lEgy legfőbb csákány Thorniumból'
+  name: 'Legfőbb Csákány'
+  type:
+  - '&7&oEszközök'
+SUPREME_PICKAXE_THORNIUM:
+  description:
+  - '&f&lEgy csákány Thorniumból'
+  name: 'Thornium Csákány'
+  type:
+  - '&7&oEszközök'
+SUPREME_PLATINUM_PLATE:
+  name: 'Platina Lemez'
+  type:
+  - '&7&oAlkatrészek'
+SUPREME_RUSTLESS_MACHINE:
+  name: 'Rozsdátlan Gép'
+  type:
+  - '&7&oFejlett alkatrészek'
+SUPREME_SHIELD_EPIC:
+  description:
+  - '&f&lEgy epikus pajzs Thorniumból'
+  name: 'Epikus Pajzs'
+  type:
+  - '&7&oFegyverek'
+SUPREME_SHIELD_LEGENDARY:
+  description:
+  - '&f&lEgy legendás pajzs Thorniumból'
+  name: 'Legendás Pajzs'
+  type:
+  - '&7&oFegyverek'
+SUPREME_SHIELD_MAGIC:
+  description:
+  - '&f&lEgy mágikus pajzs Thorniumból'
+  name: 'Mágikus Pajzs'
+  type:
+  - '&7&oFegyverek'
+SUPREME_SHIELD_RARE:
+  description:
+  - '&f&lEgy ritka pajzs Thorniumból'
+  name: 'Ritka Pajzs'
+  type:
+  - '&7&oFegyverek'
+SUPREME_SHIELD_SUPREME:
+  description:
+  - '&f&lEgy legfőbb pajzs Thorniumból'
+  name: 'Legfőbb Pajzs'
+  type:
+  - '&7&oFegyverek'
+SUPREME_SHIELD_THORNIUM:
+  description:
+  - '&f&lEgy pajzs Thorniumból'
+  name: 'Thornium Pajzs'
+  type:
+  - '&7&oFegyverek'
+SUPREME_SHOVEL_EPIC:
+  description:
+  - '&f&lEgy epikus lapát Thorniumból'
+  name: 'Epikus Lapát'
+  type:
+  - '&7&oEszközök'
+SUPREME_SHOVEL_LEGENDARY:
+  description:
+  - '&f&lEgy legendás lapát Thorniumból'
+  name: 'Legendás Lapát'
+  type:
+  - '&7&oEszközök'
+SUPREME_SHOVEL_MAGIC:
+  description:
+  - '&f&lEgy mágikus lapát Thorniumból'
+  name: 'Mágikus Lapát'
+  type:
+  - '&7&oEszközök'
+SUPREME_SHOVEL_RARE:
+  description:
+  - '&f&lEgy ritka lapát Thorniumból'
+  name: 'Ritka Lapát'
+  type:
+  - '&7&oEszközök'
+SUPREME_SHOVEL_SUPREME:
+  description:
+  - '&f&lEgy legfőbb lapát Thorniumból'
+  name: 'Legfőbb Lapát'
+  type:
+  - '&7&oEszközök'
+SUPREME_SHOVEL_THORNIUM:
+  description:
+  - '&f&lEgy lapát Thorniumból'
+  name: 'Thornium Lapát'
+  type:
+  - '&7&oEszközök'
+SUPREME_STAINLESS_MACHINE:
+  name: 'Rozsdamentes Gép'
+  type:
+  - '&7&oFejlett alkatrészek'
+SUPREME_STONE_QUARRY:
+  name: 'Kőbánya'
+  stats:
+  - '&aKözepes Gép'
+  type:
+  - '&7&oGép'
+SUPREME_SUPREME:
+  description:
+  - '&7A Legfőbb'
+  name: 'Legfőbb'
+  type:
+  - '&7&oJátékvégi alkatrészek'
+SUPREME_SUPREME_CAPACITOR:
+  name: 'Legfőbb Kondenzátor'
+  stats:
+  - '&4Végjáték Kondenzátor'
+  - '&8⇨ &e⚡ &7Végtelen J Kapacitás'
+  type:
+  - '&7&oGép'
+SUPREME_SUPREME_GENERATOR:
+  name: 'Legfőbb Generátor'
+  stats:
+  - '&4Végjáték Generátor'
+  type:
+  - '&7&oGép'
+SUPREME_SUPREME_NUGGET:
+  description:
+  - '&7A Legfőbb Rög Bányájából'
+  name: 'Legfőbb Rög'
+  type:
+  - '&7&oJátékvégi alkatrészek'
+SUPREME_SUPREME_NUGGETS_QUARRY:
+  name: 'Legfőbb Rögök Bányája'
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oGép'
+SUPREME_SWORD_EPIC:
+  description:
+  - '&f&lEgy epikus kard Thorniumból'
+  name: 'Epikus Kard'
+  type:
+  - '&7&oFegyverek'
+SUPREME_SWORD_LEGENDARY:
+  description:
+  - '&f&lEgy legendás kard Thorniumból'
+  name: 'Legendás Kard'
+  type:
+  - '&7&oFegyverek'
+SUPREME_SWORD_MAGIC:
+  description:
+  - '&f&lEgy mágikus kard Thorniumból'
+  name: 'Mágikus Kard'
+  type:
+  - '&7&oFegyverek'
+SUPREME_SWORD_RARE:
+  description:
+  - '&f&lEgy ritka kard Thorniumból'
+  name: 'Ritka Kard'
+  type:
+  - '&7&oFegyverek'
+SUPREME_SWORD_SUPREME:
+  description:
+  - '&f&lEgy legfőbb kard Thorniumból'
+  name: 'Legfőbb Kard'
+  type:
+  - '&7&oFegyverek'
+SUPREME_SWORD_THORNIUM:
+  description:
+  - '&f&lEgy kard Thorniumból'
+  name: 'Thornium Kard'
+  type:
+  - '&7&oFegyverek'
+SUPREME_SYNTHETIC_AMETHYST:
+  name: 'Szintetikus Ametiszt'
+  type:
+  - '&7&oAlkatrészek'
+SUPREME_SYNTHETIC_RUBY:
+  name: 'Szintetikus Rubin'
+  type:
+  - '&7&oAlkatrészek'
+SUPREME_TECH_GENERATOR:
+  description:
+  - '&fÁram és méhek/gólem/zombi segítségével, '
+  - '&flassan anyagokat generál.'
+  name: 'Technikai Termelő'
+  stats:
+  - '&4Végjáték Gép'
+  type:
+  - '&7&oGép'
+SUPREME_TECH_MUTATION_I:
+  description:
+  - '&fHasználj termelő mutációt '
+  - '&fa magasabb fokozatok eléréséhez'
+  name: 'Technikai Mutáció'
+  stats:
+  - '&4Végjáték Gép'
+  type:
+  - '&7&oGép'
+SUPREME_TECH_MUTATION_II:
+  description:
+  - '&fHasználj termelő mutációt '
+  - '&fa magasabb fokozatok eléréséhez'
+  - '&fAz esélyfaktor 2x-re nő'
+  name: 'Technikai Mutáció II'
+  stats:
+  - '&4Végjáték Gép'
+  type:
+  - '&7&oGép'
+SUPREME_TECH_MUTATION_III:
+  description:
+  - '&fHasználj termelő mutációt '
+  - '&fa magasabb fokozatok eléréséhez'
+  - '&fAz esélyfaktor 4x-re nő'
+  name: 'Technikai Mutáció III'
+  stats:
+  - '&4Végjáték Gép'
+  type:
+  - '&7&oGép'
+SUPREME_TECH_ROBOTIC:
+  description:
+  - '&fHasználj kezdő szintű robotokat '
+  - '&fa magasabb fokozatok eléréséhez'
+  - '&f64x kell a fejlesztéshez'
+  name: 'Technikai Robotika'
+  stats:
+  - '&4Végjáték Gép'
+  type:
+  - '&7&oGép'
+SUPREME_TECH_ROBOTIC_II:
+  description:
+  - '&fHasználj kezdő szintű robotokat '
+  - '&fa magasabb fokozatok eléréséhez'
+  - '&f32x kell a fejlesztéshez'
+  name: 'Technikai Robotika II'
+  stats:
+  - '&4Végjáték Gép'
+  type:
+  - '&7&oGép'
+SUPREME_TECH_ROBOTIC_III:
+  description:
+  - '&fHasználj kezdő szintű robotokat '
+  - '&fa magasabb fokozatok eléréséhez'
+  - '&f16x kell a fejlesztéshez'
+  name: 'Technikai Robotika III'
+  stats:
+  - '&4Végjáték Gép'
+  type:
+  - '&7&oGép'
+SUPREME_THORNERITE:
+  name: 'Thornerite'
+  type:
+  - '&7&oJátékvégi alkatrészek'
+SUPREME_THORNIUM_BIT:
+  description:
+  - '&7A Thornium Bányából'
+  name: 'Thornium Szemcse'
+  type:
+  - '&7&oJátékvégi alkatrészek'
+SUPREME_THORNIUM_BIT_SYNTHETIC:
+  description:
+  - '&7A Thornium Szemcséből'
+  name: 'Szintetikus Thornium Szemcse'
+  type:
+  - '&7&oJátékvégi alkatrészek'
+SUPREME_THORNIUM_CAPACITOR:
+  name: 'Thornium Kondenzátor'
+  stats:
+  - '&4Végjáték Kondenzátor'
+  - '&8⇨ &e⚡ &7100,000,000.00 J Kapacitás'
+  type:
+  - '&7&oGép'
+SUPREME_THORNIUM_CARBONADO:
+  description:
+  - '&7A Thornium Rúdból'
+  name: 'Thornium Karbonádó'
+  type:
+  - '&7&oJátékvégi alkatrészek'
+SUPREME_THORNIUM_DUST:
+  description:
+  - '&7A Thornium Szemcséből'
+  name: 'Thornium Por'
+  type:
+  - '&7&oJátékvégi alkatrészek'
+SUPREME_THORNIUM_DUST_SYNTHETIC:
+  description:
+  - '&7A Thornium Porból'
+  name: 'Szintetikus Thornium Por'
+  type:
+  - '&7&oJátékvégi alkatrészek'
+SUPREME_THORNIUM_ENERGIZED:
+  description:
+  - '&7A Thornium Rúdból'
+  name: 'Energizált Thornium'
+  type:
+  - '&7&oJátékvégi alkatrészek'
+SUPREME_THORNIUM_GENERATOR:
+  name: 'Thornium Generátor'
+  stats:
+  - '&4Végjáték Generátor'
+  type:
+  - '&7&oGép'
+SUPREME_THORNIUM_INGOT:
+  description:
+  - '&7A Thornium Porból'
+  name: 'Thornium Rúd'
+  type:
+  - '&7&oJátékvégi alkatrészek'
+SUPREME_THORNIUM_INGOT_SYNTHETIC:
+  description:
+  - '&7A Thornium Rúdból'
+  name: 'Szintetikus Thornium Rúd'
+  type:
+  - '&7&oJátékvégi alkatrészek'
+SUPREME_THORNIUM_QUARRY:
+  name: 'Thornium Bánya'
+  stats:
+  - '&6Fejlett Gép'
+  type:
+  - '&7&oGép'
+SUPREME_TITANIUM_AXE:
+  description:
+  - '&f&lEgy fejsze Titánból'
+  name: 'Titán Fejsze'
+  type:
+  - '&7&oEszközök'
+SUPREME_TITANIUM_BOOTS:
+  description:
+  - '&f&lEgy csizma Titánból'
+  name: 'Titán Csizma'
+  type:
+  - '&7&oPáncél'
+SUPREME_TITANIUM_CAPACITOR:
+  name: 'Titán Kondenzátor'
+  stats:
+  - '&6Fejlett Kondenzátor'
+  - '&8⇨ &e⚡ &74,000,000.00 J Kapacitás'
+  type:
+  - '&7&oGép'
+SUPREME_TITANIUM_CHESTPLATE:
+  description:
+  - '&f&lEgy mellvért Titánból'
+  name: 'Titán Mellvért'
+  type:
+  - '&7&oPáncél'
+SUPREME_TITANIUM_HELMET:
+  description:
+  - '&f&lEgy sisak Titánból'
+  name: 'Titán Sisak'
+  type:
+  - '&7&oPáncél'
+SUPREME_TITANIUM_LEGGINGS:
+  description:
+  - '&f&lEgy lábvért Titánból'
+  name: 'Titán Lábvért'
+  type:
+  - '&7&oPáncél'
+SUPREME_TITANIUM_PICKAXE:
+  description:
+  - '&f&lEgy csákány Titánból'
+  name: 'Titán Csákány'
+  type:
+  - '&7&oEszközök'
+SUPREME_TITANIUM_PLATE:
+  name: 'Titán Lemez'
+  type:
+  - '&7&oAlkatrészek'
+SUPREME_TITANIUM_SHOVEL:
+  description:
+  - '&f&lEgy lapát Titánból'
+  name: 'Titán Lapát'
+  type:
+  - '&7&oEszközök'
+SUPREME_TITANIUM_SWORD:
+  description:
+  - '&f&lEgy kard Titánból'
+  name: 'Titán Kard'
+  type:
+  - '&7&oFegyverek'
+SUPREME_VENTUS_GENERATOR:
+  name: 'Ventus Generátor'
+  stats:
+  - '&eAlap Generátor'
+  type:
+  - '&7&oGép'
+SUPREME_VIRTUAL_AQUARIUM_I:
+  description:
+  - '&fEz a gép lehetővé teszi, hogy összegyűjtsd '
+  - '&f tárgyakat, amelyeket a tengerben gyűjtenek.'
+  name: 'Virtuális Akvárium'
+  stats:
+  - '&6Fejlett Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J Puffer'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oGép'
+SUPREME_VIRTUAL_AQUARIUM_II:
+  description:
+  - '&fEz a gép lehetővé teszi, hogy összegyűjtsd'
+  - '&f tárgyakat, amelyeket a tengerben gyűjtenek.'
+  name: 'Virtuális Akvárium II'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J Puffer'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oGép'
+SUPREME_VIRTUAL_AQUARIUM_III:
+  description:
+  - '&fEz a gép lehetővé teszi, hogy összegyűjtsd'
+  - '&f tárgyakat, amelyeket a tengerben gyűjtenek.'
+  name: 'Virtuális Akvárium III'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J Puffer'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oGép'
+SUPREME_VIRTUAL_GARDEN_I:
+  description:
+  - '&fEz a gép lehetővé teszi'
+  - '&fnéhány nyersanyag termesztését.'
+  name: 'Virtuális Kert'
+  stats:
+  - '&6Fejlett Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b1.0x'
+  - '&8⇨ &e⚡ &71000 J Puffer'
+  - '&8⇨ &e⚡ &720 J/s'
+  type:
+  - '&7&oGép'
+SUPREME_VIRTUAL_GARDEN_II:
+  description:
+  - '&fEz a gép lehetővé teszi'
+  - '&fnéhány nyersanyag termesztését.'
+  name: 'Virtuális Kert II'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b5.0x'
+  - '&8⇨ &e⚡ &75000 J Puffer'
+  - '&8⇨ &e⚡ &7100 J/s'
+  type:
+  - '&7&oGép'
+SUPREME_VIRTUAL_GARDEN_III:
+  description:
+  - '&fEz a gép lehetővé teszi'
+  - '&fnéhány nyersanyag termesztését.'
+  name: 'Virtuális Kert III'
+  stats:
+  - '&4Végjáték Gép'
+  - '&8⇨ &b⚡ &7Sebesség: &b15.0x'
+  - '&8⇨ &e⚡ &715000 J Puffer'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oGép'
+SUPREME_ZIRCONIUM_PLATE:
+  name: 'Cirkónium Lemez'
+  type:
+  - '&7&oAlkatrészek'
