@@ -1,0 +1,202 @@
+package me.char321.sfadvancements.api;
+
+import me.char321.sfadvancements.SFAdvancements;
+import me.char321.sfadvancements.api.criteria.Criterion;
+import me.char321.sfadvancements.api.reward.Reward;
+import me.char321.sfadvancements.util.AdvancementContent;
+import me.char321.sfadvancements.util.ComponentCompat;
+import me.char321.sfadvancements.util.Messages;
+import me.char321.sfadvancements.util.Utils;
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
+
+import javax.annotation.Nullable;
+import java.util.Objects;
+
+/**
+ * An advancement that appears in the advancements gui and players can complete.
+ * When all of an advancement's criteria are completed, it becomes shiny.
+ *
+ * @author char321
+ */
+public class Advancement {
+    private final NamespacedKey key;
+    private final NamespacedKey parent;
+    private final AdvancementGroup group;
+    private final ItemStack display;
+    private final String frameType;
+    private final String name;
+    private final boolean hidden;
+    private final Criterion[] criteria;
+    private final Reward[] rewards;
+
+    public Advancement(NamespacedKey key, @Nullable NamespacedKey parent, AdvancementGroup group, ItemStack display, String name, boolean hidden, Criterion[] criteria, Reward[] rewards) {
+        this(key, parent, group, display, "GOAL", name, hidden, criteria, rewards);
+    }
+
+    public Advancement(NamespacedKey key, @Nullable NamespacedKey parent, AdvancementGroup group, ItemStack display, String frameType, String name, boolean hidden, Criterion[] criteria, Reward[] rewards) {
+        this.key = key;
+        if (parent == null) {
+            parent = Utils.keyOf(group.getId());
+        }
+        this.parent = parent;
+        this.group = group;
+        this.display = display;
+        this.frameType = frameType;
+        this.name = ChatColor.translateAlternateColorCodes('&', name);
+        this.hidden = hidden;
+        this.criteria = criteria;
+        this.rewards = rewards;
+    }
+
+    public NamespacedKey getKey() {
+        return key;
+    }
+
+    /** This advancement's id, which is also its section name in {@code advancements.yml}. */
+    public String getId() {
+        return key.getKey();
+    }
+
+    public NamespacedKey getParent() {
+        return parent;
+    }
+
+    public AdvancementGroup getGroup() {
+        return group;
+    }
+
+    public ItemStack getDisplay() {
+        return display;
+    }
+
+    public String getFrameType() {
+        return frameType;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    /** As {@link #getName()}, in the viewer's own language. */
+    public String getName(@Nullable Player viewer) {
+        return AdvancementContent.name(viewer, this);
+    }
+
+    public boolean isHidden() {
+        return hidden;
+    }
+
+    public Criterion[] getCriteria() {
+        return criteria;
+    }
+
+    public Reward[] getRewards() {
+        return rewards;
+    }
+
+    /**
+     * returns a criterion based on its on id
+     * @param id the id of the criterion
+     * @return the found criterion, null otherwise
+     */
+    @Nullable
+    public Criterion getCriterion(String id) {
+        for (Criterion criterion : criteria) {
+            if (criterion.getId().equals(id)) {
+                return criterion;
+            }
+        }
+        return null;
+    }
+
+    public String getDescription() {
+        String res = getName().replaceAll("[\\[\\]]", "");
+        res += "\n";
+        if (display.hasItemMeta()) {
+            ItemMeta im = display.getItemMeta();
+            if (im != null && im.hasLore()) {
+                res += String.join(" ", im.getLore());
+            }
+        }
+        return res;
+    }
+
+    /** As {@link #getDescription()}, in the viewer's own language. */
+    public String getDescription(@Nullable Player viewer) {
+        return getName(viewer).replaceAll("[\\[\\]]", "")
+                + "\n"
+                + String.join(" ", AdvancementContent.displayLore(viewer, this));
+    }
+
+    public void register() {
+        group.addAdvancement(this);
+        SFAdvancements.getRegistry().getAdvancements().put(key, this);
+    }
+
+    /**
+     * forces a player to complete this advancement
+     *
+     * @param p the player
+     */
+    public void complete(Player p) {
+        for (Criterion criterion : criteria) {
+            criterion.complete(p);
+        }
+    }
+
+    /**
+     * sends the message of completion and gives rewards
+     *
+     * @param p player
+     */
+    public void onComplete(Player p) {
+        for (Reward reward : rewards) {
+            reward.give(p);
+        }
+
+        if (SFAdvancements.getMainConfig().getBoolean("use-advancements-api")) {
+            SFAdvancements.getVanillaHook().complete(p, this.getKey());
+        }
+
+        if (SFAdvancements.getMainConfig().getConfiguration().getBoolean("announce-advancements", true)) {
+            broadcastMessage(p);
+        }
+    }
+
+    public void revoke(Player p) {
+        if (SFAdvancements.getMainConfig().getBoolean("use-advancements-api")) {
+            SFAdvancements.getVanillaHook().revoke(p, this.getKey());
+        }
+    }
+
+    /**
+     * @implNote The component is rebuilt for each recipient rather than once for the broadcast: the
+     *           announcement resolves in the reader's own language, so a single shared component could
+     *           only ever be right for one of them.
+     */
+    private void broadcastMessage(Player p) {
+        for (Player online : Bukkit.getOnlinePlayers()) {
+            String prefix = Messages.get(online, "advancement.announce", "%player% has made the advancement")
+                    .replace("%player%", p.getName());
+            ComponentCompat.send(online, ComponentCompat.buildAdvancementMessage(prefix + " ", getName(online), getDescription(online)));
+        }
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Advancement that = (Advancement) o;
+        return key.equals(that.key);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(key);
+    }
+}
