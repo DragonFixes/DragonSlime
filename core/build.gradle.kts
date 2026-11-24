@@ -1307,6 +1307,15 @@ tasks.runServer {
         jvmArgs("-Dslimefun.dumpMenuBaseline=true")
     }
 
+    // -PbundledAddons: install the in-repo addons (addons/<Name>, collected in <root>/deploy by :deploy).
+    val installBundledAddons = project.hasProperty("bundledAddons")
+    @Suppress("UNCHECKED_CAST")
+    val bundledAddonNames = gradle.extra["bundledAddons"] as List<String>
+    val deployDir = rootProject.layout.projectDirectory.dir("deploy").asFile
+    if (installBundledAddons) {
+        dependsOn(":deploy")
+    }
+
     // Per-version run dir: Paper world/config aren't backward-compatible across MC versions.
     val perVersionRunDir = layout.projectDirectory.dir("run/$runServerMcVer")
     runDirectory.set(perVersionRunDir)
@@ -1314,6 +1323,19 @@ tasks.runServer {
         val runDirFile = perVersionRunDir.asFile
         runDirFile.mkdirs()
         runDirFile.resolve("eula.txt").writeText("eula=true\n")
+
+        if (installBundledAddons) {
+            val pluginsDir = runDirFile.resolve("plugins").also { it.mkdirs() }
+            fun isBundledAddonJar(f: File) = f.name.endsWith(".jar") && bundledAddonNames.any { f.name.startsWith("$it-") }
+            // One jar per addon: an older copy beside the new one makes Bukkit load neither.
+            pluginsDir.listFiles()?.filter { isBundledAddonJar(it) }?.forEach {
+                if (!it.delete()) logger.warn("[bundledAddons] could not delete ${it.name}; is a server still running?")
+            }
+            deployDir.listFiles()?.filter { isBundledAddonJar(it) }?.forEach {
+                it.copyTo(pluginsDir.resolve(it.name), overwrite = true)
+                logger.lifecycle("[bundledAddons] installed ${it.name}")
+            }
+        }
 
         // Always pin the server to port 25566. Written before boot so Paper keeps it; other
         // properties are preserved (only the server-port line is set/replaced).

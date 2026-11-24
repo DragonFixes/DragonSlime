@@ -36,6 +36,15 @@ Dev server (`run-paper`, server dir `core\run\<mcVersion>\`, git-ignored):
 .\gradlew.bat :core:runServer -PmcVersion=1.20.6 -Paddons=networks,infinityexpansion
 ```
 
+Bundled addons and deploy:
+
+```powershell
+.\gradlew.bat deploy                    # core + every addon under addons\ -> deploy\ (also run by root `build`)
+.\gradlew.bat :addons:Networks:shadowJar  # one addon
+.\scripts\run-headless.ps1 -McVersion 26.3 -BundledAddons      # boot core + the in-repo addons
+.\gradlew.bat :core:runServer -PbundledAddons
+```
+
 Use `run-headless.ps1` to verify a change boots cleanly: it waits for Paper's
 `Done (` line plus a grace period, captures addon enable errors, then kills the
 process tree. `run.ps1` exists because the Gradle daemon has no console, so an
@@ -52,6 +61,7 @@ in-build menu cannot read input.
 | `-PkeepPlugins` | Reuse jars already in the plugins folder; skip addon builds. |
 | `-PstrictAddons` | Fail the build if any addon fails (otherwise a summary is printed and the boot continues). |
 | `-PnoVia` | Don't install the Java-8 builds of ViaVersion/ViaBackwards/ViaRewind. |
+| `-PbundledAddons` | Run `:deploy` and install the `addons\` jars from `deploy\` into the plugins folder (replacing older copies). |
 | `-PdumpItems` | On boot, write `plugins/Slimefun/untranslated-items.yml` and `menus-baseline.yml` to audit translation coverage across loaded addons. |
 
 Addons are cloned into `core\build\addons-src\` (throwaway clones, hard-reset to
@@ -59,6 +69,26 @@ origin each run; default branch is `experimental`), patched to compile against
 the freshly built core jar, and copied into the run server's plugins folder.
 The addon list comes from `https://raw.githubusercontent.com/Slimefun5/manifest/main/addons.json`,
 falling back to the bundled `core\src\main\resources\addons.json`.
+
+## Bundled addons (`addons/`)
+
+InfinityExpansion, LiteXpansion, Networks, SlimefunAdvancements, SMG and Supreme
+live in `addons/<Name>` as ordinary files, imported with full history via
+`git subtree add` from `Slimefun5/<Name>` `development` (not submodules). They
+are Gradle subprojects (`:addons:<Name>`, listed in `settings.gradle.kts`):
+
+- Each applies `addons/addon.gradle`, which compiles it against **this build's
+  core shadow jar** (Java 8, `spigot-api` 1.16.5), excludes core classes and
+  `SlimefunMetrics.jar` from its shadow jar, and stamps `slimefun-api:` with the
+  core version.
+- Versions come from `addonVersion` in each addon's `gradle.properties` (repo
+  tags belong to core). Bump it there when releasing an addon.
+- Networks compiles against the in-tree InfinityExpansion shadow jar.
+- The root `deploy` task syncs the core jar and all addon jars into `deploy/`
+  (git-ignored); root `build` runs it.
+- To pull later upstream addon work: `git subtree pull --prefix=addons/<Name>
+  https://github.com/Slimefun5/<Name>.git development`, then re-check the
+  addon's `build.gradle.kts` still applies `addons/addon.gradle`.
 
 ## Build constraints that shape the code
 
