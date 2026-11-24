@@ -1,0 +1,513 @@
+ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&eSaulės šalmas.'
+  - '&7Dėvimas ant galvos, jis pasyviai generuoja energiją'
+  - '&7dienos šviesoje ir įkrauna kitą jūsų įrangą.'
+  - '&7Aukštesnės pakopos pagamina ir sukaupia kur kas daugiau.'
+  name: 'Super pažangus saulės šalmas'
+  stats:
+  - '&8⇨ &e⚡ &750 J/t generavimas'
+  type:
+  - '&7&oŠarvai'
+ADVANCED_ALLOY:
+  name: 'Pažangus lydinys'
+  type:
+  - '&7&oKomponentas'
+ADVANCED_CIRCUIT:
+  name: 'Pažangi grandinė'
+  type:
+  - '&7&oKomponentas'
+ADVANCED_MACHINE_BLOCK:
+  name: 'Pažangus mašinos blokas'
+  type:
+  - '&7&oKomponentas'
+ADVANCED_SOLAR_HELMET:
+  description:
+  - '&eSaulės šalmas.'
+  - '&7Dėvimas ant galvos, jis pasyviai generuoja energiją'
+  - '&7dienos šviesoje ir įkrauna kitą jūsų įrangą.'
+  name: 'Pažangus saulės šalmas'
+  stats:
+  - '&8⇨ &e⚡ &75 J/t generavimas'
+  type:
+  - '&7&oŠarvai'
+ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7Saulės baterija, kuri &9veikia ir naktį&7,'
+  - '&7tik mažesne sparta.'
+  - '&7Turi savo vidinį energijos buferį.'
+  name: 'Pažangi saulės baterija'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J buferis'
+  - '&8⇨ &e⚡ &780 J/t (diena)'
+  - '&8⇨ &e⚡ &710 J/t (naktis)'
+  type:
+  - '&7&oGeneratorius'
+ANCIENT_DEBRIS_DUST:
+  name: 'Senovinių nuolaužų dulkės'
+  type:
+  - '&7&oIšteklius'
+CARBONADO_SOLAR_HELMET:
+  description:
+  - '&eSaulės šalmas.'
+  - '&7Dėvimas ant galvos, jis pasyviai generuoja energiją'
+  - '&7dienos šviesoje ir įkrauna kitą jūsų įrangą.'
+  name: 'Karbonado saulės šalmas'
+  stats:
+  - '&8⇨ &e⚡ &710 J/t generavimas'
+  type:
+  - '&7&oŠarvai'
+CARBON_PLATE:
+  name: 'Anglies plokštė'
+  type:
+  - '&7&oKomponentas'
+CARGO_CONFIGURATOR:
+  description:
+  - '&7Kopijuoja ir įklijuoja krovinių mazgų konfigūracijas.'
+  name: 'Krovinių konfigūratorius'
+  type:
+  - '&7&oĮrankis'
+  usage:
+  - '&7> &eDešinysis spustelėjimas &7- kopijuoti mazgo konfigūraciją'
+  - '&7> &eKairysis spustelėjimas &7- pritaikyti mazgo konfigūraciją'
+  - '&7> &eShift+dešinysis spustelėjimas &7- išvalyti mazgo konfigūratorių'
+COAL_DUST:
+  name: 'Anglies dulkės'
+  type:
+  - '&7&oIšteklius'
+CONVER:
+  description:
+  - '&7Keičia energiją tarp LiteXpansion ir kitų galios'
+  - '&7sistemų, kad jūsų tinklai veiktų kartu.'
+  name: 'Keitiklis'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J buferis'
+  - '&8⇨ &e⚡ &7769 J/t'
+  type:
+  - '&7&oMašina'
+COPPER_CABLE:
+  name: 'Vario kabelis'
+  type:
+  - '&7&oKomponentas'
+COPPER_ITEM_CASING:
+  name: 'Vario daikto korpusas'
+  type:
+  - '&7&oKomponentas'
+COPPER_PLATE:
+  name: 'Vario plokštė'
+  type:
+  - '&7&oKomponentas'
+DIAMOND_DRILL:
+  description:
+  - '&7Akimirksniu sulaužo obsidianą, akmenį ir jo atmainas'
+  name: 'Deimantinis grąžtas'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
+  type:
+  - '&7&oĮrankis'
+  usage:
+  - '&7Spustelėkite dešiniu, kad blokas lūžtų lėčiau'
+DIAMOND_DUST:
+  name: 'Deimanto dulkės'
+  type:
+  - '&7&oIšteklius'
+DIAMOND_PLATE:
+  name: 'Deimanto plokštė'
+  type:
+  - '&7&oKomponentas'
+ELECTRIC_CHESTPLATE:
+  description:
+  - '&7Panaikina visą žaidėjui padaromą žalą.'
+  name: 'Elektriniai krūtinės šarvai'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
+  type:
+  - '&7&oŠarvai'
+ELECTRONIC_CIRCUIT:
+  name: 'Elektroninė grandinė'
+  type:
+  - '&7&oKomponentas'
+EMERALD_DUST:
+  name: 'Smaragdo dulkės'
+  type:
+  - '&7&oIšteklius'
+ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&eSaulės šalmas.'
+  - '&7Dėvimas ant galvos, jis pasyviai generuoja energiją'
+  - '&7dienos šviesoje ir įkrauna kitą jūsų įrangą.'
+  name: 'Energizuotas saulės šalmas'
+  stats:
+  - '&8⇨ &e⚡ &720 J/t generavimas'
+  type:
+  - '&7&oŠarvai'
+FOOD_SYNTHESIZER:
+  description:
+  - '&fMaitina jus dirbtiniu maistu.'
+  - '&fPateikiamas su skoniais!'
+  name: 'Maisto sintezatorius'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
+  type:
+  - '&7&oĮtaisas'
+GENERATOR:
+  description:
+  - '&7Degina kurą, kad pagamintų energijos.'
+  - '&7Pirmasis patikimas galios šaltinis ir pagrindas'
+  - '&7RE baterijoms įkrauti bei mašinoms varyti.'
+  name: 'Generatorius'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J buferis'
+  - '&8⇨ &e⚡ &710 J/t išvestis'
+  type:
+  - '&7&oGeneratorius'
+GLASS_CUTTER:
+  description:
+  - '&bElektrinis stiklo įrankis.'
+  - '&7Veikia iš savo vidinio energijos buferio.'
+  name: 'Stiklo pjaustytuvas'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
+  type:
+  - '&7&oĮrankis'
+  usage:
+  - '&eKairiu spustelėkite&7, kad greitai perpjautumėte stiklą'
+  - '&eDešiniu spustelėkite&7, kad lėtai perpjautumėte stiklą'
+GOLD_CABLE:
+  name: 'Aukso kabelis'
+  type:
+  - '&7&oKomponentas'
+GOLD_ITEM_CASING:
+  name: 'Aukso daikto korpusas'
+  type:
+  - '&7&oKomponentas'
+GOLD_PLATE:
+  name: 'Aukso plokštė'
+  type:
+  - '&7&oKomponentas'
+HYBRID_SOLAR_HELMET:
+  description:
+  - '&eSaulės šalmas.'
+  - '&7Dėvimas ant galvos, jis pasyviai generuoja energiją'
+  - '&7dienos šviesoje ir įkrauna kitą jūsų įrangą.'
+  - '&7Aukštesnės pakopos pagamina ir sukaupia kur kas daugiau.'
+  name: 'Hibridinis saulės šalmas'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/t generavimas'
+  type:
+  - '&7&oŠarvai'
+HYBRID_SOLAR_PANEL:
+  description:
+  - '&bSaulės baterija, atpažįstanti dimensiją.'
+  - '&7Padidinta išeiga Nether dieną ir End'
+  - '&7naktį, greta įprasto dienos ir nakties generavimo.'
+  name: 'Hibridinė saulės baterija'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J buferis'
+  - '&8⇨ &e⚡ &7640 J/t (diena + Nether)'
+  - '&8⇨ &e⚡ &780 J/t (naktis + End)'
+  type:
+  - '&7&oGeneratorius'
+IRIDIUM:
+  name: 'Iridis'
+  type:
+  - '&7&oIšteklius'
+IRIDIUM_PLATE:
+  description:
+  - '&7Naudojama iridžio šarvams kurti'
+  name: 'Iridžio plokštė'
+  type:
+  - '&7&oKomponentas'
+IRON_ITEM_CASING:
+  name: 'Geležies daikto korpusas'
+  type:
+  - '&7&oKomponentas'
+IRON_PLATE:
+  name: 'Geležies plokštė'
+  type:
+  - '&7&oKomponentas'
+LAPIS_DUST:
+  name: 'Lazurito dulkės'
+  type:
+  - '&7&oIšteklius'
+LAPOTRON_CRYSTAL:
+  name: 'Lapotrono kristalas'
+  type:
+  - '&7&oKomponentas'
+MACERATOR:
+  description:
+  - '&7Sumala rūdas ir metalus į &7dulkes&7, padvigubindamas'
+  - '&7jūsų derlių, kai dulkės vėl išlydomos.'
+  - '&7Pirmas efektyvaus rūdos apdorojimo žingsnis.'
+  name: 'Smulkintuvas'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J buferis'
+  - '&8⇨ &e⚡ &7769 J/t'
+  type:
+  - '&7&oMašina'
+MACHINE_BLOCK:
+  name: 'Mašinos blokas'
+  type:
+  - '&7&oKomponentas'
+MAG_THOR:
+  description:
+  - '&7&oItin patvarus lydinys, naudojamas'
+  - '&7&otik pažangiausiose mašinose'
+  name: 'Mag-Thor'
+  type:
+  - '&7&oIšteklius'
+MANUAL_MILL:
+  description:
+  - '&7Ranka sukamas daugiablokis malūnas.'
+  - '&7Mala medžiagas be jokios energijos ir suteikia'
+  - '&7ankstyvojo žaidimo alternatyvą elektriniam smulkintuvui.'
+  name: 'Rankinis malūnas'
+  type:
+  - '&7&oDaugiablokis'
+  usage:
+  - '&eDešiniu spustelėkite&7 dalytuvą, kad galėtumėte naudoti'
+MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5Paverčia energiją - ir pasirinktinai &8metalo laužą &7- į'
+  - '&5UU-materiją&7, universalią statybinę medžiagą.'
+  - '&7Pridėjus metalo laužo, energijos sąnaudos smarkiai sumažėja.'
+  - '&8Ėdri vėlyvojo žaidimo mašina.'
+  name: 'Masės fabrikatorius'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J buferis'
+  - '&8⇨ &e⚡ &716,666 J/t'
+  type:
+  - '&7&oMašina'
+METAL_FORGE:
+  description:
+  - '&7Daugiablokis metalo presas.'
+  - '&7Formuoja luitus į &fplokštes &7ir &fdaiktų korpusus &7-'
+  - '&7komponentus, iš kurių gaminami kabeliai, mašinos ir šarvai.'
+  name: 'Metalo kalvė'
+  type:
+  - '&7&oDaugiablokis'
+  usage:
+  - '&eDešiniu spustelėkite&7 dalytuvą, kad galėtumėte naudoti'
+MINING_DRILL:
+  description:
+  - '&7Akimirksniu sulaužo akmenį ir jo atmainas'
+  name: 'Kasybos grąžtas'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
+  type:
+  - '&7&oĮrankis'
+  usage:
+  - '&7Spustelėkite dešiniu, kad blokas lūžtų lėčiau'
+MIXED_METAL_INGOT:
+  name: 'Mišraus metalo luitas'
+  type:
+  - '&7&oIšteklius'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7MFE.'
+  - '&7Vidutinės pakopos energijos kondensatorius, laikantis didelį'
+  - '&7buferį jūsų mašinų tinklui.'
+  name: 'MFE'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J buferis'
+  - '&8⇨ &e⚡ &712 J/t perdavimas'
+  type:
+  - '&7&oMašina'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7MFSU.'
+  - '&7Aukštos pakopos kondensatorius su milžinišku energijos buferiu'
+  - '&7reikliosioms vėlyvojo žaidimo mašinoms maitinti.'
+  name: 'MFSU'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J buferis'
+  - '&8⇨ &e⚡ &752 J/t perdavimas'
+  type:
+  - '&7&oMašina'
+NANO_BLADE:
+  description:
+  - '&fPažangi technologija, galinti'
+  - '&flengvai perpjauti organinį audinį.'
+  name: 'Nano ašmenys (išjungti)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
+  type:
+  - '&7&oGinklas'
+  usage:
+  - '&eDešiniu spustelėkite&7, kad perjungtumėte'
+POWER_UNIT:
+  name: 'Galios įrenginys'
+  type:
+  - '&7&oKomponentas'
+QUARTZ_DUST:
+  name: 'Kvarco dulkės'
+  type:
+  - '&7&oIšteklius'
+RAW_CARBON_FIBRE:
+  name: 'Žalias anglies pluoštas'
+  type:
+  - '&7&oIšteklius'
+RAW_CARBON_MESH:
+  name: 'Žalias anglies tinklelis'
+  type:
+  - '&7&oIšteklius'
+REDSTONE_DUST:
+  name: 'Raudonakmenio dulkės'
+  type:
+  - '&7&oIšteklius'
+REFINED_IRON:
+  name: 'Rafinuota geležis'
+  type:
+  - '&7&oIšteklius'
+REFINED_SMELTERY:
+  description:
+  - '&7Daugiablokė lydykla.'
+  - '&7Lydo dulkes ir jungia metalus į lydinius'
+  - '&7tokius kaip &7mišraus metalo luitai &7ir &7rafinuota geležis&7.'
+  name: 'Rafinavimo lydykla'
+  type:
+  - '&7&oDaugiablokis'
+  usage:
+  - '&eDešiniu spustelėkite&7 dalytuvą, kad galėtumėte naudoti'
+REINFORCED_DOOR:
+  name: 'Sustiprintos durys'
+  type:
+  - '&7&oKomponentas'
+REINFORCED_GLASS:
+  name: 'Sustiprintas stiklas'
+  type:
+  - '&7&oKomponentas'
+REINFORCED_STONE:
+  name: 'Sustiprintas akmuo'
+  type:
+  - '&7&oKomponentas'
+RE_BATTERY:
+  name: 'RE baterija'
+  type:
+  - '&7&oKomponentas'
+RUBBER:
+  name: 'Guma'
+  type:
+  - '&7&oIšteklius'
+RUBBER_SYNTHESIZER:
+  description:
+  - '&6Paverčia naftos kibirą &7guma&7.'
+  - '&7Guma izoliuoja plikus kabelius ir plačiai naudojama'
+  - '&7grandinių bei mašinų receptuose.'
+  name: 'Gumos sintezatorius'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J buferis'
+  - '&8⇨ &e⚡ &7769 J/t'
+  type:
+  - '&7&oMašina'
+SCRAP:
+  description:
+  - '&7Gali būti panaudotas kuriant &5UU-materiją'
+  name: 'Metalo laužas'
+  type:
+  - '&7&oIšteklius'
+SCRAP_MACHINE:
+  description:
+  - '&8Perdirbtuvas.'
+  - '&7Priima beveik bet kokį daiktą ir gali'
+  - '&7išspjauti &8metalo laužo &7- žaliavos UU-materijai.'
+  - '&7Veikia iš energijos; visa kita sunaikinama.'
+  name: 'Perdirbtuvas'
+  stats:
+  - '&8⇨ &e⚡ &7600 J buferis'
+  - '&8⇨ &e⚡ &7200 J/t'
+  type:
+  - '&7&oMašina'
+THORIUM:
+  description:
+  - '&8Radioaktyvus elementas.'
+  - '&7Perdirbamas į &7Mag-Thor &7ir naudojamas pažangiose'
+  - '&7plokštėse bei mechanizmuose.'
+  name: 'Toris'
+  stats:
+  - '&a☢&7 Radiacijos lygis: &6AUKŠTAS'
+  type:
+  - '&7&oIšteklius'
+  usage:
+  - '&8⇨ &4Reikalingas apsauginis kostiumas!'
+THORIUM_DUST:
+  name: 'Torio dulkės'
+  type:
+  - '&7&oIšteklius'
+THORIUM_PLATE:
+  name: 'Torio plokštė'
+  type:
+  - '&7&oKomponentas'
+TIN_CABLE:
+  name: 'Alavo kabelis'
+  type:
+  - '&7&oKomponentas'
+TIN_ITEM_CASING:
+  name: 'Alavo daikto korpusas'
+  type:
+  - '&7&oKomponentas'
+TIN_PLATE:
+  name: 'Alavo plokštė'
+  type:
+  - '&7&oKomponentas'
+TREETAP:
+  description:
+  - '&7Naudojamas &7gumai &7rinkti iš gumos šaltinių'
+  - '&7rankomis, be elektrinio sintezatoriaus.'
+  name: 'Medžio čiaupas'
+  type:
+  - '&7&oĮrankis'
+ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&eSaulės šalmas.'
+  - '&7Dėvimas ant galvos, jis pasyviai generuoja energiją'
+  - '&7dienos šviesoje ir įkrauna kitą jūsų įrangą.'
+  - '&7Aukštesnės pakopos pagamina ir sukaupia kur kas daugiau.'
+  name: 'Galutinis saulės šalmas'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/t generavimas'
+  type:
+  - '&7&oŠarvai'
+ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5Galingiausia LiteXpansion saulės baterija.'
+  - '&7Generuoja didelius energijos kiekius dieną ir naktį'
+  - '&7ir turi nemažą integruotą buferį.'
+  name: 'Galutinė saulės baterija'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J buferis'
+  - '&8⇨ &e⚡ &75,120 J/t (diena)'
+  - '&8⇨ &e⚡ &7640 J/t (naktis)'
+  type:
+  - '&7&oGeneratorius'
+UNINSULATED_COPPER_CABLE:
+  name: 'Neizoliuotas vario kabelis'
+  type:
+  - '&7&oKomponentas'
+UNINSULATED_GOLD_CABLE:
+  name: 'Neizoliuotas aukso kabelis'
+  type:
+  - '&7&oKomponentas'
+UNINSULATED_TIN_CABLE:
+  name: 'Neizoliuotas alavo kabelis'
+  type:
+  - '&7&oKomponentas'
+UU_CRAFTER:
+  description:
+  - '&7Automatizuoja &5UU-materijos &7gaminimą.'
+  - '&7Tiekite UU-materiją, ir jis pagamins nustatytą'
+  - '&7išteklių be rankinio gaminimo tinklelyje.'
+  name: 'UU gamintojas'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J buferis'
+  - '&8⇨ &e⚡ &750,000 J/t'
+  type:
+  - '&7&oMašina'
+  usage:
+  - '&eDešiniu spustelėkite&7 jungiklį, kad jį paleistumėte ar sustabdytumėte'
+UU_MATTER:
+  description:
+  - '&7Gali būti naudojama daiktams ar ištekliams kurti'
+  name: 'UU-materija'
+  type:
+  - '&7&oIšteklius'

@@ -1,0 +1,513 @@
+ADVANCEDLX_SOLAR_HELMET:
+  description:
+  - '&eO cască solară.'
+  - '&7Purtată pe cap, generează pasiv energie'
+  - '&7la lumina zilei și îți încarcă alt echipament.'
+  - '&7Nivelurile superioare produc și stochează mult mai mult.'
+  name: 'Cască Solară Super Avansată'
+  stats:
+  - '&8⇨ &e⚡ &750 J/t Generare'
+  type:
+  - '&7&oArmură'
+ADVANCED_ALLOY:
+  name: 'Aliaj Avansat'
+  type:
+  - '&7&oComponentă'
+ADVANCED_CIRCUIT:
+  name: 'Circuit Avansat'
+  type:
+  - '&7&oComponentă'
+ADVANCED_MACHINE_BLOCK:
+  name: 'Bloc de Mașină Avansată'
+  type:
+  - '&7&oComponentă'
+ADVANCED_SOLAR_HELMET:
+  description:
+  - '&eO cască solară.'
+  - '&7Purtată pe cap, generează pasiv energie'
+  - '&7la lumina zilei și îți încarcă alt echipament.'
+  name: 'Cască Solară Avansată'
+  stats:
+  - '&8⇨ &e⚡ &75 J/t Generare'
+  type:
+  - '&7&oArmură'
+ADVANCED_SOLAR_PANEL:
+  description:
+  - '&7Un panou solar care &9funcționează și noaptea&7,'
+  - '&7la o rată redusă.'
+  - '&7Include propriul tampon intern de energie.'
+  name: 'Panou Solar Avansat'
+  stats:
+  - '&8⇨ &e⚡ &7320,000 J Tampon'
+  - '&8⇨ &e⚡ &780 J/t (Zi)'
+  - '&8⇨ &e⚡ &710 J/t (Noapte)'
+  type:
+  - '&7&oGenerator'
+ANCIENT_DEBRIS_DUST:
+  name: 'Praf de Resturi Antice'
+  type:
+  - '&7&oResursă'
+CARBONADO_SOLAR_HELMET:
+  description:
+  - '&eO cască solară.'
+  - '&7Purtată pe cap, generează pasiv energie'
+  - '&7la lumina zilei și îți încarcă alt echipament.'
+  name: 'Cască Solară din Carbonado'
+  stats:
+  - '&8⇨ &e⚡ &710 J/t Generare'
+  type:
+  - '&7&oArmură'
+CARBON_PLATE:
+  name: 'Placă de Carbon'
+  type:
+  - '&7&oComponentă'
+CARGO_CONFIGURATOR:
+  description:
+  - '&7Copiază și lipește configurațiile nodurilor cargo.'
+  name: 'Configurator de Cargo'
+  type:
+  - '&7&oUnealtă'
+  usage:
+  - '&7> &eClic dreapta &7- Copiază configurația nodului'
+  - '&7> &eClic stânga &7- Aplică configurația nodului'
+  - '&7> &eShift+Clic dreapta &7- Golește configuratorul de noduri'
+COAL_DUST:
+  name: 'Praf de Cărbune'
+  type:
+  - '&7&oResursă'
+CONVER:
+  description:
+  - '&7Schimbă energia între LiteXpansion și alte sisteme'
+  - '&7de energie, ca grilele tale să poată coopera.'
+  name: 'Convertor'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Tampon'
+  - '&8⇨ &e⚡ &7769 J/t'
+  type:
+  - '&7&oMașină'
+COPPER_CABLE:
+  name: 'Cablu de Cupru'
+  type:
+  - '&7&oComponentă'
+COPPER_ITEM_CASING:
+  name: 'Carcasă de Obiect din Cupru'
+  type:
+  - '&7&oComponentă'
+COPPER_PLATE:
+  name: 'Placă de Cupru'
+  type:
+  - '&7&oComponentă'
+DIAMOND_DRILL:
+  description:
+  - '&7Sparge instantaneu obsidianul, piatra și variantele de piatră'
+  name: 'Burghiu de Diamant'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
+  type:
+  - '&7&oUnealtă'
+  usage:
+  - '&7Clic dreapta pentru a sparge blocul mai lent'
+DIAMOND_DUST:
+  name: 'Praf de Diamant'
+  type:
+  - '&7&oResursă'
+DIAMOND_PLATE:
+  name: 'Placă de Diamant'
+  type:
+  - '&7&oComponentă'
+ELECTRIC_CHESTPLATE:
+  description:
+  - '&7Anulează toate daunele primite de jucător.'
+  name: 'Platoșă Electrică'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 8192 J'
+  type:
+  - '&7&oArmură'
+ELECTRONIC_CIRCUIT:
+  name: 'Circuit Electronic'
+  type:
+  - '&7&oComponentă'
+EMERALD_DUST:
+  name: 'Praf de Smarald'
+  type:
+  - '&7&oResursă'
+ENERGIZED_SOLAR_HELMET:
+  description:
+  - '&eO cască solară.'
+  - '&7Purtată pe cap, generează pasiv energie'
+  - '&7la lumina zilei și îți încarcă alt echipament.'
+  name: 'Cască Solară Energizată'
+  stats:
+  - '&8⇨ &e⚡ &720 J/t Generare'
+  type:
+  - '&7&oArmură'
+FOOD_SYNTHESIZER:
+  description:
+  - '&fTe ține hrănit cu mâncare artificială.'
+  - '&fVine în toate aromele!'
+  name: 'Sintetizator de Mâncare'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 100 J'
+  type:
+  - '&7&oGadget'
+GENERATOR:
+  description:
+  - '&7Arde combustibil pentru a produce energie.'
+  - '&7Prima ta sursă de energie fiabilă și baza'
+  - '&7pentru încărcarea Bateriilor RE și pornirea mașinilor.'
+  name: 'Generator'
+  stats:
+  - '&8⇨ &e⚡ &74,000 J Tampon'
+  - '&8⇨ &e⚡ &710 J/t Ieșire'
+  type:
+  - '&7&oGenerator'
+GLASS_CUTTER:
+  description:
+  - '&bO unealtă electrică pentru sticlă.'
+  - '&7Funcționează din tamponul său intern de energie.'
+  name: 'Tăietor de Sticlă'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 300 J'
+  type:
+  - '&7&oUnealtă'
+  usage:
+  - '&eClic stânga&7 pentru a tăia sticla rapid'
+  - '&eClic dreapta&7 pentru a tăia sticla lent'
+GOLD_CABLE:
+  name: 'Cablu de Aur'
+  type:
+  - '&7&oComponentă'
+GOLD_ITEM_CASING:
+  name: 'Carcasă de Obiect din Aur'
+  type:
+  - '&7&oComponentă'
+GOLD_PLATE:
+  name: 'Placă de Aur'
+  type:
+  - '&7&oComponentă'
+HYBRID_SOLAR_HELMET:
+  description:
+  - '&eO cască solară.'
+  - '&7Purtată pe cap, generează pasiv energie'
+  - '&7la lumina zilei și îți încarcă alt echipament.'
+  - '&7Nivelurile superioare produc și stochează mult mai mult.'
+  name: 'Cască Solară Hibridă'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/t Generare'
+  type:
+  - '&7&oArmură'
+HYBRID_SOLAR_PANEL:
+  description:
+  - '&bUn panou solar care ține cont de dimensiune.'
+  - '&7Ieșire mărită în Nether ziua și în End'
+  - '&7noaptea, peste generarea normală de zi/noapte.'
+  name: 'Panou Solar Hibrid'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J Tampon'
+  - '&8⇨ &e⚡ &7640 J/t (Zi + Nether)'
+  - '&8⇨ &e⚡ &780 J/t (Noapte + End)'
+  type:
+  - '&7&oGenerator'
+IRIDIUM:
+  name: 'Iridiu'
+  type:
+  - '&7&oResursă'
+IRIDIUM_PLATE:
+  description:
+  - '&7Folosită pentru a crea Armură de Iridiu'
+  name: 'Placă de Iridiu'
+  type:
+  - '&7&oComponentă'
+IRON_ITEM_CASING:
+  name: 'Carcasă de Obiect din Fier'
+  type:
+  - '&7&oComponentă'
+IRON_PLATE:
+  name: 'Placă de Fier'
+  type:
+  - '&7&oComponentă'
+LAPIS_DUST:
+  name: 'Praf de Lapis'
+  type:
+  - '&7&oResursă'
+LAPOTRON_CRYSTAL:
+  name: 'Cristal Lapotron'
+  type:
+  - '&7&oComponentă'
+MACERATOR:
+  description:
+  - '&7Macină minereuri și metale în &7praf&7, dublând'
+  - '&7randamentul când praful este topit din nou.'
+  - '&7Primul pas al procesării eficiente a minereului.'
+  name: 'Macerator'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Tampon'
+  - '&8⇨ &e⚡ &7769 J/t'
+  type:
+  - '&7&oMașină'
+MACHINE_BLOCK:
+  name: 'Bloc de Mașină'
+  type:
+  - '&7&oComponentă'
+MAG_THOR:
+  description:
+  - '&7&oUn aliaj extrem de durabil folosit'
+  - '&7&odoar în cele mai avansate mașini'
+  name: 'Mag-Thor'
+  type:
+  - '&7&oResursă'
+MANUAL_MILL:
+  description:
+  - '&7O moară multibloc acționată cu manivelă.'
+  - '&7Macină materiale fără energie, oferindu-ți o'
+  - '&7alternativă de început de joc la Maceratorul electric.'
+  name: 'Moară Manuală'
+  type:
+  - '&7&oMultibloc'
+  usage:
+  - '&eClic dreapta&7 pe dispenser pentru a o folosi'
+MASS_FABRICATOR_MACHINE:
+  description:
+  - '&5Convertește energia - și opțional &8Fier Vechi &7- în'
+  - '&5Materie-UU&7, materialul universal de construcție.'
+  - '&7Adăugarea de Fier Vechi reduce drastic costul energetic.'
+  - '&8O mașină de final de joc, flămândă.'
+  name: 'Fabricator de Masă'
+  stats:
+  - '&8⇨ &e⚡ &749,998 J Tampon'
+  - '&8⇨ &e⚡ &716,666 J/t'
+  type:
+  - '&7&oMașină'
+METAL_FORGE:
+  description:
+  - '&7O presă de metal multibloc.'
+  - '&7Transformă lingourile în &fplăci &7și &fcarcase de obiecte &7-'
+  - '&7componentele din spatele cablurilor, mașinilor și armurilor.'
+  name: 'Forjă de Metal'
+  type:
+  - '&7&oMultibloc'
+  usage:
+  - '&eClic dreapta&7 pe dispenser pentru a o folosi'
+MINING_DRILL:
+  description:
+  - '&7Sparge instantaneu piatra și variantele de piatră'
+  name: 'Burghiu de Minerit'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 1000 J'
+  type:
+  - '&7&oUnealtă'
+  usage:
+  - '&7Clic dreapta pentru a sparge blocul mai lent'
+MIXED_METAL_INGOT:
+  name: 'Lingou de Metal Mixt'
+  type:
+  - '&7&oResursă'
+MULTI_FUNCTIONAL_ELECTRIC_STORAGE_UNIT:
+  description:
+  - '&7MFE-ul.'
+  - '&7Un condensator de energie de nivel mediu ce ține un'
+  - '&7tampon mare pentru rețeaua ta de mașini.'
+  name: 'MFE'
+  stats:
+  - '&8⇨ &e⚡ &74,000,000 J Tampon'
+  - '&8⇨ &e⚡ &712 J/t Transfer'
+  type:
+  - '&7&oMașină'
+MULTI_FUNCTIONAL_STORAGE_UNIT:
+  description:
+  - '&7MFSU-ul.'
+  - '&7Un condensator de nivel înalt cu un tampon uriaș de energie'
+  - '&7pentru a alimenta mașini pretențioase de final de joc.'
+  name: 'MFSU'
+  stats:
+  - '&8⇨ &e⚡ &740,000,000 J Tampon'
+  - '&8⇨ &e⚡ &752 J/t Transfer'
+  type:
+  - '&7&oMașină'
+NANO_BLADE:
+  description:
+  - '&fO piesă avansată de tehnologie care poate'
+  - '&ftăia țesutul organic cu ușurință.'
+  name: 'Lamă Nano (Oprită)'
+  stats:
+  - '&c&o&8⇨ &e⚡ &770 / 4000 J'
+  type:
+  - '&7&oArmă'
+  usage:
+  - '&eClic dreapta&7 pentru a comuta'
+POWER_UNIT:
+  name: 'Unitate de Energie'
+  type:
+  - '&7&oComponentă'
+QUARTZ_DUST:
+  name: 'Praf de Cuarț'
+  type:
+  - '&7&oResursă'
+RAW_CARBON_FIBRE:
+  name: 'Fibră de Carbon Crudă'
+  type:
+  - '&7&oResursă'
+RAW_CARBON_MESH:
+  name: 'Plasă de Carbon Crudă'
+  type:
+  - '&7&oResursă'
+REDSTONE_DUST:
+  name: 'Praf de Redstone'
+  type:
+  - '&7&oResursă'
+REFINED_IRON:
+  name: 'Fier Rafinat'
+  type:
+  - '&7&oResursă'
+REFINED_SMELTERY:
+  description:
+  - '&7O topitorie multibloc.'
+  - '&7Topește prafuri și combină metale în aliaje'
+  - '&7precum &7Lingouri de Metal Mixt &7și &7Fier Rafinat&7.'
+  name: 'Topitorie Rafinată'
+  type:
+  - '&7&oMultibloc'
+  usage:
+  - '&eClic dreapta&7 pe dispenser pentru a o folosi'
+REINFORCED_DOOR:
+  name: 'Ușă Întărită'
+  type:
+  - '&7&oComponentă'
+REINFORCED_GLASS:
+  name: 'Sticlă Întărită'
+  type:
+  - '&7&oComponentă'
+REINFORCED_STONE:
+  name: 'Piatră Întărită'
+  type:
+  - '&7&oComponentă'
+RE_BATTERY:
+  name: 'Baterie RE'
+  type:
+  - '&7&oComponentă'
+RUBBER:
+  name: 'Cauciuc'
+  type:
+  - '&7&oResursă'
+RUBBER_SYNTHESIZER:
+  description:
+  - '&6Convertește o Găleată de Petrol în &7Cauciuc&7.'
+  - '&7Cauciucul izolează cablurile goale și este folosit larg'
+  - '&7în circuite și rețete de mașini.'
+  name: 'Sintetizator de Cauciuc'
+  stats:
+  - '&8⇨ &e⚡ &73,845 J Tampon'
+  - '&8⇨ &e⚡ &7769 J/t'
+  type:
+  - '&7&oMașină'
+SCRAP:
+  description:
+  - '&7Poate fi folosit pentru a crea &5Materie-UU'
+  name: 'Fier Vechi'
+  type:
+  - '&7&oResursă'
+SCRAP_MACHINE:
+  description:
+  - '&8Reciclatorul.'
+  - '&7Primește aproape orice obiect și are șansa de a'
+  - '&7scoate &8Fier Vechi &7- materia primă pentru Materie-UU.'
+  - '&7Funcționează pe energie; restul este distrus.'
+  name: 'Reciclator'
+  stats:
+  - '&8⇨ &e⚡ &7600 J Tampon'
+  - '&8⇨ &e⚡ &7200 J/t'
+  type:
+  - '&7&oMașină'
+THORIUM:
+  description:
+  - '&8Un element radioactiv.'
+  - '&7Rafinat în &7Mag-Thor &7și folosit în placări și'
+  - '&7mașinării avansate.'
+  name: 'Toriu'
+  stats:
+  - '&a☢&7 Nivel de radiație: &6RIDICAT'
+  type:
+  - '&7&oResursă'
+  usage:
+  - '&8⇨ &4Este necesar costumul de protecție!'
+THORIUM_DUST:
+  name: 'Praf de Toriu'
+  type:
+  - '&7&oResursă'
+THORIUM_PLATE:
+  name: 'Placă de Toriu'
+  type:
+  - '&7&oComponentă'
+TIN_CABLE:
+  name: 'Cablu de Staniu'
+  type:
+  - '&7&oComponentă'
+TIN_ITEM_CASING:
+  name: 'Carcasă de Obiect din Staniu'
+  type:
+  - '&7&oComponentă'
+TIN_PLATE:
+  name: 'Placă de Staniu'
+  type:
+  - '&7&oComponentă'
+TREETAP:
+  description:
+  - '&7Folosit pentru a recolta &7Cauciuc &7din surse de cauciuc'
+  - '&7manual, fără un sintetizator electric.'
+  name: 'Cep pentru Arbori'
+  type:
+  - '&7&oUnealtă'
+ULTIMATE_SOLAR_HELMET:
+  description:
+  - '&eO cască solară.'
+  - '&7Purtată pe cap, generează pasiv energie'
+  - '&7la lumina zilei și îți încarcă alt echipament.'
+  - '&7Nivelurile superioare produc și stochează mult mai mult.'
+  name: 'Cască Solară Ultimă'
+  stats:
+  - '&8⇨ &e⚡ &7250 J/t Generare'
+  type:
+  - '&7&oArmură'
+ULTIMATE_SOLAR_PANEL:
+  description:
+  - '&5Cel mai puternic panou solar din LiteXpansion.'
+  - '&7Generează cantități mari de energie zi și noapte'
+  - '&7cu un tampon încorporat considerabil.'
+  name: 'Panou Solar Ultim'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J Tampon'
+  - '&8⇨ &e⚡ &75,120 J/t (Zi)'
+  - '&8⇨ &e⚡ &7640 J/t (Noapte)'
+  type:
+  - '&7&oGenerator'
+UNINSULATED_COPPER_CABLE:
+  name: 'Cablu de Cupru Neizolat'
+  type:
+  - '&7&oComponentă'
+UNINSULATED_GOLD_CABLE:
+  name: 'Cablu de Aur Neizolat'
+  type:
+  - '&7&oComponentă'
+UNINSULATED_TIN_CABLE:
+  name: 'Cablu de Staniu Neizolat'
+  type:
+  - '&7&oComponentă'
+UU_CRAFTER:
+  description:
+  - '&7Automatizează fabricarea de &5Materie-UU&7.'
+  - '&7Alimentează-l cu Materie-UU și produce'
+  - '&7resursa configurată fără fabricare manuală în grilă.'
+  name: 'Fabricator UU'
+  stats:
+  - '&8⇨ &e⚡ &750,000 J Tampon'
+  - '&8⇨ &e⚡ &750,000 J/t'
+  type:
+  - '&7&oMașină'
+  usage:
+  - '&eClic dreapta&7 pe comutator pentru a-l porni sau opri'
+UU_MATTER:
+  description:
+  - '&7Poate fi folosită pentru a crea obiecte sau resurse'
+  name: 'Materie-UU'
+  type:
+  - '&7&oResursă'

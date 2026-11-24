@@ -1,0 +1,40 @@
+package dev.j3fftw.litexpansion.items;
+
+import dev.j3fftw.litexpansion.Items;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.Radioactive;
+import io.github.thebusybiscuit.slimefun5.core.attributes.Radioactivity;
+import io.github.thebusybiscuit.slimefun5.implementation.items.blocks.UnplaceableBlock;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import org.bukkit.inventory.ItemStack;
+
+import javax.annotation.Nonnull;
+
+/**
+ * Represents the {@link Thorium} class.
+ *
+ * @author j3fftw
+ */
+public class Thorium extends UnplaceableBlock implements Radioactive {
+
+    private static final ItemStack thorium = CustomItemStack.create(MaterialCompat.safe(XMaterial.PAPER), "\u00a7fHint!",
+        "\u00a7a\u00a7oMake sure to first GEO-Scan the chunk in which you are", "\u00a7a\u00a7omining to discover Thorium!");
+
+    public Thorium() {
+        super(Items.LITEXPANSION, Items.THORIUM, RecipeType.GEO_MINER, new ItemStack[] {
+                null, null, null,
+                null, thorium, null,
+                null, null, null
+            }
+        );
+    }
+
+    @Nonnull
+    @Override
+    public Radioactivity getRadioactivity() {
+        return Radioactivity.HIGH;
+    }
+}
+

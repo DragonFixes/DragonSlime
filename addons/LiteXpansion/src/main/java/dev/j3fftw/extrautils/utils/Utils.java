@@ -1,0 +1,63 @@
+package dev.j3fftw.extrautils.utils;
+
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
+import java.util.Locale;
+import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ChestMenu;
+import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ClickAction;
+import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
+import dev.j3fftw.litexpansion.compat.MaterialCompat;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import org.bukkit.ChatColor;
+import org.bukkit.entity.Player;
+import org.bukkit.event.inventory.InventoryClickEvent;
+import org.bukkit.inventory.ItemStack;
+
+public final class Utils {
+
+    private static final DecimalFormat powerFormat = new DecimalFormat("###,###.##",
+        DecimalFormatSymbols.getInstance(Locale.ROOT));
+
+    private Utils() {}
+
+    public static String powerFormatAndFadeDecimals(double power) {
+        String formattedString = powerFormat.format(power);
+        if (formattedString.indexOf('.') != -1) {
+            return formattedString.substring(0, formattedString.indexOf('.')) + ChatColor.DARK_GRAY
+                + formattedString.substring(formattedString.indexOf('.')) + ChatColor.GRAY;
+        } else {
+            return formattedString;
+        }
+    }
+
+    public static void putOutputSlot(BlockMenuPreset preset, int slot) {
+        preset.addItem(slot, null, new ChestMenu.AdvancedMenuClickHandler() {
+
+            @Override
+            public boolean onClick(Player p, int slot, ItemStack cursor, ClickAction action) {
+                return false;
+            }
+
+            @Override
+            public boolean onClick(InventoryClickEvent e, Player p, int slot, ItemStack cursor, ClickAction action) {
+                return cursor == null || cursor.getType() == MaterialCompat.safe(XMaterial.AIR);
+            }
+        });
+    }
+
+    public static double ticksToSeconds(double ticks) {
+        if (Constants.CUSTOM_TICKER_DELAY <= 0) {
+            return (Constants.SERVER_TICK_RATE * ticks);
+        } else {
+            return ((double) Constants.CUSTOM_TICKER_DELAY / Constants.SERVER_TICK_RATE * ticks);
+        }
+    }
+
+    public static double perTickToPerSecond(double power) {
+        if (Constants.CUSTOM_TICKER_DELAY <= 0) {
+            return (Constants.SERVER_TICK_RATE * power);
+        } else {
+            return (1 / ((double) Constants.CUSTOM_TICKER_DELAY / Constants.SERVER_TICK_RATE) * power);
+        }
+    }
+}
