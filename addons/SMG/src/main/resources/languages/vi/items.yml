@@ -1,0 +1,122 @@
+SMG_GENERATOR_COBBLESTONE:
+  description:
+  - '&7Thụ động tạo ra đá cuội.'
+  name: 'Máy tạo Đá cuội'
+  stats:
+  - '&8⇨ &7Sản xuất mỗi &e4 tick'
+  type:
+  - '&7&oMáy Phát Điện'
+  usage:
+  - '&8⇨ &7Đặt một chiếc hòm trực tiếp phía trên nó.'
+SMG_GENERATOR_GLASS:
+  description:
+  - '&7Thụ động tạo ra kính.'
+  name: 'Máy tạo Kính'
+  stats:
+  - '&8⇨ &7Sản xuất mỗi &e12 tick'
+  type:
+  - '&7&oMáy Phát Điện'
+  usage:
+  - '&8⇨ &7Đặt một chiếc hòm trực tiếp phía trên nó.'
+SMG_GENERATOR_GRAVEL:
+  description:
+  - '&7Thụ động tạo ra sỏi.'
+  name: 'Máy tạo Sỏi'
+  stats:
+  - '&8⇨ &7Sản xuất mỗi &e6 tick'
+  type:
+  - '&7&oMáy Phát Điện'
+  usage:
+  - '&8⇨ &7Đặt một chiếc hòm trực tiếp phía trên nó.'
+SMG_GENERATOR_GRAVEL_BROKEN:
+  description:
+  - '&8Một máy tạo bị hư hỏng.'
+  name: 'Máy tạo Sỏi (Hỏng)'
+  type:
+  - '&7&oThành Phần Máy Phát Điện'
+  usage:
+  - '&8⇨ &7Cần được sửa chữa trước khi dùng.'
+SMG_GENERATOR_MULTIBLOCK:
+  description:
+  - '&7Xây bất kỳ máy tạo nào của'
+  - '&7bản mở rộng này như thế này.'
+  name: 'Máy tạo Đa khối'
+  type:
+  - '&7&oĐa khối'
+  usage:
+  - '&8⇨ &7Chúng chỉ xuất ra một chiếc hòm'
+  - '&8⇨ &7được đặt trực tiếp phía trên chúng.'
+SMG_GENERATOR_NETHERRACK:
+  description:
+  - '&7Thụ động tạo ra đá Nether.'
+  name: 'Máy tạo Đá Nether'
+  stats:
+  - '&8⇨ &7Sản xuất mỗi &e6 tick'
+  type:
+  - '&7&oMáy Phát Điện'
+  usage:
+  - '&8⇨ &7Đặt một chiếc hòm trực tiếp phía trên nó.'
+SMG_GENERATOR_SAND:
+  description:
+  - '&7Thụ động tạo ra cát.'
+  name: 'Máy tạo Cát'
+  stats:
+  - '&8⇨ &7Sản xuất mỗi &e8 tick'
+  type:
+  - '&7&oMáy Phát Điện'
+  usage:
+  - '&8⇨ &7Đặt một chiếc hòm trực tiếp phía trên nó.'
+SMG_GENERATOR_SAND_BROKEN:
+  description:
+  - '&8Một máy tạo bị hư hỏng.'
+  name: 'Máy tạo Cát (Hỏng)'
+  type:
+  - '&7&oThành Phần Máy Phát Điện'
+  usage:
+  - '&8⇨ &7Cần được sửa chữa trước khi dùng.'
+SMG_GENERATOR_SMOOTH_STONE:
+  description:
+  - '&7Thụ động tạo ra đá nhẵn.'
+  name: 'Máy tạo Đá nhẵn'
+  stats:
+  - '&8⇨ &7Sản xuất mỗi &e12 tick'
+  type:
+  - '&7&oMáy Phát Điện'
+  usage:
+  - '&8⇨ &7Đặt một chiếc hòm trực tiếp phía trên nó.'
+SMG_GENERATOR_SMOOTH_STONE_BROKEN:
+  description:
+  - '&8Một máy tạo bị hư hỏng.'
+  name: 'Máy tạo Đá nhẵn (Hỏng)'
+  type:
+  - '&7&oThành Phần Máy Phát Điện'
+  usage:
+  - '&8⇨ &7Cần được sửa chữa trước khi dùng.'
+SMG_GENERATOR_SOUL_SAND:
+  description:
+  - '&7Thụ động tạo ra cát linh hồn.'
+  name: 'Máy tạo Cát Linh hồn'
+  stats:
+  - '&8⇨ &7Sản xuất mỗi &e8 tick'
+  type:
+  - '&7&oMáy Phát Điện'
+  usage:
+  - '&8⇨ &7Đặt một chiếc hòm trực tiếp phía trên nó.'
+SMG_GENERATOR_STONE:
+  description:
+  - '&7Thụ động tạo ra đá.'
+  name: 'Máy tạo Đá'
+  stats:
+  - '&8⇨ &7Sản xuất mỗi &e8 tick'
+  type:
+  - '&7&oMáy Phát Điện'
+  usage:
+  - '&8⇨ &7Đặt một chiếc hòm trực tiếp phía trên nó.'
+SMG_GENERATOR_STONE_BROKEN:
+  description:
+  - '&8Một máy tạo bị hư hỏng.'
+  name: 'Máy tạo Đá (Hỏng)'
+  type:
+  - '&7&oThành Phần Máy Phát Điện'
+  usage:
+  - '&8⇨ &7Cần được sửa chữa trước khi dùng.'

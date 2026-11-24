@@ -1,0 +1,122 @@
+SMG_GENERATOR_COBBLESTONE:
+  description:
+  - '&7Genereer passief rolklip.'
+  name: 'Rolklipgenerator'
+  stats:
+  - '&8⇨ &7Produseer elke &e4 tikke'
+  type:
+  - '&7&oKragopwekker'
+  usage:
+  - '&8⇨ &7Plaas ''n kis direk bo dit.'
+SMG_GENERATOR_GLASS:
+  description:
+  - '&7Genereer passief glas.'
+  name: 'Glasgenerator'
+  stats:
+  - '&8⇨ &7Produseer elke &e12 tikke'
+  type:
+  - '&7&oKragopwekker'
+  usage:
+  - '&8⇨ &7Plaas ''n kis direk bo dit.'
+SMG_GENERATOR_GRAVEL:
+  description:
+  - '&7Genereer passief gruis.'
+  name: 'Gruisgenerator'
+  stats:
+  - '&8⇨ &7Produseer elke &e6 tikke'
+  type:
+  - '&7&oKragopwekker'
+  usage:
+  - '&8⇨ &7Plaas ''n kis direk bo dit.'
+SMG_GENERATOR_GRAVEL_BROKEN:
+  description:
+  - '&8''n Beskadigde generator.'
+  name: 'Gruisgenerator (Gebreek)'
+  type:
+  - '&7&oKragopwekker-Komponent'
+  usage:
+  - '&8⇨ &7Moet herstel word voor gebruik.'
+SMG_GENERATOR_MULTIBLOCK:
+  description:
+  - '&7Bou enige van hierdie byvoeging se'
+  - '&7generators soos hierdie.'
+  name: 'Generatormultiblok'
+  type:
+  - '&7&oMultiblok'
+  usage:
+  - '&8⇨ &7Hulle voer net uit na ''n kis'
+  - '&8⇨ &7wat direk bo hulle geplaas is.'
+SMG_GENERATOR_NETHERRACK:
+  description:
+  - '&7Genereer passief netherrack.'
+  name: 'Netherrack-generator'
+  stats:
+  - '&8⇨ &7Produseer elke &e6 tikke'
+  type:
+  - '&7&oKragopwekker'
+  usage:
+  - '&8⇨ &7Plaas ''n kis direk bo dit.'
+SMG_GENERATOR_SAND:
+  description:
+  - '&7Genereer passief sand.'
+  name: 'Sandgenerator'
+  stats:
+  - '&8⇨ &7Produseer elke &e8 tikke'
+  type:
+  - '&7&oKragopwekker'
+  usage:
+  - '&8⇨ &7Plaas ''n kis direk bo dit.'
+SMG_GENERATOR_SAND_BROKEN:
+  description:
+  - '&8''n Beskadigde generator.'
+  name: 'Sandgenerator (Gebreek)'
+  type:
+  - '&7&oKragopwekker-Komponent'
+  usage:
+  - '&8⇨ &7Moet herstel word voor gebruik.'
+SMG_GENERATOR_SMOOTH_STONE:
+  description:
+  - '&7Genereer passief gladde klip.'
+  name: 'Gladdeklipgenerator'
+  stats:
+  - '&8⇨ &7Produseer elke &e12 tikke'
+  type:
+  - '&7&oKragopwekker'
+  usage:
+  - '&8⇨ &7Plaas ''n kis direk bo dit.'
+SMG_GENERATOR_SMOOTH_STONE_BROKEN:
+  description:
+  - '&8''n Beskadigde generator.'
+  name: 'Gladdeklipgenerator (Gebreek)'
+  type:
+  - '&7&oKragopwekker-Komponent'
+  usage:
+  - '&8⇨ &7Moet herstel word voor gebruik.'
+SMG_GENERATOR_SOUL_SAND:
+  description:
+  - '&7Genereer passief sielsand.'
+  name: 'Sielsandgenerator'
+  stats:
+  - '&8⇨ &7Produseer elke &e8 tikke'
+  type:
+  - '&7&oKragopwekker'
+  usage:
+  - '&8⇨ &7Plaas ''n kis direk bo dit.'
+SMG_GENERATOR_STONE:
+  description:
+  - '&7Genereer passief klip.'
+  name: 'Klipgenerator'
+  stats:
+  - '&8⇨ &7Produseer elke &e8 tikke'
+  type:
+  - '&7&oKragopwekker'
+  usage:
+  - '&8⇨ &7Plaas ''n kis direk bo dit.'
+SMG_GENERATOR_STONE_BROKEN:
+  description:
+  - '&8''n Beskadigde generator.'
+  name: 'Klipgenerator (Gebreek)'
+  type:
+  - '&7&oKragopwekker-Komponent'
+  usage:
+  - '&8⇨ &7Moet herstel word voor gebruik.'

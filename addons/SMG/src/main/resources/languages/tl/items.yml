@@ -1,0 +1,122 @@
+SMG_GENERATOR_COBBLESTONE:
+  description:
+  - '&7Pasibong nagbubuo ng batong-lansangan.'
+  name: 'Tagagawa ng Batong-lansangan'
+  stats:
+  - '&8⇨ &7Gumagawa tuwing &e4 na tik'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Ilagay ang kaban direkta sa itaas nito.'
+SMG_GENERATOR_GLASS:
+  description:
+  - '&7Pasibong nagbubuo ng salamin.'
+  name: 'Tagagawa ng Salamin'
+  stats:
+  - '&8⇨ &7Gumagawa tuwing &e12 na tik'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Ilagay ang kaban direkta sa itaas nito.'
+SMG_GENERATOR_GRAVEL:
+  description:
+  - '&7Pasibong nagbubuo ng graba.'
+  name: 'Tagagawa ng Graba'
+  stats:
+  - '&8⇨ &7Gumagawa tuwing &e6 na tik'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Ilagay ang kaban direkta sa itaas nito.'
+SMG_GENERATOR_GRAVEL_BROKEN:
+  description:
+  - '&8Isang sirang tagagawa.'
+  name: 'Tagagawa ng Graba (Sira)'
+  type:
+  - '&7&oBahagi ng Generator'
+  usage:
+  - '&8⇨ &7Kailangang kumpunihin bago gamitin.'
+SMG_GENERATOR_MULTIBLOCK:
+  description:
+  - '&7Itayo ang alinmang tagagawa ng'
+  - '&7dagdag na ito sa ganitong paraan.'
+  name: 'Multiblokeng Tagagawa'
+  type:
+  - '&7&oMultiblock'
+  usage:
+  - '&8⇨ &7Naglalabas lamang sila sa kaban'
+  - '&8⇨ &7na nakalagay direkta sa itaas nila.'
+SMG_GENERATOR_NETHERRACK:
+  description:
+  - '&7Pasibong nagbubuo ng netherrack.'
+  name: 'Tagagawa ng Netherrack'
+  stats:
+  - '&8⇨ &7Gumagawa tuwing &e6 na tik'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Ilagay ang kaban direkta sa itaas nito.'
+SMG_GENERATOR_SAND:
+  description:
+  - '&7Pasibong nagbubuo ng buhangin.'
+  name: 'Tagagawa ng Buhangin'
+  stats:
+  - '&8⇨ &7Gumagawa tuwing &e8 na tik'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Ilagay ang kaban direkta sa itaas nito.'
+SMG_GENERATOR_SAND_BROKEN:
+  description:
+  - '&8Isang sirang tagagawa.'
+  name: 'Tagagawa ng Buhangin (Sira)'
+  type:
+  - '&7&oBahagi ng Generator'
+  usage:
+  - '&8⇨ &7Kailangang kumpunihin bago gamitin.'
+SMG_GENERATOR_SMOOTH_STONE:
+  description:
+  - '&7Pasibong nagbubuo ng makinis na bato.'
+  name: 'Tagagawa ng Makinis na Bato'
+  stats:
+  - '&8⇨ &7Gumagawa tuwing &e12 na tik'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Ilagay ang kaban direkta sa itaas nito.'
+SMG_GENERATOR_SMOOTH_STONE_BROKEN:
+  description:
+  - '&8Isang sirang tagagawa.'
+  name: 'Tagagawa ng Makinis na Bato (Sira)'
+  type:
+  - '&7&oBahagi ng Generator'
+  usage:
+  - '&8⇨ &7Kailangang kumpunihin bago gamitin.'
+SMG_GENERATOR_SOUL_SAND:
+  description:
+  - '&7Pasibong nagbubuo ng buhangin ng kaluluwa.'
+  name: 'Tagagawa ng Buhangin ng Kaluluwa'
+  stats:
+  - '&8⇨ &7Gumagawa tuwing &e8 na tik'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Ilagay ang kaban direkta sa itaas nito.'
+SMG_GENERATOR_STONE:
+  description:
+  - '&7Pasibong nagbubuo ng bato.'
+  name: 'Tagagawa ng Bato'
+  stats:
+  - '&8⇨ &7Gumagawa tuwing &e8 na tik'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Ilagay ang kaban direkta sa itaas nito.'
+SMG_GENERATOR_STONE_BROKEN:
+  description:
+  - '&8Isang sirang tagagawa.'
+  name: 'Tagagawa ng Bato (Sira)'
+  type:
+  - '&7&oBahagi ng Generator'
+  usage:
+  - '&8⇨ &7Kailangang kumpunihin bago gamitin.'

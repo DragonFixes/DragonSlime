@@ -1,0 +1,122 @@
+SMG_GENERATOR_COBBLESTONE:
+  description:
+  - '&7Genereert passief rotsblok.'
+  name: 'Rotsblokgenerator'
+  stats:
+  - '&8⇨ &7Produceert elke &e4 ticks'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Plaats een kist direct erboven.'
+SMG_GENERATOR_GLASS:
+  description:
+  - '&7Genereert passief glas.'
+  name: 'Glasgenerator'
+  stats:
+  - '&8⇨ &7Produceert elke &e12 ticks'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Plaats een kist direct erboven.'
+SMG_GENERATOR_GRAVEL:
+  description:
+  - '&7Genereert passief grind.'
+  name: 'Grindgenerator'
+  stats:
+  - '&8⇨ &7Produceert elke &e6 ticks'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Plaats een kist direct erboven.'
+SMG_GENERATOR_GRAVEL_BROKEN:
+  description:
+  - '&8Een beschadigde generator.'
+  name: 'Grindgenerator (Kapot)'
+  type:
+  - '&7&oGeneratoronderdeel'
+  usage:
+  - '&8⇨ &7Moet gerepareerd worden voor gebruik.'
+SMG_GENERATOR_MULTIBLOCK:
+  description:
+  - '&7Bouw elke generator van deze'
+  - '&7addon op deze manier.'
+  name: 'Generator-multiblock'
+  type:
+  - '&7&oMultiblok'
+  usage:
+  - '&8⇨ &7Ze voeren alleen uit naar een kist'
+  - '&8⇨ &7die direct boven hen is geplaatst.'
+SMG_GENERATOR_NETHERRACK:
+  description:
+  - '&7Genereert passief netherrack.'
+  name: 'Netherrackgenerator'
+  stats:
+  - '&8⇨ &7Produceert elke &e6 ticks'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Plaats een kist direct erboven.'
+SMG_GENERATOR_SAND:
+  description:
+  - '&7Genereert passief zand.'
+  name: 'Zandgenerator'
+  stats:
+  - '&8⇨ &7Produceert elke &e8 ticks'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Plaats een kist direct erboven.'
+SMG_GENERATOR_SAND_BROKEN:
+  description:
+  - '&8Een beschadigde generator.'
+  name: 'Zandgenerator (Kapot)'
+  type:
+  - '&7&oGeneratoronderdeel'
+  usage:
+  - '&8⇨ &7Moet gerepareerd worden voor gebruik.'
+SMG_GENERATOR_SMOOTH_STONE:
+  description:
+  - '&7Genereert passief gladde steen.'
+  name: 'Gladde-steengenerator'
+  stats:
+  - '&8⇨ &7Produceert elke &e12 ticks'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Plaats een kist direct erboven.'
+SMG_GENERATOR_SMOOTH_STONE_BROKEN:
+  description:
+  - '&8Een beschadigde generator.'
+  name: 'Gladde-steengenerator (Kapot)'
+  type:
+  - '&7&oGeneratoronderdeel'
+  usage:
+  - '&8⇨ &7Moet gerepareerd worden voor gebruik.'
+SMG_GENERATOR_SOUL_SAND:
+  description:
+  - '&7Genereert passief zielenzand.'
+  name: 'Zielenzandgenerator'
+  stats:
+  - '&8⇨ &7Produceert elke &e8 ticks'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Plaats een kist direct erboven.'
+SMG_GENERATOR_STONE:
+  description:
+  - '&7Genereert passief steen.'
+  name: 'Steengenerator'
+  stats:
+  - '&8⇨ &7Produceert elke &e8 ticks'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Plaats een kist direct erboven.'
+SMG_GENERATOR_STONE_BROKEN:
+  description:
+  - '&8Een beschadigde generator.'
+  name: 'Steengenerator (Kapot)'
+  type:
+  - '&7&oGeneratoronderdeel'
+  usage:
+  - '&8⇨ &7Moet gerepareerd worden voor gebruik.'

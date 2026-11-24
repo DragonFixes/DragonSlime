@@ -1,0 +1,122 @@
+SMG_GENERATOR_COBBLESTONE:
+  description:
+  - '&7Pasivně vytváří dlažební kostky.'
+  name: 'Generátor dlažebních kostek'
+  stats:
+  - '&8⇨ &7Produkuje každé &e4 ticky'
+  type:
+  - '&7&oGenerátor'
+  usage:
+  - '&8⇨ &7Umísti truhlu přímo nad něj.'
+SMG_GENERATOR_GLASS:
+  description:
+  - '&7Pasivně vytváří sklo.'
+  name: 'Generátor skla'
+  stats:
+  - '&8⇨ &7Produkuje každých &e12 ticků'
+  type:
+  - '&7&oGenerátor'
+  usage:
+  - '&8⇨ &7Umísti truhlu přímo nad něj.'
+SMG_GENERATOR_GRAVEL:
+  description:
+  - '&7Pasivně vytváří štěrk.'
+  name: 'Generátor štěrku'
+  stats:
+  - '&8⇨ &7Produkuje každých &e6 ticků'
+  type:
+  - '&7&oGenerátor'
+  usage:
+  - '&8⇨ &7Umísti truhlu přímo nad něj.'
+SMG_GENERATOR_GRAVEL_BROKEN:
+  description:
+  - '&8Poškozený generátor.'
+  name: 'Generátor štěrku (Rozbitý)'
+  type:
+  - '&7&oKomponenta generátoru'
+  usage:
+  - '&8⇨ &7Před použitím je nutná oprava.'
+SMG_GENERATOR_MULTIBLOCK:
+  description:
+  - '&7Jakýkoli generátor z tohoto'
+  - '&7doplňku postavíš takto.'
+  name: 'Multiblok generátoru'
+  type:
+  - '&7&oMultiblok'
+  usage:
+  - '&8⇨ &7Vydávají pouze do truhly'
+  - '&8⇨ &7umístěné přímo nad nimi.'
+SMG_GENERATOR_NETHERRACK:
+  description:
+  - '&7Pasivně vytváří netherrack.'
+  name: 'Generátor netherracku'
+  stats:
+  - '&8⇨ &7Produkuje každých &e6 ticků'
+  type:
+  - '&7&oGenerátor'
+  usage:
+  - '&8⇨ &7Umísti truhlu přímo nad něj.'
+SMG_GENERATOR_SAND:
+  description:
+  - '&7Pasivně vytváří písek.'
+  name: 'Generátor písku'
+  stats:
+  - '&8⇨ &7Produkuje každých &e8 ticků'
+  type:
+  - '&7&oGenerátor'
+  usage:
+  - '&8⇨ &7Umísti truhlu přímo nad něj.'
+SMG_GENERATOR_SAND_BROKEN:
+  description:
+  - '&8Poškozený generátor.'
+  name: 'Generátor písku (Rozbitý)'
+  type:
+  - '&7&oKomponenta generátoru'
+  usage:
+  - '&8⇨ &7Před použitím je nutná oprava.'
+SMG_GENERATOR_SMOOTH_STONE:
+  description:
+  - '&7Pasivně vytváří hladký kámen.'
+  name: 'Generátor hladkého kamene'
+  stats:
+  - '&8⇨ &7Produkuje každých &e12 ticků'
+  type:
+  - '&7&oGenerátor'
+  usage:
+  - '&8⇨ &7Umísti truhlu přímo nad něj.'
+SMG_GENERATOR_SMOOTH_STONE_BROKEN:
+  description:
+  - '&8Poškozený generátor.'
+  name: 'Generátor hladkého kamene (Rozbitý)'
+  type:
+  - '&7&oKomponenta generátoru'
+  usage:
+  - '&8⇨ &7Před použitím je nutná oprava.'
+SMG_GENERATOR_SOUL_SAND:
+  description:
+  - '&7Pasivně vytváří duševní písek.'
+  name: 'Generátor duševního písku'
+  stats:
+  - '&8⇨ &7Produkuje každých &e8 ticků'
+  type:
+  - '&7&oGenerátor'
+  usage:
+  - '&8⇨ &7Umísti truhlu přímo nad něj.'
+SMG_GENERATOR_STONE:
+  description:
+  - '&7Pasivně vytváří kámen.'
+  name: 'Generátor kamene'
+  stats:
+  - '&8⇨ &7Produkuje každých &e8 ticků'
+  type:
+  - '&7&oGenerátor'
+  usage:
+  - '&8⇨ &7Umísti truhlu přímo nad něj.'
+SMG_GENERATOR_STONE_BROKEN:
+  description:
+  - '&8Poškozený generátor.'
+  name: 'Generátor kamene (Rozbitý)'
+  type:
+  - '&7&oKomponenta generátoru'
+  usage:
+  - '&8⇨ &7Před použitím je nutná oprava.'

@@ -1,0 +1,122 @@
+SMG_GENERATOR_COBBLESTONE:
+  description:
+  - '&7自動で丸石を生成する。'
+  name: '丸石ジェネレーター'
+  stats:
+  - '&8⇨ &e4ティック&7ごとに生成'
+  type:
+  - '&7&oジェネレーター'
+  usage:
+  - '&8⇨ &7真上にチェストを設置する。'
+SMG_GENERATOR_GLASS:
+  description:
+  - '&7自動でガラスを生成する。'
+  name: 'ガラスジェネレーター'
+  stats:
+  - '&8⇨ &e12ティック&7ごとに生成'
+  type:
+  - '&7&oジェネレーター'
+  usage:
+  - '&8⇨ &7真上にチェストを設置する。'
+SMG_GENERATOR_GRAVEL:
+  description:
+  - '&7自動で砂利を生成する。'
+  name: '砂利ジェネレーター'
+  stats:
+  - '&8⇨ &e6ティック&7ごとに生成'
+  type:
+  - '&7&oジェネレーター'
+  usage:
+  - '&8⇨ &7真上にチェストを設置する。'
+SMG_GENERATOR_GRAVEL_BROKEN:
+  description:
+  - '&8破損したジェネレーター。'
+  name: '砂利ジェネレーター (破損)'
+  type:
+  - '&7&oジェネレーター部品'
+  usage:
+  - '&8⇨ &7使用前に修理が必要。'
+SMG_GENERATOR_MULTIBLOCK:
+  description:
+  - '&7このアドオンの'
+  - '&7ジェネレーターはこのように組み立てる。'
+  name: 'ジェネレーター・マルチブロック'
+  type:
+  - '&7&oマルチブロック'
+  usage:
+  - '&8⇨ &7出力先はチェストのみで'
+  - '&8⇨ &7真上に設置する必要がある。'
+SMG_GENERATOR_NETHERRACK:
+  description:
+  - '&7自動でネザーラックを生成する。'
+  name: 'ネザーラックジェネレーター'
+  stats:
+  - '&8⇨ &e6ティック&7ごとに生成'
+  type:
+  - '&7&oジェネレーター'
+  usage:
+  - '&8⇨ &7真上にチェストを設置する。'
+SMG_GENERATOR_SAND:
+  description:
+  - '&7自動で砂を生成する。'
+  name: '砂ジェネレーター'
+  stats:
+  - '&8⇨ &e8ティック&7ごとに生成'
+  type:
+  - '&7&oジェネレーター'
+  usage:
+  - '&8⇨ &7真上にチェストを設置する。'
+SMG_GENERATOR_SAND_BROKEN:
+  description:
+  - '&8破損したジェネレーター。'
+  name: '砂ジェネレーター (破損)'
+  type:
+  - '&7&oジェネレーター部品'
+  usage:
+  - '&8⇨ &7使用前に修理が必要。'
+SMG_GENERATOR_SMOOTH_STONE:
+  description:
+  - '&7自動で滑らかな石を生成する。'
+  name: '滑らかな石ジェネレーター'
+  stats:
+  - '&8⇨ &e12ティック&7ごとに生成'
+  type:
+  - '&7&oジェネレーター'
+  usage:
+  - '&8⇨ &7真上にチェストを設置する。'
+SMG_GENERATOR_SMOOTH_STONE_BROKEN:
+  description:
+  - '&8破損したジェネレーター。'
+  name: '滑らかな石ジェネレーター (破損)'
+  type:
+  - '&7&oジェネレーター部品'
+  usage:
+  - '&8⇨ &7使用前に修理が必要。'
+SMG_GENERATOR_SOUL_SAND:
+  description:
+  - '&7自動でソウルサンドを生成する。'
+  name: 'ソウルサンドジェネレーター'
+  stats:
+  - '&8⇨ &e8ティック&7ごとに生成'
+  type:
+  - '&7&oジェネレーター'
+  usage:
+  - '&8⇨ &7真上にチェストを設置する。'
+SMG_GENERATOR_STONE:
+  description:
+  - '&7自動で石を生成する。'
+  name: '石ジェネレーター'
+  stats:
+  - '&8⇨ &e8ティック&7ごとに生成'
+  type:
+  - '&7&oジェネレーター'
+  usage:
+  - '&8⇨ &7真上にチェストを設置する。'
+SMG_GENERATOR_STONE_BROKEN:
+  description:
+  - '&8破損したジェネレーター。'
+  name: '石ジェネレーター (破損)'
+  type:
+  - '&7&oジェネレーター部品'
+  usage:
+  - '&8⇨ &7使用前に修理が必要。'

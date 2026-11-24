@@ -1,0 +1,122 @@
+SMG_GENERATOR_COBBLESTONE:
+  description:
+  - '&7Erzeugt passiv Bruchstein.'
+  name: 'Bruchstein-Generator'
+  stats:
+  - '&8⇨ &7Produziert alle &e4 Ticks'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Platziere eine Truhe direkt darüber.'
+SMG_GENERATOR_GLASS:
+  description:
+  - '&7Erzeugt passiv Glas.'
+  name: 'Glas-Generator'
+  stats:
+  - '&8⇨ &7Produziert alle &e12 Ticks'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Platziere eine Truhe direkt darüber.'
+SMG_GENERATOR_GRAVEL:
+  description:
+  - '&7Erzeugt passiv Kies.'
+  name: 'Kies-Generator'
+  stats:
+  - '&8⇨ &7Produziert alle &e6 Ticks'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Platziere eine Truhe direkt darüber.'
+SMG_GENERATOR_GRAVEL_BROKEN:
+  description:
+  - '&8Ein beschädigter Generator.'
+  name: 'Kies-Generator (Kaputt)'
+  type:
+  - '&7&oGeneratorkomponente'
+  usage:
+  - '&8⇨ &7Muss vor der Verwendung repariert werden.'
+SMG_GENERATOR_MULTIBLOCK:
+  description:
+  - '&7Baue jeden Generator dieses'
+  - '&7Addons nach diesem Muster.'
+  name: 'Generator-Multiblock'
+  type:
+  - '&7&oMultiblock'
+  usage:
+  - '&8⇨ &7Sie geben nur in eine Truhe aus,'
+  - '&8⇨ &7die direkt darüber platziert ist.'
+SMG_GENERATOR_NETHERRACK:
+  description:
+  - '&7Erzeugt passiv Netherrack.'
+  name: 'Netherrack-Generator'
+  stats:
+  - '&8⇨ &7Produziert alle &e6 Ticks'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Platziere eine Truhe direkt darüber.'
+SMG_GENERATOR_SAND:
+  description:
+  - '&7Erzeugt passiv Sand.'
+  name: 'Sand-Generator'
+  stats:
+  - '&8⇨ &7Produziert alle &e8 Ticks'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Platziere eine Truhe direkt darüber.'
+SMG_GENERATOR_SAND_BROKEN:
+  description:
+  - '&8Ein beschädigter Generator.'
+  name: 'Sand-Generator (Kaputt)'
+  type:
+  - '&7&oGeneratorkomponente'
+  usage:
+  - '&8⇨ &7Muss vor der Verwendung repariert werden.'
+SMG_GENERATOR_SMOOTH_STONE:
+  description:
+  - '&7Erzeugt passiv glatten Stein.'
+  name: 'Glattstein-Generator'
+  stats:
+  - '&8⇨ &7Produziert alle &e12 Ticks'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Platziere eine Truhe direkt darüber.'
+SMG_GENERATOR_SMOOTH_STONE_BROKEN:
+  description:
+  - '&8Ein beschädigter Generator.'
+  name: 'Glattstein-Generator (Kaputt)'
+  type:
+  - '&7&oGeneratorkomponente'
+  usage:
+  - '&8⇨ &7Muss vor der Verwendung repariert werden.'
+SMG_GENERATOR_SOUL_SAND:
+  description:
+  - '&7Erzeugt passiv Seelensand.'
+  name: 'Seelensand-Generator'
+  stats:
+  - '&8⇨ &7Produziert alle &e8 Ticks'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Platziere eine Truhe direkt darüber.'
+SMG_GENERATOR_STONE:
+  description:
+  - '&7Erzeugt passiv Stein.'
+  name: 'Stein-Generator'
+  stats:
+  - '&8⇨ &7Produziert alle &e8 Ticks'
+  type:
+  - '&7&oGenerator'
+  usage:
+  - '&8⇨ &7Platziere eine Truhe direkt darüber.'
+SMG_GENERATOR_STONE_BROKEN:
+  description:
+  - '&8Ein beschädigter Generator.'
+  name: 'Stein-Generator (Kaputt)'
+  type:
+  - '&7&oGeneratorkomponente'
+  usage:
+  - '&8⇨ &7Muss vor der Verwendung repariert werden.'
