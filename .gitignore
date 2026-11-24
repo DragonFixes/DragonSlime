@@ -24,3 +24,6 @@ run/
 # Accidentally-committed server runtime data
 /plugins/
 .superpowers/
+
+# Plugin jars collected by the root deploy task
+/deploy/

@@ -17,3 +17,8 @@ rootProject.name = "Slimefun"
 
 include("core")
 include("stubs")
+
+// Addons kept in this repository (addons/<Name>), each built against this build's core jar.
+val bundledAddons = listOf("InfinityExpansion", "LiteXpansion", "Networks", "SlimefunAdvancements", "SMG", "Supreme")
+bundledAddons.forEach { include("addons:$it") }
+gradle.extra["bundledAddons"] = bundledAddons

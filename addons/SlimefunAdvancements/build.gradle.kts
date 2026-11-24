@@ -8,7 +8,7 @@ plugins {
 group = "me.char321"
 description = "Slimefun Advancements is a Slimefun addon adding an advancement system."
 
-apply(from = "https://raw.githubusercontent.com/Slimefun5/gradle/main/slimefun-addon.gradle")
+apply(from = rootProject.file("addons/addon.gradle"))
 
 dependencies {
     implementation("org.bstats:bstats-bukkit:2.2.1")

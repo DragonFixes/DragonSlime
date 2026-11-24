@@ -1,0 +1,130 @@
+// Shared build conventions for the addons under addons/, built as subprojects of this repository.
+//
+// Apply AFTER the plugins { } block (which must apply: java, com.gradleup.shadow, io.github.intisy.github-gradle):
+//   apply(from = rootProject.file("addons/addon.gradle"))
+//
+// Every addon compiles against the core jar this build produces (:core:shadowJar), never a released one,
+// so an API change in core is checked against all addons in the same build.
+//
+// Project properties read here (set in the addon's own gradle.properties):
+//   addonVersion  the addon's release number, e.g. 1.0.2.9 (addons share the repo, so git tags cannot name it)
+//   sfSpigotApi   the Spigot API to compile against (default 1.16.5, the Java-8-compatible baseline)
+
+// Core's version and shaded jar are read below, so core must be configured first.
+evaluationDependsOn(':core')
+
+def addonVersion = project.findProperty('addonVersion')?.toString()
+if (!addonVersion) {
+    throw new GradleException("${project.path}: set addonVersion in ${project.projectDir}/gradle.properties")
+}
+def sfSpigotApi = project.findProperty('sfSpigotApi') ?: '1.16.5-R0.1-SNAPSHOT'
+
+// Same suffix rule as core's version.gradle: -Partifact_version=<v> is a release build with no suffix,
+// GitHub Actions builds are -EXPERIMENTAL, everything else is -UNOFFICIAL.
+def artifact = project.findProperty('artifact_version')?.toString()?.replaceFirst(/^v/, '')
+def versionSuffix
+if (artifact) {
+    versionSuffix = ''
+} else if (System.getenv('GITHUB_ACTIONS') == 'true') {
+    versionSuffix = '-EXPERIMENTAL'
+} else {
+    versionSuffix = '-UNOFFICIAL'
+}
+version = artifact ?: addonVersion
+ext.displayVersion = "${version}${versionSuffix}".toString()
+def displayVersion = ext.displayVersion
+def coreVersion = project(':core').version.toString()
+
+github {
+    auth {
+        token = System.getenv('GITHUB_TOKEN') ?: ''
+    }
+    // Release assets (InfinityLib, AdvancementAPI, ...) are fetched over plain HTTPS. With the gh CLI on
+    // PATH the plugin routes every request through it, and an unauthenticated gh fails the build.
+    cli {
+        enabled = false
+    }
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(8)
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+    maven { url = 'https://repo.papermc.io/repository/maven-public/' }
+    maven { url = 'https://repo.codemc.io/repository/maven-public/' }
+    maven { url = 'https://jitpack.io' }
+}
+
+// Resolves another subproject's shaded jar (relocated libraries included), which is what that project
+// ships and what code depending on it must compile against.
+ext.shadedJarOf = { String path ->
+    def dep = dependencies.project(path: path, configuration: 'shadowRuntimeElements')
+    dep.transitive = false
+    return dep
+}
+
+configurations {
+    slimefunCore {
+        canBeConsumed = false
+        canBeResolved = true
+        transitive = false
+    }
+}
+
+dependencies {
+    compileOnly "org.spigotmc:spigot-api:${sfSpigotApi}"
+    compileOnly 'com.google.code.findbugs:jsr305:3.0.2'
+    slimefunCore shadedJarOf(':core')
+}
+
+// github-gradle injects release jars into compileOnly in its own afterEvaluate, and a library such as
+// InfinityLib drags a released core jar in with it. Putting the local core jar first on the compile
+// classpath makes every core symbol resolve against this build's core.
+afterEvaluate {
+    tasks.named('compileJava') {
+        classpath = configurations.slimefunCore + classpath
+    }
+}
+
+tasks.named('compileJava') {
+    options.encoding = 'UTF-8'
+}
+tasks.named('processResources') {
+    inputs.property('displayVersion', displayVersion)
+    inputs.property('slimefunApi', coreVersion)
+    filesMatching('plugin.yml') {
+        expand('version': displayVersion)
+    }
+    doLast {
+        def pluginYml = new File(destinationDir, 'plugin.yml')
+        if (pluginYml.exists() && !(pluginYml.getText('UTF-8') =~ /(?m)^slimefun-api:/)) {
+            pluginYml.setText(pluginYml.getText('UTF-8').replaceAll(/\s+$/, '') + "\nslimefun-api: ${coreVersion}\n", 'UTF-8')
+        }
+    }
+}
+tasks.named('jar') {
+    enabled = false
+}
+tasks.named('shadowJar') {
+    archiveFileName = "${project.name}-${displayVersion}.jar"
+    exclude 'META-INF/**'
+    // Core is present at runtime through depend: [Slimefun]. A bundled copy of its classes, or of the
+    // module jars it carries (SlimefunMetrics.jar), loads in the addon's classloader and fails with
+    // null static state or a loader-constraint LinkageError.
+    exclude 'io/github/thebusybiscuit/slimefun5/**'
+    exclude 'me/mrCookieSlime/**'
+    exclude 'SlimefunMetrics.jar'
+}
+tasks.named('build') {
+    dependsOn 'shadowJar'
+}
+
+// The upstream test suites are not maintained in this fork.
+tasks.matching { it.name == 'compileTestJava' || it.name == 'test' }.configureEach {
+    enabled = false
+}
