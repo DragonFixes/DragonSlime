@@ -1,0 +1,1060 @@
+ADAMANTITE:
+  name: 'אדמנטיט'
+  type:
+  - '&7&oמשאב'
+ADVANCED_ANVIL:
+  description:
+  - '&7משלב כישופי כלים וציוד ולפעמים משדרג אותם'
+  - '&bעובד עם פריטי Slimefun'
+  name: 'סדן מתקדם'
+  stats:
+  - '&8⇨ &e⚡ &7100,000 J לשימוש'
+  type:
+  - '&7&oמכונה'
+ADVANCED_CHARGER:
+  description:
+  - '&7טוען פריטים במהירות'
+  name: 'מטען מתקדם'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b30x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oמכונה'
+ADVANCED_COBBLE_GEN:
+  description:
+  - '&7מפיק אבן מרוצפת אוטומטית עם הזמן'
+  name: 'מפיק אבן מרוצפת מתקדם'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oמכונה'
+ADVANCED_DISENCHANTER:
+  description:
+  - '&7מסיר אוטומטית כישופים מפריטים אל ספרים'
+  name: 'מסיר כישופים מתקדם'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oמכונה'
+ADVANCED_ENCHANTER:
+  description:
+  - '&7מכשף אוטומטית פריטים שמוצבים בתוכו'
+  name: 'מכשף מתקדם'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oמכונה'
+ADVANCED_GEO_MINER:
+  description:
+  - '&7גאו-כורה מהיר יותר'
+  name: 'גאו-כורה מתקדם'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oמכונה'
+ADVANCED_NETHER_STAR_REACTOR:
+  description:
+  - '&fפועל על כוכבי נתר'
+  - '&bחייב להיות מוקף במים'
+  - '&bחייב להיות מסופק בתאי קירור קרח נתר'
+  - '&4גורם ליצורים בסביבה לקבל ווית''ר'
+  name: 'כור כוכב נתר מתקדם'
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 90,000 J'
+  - '&8⇨ &e⚡ &71,800 J/שנייה'
+  type:
+  - '&7&oגנרטור'
+ADVANCED_PANEL:
+  description:
+  - '&7מייצר אנרגיה מהשמש'
+  name: 'לוח סולארי מתקדם'
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 15,000 J'
+  - '&8⇨ &e⚡ &7150 J/שנייה'
+  type:
+  - '&7&oגנרטור'
+ADVANCED_QUARRY:
+  description:
+  - '&7כורה אוטומטית עפרות של עולם העל והנתר'
+  name: 'מכרה מתקדם'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b2x'
+  - '&8⇨ &e⚡ &7900 J/s'
+  type:
+  - '&7&oמכונה'
+ADVANCED_SMELTERY:
+  description:
+  - '&7בית התכה מהיר יותר'
+  name: 'בית התכה מתקדם'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b24x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oמכונה'
+ADVANCED_STORAGE:
+  description:
+  - '&7מאחסנת כמויות גדולות של סוג פריט בודד'
+  name: 'יחידת אחסון מתקדמת'
+  stats:
+  - '&6קיבולת: &e25,600 &eפריטים'
+  type:
+  - '&7&oמכונה'
+ADVANCED_STRAINER:
+  description:
+  - '&7אוספת חומרים ממים זורמים'
+  name: 'מסננת מתקדמת'
+  stats:
+  - '&8⇨ &b⚡ &7מהירות: &b4.0x'
+  type:
+  - '&7&oרכיב'
+ADVANCED_TREE_GROWER:
+  description:
+  - '&7מגדל, קוצר ושותל מחדש עצים אוטומטית'
+  name: 'מגדל עצים מתקדם'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oמכונה'
+ADVANCED_VIRTUAL_FARM:
+  description:
+  - '&7מגדל, קוצר ושותל מחדש גידולים אוטומטית'
+  name: 'חווה וירטואלית מתקדמת'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b5x'
+  - '&8⇨ &e⚡ &790 J/s'
+  type:
+  - '&7&oמכונה'
+ALUMINUM_SINGULARITY:
+  name: 'סינגולריות אלומיניום'
+  type:
+  - '&7&oמשאב'
+BASIC_COBBLE_GEN:
+  description:
+  - '&7מפיק אבן מרוצפת אוטומטית עם הזמן'
+  name: 'מפיק אבן מרוצפת בסיסי'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b1x'
+  - '&8⇨ &e⚡ &724 J/s'
+  type:
+  - '&7&oמכונה'
+BASIC_OBSIDIAN_GEN:
+  description:
+  - '&7מפיק אובסידיאן אוטומטית עם הזמן'
+  name: 'מפיק אובסידיאן'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oמכונה'
+BASIC_PANEL:
+  description:
+  - '&7מייצר אנרגיה מהשמש'
+  name: 'לוח סולארי בסיסי'
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 900 J'
+  - '&8⇨ &e⚡ &79 J/שנייה'
+  type:
+  - '&7&oגנרטור'
+BASIC_QUARRY:
+  description:
+  - '&7כורה אוטומטית עפרות של עולם העל'
+  name: 'מכרה בסיסי'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b1x'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oמכונה'
+BASIC_STORAGE:
+  description:
+  - '&7מאחסנת כמויות גדולות של סוג פריט בודד'
+  name: 'יחידת אחסון בסיסית'
+  stats:
+  - '&6קיבולת: &e6,400 &eפריטים'
+  type:
+  - '&7&oמכונה'
+BASIC_STRAINER:
+  description:
+  - '&7אוספת חומרים ממים זורמים'
+  name: 'מסננת בסיסית'
+  stats:
+  - '&8⇨ &b⚡ &7מהירות: &b1.0x'
+  type:
+  - '&7&oרכיב'
+BASIC_TREE_GROWER:
+  description:
+  - '&7מגדל, קוצר ושותל מחדש עצים אוטומטית'
+  name: 'מגדל עצים בסיסי'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b1x'
+  - '&8⇨ &e⚡ &736 J/s'
+  type:
+  - '&7&oמכונה'
+BASIC_VIRTUAL_FARM:
+  description:
+  - '&7מגדל, קוצר ושותל מחדש גידולים אוטומטית'
+  name: 'חווה וירטואלית בסיסית'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b1x'
+  - '&8⇨ &e⚡ &718 J/s'
+  type:
+  - '&7&oמכונה'
+BEE_DATA_CARD:
+  name: 'כרטיס נתוני דבורה'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/שנייה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+BLAZE_DATA_CARD:
+  name: 'כרטיס נתוני בלייז'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/שנייה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+CELESTIAL_PANEL:
+  description:
+  - '&7מייצר אנרגיה מהשמש'
+  name: 'לוח שמיימי'
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 75,000 J'
+  - '&8⇨ &e⚡ &7750 J/שנייה'
+  type:
+  - '&7&oגנרטור'
+CHICKEN_DATA_CARD:
+  name: 'כרטיס נתוני עוף'
+  stats:
+  - '&8⇨ &e⚡ &775 J/שנייה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+COAL_SINGULARITY:
+  name: 'סינגולריות פחם'
+  type:
+  - '&7&oמשאב'
+COBBLE_PRESS:
+  description:
+  - '&7דוחס אבן מרוצפת ביעילות רבה יותר'
+  name: 'מכבש אבן מרוצפת'
+  stats:
+  - '&8⇨ &e⚡ &7120 J/שנייה'
+  type:
+  - '&7&oמכונה'
+COMPRESSED_COBBLESTONE_1:
+  name: 'אבן מרוצפת דחוסה פעם אחת'
+  stats:
+  - '&89 יחידות אבן מרוצפת משולבות'
+  type:
+  - '&7&oמשאב'
+COMPRESSED_COBBLESTONE_2:
+  name: 'אבן מרוצפת דחוסה פעמיים'
+  stats:
+  - '&881 יחידות אבן מרוצפת משולבות'
+  type:
+  - '&7&oמשאב'
+COMPRESSED_COBBLESTONE_3:
+  name: 'אבן מרוצפת דחוסה שלוש פעמים'
+  stats:
+  - '&8729 יחידות אבן מרוצפת משולבות'
+  type:
+  - '&7&oמשאב'
+COMPRESSED_COBBLESTONE_4:
+  name: 'אבן מרוצפת דחוסה ארבע פעמים'
+  stats:
+  - '&86,561 יחידות אבן מרוצפת משולבות'
+  type:
+  - '&7&oמשאב'
+COMPRESSED_COBBLESTONE_5:
+  name: 'אבן מרוצפת דחוסה חמש פעמים'
+  stats:
+  - '&859,049 יחידות אבן מרוצפת משולבות'
+  type:
+  - '&7&oמשאב'
+COPPER_SINGULARITY:
+  name: 'סינגולריות נחושת'
+  type:
+  - '&7&oמשאב'
+COW_DATA_CARD:
+  name: 'כרטיס נתוני פרה'
+  stats:
+  - '&8⇨ &e⚡ &775 J/שנייה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+CREEPER_DATA_CARD:
+  name: 'כרטיס נתוני קריפר'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/שנייה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+DATA_INFUSER:
+  description:
+  - '&7מטמיע כרטיסי נתונים ריקים בפריטי יצורים'
+  name: 'מטמיע נתוני יצורים'
+  stats:
+  - '&8⇨ &e⚡ &720,000 J לשימוש'
+  type:
+  - '&7&oמכונה'
+DECOMPRESSOR:
+  description:
+  - '&7מפרק בלוקים לחומר הבסיס שלהם'
+  name: 'מפרק דחיסה'
+  stats:
+  - '&8⇨ &e⚡ &760 J/שנייה'
+  type:
+  - '&7&oמכונה'
+DIAMOND_SINGULARITY:
+  name: 'סינגולריות יהלום'
+  type:
+  - '&7&oמשאב'
+DUST_EXTRACTOR:
+  description:
+  - '&7ממיר אבן מרוצפת לאבקות'
+  name: 'מחלץ אבקה'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oמכונה'
+EARTH_SINGULARITY:
+  name: 'סינגולריות אדמה'
+  type:
+  - '&7&oמשאב'
+EMERALD_SINGULARITY:
+  name: 'סינגולריות אזמרגד'
+  type:
+  - '&7&oמשאב'
+EMPTY_DATA_CARD:
+  name: 'כרטיס נתונים ריק'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הטמע פריטים של יצור כדי למלא'
+ENDERMEN_DATA_CARD:
+  name: 'כרטיס נתוני אנדרמן'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/שנייה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+ENDER_DRAGON_DATA_CARD:
+  name: 'כרטיס נתוני דרקון האנד'
+  stats:
+  - '&8⇨ &e⚡ &79,000 J/שנייה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+ENDER_FLAME:
+  name: 'להבת אנדר'
+  type:
+  - '&7&oרכיב'
+END_ESSENCE:
+  description:
+  - '&8&oממעמקי האנד...'
+  name: 'תמצית אנדר'
+  type:
+  - '&7&oמשאב'
+EXTREME_FREEZER:
+  description:
+  - '&7ממיר קרח לנוזל קירור'
+  name: 'מקפיא קיצוני'
+  stats:
+  - '&8⇨ &e⚡ &790 J/שנייה'
+  type:
+  - '&7&oמכונה'
+FORTUNE_SINGULARITY:
+  name: 'סינגולריות מזל'
+  type:
+  - '&7&oמשאב'
+GEAR_TRANSFORMER:
+  description:
+  - '&7משנה את החומר של כלים וציוד מקוריים'
+  name: 'ממיר ציוד'
+  stats:
+  - '&8⇨ &e⚡ &712,000 J לשימוש'
+  type:
+  - '&7&oמכונה'
+GEOTHERMAL_GENERATOR:
+  description:
+  - '&7מייצר אנרגיה מחום העולם'
+  name: 'גנרטור גיאותרמי'
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 3,500 J'
+  - '&8⇨ &e⚡ &735 J/שנייה'
+  type:
+  - '&7&oגנרטור'
+GEO_QUARRY:
+  description:
+  - '&7קוצר לאט משאבים גיאולוגיים מהתהום בעזרת כוח'
+  name: 'גאו-מכרה'
+  stats:
+  - '&8⇨ &e⚡ &7450 J/שנייה'
+  type:
+  - '&7&oמכונה'
+GOLD_SINGULARITY:
+  name: 'סינגולריות זהב'
+  type:
+  - '&7&oמשאב'
+GUARDIAN_DATA_CARD:
+  name: 'כרטיס נתוני שומר'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/שנייה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+HYDRO_GENERATOR:
+  description:
+  - '&7מייצר אנרגיה מתנועת המים'
+  name: 'גנרטור מים'
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 500 J'
+  - '&8⇨ &e⚡ &75 J/שנייה'
+  type:
+  - '&7&oגנרטור'
+INFINITE_INGOT:
+  description:
+  - '&7&oחמת הקוסמוס'
+  - '&7&oבכף ידך'
+  name: 'מטיל אינסוף'
+  type:
+  - '&7&oמשאב'
+INFINITE_MACHINE_CIRCUIT:
+  name: 'מעגל מכונה אינסופי'
+  type:
+  - '&7&oרכיב'
+INFINITE_MACHINE_CORE:
+  name: 'ליבת מכונה אינסופית'
+  type:
+  - '&7&oרכיב'
+INFINITE_PANEL:
+  description:
+  - '&7מייצר אנרגיה מהקוסמוס'
+  name: 'לוח אינסופי'
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 6,000,000 J'
+  - '&8⇨ &e⚡ &760,000 J/שנייה'
+  type:
+  - '&7&oגנרטור'
+INFINITE_VOID_HARVESTER:
+  description:
+  - '&7קוצר פיסות &8תהום &7מתוך האין...'
+  name: 'קוצר תהום אינסופי'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b64x'
+  - '&8⇨ &e⚡ &712,000 J/s'
+  type:
+  - '&7&oמכונה'
+INFINITY_AXE:
+  name: 'חורבן הטבע'
+  stats:
+  - '&bקשור-נשמה'
+  type:
+  - '&7&oכלי'
+INFINITY_BLADE:
+  name: 'להב הקוסמוס'
+  stats:
+  - '&bקשור-נשמה'
+  type:
+  - '&7&oנשק'
+INFINITY_BOOTS:
+  name: 'מגפיים אינסופיים'
+  stats:
+  - '&7מהירות III'
+  - '&7חסד הדולפינים I'
+  - '&bקשור-נשמה'
+  type:
+  - '&7&oשריון'
+INFINITY_BOW:
+  description:
+  - '&7יורה חצים נפיצים שמאטים ומבלבלים אויבים בפגיעה'
+  name: 'מנקב השמיים'
+  stats:
+  - '&bקשור-נשמה'
+  type:
+  - '&7&oנשק'
+INFINITY_CAPACITOR:
+  description:
+  - '&c&oאין להשתמש ביותר מ'
+  - '&c&o1 לכל רשת אנרגיה'
+  name: 'קבל אינסופי'
+  stats:
+  - '&8⇨ &e⚡ 2,000,000,000 &7קיבולת J'
+  type:
+  - '&7&oרכיב'
+INFINITY_CHARGER:
+  description:
+  - '&7טוען פריטים מיידית'
+  name: 'מטען אינסופי'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b6000x'
+  - '&8⇨ &e⚡ &760,000 J לשימוש'
+  type:
+  - '&7&oמכונה'
+INFINITY_CHESTPLATE:
+  name: 'שריון חזה אינסופי'
+  stats:
+  - '&7עוצמה II'
+  - '&7חסינות I'
+  - '&7חסינות אש I'
+  - '&7חסינות לעקיצת דבורה'
+  - '&bקשור-נשמה'
+  type:
+  - '&7&oשריון'
+INFINITY_COBBLE_GEN:
+  description:
+  - '&7מפיק אבן מרוצפת אוטומטית עם הזמן'
+  name: 'מפיק אבן מרוצפת אינסופי'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b64x'
+  - '&8⇨ &e⚡ &7800 J/s'
+  type:
+  - '&7&oמכונה'
+INFINITY_CONSTRUCTOR:
+  description:
+  - '&7מעבה במהירות כמויות גדולות של משאבים'
+  name: 'בונה אינסופי'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b64x'
+  - '&8⇨ &e⚡ &71,200 J/s'
+  type:
+  - '&7&oמכונה'
+INFINITY_CROWN:
+  name: 'כתר אינסופי'
+  stats:
+  - '&7ראיית לילה I'
+  - '&7כוח מוליך I'
+  - '&7חסינות להתרסקות אליטרה'
+  - '&bקשור-נשמה'
+  type:
+  - '&7&oשריון'
+INFINITY_DISENCHANTER:
+  description:
+  - '&7מסיר אוטומטית כישופים מפריטים אל ספרים'
+  name: 'מסיר כישופים אינסופי'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b90x'
+  - '&8⇨ &e⚡ &712,000 J לשימוש'
+  type:
+  - '&7&oמכונה'
+INFINITY_DUST_EXTRACTOR:
+  description:
+  - '&7ממיר אבן מרוצפת לאבקות'
+  name: 'מחלץ אבקה אינסופי'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
+  type:
+  - '&7&oמכונה'
+INFINITY_ENCHANTER:
+  description:
+  - '&7מכשף אוטומטית פריטים שמוצבים בתוכו'
+  name: 'מכשף אינסופי'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b75x'
+  - '&8⇨ &e⚡ &712,000 J לשימוש'
+  type:
+  - '&7&oמכונה'
+INFINITY_FORGE:
+  description:
+  - '&7משמש ליצירת פריטי אינסוף'
+  name: 'שולחן עבודה אינסופי'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J לפריט'
+  type:
+  - '&7&oמכונה'
+INFINITY_INGOT_FORMER:
+  description:
+  - '&7מעצב מטילים מאבקות'
+  name: 'מעצב מטילים אינסופי'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
+  type:
+  - '&7&oמכונה'
+INFINITY_LEGGINGS:
+  name: 'מכנסיים אינסופיים'
+  stats:
+  - '&7חופזה III'
+  - '&7התחדשות I'
+  - '&7רוויה I'
+  - '&7חסינות לקרינה'
+  - '&bקשור-נשמה'
+  type:
+  - '&7&oשריון'
+INFINITY_MATRIX:
+  description:
+  - '&6מעניקה תעופה בלתי מוגבלת'
+  name: 'מטריצת אינסוף'
+  stats:
+  - '&bקשור-נשמה'
+  type:
+  - '&7&oגאדג׳ט'
+  usage:
+  - '&7לחיצה ימנית כדי להפעיל/לכבות ולתבוע בעלות'
+  - '&7כריעה ולחיצה ימנית כדי להסיר בעלות'
+INFINITY_PICKAXE:
+  name: 'שובר העולמות'
+  stats:
+  - '&bקשור-נשמה'
+  type:
+  - '&7&oכלי'
+INFINITY_QUARRY:
+  description:
+  - '&7כורה אוטומטית עפרות של עולם העל והנתר'
+  name: 'מכרה אינסופי'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b64x'
+  - '&8⇨ &e⚡ &736,000 J/s'
+  type:
+  - '&7&oמכונה'
+INFINITY_REACTOR:
+  description:
+  - '&7מייצר כוח באמצעות דחיסת'
+  - '&7מטילי &8תהום &7ו&bאינסוף&7'
+  name: 'כור אינסופי'
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 120,000,000 J'
+  - '&8⇨ &e⚡ &7120,000 J/שנייה'
+  type:
+  - '&7&oגנרטור'
+INFINITY_SHIELD:
+  name: 'מגן קוסמי'
+  stats:
+  - '&bקשור-נשמה'
+  type:
+  - '&7&oנשק'
+INFINITY_SHOVEL:
+  name: 'אוכל ההרים'
+  stats:
+  - '&bקשור-נשמה'
+  type:
+  - '&7&oכלי'
+INFINITY_SINGULARITY:
+  name: 'סינגולריות אינסוף'
+  type:
+  - '&7&oמשאב'
+INFINITY_STORAGE:
+  description:
+  - '&7מאחסנת כמויות גדולות של סוג פריט בודד'
+  name: 'יחידת אחסון אינסופית'
+  stats:
+  - '&6קיבולת: &e1,600,000,000 &eפריטים'
+  type:
+  - '&7&oמכונה'
+INFINITY_TREE_GROWER:
+  description:
+  - '&7מגדל, קוצר ושותל מחדש עצים אוטומטית'
+  name: 'מגדל עצים אינסופי'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b25x'
+  - '&8⇨ &e⚡ &71,800 J/s'
+  type:
+  - '&7&oמכונה'
+INFINITY_VIRTUAL_FARM:
+  description:
+  - '&7מגדל, קוצר ושותל מחדש גידולים אוטומטית'
+  name: 'חווה וירטואלית אינסופית'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b25x'
+  - '&8⇨ &e⚡ &7900 J/s'
+  type:
+  - '&7&oמכונה'
+INGOT_FORMER:
+  description:
+  - '&7מעצב מטילים מאבקות'
+  name: 'מעצב מטילים'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oמכונה'
+IRON_GOLEM_DATA_CARD:
+  name: 'כרטיס נתוני גולם ברזל'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/שנייה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+IRON_SINGULARITY:
+  name: 'סינגולריות ברזל'
+  type:
+  - '&7&oמשאב'
+LAPIS_SINGULARITY:
+  name: 'סינגולריות לפיס'
+  type:
+  - '&7&oמשאב'
+LEAD_SINGULARITY:
+  name: 'סינגולריות עופרת'
+  type:
+  - '&7&oמשאב'
+MACHINE_CIRCUIT:
+  name: 'מעגל מכונה'
+  type:
+  - '&7&oרכיב'
+MACHINE_CORE:
+  name: 'ליבת מכונה'
+  type:
+  - '&7&oרכיב'
+MACHINE_PLATE:
+  name: 'לוחית מכונה'
+  type:
+  - '&7&oרכיב'
+MAGIC_SINGULARITY:
+  name: 'סינגולריות קסם'
+  type:
+  - '&7&oמשאב'
+MAGMA_CUBE_DATA_CARD:
+  name: 'כרטיס נתוני קוביית מגמה'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/שנייה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+MAGNESIUM_SINGULARITY:
+  name: 'סינגולריות מגנזיום'
+  type:
+  - '&7&oמשאב'
+MAGNONIUM:
+  name: 'מגנוניום'
+  type:
+  - '&7&oמשאב'
+MAGSTEEL:
+  name: 'מג-פלדה'
+  type:
+  - '&7&oמשאב'
+MAGSTEEL_PLATE:
+  name: 'לוחית מג-פלדה'
+  type:
+  - '&7&oרכיב'
+METAL_SINGULARITY:
+  name: 'סינגולריות מתכת'
+  type:
+  - '&7&oמשאב'
+MOB_SIMULATION_CHAMBER:
+  description:
+  - '&7השתמש בכרטיסי נתוני יצורים כדי להפעיל'
+  name: 'חדר סימולציית יצורים'
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 15,000 J'
+  - '&8⇨ &e⚡ &7150 J/שנייה'
+  type:
+  - '&7&oמכונה'
+MYTHRIL:
+  name: 'מיתריל'
+  type:
+  - '&7&oמשאב'
+NETHERITE_SINGULARITY:
+  name: 'סינגולריות נתרייט'
+  type:
+  - '&7&oמשאב'
+POWERED_BEDROCK:
+  description:
+  - '&7כשמופעל, הופך לסלע יסוד'
+  - '&7יחזור לקדמותו כשיכובה או יישבר'
+  name: 'סלע יסוד מופעל'
+  stats:
+  - '&8⇨ &e⚡ &710,000 J/שנייה'
+  type:
+  - '&7&oמכונה'
+QUARRY_OSCILLATOR_DIAMOND:
+  name: 'מתנד יהלום'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב במכרה כדי להעניק לו'
+  - '&7סיכוי של 50.0% לכרות את החומר הזה'
+QUARRY_OSCILLATOR_EMERALD:
+  name: 'מתנד אזמרגד'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב במכרה כדי להעניק לו'
+  - '&7סיכוי של 50.0% לכרות את החומר הזה'
+QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  name: 'מתנד לפיס לזולי'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב במכרה כדי להעניק לו'
+  - '&7סיכוי של 50.0% לכרות את החומר הזה'
+QUARRY_OSCILLATOR_QUARTZ:
+  name: 'מתנד קוורץ'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב במכרה כדי להעניק לו'
+  - '&7סיכוי של 50.0% לכרות את החומר הזה'
+QUARRY_OSCILLATOR_REDSTONE:
+  name: 'מתנד אבן אדומה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב במכרה כדי להעניק לו'
+  - '&7סיכוי של 50.0% לכרות את החומר הזה'
+QUARTZ_SINGULARITY:
+  name: 'סינגולריות קוורץ'
+  type:
+  - '&7&oמשאב'
+REDSTONE_SINGULARITY:
+  name: 'סינגולריות אבן אדומה'
+  type:
+  - '&7&oמשאב'
+REINFORCED_GEOTHERMAL_GENERATOR:
+  description:
+  - '&7מייצר כמויות גדולות של אנרגיה'
+  - '&7מחום העולם'
+  name: 'גנרטור גיאותרמי מחוזק'
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 21,000 J'
+  - '&8⇨ &e⚡ &7210 J/שנייה'
+  type:
+  - '&7&oגנרטור'
+REINFORCED_HYDRO_GENERATOR:
+  description:
+  - '&7מייצר כמויות גדולות של אנרגיה'
+  - '&7מתנועת המים'
+  name: 'גנרטור מים מחוזק'
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 4,500 J'
+  - '&8⇨ &e⚡ &745 J/שנייה'
+  type:
+  - '&7&oגנרטור'
+REINFORCED_STORAGE:
+  description:
+  - '&7מאחסנת כמויות גדולות של סוג פריט בודד'
+  name: 'יחידת אחסון מחוזקת'
+  stats:
+  - '&6קיבולת: &e102,400 &eפריטים'
+  type:
+  - '&7&oמכונה'
+REINFORCED_STRAINER:
+  description:
+  - '&7אוספת חומרים ממים זורמים'
+  name: 'מסננת מחוזקת'
+  stats:
+  - '&8⇨ &b⚡ &7מהירות: &b20.0x'
+  type:
+  - '&7&oרכיב'
+RESOURCE_SYNTHESIZER:
+  description:
+  - '&7יוצר משאבים על ידי שילוב 2 סינגולריות'
+  name: 'מסנתז משאבים'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J לשימוש'
+  type:
+  - '&7&oמכונה'
+SHEEP_DATA_CARD:
+  name: 'כרטיס נתוני כבשה'
+  stats:
+  - '&8⇨ &e⚡ &775 J/שנייה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+SILVER_SINGULARITY:
+  name: 'סינגולריות כסף'
+  type:
+  - '&7&oמשאב'
+SINGULARITY_CONSTRUCTOR:
+  description:
+  - '&7מעבה כמויות גדולות של משאבים'
+  name: 'בונה סינגולריות'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oמכונה'
+SKELETON_DATA_CARD:
+  name: 'כרטיס נתוני שלד'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/שנייה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+SLIME_DATA_CARD:
+  name: 'כרטיס נתוני סליים'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/שנייה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+SPIDER_DATA_CARD:
+  name: 'כרטיס נתוני עכביש'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/שנייה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+STONEWORKS_FACTORY:
+  description:
+  - '&7מפיק אבן מרוצפת ומעבד אותה לחומרים שונים'
+  name: 'מפעל עיבוד אבן'
+  stats:
+  - '&8⇨ &e⚡ &7240 J/שנייה'
+  type:
+  - '&7&oמכונה'
+  usage:
+  - '&eלחיצה&7 על משבצות הבחירה כדי לעבור בין התכה, כתישה, דחיסה והמרה'
+STORAGE_FORGE:
+  description:
+  - '&7משדרגת את הדרגה של יחידות אחסון'
+  - '&7שומרת על הפריטים המאוחסנים'
+  name: 'מפחת אחסון'
+  type:
+  - '&7&oמכונה'
+STRAINER_BASE:
+  description:
+  - '&7אוסף לאט חומרים ממים זורמים בעזרת מסננת'
+  - '&7חייב להיות ספוג במים כדי לתפקד'
+  name: 'בסיס מסננת'
+  type:
+  - '&7&oמכונה'
+TIN_SINGULARITY:
+  name: 'סינגולריות בדיל'
+  type:
+  - '&7&oמשאב'
+TITANIUM:
+  name: 'טיטניום'
+  type:
+  - '&7&oמשאב'
+URANIUM_EXTRACTOR:
+  description:
+  - '&7ממיר אבן מרוצפת לאורניום'
+  name: 'מחלץ אורניום'
+  stats:
+  - '&8⇨ &e⚡ &7240 J/שנייה'
+  type:
+  - '&7&oמכונה'
+VEIN_MINER_RUNE:
+  description:
+  - '&7משדרגת כלי לכריית עורקים של חומרים מסוימים'
+  name: 'רונת כורה עורקים'
+  type:
+  - '&7&oגאדג׳ט'
+  usage:
+  - '&eהפל&7 ליד כלי כדי לשדרג אותו לכורה עורקים'
+VILLAGER_DATA_CARD:
+  name: 'כרטיס נתוני כפרי'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/שנייה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+VOID_BIT:
+  description:
+  - '&7&oמרגיש... ריק'
+  name: 'פיסת תהום'
+  type:
+  - '&7&oמשאב'
+VOID_CAPACITOR:
+  description:
+  - '&7מאחסן אנרגיה עודפת עבור רשת אנרגיה'
+  name: 'קבל תהום'
+  stats:
+  - '&8⇨ &e⚡ 16,000,000 &7קיבולת J'
+  type:
+  - '&7&oרכיב'
+VOID_DUST:
+  description:
+  - '&7&oהוא מתחיל לקבל צורה...'
+  name: 'אבקת תהום'
+  type:
+  - '&7&oמשאב'
+VOID_HARVESTER:
+  description:
+  - '&7קוצר לאט פיסות &8תהום &7מתוך האין...'
+  name: 'קוצר תהום'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oמכונה'
+VOID_INGOT:
+  description:
+  - '&7&oריקות הקוסמוס'
+  - '&7&oבכף ידך'
+  name: 'מטיל תהום'
+  type:
+  - '&7&oמשאב'
+VOID_PANEL:
+  description:
+  - '&7מייצר אנרגיה מהחשכה'
+  name: 'לוח תהום'
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 300,000 J'
+  - '&8⇨ &e⚡ &73,000 J/שנייה'
+  type:
+  - '&7&oגנרטור'
+VOID_QUARRY:
+  description:
+  - '&7כורה אוטומטית עפרות של עולם העל והנתר'
+  name: 'מכרה תהום'
+  stats:
+  - '&8⇨ &e⚡ &7מהירות: &b6x'
+  - '&8⇨ &e⚡ &73,600 J/s'
+  type:
+  - '&7&oמכונה'
+VOID_STORAGE:
+  description:
+  - '&7מאחסנת כמויות גדולות של סוג פריט בודד'
+  name: 'יחידת אחסון תהום'
+  stats:
+  - '&6קיבולת: &e409,600 &eפריטים'
+  type:
+  - '&7&oמכונה'
+WITCH_DATA_CARD:
+  name: 'כרטיס נתוני מכשפה'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/שנייה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+WITHER_DATA_CARD:
+  name: 'כרטיס נתוני ווית''ר'
+  stats:
+  - '&8⇨ &e⚡ &74,500 J/שנייה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+WITHER_SKELETON_DATA_CARD:
+  name: 'כרטיס נתוני שלד ווית''ר'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/שנייה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'
+ZINC_SINGULARITY:
+  name: 'סינגולריות אבץ'
+  type:
+  - '&7&oמשאב'
+ZOMBIE_DATA_CARD:
+  name: 'כרטיס נתוני זומבי'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/שנייה'
+  type:
+  - '&7&oרכיב'
+  usage:
+  - '&7הצב בחדר סימולציית יצורים כדי להפעיל'

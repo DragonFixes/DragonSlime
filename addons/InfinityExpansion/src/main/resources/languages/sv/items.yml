@@ -1,0 +1,1060 @@
+ADAMANTITE:
+  name: 'Adamantite'
+  type:
+  - '&7&oRåmaterial'
+ADVANCED_ANVIL:
+  description:
+  - '&7Slår ihop förtrollningar på verktyg och utrustning och uppgraderar dem ibland'
+  - '&bFungerar med Slimefun-föremål'
+  name: 'Avancerat städ'
+  stats:
+  - '&8⇨ &e⚡ &7100,000 J per användning'
+  type:
+  - '&7&oMaskin'
+ADVANCED_CHARGER:
+  description:
+  - '&7Laddar föremål snabbt'
+  name: 'Avancerad laddare'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b30x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oMaskin'
+ADVANCED_COBBLE_GEN:
+  description:
+  - '&7Genererar kullersten automatiskt med tiden'
+  name: 'Avancerad kullerstensgenerator'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMaskin'
+ADVANCED_DISENCHANTER:
+  description:
+  - '&7Flyttar automatiskt förtrollningar från föremål till böcker'
+  name: 'Avancerad avförtrollare'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oMaskin'
+ADVANCED_ENCHANTER:
+  description:
+  - '&7Förtrollar automatiskt föremål som läggs i den'
+  name: 'Avancerad förtrollare'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oMaskin'
+ADVANCED_GEO_MINER:
+  description:
+  - '&7En snabbare geobrytare'
+  name: 'Avancerad Geobrytare'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMaskin'
+ADVANCED_NETHER_STAR_REACTOR:
+  description:
+  - '&fDrivs av netherstjärnor'
+  - '&bMåste omges av vatten'
+  - '&bMåste förses med kylceller av netheris'
+  - '&4Får närliggande varelser att drabbas av Wither'
+  name: 'Avancerad netherstjärnereaktor'
+  stats:
+  - '&8⇨ &e⚡ &790,000 J Buffert'
+  - '&8⇨ &e⚡ &71,800 J/s'
+  type:
+  - '&7&oGenerator'
+ADVANCED_PANEL:
+  description:
+  - '&7Genererar energi från solen'
+  name: 'Avancerad solpanel'
+  stats:
+  - '&8⇨ &e⚡ &715,000 J Buffert'
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oGenerator'
+ADVANCED_QUARRY:
+  description:
+  - '&7Bryter automatiskt malmer från övervärlden och Nether'
+  name: 'Avancerat stenbrott'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b2x'
+  - '&8⇨ &e⚡ &7900 J/s'
+  type:
+  - '&7&oMaskin'
+ADVANCED_SMELTERY:
+  description:
+  - '&7Ett snabbare smältverk'
+  name: 'Avancerat smältverk'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b24x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMaskin'
+ADVANCED_STORAGE:
+  description:
+  - '&7Lagrar stora mängder av en enda föremålstyp'
+  name: 'Avancerad lagringsenhet'
+  stats:
+  - '&6Kapacitet: &e25,600 &eföremål'
+  type:
+  - '&7&oMaskin'
+ADVANCED_STRAINER:
+  description:
+  - '&7Samlar material från rinnande vatten'
+  name: 'Avancerad sil'
+  stats:
+  - '&8⇨ &b⚡ &7Hastighet: &b4.0x'
+  type:
+  - '&7&oKomponent'
+ADVANCED_TREE_GROWER:
+  description:
+  - '&7Odlar, skördar och återplanterar träd automatiskt'
+  name: 'Avancerad trädodlare'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oMaskin'
+ADVANCED_VIRTUAL_FARM:
+  description:
+  - '&7Odlar, skördar och återplanterar grödor automatiskt'
+  name: 'Avancerad virtuell odling'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b5x'
+  - '&8⇨ &e⚡ &790 J/s'
+  type:
+  - '&7&oMaskin'
+ALUMINUM_SINGULARITY:
+  name: 'Aluminiumsingularitet'
+  type:
+  - '&7&oRåmaterial'
+BASIC_COBBLE_GEN:
+  description:
+  - '&7Genererar kullersten automatiskt med tiden'
+  name: 'Grundläggande kullerstensgenerator'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b1x'
+  - '&8⇨ &e⚡ &724 J/s'
+  type:
+  - '&7&oMaskin'
+BASIC_OBSIDIAN_GEN:
+  description:
+  - '&7Genererar obsidian automatiskt med tiden'
+  name: 'Obsidiangenerator'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMaskin'
+BASIC_PANEL:
+  description:
+  - '&7Genererar energi från solen'
+  name: 'Grundläggande solpanel'
+  stats:
+  - '&8⇨ &e⚡ &7900 J Buffert'
+  - '&8⇨ &e⚡ &79 J/s'
+  type:
+  - '&7&oGenerator'
+BASIC_QUARRY:
+  description:
+  - '&7Bryter automatiskt malmer från övervärlden'
+  name: 'Grundläggande stenbrott'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b1x'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMaskin'
+BASIC_STORAGE:
+  description:
+  - '&7Lagrar stora mängder av en enda föremålstyp'
+  name: 'Grundläggande lagringsenhet'
+  stats:
+  - '&6Kapacitet: &e6,400 &eföremål'
+  type:
+  - '&7&oMaskin'
+BASIC_STRAINER:
+  description:
+  - '&7Samlar material från rinnande vatten'
+  name: 'Grundläggande sil'
+  stats:
+  - '&8⇨ &b⚡ &7Hastighet: &b1.0x'
+  type:
+  - '&7&oKomponent'
+BASIC_TREE_GROWER:
+  description:
+  - '&7Odlar, skördar och återplanterar träd automatiskt'
+  name: 'Grundläggande trädodlare'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b1x'
+  - '&8⇨ &e⚡ &736 J/s'
+  type:
+  - '&7&oMaskin'
+BASIC_VIRTUAL_FARM:
+  description:
+  - '&7Odlar, skördar och återplanterar grödor automatiskt'
+  name: 'Grundläggande virtuell odling'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b1x'
+  - '&8⇨ &e⚡ &718 J/s'
+  type:
+  - '&7&oMaskin'
+BEE_DATA_CARD:
+  name: 'Bidatakort'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+BLAZE_DATA_CARD:
+  name: 'Blazedatakort'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+CELESTIAL_PANEL:
+  description:
+  - '&7Genererar energi från solen'
+  name: 'Himmelspanel'
+  stats:
+  - '&8⇨ &e⚡ &775,000 J Buffert'
+  - '&8⇨ &e⚡ &7750 J/s'
+  type:
+  - '&7&oGenerator'
+CHICKEN_DATA_CARD:
+  name: 'Kycklingdatakort'
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+COAL_SINGULARITY:
+  name: 'Kolsingularitet'
+  type:
+  - '&7&oRåmaterial'
+COBBLE_PRESS:
+  description:
+  - '&7Komprimerar kullersten effektivare'
+  name: 'Kullerstenspress'
+  stats:
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMaskin'
+COMPRESSED_COBBLESTONE_1:
+  name: 'Enkelkomprimerad kullersten'
+  stats:
+  - '&89 kullerstenar sammanslagna'
+  type:
+  - '&7&oRåmaterial'
+COMPRESSED_COBBLESTONE_2:
+  name: 'Dubbelkomprimerad kullersten'
+  stats:
+  - '&881 kullerstenar sammanslagna'
+  type:
+  - '&7&oRåmaterial'
+COMPRESSED_COBBLESTONE_3:
+  name: 'Trippelkomprimerad kullersten'
+  stats:
+  - '&8729 kullerstenar sammanslagna'
+  type:
+  - '&7&oRåmaterial'
+COMPRESSED_COBBLESTONE_4:
+  name: 'Fyrdubbelt komprimerad kullersten'
+  stats:
+  - '&86,561 kullerstenar sammanslagna'
+  type:
+  - '&7&oRåmaterial'
+COMPRESSED_COBBLESTONE_5:
+  name: 'Femdubbelt komprimerad kullersten'
+  stats:
+  - '&859,049 kullerstenar sammanslagna'
+  type:
+  - '&7&oRåmaterial'
+COPPER_SINGULARITY:
+  name: 'Kopparsingularitet'
+  type:
+  - '&7&oRåmaterial'
+COW_DATA_CARD:
+  name: 'Kodatakort'
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+CREEPER_DATA_CARD:
+  name: 'Creeperdatakort'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+DATA_INFUSER:
+  description:
+  - '&7Infuserar tomma datakort med mobföremål'
+  name: 'Mobdatainfuserare'
+  stats:
+  - '&8⇨ &e⚡ &720,000 J per användning'
+  type:
+  - '&7&oMaskin'
+DECOMPRESSOR:
+  description:
+  - '&7Bryter ner block till deras grundmaterial'
+  name: 'Dekomprimerare'
+  stats:
+  - '&8⇨ &e⚡ &760 J/s'
+  type:
+  - '&7&oMaskin'
+DIAMOND_SINGULARITY:
+  name: 'Diamantsingularitet'
+  type:
+  - '&7&oRåmaterial'
+DUST_EXTRACTOR:
+  description:
+  - '&7Omvandlar kullersten till damm'
+  name: 'Dammutvinnare'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMaskin'
+EARTH_SINGULARITY:
+  name: 'Jordsingularitet'
+  type:
+  - '&7&oRåmaterial'
+EMERALD_SINGULARITY:
+  name: 'Smaragdsingularitet'
+  type:
+  - '&7&oRåmaterial'
+EMPTY_DATA_CARD:
+  name: 'Tomt datakort'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Infusera med en mobs föremål för att fylla det'
+ENDERMEN_DATA_CARD:
+  name: 'Endermandatakort'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+ENDER_DRAGON_DATA_CARD:
+  name: 'Enderdrakdatakort'
+  stats:
+  - '&8⇨ &e⚡ &79,000 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+ENDER_FLAME:
+  name: 'Enderlåga'
+  type:
+  - '&7&oKomponent'
+END_ESSENCE:
+  description:
+  - '&8&oFrån Endens djup...'
+  name: 'Enderessens'
+  type:
+  - '&7&oRåmaterial'
+EXTREME_FREEZER:
+  description:
+  - '&7Omvandlar is till kylmedel'
+  name: 'Extremfrys'
+  stats:
+  - '&8⇨ &e⚡ &790 J/s'
+  type:
+  - '&7&oMaskin'
+FORTUNE_SINGULARITY:
+  name: 'Lyckosingularitet'
+  type:
+  - '&7&oRåmaterial'
+GEAR_TRANSFORMER:
+  description:
+  - '&7Ändrar materialet på vanilla-verktyg och -utrustning'
+  name: 'Utrustningsomvandlare'
+  stats:
+  - '&8⇨ &e⚡ &712,000 J per användning'
+  type:
+  - '&7&oMaskin'
+GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Genererar energi från världens värme'
+  name: 'Geotermisk generator'
+  stats:
+  - '&8⇨ &e⚡ &73,500 J Buffert'
+  - '&8⇨ &e⚡ &735 J/s'
+  type:
+  - '&7&oGenerator'
+GEO_QUARRY:
+  description:
+  - '&7Utvinner långsamt georesurser ur tomrummet med hjälp av kraft'
+  name: 'Geostenbrott'
+  stats:
+  - '&8⇨ &e⚡ &7450 J/s'
+  type:
+  - '&7&oMaskin'
+GOLD_SINGULARITY:
+  name: 'Guldsingularitet'
+  type:
+  - '&7&oRåmaterial'
+GUARDIAN_DATA_CARD:
+  name: 'Väktardatakort'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+HYDRO_GENERATOR:
+  description:
+  - '&7Genererar energi från vattnets rörelse'
+  name: 'Vattengenerator'
+  stats:
+  - '&8⇨ &e⚡ &7500 J Buffert'
+  - '&8⇨ &e⚡ &75 J/s'
+  type:
+  - '&7&oGenerator'
+INFINITE_INGOT:
+  description:
+  - '&7&oKosmos raseri'
+  - '&7&oi din handflata'
+  name: 'Oändlighetstacka'
+  type:
+  - '&7&oRåmaterial'
+INFINITE_MACHINE_CIRCUIT:
+  name: 'Oändlig maskinkrets'
+  type:
+  - '&7&oKomponent'
+INFINITE_MACHINE_CORE:
+  name: 'Oändlig maskinkärna'
+  type:
+  - '&7&oKomponent'
+INFINITE_PANEL:
+  description:
+  - '&7Genererar energi från kosmos'
+  name: 'Oändlighetspanel'
+  stats:
+  - '&8⇨ &e⚡ &76,000,000 J Buffert'
+  - '&8⇨ &e⚡ &760,000 J/s'
+  type:
+  - '&7&oGenerator'
+INFINITE_VOID_HARVESTER:
+  description:
+  - '&7Skördar &8tomrumsbitar &7ur tomma intet...'
+  name: 'Oändlig tomrumsskördare'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b64x'
+  - '&8⇨ &e⚡ &712,000 J/s'
+  type:
+  - '&7&oMaskin'
+INFINITY_AXE:
+  name: 'Naturens fördärv'
+  stats:
+  - '&bSjälsbunden'
+  type:
+  - '&7&oVerktyg'
+INFINITY_BLADE:
+  name: 'Kosmos klinga'
+  stats:
+  - '&bSjälsbunden'
+  type:
+  - '&7&oVapen'
+INFINITY_BOOTS:
+  name: 'Oändlighetsstövlar'
+  stats:
+  - '&7Hastighet III'
+  - '&7Delfinens gunst I'
+  - '&bSjälsbunden'
+  type:
+  - '&7&oRustning'
+INFINITY_BOW:
+  description:
+  - '&7Skjuter explosiva pilar som saktar ner och förvirrar fiender vid träff'
+  name: 'Himmelsgenomborraren'
+  stats:
+  - '&bSjälsbunden'
+  type:
+  - '&7&oVapen'
+INFINITY_CAPACITOR:
+  description:
+  - '&c&oAnvänd inte mer än'
+  - '&c&o1 per energinätverk'
+  name: 'Oändlig kondensator'
+  stats:
+  - '&8⇨ &e⚡ 2,000,000,000 &7J kapacitet'
+  type:
+  - '&7&oKomponent'
+INFINITY_CHARGER:
+  description:
+  - '&7Laddar föremål omedelbart'
+  name: 'Oändlighetsladdare'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b6000x'
+  - '&8⇨ &e⚡ &760,000 J per användning'
+  type:
+  - '&7&oMaskin'
+INFINITY_CHESTPLATE:
+  name: 'Oändlighetsbröstplåt'
+  stats:
+  - '&7Styrka II'
+  - '&7Motstånd I'
+  - '&7Eldmotstånd I'
+  - '&7Immunitet mot bistick'
+  - '&bSjälsbunden'
+  type:
+  - '&7&oRustning'
+INFINITY_COBBLE_GEN:
+  description:
+  - '&7Genererar kullersten automatiskt med tiden'
+  name: 'Oändlig kullerstensgenerator'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b64x'
+  - '&8⇨ &e⚡ &7800 J/s'
+  type:
+  - '&7&oMaskin'
+INFINITY_CONSTRUCTOR:
+  description:
+  - '&7Förtätar snabbt stora mängder resurser'
+  name: 'Oändlig konstruktör'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b64x'
+  - '&8⇨ &e⚡ &71,200 J/s'
+  type:
+  - '&7&oMaskin'
+INFINITY_CROWN:
+  name: 'Oändlighetskrona'
+  stats:
+  - '&7Mörkerseende I'
+  - '&7Ledarkraft I'
+  - '&7Immunitet mot elytrakrascher'
+  - '&bSjälsbunden'
+  type:
+  - '&7&oRustning'
+INFINITY_DISENCHANTER:
+  description:
+  - '&7Flyttar automatiskt förtrollningar från föremål till böcker'
+  name: 'Oändlighetsavförtrollare'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b90x'
+  - '&8⇨ &e⚡ &712,000 J per användning'
+  type:
+  - '&7&oMaskin'
+INFINITY_DUST_EXTRACTOR:
+  description:
+  - '&7Omvandlar kullersten till damm'
+  name: 'Oändlig dammutvinnare'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
+  type:
+  - '&7&oMaskin'
+INFINITY_ENCHANTER:
+  description:
+  - '&7Förtrollar automatiskt föremål som läggs i den'
+  name: 'Oändlighetsförtrollare'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b75x'
+  - '&8⇨ &e⚡ &712,000 J per användning'
+  type:
+  - '&7&oMaskin'
+INFINITY_FORGE:
+  description:
+  - '&7Används för att tillverka oändlighetsföremål'
+  name: 'Oändlighetsarbetsbänk'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J per föremål'
+  type:
+  - '&7&oMaskin'
+INFINITY_INGOT_FORMER:
+  description:
+  - '&7Formar tackor av damm'
+  name: 'Oändlig tackformare'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
+  type:
+  - '&7&oMaskin'
+INFINITY_LEGGINGS:
+  name: 'Oändlighetsbenskydd'
+  stats:
+  - '&7Hast III'
+  - '&7Regenerering I'
+  - '&7Mättnad I'
+  - '&7Immunitet mot strålning'
+  - '&bSjälsbunden'
+  type:
+  - '&7&oRustning'
+INFINITY_MATRIX:
+  description:
+  - '&6Ger obegränsad flygning'
+  name: 'Oändlighetsmatris'
+  stats:
+  - '&bSjälsbunden'
+  type:
+  - '&7&oPryl'
+  usage:
+  - '&7Högerklicka för att slå på/av och göra anspråk'
+  - '&7Smyg och högerklicka för att ta bort ägarskapet'
+INFINITY_PICKAXE:
+  name: 'Världskrossaren'
+  stats:
+  - '&bSjälsbunden'
+  type:
+  - '&7&oVerktyg'
+INFINITY_QUARRY:
+  description:
+  - '&7Bryter automatiskt malmer från övervärlden och Nether'
+  name: 'Oändlighetsstenbrott'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b64x'
+  - '&8⇨ &e⚡ &736,000 J/s'
+  type:
+  - '&7&oMaskin'
+INFINITY_REACTOR:
+  description:
+  - '&7Genererar kraft genom komprimering'
+  - '&7av &8tomrums&7- och &boändlighets&7tackor'
+  name: 'Oändlighetsreaktor'
+  stats:
+  - '&8⇨ &e⚡ &7120,000,000 J Buffert'
+  - '&8⇨ &e⚡ &7120,000 J/s'
+  type:
+  - '&7&oGenerator'
+INFINITY_SHIELD:
+  name: 'Kosmisk egid'
+  stats:
+  - '&bSjälsbunden'
+  type:
+  - '&7&oVapen'
+INFINITY_SHOVEL:
+  name: 'Bergsätaren'
+  stats:
+  - '&bSjälsbunden'
+  type:
+  - '&7&oVerktyg'
+INFINITY_SINGULARITY:
+  name: 'Oändlighetssingularitet'
+  type:
+  - '&7&oRåmaterial'
+INFINITY_STORAGE:
+  description:
+  - '&7Lagrar stora mängder av en enda föremålstyp'
+  name: 'Oändlig lagringsenhet'
+  stats:
+  - '&6Kapacitet: &e1,600,000,000 &eföremål'
+  type:
+  - '&7&oMaskin'
+INFINITY_TREE_GROWER:
+  description:
+  - '&7Odlar, skördar och återplanterar träd automatiskt'
+  name: 'Oändlig trädodlare'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b25x'
+  - '&8⇨ &e⚡ &71,800 J/s'
+  type:
+  - '&7&oMaskin'
+INFINITY_VIRTUAL_FARM:
+  description:
+  - '&7Odlar, skördar och återplanterar grödor automatiskt'
+  name: 'Oändlig virtuell odling'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b25x'
+  - '&8⇨ &e⚡ &7900 J/s'
+  type:
+  - '&7&oMaskin'
+INGOT_FORMER:
+  description:
+  - '&7Formar tackor av damm'
+  name: 'Tackformare'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMaskin'
+IRON_GOLEM_DATA_CARD:
+  name: 'Järngolemsdatakort'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+IRON_SINGULARITY:
+  name: 'Järnsingularitet'
+  type:
+  - '&7&oRåmaterial'
+LAPIS_SINGULARITY:
+  name: 'Lapissingularitet'
+  type:
+  - '&7&oRåmaterial'
+LEAD_SINGULARITY:
+  name: 'Blysingularitet'
+  type:
+  - '&7&oRåmaterial'
+MACHINE_CIRCUIT:
+  name: 'Maskinkrets'
+  type:
+  - '&7&oKomponent'
+MACHINE_CORE:
+  name: 'Maskinkärna'
+  type:
+  - '&7&oKomponent'
+MACHINE_PLATE:
+  name: 'Maskinplatta'
+  type:
+  - '&7&oKomponent'
+MAGIC_SINGULARITY:
+  name: 'Magisingularitet'
+  type:
+  - '&7&oRåmaterial'
+MAGMA_CUBE_DATA_CARD:
+  name: 'Magmakubsdatakort'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+MAGNESIUM_SINGULARITY:
+  name: 'Magnesiumsingularitet'
+  type:
+  - '&7&oRåmaterial'
+MAGNONIUM:
+  name: 'Magnonium'
+  type:
+  - '&7&oRåmaterial'
+MAGSTEEL:
+  name: 'MagSteel'
+  type:
+  - '&7&oRåmaterial'
+MAGSTEEL_PLATE:
+  name: 'MagSteel-platta'
+  type:
+  - '&7&oKomponent'
+METAL_SINGULARITY:
+  name: 'Metallsingularitet'
+  type:
+  - '&7&oRåmaterial'
+MOB_SIMULATION_CHAMBER:
+  description:
+  - '&7Använd mobdatakort för att aktivera den'
+  name: 'Mobsimuleringskammare'
+  stats:
+  - '&8⇨ &e⚡ &715,000 J Buffert'
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oMaskin'
+MYTHRIL:
+  name: 'Mythril'
+  type:
+  - '&7&oRåmaterial'
+NETHERITE_SINGULARITY:
+  name: 'Netheritsingularitet'
+  type:
+  - '&7&oRåmaterial'
+POWERED_BEDROCK:
+  description:
+  - '&7När den drivs förvandlas den till berggrund'
+  - '&7Återgår när strömmen bryts eller den förstörs'
+  name: 'Driven berggrund'
+  stats:
+  - '&8⇨ &e⚡ &710,000 J/s'
+  type:
+  - '&7&oMaskin'
+QUARRY_OSCILLATOR_DIAMOND:
+  name: 'Diamantoscillator'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i ett stenbrott för att ge det'
+  - '&7en chans på 50.0% att bryta detta material'
+QUARRY_OSCILLATOR_EMERALD:
+  name: 'Smaragdoscillator'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i ett stenbrott för att ge det'
+  - '&7en chans på 50.0% att bryta detta material'
+QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  name: 'Lapis lazuli-oscillator'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i ett stenbrott för att ge det'
+  - '&7en chans på 50.0% att bryta detta material'
+QUARRY_OSCILLATOR_QUARTZ:
+  name: 'Kvartsoscillator'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i ett stenbrott för att ge det'
+  - '&7en chans på 50.0% att bryta detta material'
+QUARRY_OSCILLATOR_REDSTONE:
+  name: 'Rödstensoscillator'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i ett stenbrott för att ge det'
+  - '&7en chans på 50.0% att bryta detta material'
+QUARTZ_SINGULARITY:
+  name: 'Kvartssingularitet'
+  type:
+  - '&7&oRåmaterial'
+REDSTONE_SINGULARITY:
+  name: 'Rödstenssingularitet'
+  type:
+  - '&7&oRåmaterial'
+REINFORCED_GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Genererar stora mängder energi'
+  - '&7från världens värme'
+  name: 'Förstärkt geotermisk generator'
+  stats:
+  - '&8⇨ &e⚡ &721,000 J Buffert'
+  - '&8⇨ &e⚡ &7210 J/s'
+  type:
+  - '&7&oGenerator'
+REINFORCED_HYDRO_GENERATOR:
+  description:
+  - '&7Genererar stora mängder energi'
+  - '&7från vattnets rörelse'
+  name: 'Förstärkt vattengenerator'
+  stats:
+  - '&8⇨ &e⚡ &74,500 J Buffert'
+  - '&8⇨ &e⚡ &745 J/s'
+  type:
+  - '&7&oGenerator'
+REINFORCED_STORAGE:
+  description:
+  - '&7Lagrar stora mängder av en enda föremålstyp'
+  name: 'Förstärkt lagringsenhet'
+  stats:
+  - '&6Kapacitet: &e102,400 &eföremål'
+  type:
+  - '&7&oMaskin'
+REINFORCED_STRAINER:
+  description:
+  - '&7Samlar material från rinnande vatten'
+  name: 'Förstärkt sil'
+  stats:
+  - '&8⇨ &b⚡ &7Hastighet: &b20.0x'
+  type:
+  - '&7&oKomponent'
+RESOURCE_SYNTHESIZER:
+  description:
+  - '&7Skapar resurser genom att kombinera 2 singulariteter'
+  name: 'Resurssyntetisator'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J per användning'
+  type:
+  - '&7&oMaskin'
+SHEEP_DATA_CARD:
+  name: 'Fårdatakort'
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+SILVER_SINGULARITY:
+  name: 'Silversingularitet'
+  type:
+  - '&7&oRåmaterial'
+SINGULARITY_CONSTRUCTOR:
+  description:
+  - '&7Förtätar stora mängder resurser'
+  name: 'Singularitetskonstruktör'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMaskin'
+SKELETON_DATA_CARD:
+  name: 'Skelettdatakort'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+SLIME_DATA_CARD:
+  name: 'Slimedatakort'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+SPIDER_DATA_CARD:
+  name: 'Spindeldatakort'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+STONEWORKS_FACTORY:
+  description:
+  - '&7Genererar kullersten och bearbetar den till olika material'
+  name: 'Stenbearbetningsfabrik'
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMaskin'
+  usage:
+  - '&eKlicka&7 på valfacken för att växla mellan smältning, krossning, packning och omvandling'
+STORAGE_FORGE:
+  description:
+  - '&7Uppgraderar lagringsenheters nivå'
+  - '&7Behåller lagrade föremål'
+  name: 'Lagringssmedja'
+  type:
+  - '&7&oMaskin'
+STRAINER_BASE:
+  description:
+  - '&7Samlar långsamt material från rinnande vatten med hjälp av en sil'
+  - '&7Måste vara vattenfylld för att fungera'
+  name: 'Silbas'
+  type:
+  - '&7&oMaskin'
+TIN_SINGULARITY:
+  name: 'Tennsingularitet'
+  type:
+  - '&7&oRåmaterial'
+TITANIUM:
+  name: 'Titan'
+  type:
+  - '&7&oRåmaterial'
+URANIUM_EXTRACTOR:
+  description:
+  - '&7Omvandlar kullersten till uran'
+  name: 'Uranutvinnare'
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMaskin'
+VEIN_MINER_RUNE:
+  description:
+  - '&7Uppgraderar ett verktyg till att bryta hela ådror av vissa material'
+  name: 'Ådbrytarruna'
+  type:
+  - '&7&oPryl'
+  usage:
+  - '&eSläpp&7 den intill ett verktyg för att uppgradera det till en ådbrytare'
+VILLAGER_DATA_CARD:
+  name: 'Bybodatakort'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+VOID_BIT:
+  description:
+  - '&7&oDen känns... tom'
+  name: 'Tomrumsbit'
+  type:
+  - '&7&oRåmaterial'
+VOID_CAPACITOR:
+  description:
+  - '&7Lagrar överskottsenergi åt ett energinätverk'
+  name: 'Tomrumskondensator'
+  stats:
+  - '&8⇨ &e⚡ 16,000,000 &7J kapacitet'
+  type:
+  - '&7&oKomponent'
+VOID_DUST:
+  description:
+  - '&7&oDet börjar ta form...'
+  name: 'Tomrumsdamm'
+  type:
+  - '&7&oRåmaterial'
+VOID_HARVESTER:
+  description:
+  - '&7Skördar långsamt &8tomrumsbitar &7ur tomma intet...'
+  name: 'Tomrumsskördare'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMaskin'
+VOID_INGOT:
+  description:
+  - '&7&oKosmos tomhet'
+  - '&7&oi din handflata'
+  name: 'Tomrumstacka'
+  type:
+  - '&7&oRåmaterial'
+VOID_PANEL:
+  description:
+  - '&7Genererar energi från mörkret'
+  name: 'Tomrumspanel'
+  stats:
+  - '&8⇨ &e⚡ &7300,000 J Buffert'
+  - '&8⇨ &e⚡ &73,000 J/s'
+  type:
+  - '&7&oGenerator'
+VOID_QUARRY:
+  description:
+  - '&7Bryter automatiskt malmer från övervärlden och Nether'
+  name: 'Tomrumsstenbrott'
+  stats:
+  - '&8⇨ &e⚡ &7Hastighet: &b6x'
+  - '&8⇨ &e⚡ &73,600 J/s'
+  type:
+  - '&7&oMaskin'
+VOID_STORAGE:
+  description:
+  - '&7Lagrar stora mängder av en enda föremålstyp'
+  name: 'Tomrumslagringsenhet'
+  stats:
+  - '&6Kapacitet: &e409,600 &eföremål'
+  type:
+  - '&7&oMaskin'
+WITCH_DATA_CARD:
+  name: 'Häxdatakort'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+WITHER_DATA_CARD:
+  name: 'Witherdatakort'
+  stats:
+  - '&8⇨ &e⚡ &74,500 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+WITHER_SKELETON_DATA_CARD:
+  name: 'Witherskelettdatakort'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'
+ZINC_SINGULARITY:
+  name: 'Zinksingularitet'
+  type:
+  - '&7&oRåmaterial'
+ZOMBIE_DATA_CARD:
+  name: 'Zombiedatakort'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Placera i en mobsimuleringskammare för att aktivera'

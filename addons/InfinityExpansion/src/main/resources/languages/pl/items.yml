@@ -1,0 +1,1060 @@
+ADAMANTITE:
+  name: 'Adamantyt'
+  type:
+  - '&7&oSurowiec'
+ADVANCED_ANVIL:
+  description:
+  - '&7Łączy zaklęcia narzędzi i sprzętu, czasem je ulepszając'
+  - '&bDziała z przedmiotami Slimefun'
+  name: 'Zaawansowane Kowadło'
+  stats:
+  - '&8⇨ &e⚡ &7100,000 J za użycie'
+  type:
+  - '&7&oMaszyna'
+ADVANCED_CHARGER:
+  description:
+  - '&7Szybko ładuje przedmioty'
+  name: 'Zaawansowana Ładowarka'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b30x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oMaszyna'
+ADVANCED_COBBLE_GEN:
+  description:
+  - '&7Automatycznie wytwarza bruk z upływem czasu'
+  name: 'Zaawansowany Generator Bruku'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMaszyna'
+ADVANCED_DISENCHANTER:
+  description:
+  - '&7Automatycznie przenosi zaklęcia z przedmiotów do ksiąg'
+  name: 'Zaawansowany Odklinacz'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oMaszyna'
+ADVANCED_ENCHANTER:
+  description:
+  - '&7Automatycznie zaklina przedmioty umieszczone w środku'
+  name: 'Zaawansowany Zaklinacz'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oMaszyna'
+ADVANCED_GEO_MINER:
+  description:
+  - '&7Szybszy geo-wiertnik'
+  name: 'Zaawansowany GeoKopacz'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMaszyna'
+ADVANCED_NETHER_STAR_REACTOR:
+  description:
+  - '&fDziała na Gwiazdach Netheru'
+  - '&bMusi być otoczony Wodą'
+  - '&bMusi być zasilany Ogniwami Chłodziwa z Netherowego Lodu'
+  - '&4Sprawia, że pobliskie istoty dostają efektu Withera'
+  name: 'Zaawansowany Reaktor Gwiazdy Netheru'
+  stats:
+  - '&8⇨ &e⚡ &790,000 J Bufora'
+  - '&8⇨ &e⚡ &71,800 J/s'
+  type:
+  - '&7&oGenerator'
+ADVANCED_PANEL:
+  description:
+  - '&7Wytwarza energię ze słońca'
+  name: 'Zaawansowany Panel Słoneczny'
+  stats:
+  - '&8⇨ &e⚡ &715,000 J Bufora'
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oGenerator'
+ADVANCED_QUARRY:
+  description:
+  - '&7Automatycznie wydobywa rudy ze świata zewnętrznego i Netheru'
+  name: 'Zaawansowany Kamieniołom'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b2x'
+  - '&8⇨ &e⚡ &7900 J/s'
+  type:
+  - '&7&oMaszyna'
+ADVANCED_SMELTERY:
+  description:
+  - '&7Szybsza wytapiarka'
+  name: 'Zaawansowana Huta'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b24x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMaszyna'
+ADVANCED_STORAGE:
+  description:
+  - '&7Przechowuje duże ilości pojedynczego typu przedmiotu'
+  name: 'Zaawansowana Jednostka Magazynu'
+  stats:
+  - '&6Pojemność: &e25,600 &eprzedmiotów'
+  type:
+  - '&7&oMaszyna'
+ADVANCED_STRAINER:
+  description:
+  - '&7Gromadzi materiały z płynącej wody'
+  name: 'Zaawansowane Sito'
+  stats:
+  - '&8⇨ &b⚡ &7Prędkość: &b4.0x'
+  type:
+  - '&7&oKomponent'
+ADVANCED_TREE_GROWER:
+  description:
+  - '&7Automatycznie uprawia, ścina i sadzi ponownie drzewa'
+  name: 'Zaawansowany Hodowca Drzew'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oMaszyna'
+ADVANCED_VIRTUAL_FARM:
+  description:
+  - '&7Automatycznie uprawia, zbiera i sadzi ponownie rośliny'
+  name: 'Zaawansowana Wirtualna Farma'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b5x'
+  - '&8⇨ &e⚡ &790 J/s'
+  type:
+  - '&7&oMaszyna'
+ALUMINUM_SINGULARITY:
+  name: 'Osobliwość Aluminium'
+  type:
+  - '&7&oSurowiec'
+BASIC_COBBLE_GEN:
+  description:
+  - '&7Automatycznie wytwarza bruk z upływem czasu'
+  name: 'Podstawowy Generator Bruku'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b1x'
+  - '&8⇨ &e⚡ &724 J/s'
+  type:
+  - '&7&oMaszyna'
+BASIC_OBSIDIAN_GEN:
+  description:
+  - '&7Automatycznie wytwarza obsydian z upływem czasu'
+  name: 'Generator Obsydianu'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMaszyna'
+BASIC_PANEL:
+  description:
+  - '&7Wytwarza energię ze słońca'
+  name: 'Podstawowy Panel Słoneczny'
+  stats:
+  - '&8⇨ &e⚡ &7900 J Bufora'
+  - '&8⇨ &e⚡ &79 J/s'
+  type:
+  - '&7&oGenerator'
+BASIC_QUARRY:
+  description:
+  - '&7Automatycznie wydobywa rudy ze świata zewnętrznego'
+  name: 'Podstawowy Kamieniołom'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b1x'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMaszyna'
+BASIC_STORAGE:
+  description:
+  - '&7Przechowuje duże ilości pojedynczego typu przedmiotu'
+  name: 'Podstawowa Jednostka Magazynu'
+  stats:
+  - '&6Pojemność: &e6,400 &eprzedmiotów'
+  type:
+  - '&7&oMaszyna'
+BASIC_STRAINER:
+  description:
+  - '&7Gromadzi materiały z płynącej wody'
+  name: 'Podstawowe Sito'
+  stats:
+  - '&8⇨ &b⚡ &7Prędkość: &b1.0x'
+  type:
+  - '&7&oKomponent'
+BASIC_TREE_GROWER:
+  description:
+  - '&7Automatycznie uprawia, ścina i sadzi ponownie drzewa'
+  name: 'Podstawowy Hodowca Drzew'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b1x'
+  - '&8⇨ &e⚡ &736 J/s'
+  type:
+  - '&7&oMaszyna'
+BASIC_VIRTUAL_FARM:
+  description:
+  - '&7Automatycznie uprawia, zbiera i sadzi ponownie rośliny'
+  name: 'Podstawowa Wirtualna Farma'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b1x'
+  - '&8⇨ &e⚡ &718 J/s'
+  type:
+  - '&7&oMaszyna'
+BEE_DATA_CARD:
+  name: 'Karta danych Pszczoły'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w komorze symulacji mobów, aby aktywować'
+BLAZE_DATA_CARD:
+  name: 'Karta danych Płomyka'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w komorze symulacji mobów, aby aktywować'
+CELESTIAL_PANEL:
+  description:
+  - '&7Wytwarza energię ze słońca'
+  name: 'Panel Niebiański'
+  stats:
+  - '&8⇨ &e⚡ &775,000 J Bufora'
+  - '&8⇨ &e⚡ &7750 J/s'
+  type:
+  - '&7&oGenerator'
+CHICKEN_DATA_CARD:
+  name: 'Karta danych Kurczaka'
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w komorze symulacji mobów, aby aktywować'
+COAL_SINGULARITY:
+  name: 'Osobliwość Węgla'
+  type:
+  - '&7&oSurowiec'
+COBBLE_PRESS:
+  description:
+  - '&7Prasuje bruk wydajniej'
+  name: 'Prasa do Bruku'
+  stats:
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMaszyna'
+COMPRESSED_COBBLESTONE_1:
+  name: 'Pojedynczo Sprasowany Bruk'
+  stats:
+  - '&89 połączonych bloków bruku'
+  type:
+  - '&7&oSurowiec'
+COMPRESSED_COBBLESTONE_2:
+  name: 'Podwójnie Sprasowany Bruk'
+  stats:
+  - '&881 połączonych bloków bruku'
+  type:
+  - '&7&oSurowiec'
+COMPRESSED_COBBLESTONE_3:
+  name: 'Potrójnie Sprasowany Bruk'
+  stats:
+  - '&8729 połączonych bloków bruku'
+  type:
+  - '&7&oSurowiec'
+COMPRESSED_COBBLESTONE_4:
+  name: 'Poczwórnie Sprasowany Bruk'
+  stats:
+  - '&86,561 połączonych bloków bruku'
+  type:
+  - '&7&oSurowiec'
+COMPRESSED_COBBLESTONE_5:
+  name: 'Pięciokrotnie Sprasowany Bruk'
+  stats:
+  - '&859,049 połączonych bloków bruku'
+  type:
+  - '&7&oSurowiec'
+COPPER_SINGULARITY:
+  name: 'Osobliwość Miedzi'
+  type:
+  - '&7&oSurowiec'
+COW_DATA_CARD:
+  name: 'Karta danych Krowy'
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w komorze symulacji mobów, aby aktywować'
+CREEPER_DATA_CARD:
+  name: 'Karta danych Creepera'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w komorze symulacji mobów, aby aktywować'
+DATA_INFUSER:
+  description:
+  - '&7Nasyca puste karty danych przedmiotami mobów'
+  name: 'Infuzor Danych Moba'
+  stats:
+  - '&8⇨ &e⚡ &720,000 J za użycie'
+  type:
+  - '&7&oMaszyna'
+DECOMPRESSOR:
+  description:
+  - '&7Rozkłada bloki na ich podstawowy materiał'
+  name: 'Dekompresor'
+  stats:
+  - '&8⇨ &e⚡ &760 J/s'
+  type:
+  - '&7&oMaszyna'
+DIAMOND_SINGULARITY:
+  name: 'Osobliwość Diamentu'
+  type:
+  - '&7&oSurowiec'
+DUST_EXTRACTOR:
+  description:
+  - '&7Przekształca bruk w pyły'
+  name: 'Ekstraktor Pyłu'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMaszyna'
+EARTH_SINGULARITY:
+  name: 'Osobliwość Ziemi'
+  type:
+  - '&7&oSurowiec'
+EMERALD_SINGULARITY:
+  name: 'Osobliwość Szmaragdu'
+  type:
+  - '&7&oSurowiec'
+EMPTY_DATA_CARD:
+  name: 'Pusta Karta Danych'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Nasyć przedmiotami moba, aby ją zapełnić'
+ENDERMEN_DATA_CARD:
+  name: 'Karta danych Endermanów'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w komorze symulacji mobów, aby aktywować'
+ENDER_DRAGON_DATA_CARD:
+  name: 'Karta danych Smoka Kresu'
+  stats:
+  - '&8⇨ &e⚡ &79,000 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w komorze symulacji mobów, aby aktywować'
+ENDER_FLAME:
+  name: 'Płomień Enderu'
+  type:
+  - '&7&oKomponent'
+END_ESSENCE:
+  description:
+  - '&8&oZ głębin Kresu...'
+  name: 'Esencja Endu'
+  type:
+  - '&7&oSurowiec'
+EXTREME_FREEZER:
+  description:
+  - '&7Przekształca lód w chłodziwo'
+  name: 'Ekstremalna Zamrażarka'
+  stats:
+  - '&8⇨ &e⚡ &790 J/s'
+  type:
+  - '&7&oMaszyna'
+FORTUNE_SINGULARITY:
+  name: 'Osobliwość Fortuny'
+  type:
+  - '&7&oSurowiec'
+GEAR_TRANSFORMER:
+  description:
+  - '&7Zmienia materiał narzędzi i sprzętu vanilla'
+  name: 'Transformator Sprzętu'
+  stats:
+  - '&8⇨ &e⚡ &712,000 J za użycie'
+  type:
+  - '&7&oMaszyna'
+GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Wytwarza energię z ciepła świata'
+  name: 'Generator Geotermalny'
+  stats:
+  - '&8⇨ &e⚡ &73,500 J Bufora'
+  - '&8⇨ &e⚡ &735 J/s'
+  type:
+  - '&7&oGenerator'
+GEO_QUARRY:
+  description:
+  - '&7Powoli pozyskuje surowce geologiczne z pustki, zużywając moc'
+  name: 'Geo Kamieniołom'
+  stats:
+  - '&8⇨ &e⚡ &7450 J/s'
+  type:
+  - '&7&oMaszyna'
+GOLD_SINGULARITY:
+  name: 'Osobliwość Złota'
+  type:
+  - '&7&oSurowiec'
+GUARDIAN_DATA_CARD:
+  name: 'Karta danych Strażnika'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w komorze symulacji mobów, aby aktywować'
+HYDRO_GENERATOR:
+  description:
+  - '&7Wytwarza energię z ruchu wody'
+  name: 'Generator Hydro'
+  stats:
+  - '&8⇨ &e⚡ &7500 J Bufora'
+  - '&8⇨ &e⚡ &75 J/s'
+  type:
+  - '&7&oGenerator'
+INFINITE_INGOT:
+  description:
+  - '&7&oFuria kosmosu'
+  - '&7&ona twojej dłoni'
+  name: 'Sztabka Nieskończoności'
+  type:
+  - '&7&oSurowiec'
+INFINITE_MACHINE_CIRCUIT:
+  name: 'Nieskończony Obwód Maszynowy'
+  type:
+  - '&7&oKomponent'
+INFINITE_MACHINE_CORE:
+  name: 'Nieskończony Rdzeń Maszynowy'
+  type:
+  - '&7&oKomponent'
+INFINITE_PANEL:
+  description:
+  - '&7Wytwarza energię z kosmosu'
+  name: 'Panel Nieskończoności'
+  stats:
+  - '&8⇨ &e⚡ &76,000,000 J Bufora'
+  - '&8⇨ &e⚡ &760,000 J/s'
+  type:
+  - '&7&oGenerator'
+INFINITE_VOID_HARVESTER:
+  description:
+  - '&7Pozyskuje &8Okruchy Pustki &7z niczego...'
+  name: 'Nieskończony Żniwiarz Pustki'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b64x'
+  - '&8⇨ &e⚡ &712,000 J/s'
+  type:
+  - '&7&oMaszyna'
+INFINITY_AXE:
+  name: 'Zguba Natury'
+  stats:
+  - '&bZwiązany z duszą'
+  type:
+  - '&7&oNarzędzie'
+INFINITY_BLADE:
+  name: 'Ostrze Kosmosu'
+  stats:
+  - '&bZwiązany z duszą'
+  type:
+  - '&7&oBroń'
+INFINITY_BOOTS:
+  name: 'Buty Nieskończoności'
+  stats:
+  - '&7Szybkość III'
+  - '&7Łaska Delfina I'
+  - '&bZwiązany z duszą'
+  type:
+  - '&7&oZbroja'
+INFINITY_BOW:
+  description:
+  - '&7Wystrzeliwuje wybuchowe strzały, które spowalniają i dezorientują wrogów przy trafieniu'
+  name: 'Przebijacz Nieba'
+  stats:
+  - '&bZwiązany z duszą'
+  type:
+  - '&7&oBroń'
+INFINITY_CAPACITOR:
+  description:
+  - '&c&oNie używaj więcej niż'
+  - '&c&o1 na sieć energetyczną'
+  name: 'Nieskończony Kondensator'
+  stats:
+  - '&8⇨ &e⚡ 2,000,000,000 &7J pojemności'
+  type:
+  - '&7&oKomponent'
+INFINITY_CHARGER:
+  description:
+  - '&7Natychmiast ładuje przedmioty'
+  name: 'Ładowarka Nieskończoności'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b6000x'
+  - '&8⇨ &e⚡ &760,000 J za użycie'
+  type:
+  - '&7&oMaszyna'
+INFINITY_CHESTPLATE:
+  name: 'Napierśnik Nieskończoności'
+  stats:
+  - '&7Siła II'
+  - '&7Odporność I'
+  - '&7Odporność na Ogień I'
+  - '&7Odporność na użądlenia pszczół'
+  - '&bZwiązany z duszą'
+  type:
+  - '&7&oZbroja'
+INFINITY_COBBLE_GEN:
+  description:
+  - '&7Automatycznie wytwarza bruk z upływem czasu'
+  name: 'Generator Bruku Nieskończoności'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b64x'
+  - '&8⇨ &e⚡ &7800 J/s'
+  type:
+  - '&7&oMaszyna'
+INFINITY_CONSTRUCTOR:
+  description:
+  - '&7Szybko zagęszcza duże ilości surowców'
+  name: 'Konstruktor Nieskończoności'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b64x'
+  - '&8⇨ &e⚡ &71,200 J/s'
+  type:
+  - '&7&oMaszyna'
+INFINITY_CROWN:
+  name: 'Korona Nieskończoności'
+  stats:
+  - '&7Widzenie w Ciemności I'
+  - '&7Moc Przewodnika I'
+  - '&7Odporność na rozbicie na elytrze'
+  - '&bZwiązany z duszą'
+  type:
+  - '&7&oZbroja'
+INFINITY_DISENCHANTER:
+  description:
+  - '&7Automatycznie przenosi zaklęcia z przedmiotów do ksiąg'
+  name: 'Odklinacz Nieskończoności'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b90x'
+  - '&8⇨ &e⚡ &712,000 J za użycie'
+  type:
+  - '&7&oMaszyna'
+INFINITY_DUST_EXTRACTOR:
+  description:
+  - '&7Przekształca bruk w pyły'
+  name: 'Ekstraktor Pyłu Nieskończoności'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
+  type:
+  - '&7&oMaszyna'
+INFINITY_ENCHANTER:
+  description:
+  - '&7Automatycznie zaklina przedmioty umieszczone w środku'
+  name: 'Zaklinacz Nieskończoności'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b75x'
+  - '&8⇨ &e⚡ &712,000 J za użycie'
+  type:
+  - '&7&oMaszyna'
+INFINITY_FORGE:
+  description:
+  - '&7Służy do wytwarzania nieskończonych przedmiotów'
+  name: 'Stół Roboczy Nieskończoności'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J za przedmiot'
+  type:
+  - '&7&oMaszyna'
+INFINITY_INGOT_FORMER:
+  description:
+  - '&7Formuje sztabki z pyłów'
+  name: 'Formownica Sztabek Nieskończoności'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
+  type:
+  - '&7&oMaszyna'
+INFINITY_LEGGINGS:
+  name: 'Nagolenniki Nieskończoności'
+  stats:
+  - '&7Pośpiech III'
+  - '&7Regeneracja I'
+  - '&7Nasycenie I'
+  - '&7Odporność na promieniowanie'
+  - '&bZwiązany z duszą'
+  type:
+  - '&7&oZbroja'
+INFINITY_MATRIX:
+  description:
+  - '&6Daje nieograniczony lot'
+  name: 'Macierz Nieskończoności'
+  stats:
+  - '&bZwiązany z duszą'
+  type:
+  - '&7&oGadżet'
+  usage:
+  - '&7Kliknij prawym, aby włączyć/wyłączyć i przejąć'
+  - '&7Skradaj się i kliknij prawym, aby zrzec się własności'
+INFINITY_PICKAXE:
+  name: 'Niszczyciel Światów'
+  stats:
+  - '&bZwiązany z duszą'
+  type:
+  - '&7&oNarzędzie'
+INFINITY_QUARRY:
+  description:
+  - '&7Automatycznie wydobywa rudy ze świata zewnętrznego i Netheru'
+  name: 'Kamieniołom Nieskończoności'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b64x'
+  - '&8⇨ &e⚡ &736,000 J/s'
+  type:
+  - '&7&oMaszyna'
+INFINITY_REACTOR:
+  description:
+  - '&7Wytwarza moc przez sprasowanie'
+  - '&7sztabek &8Pustki &7i &bNieskończoności&7'
+  name: 'Reaktor Nieskończoności'
+  stats:
+  - '&8⇨ &e⚡ &7120,000,000 J Bufora'
+  - '&8⇨ &e⚡ &7120,000 J/s'
+  type:
+  - '&7&oGenerator'
+INFINITY_SHIELD:
+  name: 'Kosmiczna Egida'
+  stats:
+  - '&bZwiązany z duszą'
+  type:
+  - '&7&oBroń'
+INFINITY_SHOVEL:
+  name: 'Pożeracz Gór'
+  stats:
+  - '&bZwiązany z duszą'
+  type:
+  - '&7&oNarzędzie'
+INFINITY_SINGULARITY:
+  name: 'Osobliwość Nieskończoności'
+  type:
+  - '&7&oSurowiec'
+INFINITY_STORAGE:
+  description:
+  - '&7Przechowuje duże ilości pojedynczego typu przedmiotu'
+  name: 'Jednostka Magazynu Nieskończoności'
+  stats:
+  - '&6Pojemność: &e1,600,000,000 &eprzedmiotów'
+  type:
+  - '&7&oMaszyna'
+INFINITY_TREE_GROWER:
+  description:
+  - '&7Automatycznie uprawia, ścina i sadzi ponownie drzewa'
+  name: 'Hodowca Drzew Nieskończoności'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b25x'
+  - '&8⇨ &e⚡ &71,800 J/s'
+  type:
+  - '&7&oMaszyna'
+INFINITY_VIRTUAL_FARM:
+  description:
+  - '&7Automatycznie uprawia, zbiera i sadzi ponownie rośliny'
+  name: 'Wirtualna Farma Nieskończoności'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b25x'
+  - '&8⇨ &e⚡ &7900 J/s'
+  type:
+  - '&7&oMaszyna'
+INGOT_FORMER:
+  description:
+  - '&7Formuje sztabki z pyłów'
+  name: 'Formownica Sztabek'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMaszyna'
+IRON_GOLEM_DATA_CARD:
+  name: 'Karta danych Żelaznego Golema'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w komorze symulacji mobów, aby aktywować'
+IRON_SINGULARITY:
+  name: 'Osobliwość Żelaza'
+  type:
+  - '&7&oSurowiec'
+LAPIS_SINGULARITY:
+  name: 'Osobliwość Lazurytu'
+  type:
+  - '&7&oSurowiec'
+LEAD_SINGULARITY:
+  name: 'Osobliwość Ołowiu'
+  type:
+  - '&7&oSurowiec'
+MACHINE_CIRCUIT:
+  name: 'Obwód Maszynowy'
+  type:
+  - '&7&oKomponent'
+MACHINE_CORE:
+  name: 'Rdzeń Maszynowy'
+  type:
+  - '&7&oKomponent'
+MACHINE_PLATE:
+  name: 'Płyta Maszynowa'
+  type:
+  - '&7&oKomponent'
+MAGIC_SINGULARITY:
+  name: 'Osobliwość Magii'
+  type:
+  - '&7&oSurowiec'
+MAGMA_CUBE_DATA_CARD:
+  name: 'Karta danych Kostki Magmy'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w komorze symulacji mobów, aby aktywować'
+MAGNESIUM_SINGULARITY:
+  name: 'Osobliwość Magnezu'
+  type:
+  - '&7&oSurowiec'
+MAGNONIUM:
+  name: 'Magnonium'
+  type:
+  - '&7&oSurowiec'
+MAGSTEEL:
+  name: 'MagStal'
+  type:
+  - '&7&oSurowiec'
+MAGSTEEL_PLATE:
+  name: 'Płyta z MagStali'
+  type:
+  - '&7&oKomponent'
+METAL_SINGULARITY:
+  name: 'Osobliwość Metalu'
+  type:
+  - '&7&oSurowiec'
+MOB_SIMULATION_CHAMBER:
+  description:
+  - '&7Użyj kart danych mobów, aby aktywować'
+  name: 'Komora Symulacji Moba'
+  stats:
+  - '&8⇨ &e⚡ &715,000 J Bufora'
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oMaszyna'
+MYTHRIL:
+  name: 'Mithril'
+  type:
+  - '&7&oSurowiec'
+NETHERITE_SINGULARITY:
+  name: 'Osobliwość Netherytu'
+  type:
+  - '&7&oSurowiec'
+POWERED_BEDROCK:
+  description:
+  - '&7Pod zasilaniem zmienia się w skałę macierzystą'
+  - '&7Wróci do poprzedniej postaci po odcięciu zasilania lub rozbiciu'
+  name: 'Zasilany Bedrock'
+  stats:
+  - '&8⇨ &e⚡ &710,000 J/s'
+  type:
+  - '&7&oMaszyna'
+QUARRY_OSCILLATOR_DIAMOND:
+  name: 'Oscylator diamentowy'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w kamieniołomie, aby dać mu'
+  - '&750.0% szansy na wydobycie tego materiału'
+QUARRY_OSCILLATOR_EMERALD:
+  name: 'Oscylator szmaragdowy'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w kamieniołomie, aby dać mu'
+  - '&750.0% szansy na wydobycie tego materiału'
+QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  name: 'Oscylator lazurytu'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w kamieniołomie, aby dać mu'
+  - '&750.0% szansy na wydobycie tego materiału'
+QUARRY_OSCILLATOR_QUARTZ:
+  name: 'Oscylator kwarcowy'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w kamieniołomie, aby dać mu'
+  - '&750.0% szansy na wydobycie tego materiału'
+QUARRY_OSCILLATOR_REDSTONE:
+  name: 'Oscylator czerwonego kamienia'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w kamieniołomie, aby dać mu'
+  - '&750.0% szansy na wydobycie tego materiału'
+QUARTZ_SINGULARITY:
+  name: 'Osobliwość Kwarcu'
+  type:
+  - '&7&oSurowiec'
+REDSTONE_SINGULARITY:
+  name: 'Osobliwość Czerwonego Kamienia'
+  type:
+  - '&7&oSurowiec'
+REINFORCED_GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Wytwarza duże ilości energii'
+  - '&7z ciepła świata'
+  name: 'Wzmocniony Generator Geotermalny'
+  stats:
+  - '&8⇨ &e⚡ &721,000 J Bufora'
+  - '&8⇨ &e⚡ &7210 J/s'
+  type:
+  - '&7&oGenerator'
+REINFORCED_HYDRO_GENERATOR:
+  description:
+  - '&7Wytwarza duże ilości energii'
+  - '&7z ruchu wody'
+  name: 'Wzmocniony Generator Hydro'
+  stats:
+  - '&8⇨ &e⚡ &74,500 J Bufora'
+  - '&8⇨ &e⚡ &745 J/s'
+  type:
+  - '&7&oGenerator'
+REINFORCED_STORAGE:
+  description:
+  - '&7Przechowuje duże ilości pojedynczego typu przedmiotu'
+  name: 'Wzmocniona Jednostka Magazynu'
+  stats:
+  - '&6Pojemność: &e102,400 &eprzedmiotów'
+  type:
+  - '&7&oMaszyna'
+REINFORCED_STRAINER:
+  description:
+  - '&7Gromadzi materiały z płynącej wody'
+  name: 'Wzmocnione Sito'
+  stats:
+  - '&8⇨ &b⚡ &7Prędkość: &b20.0x'
+  type:
+  - '&7&oKomponent'
+RESOURCE_SYNTHESIZER:
+  description:
+  - '&7Tworzy surowce, łącząc 2 Osobliwości'
+  name: 'Syntezator Surowców'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J za użycie'
+  type:
+  - '&7&oMaszyna'
+SHEEP_DATA_CARD:
+  name: 'Karta danych Owcy'
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w komorze symulacji mobów, aby aktywować'
+SILVER_SINGULARITY:
+  name: 'Osobliwość Srebra'
+  type:
+  - '&7&oSurowiec'
+SINGULARITY_CONSTRUCTOR:
+  description:
+  - '&7Zagęszcza duże ilości surowców'
+  name: 'Konstruktor Osobliwości'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMaszyna'
+SKELETON_DATA_CARD:
+  name: 'Karta danych Szkieletu'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w komorze symulacji mobów, aby aktywować'
+SLIME_DATA_CARD:
+  name: 'Karta danych Szlamu'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w komorze symulacji mobów, aby aktywować'
+SPIDER_DATA_CARD:
+  name: 'Karta danych Pająka'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w komorze symulacji mobów, aby aktywować'
+STONEWORKS_FACTORY:
+  description:
+  - '&7Wytwarza bruk i przerabia go na różne materiały'
+  name: 'Fabryka Kamienia'
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMaszyna'
+  usage:
+  - '&eKliknij&7 sloty wyboru, aby przełączać między Wytapianiem, Kruszeniem, Prasowaniem i Przekształcaniem'
+STORAGE_FORGE:
+  description:
+  - '&7Podnosi poziom Jednostek magazynowych'
+  - '&7Zachowuje przechowywane przedmioty'
+  name: 'Kuźnia Magazynu'
+  type:
+  - '&7&oMaszyna'
+STRAINER_BASE:
+  description:
+  - '&7Powoli gromadzi materiały z płynącej wody za pomocą Sita'
+  - '&7Musi być zalany wodą, aby działać'
+  name: 'Podstawa Sita'
+  type:
+  - '&7&oMaszyna'
+TIN_SINGULARITY:
+  name: 'Osobliwość Cyny'
+  type:
+  - '&7&oSurowiec'
+TITANIUM:
+  name: 'Tytan'
+  type:
+  - '&7&oSurowiec'
+URANIUM_EXTRACTOR:
+  description:
+  - '&7Przekształca bruk w uran'
+  name: 'Ekstraktor Uranu'
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMaszyna'
+VEIN_MINER_RUNE:
+  description:
+  - '&7Ulepsza narzędzie, by wydobywało całe złoża niektórych materiałów'
+  name: 'Runa Górnika Żył'
+  type:
+  - '&7&oGadżet'
+  usage:
+  - '&eWyrzuć&7 obok narzędzia, aby ulepszyć je w Wydobywacz Złóż'
+VILLAGER_DATA_CARD:
+  name: 'Karta danych Wieśniaka'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w komorze symulacji mobów, aby aktywować'
+VOID_BIT:
+  description:
+  - '&7&oCzuć w tym... pustkę'
+  name: 'Okruch Pustki'
+  type:
+  - '&7&oSurowiec'
+VOID_CAPACITOR:
+  description:
+  - '&7Magazynuje nadmiar energii dla sieci energetycznej'
+  name: 'Kondensator Pustki'
+  stats:
+  - '&8⇨ &e⚡ 16,000,000 &7J pojemności'
+  type:
+  - '&7&oKomponent'
+VOID_DUST:
+  description:
+  - '&7&oZaczyna przybierać kształt...'
+  name: 'Pył Pustki'
+  type:
+  - '&7&oSurowiec'
+VOID_HARVESTER:
+  description:
+  - '&7Powoli pozyskuje &8Okruchy Pustki &7z niczego...'
+  name: 'Żniwiarz Pustki'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMaszyna'
+VOID_INGOT:
+  description:
+  - '&7&oPustka kosmosu'
+  - '&7&ona twojej dłoni'
+  name: 'Sztabka Pustki'
+  type:
+  - '&7&oSurowiec'
+VOID_PANEL:
+  description:
+  - '&7Wytwarza energię z ciemności'
+  name: 'Panel Pustki'
+  stats:
+  - '&8⇨ &e⚡ &7300,000 J Bufora'
+  - '&8⇨ &e⚡ &73,000 J/s'
+  type:
+  - '&7&oGenerator'
+VOID_QUARRY:
+  description:
+  - '&7Automatycznie wydobywa rudy ze świata zewnętrznego i Netheru'
+  name: 'Kamieniołom Pustki'
+  stats:
+  - '&8⇨ &e⚡ &7Prędkość: &b6x'
+  - '&8⇨ &e⚡ &73,600 J/s'
+  type:
+  - '&7&oMaszyna'
+VOID_STORAGE:
+  description:
+  - '&7Przechowuje duże ilości pojedynczego typu przedmiotu'
+  name: 'Jednostka Magazynu Pustki'
+  stats:
+  - '&6Pojemność: &e409,600 &eprzedmiotów'
+  type:
+  - '&7&oMaszyna'
+WITCH_DATA_CARD:
+  name: 'Karta danych Wiedźmy'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w komorze symulacji mobów, aby aktywować'
+WITHER_DATA_CARD:
+  name: 'Karta danych Withera'
+  stats:
+  - '&8⇨ &e⚡ &74,500 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w komorze symulacji mobów, aby aktywować'
+WITHER_SKELETON_DATA_CARD:
+  name: 'Karta danych Szkieletu Withera'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w komorze symulacji mobów, aby aktywować'
+ZINC_SINGULARITY:
+  name: 'Osobliwość Cynku'
+  type:
+  - '&7&oSurowiec'
+ZOMBIE_DATA_CARD:
+  name: 'Karta danych Zombie'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oKomponent'
+  usage:
+  - '&7Umieść w komorze symulacji mobów, aby aktywować'

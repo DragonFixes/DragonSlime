@@ -1,0 +1,1060 @@
+ADAMANTITE:
+  name: '精金'
+  type:
+  - '&7&o资源'
+ADVANCED_ANVIL:
+  description:
+  - '&7合并工具与装备的附魔，有时还会升级它们'
+  - '&b可用于 Slimefun 物品'
+  name: '高级铁砧'
+  stats:
+  - '&8⇨ &e⚡ &7100,000 J 每次使用'
+  type:
+  - '&7&o机器'
+ADVANCED_CHARGER:
+  description:
+  - '&7快速为物品充电'
+  name: '高级充电器'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b30x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&o机器'
+ADVANCED_COBBLE_GEN:
+  description:
+  - '&7随时间自动产生圆石'
+  name: '高级圆石发电机'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&o机器'
+ADVANCED_DISENCHANTER:
+  description:
+  - '&7自动将物品上的附魔移除到书中'
+  name: '高级祛魔器'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&o机器'
+ADVANCED_ENCHANTER:
+  description:
+  - '&7自动为放入其中的物品附魔'
+  name: '高级附魔器'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&o机器'
+ADVANCED_GEO_MINER:
+  description:
+  - '&7更快的地质采矿机'
+  name: '高级地质采矿机'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&o机器'
+ADVANCED_NETHER_STAR_REACTOR:
+  description:
+  - '&f以下界之星为燃料运行'
+  - '&b必须被水包围'
+  - '&b必须供应下界冰冷却单元'
+  - '&4会使附近的实体受到凋零'
+  name: '高级下界之星反应堆'
+  stats:
+  - '&8⇨ &e⚡ &790,000 J 缓冲'
+  - '&8⇨ &e⚡ &71,800 J/秒'
+  type:
+  - '&7&o发电机'
+ADVANCED_PANEL:
+  description:
+  - '&7从太阳中产生能量'
+  name: '高级太阳能板'
+  stats:
+  - '&8⇨ &e⚡ &715,000 J 缓冲'
+  - '&8⇨ &e⚡ &7150 J/秒'
+  type:
+  - '&7&o发电机'
+ADVANCED_QUARRY:
+  description:
+  - '&7自动开采主世界与下界矿石'
+  name: '高级采石场'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b2x'
+  - '&8⇨ &e⚡ &7900 J/s'
+  type:
+  - '&7&o机器'
+ADVANCED_SMELTERY:
+  description:
+  - '&7更快的熔炼厂'
+  name: '高级冶炼炉'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b24x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&o机器'
+ADVANCED_STORAGE:
+  description:
+  - '&7大量存储单个物品类型'
+  name: '高级存储单元'
+  stats:
+  - '&6容量：&e25,600 &e物品'
+  type:
+  - '&7&o机器'
+ADVANCED_STRAINER:
+  description:
+  - '&7从流水中收集材料'
+  name: '高级过滤器'
+  stats:
+  - '&8⇨ &b⚡ &7速度: &b4.0x'
+  type:
+  - '&7&o组件'
+ADVANCED_TREE_GROWER:
+  description:
+  - '&7自动种植、收获并重新种植树木'
+  name: '高级树木培育机'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&o机器'
+ADVANCED_VIRTUAL_FARM:
+  description:
+  - '&7自动种植、收获并重新种植作物'
+  name: '高级虚拟农场'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b5x'
+  - '&8⇨ &e⚡ &790 J/s'
+  type:
+  - '&7&o机器'
+ALUMINUM_SINGULARITY:
+  name: '铝奇点'
+  type:
+  - '&7&o资源'
+BASIC_COBBLE_GEN:
+  description:
+  - '&7随时间自动产生圆石'
+  name: '基础圆石发电机'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b1x'
+  - '&8⇨ &e⚡ &724 J/s'
+  type:
+  - '&7&o机器'
+BASIC_OBSIDIAN_GEN:
+  description:
+  - '&7随时间自动产生黑曜石'
+  name: '黑曜石发电机'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&o机器'
+BASIC_PANEL:
+  description:
+  - '&7从太阳中产生能量'
+  name: '基础太阳能板'
+  stats:
+  - '&8⇨ &e⚡ &7900 J 缓冲'
+  - '&8⇨ &e⚡ &79 J/秒'
+  type:
+  - '&7&o发电机'
+BASIC_QUARRY:
+  description:
+  - '&7自动开采主世界矿石'
+  name: '基础采石场'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b1x'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&o机器'
+BASIC_STORAGE:
+  description:
+  - '&7大量存储单个物品类型'
+  name: '基础存储单元'
+  stats:
+  - '&6容量：&e6,400 &e物品'
+  type:
+  - '&7&o机器'
+BASIC_STRAINER:
+  description:
+  - '&7从流水中收集材料'
+  name: '基础过滤器'
+  stats:
+  - '&8⇨ &b⚡ &7速度: &b1.0x'
+  type:
+  - '&7&o组件'
+BASIC_TREE_GROWER:
+  description:
+  - '&7自动种植、收获并重新种植树木'
+  name: '基础树木培育机'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b1x'
+  - '&8⇨ &e⚡ &736 J/s'
+  type:
+  - '&7&o机器'
+BASIC_VIRTUAL_FARM:
+  description:
+  - '&7自动种植、收获并重新种植作物'
+  name: '基础虚拟农场'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b1x'
+  - '&8⇨ &e⚡ &718 J/s'
+  type:
+  - '&7&o机器'
+BEE_DATA_CARD:
+  name: '蜜蜂数据卡'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/秒'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入生物模拟室中以激活'
+BLAZE_DATA_CARD:
+  name: '烈焰人数据卡'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/秒'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入生物模拟室中以激活'
+CELESTIAL_PANEL:
+  description:
+  - '&7从太阳中产生能量'
+  name: '天界面板'
+  stats:
+  - '&8⇨ &e⚡ &775,000 J 缓冲'
+  - '&8⇨ &e⚡ &7750 J/秒'
+  type:
+  - '&7&o发电机'
+CHICKEN_DATA_CARD:
+  name: '鸡数据卡'
+  stats:
+  - '&8⇨ &e⚡ &775 J/秒'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入生物模拟室中以激活'
+COAL_SINGULARITY:
+  name: '煤炭奇点'
+  type:
+  - '&7&o资源'
+COBBLE_PRESS:
+  description:
+  - '&7更高效地压缩圆石'
+  name: '圆石压机'
+  stats:
+  - '&8⇨ &e⚡ &7120 J/秒'
+  type:
+  - '&7&o机器'
+COMPRESSED_COBBLESTONE_1:
+  name: '单重压缩圆石'
+  stats:
+  - '&89 个圆石合并而成'
+  type:
+  - '&7&o资源'
+COMPRESSED_COBBLESTONE_2:
+  name: '双重压缩圆石'
+  stats:
+  - '&881 个圆石合并而成'
+  type:
+  - '&7&o资源'
+COMPRESSED_COBBLESTONE_3:
+  name: '三重压缩圆石'
+  stats:
+  - '&8729 个圆石合并而成'
+  type:
+  - '&7&o资源'
+COMPRESSED_COBBLESTONE_4:
+  name: '四重压缩圆石'
+  stats:
+  - '&86,561 个圆石合并而成'
+  type:
+  - '&7&o资源'
+COMPRESSED_COBBLESTONE_5:
+  name: '五重压缩圆石'
+  stats:
+  - '&859,049 个圆石合并而成'
+  type:
+  - '&7&o资源'
+COPPER_SINGULARITY:
+  name: '铜奇点'
+  type:
+  - '&7&o资源'
+COW_DATA_CARD:
+  name: '牛数据卡'
+  stats:
+  - '&8⇨ &e⚡ &775 J/秒'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入生物模拟室中以激活'
+CREEPER_DATA_CARD:
+  name: '苦力怕数据卡'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/秒'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入生物模拟室中以激活'
+DATA_INFUSER:
+  description:
+  - '&7用生物物品注入空白数据卡'
+  name: '生物数据注入器'
+  stats:
+  - '&8⇨ &e⚡ &720,000 J 每次使用'
+  type:
+  - '&7&o机器'
+DECOMPRESSOR:
+  description:
+  - '&7将方块还原为其基础材料'
+  name: '解压机'
+  stats:
+  - '&8⇨ &e⚡ &760 J/秒'
+  type:
+  - '&7&o机器'
+DIAMOND_SINGULARITY:
+  name: '钻石奇点'
+  type:
+  - '&7&o资源'
+DUST_EXTRACTOR:
+  description:
+  - '&7将圆石转换为粉末'
+  name: '粉尘提取机'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&o机器'
+EARTH_SINGULARITY:
+  name: '大地奇点'
+  type:
+  - '&7&o资源'
+EMERALD_SINGULARITY:
+  name: '绿宝石奇点'
+  type:
+  - '&7&o资源'
+EMPTY_DATA_CARD:
+  name: '空白数据卡'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7注入某种生物的物品即可填充'
+ENDERMEN_DATA_CARD:
+  name: '末影人数据卡'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/秒'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入生物模拟室中以激活'
+ENDER_DRAGON_DATA_CARD:
+  name: '末影龙数据卡'
+  stats:
+  - '&8⇨ &e⚡ &79,000 J/秒'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入生物模拟室中以激活'
+ENDER_FLAME:
+  name: '末影火焰'
+  type:
+  - '&7&o组件'
+END_ESSENCE:
+  description:
+  - '&8&o来自末地的深处……'
+  name: '末影精华'
+  type:
+  - '&7&o资源'
+EXTREME_FREEZER:
+  description:
+  - '&7将冰转换为冷却剂'
+  name: '极冷冷冻机'
+  stats:
+  - '&8⇨ &e⚡ &790 J/秒'
+  type:
+  - '&7&o机器'
+FORTUNE_SINGULARITY:
+  name: '幸运奇点'
+  type:
+  - '&7&o资源'
+GEAR_TRANSFORMER:
+  description:
+  - '&7更改原版工具与装备的材质'
+  name: '装备转化机'
+  stats:
+  - '&8⇨ &e⚡ &712,000 J 每次使用'
+  type:
+  - '&7&o机器'
+GEOTHERMAL_GENERATOR:
+  description:
+  - '&7从世界的热量中产生能量'
+  name: '地热发电机'
+  stats:
+  - '&8⇨ &e⚡ &73,500 J 缓冲'
+  - '&8⇨ &e⚡ &735 J/秒'
+  type:
+  - '&7&o发电机'
+GEO_QUARRY:
+  description:
+  - '&7使用电力从虚空中缓慢收获地质资源'
+  name: '地质采石场'
+  stats:
+  - '&8⇨ &e⚡ &7450 J/秒'
+  type:
+  - '&7&o机器'
+GOLD_SINGULARITY:
+  name: '金奇点'
+  type:
+  - '&7&o资源'
+GUARDIAN_DATA_CARD:
+  name: '守卫者数据卡'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/秒'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入生物模拟室中以激活'
+HYDRO_GENERATOR:
+  description:
+  - '&7从水的流动中产生能量'
+  name: '水力发电机'
+  stats:
+  - '&8⇨ &e⚡ &7500 J 缓冲'
+  - '&8⇨ &e⚡ &75 J/秒'
+  type:
+  - '&7&o发电机'
+INFINITE_INGOT:
+  description:
+  - '&7&o宇宙的狂怒'
+  - '&7&o尽在你的掌心'
+  name: '无尽锭'
+  type:
+  - '&7&o资源'
+INFINITE_MACHINE_CIRCUIT:
+  name: '无尽机器电路'
+  type:
+  - '&7&o组件'
+INFINITE_MACHINE_CORE:
+  name: '无尽机器核心'
+  type:
+  - '&7&o组件'
+INFINITE_PANEL:
+  description:
+  - '&7从宇宙中产生能量'
+  name: '无尽面板'
+  stats:
+  - '&8⇨ &e⚡ &76,000,000 J 缓冲'
+  - '&8⇨ &e⚡ &760,000 J/秒'
+  type:
+  - '&7&o发电机'
+INFINITE_VOID_HARVESTER:
+  description:
+  - '&7从虚无中收获 &8虚空&7 碎片……'
+  name: '无尽虚空收割机'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b64x'
+  - '&8⇨ &e⚡ &712,000 J/s'
+  type:
+  - '&7&o机器'
+INFINITY_AXE:
+  name: '自然之毁'
+  stats:
+  - '&b灵魂绑定'
+  type:
+  - '&7&o工具'
+INFINITY_BLADE:
+  name: '宇宙之刃'
+  stats:
+  - '&b灵魂绑定'
+  type:
+  - '&7&o武器'
+INFINITY_BOOTS:
+  name: '无尽靴子'
+  stats:
+  - '&7速度 III'
+  - '&7海豚的恩惠 I'
+  - '&b灵魂绑定'
+  type:
+  - '&7&o护甲'
+INFINITY_BOW:
+  description:
+  - '&7射出爆炸箭矢，命中时使敌人减速并迷乱'
+  name: '穿天者'
+  stats:
+  - '&b灵魂绑定'
+  type:
+  - '&7&o武器'
+INFINITY_CAPACITOR:
+  description:
+  - '&c&o每个能量网络请勿'
+  - '&c&o使用超过 1 个'
+  name: '无尽电容器'
+  stats:
+  - '&8⇨ &e⚡ 2,000,000,000 &7J 容量'
+  type:
+  - '&7&o组件'
+INFINITY_CHARGER:
+  description:
+  - '&7立即为物品充电'
+  name: '无尽充电器'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b6000x'
+  - '&8⇨ &e⚡ &760,000 J 每次使用'
+  type:
+  - '&7&o机器'
+INFINITY_CHESTPLATE:
+  name: '无尽胸甲'
+  stats:
+  - '&7力量 II'
+  - '&7抗性 I'
+  - '&7火焰抗性 I'
+  - '&7蜂刺免疫'
+  - '&b灵魂绑定'
+  type:
+  - '&7&o护甲'
+INFINITY_COBBLE_GEN:
+  description:
+  - '&7随时间自动产生圆石'
+  name: '无尽圆石发电机'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b64x'
+  - '&8⇨ &e⚡ &7800 J/s'
+  type:
+  - '&7&o机器'
+INFINITY_CONSTRUCTOR:
+  description:
+  - '&7快速凝聚大量资源'
+  name: '无尽构造机'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b64x'
+  - '&8⇨ &e⚡ &71,200 J/s'
+  type:
+  - '&7&o机器'
+INFINITY_CROWN:
+  name: '无尽王冠'
+  stats:
+  - '&7夜视 I'
+  - '&7潮涌能量 I'
+  - '&7鞘翅撞击免疫'
+  - '&b灵魂绑定'
+  type:
+  - '&7&o护甲'
+INFINITY_DISENCHANTER:
+  description:
+  - '&7自动将物品上的附魔移除到书中'
+  name: '无尽祛魔器'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b90x'
+  - '&8⇨ &e⚡ &712,000 J 每次使用'
+  type:
+  - '&7&o机器'
+INFINITY_DUST_EXTRACTOR:
+  description:
+  - '&7将圆石转换为粉末'
+  name: '无尽粉尘提取机'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
+  type:
+  - '&7&o机器'
+INFINITY_ENCHANTER:
+  description:
+  - '&7自动为放入其中的物品附魔'
+  name: '无尽附魔器'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b75x'
+  - '&8⇨ &e⚡ &712,000 J 每次使用'
+  type:
+  - '&7&o机器'
+INFINITY_FORGE:
+  description:
+  - '&7用于合成无限物品'
+  name: '无尽工作台'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J 每个物品'
+  type:
+  - '&7&o机器'
+INFINITY_INGOT_FORMER:
+  description:
+  - '&7用粉末塑形出锭'
+  name: '无尽锭成型机'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
+  type:
+  - '&7&o机器'
+INFINITY_LEGGINGS:
+  name: '无尽护腿'
+  stats:
+  - '&7急迫 III'
+  - '&7生命恢复 I'
+  - '&7饱和 I'
+  - '&7辐射免疫'
+  - '&b灵魂绑定'
+  type:
+  - '&7&o护甲'
+INFINITY_MATRIX:
+  description:
+  - '&6给予无限飞行'
+  name: '无尽矩阵'
+  stats:
+  - '&b灵魂绑定'
+  type:
+  - '&7&o装置'
+  usage:
+  - '&7右键点击以启用/禁用并认领'
+  - '&7潜行并右键点击以解除所有权'
+INFINITY_PICKAXE:
+  name: '世界破坏者'
+  stats:
+  - '&b灵魂绑定'
+  type:
+  - '&7&o工具'
+INFINITY_QUARRY:
+  description:
+  - '&7自动开采主世界与下界矿石'
+  name: '无尽采石场'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b64x'
+  - '&8⇨ &e⚡ &736,000 J/s'
+  type:
+  - '&7&o机器'
+INFINITY_REACTOR:
+  description:
+  - '&7产生电力，来源为'
+  - '&7压缩 &8虚空&7 与 &b无限&7 锭'
+  name: '无尽反应堆'
+  stats:
+  - '&8⇨ &e⚡ &7120,000,000 J 缓冲'
+  - '&8⇨ &e⚡ &7120,000 J/秒'
+  type:
+  - '&7&o发电机'
+INFINITY_SHIELD:
+  name: '宇宙神盾'
+  stats:
+  - '&b灵魂绑定'
+  type:
+  - '&7&o武器'
+INFINITY_SHOVEL:
+  name: '噬山者'
+  stats:
+  - '&b灵魂绑定'
+  type:
+  - '&7&o工具'
+INFINITY_SINGULARITY:
+  name: '无尽奇点'
+  type:
+  - '&7&o资源'
+INFINITY_STORAGE:
+  description:
+  - '&7大量存储单个物品类型'
+  name: '无尽存储单元'
+  stats:
+  - '&6容量：&e1,600,000,000 &e物品'
+  type:
+  - '&7&o机器'
+INFINITY_TREE_GROWER:
+  description:
+  - '&7自动种植、收获并重新种植树木'
+  name: '无尽树木培育机'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b25x'
+  - '&8⇨ &e⚡ &71,800 J/s'
+  type:
+  - '&7&o机器'
+INFINITY_VIRTUAL_FARM:
+  description:
+  - '&7自动种植、收获并重新种植作物'
+  name: '无尽虚拟农场'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b25x'
+  - '&8⇨ &e⚡ &7900 J/s'
+  type:
+  - '&7&o机器'
+INGOT_FORMER:
+  description:
+  - '&7用粉末塑形出锭'
+  name: '锭成型机'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&o机器'
+IRON_GOLEM_DATA_CARD:
+  name: '铁傀儡数据卡'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/秒'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入生物模拟室中以激活'
+IRON_SINGULARITY:
+  name: '铁奇点'
+  type:
+  - '&7&o资源'
+LAPIS_SINGULARITY:
+  name: '青金石奇点'
+  type:
+  - '&7&o资源'
+LEAD_SINGULARITY:
+  name: '铅奇点'
+  type:
+  - '&7&o资源'
+MACHINE_CIRCUIT:
+  name: '机器电路'
+  type:
+  - '&7&o组件'
+MACHINE_CORE:
+  name: '机器核心'
+  type:
+  - '&7&o组件'
+MACHINE_PLATE:
+  name: '机器板'
+  type:
+  - '&7&o组件'
+MAGIC_SINGULARITY:
+  name: '魔法奇点'
+  type:
+  - '&7&o资源'
+MAGMA_CUBE_DATA_CARD:
+  name: '岩浆怪数据卡'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/秒'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入生物模拟室中以激活'
+MAGNESIUM_SINGULARITY:
+  name: '镁奇点'
+  type:
+  - '&7&o资源'
+MAGNONIUM:
+  name: '磁诺姆'
+  type:
+  - '&7&o资源'
+MAGSTEEL:
+  name: '磁钢'
+  type:
+  - '&7&o资源'
+MAGSTEEL_PLATE:
+  name: '磁钢板'
+  type:
+  - '&7&o组件'
+METAL_SINGULARITY:
+  name: '金属奇点'
+  type:
+  - '&7&o资源'
+MOB_SIMULATION_CHAMBER:
+  description:
+  - '&7使用生物数据卡以激活'
+  name: '生物模拟舱'
+  stats:
+  - '&8⇨ &e⚡ &715,000 J 缓冲'
+  - '&8⇨ &e⚡ &7150 J/秒'
+  type:
+  - '&7&o机器'
+MYTHRIL:
+  name: '秘银'
+  type:
+  - '&7&o资源'
+NETHERITE_SINGULARITY:
+  name: '下界合金奇点'
+  type:
+  - '&7&o资源'
+POWERED_BEDROCK:
+  description:
+  - '&7通电后会变成基岩'
+  - '&7一旦断电或损坏就会还原'
+  name: '充能基岩'
+  stats:
+  - '&8⇨ &e⚡ &710,000 J/秒'
+  type:
+  - '&7&o机器'
+QUARRY_OSCILLATOR_DIAMOND:
+  name: '钻石振荡器'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入采石场，使其有'
+  - '&750.0% 的几率开采这种材料'
+QUARRY_OSCILLATOR_EMERALD:
+  name: '绿宝石振荡器'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入采石场，使其有'
+  - '&750.0% 的几率开采这种材料'
+QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  name: '青金石振荡器'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入采石场，使其有'
+  - '&750.0% 的几率开采这种材料'
+QUARRY_OSCILLATOR_QUARTZ:
+  name: '石英振荡器'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入采石场，使其有'
+  - '&750.0% 的几率开采这种材料'
+QUARRY_OSCILLATOR_REDSTONE:
+  name: '红石振荡器'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入采石场，使其有'
+  - '&750.0% 的几率开采这种材料'
+QUARTZ_SINGULARITY:
+  name: '石英奇点'
+  type:
+  - '&7&o资源'
+REDSTONE_SINGULARITY:
+  name: '红石奇点'
+  type:
+  - '&7&o资源'
+REINFORCED_GEOTHERMAL_GENERATOR:
+  description:
+  - '&7产生大量能量'
+  - '&7来自世界的热量'
+  name: '强化地热发电机'
+  stats:
+  - '&8⇨ &e⚡ &721,000 J 缓冲'
+  - '&8⇨ &e⚡ &7210 J/秒'
+  type:
+  - '&7&o发电机'
+REINFORCED_HYDRO_GENERATOR:
+  description:
+  - '&7产生大量能量'
+  - '&7来自水的流动'
+  name: '强化水力发电机'
+  stats:
+  - '&8⇨ &e⚡ &74,500 J 缓冲'
+  - '&8⇨ &e⚡ &745 J/秒'
+  type:
+  - '&7&o发电机'
+REINFORCED_STORAGE:
+  description:
+  - '&7大量存储单个物品类型'
+  name: '强化存储单元'
+  stats:
+  - '&6容量：&e102,400 &e物品'
+  type:
+  - '&7&o机器'
+REINFORCED_STRAINER:
+  description:
+  - '&7从流水中收集材料'
+  name: '强化过滤器'
+  stats:
+  - '&8⇨ &b⚡ &7速度: &b20.0x'
+  type:
+  - '&7&o组件'
+RESOURCE_SYNTHESIZER:
+  description:
+  - '&7通过合并 2 个奇点来创造资源'
+  name: '资源合成器'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J 每次使用'
+  type:
+  - '&7&o机器'
+SHEEP_DATA_CARD:
+  name: '绵羊数据卡'
+  stats:
+  - '&8⇨ &e⚡ &775 J/秒'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入生物模拟室中以激活'
+SILVER_SINGULARITY:
+  name: '银奇点'
+  type:
+  - '&7&o资源'
+SINGULARITY_CONSTRUCTOR:
+  description:
+  - '&7凝聚大量资源'
+  name: '奇点构造机'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&o机器'
+SKELETON_DATA_CARD:
+  name: '骷髅数据卡'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/秒'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入生物模拟室中以激活'
+SLIME_DATA_CARD:
+  name: '史莱姆数据卡'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/秒'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入生物模拟室中以激活'
+SPIDER_DATA_CARD:
+  name: '蜘蛛数据卡'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/秒'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入生物模拟室中以激活'
+STONEWORKS_FACTORY:
+  description:
+  - '&7产生圆石并将其加工成各种材料'
+  name: '石材工厂'
+  stats:
+  - '&8⇨ &e⚡ &7240 J/秒'
+  type:
+  - '&7&o机器'
+  usage:
+  - '&e点击&7 选择槽位，在熔炼、粉碎、压实与转化之间切换'
+STORAGE_FORGE:
+  description:
+  - '&7提升存储单元的等级'
+  - '&7保留已存储的物品'
+  name: '存储锻造台'
+  type:
+  - '&7&o机器'
+STRAINER_BASE:
+  description:
+  - '&7使用过滤网从流水中缓慢收集材料'
+  - '&7必须含水才能运作'
+  name: '过滤器底座'
+  type:
+  - '&7&o机器'
+TIN_SINGULARITY:
+  name: '锡奇点'
+  type:
+  - '&7&o资源'
+TITANIUM:
+  name: '钛'
+  type:
+  - '&7&o资源'
+URANIUM_EXTRACTOR:
+  description:
+  - '&7将圆石转换为铀'
+  name: '铀提取机'
+  stats:
+  - '&8⇨ &e⚡ &7240 J/秒'
+  type:
+  - '&7&o机器'
+VEIN_MINER_RUNE:
+  description:
+  - '&7将工具升级为可连锁挖掘特定材料'
+  name: '连锁挖矿符文'
+  type:
+  - '&7&o装置'
+  usage:
+  - '&e丢弃&7 在工具旁边，将其升级为连锁采矿器'
+VILLAGER_DATA_CARD:
+  name: '村民数据卡'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/秒'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入生物模拟室中以激活'
+VOID_BIT:
+  description:
+  - '&7&o它感觉……空无一物'
+  name: '虚空碎屑'
+  type:
+  - '&7&o资源'
+VOID_CAPACITOR:
+  description:
+  - '&7为能量网络存储多余的能量'
+  name: '虚空电容器'
+  stats:
+  - '&8⇨ &e⚡ 16,000,000 &7J 容量'
+  type:
+  - '&7&o组件'
+VOID_DUST:
+  description:
+  - '&7&o它开始成形了……'
+  name: '虚空粉尘'
+  type:
+  - '&7&o资源'
+VOID_HARVESTER:
+  description:
+  - '&7从虚无中缓慢收获 &8虚空&7 碎片……'
+  name: '虚空收割机'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&o机器'
+VOID_INGOT:
+  description:
+  - '&7&o宇宙的空无'
+  - '&7&o尽在你的掌心'
+  name: '虚空锭'
+  type:
+  - '&7&o资源'
+VOID_PANEL:
+  description:
+  - '&7从黑暗中产生能量'
+  name: '虚空面板'
+  stats:
+  - '&8⇨ &e⚡ &7300,000 J 缓冲'
+  - '&8⇨ &e⚡ &73,000 J/秒'
+  type:
+  - '&7&o发电机'
+VOID_QUARRY:
+  description:
+  - '&7自动开采主世界与下界矿石'
+  name: '虚空采石场'
+  stats:
+  - '&8⇨ &e⚡ &7速度：&b6x'
+  - '&8⇨ &e⚡ &73,600 J/s'
+  type:
+  - '&7&o机器'
+VOID_STORAGE:
+  description:
+  - '&7大量存储单个物品类型'
+  name: '虚空存储单元'
+  stats:
+  - '&6容量：&e409,600 &e物品'
+  type:
+  - '&7&o机器'
+WITCH_DATA_CARD:
+  name: '女巫数据卡'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/秒'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入生物模拟室中以激活'
+WITHER_DATA_CARD:
+  name: '凋灵数据卡'
+  stats:
+  - '&8⇨ &e⚡ &74,500 J/秒'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入生物模拟室中以激活'
+WITHER_SKELETON_DATA_CARD:
+  name: '凋灵骷髅数据卡'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/秒'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入生物模拟室中以激活'
+ZINC_SINGULARITY:
+  name: '锌奇点'
+  type:
+  - '&7&o资源'
+ZOMBIE_DATA_CARD:
+  name: '僵尸数据卡'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/秒'
+  type:
+  - '&7&o组件'
+  usage:
+  - '&7放入生物模拟室中以激活'

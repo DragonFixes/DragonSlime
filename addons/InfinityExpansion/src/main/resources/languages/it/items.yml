@@ -1,0 +1,1060 @@
+ADAMANTITE:
+  name: 'Adamantite'
+  type:
+  - '&7&oRisorsa'
+ADVANCED_ANVIL:
+  description:
+  - '&7Combina gli incantesimi di strumenti ed equipaggiamento e a volte li potenzia'
+  - '&bFunziona con gli oggetti Slimefun'
+  name: 'Incudine Avanzata'
+  stats:
+  - '&8⇨ &e⚡ &7100,000 J per uso'
+  type:
+  - '&7&oMacchina'
+ADVANCED_CHARGER:
+  description:
+  - '&7Carica rapidamente gli oggetti'
+  name: 'Caricatore Avanzato'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b30x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oMacchina'
+ADVANCED_COBBLE_GEN:
+  description:
+  - '&7Genera automaticamente pietrisco col passare del tempo'
+  name: 'Generatore di Pietrisco Avanzato'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMacchina'
+ADVANCED_DISENCHANTER:
+  description:
+  - '&7Rimuove automaticamente gli incantesimi dagli oggetti trasferendoli su libri'
+  name: 'Disincantatore Avanzato'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oMacchina'
+ADVANCED_ENCHANTER:
+  description:
+  - '&7Incanta automaticamente gli oggetti posti al suo interno'
+  name: 'Incantatore Avanzato'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oMacchina'
+ADVANCED_GEO_MINER:
+  description:
+  - '&7Un geo-estrattore più veloce'
+  name: 'GeoMinatore Avanzato'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMacchina'
+ADVANCED_NETHER_STAR_REACTOR:
+  description:
+  - '&fFunziona con Stelle del Nether'
+  - '&bDeve essere circondato da Acqua'
+  - '&bDeve essere rifornito di Celle Refrigeranti di Ghiaccio del Nether'
+  - '&4Fa appassire le Entità nelle vicinanze'
+  name: 'Reattore a Stella del Nether Avanzato'
+  stats:
+  - '&8⇨ &e⚡ &790,000 J di Buffer'
+  - '&8⇨ &e⚡ &71,800 J/s'
+  type:
+  - '&7&oGeneratore'
+ADVANCED_PANEL:
+  description:
+  - '&7Genera energia dal sole'
+  name: 'Pannello Solare Avanzato'
+  stats:
+  - '&8⇨ &e⚡ &715,000 J di Buffer'
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oGeneratore'
+ADVANCED_QUARRY:
+  description:
+  - '&7Estrae automaticamente i minerali dell''overworld e del nether'
+  name: 'Cava Avanzata'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b2x'
+  - '&8⇨ &e⚡ &7900 J/s'
+  type:
+  - '&7&oMacchina'
+ADVANCED_SMELTERY:
+  description:
+  - '&7Una fonderia più veloce'
+  name: 'Fonderia Avanzata'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b24x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMacchina'
+ADVANCED_STORAGE:
+  description:
+  - '&7Immagazzina grandi quantità di un singolo tipo di oggetto'
+  name: 'Unità di Stoccaggio Avanzata'
+  stats:
+  - '&6Capacità: &e25,600 &eoggetti'
+  type:
+  - '&7&oMacchina'
+ADVANCED_STRAINER:
+  description:
+  - '&7Raccoglie materiali dall''acqua corrente'
+  name: 'Filtro Avanzato'
+  stats:
+  - '&8⇨ &b⚡ &7Velocità: &b4.0x'
+  type:
+  - '&7&oComponente'
+ADVANCED_TREE_GROWER:
+  description:
+  - '&7Coltiva, raccoglie e ripianta automaticamente gli alberi'
+  name: 'Coltivatore di Alberi Avanzato'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oMacchina'
+ADVANCED_VIRTUAL_FARM:
+  description:
+  - '&7Coltiva, raccoglie e ripianta automaticamente le colture'
+  name: 'Fattoria Virtuale Avanzata'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b5x'
+  - '&8⇨ &e⚡ &790 J/s'
+  type:
+  - '&7&oMacchina'
+ALUMINUM_SINGULARITY:
+  name: 'Singolarità di Alluminio'
+  type:
+  - '&7&oRisorsa'
+BASIC_COBBLE_GEN:
+  description:
+  - '&7Genera automaticamente pietrisco col passare del tempo'
+  name: 'Generatore di Pietrisco Base'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b1x'
+  - '&8⇨ &e⚡ &724 J/s'
+  type:
+  - '&7&oMacchina'
+BASIC_OBSIDIAN_GEN:
+  description:
+  - '&7Genera automaticamente ossidiana col passare del tempo'
+  name: 'Generatore di Ossidiana'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMacchina'
+BASIC_PANEL:
+  description:
+  - '&7Genera energia dal sole'
+  name: 'Pannello Solare Base'
+  stats:
+  - '&8⇨ &e⚡ &7900 J di Buffer'
+  - '&8⇨ &e⚡ &79 J/s'
+  type:
+  - '&7&oGeneratore'
+BASIC_QUARRY:
+  description:
+  - '&7Estrae automaticamente i minerali dell''overworld'
+  name: 'Cava Base'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b1x'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMacchina'
+BASIC_STORAGE:
+  description:
+  - '&7Immagazzina grandi quantità di un singolo tipo di oggetto'
+  name: 'Unità di Stoccaggio Base'
+  stats:
+  - '&6Capacità: &e6,400 &eoggetti'
+  type:
+  - '&7&oMacchina'
+BASIC_STRAINER:
+  description:
+  - '&7Raccoglie materiali dall''acqua corrente'
+  name: 'Filtro Base'
+  stats:
+  - '&8⇨ &b⚡ &7Velocità: &b1.0x'
+  type:
+  - '&7&oComponente'
+BASIC_TREE_GROWER:
+  description:
+  - '&7Coltiva, raccoglie e ripianta automaticamente gli alberi'
+  name: 'Coltivatore di Alberi Base'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b1x'
+  - '&8⇨ &e⚡ &736 J/s'
+  type:
+  - '&7&oMacchina'
+BASIC_VIRTUAL_FARM:
+  description:
+  - '&7Coltiva, raccoglie e ripianta automaticamente le colture'
+  name: 'Fattoria Virtuale Base'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b1x'
+  - '&8⇨ &e⚡ &718 J/s'
+  type:
+  - '&7&oMacchina'
+BEE_DATA_CARD:
+  name: 'Scheda Dati dell''Ape'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una camera di simulazione di mob per attivare'
+BLAZE_DATA_CARD:
+  name: 'Scheda Dati del Blaze'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una camera di simulazione di mob per attivare'
+CELESTIAL_PANEL:
+  description:
+  - '&7Genera energia dal sole'
+  name: 'Pannello Celeste'
+  stats:
+  - '&8⇨ &e⚡ &775,000 J di Buffer'
+  - '&8⇨ &e⚡ &7750 J/s'
+  type:
+  - '&7&oGeneratore'
+CHICKEN_DATA_CARD:
+  name: 'Scheda Dati della Gallina'
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una camera di simulazione di mob per attivare'
+COAL_SINGULARITY:
+  name: 'Singolarità di Carbone'
+  type:
+  - '&7&oRisorsa'
+COBBLE_PRESS:
+  description:
+  - '&7Comprime il pietrisco in modo più efficiente'
+  name: 'Pressa per Pietrisco'
+  stats:
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMacchina'
+COMPRESSED_COBBLESTONE_1:
+  name: 'Pietrisco Compresso Singolo'
+  stats:
+  - '&89 blocchi di pietrisco combinati'
+  type:
+  - '&7&oRisorsa'
+COMPRESSED_COBBLESTONE_2:
+  name: 'Pietrisco Compresso Doppio'
+  stats:
+  - '&881 blocchi di pietrisco combinati'
+  type:
+  - '&7&oRisorsa'
+COMPRESSED_COBBLESTONE_3:
+  name: 'Pietrisco Compresso Triplo'
+  stats:
+  - '&8729 blocchi di pietrisco combinati'
+  type:
+  - '&7&oRisorsa'
+COMPRESSED_COBBLESTONE_4:
+  name: 'Pietrisco Compresso Quadruplo'
+  stats:
+  - '&86,561 blocchi di pietrisco combinati'
+  type:
+  - '&7&oRisorsa'
+COMPRESSED_COBBLESTONE_5:
+  name: 'Pietrisco Compresso Quintuplo'
+  stats:
+  - '&859,049 blocchi di pietrisco combinati'
+  type:
+  - '&7&oRisorsa'
+COPPER_SINGULARITY:
+  name: 'Singolarità di Rame'
+  type:
+  - '&7&oRisorsa'
+COW_DATA_CARD:
+  name: 'Scheda Dati della Mucca'
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una camera di simulazione di mob per attivare'
+CREEPER_DATA_CARD:
+  name: 'Scheda Dati del Creeper'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una camera di simulazione di mob per attivare'
+DATA_INFUSER:
+  description:
+  - '&7Infonde schede dati vuote con oggetti di mob'
+  name: 'Infusore di Dati Mob'
+  stats:
+  - '&8⇨ &e⚡ &720,000 J per uso'
+  type:
+  - '&7&oMacchina'
+DECOMPRESSOR:
+  description:
+  - '&7Riduce i blocchi al loro materiale di base'
+  name: 'Decompressore'
+  stats:
+  - '&8⇨ &e⚡ &760 J/s'
+  type:
+  - '&7&oMacchina'
+DIAMOND_SINGULARITY:
+  name: 'Singolarità di Diamante'
+  type:
+  - '&7&oRisorsa'
+DUST_EXTRACTOR:
+  description:
+  - '&7Converte il pietrisco in polveri'
+  name: 'Estrattore di Polvere'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMacchina'
+EARTH_SINGULARITY:
+  name: 'Singolarità di Terra'
+  type:
+  - '&7&oRisorsa'
+EMERALD_SINGULARITY:
+  name: 'Singolarità di Smeraldo'
+  type:
+  - '&7&oRisorsa'
+EMPTY_DATA_CARD:
+  name: 'Scheda Dati Vuota'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Infondila con gli oggetti di un mob per riempirla'
+ENDERMEN_DATA_CARD:
+  name: 'Scheda Dati degli Enderman'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una camera di simulazione di mob per attivare'
+ENDER_DRAGON_DATA_CARD:
+  name: 'Scheda Dati del Drago dell''Ender'
+  stats:
+  - '&8⇨ &e⚡ &79,000 J/s'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una camera di simulazione di mob per attivare'
+ENDER_FLAME:
+  name: 'Fiamma dell''Ender'
+  type:
+  - '&7&oComponente'
+END_ESSENCE:
+  description:
+  - '&8&oDalle profondità dell''end...'
+  name: 'Essenza dell''End'
+  type:
+  - '&7&oRisorsa'
+EXTREME_FREEZER:
+  description:
+  - '&7Converte il ghiaccio in refrigerante'
+  name: 'Congelatore Estremo'
+  stats:
+  - '&8⇨ &e⚡ &790 J/s'
+  type:
+  - '&7&oMacchina'
+FORTUNE_SINGULARITY:
+  name: 'Singolarità di Fortuna'
+  type:
+  - '&7&oRisorsa'
+GEAR_TRANSFORMER:
+  description:
+  - '&7Cambia il materiale di strumenti ed equipaggiamento vanilla'
+  name: 'Trasformatore di Equipaggiamento'
+  stats:
+  - '&8⇨ &e⚡ &712,000 J Per Uso'
+  type:
+  - '&7&oMacchina'
+GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Genera energia dal calore del mondo'
+  name: 'Generatore Geotermico'
+  stats:
+  - '&8⇨ &e⚡ &73,500 J di Buffer'
+  - '&8⇨ &e⚡ &735 J/s'
+  type:
+  - '&7&oGeneratore'
+GEO_QUARRY:
+  description:
+  - '&7Raccoglie lentamente georisorse dal vuoto usando potenza'
+  name: 'Cava Geo'
+  stats:
+  - '&8⇨ &e⚡ &7450 J/s'
+  type:
+  - '&7&oMacchina'
+GOLD_SINGULARITY:
+  name: 'Singolarità di Oro'
+  type:
+  - '&7&oRisorsa'
+GUARDIAN_DATA_CARD:
+  name: 'Scheda Dati del Guardiano'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una camera di simulazione di mob per attivare'
+HYDRO_GENERATOR:
+  description:
+  - '&7Genera energia dal movimento dell''acqua'
+  name: 'Generatore Idrico'
+  stats:
+  - '&8⇨ &e⚡ &7500 J di Buffer'
+  - '&8⇨ &e⚡ &75 J/s'
+  type:
+  - '&7&oGeneratore'
+INFINITE_INGOT:
+  description:
+  - '&7&oLa furia del cosmo'
+  - '&7&onel palmo della tua mano'
+  name: 'Lingotto dell''Infinito'
+  type:
+  - '&7&oRisorsa'
+INFINITE_MACHINE_CIRCUIT:
+  name: 'Circuito di Macchina Infinito'
+  type:
+  - '&7&oComponente'
+INFINITE_MACHINE_CORE:
+  name: 'Nucleo di Macchina Infinito'
+  type:
+  - '&7&oComponente'
+INFINITE_PANEL:
+  description:
+  - '&7Genera energia dal cosmo'
+  name: 'Pannello dell''Infinito'
+  stats:
+  - '&8⇨ &e⚡ &76,000,000 J di Buffer'
+  - '&8⇨ &e⚡ &760,000 J/s'
+  type:
+  - '&7&oGeneratore'
+INFINITE_VOID_HARVESTER:
+  description:
+  - '&7Raccoglie Frammenti del &8Vuoto &7dal nulla...'
+  name: 'Raccoglitore del Vuoto Infinito'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b64x'
+  - '&8⇨ &e⚡ &712,000 J/s'
+  type:
+  - '&7&oMacchina'
+INFINITY_AXE:
+  name: 'Rovina della Natura'
+  stats:
+  - '&bLegato all''Anima'
+  type:
+  - '&7&oStrumento'
+INFINITY_BLADE:
+  name: 'Lama del Cosmo'
+  stats:
+  - '&bLegato all''Anima'
+  type:
+  - '&7&oArma'
+INFINITY_BOOTS:
+  name: 'Stivali dell''Infinito'
+  stats:
+  - '&7Velocità III'
+  - '&7Grazia del Delfino I'
+  - '&bLegato all''Anima'
+  type:
+  - '&7&oArmatura'
+INFINITY_BOW:
+  description:
+  - '&7Scocca frecce esplosive che rallentano e disorientano i nemici all''impatto'
+  name: 'Perforacieli'
+  stats:
+  - '&bLegato all''Anima'
+  type:
+  - '&7&oArma'
+INFINITY_CAPACITOR:
+  description:
+  - '&c&oNon usarne più di'
+  - '&c&o1 per rete energetica'
+  name: 'Condensatore Infinito'
+  stats:
+  - '&8⇨ &e⚡ 2,000,000,000 &7J di Capacità'
+  type:
+  - '&7&oComponente'
+INFINITY_CHARGER:
+  description:
+  - '&7Carica istantaneamente gli oggetti'
+  name: 'Caricatore dell''Infinito'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b6000x'
+  - '&8⇨ &e⚡ &760,000 J per uso'
+  type:
+  - '&7&oMacchina'
+INFINITY_CHESTPLATE:
+  name: 'Corazza dell''Infinito'
+  stats:
+  - '&7Forza II'
+  - '&7Resistenza I'
+  - '&7Resistenza al Fuoco I'
+  - '&7Immunità alle punture d''ape'
+  - '&bLegato all''Anima'
+  type:
+  - '&7&oArmatura'
+INFINITY_COBBLE_GEN:
+  description:
+  - '&7Genera automaticamente pietrisco col passare del tempo'
+  name: 'Generatore di Pietrisco dell''Infinito'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b64x'
+  - '&8⇨ &e⚡ &7800 J/s'
+  type:
+  - '&7&oMacchina'
+INFINITY_CONSTRUCTOR:
+  description:
+  - '&7Condensa rapidamente grandi quantità di risorse'
+  name: 'Costruttore dell''Infinito'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b64x'
+  - '&8⇨ &e⚡ &71,200 J/s'
+  type:
+  - '&7&oMacchina'
+INFINITY_CROWN:
+  name: 'Corona dell''Infinito'
+  stats:
+  - '&7Visione Notturna I'
+  - '&7Potere del Condotto I'
+  - '&7Immunità agli schianti con l''Elytra'
+  - '&bLegato all''Anima'
+  type:
+  - '&7&oArmatura'
+INFINITY_DISENCHANTER:
+  description:
+  - '&7Rimuove automaticamente gli incantesimi dagli oggetti trasferendoli su libri'
+  name: 'Disincantatore dell''Infinito'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b90x'
+  - '&8⇨ &e⚡ &712,000 J per uso'
+  type:
+  - '&7&oMacchina'
+INFINITY_DUST_EXTRACTOR:
+  description:
+  - '&7Converte il pietrisco in polveri'
+  name: 'Estrattore di Polvere dell''Infinito'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
+  type:
+  - '&7&oMacchina'
+INFINITY_ENCHANTER:
+  description:
+  - '&7Incanta automaticamente gli oggetti posti al suo interno'
+  name: 'Incantatore dell''Infinito'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b75x'
+  - '&8⇨ &e⚡ &712,000 J per uso'
+  type:
+  - '&7&oMacchina'
+INFINITY_FORGE:
+  description:
+  - '&7Usata per fabbricare oggetti infiniti'
+  name: 'Banco da Lavoro dell''Infinito'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J per oggetto'
+  type:
+  - '&7&oMacchina'
+INFINITY_INGOT_FORMER:
+  description:
+  - '&7Forma lingotti dalle polveri'
+  name: 'Formatore di Lingotti dell''Infinito'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
+  type:
+  - '&7&oMacchina'
+INFINITY_LEGGINGS:
+  name: 'Gambali dell''Infinito'
+  stats:
+  - '&7Foga III'
+  - '&7Rigenerazione I'
+  - '&7Saturazione I'
+  - '&7Immunità alle radiazioni'
+  - '&bLegato all''Anima'
+  type:
+  - '&7&oArmatura'
+INFINITY_MATRIX:
+  description:
+  - '&6Concede Volo Illimitato'
+  name: 'Matrice dell''Infinito'
+  stats:
+  - '&bLegato all''Anima'
+  type:
+  - '&7&oGadget'
+  usage:
+  - '&7Clic destro per attivare/disattivare e rivendicare'
+  - '&7Accovacciati e Clic destro per rimuovere la proprietà'
+INFINITY_PICKAXE:
+  name: 'Spaccamondi'
+  stats:
+  - '&bLegato all''Anima'
+  type:
+  - '&7&oStrumento'
+INFINITY_QUARRY:
+  description:
+  - '&7Estrae automaticamente i minerali dell''overworld e del nether'
+  name: 'Cava dell''Infinito'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b64x'
+  - '&8⇨ &e⚡ &736,000 J/s'
+  type:
+  - '&7&oMacchina'
+INFINITY_REACTOR:
+  description:
+  - '&7Genera potenza attraverso la compressione'
+  - '&7dei Lingotti del &8Vuoto &7e dell''&bInfinito&7'
+  name: 'Reattore dell''Infinito'
+  stats:
+  - '&8⇨ &e⚡ &7120,000,000 J di Buffer'
+  - '&8⇨ &e⚡ &7120,000 J/s'
+  type:
+  - '&7&oGeneratore'
+INFINITY_SHIELD:
+  name: 'Egida Cosmica'
+  stats:
+  - '&bLegato all''Anima'
+  type:
+  - '&7&oArma'
+INFINITY_SHOVEL:
+  name: 'Mangiamontagne'
+  stats:
+  - '&bLegato all''Anima'
+  type:
+  - '&7&oStrumento'
+INFINITY_SINGULARITY:
+  name: 'Singolarità dell''Infinito'
+  type:
+  - '&7&oRisorsa'
+INFINITY_STORAGE:
+  description:
+  - '&7Immagazzina grandi quantità di un singolo tipo di oggetto'
+  name: 'Unità di Stoccaggio dell''Infinito'
+  stats:
+  - '&6Capacità: &e1,600,000,000 &eoggetti'
+  type:
+  - '&7&oMacchina'
+INFINITY_TREE_GROWER:
+  description:
+  - '&7Coltiva, raccoglie e ripianta automaticamente gli alberi'
+  name: 'Coltivatore di Alberi dell''Infinito'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b25x'
+  - '&8⇨ &e⚡ &71,800 J/s'
+  type:
+  - '&7&oMacchina'
+INFINITY_VIRTUAL_FARM:
+  description:
+  - '&7Coltiva, raccoglie e ripianta automaticamente le colture'
+  name: 'Fattoria Virtuale dell''Infinito'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b25x'
+  - '&8⇨ &e⚡ &7900 J/s'
+  type:
+  - '&7&oMacchina'
+INGOT_FORMER:
+  description:
+  - '&7Forma lingotti dalle polveri'
+  name: 'Formatore di Lingotti'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMacchina'
+IRON_GOLEM_DATA_CARD:
+  name: 'Scheda Dati del Golem di Ferro'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una camera di simulazione di mob per attivare'
+IRON_SINGULARITY:
+  name: 'Singolarità di Ferro'
+  type:
+  - '&7&oRisorsa'
+LAPIS_SINGULARITY:
+  name: 'Singolarità di Lapislazzuli'
+  type:
+  - '&7&oRisorsa'
+LEAD_SINGULARITY:
+  name: 'Singolarità di Piombo'
+  type:
+  - '&7&oRisorsa'
+MACHINE_CIRCUIT:
+  name: 'Circuito di Macchina'
+  type:
+  - '&7&oComponente'
+MACHINE_CORE:
+  name: 'Nucleo di Macchina'
+  type:
+  - '&7&oComponente'
+MACHINE_PLATE:
+  name: 'Piastra di Macchina'
+  type:
+  - '&7&oComponente'
+MAGIC_SINGULARITY:
+  name: 'Singolarità di Magia'
+  type:
+  - '&7&oRisorsa'
+MAGMA_CUBE_DATA_CARD:
+  name: 'Scheda Dati del Cubo di Magma'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una camera di simulazione di mob per attivare'
+MAGNESIUM_SINGULARITY:
+  name: 'Singolarità di Magnesio'
+  type:
+  - '&7&oRisorsa'
+MAGNONIUM:
+  name: 'Magnonio'
+  type:
+  - '&7&oRisorsa'
+MAGSTEEL:
+  name: 'MagSteel'
+  type:
+  - '&7&oRisorsa'
+MAGSTEEL_PLATE:
+  name: 'Piastra di MagSteel'
+  type:
+  - '&7&oComponente'
+METAL_SINGULARITY:
+  name: 'Singolarità di Metallo'
+  type:
+  - '&7&oRisorsa'
+MOB_SIMULATION_CHAMBER:
+  description:
+  - '&7Usa schede dati di mob per attivarla'
+  name: 'Camera di Simulazione Mob'
+  stats:
+  - '&8⇨ &e⚡ &715,000 J di Buffer'
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oMacchina'
+MYTHRIL:
+  name: 'Mithril'
+  type:
+  - '&7&oRisorsa'
+NETHERITE_SINGULARITY:
+  name: 'Singolarità di Netherite'
+  type:
+  - '&7&oRisorsa'
+POWERED_BEDROCK:
+  description:
+  - '&7Quando è alimentato si trasforma in bedrock'
+  - '&7Torna allo stato originale se privato di potenza o rotto'
+  name: 'Bedrock Alimentato'
+  stats:
+  - '&8⇨ &e⚡ &710,000 J/s'
+  type:
+  - '&7&oMacchina'
+QUARRY_OSCILLATOR_DIAMOND:
+  name: 'Oscillatore di Diamante'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una cava per darle'
+  - '&7una probabilità del 50.0% di estrarre questo materiale'
+QUARRY_OSCILLATOR_EMERALD:
+  name: 'Oscillatore di Smeraldo'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una cava per darle'
+  - '&7una probabilità del 50.0% di estrarre questo materiale'
+QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  name: 'Oscillatore di Lapislazzuli'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una cava per darle'
+  - '&7una probabilità del 50.0% di estrarre questo materiale'
+QUARRY_OSCILLATOR_QUARTZ:
+  name: 'Oscillatore di Quarzo'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una cava per darle'
+  - '&7una probabilità del 50.0% di estrarre questo materiale'
+QUARRY_OSCILLATOR_REDSTONE:
+  name: 'Oscillatore di Redstone'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una cava per darle'
+  - '&7una probabilità del 50.0% di estrarre questo materiale'
+QUARTZ_SINGULARITY:
+  name: 'Singolarità di Quarzo'
+  type:
+  - '&7&oRisorsa'
+REDSTONE_SINGULARITY:
+  name: 'Singolarità di Redstone'
+  type:
+  - '&7&oRisorsa'
+REINFORCED_GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Genera grandi quantità di energia'
+  - '&7dal calore del mondo'
+  name: 'Generatore Geotermico Rinforzato'
+  stats:
+  - '&8⇨ &e⚡ &721,000 J di Buffer'
+  - '&8⇨ &e⚡ &7210 J/s'
+  type:
+  - '&7&oGeneratore'
+REINFORCED_HYDRO_GENERATOR:
+  description:
+  - '&7Genera grandi quantità di energia'
+  - '&7dal movimento dell''acqua'
+  name: 'Generatore Idrico Rinforzato'
+  stats:
+  - '&8⇨ &e⚡ &74,500 J di Buffer'
+  - '&8⇨ &e⚡ &745 J/s'
+  type:
+  - '&7&oGeneratore'
+REINFORCED_STORAGE:
+  description:
+  - '&7Immagazzina grandi quantità di un singolo tipo di oggetto'
+  name: 'Unità di Stoccaggio Rinforzata'
+  stats:
+  - '&6Capacità: &e102,400 &eoggetti'
+  type:
+  - '&7&oMacchina'
+REINFORCED_STRAINER:
+  description:
+  - '&7Raccoglie materiali dall''acqua corrente'
+  name: 'Filtro Rinforzato'
+  stats:
+  - '&8⇨ &b⚡ &7Velocità: &b20.0x'
+  type:
+  - '&7&oComponente'
+RESOURCE_SYNTHESIZER:
+  description:
+  - '&7Crea risorse combinando 2 Singolarità'
+  name: 'Sintetizzatore di Risorse'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J per uso'
+  type:
+  - '&7&oMacchina'
+SHEEP_DATA_CARD:
+  name: 'Scheda Dati della Pecora'
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una camera di simulazione di mob per attivare'
+SILVER_SINGULARITY:
+  name: 'Singolarità di Argento'
+  type:
+  - '&7&oRisorsa'
+SINGULARITY_CONSTRUCTOR:
+  description:
+  - '&7Condensa grandi quantità di risorse'
+  name: 'Costruttore di Singolarità'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMacchina'
+SKELETON_DATA_CARD:
+  name: 'Scheda Dati dello Scheletro'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una camera di simulazione di mob per attivare'
+SLIME_DATA_CARD:
+  name: 'Scheda Dati dello Slime'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una camera di simulazione di mob per attivare'
+SPIDER_DATA_CARD:
+  name: 'Scheda Dati del Ragno'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una camera di simulazione di mob per attivare'
+STONEWORKS_FACTORY:
+  description:
+  - '&7Genera pietrisco e lo trasforma in vari materiali'
+  name: 'Fabbrica di Pietra'
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMacchina'
+  usage:
+  - '&eClic&7 sugli slot di scelta per passare tra Fusione, Frantumazione, Compattazione e Trasformazione'
+STORAGE_FORGE:
+  description:
+  - '&7Aumenta il livello delle Unità di Stoccaggio'
+  - '&7Conserva gli oggetti immagazzinati'
+  name: 'Forgia di Stoccaggio'
+  type:
+  - '&7&oMacchina'
+STRAINER_BASE:
+  description:
+  - '&7Raccoglie lentamente materiali dall''acqua corrente usando un Filtro'
+  - '&7Deve essere sommerso per funzionare'
+  name: 'Base del Filtro'
+  type:
+  - '&7&oMacchina'
+TIN_SINGULARITY:
+  name: 'Singolarità di Stagno'
+  type:
+  - '&7&oRisorsa'
+TITANIUM:
+  name: 'Titanio'
+  type:
+  - '&7&oRisorsa'
+URANIUM_EXTRACTOR:
+  description:
+  - '&7Converte il pietrisco in uranio'
+  name: 'Estrattore di Uranio'
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMacchina'
+VEIN_MINER_RUNE:
+  description:
+  - '&7Potenzia uno strumento per estrarre interi filoni di certi materiali'
+  name: 'Runa del Minatore di Vene'
+  type:
+  - '&7&oGadget'
+  usage:
+  - '&eGetta&7 accanto a uno strumento per trasformarlo in un Estrattore di Filoni'
+VILLAGER_DATA_CARD:
+  name: 'Scheda Dati del Villico'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una camera di simulazione di mob per attivare'
+VOID_BIT:
+  description:
+  - '&7&oSembra... vuoto'
+  name: 'Frammento del Vuoto'
+  type:
+  - '&7&oRisorsa'
+VOID_CAPACITOR:
+  description:
+  - '&7Immagazzina l''energia in eccesso di una rete energetica'
+  name: 'Condensatore del Vuoto'
+  stats:
+  - '&8⇨ &e⚡ 16,000,000 &7J di Capacità'
+  type:
+  - '&7&oComponente'
+VOID_DUST:
+  description:
+  - '&7&oSta iniziando a prendere forma...'
+  name: 'Polvere del Vuoto'
+  type:
+  - '&7&oRisorsa'
+VOID_HARVESTER:
+  description:
+  - '&7Raccoglie lentamente Frammenti del &8Vuoto &7dal nulla...'
+  name: 'Raccoglitore del Vuoto'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMacchina'
+VOID_INGOT:
+  description:
+  - '&7&oIl vuoto del cosmo'
+  - '&7&onel palmo della tua mano'
+  name: 'Lingotto del Vuoto'
+  type:
+  - '&7&oRisorsa'
+VOID_PANEL:
+  description:
+  - '&7Genera energia dall''oscurità'
+  name: 'Pannello del Vuoto'
+  stats:
+  - '&8⇨ &e⚡ &7300,000 J di Buffer'
+  - '&8⇨ &e⚡ &73,000 J/s'
+  type:
+  - '&7&oGeneratore'
+VOID_QUARRY:
+  description:
+  - '&7Estrae automaticamente i minerali dell''overworld e del nether'
+  name: 'Cava del Vuoto'
+  stats:
+  - '&8⇨ &e⚡ &7Velocità: &b6x'
+  - '&8⇨ &e⚡ &73,600 J/s'
+  type:
+  - '&7&oMacchina'
+VOID_STORAGE:
+  description:
+  - '&7Immagazzina grandi quantità di un singolo tipo di oggetto'
+  name: 'Unità di Stoccaggio del Vuoto'
+  stats:
+  - '&6Capacità: &e409,600 &eoggetti'
+  type:
+  - '&7&oMacchina'
+WITCH_DATA_CARD:
+  name: 'Scheda Dati della Strega'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una camera di simulazione di mob per attivare'
+WITHER_DATA_CARD:
+  name: 'Scheda Dati del Wither'
+  stats:
+  - '&8⇨ &e⚡ &74,500 J/s'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una camera di simulazione di mob per attivare'
+WITHER_SKELETON_DATA_CARD:
+  name: 'Scheda Dati dello Scheletro del Wither'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una camera di simulazione di mob per attivare'
+ZINC_SINGULARITY:
+  name: 'Singolarità di Zinco'
+  type:
+  - '&7&oRisorsa'
+ZOMBIE_DATA_CARD:
+  name: 'Scheda Dati dello Zombie'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oComponente'
+  usage:
+  - '&7Posiziona in una camera di simulazione di mob per attivare'

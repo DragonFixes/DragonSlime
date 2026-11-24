@@ -1,0 +1,1060 @@
+ADAMANTITE:
+  name: 'Adamantite'
+  type:
+  - '&7&oResurss'
+ADVANCED_ANVIL:
+  description:
+  - '&7Apvieno rīku un ekipējuma apbūrumus un dažkārt tos uzlabo'
+  - '&bDarbojas ar Slimefun priekšmetiem'
+  name: 'Progresīvā lakta'
+  stats:
+  - '&8⇨ &e⚡ &7100,000 J par lietojumu'
+  type:
+  - '&7&oMašīna'
+ADVANCED_CHARGER:
+  description:
+  - '&7Ātri uzlādē priekšmetus'
+  name: 'Progresīvais lādētājs'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b30x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oMašīna'
+ADVANCED_COBBLE_GEN:
+  description:
+  - '&7Laika gaitā automātiski ģenerē bruģakmeni'
+  name: 'Progresīvais bruģakmens ģenerators'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMašīna'
+ADVANCED_DISENCHANTER:
+  description:
+  - '&7Automātiski pārnes apbūrumus no priekšmetiem grāmatās'
+  name: 'Progresīvais atburējs'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oMašīna'
+ADVANCED_ENCHANTER:
+  description:
+  - '&7Automātiski apbur tajā ievietotos priekšmetus'
+  name: 'Progresīvais apburējs'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oMašīna'
+ADVANCED_GEO_MINER:
+  description:
+  - '&7Ātrāks ģeoracējs'
+  name: 'Progresīvais Ģeoracējs'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b4x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMašīna'
+ADVANCED_NETHER_STAR_REACTOR:
+  description:
+  - '&fDarbojas ar Nether zvaigznēm'
+  - '&bJābūt ieskautam ar ūdeni'
+  - '&bJāapgādā ar Nether ledus dzesētāja šūnām'
+  - '&4Tuvumā esošajām būtnēm piešķir Wither efektu'
+  name: 'Progresīvais Nether zvaigznes reaktors'
+  stats:
+  - '&8⇨ &e⚡ &790,000 J buferis'
+  - '&8⇨ &e⚡ &71,800 J/s'
+  type:
+  - '&7&oĢenerators'
+ADVANCED_PANEL:
+  description:
+  - '&7Ražo enerģiju no saules'
+  name: 'Progresīvais saules panelis'
+  stats:
+  - '&8⇨ &e⚡ &715,000 J buferis'
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oĢenerators'
+ADVANCED_QUARRY:
+  description:
+  - '&7Automātiski iegūst virspasaules un Nether rūdas'
+  name: 'Progresīvais karjers'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b2x'
+  - '&8⇨ &e⚡ &7900 J/s'
+  type:
+  - '&7&oMašīna'
+ADVANCED_SMELTERY:
+  description:
+  - '&7Ātrāka kausētuve'
+  name: 'Progresīvā kausētuve'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b24x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMašīna'
+ADVANCED_STORAGE:
+  description:
+  - '&7Uzglabā lielu daudzumu viena priekšmeta veida'
+  name: 'Progresīvā krātuves vienība'
+  stats:
+  - '&6Ietilpība: &e25,600 &epriekšmeti'
+  type:
+  - '&7&oMašīna'
+ADVANCED_STRAINER:
+  description:
+  - '&7Savāc materiālus no tekoša ūdens'
+  name: 'Progresīvais siets'
+  stats:
+  - '&8⇨ &b⚡ &7Ātrums: &b4.0x'
+  type:
+  - '&7&oSastāvdaļa'
+ADVANCED_TREE_GROWER:
+  description:
+  - '&7Automātiski audzē, novāc un pārstāda kokus'
+  name: 'Progresīvais koku audzētājs'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b5x'
+  - '&8⇨ &e⚡ &7180 J/s'
+  type:
+  - '&7&oMašīna'
+ADVANCED_VIRTUAL_FARM:
+  description:
+  - '&7Automātiski audzē, novāc un pārstāda kultūraugus'
+  name: 'Progresīvā virtuālā ferma'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b5x'
+  - '&8⇨ &e⚡ &790 J/s'
+  type:
+  - '&7&oMašīna'
+ALUMINUM_SINGULARITY:
+  name: 'Alumīnija singularitāte'
+  type:
+  - '&7&oResurss'
+BASIC_COBBLE_GEN:
+  description:
+  - '&7Laika gaitā automātiski ģenerē bruģakmeni'
+  name: 'Pamata bruģakmens ģenerators'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b1x'
+  - '&8⇨ &e⚡ &724 J/s'
+  type:
+  - '&7&oMašīna'
+BASIC_OBSIDIAN_GEN:
+  description:
+  - '&7Laika gaitā automātiski ģenerē obsidiānu'
+  name: 'Obsidiāna ģenerators'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMašīna'
+BASIC_PANEL:
+  description:
+  - '&7Ražo enerģiju no saules'
+  name: 'Pamata saules panelis'
+  stats:
+  - '&8⇨ &e⚡ &7900 J buferis'
+  - '&8⇨ &e⚡ &79 J/s'
+  type:
+  - '&7&oĢenerators'
+BASIC_QUARRY:
+  description:
+  - '&7Automātiski iegūst virspasaules rūdas'
+  name: 'Pamata karjers'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b1x'
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oMašīna'
+BASIC_STORAGE:
+  description:
+  - '&7Uzglabā lielu daudzumu viena priekšmeta veida'
+  name: 'Pamata krātuves vienība'
+  stats:
+  - '&6Ietilpība: &e6,400 &epriekšmeti'
+  type:
+  - '&7&oMašīna'
+BASIC_STRAINER:
+  description:
+  - '&7Savāc materiālus no tekoša ūdens'
+  name: 'Pamata siets'
+  stats:
+  - '&8⇨ &b⚡ &7Ātrums: &b1.0x'
+  type:
+  - '&7&oSastāvdaļa'
+BASIC_TREE_GROWER:
+  description:
+  - '&7Automātiski audzē, novāc un pārstāda kokus'
+  name: 'Pamata koku audzētājs'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b1x'
+  - '&8⇨ &e⚡ &736 J/s'
+  type:
+  - '&7&oMašīna'
+BASIC_VIRTUAL_FARM:
+  description:
+  - '&7Automātiski audzē, novāc un pārstāda kultūraugus'
+  name: 'Pamata virtuālā ferma'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b1x'
+  - '&8⇨ &e⚡ &718 J/s'
+  type:
+  - '&7&oMašīna'
+BEE_DATA_CARD:
+  name: 'Bites datu karte'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+BLAZE_DATA_CARD:
+  name: 'Blaza datu karte'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+CELESTIAL_PANEL:
+  description:
+  - '&7Ražo enerģiju no saules'
+  name: 'Debesu panelis'
+  stats:
+  - '&8⇨ &e⚡ &775,000 J buferis'
+  - '&8⇨ &e⚡ &7750 J/s'
+  type:
+  - '&7&oĢenerators'
+CHICKEN_DATA_CARD:
+  name: 'Vistas datu karte'
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+COAL_SINGULARITY:
+  name: 'Ogļu singularitāte'
+  type:
+  - '&7&oResurss'
+COBBLE_PRESS:
+  description:
+  - '&7Saspiež bruģakmeni efektīvāk'
+  name: 'Bruģakmens prese'
+  stats:
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMašīna'
+COMPRESSED_COBBLESTONE_1:
+  name: 'Vienreiz saspiests bruģakmens'
+  stats:
+  - '&8apvienoti 9 bruģakmeņi'
+  type:
+  - '&7&oResurss'
+COMPRESSED_COBBLESTONE_2:
+  name: 'Divreiz saspiests bruģakmens'
+  stats:
+  - '&8apvienots 81 bruģakmens'
+  type:
+  - '&7&oResurss'
+COMPRESSED_COBBLESTONE_3:
+  name: 'Trīsreiz saspiests bruģakmens'
+  stats:
+  - '&8apvienoti 729 bruģakmeņi'
+  type:
+  - '&7&oResurss'
+COMPRESSED_COBBLESTONE_4:
+  name: 'Četrreiz saspiests bruģakmens'
+  stats:
+  - '&8apvienots 6,561 bruģakmens'
+  type:
+  - '&7&oResurss'
+COMPRESSED_COBBLESTONE_5:
+  name: 'Piecreiz saspiests bruģakmens'
+  stats:
+  - '&8apvienoti 59,049 bruģakmeņi'
+  type:
+  - '&7&oResurss'
+COPPER_SINGULARITY:
+  name: 'Vara singularitāte'
+  type:
+  - '&7&oResurss'
+COW_DATA_CARD:
+  name: 'Govs datu karte'
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+CREEPER_DATA_CARD:
+  name: 'Krīpera datu karte'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+DATA_INFUSER:
+  description:
+  - '&7Piesātina tukšas datu kartes ar mobu priekšmetiem'
+  name: 'Mobu datu piesātinātājs'
+  stats:
+  - '&8⇨ &e⚡ &720,000 J par lietojumu'
+  type:
+  - '&7&oMašīna'
+DECOMPRESSOR:
+  description:
+  - '&7Pārvērš blokus atpakaļ pamatmateriālā'
+  name: 'Dekompresors'
+  stats:
+  - '&8⇨ &e⚡ &760 J/s'
+  type:
+  - '&7&oMašīna'
+DIAMOND_SINGULARITY:
+  name: 'Dimanta singularitāte'
+  type:
+  - '&7&oResurss'
+DUST_EXTRACTOR:
+  description:
+  - '&7Pārvērš bruģakmeni putekļos'
+  name: 'Putekļu ekstraktors'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMašīna'
+EARTH_SINGULARITY:
+  name: 'Zemes singularitāte'
+  type:
+  - '&7&oResurss'
+EMERALD_SINGULARITY:
+  name: 'Smaragda singularitāte'
+  type:
+  - '&7&oResurss'
+EMPTY_DATA_CARD:
+  name: 'Tukša datu karte'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Piesātini ar moba priekšmetiem, lai to piepildītu'
+ENDERMEN_DATA_CARD:
+  name: 'Endermena datu karte'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+ENDER_DRAGON_DATA_CARD:
+  name: 'Ender pūķa datu karte'
+  stats:
+  - '&8⇨ &e⚡ &79,000 J/s'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+ENDER_FLAME:
+  name: 'Ender liesma'
+  type:
+  - '&7&oSastāvdaļa'
+END_ESSENCE:
+  description:
+  - '&8&oNo Enda dzīlēm...'
+  name: 'Ender esence'
+  type:
+  - '&7&oResurss'
+EXTREME_FREEZER:
+  description:
+  - '&7Pārvērš ledu dzesētājā'
+  name: 'Ekstrēmais saldētājs'
+  stats:
+  - '&8⇨ &e⚡ &790 J/s'
+  type:
+  - '&7&oMašīna'
+FORTUNE_SINGULARITY:
+  name: 'Veiksmes singularitāte'
+  type:
+  - '&7&oResurss'
+GEAR_TRANSFORMER:
+  description:
+  - '&7Maina parasto rīku un ekipējuma materiālu'
+  name: 'Ekipējuma pārveidotājs'
+  stats:
+  - '&8⇨ &e⚡ &712,000 J par lietojumu'
+  type:
+  - '&7&oMašīna'
+GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Ražo enerģiju no pasaules siltuma'
+  name: 'Ģeotermālais ģenerators'
+  stats:
+  - '&8⇨ &e⚡ &73,500 J buferis'
+  - '&8⇨ &e⚡ &735 J/s'
+  type:
+  - '&7&oĢenerators'
+GEO_QUARRY:
+  description:
+  - '&7Lēni iegūst ģeoresursus no tukšuma, izmantojot enerģiju'
+  name: 'Ģeokarjers'
+  stats:
+  - '&8⇨ &e⚡ &7450 J/s'
+  type:
+  - '&7&oMašīna'
+GOLD_SINGULARITY:
+  name: 'Zelta singularitāte'
+  type:
+  - '&7&oResurss'
+GUARDIAN_DATA_CARD:
+  name: 'Sarga datu karte'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+HYDRO_GENERATOR:
+  description:
+  - '&7Ražo enerģiju no ūdens kustības'
+  name: 'Hidroģenerators'
+  stats:
+  - '&8⇨ &e⚡ &7500 J buferis'
+  - '&8⇨ &e⚡ &75 J/s'
+  type:
+  - '&7&oĢenerators'
+INFINITE_INGOT:
+  description:
+  - '&7&oKosmosa niknums'
+  - '&7&otavas plaukstā'
+  name: 'Bezgalības lietnis'
+  type:
+  - '&7&oResurss'
+INFINITE_MACHINE_CIRCUIT:
+  name: 'Bezgalīgā mašīnas shēma'
+  type:
+  - '&7&oSastāvdaļa'
+INFINITE_MACHINE_CORE:
+  name: 'Bezgalīgais mašīnas kodols'
+  type:
+  - '&7&oSastāvdaļa'
+INFINITE_PANEL:
+  description:
+  - '&7Ražo enerģiju no kosmosa'
+  name: 'Bezgalības panelis'
+  stats:
+  - '&8⇨ &e⚡ &76,000,000 J buferis'
+  - '&8⇨ &e⚡ &760,000 J/s'
+  type:
+  - '&7&oĢenerators'
+INFINITE_VOID_HARVESTER:
+  description:
+  - '&7Iegūst &8tukšuma &7drupatas no nekā...'
+  name: 'Bezgalīgais tukšuma novācējs'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b64x'
+  - '&8⇨ &e⚡ &712,000 J/s'
+  type:
+  - '&7&oMašīna'
+INFINITY_AXE:
+  name: 'Dabas posts'
+  stats:
+  - '&bDvēselei piesaistīts'
+  type:
+  - '&7&oRīks'
+INFINITY_BLADE:
+  name: 'Kosmosa asmens'
+  stats:
+  - '&bDvēselei piesaistīts'
+  type:
+  - '&7&oIerocis'
+INFINITY_BOOTS:
+  name: 'Bezgalības zābaki'
+  stats:
+  - '&7Ātrums III'
+  - '&7Delfīna žēlastība I'
+  - '&bDvēselei piesaistīts'
+  type:
+  - '&7&oBruņas'
+INFINITY_BOW:
+  description:
+  - '&7Šauj sprādzienbīstamas bultas, kas trieciena brīdī palēnina un dezorientē ienaidniekus'
+  name: 'Debesu caurdūrējs'
+  stats:
+  - '&bDvēselei piesaistīts'
+  type:
+  - '&7&oIerocis'
+INFINITY_CAPACITOR:
+  description:
+  - '&c&oNelieto vairāk kā'
+  - '&c&o1 uz enerģijas tīklu'
+  name: 'Bezgalīgais kondensators'
+  stats:
+  - '&8⇨ &e⚡ 2,000,000,000 &7J ietilpība'
+  type:
+  - '&7&oSastāvdaļa'
+INFINITY_CHARGER:
+  description:
+  - '&7Uzreiz uzlādē priekšmetus'
+  name: 'Bezgalības lādētājs'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b6000x'
+  - '&8⇨ &e⚡ &760,000 J par lietojumu'
+  type:
+  - '&7&oMašīna'
+INFINITY_CHESTPLATE:
+  name: 'Bezgalības krūšu bruņas'
+  stats:
+  - '&7Spēks II'
+  - '&7Izturība I'
+  - '&7Uguns izturība I'
+  - '&7Imunitāte pret bišu dzēlieniem'
+  - '&bDvēselei piesaistīts'
+  type:
+  - '&7&oBruņas'
+INFINITY_COBBLE_GEN:
+  description:
+  - '&7Laika gaitā automātiski ģenerē bruģakmeni'
+  name: 'Bezgalības bruģakmens ģenerators'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b64x'
+  - '&8⇨ &e⚡ &7800 J/s'
+  type:
+  - '&7&oMašīna'
+INFINITY_CONSTRUCTOR:
+  description:
+  - '&7Ātri sablīvē lielu daudzumu resursu'
+  name: 'Bezgalības konstruktors'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b64x'
+  - '&8⇨ &e⚡ &71,200 J/s'
+  type:
+  - '&7&oMašīna'
+INFINITY_CROWN:
+  name: 'Bezgalības kronis'
+  stats:
+  - '&7Nakts redze I'
+  - '&7Kanāla spēks I'
+  - '&7Imunitāte pret elitras triecienu'
+  - '&bDvēselei piesaistīts'
+  type:
+  - '&7&oBruņas'
+INFINITY_DISENCHANTER:
+  description:
+  - '&7Automātiski pārnes apbūrumus no priekšmetiem grāmatās'
+  name: 'Bezgalības atburējs'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b90x'
+  - '&8⇨ &e⚡ &712,000 J par lietojumu'
+  type:
+  - '&7&oMašīna'
+INFINITY_DUST_EXTRACTOR:
+  description:
+  - '&7Pārvērš bruģakmeni putekļos'
+  name: 'Bezgalības putekļu ekstraktors'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
+  type:
+  - '&7&oMašīna'
+INFINITY_ENCHANTER:
+  description:
+  - '&7Automātiski apbur tajā ievietotos priekšmetus'
+  name: 'Bezgalības apburējs'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b75x'
+  - '&8⇨ &e⚡ &712,000 J par lietojumu'
+  type:
+  - '&7&oMašīna'
+INFINITY_FORGE:
+  description:
+  - '&7Izmanto bezgalības priekšmetu izgatavošanai'
+  name: 'Bezgalības darbgalds'
+  stats:
+  - '&8⇨ &e⚡ &710,000,000 J par priekšmetu'
+  type:
+  - '&7&oMašīna'
+INFINITY_INGOT_FORMER:
+  description:
+  - '&7Veido lietņus no putekļiem'
+  name: 'Bezgalības lietņu veidotājs'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b16x'
+  - '&8⇨ &e⚡ &77,200 J/s'
+  type:
+  - '&7&oMašīna'
+INFINITY_LEGGINGS:
+  name: 'Bezgalības bikses'
+  stats:
+  - '&7Steiga III'
+  - '&7Reģenerācija I'
+  - '&7Sātīgums I'
+  - '&7Imunitāte pret radiāciju'
+  - '&bDvēselei piesaistīts'
+  type:
+  - '&7&oBruņas'
+INFINITY_MATRIX:
+  description:
+  - '&6Dod neierobežotu lidojumu'
+  name: 'Bezgalības matrica'
+  stats:
+  - '&bDvēselei piesaistīts'
+  type:
+  - '&7&oIerīce'
+  usage:
+  - '&7Labais klikšķis, lai ieslēgtu vai izslēgtu un pieteiktu'
+  - '&7Pietupies un labais klikšķis, lai noņemtu īpašumtiesības'
+INFINITY_PICKAXE:
+  name: 'Pasaules lauzējs'
+  stats:
+  - '&bDvēselei piesaistīts'
+  type:
+  - '&7&oRīks'
+INFINITY_QUARRY:
+  description:
+  - '&7Automātiski iegūst virspasaules un Nether rūdas'
+  name: 'Bezgalības karjers'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b64x'
+  - '&8⇨ &e⚡ &736,000 J/s'
+  type:
+  - '&7&oMašīna'
+INFINITY_REACTOR:
+  description:
+  - '&7Ražo enerģiju, saspiežot'
+  - '&7&8tukšuma &7un &bbezgalības &7lietņus'
+  name: 'Bezgalības reaktors'
+  stats:
+  - '&8⇨ &e⚡ &7120,000,000 J buferis'
+  - '&8⇨ &e⚡ &7120,000 J/s'
+  type:
+  - '&7&oĢenerators'
+INFINITY_SHIELD:
+  name: 'Kosmiskais vairogs'
+  stats:
+  - '&bDvēselei piesaistīts'
+  type:
+  - '&7&oIerocis'
+INFINITY_SHOVEL:
+  name: 'Kalnu rijējs'
+  stats:
+  - '&bDvēselei piesaistīts'
+  type:
+  - '&7&oRīks'
+INFINITY_SINGULARITY:
+  name: 'Bezgalības singularitāte'
+  type:
+  - '&7&oResurss'
+INFINITY_STORAGE:
+  description:
+  - '&7Uzglabā lielu daudzumu viena priekšmeta veida'
+  name: 'Bezgalības krātuves vienība'
+  stats:
+  - '&6Ietilpība: &e1,600,000,000 &epriekšmeti'
+  type:
+  - '&7&oMašīna'
+INFINITY_TREE_GROWER:
+  description:
+  - '&7Automātiski audzē, novāc un pārstāda kokus'
+  name: 'Bezgalības koku audzētājs'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b25x'
+  - '&8⇨ &e⚡ &71,800 J/s'
+  type:
+  - '&7&oMašīna'
+INFINITY_VIRTUAL_FARM:
+  description:
+  - '&7Automātiski audzē, novāc un pārstāda kultūraugus'
+  name: 'Bezgalības virtuālā ferma'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b25x'
+  - '&8⇨ &e⚡ &7900 J/s'
+  type:
+  - '&7&oMašīna'
+INGOT_FORMER:
+  description:
+  - '&7Veido lietņus no putekļiem'
+  name: 'Lietņu veidotājs'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b1x'
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMašīna'
+IRON_GOLEM_DATA_CARD:
+  name: 'Dzelzs golema datu karte'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+IRON_SINGULARITY:
+  name: 'Dzelzs singularitāte'
+  type:
+  - '&7&oResurss'
+LAPIS_SINGULARITY:
+  name: 'Lazurīta singularitāte'
+  type:
+  - '&7&oResurss'
+LEAD_SINGULARITY:
+  name: 'Svina singularitāte'
+  type:
+  - '&7&oResurss'
+MACHINE_CIRCUIT:
+  name: 'Mašīnas shēma'
+  type:
+  - '&7&oSastāvdaļa'
+MACHINE_CORE:
+  name: 'Mašīnas kodols'
+  type:
+  - '&7&oSastāvdaļa'
+MACHINE_PLATE:
+  name: 'Mašīnas plāksne'
+  type:
+  - '&7&oSastāvdaļa'
+MAGIC_SINGULARITY:
+  name: 'Maģijas singularitāte'
+  type:
+  - '&7&oResurss'
+MAGMA_CUBE_DATA_CARD:
+  name: 'Magmas kuba datu karte'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+MAGNESIUM_SINGULARITY:
+  name: 'Magnija singularitāte'
+  type:
+  - '&7&oResurss'
+MAGNONIUM:
+  name: 'Magnonium'
+  type:
+  - '&7&oResurss'
+MAGSTEEL:
+  name: 'MagSteel'
+  type:
+  - '&7&oResurss'
+MAGSTEEL_PLATE:
+  name: 'MagSteel plāksne'
+  type:
+  - '&7&oSastāvdaļa'
+METAL_SINGULARITY:
+  name: 'Metāla singularitāte'
+  type:
+  - '&7&oResurss'
+MOB_SIMULATION_CHAMBER:
+  description:
+  - '&7Izmanto mobu datu kartes, lai aktivizētu'
+  name: 'Mobu simulācijas kamera'
+  stats:
+  - '&8⇨ &e⚡ &715,000 J buferis'
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oMašīna'
+MYTHRIL:
+  name: 'Mythril'
+  type:
+  - '&7&oResurss'
+NETHERITE_SINGULARITY:
+  name: 'Netherīta singularitāte'
+  type:
+  - '&7&oResurss'
+POWERED_BEDROCK:
+  description:
+  - '&7Kad darbināts, pārvēršas par pamatiezi'
+  - '&7Atgriezīsies iepriekšējā veidā, kad atslēgts vai salauzts'
+  name: 'Darbināts pamatiezis'
+  stats:
+  - '&8⇨ &e⚡ &710,000 J/s'
+  type:
+  - '&7&oMašīna'
+QUARRY_OSCILLATOR_DIAMOND:
+  name: 'Dimanta oscilators'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto karjerā, lai tam piešķirtu'
+  - '&750.0% iespēju iegūt šo materiālu'
+QUARRY_OSCILLATOR_EMERALD:
+  name: 'Smaragda oscilators'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto karjerā, lai tam piešķirtu'
+  - '&750.0% iespēju iegūt šo materiālu'
+QUARRY_OSCILLATOR_LAPIS_LAZULI:
+  name: 'Lazurīta oscilators'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto karjerā, lai tam piešķirtu'
+  - '&750.0% iespēju iegūt šo materiālu'
+QUARRY_OSCILLATOR_QUARTZ:
+  name: 'Kvarca oscilators'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto karjerā, lai tam piešķirtu'
+  - '&750.0% iespēju iegūt šo materiālu'
+QUARRY_OSCILLATOR_REDSTONE:
+  name: 'Sarkanakmens oscilators'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto karjerā, lai tam piešķirtu'
+  - '&750.0% iespēju iegūt šo materiālu'
+QUARTZ_SINGULARITY:
+  name: 'Kvarca singularitāte'
+  type:
+  - '&7&oResurss'
+REDSTONE_SINGULARITY:
+  name: 'Sarkanakmens singularitāte'
+  type:
+  - '&7&oResurss'
+REINFORCED_GEOTHERMAL_GENERATOR:
+  description:
+  - '&7Ražo lielu daudzumu enerģijas'
+  - '&7no pasaules siltuma'
+  name: 'Pastiprinātais ģeotermālais ģenerators'
+  stats:
+  - '&8⇨ &e⚡ &721,000 J buferis'
+  - '&8⇨ &e⚡ &7210 J/s'
+  type:
+  - '&7&oĢenerators'
+REINFORCED_HYDRO_GENERATOR:
+  description:
+  - '&7Ražo lielu daudzumu enerģijas'
+  - '&7no ūdens kustības'
+  name: 'Pastiprinātais hidroģenerators'
+  stats:
+  - '&8⇨ &e⚡ &74,500 J buferis'
+  - '&8⇨ &e⚡ &745 J/s'
+  type:
+  - '&7&oĢenerators'
+REINFORCED_STORAGE:
+  description:
+  - '&7Uzglabā lielu daudzumu viena priekšmeta veida'
+  name: 'Pastiprinātā krātuves vienība'
+  stats:
+  - '&6Ietilpība: &e102,400 &epriekšmeti'
+  type:
+  - '&7&oMašīna'
+REINFORCED_STRAINER:
+  description:
+  - '&7Savāc materiālus no tekoša ūdens'
+  name: 'Pastiprinātais siets'
+  stats:
+  - '&8⇨ &b⚡ &7Ātrums: &b20.0x'
+  type:
+  - '&7&oSastāvdaļa'
+RESOURCE_SYNTHESIZER:
+  description:
+  - '&7Rada resursus, apvienojot 2 singularitātes'
+  name: 'Resursu sintezators'
+  stats:
+  - '&8⇨ &e⚡ &71,000,000 J par lietojumu'
+  type:
+  - '&7&oMašīna'
+SHEEP_DATA_CARD:
+  name: 'Aitas datu karte'
+  stats:
+  - '&8⇨ &e⚡ &775 J/s'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+SILVER_SINGULARITY:
+  name: 'Sudraba singularitāte'
+  type:
+  - '&7&oResurss'
+SINGULARITY_CONSTRUCTOR:
+  description:
+  - '&7Sablīvē lielu daudzumu resursu'
+  name: 'Singularitāšu konstruktors'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMašīna'
+SKELETON_DATA_CARD:
+  name: 'Skeleta datu karte'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+SLIME_DATA_CARD:
+  name: 'Gļotaiņa datu karte'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+SPIDER_DATA_CARD:
+  name: 'Zirnekļa datu karte'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+STONEWORKS_FACTORY:
+  description:
+  - '&7Ģenerē bruģakmeni un pārstrādā to dažādos materiālos'
+  name: 'Akmeņapstrādes rūpnīca'
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMašīna'
+  usage:
+  - '&eKlikšķini&7 uz izvēles slotām, lai pārslēgtos starp kausēšanu, smalcināšanu, blīvēšanu un pārveidošanu'
+STORAGE_FORGE:
+  description:
+  - '&7Uzlabo krātuves vienību līmeni'
+  - '&7Saglabā uzglabātos priekšmetus'
+  name: 'Krātuves kalve'
+  type:
+  - '&7&oMašīna'
+STRAINER_BASE:
+  description:
+  - '&7Lēni savāc materiālus no tekoša ūdens, izmantojot sietu'
+  - '&7Darbībai jābūt zem ūdens'
+  name: 'Sieta pamatne'
+  type:
+  - '&7&oMašīna'
+TIN_SINGULARITY:
+  name: 'Alvas singularitāte'
+  type:
+  - '&7&oResurss'
+TITANIUM:
+  name: 'Titāns'
+  type:
+  - '&7&oResurss'
+URANIUM_EXTRACTOR:
+  description:
+  - '&7Pārvērš bruģakmeni urānā'
+  name: 'Urāna ekstraktors'
+  stats:
+  - '&8⇨ &e⚡ &7240 J/s'
+  type:
+  - '&7&oMašīna'
+VEIN_MINER_RUNE:
+  description:
+  - '&7Uzlabo rīku, lai tas raktu noteiktu materiālu dzīslas'
+  name: 'Dzīslu racēja rūna'
+  type:
+  - '&7&oIerīce'
+  usage:
+  - '&eNomet&7 blakus rīkam, lai to pārvērstu par dzīslu racēju'
+VILLAGER_DATA_CARD:
+  name: 'Ciema iedzīvotāja datu karte'
+  stats:
+  - '&8⇨ &e⚡ &7150 J/s'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+VOID_BIT:
+  description:
+  - '&7&oTā jūtas... tukša'
+  name: 'Tukšuma drupata'
+  type:
+  - '&7&oResurss'
+VOID_CAPACITOR:
+  description:
+  - '&7Uzglabā enerģijas tīkla lieko enerģiju'
+  name: 'Tukšuma kondensators'
+  stats:
+  - '&8⇨ &e⚡ 16,000,000 &7J ietilpība'
+  type:
+  - '&7&oSastāvdaļa'
+VOID_DUST:
+  description:
+  - '&7&oTie sāk veidoties...'
+  name: 'Tukšuma putekļi'
+  type:
+  - '&7&oResurss'
+VOID_HARVESTER:
+  description:
+  - '&7Lēni iegūst &8tukšuma &7drupatas no nekā...'
+  name: 'Tukšuma novācējs'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b1x'
+  - '&8⇨ &e⚡ &7120 J/s'
+  type:
+  - '&7&oMašīna'
+VOID_INGOT:
+  description:
+  - '&7&oKosmosa tukšums'
+  - '&7&otavas plaukstā'
+  name: 'Tukšuma lietnis'
+  type:
+  - '&7&oResurss'
+VOID_PANEL:
+  description:
+  - '&7Ražo enerģiju no tumsas'
+  name: 'Tukšuma panelis'
+  stats:
+  - '&8⇨ &e⚡ &7300,000 J buferis'
+  - '&8⇨ &e⚡ &73,000 J/s'
+  type:
+  - '&7&oĢenerators'
+VOID_QUARRY:
+  description:
+  - '&7Automātiski iegūst virspasaules un Nether rūdas'
+  name: 'Tukšuma karjers'
+  stats:
+  - '&8⇨ &e⚡ &7Ātrums: &b6x'
+  - '&8⇨ &e⚡ &73,600 J/s'
+  type:
+  - '&7&oMašīna'
+VOID_STORAGE:
+  description:
+  - '&7Uzglabā lielu daudzumu viena priekšmeta veida'
+  name: 'Tukšuma krātuves vienība'
+  stats:
+  - '&6Ietilpība: &e409,600 &epriekšmeti'
+  type:
+  - '&7&oMašīna'
+WITCH_DATA_CARD:
+  name: 'Raganas datu karte'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+WITHER_DATA_CARD:
+  name: 'Wither datu karte'
+  stats:
+  - '&8⇨ &e⚡ &74,500 J/s'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+WITHER_SKELETON_DATA_CARD:
+  name: 'Wither skeleta datu karte'
+  stats:
+  - '&8⇨ &e⚡ &7600 J/s'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
+ZINC_SINGULARITY:
+  name: 'Cinka singularitāte'
+  type:
+  - '&7&oResurss'
+ZOMBIE_DATA_CARD:
+  name: 'Zombija datu karte'
+  stats:
+  - '&8⇨ &e⚡ &7300 J/s'
+  type:
+  - '&7&oSastāvdaļa'
+  usage:
+  - '&7Ievieto mobu simulācijas kamerā, lai aktivizētu'
