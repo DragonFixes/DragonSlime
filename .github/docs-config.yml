@@ -1,11 +1,27 @@
-description: "Slimefun is a Paper plugin that simulates a modpack-like atmosphere by adding over 500 new items and recipes to your Minecraft Server."
-java: "25"
-paper: "26.3"
+description: "**DragonSlime** is a fork of [Slimefun 5](https://github.com/Slimefun5/Slimefun5) (itself a fork of [Slimefun 4](https://github.com/Slimefun/Slimefun4)): a Spigot/Paper plugin that gives your server a modpack-like feel with over 500 new items and recipes. One universal jar runs on every server from **Minecraft 1.8.8 to 26.x**.<br><br>Backpacks, jetpacks, magical wands, nuclear reactors: every player decides how deep to dive into **magic** or **tech**, with no client mods needed."
+java: "8 or newer"
+paper: "1.8.8 – 26.x"
 gradle_plugin: "1.8.2.1"
+
+# The Developer API and Wiki sections live in CONTENT.md, so the generated ones are left out.
+sections:
+  - logo
+  - title
+  - badges
+  - description
+  - requirements
+  - content
+  - discord
+  - license-prose
+
+badges:
+  - stars
+  - license
+  - bstats
 
 requirements:
   - Java {{ java }}
-  - Paper {{ paper }}
+  - Spigot or Paper {{ paper }}
 
 bstats: 31272
 bstats_name: Slimefun 5
