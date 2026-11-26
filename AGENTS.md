@@ -178,9 +178,8 @@ Resources: `languages/` (translations, synced via Crowdin), `wiki/` + `wiki.json
   (features, bundled addons, building, developer API, credits). Edit those two,
   then regenerate locally to preview (needs Node 24+):
   ```powershell
-  gh api repos/intisy/workflows/contents/.github/actions/generate-readme/generate-readme.ts --jq .content |
-    ForEach-Object { [Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($_)) } |
-    Set-Content "$env:TEMP\gen-readme.ts"
+  $b64 = (gh api repos/intisy/workflows/contents/.github/actions/generate-readme/generate-readme.ts --jq .content) -join ''
+  [Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($b64)) | Set-Content "$env:TEMP\gen-readme.ts"
   node "$env:TEMP\gen-readme.ts" --repository DragonFixes/DragonSlime --offline
   ```
   When adding or removing a bundled addon, update its rows in `CONTENT.md`'s
